@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="AugmentDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/augment_effect_definition.gd" id="1_iu4t2"]
+[ext_resource type="Script" path="res://scripts/data/mechanic_effect_definition.gd" id="2_kg3aj"]
+[ext_resource type="Script" path="res://scripts/data/requirement_definition.gd" id="3_bvibs"]
+[ext_resource type="Script" path="res://scripts/data/augment_definition.gd" id="4_h3u8i"]
+
+[sub_resource type="Resource" id="Resource_uuoqo"]
+script = ExtResource("2_kg3aj")
+auxiliary_values = Array[float]([0.0, 0.0, 0.0, 0.0, 0.0])
+effect_id = &"reflect"
+rank_values = Array[float]([0.08, 0.11, 0.14, 0.17, 0.2])
+
+[sub_resource type="Resource" id="Resource_j5jdt"]
+script = ExtResource("3_bvibs")
+required_capabilities = Array[StringName]([&"modify_shield", &"damage_taken_hook"])
+
+[resource]
+script = ExtResource("4_h3u8i")
+description = "Reflect absorbed damage; boss cap 1% maximum HP per hit."
+requirements = SubResource("Resource_j5jdt")
+effects = Array[ExtResource("1_iu4t2")]([SubResource("Resource_uuoqo")])
+rarity_weight = 30.0
+id = &"augment.shield_reflect"
+display_name = "Shield Reflect"

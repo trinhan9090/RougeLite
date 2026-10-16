@@ -1,0 +1,70 @@
+[gd_resource type="Resource" script_class="SkillDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/effect_executor_definition.gd" id="1_0q1jm"]
+[ext_resource type="Script" path="res://scripts/data/skill_rank_definition.gd" id="2_fqmx8"]
+[ext_resource type="Script" path="res://scripts/data/skill_behavior_definition.gd" id="3_sn4yb"]
+[ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="4_knp21"]
+[ext_resource type="Script" path="res://scripts/data/targeting_definition.gd" id="5_r6fkf"]
+
+[sub_resource type="Resource" id="Resource_knp21"]
+script = ExtResource("1_0q1jm")
+executor_id = &"executor.projectile"
+
+[sub_resource type="Resource" id="Resource_w7jo3"]
+script = ExtResource("3_sn4yb")
+shot_interval = 0.17647058823529413
+
+[sub_resource type="Resource" id="Resource_r6fkf"]
+script = ExtResource("2_fqmx8")
+cooldown = 25.0
+damage = 10.0
+range_px = 620.0
+projectile_speed = 930.0
+projectile_count = 18
+behavior = SubResource("Resource_w7jo3")
+
+[sub_resource type="Resource" id="Resource_6l6at"]
+script = ExtResource("3_sn4yb")
+shot_interval = 0.125
+
+[sub_resource type="Resource" id="Resource_oppge"]
+script = ExtResource("2_fqmx8")
+rank = 2
+cooldown = 25.0
+damage = 10.0
+range_px = 620.0
+projectile_speed = 930.0
+projectile_count = 25
+behavior = SubResource("Resource_6l6at")
+
+[sub_resource type="Resource" id="Resource_u14qq"]
+script = ExtResource("3_sn4yb")
+shot_interval = 0.125
+bounce_chance = 0.15
+
+[sub_resource type="Resource" id="Resource_apqhl"]
+script = ExtResource("2_fqmx8")
+rank = 3
+cooldown = 25.0
+damage = 10.0
+range_px = 620.0
+projectile_speed = 930.0
+projectile_count = 25
+behavior = SubResource("Resource_u14qq")
+
+[sub_resource type="Resource" id="Resource_cfecu"]
+script = ExtResource("5_r6fkf")
+policy = "cursor"
+acquisition_radius = 620.0
+
+[resource]
+script = ExtResource("4_knp21")
+slot = 4
+unlock_level = 11
+max_rank = 3
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"cooldown_manage", &"repeat_cast", &"modify_projectile_angle", &"spawn_projectile_pattern", &"modify_projectile_count", &"pierce_hit", &"projectile_steering"])
+executor = SubResource("Resource_knp21")
+targeting = SubResource("Resource_cfecu")
+rank_scaling = Array[ExtResource("2_fqmx8")]([SubResource("Resource_r6fkf"), SubResource("Resource_oppge"), SubResource("Resource_apqhl")])
+id = &"skill.vex.i"
+display_name = "Bullet Storm"

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="AugmentDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/augment_effect_definition.gd" id="1_ivr0w"]
+[ext_resource type="Script" path="res://scripts/data/mechanic_effect_definition.gd" id="2_ltxiq"]
+[ext_resource type="Script" path="res://scripts/data/requirement_definition.gd" id="3_rphjj"]
+[ext_resource type="Script" path="res://scripts/data/augment_definition.gd" id="4_ibprd"]
+
+[sub_resource type="Resource" id="Resource_c078e"]
+script = ExtResource("2_ltxiq")
+auxiliary_values = Array[float]([0.0, 0.0, 0.0, 0.0, 0.0])
+effect_id = &"refund"
+rank_values = Array[float]([0.08, 0.1, 0.12, 0.14, 0.16])
+
+[sub_resource type="Resource" id="Resource_aoxqh"]
+script = ExtResource("3_rphjj")
+required_capabilities = Array[StringName]([&"cooldown_manage"])
+
+[resource]
+script = ExtResource("4_ibprd")
+description = "Chance to refund 10% base cooldown, once per root."
+requirements = SubResource("Resource_aoxqh")
+effects = Array[ExtResource("1_ivr0w")]([SubResource("Resource_c078e")])
+rarity_weight = 30.0
+id = &"augment.cooldown_refund"
+display_name = "Cooldown Refund"

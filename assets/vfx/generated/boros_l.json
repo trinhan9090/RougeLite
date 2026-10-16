@@ -1,0 +1,14 @@
+{
+  "effect_id": "boros_l",
+  "category": "dash",
+  "layer": 1,
+  "max_instances": 80,
+  "event_type": "confirmed_execution",
+  "parameters": {
+    "skill_id": "skill.boros.l",
+    "color": "#be4e50",
+    "style": "charge",
+    "geometry": "runtime snapshot",
+    "prototype": true
+  }
+}

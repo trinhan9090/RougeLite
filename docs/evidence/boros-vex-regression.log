@@ -1,0 +1,53 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+PASS Vex profile has sprite frames
+PASS nonempty64px frame attack/0
+PASS nonempty64px frame attack/1
+PASS nonempty64px frame attack/2
+PASS nonempty64px frame attack/3
+PASS nonempty64px frame attack/4
+PASS nonempty64px frame attack/5
+PASS nonempty64px frame attack/6
+PASS nonempty64px frame cast/0
+PASS nonempty64px frame cast/1
+PASS nonempty64px frame cast/2
+PASS nonempty64px frame cast/3
+PASS nonempty64px frame dash/0
+PASS nonempty64px frame dash/1
+PASS nonempty64px frame dash/2
+PASS nonempty64px frame dash/3
+PASS nonempty64px frame dash/4
+PASS nonempty64px frame dash/5
+PASS nonempty64px frame dash/6
+PASS nonempty64px frame death/0
+PASS nonempty64px frame death/1
+PASS nonempty64px frame death/2
+PASS nonempty64px frame death/3
+PASS nonempty64px frame death/4
+PASS nonempty64px frame death/5
+PASS nonempty64px frame death/6
+PASS nonempty64px frame death/7
+PASS nonempty64px frame idle/0
+PASS nonempty64px frame idle/1
+PASS nonempty64px frame idle/2
+PASS nonempty64px frame idle/3
+PASS nonempty64px frame idle/4
+PASS nonempty64px frame idle/5
+PASS nonempty64px frame run/0
+PASS nonempty64px frame run/1
+PASS nonempty64px frame run/2
+PASS nonempty64px frame run/3
+PASS nonempty64px frame run/4
+PASS nonempty64px frame run/5
+PASS nonempty64px frame run/6
+PASS nonempty64px frame run/7
+PASS sprite replaces geometry only
+PASS idle animation
+PASS WASD movement animates run
+PASS attack feedback animates sprite
+PASS active skill presentation
+PASS dash presentation
+PASS left facing mirrors sprite
+PASS death presentation
+RESULT Vex sprites checks=49 failures=0

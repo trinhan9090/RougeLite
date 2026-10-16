@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3]
+[ext_resource type="Script" path="res://scripts/ui/visual_controller.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/ui/visual_profile.gd" id="2"]
+[sub_resource type="Resource" id="Profile"]
+script = ExtResource("2")
+[node name="CharacterVisual" type="AnimatedSprite2D"]
+process_mode = 3
+texture_filter = 1
+script = ExtResource("1")
+profile = SubResource("Profile")
+[node name="Shadow" type="Polygon2D" parent="."]
+z_index = -2
+color = Color(0.05,0.07,0.09,0.4)
+[node name="WeaponPivot" type="Node2D" parent="."]
+[node name="FrontVFX" type="Node2D" parent="."]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]

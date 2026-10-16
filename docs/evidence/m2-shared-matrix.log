@@ -1,0 +1,16 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS astra_l expanded collision reaches beyond base radius
+PASS boros_j expanded collision reaches beyond base radius
+PASS astra_k reflect uses absorbed damage
+PASS boros_k reflect uses absorbed damage
+PASS vex_k one25damage endpoint shockwave
+PASS boros_l one25damage endpoint shockwave
+PASS astra_j execute exact10percent
+PASS boros_j execute exact10percent
+PASS astra_j kill burst scheduled exactly once and settles
+PASS vex_l kill burst scheduled exactly once and settles
+PASS astra_basic basic uses shared multishot adapter
+PASS vex_basic basic uses shared multishot adapter
+RESULT shared effect matrix: checks=12 failures=0
+

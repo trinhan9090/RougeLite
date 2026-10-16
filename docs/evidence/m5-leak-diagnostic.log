@@ -1,0 +1,99 @@
+WorkerThreadPool: 12 threads, 3 max low-priority.
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+Using "default" pen tablet driver...
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+CORE API HASH: 2004498165
+EDITOR API HASH: 1696660745
+SceneTreeFTI: traversal method DEFAULT
+Loading resource: res://scripts/app/settings.gd remapped: res://scripts/app/settings.gd
+Completed load for: 'res://scripts/app/settings.gd' remapped 'res://scripts/app/settings.gd' at thread -1
+Loading resource: res://scripts/app/content_registry.gd remapped: res://scripts/app/content_registry.gd
+Loading resource: res://content/progression/combat_limits.tres remapped: res://content/progression/combat_limits.tres
+Completed load for: 'res://content/progression/combat_limits.tres' remapped 'res://content/progression/combat_limits.tres' at thread -1
+Completed load for: 'res://scripts/app/content_registry.gd' remapped 'res://scripts/app/content_registry.gd' at thread -1
+Loaded system CA certificates
+Loading resource: res://scenes/bootstrap/main.tscn remapped: res://scenes/bootstrap/main.tscn
+Loading resource: res://scripts/ui/foundation_menu.gd remapped: res://scripts/ui/foundation_menu.gd
+Completed load for: 'res://scripts/ui/foundation_menu.gd' remapped 'res://scripts/ui/foundation_menu.gd' at thread -1
+Completed load for: 'res://scenes/bootstrap/main.tscn' remapped 'res://scenes/bootstrap/main.tscn' at thread -1
+Loading resource: res://content/catalog.tres remapped: res://content/catalog.tres
+Loading resource: res://content/maps/ruined_temple.tres remapped: res://content/maps/ruined_temple.tres
+Completed load for: 'res://content/maps/ruined_temple.tres' remapped 'res://content/maps/ruined_temple.tres' at thread -1
+Loading resource: res://content/characters/astra_loadout.tres remapped: res://content/characters/astra_loadout.tres
+Loading resource: res://content/characters/astra_stats.tres remapped: res://content/characters/astra_stats.tres
+Completed load for: 'res://content/characters/astra_stats.tres' remapped 'res://content/characters/astra_stats.tres' at thread -1
+Loading resource: res://content/skills/astra_basic.tres remapped: res://content/skills/astra_basic.tres
+Completed load for: 'res://content/skills/astra_basic.tres' remapped 'res://content/skills/astra_basic.tres' at thread -1
+Completed load for: 'res://content/characters/astra_loadout.tres' remapped 'res://content/characters/astra_loadout.tres' at thread -1
+Loading resource: res://content/characters/vex_loadout.tres remapped: res://content/characters/vex_loadout.tres
+Loading resource: res://content/characters/vex_stats.tres remapped: res://content/characters/vex_stats.tres
+Completed load for: 'res://content/characters/vex_stats.tres' remapped 'res://content/characters/vex_stats.tres' at thread -1
+Loading resource: res://content/skills/vex_basic.tres remapped: res://content/skills/vex_basic.tres
+Completed load for: 'res://content/skills/vex_basic.tres' remapped 'res://content/skills/vex_basic.tres' at thread -1
+Completed load for: 'res://content/characters/vex_loadout.tres' remapped 'res://content/characters/vex_loadout.tres' at thread -1
+Loading resource: res://content/characters/boros_loadout.tres remapped: res://content/characters/boros_loadout.tres
+Loading resource: res://content/characters/boros_stats.tres remapped: res://content/characters/boros_stats.tres
+Completed load for: 'res://content/characters/boros_stats.tres' remapped 'res://content/characters/boros_stats.tres' at thread -1
+Loading resource: res://content/skills/boros_basic.tres remapped: res://content/skills/boros_basic.tres
+Completed load for: 'res://content/skills/boros_basic.tres' remapped 'res://content/skills/boros_basic.tres' at thread -1
+Completed load for: 'res://content/characters/boros_loadout.tres' remapped 'res://content/characters/boros_loadout.tres' at thread -1
+Loading resource: res://content/enemies/chaser.tres remapped: res://content/enemies/chaser.tres
+Completed load for: 'res://content/enemies/chaser.tres' remapped 'res://content/enemies/chaser.tres' at thread -1
+Loading resource: res://content/skills/enemy_chaser_basic.tres remapped: res://content/skills/enemy_chaser_basic.tres
+Completed load for: 'res://content/skills/enemy_chaser_basic.tres' remapped 'res://content/skills/enemy_chaser_basic.tres' at thread -1
+Loading resource: res://content/augments/stats/max_hp.tres remapped: res://content/augments/stats/max_hp.tres
+Completed load for: 'res://content/augments/stats/max_hp.tres' remapped 'res://content/augments/stats/max_hp.tres' at thread -1
+Loading resource: res://content/augments/stats/damage.tres remapped: res://content/augments/stats/damage.tres
+Completed load for: 'res://content/augments/stats/damage.tres' remapped 'res://content/augments/stats/damage.tres' at thread -1
+Loading resource: res://content/augments/stats/attack_speed.tres remapped: res://content/augments/stats/attack_speed.tres
+Completed load for: 'res://content/augments/stats/attack_speed.tres' remapped 'res://content/augments/stats/attack_speed.tres' at thread -1
+Loading resource: res://content/augments/stats/move_speed.tres remapped: res://content/augments/stats/move_speed.tres
+Completed load for: 'res://content/augments/stats/move_speed.tres' remapped 'res://content/augments/stats/move_speed.tres' at thread -1
+Loading resource: res://content/augments/stats/crit_chance.tres remapped: res://content/augments/stats/crit_chance.tres
+Completed load for: 'res://content/augments/stats/crit_chance.tres' remapped 'res://content/augments/stats/crit_chance.tres' at thread -1
+Loading resource: res://content/augments/stats/crit_damage.tres remapped: res://content/augments/stats/crit_damage.tres
+Completed load for: 'res://content/augments/stats/crit_damage.tres' remapped 'res://content/augments/stats/crit_damage.tres' at thread -1
+Loading resource: res://content/augments/stats/cooldown_reduction.tres remapped: res://content/augments/stats/cooldown_reduction.tres
+Completed load for: 'res://content/augments/stats/cooldown_reduction.tres' remapped 'res://content/augments/stats/cooldown_reduction.tres' at thread -1
+Loading resource: res://content/augments/stats/pickup_radius.tres remapped: res://content/augments/stats/pickup_radius.tres
+Completed load for: 'res://content/augments/stats/pickup_radius.tres' remapped 'res://content/augments/stats/pickup_radius.tres' at thread -1
+Loading resource: res://content/progression/default.tres remapped: res://content/progression/default.tres
+Completed load for: 'res://content/progression/default.tres' remapped 'res://content/progression/default.tres' at thread -1
+Loading resource: res://content/progression/spawn.tres remapped: res://content/progression/spawn.tres
+Completed load for: 'res://content/progression/spawn.tres' remapped 'res://content/progression/spawn.tres' at thread -1
+Completed load for: 'res://content/catalog.tres' remapped 'res://content/catalog.tres' at thread -1
+RUN_FOUNDATION seed=20261015 content=full-kits-m3
+BOOT_OK milestone=M5
+Loading resource: res://scenes/run/combat_run.tscn remapped: res://scenes/run/combat_run.tscn
+Completed load for: 'res://scenes/run/combat_run.tscn' remapped 'res://scenes/run/combat_run.tscn' at thread -1
+Loading resource: res://content/maps/ruined_temple.tres remapped: res://content/maps/ruined_temple.tres
+Completed load for: 'res://content/maps/ruined_temple.tres' remapped 'res://content/maps/ruined_temple.tres' at thread -1
+Loading resource: res://scenes/characters/player.tscn remapped: res://scenes/characters/player.tscn
+Completed load for: 'res://scenes/characters/player.tscn' remapped 'res://scenes/characters/player.tscn' at thread -1
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+Loading resource: res://content/skills/enemy_chaser_basic.tres remapped: res://content/skills/enemy_chaser_basic.tres
+Completed load for: 'res://content/skills/enemy_chaser_basic.tres' remapped 'res://content/skills/enemy_chaser_basic.tres' at thread -1
+RELEASE_PROFILE_OK astra
+Loading resource: res://content/maps/ruined_temple.tres remapped: res://content/maps/ruined_temple.tres
+Completed load for: 'res://content/maps/ruined_temple.tres' remapped 'res://content/maps/ruined_temple.tres' at thread -1
+Loading resource: res://scenes/characters/player.tscn remapped: res://scenes/characters/player.tscn
+Completed load for: 'res://scenes/characters/player.tscn' remapped 'res://scenes/characters/player.tscn' at thread -1
+COMBAT_RUN_STARTED loadout=loadout.vex seed=20261015
+Loading resource: res://content/skills/enemy_chaser_basic.tres remapped: res://content/skills/enemy_chaser_basic.tres
+Completed load for: 'res://content/skills/enemy_chaser_basic.tres' remapped 'res://content/skills/enemy_chaser_basic.tres' at thread -1
+RELEASE_PROFILE_OK vex
+Loading resource: res://content/maps/ruined_temple.tres remapped: res://content/maps/ruined_temple.tres
+Completed load for: 'res://content/maps/ruined_temple.tres' remapped 'res://content/maps/ruined_temple.tres' at thread -1
+Loading resource: res://scenes/characters/player.tscn remapped: res://scenes/characters/player.tscn
+Completed load for: 'res://scenes/characters/player.tscn' remapped 'res://scenes/characters/player.tscn' at thread -1
+COMBAT_RUN_STARTED loadout=loadout.boros seed=20261015
+Loading resource: res://content/skills/enemy_chaser_basic.tres remapped: res://content/skills/enemy_chaser_basic.tres
+Completed load for: 'res://content/skills/enemy_chaser_basic.tres' remapped 'res://content/skills/enemy_chaser_basic.tres' at thread -1
+RELEASE_PROFILE_OK boros
+RELEASE_SMOKE_OK profiles=3 boss_victories=3
+XR: Clearing primary interface
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"

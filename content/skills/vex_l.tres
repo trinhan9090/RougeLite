@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="SkillDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/effect_executor_definition.gd" id="1_i4gf6"]
+[ext_resource type="Script" path="res://scripts/data/skill_rank_definition.gd" id="2_fhx2c"]
+[ext_resource type="Script" path="res://scripts/data/skill_behavior_definition.gd" id="3_obft2"]
+[ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="4_r62ek"]
+[ext_resource type="Script" path="res://scripts/data/targeting_definition.gd" id="5_ok28f"]
+
+[sub_resource type="Resource" id="Resource_r62ek"]
+script = ExtResource("1_i4gf6")
+executor_id = &"executor.projectile"
+
+[sub_resource type="Resource" id="Resource_bdjss"]
+script = ExtResource("3_obft2")
+
+[sub_resource type="Resource" id="Resource_ok28f"]
+script = ExtResource("2_fhx2c")
+cooldown = 10.0
+damage = 65.0
+range_px = 680.0
+projectile_speed = 1100.0
+pierce_count = 3
+behavior = SubResource("Resource_bdjss")
+
+[sub_resource type="Resource" id="Resource_hiild"]
+script = ExtResource("3_obft2")
+
+[sub_resource type="Resource" id="Resource_ii71b"]
+script = ExtResource("2_fhx2c")
+rank = 2
+cooldown = 10.0
+damage = 65.0
+range_px = 680.0
+projectile_speed = 1100.0
+pierce_count = 5
+behavior = SubResource("Resource_hiild")
+
+[sub_resource type="Resource" id="Resource_p45p2"]
+script = ExtResource("3_obft2")
+boss_bonus = 0.35
+
+[sub_resource type="Resource" id="Resource_wmirn"]
+script = ExtResource("2_fhx2c")
+rank = 3
+cooldown = 10.0
+damage = 65.0
+range_px = 680.0
+projectile_speed = 1100.0
+pierce_count = 5
+behavior = SubResource("Resource_p45p2")
+
+[sub_resource type="Resource" id="Resource_n7rc3"]
+script = ExtResource("3_obft2")
+boss_bonus = 0.35
+mark_duration = 3.0
+mark_bonus = 0.12
+
+[sub_resource type="Resource" id="Resource_ooucu"]
+script = ExtResource("2_fhx2c")
+rank = 4
+cooldown = 10.0
+damage = 65.0
+range_px = 680.0
+projectile_speed = 1100.0
+pierce_count = 5
+behavior = SubResource("Resource_n7rc3")
+
+[sub_resource type="Resource" id="Resource_qp1mt"]
+script = ExtResource("5_ok28f")
+policy = "cursor"
+acquisition_radius = 680.0
+
+[resource]
+script = ExtResource("4_r62ek")
+slot = 3
+unlock_level = 9
+max_rank = 4
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"cooldown_manage", &"repeat_cast", &"modify_projectile_angle", &"spawn_projectile_pattern", &"modify_projectile_count", &"pierce_hit", &"projectile_steering"])
+executor = SubResource("Resource_r62ek")
+targeting = SubResource("Resource_qp1mt")
+rank_scaling = Array[ExtResource("2_fhx2c")]([SubResource("Resource_ok28f"), SubResource("Resource_ii71b"), SubResource("Resource_wmirn"), SubResource("Resource_ooucu")])
+id = &"skill.vex.l"
+display_name = "Piercing Round"

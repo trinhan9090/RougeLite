@@ -1,0 +1,18 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS locked slot cannot cast
+PASS manual mode never auto casts
+PASS manual slot input reaches common cast pipeline
+PASS manual exact damage and cooldown
+PASS cooldown rejects repeated request
+PASS auto uses identical damage/cooldown pipeline
+PASS no target spends no cooldown
+PASS paused simulation rejects cast
+PASS stun rejects cast
+PASS live bound owner accepts compatible upgrade
+PASS live owner receives three offers
+PASS dead owner rejects cast
+PASS dead bound owner rejects mechanic upgrade
+PASS dead owner rejects offers and skill rank
+RESULT cast modes: checks=14 failures=0
+

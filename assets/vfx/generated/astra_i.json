@@ -1,0 +1,14 @@
+{
+  "effect_id": "astra_i",
+  "category": "beam",
+  "layer": 1,
+  "max_instances": 80,
+  "event_type": "confirmed_execution",
+  "parameters": {
+    "skill_id": "skill.astra.i",
+    "color": "#91e8ef",
+    "style": "beam",
+    "geometry": "runtime snapshot",
+    "prototype": true
+  }
+}

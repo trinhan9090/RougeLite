@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="SkillDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/effect_executor_definition.gd" id="1_brari"]
+[ext_resource type="Script" path="res://scripts/data/skill_rank_definition.gd" id="2_m1yb2"]
+[ext_resource type="Script" path="res://scripts/data/skill_behavior_definition.gd" id="3_66r1x"]
+[ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="4_l2toc"]
+[ext_resource type="Script" path="res://scripts/data/targeting_definition.gd" id="5_4tjh4"]
+
+[sub_resource type="Resource" id="Resource_o0nka"]
+script = ExtResource("1_brari")
+kind = "buff"
+executor_id = &"executor.buff"
+
+[sub_resource type="Resource" id="Resource_n432b"]
+script = ExtResource("3_66r1x")
+hp_bonus = 0.4
+range_bonus = 0.45
+
+[sub_resource type="Resource" id="Resource_4tjh4"]
+script = ExtResource("2_m1yb2")
+cooldown = 30.0
+duration = 7.0
+behavior = SubResource("Resource_n432b")
+
+[sub_resource type="Resource" id="Resource_w2dbq"]
+script = ExtResource("3_66r1x")
+hp_bonus = 0.4
+range_bonus = 0.45
+
+[sub_resource type="Resource" id="Resource_jarg4"]
+script = ExtResource("2_m1yb2")
+rank = 2
+cooldown = 30.0
+duration = 9.0
+behavior = SubResource("Resource_w2dbq")
+
+[sub_resource type="Resource" id="Resource_cm70o"]
+script = ExtResource("3_66r1x")
+hp_bonus = 0.4
+range_bonus = 0.45
+basic_pulse_scale = 0.35
+
+[sub_resource type="Resource" id="Resource_0or7t"]
+script = ExtResource("2_m1yb2")
+rank = 3
+cooldown = 30.0
+duration = 9.0
+behavior = SubResource("Resource_cm70o")
+
+[sub_resource type="Resource" id="Resource_mmjgc"]
+script = ExtResource("5_4tjh4")
+policy = "self"
+acquisition_radius = 400.0
+
+[resource]
+script = ExtResource("4_l2toc")
+slot = 4
+unlock_level = 11
+max_rank = 3
+executor = SubResource("Resource_o0nka")
+targeting = SubResource("Resource_mmjgc")
+rank_scaling = Array[ExtResource("2_m1yb2")]([SubResource("Resource_4tjh4"), SubResource("Resource_jarg4"), SubResource("Resource_0or7t")])
+id = &"skill.boros.i"
+display_name = "Titan's Fury"

@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="SkillDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/effect_executor_definition.gd" id="1_3e6kk"]
+[ext_resource type="Script" path="res://scripts/data/skill_rank_definition.gd" id="2_rarge"]
+[ext_resource type="Script" path="res://scripts/data/skill_behavior_definition.gd" id="3_w0l36"]
+[ext_resource type="Script" path="res://scripts/data/status_effect_definition.gd" id="4_v63r5"]
+[ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="5_f6ir8"]
+[ext_resource type="Script" path="res://scripts/data/targeting_definition.gd" id="6_wu0vf"]
+
+[sub_resource type="Resource" id="Resource_w0l36"]
+script = ExtResource("1_3e6kk")
+kind = "area"
+executor_id = &"executor.area"
+
+[sub_resource type="Resource" id="Resource_qdudc"]
+script = ExtResource("4_v63r5")
+kind = "slow"
+duration = 1.5
+
+[sub_resource type="Resource" id="Resource_6ur45"]
+script = ExtResource("3_w0l36")
+status = SubResource("Resource_qdudc")
+
+[sub_resource type="Resource" id="Resource_v63r5"]
+script = ExtResource("2_rarge")
+cooldown = 8.0
+damage = 55.0
+radius_px = 140.0
+behavior = SubResource("Resource_6ur45")
+
+[sub_resource type="Resource" id="Resource_x380x"]
+script = ExtResource("4_v63r5")
+kind = "slow"
+duration = 1.5
+
+[sub_resource type="Resource" id="Resource_j5c3l"]
+script = ExtResource("3_w0l36")
+status = SubResource("Resource_x380x")
+
+[sub_resource type="Resource" id="Resource_f6ir8"]
+script = ExtResource("2_rarge")
+rank = 2
+cooldown = 8.0
+damage = 55.0
+radius_px = 170.0
+behavior = SubResource("Resource_j5c3l")
+
+[sub_resource type="Resource" id="Resource_qewsq"]
+script = ExtResource("4_v63r5")
+kind = "slow"
+duration = 1.5
+
+[sub_resource type="Resource" id="Resource_en17f"]
+script = ExtResource("3_w0l36")
+status = SubResource("Resource_qewsq")
+max_hp_damage = 0.03
+
+[sub_resource type="Resource" id="Resource_wu0vf"]
+script = ExtResource("2_rarge")
+rank = 3
+cooldown = 8.0
+damage = 55.0
+radius_px = 170.0
+behavior = SubResource("Resource_en17f")
+
+[sub_resource type="Resource" id="Resource_15exi"]
+script = ExtResource("4_v63r5")
+kind = "slow"
+duration = 1.5
+
+[sub_resource type="Resource" id="Resource_44fhd"]
+script = ExtResource("3_w0l36")
+status = SubResource("Resource_15exi")
+max_hp_damage = 0.03
+repeat_delay = 0.4
+repeat_scale = 0.45
+
+[sub_resource type="Resource" id="Resource_2kmfj"]
+script = ExtResource("2_rarge")
+rank = 4
+cooldown = 8.0
+damage = 55.0
+radius_px = 170.0
+behavior = SubResource("Resource_44fhd")
+
+[sub_resource type="Resource" id="Resource_ikcvj"]
+script = ExtResource("6_wu0vf")
+policy = "self"
+acquisition_radius = 140.0
+
+[resource]
+script = ExtResource("5_f6ir8")
+slot = 1
+unlock_level = 3
+max_rank = 4
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"cooldown_manage", &"repeat_cast", &"resize_area"])
+executor = SubResource("Resource_w0l36")
+targeting = SubResource("Resource_ikcvj")
+rank_scaling = Array[ExtResource("2_rarge")]([SubResource("Resource_v63r5"), SubResource("Resource_f6ir8"), SubResource("Resource_wu0vf"), SubResource("Resource_2kmfj")])
+id = &"skill.boros.j"
+display_name = "Ground Slam"

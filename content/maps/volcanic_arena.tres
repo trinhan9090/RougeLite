@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="MapDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/map_definition.gd" id="1_u3twn"]
+
+[resource]
+script = ExtResource("1_u3twn")
+hazards = Array[Rect2]([Rect2(-800,300,400,45),Rect2(350,-430,450,45)])
+obstacle_count = 5
+ground_color = Color(0.16078432, 0.09411765, 0.1254902, 1)
+obstacle_color = Color(0.38039216, 0.23137255, 0.21568628, 1)
+id = &"map.volcanic_arena"
+display_name = "Volcanic Arena"

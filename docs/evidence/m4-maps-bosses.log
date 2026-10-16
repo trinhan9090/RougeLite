@@ -1,0 +1,27 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS ruined_temple seed0 deterministic connected safe layout
+PASS ruined_temple seed1 deterministic connected safe layout
+PASS ruined_temple seed2 deterministic connected safe layout
+PASS ruined_temple seed3 deterministic connected safe layout
+PASS ruined_temple seed4 deterministic connected safe layout
+PASS enchanted_forest seed0 deterministic connected safe layout
+PASS enchanted_forest seed1 deterministic connected safe layout
+PASS enchanted_forest seed2 deterministic connected safe layout
+PASS enchanted_forest seed3 deterministic connected safe layout
+PASS enchanted_forest seed4 deterministic connected safe layout
+PASS volcanic_arena seed0 deterministic connected safe layout
+PASS volcanic_arena seed1 deterministic connected safe layout
+PASS volcanic_arena seed2 deterministic connected safe layout
+PASS volcanic_arena seed3 deterministic connected safe layout
+PASS volcanic_arena seed4 deterministic connected safe layout
+PASS stone_warden no damage during telegraph
+PASS stone_warden telegraphed damage exact24
+PASS stone_warden moving out dodges actual attack
+PASS stone_warden phase2 continues attacks
+PASS ember_sentinel no damage during telegraph
+PASS ember_sentinel telegraphed damage exact24
+PASS ember_sentinel moving out dodges actual attack
+PASS ember_sentinel phase2 continues attacks
+RESULT maps and bosses: checks=23 failures=0
+

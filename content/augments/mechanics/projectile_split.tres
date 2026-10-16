@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="AugmentDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/augment_effect_definition.gd" id="1_cpf4j"]
+[ext_resource type="Script" path="res://scripts/data/mechanic_effect_definition.gd" id="2_hg0n8"]
+[ext_resource type="Script" path="res://scripts/data/requirement_definition.gd" id="3_tl204"]
+[ext_resource type="Script" path="res://scripts/data/augment_definition.gd" id="4_h7y8i"]
+
+[sub_resource type="Resource" id="Resource_vxusx"]
+script = ExtResource("2_hg0n8")
+auxiliary_values = Array[float]([0.4, 0.5, 0.5, 0.65, 0.65])
+effect_id = &"split"
+rank_values = Array[float]([2.0, 2.0, 4.0, 4.0, 6.0])
+
+[sub_resource type="Resource" id="Resource_j8j1s"]
+script = ExtResource("3_tl204")
+required_capabilities = Array[StringName]([&"modify_projectile_angle", &"spawn_projectile_pattern"])
+
+[resource]
+script = ExtResource("4_h7y8i")
+description = "Extra angled shots; secondary shots inherit status."
+requirements = SubResource("Resource_j8j1s")
+effects = Array[ExtResource("1_cpf4j")]([SubResource("Resource_vxusx")])
+rarity_weight = 30.0
+id = &"augment.projectile_split"
+display_name = "Split"

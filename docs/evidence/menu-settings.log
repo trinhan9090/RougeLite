@@ -1,0 +1,43 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS missing settings uses defaults
+PASS InputMap default move_up
+PASS InputMap default move_left
+PASS InputMap default move_down
+PASS InputMap default move_right
+PASS InputMap default active_1
+PASS InputMap default active_2
+PASS InputMap default active_3
+PASS InputMap default active_4
+PASS InputMap default pause
+PASS movement collision rejected
+PASS active collision rejected
+PASS pause collision rejected
+PASS rejected remap leaves binding intact
+PASS unknown action rejected
+PASS empty key rejected
+PASS modifier alone rejected
+PASS reserved pause key preserved
+PASS valid remap saves
+PASS InputMap applies remap
+PASS manual setting saves
+PASS invalid mode leaves state intact
+PASS new service loads persisted settings
+PASS reselecting own binding permitted
+PASS saved config readable
+PASS saved duplicate rejected atomically
+PASS wrong binding type rejected
+PASS unknown settings version rejected
+PASS save failure rolls back binding
+PASS save failure rolls back mode
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT settings restart: checks=1 failures=0
+
+PASS separate process --write
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT settings restart: checks=1 failures=0
+
+PASS separate process --read
+RESULT settings: checks=32 failures=0

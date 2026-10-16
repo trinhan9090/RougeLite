@@ -1,0 +1,63 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+PASS astra M2 scene spawned actual target
+PASS astra free slot1 unlock before modal
+PASS astra bound card commits/resumes slot1
+PASS astra Manual slot1 does not autocast
+PASS astra manual slot1 accepts common executor
+PASS astra slot1 commits cooldown once
+PASS astra free slot2 unlock before modal
+PASS astra bound card commits/resumes slot2
+PASS astra Manual slot2 does not autocast
+PASS astra manual slot2 accepts common executor
+PASS astra slot2 commits cooldown once
+PASS astra free slot3 unlock before modal
+PASS astra bound card commits/resumes slot3
+PASS astra Manual slot3 does not autocast
+PASS astra manual slot3 accepts common executor
+PASS astra slot3 commits cooldown once
+PASS astra basic stays automatic in Manual mode
+PASS astra modal freezes active cooldown
+PASS graphical fixture target has clear collision and line of sight
+COMBAT_RUN_STARTED loadout=loadout.vex seed=20261015
+PASS vex M2 scene spawned actual target
+PASS vex free slot1 unlock before modal
+PASS vex bound card commits/resumes slot1
+PASS vex Manual slot1 does not autocast
+PASS vex manual slot1 accepts common executor
+PASS vex slot1 commits cooldown once
+PASS vex free slot2 unlock before modal
+PASS vex bound card commits/resumes slot2
+PASS vex Manual slot2 does not autocast
+PASS vex manual slot2 accepts common executor
+PASS vex slot2 commits cooldown once
+PASS vex free slot3 unlock before modal
+PASS vex bound card commits/resumes slot3
+PASS vex Manual slot3 does not autocast
+PASS vex manual slot3 accepts common executor
+PASS vex slot3 commits cooldown once
+PASS vex basic stays automatic in Manual mode
+PASS vex modal freezes active cooldown
+COMBAT_RUN_STARTED loadout=loadout.boros seed=20261015
+PASS boros M2 scene spawned actual target
+PASS boros free slot1 unlock before modal
+PASS boros bound card commits/resumes slot1
+PASS boros Manual slot1 does not autocast
+PASS boros manual slot1 accepts common executor
+PASS boros slot1 commits cooldown once
+PASS boros free slot2 unlock before modal
+PASS boros bound card commits/resumes slot2
+PASS boros Manual slot2 does not autocast
+PASS boros manual slot2 accepts common executor
+PASS boros slot2 commits cooldown once
+PASS boros free slot3 unlock before modal
+PASS boros bound card commits/resumes slot3
+PASS boros Manual slot3 does not autocast
+PASS boros manual slot3 accepts common executor
+PASS boros slot3 commits cooldown once
+PASS boros basic stays automatic in Manual mode
+PASS boros modal freezes active cooldown
+RESULT M2 scenes: checks=55 failures=0
+

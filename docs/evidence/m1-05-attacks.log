@@ -1,0 +1,22 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS loadout validates astra
+PASS no target consumes no cooldown astra
+PASS basic fires astra
+PASS cooldown prevents duplicate attack astra
+PASS actual physics hit damage astra
+PASS runtime crit override does not mutate profile astra
+PASS loadout validates vex
+PASS no target consumes no cooldown vex
+PASS basic fires vex
+PASS cooldown prevents duplicate attack vex
+PASS actual physics hit damage vex
+PASS runtime crit override does not mutate profile vex
+PASS loadout validates boros
+PASS no target consumes no cooldown boros
+PASS basic fires boros
+PASS cooldown prevents duplicate attack boros
+PASS actual physics hit damage boros
+PASS runtime crit override does not mutate profile boros
+RESULT attacks: checks=18 failures=0
+

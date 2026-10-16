@@ -1,0 +1,13 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS empty target set
+PASS nearest within range
+PASS exact range included
+PASS outside range excluded
+PASS tie uses stable ID independent of array order
+PASS dead ignored
+PASS self allied null excluded
+PASS queued target excluded
+PASS freed target excluded
+RESULT targeting: checks=9 failures=0
+

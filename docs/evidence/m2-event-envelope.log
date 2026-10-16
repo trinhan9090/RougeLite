@@ -1,0 +1,20 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS cast captures rank1 modifier
+PASS in-flight cast snapshot survives later upgrade
+PASS collision envelope unique event/projectile IDs and parent
+PASS published event envelope remains stable
+PASS envelopes report live shared remaining budget
+PASS PRIMARY_ONLY filters secondary
+PASS ONCE_PER_ROOT_CAST dedupes sibling contexts
+PASS ALLOW_SECONDARY bounded depth1
+PASS ALLOW_SECONDARY bounded depth2
+PASS ALLOW_SECONDARY bounded depth3
+PASS ALLOW_SECONDARY cannot exceed shared depth
+PASS missing mechanic capability requirements fail closed
+PASS projectile capability requires executable geometry
+PASS combat limits are data configurable
+PASS configured projectile limit enforced
+PASS invalid combat limits rejected
+RESULT event envelope: checks=16 failures=0
+

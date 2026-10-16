@@ -1,0 +1,9 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS enemy stats loaded from data
+PASS enemy physically chases target
+PASS actor emits death exactly once
+PASS dead actor stops physics/collision
+PASS runtime lifecycle does not mutate definition
+RESULT actors: checks=5 failures=0
+

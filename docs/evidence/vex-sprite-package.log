@@ -1,0 +1,310 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Registering global classes... (4 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | ActorSprite[39m[0m
+[  20% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  40% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  60% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1msavepack[22m | Started Packing (102 steps)[39m[0m
+[   1% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/Fullmain.png-321a183bc54e242103bbfbc179d4038a.ctex[39m[0m
+[   1% ] [90m[1msavepack[22m | Storing File: res://assets/sprites/characters/boros/Fullmain.png.import[39m[0m
+[   1% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/projectile.png-2f9cc9a63bc8040a6d2cbadf6dee0767.ctex[39m[0m
+[   1% ] [90m[1msavepack[22m | Storing File: res://assets/sprites/characters/vex/vex/projectile.png.import[39m[0m
+[   2% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/spritesheet.png-8be7bb190acf042da9d6cd29e8d07f65.ctex[39m[0m
+[   2% ] [90m[1msavepack[22m | Storing File: res://assets/sprites/characters/vex/vex/spritesheet.png.import[39m[0m
+[   3% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-1a29eaad7cbbaf580aedb5609667912c-area_expand.res[39m[0m
+[   3% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-1728a4a64775504af597859a3e042b21-cooldown_refund.res[39m[0m
+[   4% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-8657bea534dbdbedea36dfa2b02f7bd4-dash_shockwave.res[39m[0m
+[   5% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-bf04a7c70026c2d6b851af92969cb5ea-echo_cast.res[39m[0m
+[   6% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-dc1f24aa694250d198259f298b52abbd-execute.res[39m[0m
+[   6% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-2403b2b423037314a45c94223cd3ee2d-explosion_on_hit.res[39m[0m
+[   7% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-06896dc8a704fe4d08afab8649dd63b0-homing.res[39m[0m
+[   8% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-e24afbfd3f396421ee187500eb795418-multishot.res[39m[0m
+[   9% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-260d7eded87520b373f75c5ee6ed004f-on_kill_burst.res[39m[0m
+[   9% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-1a803f3122d58659e5ff01ba968ac5b5-pierce.res[39m[0m
+[  10% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-39d95984942f003a223658fc08e66c25-projectile_split.res[39m[0m
+[  11% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-b6ecc6b96395f8d0193ef7d4f2456164-shield_reflect.res[39m[0m
+[  12% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-ecc2ee2cab97ae53a0ea7ed47290a3ac-attack_speed.res[39m[0m
+[  12% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-7e2eddfc5cc06848c3f3e76c50fde73e-cooldown_reduction.res[39m[0m
+[  13% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-06233e23fc8ece6b294f91a5150b11ae-crit_chance.res[39m[0m
+[  14% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-4b35b54a66efd63fe67769f41821f7ee-crit_damage.res[39m[0m
+[  14% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-dd6bac07e660614ac40f808fd95b2866-damage.res[39m[0m
+[  15% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-ec06228cabee32b6967bb31d59cdbb75-max_hp.res[39m[0m
+[  16% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-b7a3688bd0c89900eb561083d58e08cf-move_speed.res[39m[0m
+[  17% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-0657d9e97d9cbaf2455edf2176994d60-pickup_radius.res[39m[0m
+[  17% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-62e82966b28e38f0a0905ae66b3df65f-ember_sentinel.res[39m[0m
+[  18% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-0ccd42c8dac4cec172d77f0ed953d774-stone_warden.res[39m[0m
+[  19% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-44119bd8c048f796d4154b5954c31203-astra_loadout.res[39m[0m
+[  20% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-6e738647cd7645d455b3d1f146d3de7a-astra_stats.res[39m[0m
+[  20% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-e313ef5bdabc06fc3e4226934e41e051-boros_loadout.res[39m[0m
+[  21% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-8877ac2184d2c15f369f988bc390dfba-boros_stats.res[39m[0m
+[  22% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-cbf993b939863c4a2f85910c39355ec5-vex_loadout.res[39m[0m
+[  23% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-c1ecc122d6b062ba28691c62a2547036-vex_stats.res[39m[0m
+[  23% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-dd54055f7ad4b14225cad8d3104c8ded-vex_visual_frames.res[39m[0m
+[  24% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-96664bc81c916fbd7e2b6935f87de13e-chaser.res[39m[0m
+[  25% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-accf674172b770a7ec133d5e24adf518-enchanted_forest.res[39m[0m
+[  26% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-93ba28ad5e450d451836eb3745580aac-ruined_temple.res[39m[0m
+[  26% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-ccb4196192e3bca0a27edc14894da5ce-volcanic_arena.res[39m[0m
+[  27% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-dec9a4450530936c40dd27b89ca56cb2-combat_limits.res[39m[0m
+[  28% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-cd868f126369409a306456737297781b-default.res[39m[0m
+[  28% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-6885d16e0b4f94a4bf31ee9ba35f5e54-spawn.res[39m[0m
+[  29% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-496e4c9bb0a3527d67912df6d325a7eb-astra_basic.res[39m[0m
+[  30% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-5b195cba739c58df61c7af8b600eee7d-astra_i.res[39m[0m
+[  31% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-0685b5e222b2418015c019660fe1dd89-astra_j.res[39m[0m
+[  31% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-94ca002e1e0516dc0157c3edad953c97-astra_k.res[39m[0m
+[  32% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-e768289a8c4822aff9f664f2212a8177-astra_l.res[39m[0m
+[  33% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-622b145361b2a7838a250516aa2fefb9-boros_basic.res[39m[0m
+[  33% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-e34a158f7436731a00760a0292c30cf1-boros_i.res[39m[0m
+[  33% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-672459fdeb81671deb72bdf7ef8fdc83-boros_j.res[39m[0m
+[  34% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-933a377ea63d81f408c085cb515138a5-boros_k.res[39m[0m
+[  35% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-90eb7e6eaab1bf4e72e65ef6eec3cb96-boros_l.res[39m[0m
+[  36% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-4d10f710e72eaf5476e606665b83e8f5-enemy_chaser_basic.res[39m[0m
+[  36% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-e00366dfc2ae18a54503cc152355ca21-vex_basic.res[39m[0m
+[  37% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-8e43f57d09025278df94d5577ed03c3a-vex_i.res[39m[0m
+[  38% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-1da09c0b4a93728b91e38579be22fcd9-vex_j.res[39m[0m
+[  38% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-7a67bc647695defb43611d682e22186d-vex_k.res[39m[0m
+[  39% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-e0406ad1e082b3d89541a60e300f0a5a-vex_l.res[39m[0m
+[  40% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-6bf481a4d2d7aabf6d8b43ac7f567238-catalog.res[39m[0m
+[  41% ] [90m[1msavepack[22m | Storing File: res://scripts/world/map_layout_generator.gdc[39m[0m
+[  41% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-5321995547fa747da6f5f431ce387ab9-main.scn[39m[0m
+[  42% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-c8ae144dc4ea98eb64848d3bf0e2a75e-player.scn[39m[0m
+[  43% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-e353d265a341414f99f21df5077adb78-chaser.scn[39m[0m
+[  44% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-bdbf9ad0b7837910add928339fe8daf3-combat_run.scn[39m[0m
+[  44% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-15981a23897792de5574ff8bd809de3f-movement_lab.scn[39m[0m
+[  45% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/actor.gdc[39m[0m
+[  46% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/actor_stats.gdc[39m[0m
+[  47% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/boss_actor.gdc[39m[0m
+[  47% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/enemy_actor.gdc[39m[0m
+[  48% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/health.gdc[39m[0m
+[  49% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/movement_controller.gdc[39m[0m
+[  50% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/player_actor.gdc[39m[0m
+[  50% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/shield_instance.gdc[39m[0m
+[  51% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/skill_input_router.gdc[39m[0m
+[  52% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/status_controller.gdc[39m[0m
+[  52% ] [90m[1msavepack[22m | Storing File: res://scripts/app/content_registry.gdc[39m[0m
+[  53% ] [90m[1msavepack[22m | Storing File: res://scripts/app/release_smoke.gdc[39m[0m
+[  54% ] [90m[1msavepack[22m | Storing File: res://scripts/app/settings.gdc[39m[0m
+[  55% ] [90m[1msavepack[22m | Storing File: res://scripts/augments/augment_manager.gdc[39m[0m
+[  55% ] [90m[1msavepack[22m | Storing File: res://scripts/augments/augment_runtime.gdc[39m[0m
+[  56% ] [90m[1msavepack[22m | Storing File: res://scripts/augments/eligibility_evaluator.gdc[39m[0m
+[  57% ] [90m[1msavepack[22m | Storing File: res://scripts/augments/offer_generator.gdc[39m[0m
+[  58% ] [90m[1msavepack[22m | Storing File: res://scripts/augments/upgrade_option.gdc[39m[0m
+[  58% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/attack_controller.gdc[39m[0m
+[  59% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/boss_telegraph.gdc[39m[0m
+[  60% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/cast_budget.gdc[39m[0m
+[  61% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/cast_intent.gdc[39m[0m
+[  61% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/combat_flash.gdc[39m[0m
+[  62% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/combat_service.gdc[39m[0m
+[  63% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/damage_packet.gdc[39m[0m
+[  63% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/damage_resolver.gdc[39m[0m
+[  64% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/damage_result.gdc[39m[0m
+[  65% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/projectile.gdc[39m[0m
+[  66% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/rank_effect_system.gdc[39m[0m
+[  66% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/skill_controller.gdc[39m[0m
+[  66% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/skill_runtime.gdc[39m[0m
+[  67% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/targeting_service.gdc[39m[0m
+[  68% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/timed_effect.gdc[39m[0m
+[  68% ] [90m[1msavepack[22m | Storing File: res://scripts/core/combat_context.gdc[39m[0m
+[  69% ] [90m[1msavepack[22m | Storing File: res://scripts/core/combat_run_root.gdc[39m[0m
+[  70% ] [90m[1msavepack[22m | Storing File: res://scripts/core/event_bus.gdc[39m[0m
+[  71% ] [90m[1msavepack[22m | Storing File: res://scripts/core/rng.gdc[39m[0m
+[  71% ] [90m[1msavepack[22m | Storing File: res://scripts/core/run_root.gdc[39m[0m
+[  72% ] [90m[1msavepack[22m | Storing File: res://scripts/core/run_state.gdc[39m[0m
+[  73% ] [90m[1msavepack[22m | Storing File: res://scripts/data/actor_stat_definition.gdc[39m[0m
+[  74% ] [90m[1msavepack[22m | Storing File: res://scripts/data/augment_definition.gdc[39m[0m
+[  74% ] [90m[1msavepack[22m | Storing File: res://scripts/data/augment_effect_definition.gdc[39m[0m
+[  75% ] [90m[1msavepack[22m | Storing File: res://scripts/data/basic_attack_executor_definition.gdc[39m[0m
+[  76% ] [90m[1msavepack[22m | Storing File: res://scripts/data/boss_definition.gdc[39m[0m
+[  76% ] [90m[1msavepack[22m | Storing File: res://scripts/data/character_definition.gdc[39m[0m
+[  77% ] [90m[1msavepack[22m | Storing File: res://scripts/data/combat_limits_definition.gdc[39m[0m
+[  78% ] [90m[1msavepack[22m | Storing File: res://scripts/data/combat_loadout_definition.gdc[39m[0m
+[  79% ] [90m[1msavepack[22m | Storing File: res://scripts/data/content_catalog.gdc[39m[0m
+[  79% ] [90m[1msavepack[22m | Storing File: res://scripts/data/content_definition.gdc[39m[0m
+[  80% ] [90m[1msavepack[22m | Storing File: res://scripts/data/effect_executor_definition.gdc[39m[0m
+[  81% ] [90m[1msavepack[22m | Storing File: res://scripts/data/enemy_definition.gdc[39m[0m
+[  82% ] [90m[1msavepack[22m | Storing File: res://scripts/data/map_definition.gdc[39m[0m
+[  82% ] [90m[1msavepack[22m | Storing File: res://scripts/data/mechanic_effect_definition.gdc[39m[0m
+[  83% ] [90m[1msavepack[22m | Storing File: res://scripts/data/progression_definition.gdc[39m[0m
+[  84% ] [90m[1msavepack[22m | Storing File: res://scripts/data/requirement_definition.gdc[39m[0m
+[  85% ] [90m[1msavepack[22m | Storing File: res://scripts/data/skill_behavior_definition.gdc[39m[0m
+[  85% ] [90m[1msavepack[22m | Storing File: res://scripts/data/skill_definition.gdc[39m[0m
+[  86% ] [90m[1msavepack[22m | Storing File: res://scripts/data/skill_executor_definition.gdc[39m[0m
+[  87% ] [90m[1msavepack[22m | Storing File: res://scripts/data/skill_rank_definition.gdc[39m[0m
+[  87% ] [90m[1msavepack[22m | Storing File: res://scripts/data/spawn_definition.gdc[39m[0m
+[  88% ] [90m[1msavepack[22m | Storing File: res://scripts/data/status_effect_definition.gdc[39m[0m
+[  89% ] [90m[1msavepack[22m | Storing File: res://scripts/data/stat_modifier_definition.gdc[39m[0m
+[  90% ] [90m[1msavepack[22m | Storing File: res://scripts/data/targeting_definition.gdc[39m[0m
+[  90% ] [90m[1msavepack[22m | Storing File: res://scripts/progression/boss_gate.gdc[39m[0m
+[  91% ] [90m[1msavepack[22m | Storing File: res://scripts/progression/level_manager.gdc[39m[0m
+[  92% ] [90m[1msavepack[22m | Storing File: res://scripts/progression/xp_orb.gdc[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://scripts/ui/actor_sprite.gdc[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://scripts/ui/audio_feedback.gdc[39m[0m
+[  94% ] [90m[1msavepack[22m | Storing File: res://scripts/ui/foundation_menu.gdc[39m[0m
+[  95% ] [90m[1msavepack[22m | Storing File: res://scripts/ui/jointed_character.gdc[39m[0m
+[  96% ] [90m[1msavepack[22m | Storing File: res://scripts/ui/run_hud.gdc[39m[0m
+[  96% ] [90m[1msavepack[22m | Storing File: res://scripts/ui/run_presentation.gdc[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/world/arena_geometry.gdc[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/world/enemy_spawn_director.gdc[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/mechanics/area_expand.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/mechanics/cooldown_refund.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/mechanics/dash_shockwave.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/mechanics/echo_cast.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/mechanics/execute.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/mechanics/explosion_on_hit.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/mechanics/homing.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/mechanics/multishot.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/mechanics/on_kill_burst.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/mechanics/pierce.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/mechanics/projectile_split.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/mechanics/shield_reflect.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/stats/attack_speed.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/stats/cooldown_reduction.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/stats/crit_chance.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/stats/crit_damage.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/stats/damage.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/stats/max_hp.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/stats/move_speed.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/augments/stats/pickup_radius.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/bosses/ember_sentinel.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/bosses/stone_warden.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/characters/astra_loadout.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/characters/astra_stats.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/characters/boros_loadout.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/characters/boros_stats.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/characters/vex_loadout.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/characters/vex_stats.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/characters/vex_visual_frames.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/enemies/chaser.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/maps/enchanted_forest.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/maps/ruined_temple.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/maps/volcanic_arena.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/progression/combat_limits.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/progression/default.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/progression/spawn.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/skills/astra_basic.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/skills/astra_i.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/skills/astra_j.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/skills/astra_k.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/skills/astra_l.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/skills/boros_basic.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/skills/boros_i.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/skills/boros_j.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/skills/boros_k.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/skills/boros_l.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/skills/enemy_chaser_basic.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/skills/vex_basic.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/skills/vex_i.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/skills/vex_j.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/skills/vex_k.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/skills/vex_l.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://content/catalog.tres.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/world/map_layout_generator.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/bootstrap/main.tscn.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/characters/player.tscn.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/enemies/chaser.tscn.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/run/combat_run.tscn.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/run/movement_lab.tscn.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/actor.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/actor_stats.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/boss_actor.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/enemy_actor.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/health.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/movement_controller.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/player_actor.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/shield_instance.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/skill_input_router.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/actors/status_controller.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/app/content_registry.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/app/release_smoke.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/app/settings.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/augments/augment_manager.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/augments/augment_runtime.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/augments/eligibility_evaluator.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/augments/offer_generator.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/augments/upgrade_option.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/attack_controller.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/boss_telegraph.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/cast_budget.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/cast_intent.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/combat_flash.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/combat_service.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/damage_packet.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/damage_resolver.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/damage_result.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/projectile.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/rank_effect_system.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/skill_controller.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/skill_runtime.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/targeting_service.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/combat/timed_effect.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/core/combat_context.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/core/combat_run_root.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/core/event_bus.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/core/rng.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/core/run_root.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/core/run_state.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/actor_stat_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/augment_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/augment_effect_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/basic_attack_executor_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/boss_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/character_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/combat_limits_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/combat_loadout_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/content_catalog.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/content_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/effect_executor_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/enemy_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/map_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/mechanic_effect_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/progression_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/requirement_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/skill_behavior_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/skill_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/skill_executor_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/skill_rank_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/spawn_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/status_effect_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/stat_modifier_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/data/targeting_definition.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/progression/boss_gate.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/progression/level_manager.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/progression/xp_orb.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/ui/actor_sprite.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/ui/audio_feedback.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/ui/foundation_menu.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/ui/jointed_character.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/ui/run_hud.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/ui/run_presentation.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/world/arena_geometry.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://scripts/world/enemy_spawn_director.gd.remap[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://.godot/global_script_class_cache.cfg[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://.godot/uid_cache.bin[39m[0m
+[  98% ] [90m[1msavepack[22m | Storing File: res://project.binary[39m[0m
+[92m[ DONE ][39m [1msavepack[22m
+[0m
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RUN_FOUNDATION seed=20261015 content=endless-demo-v1
+BOOT_OK milestone=M5
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+RELEASE_PROFILE_OK astra
+COMBAT_RUN_STARTED loadout=loadout.vex seed=20261015
+RELEASE_PROFILE_OK vex
+COMBAT_RUN_STARTED loadout=loadout.boros seed=20261015
+RELEASE_PROFILE_OK boros
+RELEASE_SMOKE_OK profiles=3 boss_victories=3
+EXIT_CODE=0 EXPECTED=0
+WINDOWS_PACKAGE=D:\SelfProject\RougeLite\builds\EndlessSurvival-Windows.zip

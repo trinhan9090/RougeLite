@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="CombatLimitsDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/combat_limits_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+chain_depth = 3
+secondary_procs = 32
+projectiles_per_root = 64
+reflect_boss_hp_cap = 0.01

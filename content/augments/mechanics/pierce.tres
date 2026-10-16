@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="AugmentDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/augment_effect_definition.gd" id="1_ayw50"]
+[ext_resource type="Script" path="res://scripts/data/mechanic_effect_definition.gd" id="2_82toj"]
+[ext_resource type="Script" path="res://scripts/data/requirement_definition.gd" id="3_wqob3"]
+[ext_resource type="Script" path="res://scripts/data/augment_definition.gd" id="4_01ivt"]
+
+[sub_resource type="Resource" id="Resource_jeq0h"]
+script = ExtResource("2_82toj")
+auxiliary_values = Array[float]([0.0, 0.0, 0.0, 0.0, 0.0])
+effect_id = &"pierce"
+rank_values = Array[float]([1.0, 2.0, 3.0, 4.0, 5.0])
+
+[sub_resource type="Resource" id="Resource_pby08"]
+script = ExtResource("3_wqob3")
+required_capabilities = Array[StringName]([&"pierce_hit"])
+
+[resource]
+script = ExtResource("4_01ivt")
+description = "Additional unique targets per projectile."
+requirements = SubResource("Resource_pby08")
+effects = Array[ExtResource("1_ayw50")]([SubResource("Resource_jeq0h")])
+rarity_weight = 30.0
+id = &"augment.pierce"
+display_name = "Pierce"

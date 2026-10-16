@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Character Visual Manifest",
+  "type": "object",
+  "required": [
+    "character_id",
+    "art_version",
+    "source_blend",
+    "frame",
+    "animations",
+    "directions",
+    "license"
+  ],
+  "properties": {
+    "character_id": {
+      "type": "string",
+      "enum": [
+        "astra",
+        "vex",
+        "boros"
+      ]
+    },
+    "art_version": {
+      "type": "string"
+    },
+    "source_blend": {
+      "type": "string"
+    },
+    "frame": {
+      "type": "object",
+      "required": [
+        "width",
+        "height",
+        "feet_anchor",
+        "body_height_px"
+      ],
+      "properties": {
+        "width": {
+          "type": "integer",
+          "minimum": 16
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 16
+        },
+        "feet_anchor": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "body_height_px": {
+          "type": "integer",
+          "minimum": 8
+        }
+      }
+    },
+    "directions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "north",
+          "south",
+          "east",
+          "west",
+          "north_east",
+          "north_west",
+          "south_east",
+          "south_west"
+        ]
+      },
+      "minItems": 4,
+      "uniqueItems": true
+    },
+    "animations": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "fps",
+          "loop",
+          "frames"
+        ],
+        "properties": {
+          "fps": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "loop": {
+            "type": "boolean"
+          },
+          "frames": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "events": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "frame",
+                "type"
+              ],
+              "properties": {
+                "frame": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "type": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "license": {
+      "type": "string"
+    },
+    "provenance": {
+      "type": "object"
+    }
+  }
+}

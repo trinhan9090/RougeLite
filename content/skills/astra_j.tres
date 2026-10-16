@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SkillDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/effect_executor_definition.gd" id="1_qqy8l"]
+[ext_resource type="Script" path="res://scripts/data/status_effect_definition.gd" id="2_0u1mm"]
+[ext_resource type="Script" path="res://scripts/data/skill_rank_definition.gd" id="3_furg7"]
+[ext_resource type="Script" path="res://scripts/data/skill_behavior_definition.gd" id="4_e2c7m"]
+[ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="5_k6ted"]
+[ext_resource type="Script" path="res://scripts/data/targeting_definition.gd" id="6_oiewj"]
+
+[sub_resource type="Resource" id="Resource_k6ted"]
+script = ExtResource("2_0u1mm")
+
+[sub_resource type="Resource" id="Resource_oiewj"]
+script = ExtResource("1_qqy8l")
+status = SubResource("Resource_k6ted")
+executor_id = &"executor.projectile"
+
+[sub_resource type="Resource" id="Resource_ksrgw"]
+script = ExtResource("2_0u1mm")
+
+[sub_resource type="Resource" id="Resource_nnqs6"]
+script = ExtResource("4_e2c7m")
+status = SubResource("Resource_ksrgw")
+
+[sub_resource type="Resource" id="Resource_d4orm"]
+script = ExtResource("3_furg7")
+cooldown = 7.0
+damage = 36.0
+damage_type = "MAGIC"
+range_px = 620.0
+projectile_speed = 780.0
+behavior = SubResource("Resource_nnqs6")
+
+[sub_resource type="Resource" id="Resource_5vpla"]
+script = ExtResource("2_0u1mm")
+
+[sub_resource type="Resource" id="Resource_80m48"]
+script = ExtResource("4_e2c7m")
+status = SubResource("Resource_5vpla")
+
+[sub_resource type="Resource" id="Resource_1lwut"]
+script = ExtResource("3_furg7")
+rank = 2
+cooldown = 7.0
+damage = 44.0
+damage_type = "MAGIC"
+range_px = 620.0
+projectile_speed = 780.0
+pierce_count = 2
+behavior = SubResource("Resource_80m48")
+
+[sub_resource type="Resource" id="Resource_iiod7"]
+script = ExtResource("2_0u1mm")
+duration = 1.65
+
+[sub_resource type="Resource" id="Resource_2nhrf"]
+script = ExtResource("4_e2c7m")
+status = SubResource("Resource_iiod7")
+
+[sub_resource type="Resource" id="Resource_nwhgs"]
+script = ExtResource("3_furg7")
+rank = 3
+cooldown = 7.0
+damage = 54.0
+damage_type = "MAGIC"
+range_px = 620.0
+projectile_speed = 780.0
+pierce_count = 2
+behavior = SubResource("Resource_2nhrf")
+
+[sub_resource type="Resource" id="Resource_74wd0"]
+script = ExtResource("2_0u1mm")
+duration = 1.65
+
+[sub_resource type="Resource" id="Resource_povyx"]
+script = ExtResource("4_e2c7m")
+status = SubResource("Resource_74wd0")
+death_damage = 30.0
+
+[sub_resource type="Resource" id="Resource_6ahgd"]
+script = ExtResource("3_furg7")
+rank = 4
+cooldown = 7.0
+damage = 65.0
+damage_type = "MAGIC"
+range_px = 620.0
+projectile_speed = 780.0
+pierce_count = 2
+behavior = SubResource("Resource_povyx")
+
+[sub_resource type="Resource" id="Resource_3rgj8"]
+script = ExtResource("6_oiewj")
+policy = "cursor"
+acquisition_radius = 620.0
+
+[resource]
+script = ExtResource("5_k6ted")
+slot = 1
+unlock_level = 3
+max_rank = 4
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"cooldown_manage", &"repeat_cast", &"modify_projectile_angle", &"spawn_projectile_pattern", &"modify_projectile_count", &"pierce_hit", &"projectile_steering", &"apply_status"])
+executor = SubResource("Resource_oiewj")
+targeting = SubResource("Resource_3rgj8")
+rank_scaling = Array[ExtResource("3_furg7")]([SubResource("Resource_d4orm"), SubResource("Resource_1lwut"), SubResource("Resource_nwhgs"), SubResource("Resource_6ahgd")])
+id = &"skill.astra.j"
+display_name = "Radiant Snare"

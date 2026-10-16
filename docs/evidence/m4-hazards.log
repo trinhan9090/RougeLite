@@ -1,0 +1,11 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+PASS volcanic hazards preserve safe starting area
+PASS spawn validation excludes lava strips
+PASS lava warning grants time before damage
+PASS lava applies5 true damage on simulation ticks
+PASS paused lava cannot damage player
+PASS moving out of strip avoids further lava damage
+RESULT hazards: checks=6 failures=0
+

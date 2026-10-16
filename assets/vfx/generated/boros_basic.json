@@ -1,0 +1,14 @@
+{
+  "effect_id": "boros_basic",
+  "category": "slash",
+  "layer": 1,
+  "max_instances": 80,
+  "event_type": "confirmed_execution",
+  "parameters": {
+    "skill_id": "skill.boros.basic",
+    "color": "#be4e50",
+    "style": "sword",
+    "geometry": "runtime snapshot",
+    "prototype": true
+  }
+}

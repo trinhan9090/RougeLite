@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="MapDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/map_definition.gd" id="1_eu4as"]
+
+[resource]
+script = ExtResource("1_eu4as")
+obstacle_count = 14
+ground_color = Color(0.0627451, 0.16470589, 0.13333334, 1)
+obstacle_color = Color(0.14117648, 0.32941177, 0.23529412, 1)
+id = &"map.enchanted_forest"
+display_name = "Enchanted Forest"

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="AugmentDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/augment_effect_definition.gd" id="1_fedt8"]
+[ext_resource type="Script" path="res://scripts/data/mechanic_effect_definition.gd" id="2_ukc4d"]
+[ext_resource type="Script" path="res://scripts/data/requirement_definition.gd" id="3_hrok8"]
+[ext_resource type="Script" path="res://scripts/data/augment_definition.gd" id="4_3b0h2"]
+
+[sub_resource type="Resource" id="Resource_ski8j"]
+script = ExtResource("2_ukc4d")
+auxiliary_values = Array[float]([0.0, 0.0, 0.0, 0.0, 0.0])
+effect_id = &"area"
+rank_values = Array[float]([0.12, 0.24, 0.36, 0.48, 0.6])
+
+[sub_resource type="Resource" id="Resource_lsa1y"]
+script = ExtResource("3_hrok8")
+required_capabilities = Array[StringName]([&"resize_area"])
+
+[resource]
+script = ExtResource("4_3b0h2")
+description = "Increase radius or supported beam width."
+requirements = SubResource("Resource_lsa1y")
+effects = Array[ExtResource("1_fedt8")]([SubResource("Resource_ski8j")])
+rarity_weight = 30.0
+id = &"augment.area_expand"
+display_name = "Area Expand"

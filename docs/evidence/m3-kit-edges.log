@@ -1,0 +1,10 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Astra rooted death fires30damage pulse
+PASS Boros second ring repeats45percent including HP scaling
+PASS Vex roll kill refunds1.5s once
+PASS Vex roll cannot refund on second kill
+PASS Boros charge60 plus four10damage path-trail ticks
+PASS Vex storm budgeted15percent bounce hits distinct target at50percent damage
+RESULT kit edges: checks=6 failures=0
+

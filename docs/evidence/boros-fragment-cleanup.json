@@ -1,0 +1,5066 @@
+[
+  {
+    "file": "boros_basic_attack_east.png",
+    "frame": 0,
+    "removed_components": 7,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_basic_attack_east.png",
+    "frame": 1,
+    "removed_components": 5,
+    "removed_pixels": 436
+  },
+  {
+    "file": "boros_basic_attack_east.png",
+    "frame": 2,
+    "removed_components": 9,
+    "removed_pixels": 1112
+  },
+  {
+    "file": "boros_basic_attack_east.png",
+    "frame": 3,
+    "removed_components": 17,
+    "removed_pixels": 26
+  },
+  {
+    "file": "boros_basic_attack_east.png",
+    "frame": 4,
+    "removed_components": 8,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_basic_attack_east.png",
+    "frame": 5,
+    "removed_components": 7,
+    "removed_pixels": 1699
+  },
+  {
+    "file": "boros_basic_attack_east.png",
+    "frame": 6,
+    "removed_components": 3,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_basic_attack_east.png",
+    "frame": 7,
+    "removed_components": 3,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_basic_attack_east.png",
+    "frame": 8,
+    "removed_components": 14,
+    "removed_pixels": 17
+  },
+  {
+    "file": "boros_basic_attack_east.png",
+    "frame": 9,
+    "removed_components": 5,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_basic_attack_east.png",
+    "frame": 10,
+    "removed_components": 7,
+    "removed_pixels": 43
+  },
+  {
+    "file": "boros_basic_attack_east.png",
+    "frame": 11,
+    "removed_components": 9,
+    "removed_pixels": 12
+  },
+  {
+    "file": "boros_basic_attack_north.png",
+    "frame": 0,
+    "removed_components": 6,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_basic_attack_north.png",
+    "frame": 1,
+    "removed_components": 16,
+    "removed_pixels": 35
+  },
+  {
+    "file": "boros_basic_attack_north.png",
+    "frame": 2,
+    "removed_components": 7,
+    "removed_pixels": 22
+  },
+  {
+    "file": "boros_basic_attack_north.png",
+    "frame": 3,
+    "removed_components": 9,
+    "removed_pixels": 810
+  },
+  {
+    "file": "boros_basic_attack_north.png",
+    "frame": 4,
+    "removed_components": 6,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_basic_attack_north.png",
+    "frame": 5,
+    "removed_components": 7,
+    "removed_pixels": 25
+  },
+  {
+    "file": "boros_basic_attack_north.png",
+    "frame": 6,
+    "removed_components": 10,
+    "removed_pixels": 14
+  },
+  {
+    "file": "boros_basic_attack_north.png",
+    "frame": 7,
+    "removed_components": 7,
+    "removed_pixels": 35
+  },
+  {
+    "file": "boros_basic_attack_north.png",
+    "frame": 8,
+    "removed_components": 10,
+    "removed_pixels": 43
+  },
+  {
+    "file": "boros_basic_attack_north.png",
+    "frame": 9,
+    "removed_components": 11,
+    "removed_pixels": 45
+  },
+  {
+    "file": "boros_basic_attack_north.png",
+    "frame": 10,
+    "removed_components": 11,
+    "removed_pixels": 48
+  },
+  {
+    "file": "boros_basic_attack_north.png",
+    "frame": 11,
+    "removed_components": 9,
+    "removed_pixels": 18
+  },
+  {
+    "file": "boros_basic_attack_north_east.png",
+    "frame": 0,
+    "removed_components": 7,
+    "removed_pixels": 22
+  },
+  {
+    "file": "boros_basic_attack_north_east.png",
+    "frame": 1,
+    "removed_components": 14,
+    "removed_pixels": 597
+  },
+  {
+    "file": "boros_basic_attack_north_east.png",
+    "frame": 2,
+    "removed_components": 7,
+    "removed_pixels": 1082
+  },
+  {
+    "file": "boros_basic_attack_north_east.png",
+    "frame": 3,
+    "removed_components": 7,
+    "removed_pixels": 1359
+  },
+  {
+    "file": "boros_basic_attack_north_east.png",
+    "frame": 4,
+    "removed_components": 8,
+    "removed_pixels": 1792
+  },
+  {
+    "file": "boros_basic_attack_north_east.png",
+    "frame": 5,
+    "removed_components": 11,
+    "removed_pixels": 463
+  },
+  {
+    "file": "boros_basic_attack_north_east.png",
+    "frame": 6,
+    "removed_components": 10,
+    "removed_pixels": 691
+  },
+  {
+    "file": "boros_basic_attack_north_east.png",
+    "frame": 7,
+    "removed_components": 6,
+    "removed_pixels": 113
+  },
+  {
+    "file": "boros_basic_attack_north_east.png",
+    "frame": 8,
+    "removed_components": 6,
+    "removed_pixels": 1502
+  },
+  {
+    "file": "boros_basic_attack_north_east.png",
+    "frame": 9,
+    "removed_components": 8,
+    "removed_pixels": 26
+  },
+  {
+    "file": "boros_basic_attack_north_east.png",
+    "frame": 10,
+    "removed_components": 11,
+    "removed_pixels": 22
+  },
+  {
+    "file": "boros_basic_attack_north_east.png",
+    "frame": 11,
+    "removed_components": 5,
+    "removed_pixels": 25
+  },
+  {
+    "file": "boros_basic_attack_north_west.png",
+    "frame": 0,
+    "removed_components": 8,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_basic_attack_north_west.png",
+    "frame": 1,
+    "removed_components": 7,
+    "removed_pixels": 24
+  },
+  {
+    "file": "boros_basic_attack_north_west.png",
+    "frame": 2,
+    "removed_components": 5,
+    "removed_pixels": 1051
+  },
+  {
+    "file": "boros_basic_attack_north_west.png",
+    "frame": 3,
+    "removed_components": 7,
+    "removed_pixels": 2664
+  },
+  {
+    "file": "boros_basic_attack_north_west.png",
+    "frame": 4,
+    "removed_components": 10,
+    "removed_pixels": 37
+  },
+  {
+    "file": "boros_basic_attack_north_west.png",
+    "frame": 5,
+    "removed_components": 4,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_basic_attack_north_west.png",
+    "frame": 6,
+    "removed_components": 5,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_basic_attack_north_west.png",
+    "frame": 7,
+    "removed_components": 5,
+    "removed_pixels": 12
+  },
+  {
+    "file": "boros_basic_attack_north_west.png",
+    "frame": 8,
+    "removed_components": 6,
+    "removed_pixels": 7
+  },
+  {
+    "file": "boros_basic_attack_north_west.png",
+    "frame": 9,
+    "removed_components": 4,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_basic_attack_north_west.png",
+    "frame": 10,
+    "removed_components": 2,
+    "removed_pixels": 8
+  },
+  {
+    "file": "boros_basic_attack_north_west.png",
+    "frame": 11,
+    "removed_components": 6,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_basic_attack_south.png",
+    "frame": 0,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_basic_attack_south.png",
+    "frame": 1,
+    "removed_components": 5,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_basic_attack_south.png",
+    "frame": 2,
+    "removed_components": 8,
+    "removed_pixels": 1159
+  },
+  {
+    "file": "boros_basic_attack_south.png",
+    "frame": 3,
+    "removed_components": 5,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_basic_attack_south.png",
+    "frame": 4,
+    "removed_components": 5,
+    "removed_pixels": 1238
+  },
+  {
+    "file": "boros_basic_attack_south.png",
+    "frame": 5,
+    "removed_components": 5,
+    "removed_pixels": 329
+  },
+  {
+    "file": "boros_basic_attack_south.png",
+    "frame": 6,
+    "removed_components": 6,
+    "removed_pixels": 1147
+  },
+  {
+    "file": "boros_basic_attack_south.png",
+    "frame": 7,
+    "removed_components": 10,
+    "removed_pixels": 10
+  },
+  {
+    "file": "boros_basic_attack_south.png",
+    "frame": 8,
+    "removed_components": 12,
+    "removed_pixels": 1684
+  },
+  {
+    "file": "boros_basic_attack_south.png",
+    "frame": 9,
+    "removed_components": 11,
+    "removed_pixels": 12
+  },
+  {
+    "file": "boros_basic_attack_south.png",
+    "frame": 10,
+    "removed_components": 10,
+    "removed_pixels": 13
+  },
+  {
+    "file": "boros_basic_attack_south.png",
+    "frame": 11,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_basic_attack_south_east.png",
+    "frame": 0,
+    "removed_components": 2,
+    "removed_pixels": 16
+  },
+  {
+    "file": "boros_basic_attack_south_east.png",
+    "frame": 1,
+    "removed_components": 9,
+    "removed_pixels": 329
+  },
+  {
+    "file": "boros_basic_attack_south_east.png",
+    "frame": 2,
+    "removed_components": 9,
+    "removed_pixels": 1231
+  },
+  {
+    "file": "boros_basic_attack_south_east.png",
+    "frame": 3,
+    "removed_components": 16,
+    "removed_pixels": 2160
+  },
+  {
+    "file": "boros_basic_attack_south_east.png",
+    "frame": 4,
+    "removed_components": 10,
+    "removed_pixels": 2707
+  },
+  {
+    "file": "boros_basic_attack_south_east.png",
+    "frame": 5,
+    "removed_components": 11,
+    "removed_pixels": 22
+  },
+  {
+    "file": "boros_basic_attack_south_east.png",
+    "frame": 6,
+    "removed_components": 3,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_basic_attack_south_east.png",
+    "frame": 7,
+    "removed_components": 13,
+    "removed_pixels": 14
+  },
+  {
+    "file": "boros_basic_attack_south_east.png",
+    "frame": 8,
+    "removed_components": 8,
+    "removed_pixels": 36
+  },
+  {
+    "file": "boros_basic_attack_south_east.png",
+    "frame": 9,
+    "removed_components": 10,
+    "removed_pixels": 18
+  },
+  {
+    "file": "boros_basic_attack_south_east.png",
+    "frame": 10,
+    "removed_components": 13,
+    "removed_pixels": 44
+  },
+  {
+    "file": "boros_basic_attack_south_east.png",
+    "frame": 11,
+    "removed_components": 7,
+    "removed_pixels": 10
+  },
+  {
+    "file": "boros_basic_attack_south_west.png",
+    "frame": 0,
+    "removed_components": 5,
+    "removed_pixels": 7
+  },
+  {
+    "file": "boros_basic_attack_south_west.png",
+    "frame": 1,
+    "removed_components": 4,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_basic_attack_south_west.png",
+    "frame": 2,
+    "removed_components": 6,
+    "removed_pixels": 7
+  },
+  {
+    "file": "boros_basic_attack_south_west.png",
+    "frame": 3,
+    "removed_components": 6,
+    "removed_pixels": 2031
+  },
+  {
+    "file": "boros_basic_attack_south_west.png",
+    "frame": 4,
+    "removed_components": 7,
+    "removed_pixels": 21
+  },
+  {
+    "file": "boros_basic_attack_south_west.png",
+    "frame": 5,
+    "removed_components": 11,
+    "removed_pixels": 2195
+  },
+  {
+    "file": "boros_basic_attack_south_west.png",
+    "frame": 6,
+    "removed_components": 4,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_basic_attack_south_west.png",
+    "frame": 7,
+    "removed_components": 2,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_basic_attack_south_west.png",
+    "frame": 8,
+    "removed_components": 6,
+    "removed_pixels": 21
+  },
+  {
+    "file": "boros_basic_attack_south_west.png",
+    "frame": 9,
+    "removed_components": 4,
+    "removed_pixels": 56
+  },
+  {
+    "file": "boros_basic_attack_south_west.png",
+    "frame": 10,
+    "removed_components": 4,
+    "removed_pixels": 15
+  },
+  {
+    "file": "boros_basic_attack_south_west.png",
+    "frame": 11,
+    "removed_components": 9,
+    "removed_pixels": 27
+  },
+  {
+    "file": "boros_basic_attack_west.png",
+    "frame": 0,
+    "removed_components": 6,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_basic_attack_west.png",
+    "frame": 1,
+    "removed_components": 5,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_basic_attack_west.png",
+    "frame": 2,
+    "removed_components": 13,
+    "removed_pixels": 922
+  },
+  {
+    "file": "boros_basic_attack_west.png",
+    "frame": 3,
+    "removed_components": 10,
+    "removed_pixels": 1124
+  },
+  {
+    "file": "boros_basic_attack_west.png",
+    "frame": 4,
+    "removed_components": 8,
+    "removed_pixels": 212
+  },
+  {
+    "file": "boros_basic_attack_west.png",
+    "frame": 5,
+    "removed_components": 6,
+    "removed_pixels": 30
+  },
+  {
+    "file": "boros_basic_attack_west.png",
+    "frame": 6,
+    "removed_components": 3,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_basic_attack_west.png",
+    "frame": 7,
+    "removed_components": 9,
+    "removed_pixels": 38
+  },
+  {
+    "file": "boros_basic_attack_west.png",
+    "frame": 8,
+    "removed_components": 6,
+    "removed_pixels": 7
+  },
+  {
+    "file": "boros_basic_attack_west.png",
+    "frame": 9,
+    "removed_components": 5,
+    "removed_pixels": 31
+  },
+  {
+    "file": "boros_basic_attack_west.png",
+    "frame": 10,
+    "removed_components": 7,
+    "removed_pixels": 28
+  },
+  {
+    "file": "boros_basic_attack_west.png",
+    "frame": 11,
+    "removed_components": 6,
+    "removed_pixels": 10
+  },
+  {
+    "file": "boros_charge_end_east.png",
+    "frame": 0,
+    "removed_components": 11,
+    "removed_pixels": 54
+  },
+  {
+    "file": "boros_charge_end_east.png",
+    "frame": 1,
+    "removed_components": 4,
+    "removed_pixels": 68
+  },
+  {
+    "file": "boros_charge_end_east.png",
+    "frame": 2,
+    "removed_components": 8,
+    "removed_pixels": 43
+  },
+  {
+    "file": "boros_charge_end_east.png",
+    "frame": 3,
+    "removed_components": 4,
+    "removed_pixels": 74
+  },
+  {
+    "file": "boros_charge_end_east.png",
+    "frame": 4,
+    "removed_components": 4,
+    "removed_pixels": 74
+  },
+  {
+    "file": "boros_charge_end_east.png",
+    "frame": 5,
+    "removed_components": 4,
+    "removed_pixels": 74
+  },
+  {
+    "file": "boros_charge_end_north.png",
+    "frame": 0,
+    "removed_components": 7,
+    "removed_pixels": 43
+  },
+  {
+    "file": "boros_charge_end_north.png",
+    "frame": 1,
+    "removed_components": 4,
+    "removed_pixels": 140
+  },
+  {
+    "file": "boros_charge_end_north.png",
+    "frame": 2,
+    "removed_components": 5,
+    "removed_pixels": 12
+  },
+  {
+    "file": "boros_charge_end_north.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_charge_end_north.png",
+    "frame": 4,
+    "removed_components": 3,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_charge_end_north.png",
+    "frame": 5,
+    "removed_components": 3,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_charge_end_north_east.png",
+    "frame": 0,
+    "removed_components": 7,
+    "removed_pixels": 39
+  },
+  {
+    "file": "boros_charge_end_north_east.png",
+    "frame": 1,
+    "removed_components": 3,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_charge_end_north_east.png",
+    "frame": 2,
+    "removed_components": 2,
+    "removed_pixels": 12
+  },
+  {
+    "file": "boros_charge_end_north_east.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_charge_end_north_east.png",
+    "frame": 4,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_charge_end_north_east.png",
+    "frame": 5,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_charge_end_north_west.png",
+    "frame": 0,
+    "removed_components": 5,
+    "removed_pixels": 14
+  },
+  {
+    "file": "boros_charge_end_north_west.png",
+    "frame": 1,
+    "removed_components": 8,
+    "removed_pixels": 101
+  },
+  {
+    "file": "boros_charge_end_north_west.png",
+    "frame": 2,
+    "removed_components": 7,
+    "removed_pixels": 286
+  },
+  {
+    "file": "boros_charge_end_north_west.png",
+    "frame": 3,
+    "removed_components": 6,
+    "removed_pixels": 59
+  },
+  {
+    "file": "boros_charge_end_north_west.png",
+    "frame": 4,
+    "removed_components": 6,
+    "removed_pixels": 59
+  },
+  {
+    "file": "boros_charge_end_north_west.png",
+    "frame": 5,
+    "removed_components": 6,
+    "removed_pixels": 59
+  },
+  {
+    "file": "boros_charge_end_south.png",
+    "frame": 0,
+    "removed_components": 8,
+    "removed_pixels": 86
+  },
+  {
+    "file": "boros_charge_end_south.png",
+    "frame": 1,
+    "removed_components": 9,
+    "removed_pixels": 99
+  },
+  {
+    "file": "boros_charge_end_south.png",
+    "frame": 2,
+    "removed_components": 2,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_charge_end_south.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 66
+  },
+  {
+    "file": "boros_charge_end_south.png",
+    "frame": 4,
+    "removed_components": 3,
+    "removed_pixels": 66
+  },
+  {
+    "file": "boros_charge_end_south.png",
+    "frame": 5,
+    "removed_components": 3,
+    "removed_pixels": 66
+  },
+  {
+    "file": "boros_charge_end_south_east.png",
+    "frame": 0,
+    "removed_components": 6,
+    "removed_pixels": 157
+  },
+  {
+    "file": "boros_charge_end_south_east.png",
+    "frame": 1,
+    "removed_components": 7,
+    "removed_pixels": 40
+  },
+  {
+    "file": "boros_charge_end_south_east.png",
+    "frame": 2,
+    "removed_components": 7,
+    "removed_pixels": 141
+  },
+  {
+    "file": "boros_charge_end_south_east.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_charge_end_south_east.png",
+    "frame": 4,
+    "removed_components": 3,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_charge_end_south_east.png",
+    "frame": 5,
+    "removed_components": 3,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_charge_end_south_west.png",
+    "frame": 0,
+    "removed_components": 4,
+    "removed_pixels": 174
+  },
+  {
+    "file": "boros_charge_end_south_west.png",
+    "frame": 1,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_charge_end_south_west.png",
+    "frame": 2,
+    "removed_components": 2,
+    "removed_pixels": 86
+  },
+  {
+    "file": "boros_charge_end_south_west.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 59
+  },
+  {
+    "file": "boros_charge_end_south_west.png",
+    "frame": 4,
+    "removed_components": 3,
+    "removed_pixels": 59
+  },
+  {
+    "file": "boros_charge_end_south_west.png",
+    "frame": 5,
+    "removed_components": 3,
+    "removed_pixels": 59
+  },
+  {
+    "file": "boros_charge_end_west.png",
+    "frame": 0,
+    "removed_components": 4,
+    "removed_pixels": 377
+  },
+  {
+    "file": "boros_charge_end_west.png",
+    "frame": 1,
+    "removed_components": 6,
+    "removed_pixels": 177
+  },
+  {
+    "file": "boros_charge_end_west.png",
+    "frame": 2,
+    "removed_components": 7,
+    "removed_pixels": 466
+  },
+  {
+    "file": "boros_charge_end_west.png",
+    "frame": 3,
+    "removed_components": 2,
+    "removed_pixels": 101
+  },
+  {
+    "file": "boros_charge_end_west.png",
+    "frame": 4,
+    "removed_components": 2,
+    "removed_pixels": 101
+  },
+  {
+    "file": "boros_charge_end_west.png",
+    "frame": 5,
+    "removed_components": 2,
+    "removed_pixels": 101
+  },
+  {
+    "file": "boros_charge_loop_east.png",
+    "frame": 0,
+    "removed_components": 11,
+    "removed_pixels": 409
+  },
+  {
+    "file": "boros_charge_loop_east.png",
+    "frame": 1,
+    "removed_components": 6,
+    "removed_pixels": 125
+  },
+  {
+    "file": "boros_charge_loop_east.png",
+    "frame": 2,
+    "removed_components": 11,
+    "removed_pixels": 54
+  },
+  {
+    "file": "boros_charge_loop_east.png",
+    "frame": 3,
+    "removed_components": 4,
+    "removed_pixels": 68
+  },
+  {
+    "file": "boros_charge_loop_east.png",
+    "frame": 4,
+    "removed_components": 8,
+    "removed_pixels": 43
+  },
+  {
+    "file": "boros_charge_loop_east.png",
+    "frame": 5,
+    "removed_components": 4,
+    "removed_pixels": 74
+  },
+  {
+    "file": "boros_charge_loop_north.png",
+    "frame": 0,
+    "removed_components": 6,
+    "removed_pixels": 283
+  },
+  {
+    "file": "boros_charge_loop_north.png",
+    "frame": 1,
+    "removed_components": 5,
+    "removed_pixels": 42
+  },
+  {
+    "file": "boros_charge_loop_north.png",
+    "frame": 2,
+    "removed_components": 7,
+    "removed_pixels": 43
+  },
+  {
+    "file": "boros_charge_loop_north.png",
+    "frame": 3,
+    "removed_components": 4,
+    "removed_pixels": 140
+  },
+  {
+    "file": "boros_charge_loop_north.png",
+    "frame": 4,
+    "removed_components": 5,
+    "removed_pixels": 12
+  },
+  {
+    "file": "boros_charge_loop_north.png",
+    "frame": 5,
+    "removed_components": 3,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_charge_loop_north_east.png",
+    "frame": 1,
+    "removed_components": 8,
+    "removed_pixels": 33
+  },
+  {
+    "file": "boros_charge_loop_north_east.png",
+    "frame": 2,
+    "removed_components": 7,
+    "removed_pixels": 39
+  },
+  {
+    "file": "boros_charge_loop_north_east.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_charge_loop_north_east.png",
+    "frame": 4,
+    "removed_components": 2,
+    "removed_pixels": 12
+  },
+  {
+    "file": "boros_charge_loop_north_east.png",
+    "frame": 5,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_charge_loop_north_west.png",
+    "frame": 0,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_charge_loop_north_west.png",
+    "frame": 1,
+    "removed_components": 4,
+    "removed_pixels": 168
+  },
+  {
+    "file": "boros_charge_loop_north_west.png",
+    "frame": 2,
+    "removed_components": 5,
+    "removed_pixels": 14
+  },
+  {
+    "file": "boros_charge_loop_north_west.png",
+    "frame": 3,
+    "removed_components": 8,
+    "removed_pixels": 101
+  },
+  {
+    "file": "boros_charge_loop_north_west.png",
+    "frame": 4,
+    "removed_components": 7,
+    "removed_pixels": 286
+  },
+  {
+    "file": "boros_charge_loop_north_west.png",
+    "frame": 5,
+    "removed_components": 6,
+    "removed_pixels": 59
+  },
+  {
+    "file": "boros_charge_loop_south.png",
+    "frame": 0,
+    "removed_components": 3,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_charge_loop_south.png",
+    "frame": 1,
+    "removed_components": 5,
+    "removed_pixels": 25
+  },
+  {
+    "file": "boros_charge_loop_south.png",
+    "frame": 2,
+    "removed_components": 8,
+    "removed_pixels": 86
+  },
+  {
+    "file": "boros_charge_loop_south.png",
+    "frame": 3,
+    "removed_components": 9,
+    "removed_pixels": 99
+  },
+  {
+    "file": "boros_charge_loop_south.png",
+    "frame": 4,
+    "removed_components": 2,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_charge_loop_south.png",
+    "frame": 5,
+    "removed_components": 3,
+    "removed_pixels": 66
+  },
+  {
+    "file": "boros_charge_loop_south_east.png",
+    "frame": 0,
+    "removed_components": 6,
+    "removed_pixels": 151
+  },
+  {
+    "file": "boros_charge_loop_south_east.png",
+    "frame": 1,
+    "removed_components": 4,
+    "removed_pixels": 168
+  },
+  {
+    "file": "boros_charge_loop_south_east.png",
+    "frame": 2,
+    "removed_components": 6,
+    "removed_pixels": 157
+  },
+  {
+    "file": "boros_charge_loop_south_east.png",
+    "frame": 3,
+    "removed_components": 7,
+    "removed_pixels": 40
+  },
+  {
+    "file": "boros_charge_loop_south_east.png",
+    "frame": 4,
+    "removed_components": 7,
+    "removed_pixels": 141
+  },
+  {
+    "file": "boros_charge_loop_south_east.png",
+    "frame": 5,
+    "removed_components": 3,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_charge_loop_south_west.png",
+    "frame": 0,
+    "removed_components": 3,
+    "removed_pixels": 180
+  },
+  {
+    "file": "boros_charge_loop_south_west.png",
+    "frame": 1,
+    "removed_components": 3,
+    "removed_pixels": 37
+  },
+  {
+    "file": "boros_charge_loop_south_west.png",
+    "frame": 2,
+    "removed_components": 4,
+    "removed_pixels": 174
+  },
+  {
+    "file": "boros_charge_loop_south_west.png",
+    "frame": 3,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_charge_loop_south_west.png",
+    "frame": 4,
+    "removed_components": 2,
+    "removed_pixels": 86
+  },
+  {
+    "file": "boros_charge_loop_south_west.png",
+    "frame": 5,
+    "removed_components": 3,
+    "removed_pixels": 59
+  },
+  {
+    "file": "boros_charge_loop_west.png",
+    "frame": 0,
+    "removed_components": 4,
+    "removed_pixels": 392
+  },
+  {
+    "file": "boros_charge_loop_west.png",
+    "frame": 1,
+    "removed_components": 3,
+    "removed_pixels": 399
+  },
+  {
+    "file": "boros_charge_loop_west.png",
+    "frame": 2,
+    "removed_components": 4,
+    "removed_pixels": 377
+  },
+  {
+    "file": "boros_charge_loop_west.png",
+    "frame": 3,
+    "removed_components": 6,
+    "removed_pixels": 177
+  },
+  {
+    "file": "boros_charge_loop_west.png",
+    "frame": 4,
+    "removed_components": 7,
+    "removed_pixels": 466
+  },
+  {
+    "file": "boros_charge_loop_west.png",
+    "frame": 5,
+    "removed_components": 2,
+    "removed_pixels": 101
+  },
+  {
+    "file": "boros_charge_start_east.png",
+    "frame": 0,
+    "removed_components": 9,
+    "removed_pixels": 71
+  },
+  {
+    "file": "boros_charge_start_east.png",
+    "frame": 1,
+    "removed_components": 4,
+    "removed_pixels": 31
+  },
+  {
+    "file": "boros_charge_start_east.png",
+    "frame": 2,
+    "removed_components": 11,
+    "removed_pixels": 409
+  },
+  {
+    "file": "boros_charge_start_east.png",
+    "frame": 3,
+    "removed_components": 6,
+    "removed_pixels": 125
+  },
+  {
+    "file": "boros_charge_start_north.png",
+    "frame": 0,
+    "removed_components": 3,
+    "removed_pixels": 65
+  },
+  {
+    "file": "boros_charge_start_north.png",
+    "frame": 1,
+    "removed_components": 5,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_charge_start_north.png",
+    "frame": 2,
+    "removed_components": 6,
+    "removed_pixels": 283
+  },
+  {
+    "file": "boros_charge_start_north.png",
+    "frame": 3,
+    "removed_components": 5,
+    "removed_pixels": 42
+  },
+  {
+    "file": "boros_charge_start_north_east.png",
+    "frame": 0,
+    "removed_components": 7,
+    "removed_pixels": 47
+  },
+  {
+    "file": "boros_charge_start_north_east.png",
+    "frame": 1,
+    "removed_components": 7,
+    "removed_pixels": 141
+  },
+  {
+    "file": "boros_charge_start_north_east.png",
+    "frame": 3,
+    "removed_components": 8,
+    "removed_pixels": 33
+  },
+  {
+    "file": "boros_charge_start_north_west.png",
+    "frame": 0,
+    "removed_components": 4,
+    "removed_pixels": 14
+  },
+  {
+    "file": "boros_charge_start_north_west.png",
+    "frame": 1,
+    "removed_components": 5,
+    "removed_pixels": 110
+  },
+  {
+    "file": "boros_charge_start_north_west.png",
+    "frame": 2,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_charge_start_north_west.png",
+    "frame": 3,
+    "removed_components": 4,
+    "removed_pixels": 168
+  },
+  {
+    "file": "boros_charge_start_south.png",
+    "frame": 1,
+    "removed_components": 3,
+    "removed_pixels": 472
+  },
+  {
+    "file": "boros_charge_start_south.png",
+    "frame": 2,
+    "removed_components": 3,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_charge_start_south.png",
+    "frame": 3,
+    "removed_components": 5,
+    "removed_pixels": 25
+  },
+  {
+    "file": "boros_charge_start_south_east.png",
+    "frame": 0,
+    "removed_components": 5,
+    "removed_pixels": 31
+  },
+  {
+    "file": "boros_charge_start_south_east.png",
+    "frame": 1,
+    "removed_components": 10,
+    "removed_pixels": 176
+  },
+  {
+    "file": "boros_charge_start_south_east.png",
+    "frame": 2,
+    "removed_components": 6,
+    "removed_pixels": 151
+  },
+  {
+    "file": "boros_charge_start_south_east.png",
+    "frame": 3,
+    "removed_components": 4,
+    "removed_pixels": 168
+  },
+  {
+    "file": "boros_charge_start_south_west.png",
+    "frame": 0,
+    "removed_components": 4,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_charge_start_south_west.png",
+    "frame": 1,
+    "removed_components": 4,
+    "removed_pixels": 7
+  },
+  {
+    "file": "boros_charge_start_south_west.png",
+    "frame": 2,
+    "removed_components": 3,
+    "removed_pixels": 180
+  },
+  {
+    "file": "boros_charge_start_south_west.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 37
+  },
+  {
+    "file": "boros_charge_start_west.png",
+    "frame": 0,
+    "removed_components": 4,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_charge_start_west.png",
+    "frame": 1,
+    "removed_components": 1,
+    "removed_pixels": 285
+  },
+  {
+    "file": "boros_charge_start_west.png",
+    "frame": 2,
+    "removed_components": 4,
+    "removed_pixels": 392
+  },
+  {
+    "file": "boros_charge_start_west.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 399
+  },
+  {
+    "file": "boros_death_east.png",
+    "frame": 0,
+    "removed_components": 7,
+    "removed_pixels": 8
+  },
+  {
+    "file": "boros_death_east.png",
+    "frame": 1,
+    "removed_components": 4,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_death_east.png",
+    "frame": 2,
+    "removed_components": 11,
+    "removed_pixels": 18
+  },
+  {
+    "file": "boros_death_east.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 52
+  },
+  {
+    "file": "boros_death_east.png",
+    "frame": 4,
+    "removed_components": 3,
+    "removed_pixels": 52
+  },
+  {
+    "file": "boros_death_east.png",
+    "frame": 5,
+    "removed_components": 15,
+    "removed_pixels": 43
+  },
+  {
+    "file": "boros_death_east.png",
+    "frame": 6,
+    "removed_components": 13,
+    "removed_pixels": 57
+  },
+  {
+    "file": "boros_death_east.png",
+    "frame": 7,
+    "removed_components": 5,
+    "removed_pixels": 23
+  },
+  {
+    "file": "boros_death_east.png",
+    "frame": 8,
+    "removed_components": 5,
+    "removed_pixels": 53
+  },
+  {
+    "file": "boros_death_east.png",
+    "frame": 9,
+    "removed_components": 12,
+    "removed_pixels": 66
+  },
+  {
+    "file": "boros_death_east.png",
+    "frame": 10,
+    "removed_components": 12,
+    "removed_pixels": 66
+  },
+  {
+    "file": "boros_death_east.png",
+    "frame": 11,
+    "removed_components": 7,
+    "removed_pixels": 75
+  },
+  {
+    "file": "boros_death_east.png",
+    "frame": 12,
+    "removed_components": 14,
+    "removed_pixels": 37
+  },
+  {
+    "file": "boros_death_east.png",
+    "frame": 13,
+    "removed_components": 5,
+    "removed_pixels": 68
+  },
+  {
+    "file": "boros_death_north.png",
+    "frame": 0,
+    "removed_components": 9,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_death_north.png",
+    "frame": 1,
+    "removed_components": 6,
+    "removed_pixels": 12
+  },
+  {
+    "file": "boros_death_north.png",
+    "frame": 2,
+    "removed_components": 9,
+    "removed_pixels": 26
+  },
+  {
+    "file": "boros_death_north.png",
+    "frame": 3,
+    "removed_components": 4,
+    "removed_pixels": 25
+  },
+  {
+    "file": "boros_death_north.png",
+    "frame": 4,
+    "removed_components": 4,
+    "removed_pixels": 25
+  },
+  {
+    "file": "boros_death_north.png",
+    "frame": 5,
+    "removed_components": 4,
+    "removed_pixels": 56
+  },
+  {
+    "file": "boros_death_north.png",
+    "frame": 6,
+    "removed_components": 10,
+    "removed_pixels": 181
+  },
+  {
+    "file": "boros_death_north.png",
+    "frame": 7,
+    "removed_components": 8,
+    "removed_pixels": 81
+  },
+  {
+    "file": "boros_death_north.png",
+    "frame": 8,
+    "removed_components": 9,
+    "removed_pixels": 104
+  },
+  {
+    "file": "boros_death_north.png",
+    "frame": 9,
+    "removed_components": 5,
+    "removed_pixels": 122
+  },
+  {
+    "file": "boros_death_north.png",
+    "frame": 10,
+    "removed_components": 5,
+    "removed_pixels": 122
+  },
+  {
+    "file": "boros_death_north.png",
+    "frame": 11,
+    "removed_components": 18,
+    "removed_pixels": 61
+  },
+  {
+    "file": "boros_death_north.png",
+    "frame": 12,
+    "removed_components": 7,
+    "removed_pixels": 8
+  },
+  {
+    "file": "boros_death_north.png",
+    "frame": 13,
+    "removed_components": 7,
+    "removed_pixels": 25
+  },
+  {
+    "file": "boros_death_north_east.png",
+    "frame": 0,
+    "removed_components": 7,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_death_north_east.png",
+    "frame": 1,
+    "removed_components": 6,
+    "removed_pixels": 25
+  },
+  {
+    "file": "boros_death_north_east.png",
+    "frame": 2,
+    "removed_components": 10,
+    "removed_pixels": 33
+  },
+  {
+    "file": "boros_death_north_east.png",
+    "frame": 3,
+    "removed_components": 8,
+    "removed_pixels": 10
+  },
+  {
+    "file": "boros_death_north_east.png",
+    "frame": 4,
+    "removed_components": 8,
+    "removed_pixels": 10
+  },
+  {
+    "file": "boros_death_north_east.png",
+    "frame": 5,
+    "removed_components": 5,
+    "removed_pixels": 14
+  },
+  {
+    "file": "boros_death_north_east.png",
+    "frame": 6,
+    "removed_components": 21,
+    "removed_pixels": 171
+  },
+  {
+    "file": "boros_death_north_east.png",
+    "frame": 7,
+    "removed_components": 19,
+    "removed_pixels": 176
+  },
+  {
+    "file": "boros_death_north_east.png",
+    "frame": 8,
+    "removed_components": 14,
+    "removed_pixels": 70
+  },
+  {
+    "file": "boros_death_north_east.png",
+    "frame": 9,
+    "removed_components": 9,
+    "removed_pixels": 61
+  },
+  {
+    "file": "boros_death_north_east.png",
+    "frame": 10,
+    "removed_components": 9,
+    "removed_pixels": 61
+  },
+  {
+    "file": "boros_death_north_east.png",
+    "frame": 11,
+    "removed_components": 16,
+    "removed_pixels": 85
+  },
+  {
+    "file": "boros_death_north_east.png",
+    "frame": 12,
+    "removed_components": 13,
+    "removed_pixels": 75
+  },
+  {
+    "file": "boros_death_north_east.png",
+    "frame": 13,
+    "removed_components": 11,
+    "removed_pixels": 49
+  },
+  {
+    "file": "boros_death_north_west.png",
+    "frame": 0,
+    "removed_components": 7,
+    "removed_pixels": 8
+  },
+  {
+    "file": "boros_death_north_west.png",
+    "frame": 1,
+    "removed_components": 7,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_death_north_west.png",
+    "frame": 2,
+    "removed_components": 10,
+    "removed_pixels": 19
+  },
+  {
+    "file": "boros_death_north_west.png",
+    "frame": 3,
+    "removed_components": 12,
+    "removed_pixels": 51
+  },
+  {
+    "file": "boros_death_north_west.png",
+    "frame": 4,
+    "removed_components": 12,
+    "removed_pixels": 51
+  },
+  {
+    "file": "boros_death_north_west.png",
+    "frame": 5,
+    "removed_components": 11,
+    "removed_pixels": 97
+  },
+  {
+    "file": "boros_death_north_west.png",
+    "frame": 6,
+    "removed_components": 12,
+    "removed_pixels": 107
+  },
+  {
+    "file": "boros_death_north_west.png",
+    "frame": 7,
+    "removed_components": 9,
+    "removed_pixels": 139
+  },
+  {
+    "file": "boros_death_north_west.png",
+    "frame": 8,
+    "removed_components": 9,
+    "removed_pixels": 145
+  },
+  {
+    "file": "boros_death_north_west.png",
+    "frame": 9,
+    "removed_components": 7,
+    "removed_pixels": 216
+  },
+  {
+    "file": "boros_death_north_west.png",
+    "frame": 10,
+    "removed_components": 7,
+    "removed_pixels": 216
+  },
+  {
+    "file": "boros_death_north_west.png",
+    "frame": 11,
+    "removed_components": 6,
+    "removed_pixels": 45
+  },
+  {
+    "file": "boros_death_north_west.png",
+    "frame": 12,
+    "removed_components": 5,
+    "removed_pixels": 24
+  },
+  {
+    "file": "boros_death_north_west.png",
+    "frame": 13,
+    "removed_components": 6,
+    "removed_pixels": 17
+  },
+  {
+    "file": "boros_death_south.png",
+    "frame": 0,
+    "removed_components": 10,
+    "removed_pixels": 13
+  },
+  {
+    "file": "boros_death_south.png",
+    "frame": 1,
+    "removed_components": 6,
+    "removed_pixels": 32
+  },
+  {
+    "file": "boros_death_south.png",
+    "frame": 2,
+    "removed_components": 7,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_death_south.png",
+    "frame": 3,
+    "removed_components": 5,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_death_south.png",
+    "frame": 4,
+    "removed_components": 5,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_death_south.png",
+    "frame": 5,
+    "removed_components": 10,
+    "removed_pixels": 13
+  },
+  {
+    "file": "boros_death_south.png",
+    "frame": 6,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_death_south.png",
+    "frame": 7,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_death_south.png",
+    "frame": 8,
+    "removed_components": 5,
+    "removed_pixels": 7
+  },
+  {
+    "file": "boros_death_south.png",
+    "frame": 9,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_death_south.png",
+    "frame": 10,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_death_south.png",
+    "frame": 11,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_death_south.png",
+    "frame": 12,
+    "removed_components": 6,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_death_south.png",
+    "frame": 13,
+    "removed_components": 2,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_death_south_east.png",
+    "frame": 0,
+    "removed_components": 4,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_death_south_east.png",
+    "frame": 1,
+    "removed_components": 8,
+    "removed_pixels": 40
+  },
+  {
+    "file": "boros_death_south_east.png",
+    "frame": 2,
+    "removed_components": 9,
+    "removed_pixels": 26
+  },
+  {
+    "file": "boros_death_south_east.png",
+    "frame": 3,
+    "removed_components": 11,
+    "removed_pixels": 2052
+  },
+  {
+    "file": "boros_death_south_east.png",
+    "frame": 4,
+    "removed_components": 11,
+    "removed_pixels": 2052
+  },
+  {
+    "file": "boros_death_south_east.png",
+    "frame": 5,
+    "removed_components": 11,
+    "removed_pixels": 2601
+  },
+  {
+    "file": "boros_death_south_east.png",
+    "frame": 6,
+    "removed_components": 19,
+    "removed_pixels": 114
+  },
+  {
+    "file": "boros_death_south_east.png",
+    "frame": 7,
+    "removed_components": 32,
+    "removed_pixels": 155
+  },
+  {
+    "file": "boros_death_south_east.png",
+    "frame": 8,
+    "removed_components": 14,
+    "removed_pixels": 45
+  },
+  {
+    "file": "boros_death_south_east.png",
+    "frame": 9,
+    "removed_components": 8,
+    "removed_pixels": 54
+  },
+  {
+    "file": "boros_death_south_east.png",
+    "frame": 10,
+    "removed_components": 8,
+    "removed_pixels": 54
+  },
+  {
+    "file": "boros_death_south_east.png",
+    "frame": 11,
+    "removed_components": 8,
+    "removed_pixels": 17
+  },
+  {
+    "file": "boros_death_south_east.png",
+    "frame": 12,
+    "removed_components": 12,
+    "removed_pixels": 19
+  },
+  {
+    "file": "boros_death_south_east.png",
+    "frame": 13,
+    "removed_components": 5,
+    "removed_pixels": 72
+  },
+  {
+    "file": "boros_death_south_west.png",
+    "frame": 0,
+    "removed_components": 2,
+    "removed_pixels": 10
+  },
+  {
+    "file": "boros_death_south_west.png",
+    "frame": 1,
+    "removed_components": 4,
+    "removed_pixels": 34
+  },
+  {
+    "file": "boros_death_south_west.png",
+    "frame": 2,
+    "removed_components": 6,
+    "removed_pixels": 29
+  },
+  {
+    "file": "boros_death_south_west.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_death_south_west.png",
+    "frame": 4,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_death_south_west.png",
+    "frame": 5,
+    "removed_components": 12,
+    "removed_pixels": 64
+  },
+  {
+    "file": "boros_death_south_west.png",
+    "frame": 6,
+    "removed_components": 14,
+    "removed_pixels": 84
+  },
+  {
+    "file": "boros_death_south_west.png",
+    "frame": 7,
+    "removed_components": 17,
+    "removed_pixels": 138
+  },
+  {
+    "file": "boros_death_south_west.png",
+    "frame": 8,
+    "removed_components": 39,
+    "removed_pixels": 253
+  },
+  {
+    "file": "boros_death_south_west.png",
+    "frame": 9,
+    "removed_components": 13,
+    "removed_pixels": 284
+  },
+  {
+    "file": "boros_death_south_west.png",
+    "frame": 10,
+    "removed_components": 13,
+    "removed_pixels": 284
+  },
+  {
+    "file": "boros_death_south_west.png",
+    "frame": 11,
+    "removed_components": 8,
+    "removed_pixels": 823
+  },
+  {
+    "file": "boros_death_south_west.png",
+    "frame": 12,
+    "removed_components": 12,
+    "removed_pixels": 409
+  },
+  {
+    "file": "boros_death_south_west.png",
+    "frame": 13,
+    "removed_components": 10,
+    "removed_pixels": 189
+  },
+  {
+    "file": "boros_death_west.png",
+    "frame": 0,
+    "removed_components": 15,
+    "removed_pixels": 55
+  },
+  {
+    "file": "boros_death_west.png",
+    "frame": 1,
+    "removed_components": 7,
+    "removed_pixels": 14
+  },
+  {
+    "file": "boros_death_west.png",
+    "frame": 2,
+    "removed_components": 4,
+    "removed_pixels": 35
+  },
+  {
+    "file": "boros_death_west.png",
+    "frame": 3,
+    "removed_components": 6,
+    "removed_pixels": 25
+  },
+  {
+    "file": "boros_death_west.png",
+    "frame": 4,
+    "removed_components": 6,
+    "removed_pixels": 25
+  },
+  {
+    "file": "boros_death_west.png",
+    "frame": 5,
+    "removed_components": 12,
+    "removed_pixels": 43
+  },
+  {
+    "file": "boros_death_west.png",
+    "frame": 6,
+    "removed_components": 9,
+    "removed_pixels": 168
+  },
+  {
+    "file": "boros_death_west.png",
+    "frame": 7,
+    "removed_components": 6,
+    "removed_pixels": 74
+  },
+  {
+    "file": "boros_death_west.png",
+    "frame": 8,
+    "removed_components": 22,
+    "removed_pixels": 89
+  },
+  {
+    "file": "boros_death_west.png",
+    "frame": 9,
+    "removed_components": 8,
+    "removed_pixels": 90
+  },
+  {
+    "file": "boros_death_west.png",
+    "frame": 10,
+    "removed_components": 8,
+    "removed_pixels": 90
+  },
+  {
+    "file": "boros_death_west.png",
+    "frame": 11,
+    "removed_components": 13,
+    "removed_pixels": 201
+  },
+  {
+    "file": "boros_death_west.png",
+    "frame": 12,
+    "removed_components": 12,
+    "removed_pixels": 94
+  },
+  {
+    "file": "boros_death_west.png",
+    "frame": 13,
+    "removed_components": 6,
+    "removed_pixels": 77
+  },
+  {
+    "file": "boros_ground_slam_east.png",
+    "frame": 0,
+    "removed_components": 9,
+    "removed_pixels": 41
+  },
+  {
+    "file": "boros_ground_slam_east.png",
+    "frame": 1,
+    "removed_components": 12,
+    "removed_pixels": 105
+  },
+  {
+    "file": "boros_ground_slam_east.png",
+    "frame": 2,
+    "removed_components": 12,
+    "removed_pixels": 105
+  },
+  {
+    "file": "boros_ground_slam_east.png",
+    "frame": 3,
+    "removed_components": 7,
+    "removed_pixels": 8
+  },
+  {
+    "file": "boros_ground_slam_east.png",
+    "frame": 4,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_ground_slam_east.png",
+    "frame": 5,
+    "removed_components": 21,
+    "removed_pixels": 124
+  },
+  {
+    "file": "boros_ground_slam_east.png",
+    "frame": 6,
+    "removed_components": 21,
+    "removed_pixels": 124
+  },
+  {
+    "file": "boros_ground_slam_east.png",
+    "frame": 7,
+    "removed_components": 9,
+    "removed_pixels": 69
+  },
+  {
+    "file": "boros_ground_slam_east.png",
+    "frame": 8,
+    "removed_components": 8,
+    "removed_pixels": 3377
+  },
+  {
+    "file": "boros_ground_slam_east.png",
+    "frame": 9,
+    "removed_components": 9,
+    "removed_pixels": 44
+  },
+  {
+    "file": "boros_ground_slam_east.png",
+    "frame": 10,
+    "removed_components": 9,
+    "removed_pixels": 44
+  },
+  {
+    "file": "boros_ground_slam_east.png",
+    "frame": 11,
+    "removed_components": 6,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_ground_slam_east.png",
+    "frame": 12,
+    "removed_components": 6,
+    "removed_pixels": 938
+  },
+  {
+    "file": "boros_ground_slam_east.png",
+    "frame": 13,
+    "removed_components": 7,
+    "removed_pixels": 132
+  },
+  {
+    "file": "boros_ground_slam_east.png",
+    "frame": 14,
+    "removed_components": 7,
+    "removed_pixels": 132
+  },
+  {
+    "file": "boros_ground_slam_east.png",
+    "frame": 15,
+    "removed_components": 8,
+    "removed_pixels": 90
+  },
+  {
+    "file": "boros_ground_slam_north.png",
+    "frame": 0,
+    "removed_components": 7,
+    "removed_pixels": 70
+  },
+  {
+    "file": "boros_ground_slam_north.png",
+    "frame": 1,
+    "removed_components": 8,
+    "removed_pixels": 149
+  },
+  {
+    "file": "boros_ground_slam_north.png",
+    "frame": 2,
+    "removed_components": 8,
+    "removed_pixels": 149
+  },
+  {
+    "file": "boros_ground_slam_north.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 260
+  },
+  {
+    "file": "boros_ground_slam_north.png",
+    "frame": 4,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_ground_slam_north.png",
+    "frame": 5,
+    "removed_components": 14,
+    "removed_pixels": 90
+  },
+  {
+    "file": "boros_ground_slam_north.png",
+    "frame": 6,
+    "removed_components": 14,
+    "removed_pixels": 90
+  },
+  {
+    "file": "boros_ground_slam_north.png",
+    "frame": 7,
+    "removed_components": 3,
+    "removed_pixels": 13
+  },
+  {
+    "file": "boros_ground_slam_north.png",
+    "frame": 8,
+    "removed_components": 7,
+    "removed_pixels": 3755
+  },
+  {
+    "file": "boros_ground_slam_north.png",
+    "frame": 9,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_ground_slam_north.png",
+    "frame": 10,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_ground_slam_north.png",
+    "frame": 11,
+    "removed_components": 5,
+    "removed_pixels": 252
+  },
+  {
+    "file": "boros_ground_slam_north.png",
+    "frame": 12,
+    "removed_components": 3,
+    "removed_pixels": 447
+  },
+  {
+    "file": "boros_ground_slam_north.png",
+    "frame": 13,
+    "removed_components": 3,
+    "removed_pixels": 253
+  },
+  {
+    "file": "boros_ground_slam_north.png",
+    "frame": 14,
+    "removed_components": 3,
+    "removed_pixels": 253
+  },
+  {
+    "file": "boros_ground_slam_north.png",
+    "frame": 15,
+    "removed_components": 2,
+    "removed_pixels": 54
+  },
+  {
+    "file": "boros_ground_slam_north_east.png",
+    "frame": 0,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_ground_slam_north_east.png",
+    "frame": 1,
+    "removed_components": 8,
+    "removed_pixels": 14
+  },
+  {
+    "file": "boros_ground_slam_north_east.png",
+    "frame": 2,
+    "removed_components": 8,
+    "removed_pixels": 14
+  },
+  {
+    "file": "boros_ground_slam_north_east.png",
+    "frame": 3,
+    "removed_components": 4,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_ground_slam_north_east.png",
+    "frame": 4,
+    "removed_components": 5,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_ground_slam_north_east.png",
+    "frame": 5,
+    "removed_components": 7,
+    "removed_pixels": 8
+  },
+  {
+    "file": "boros_ground_slam_north_east.png",
+    "frame": 6,
+    "removed_components": 7,
+    "removed_pixels": 8
+  },
+  {
+    "file": "boros_ground_slam_north_east.png",
+    "frame": 7,
+    "removed_components": 8,
+    "removed_pixels": 10
+  },
+  {
+    "file": "boros_ground_slam_north_east.png",
+    "frame": 8,
+    "removed_components": 9,
+    "removed_pixels": 3550
+  },
+  {
+    "file": "boros_ground_slam_north_east.png",
+    "frame": 9,
+    "removed_components": 3,
+    "removed_pixels": 46
+  },
+  {
+    "file": "boros_ground_slam_north_east.png",
+    "frame": 10,
+    "removed_components": 3,
+    "removed_pixels": 46
+  },
+  {
+    "file": "boros_ground_slam_north_east.png",
+    "frame": 11,
+    "removed_components": 5,
+    "removed_pixels": 89
+  },
+  {
+    "file": "boros_ground_slam_north_east.png",
+    "frame": 12,
+    "removed_components": 5,
+    "removed_pixels": 10
+  },
+  {
+    "file": "boros_ground_slam_north_east.png",
+    "frame": 13,
+    "removed_components": 3,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_ground_slam_north_east.png",
+    "frame": 14,
+    "removed_components": 3,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_ground_slam_north_east.png",
+    "frame": 15,
+    "removed_components": 1,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_ground_slam_north_west.png",
+    "frame": 0,
+    "removed_components": 12,
+    "removed_pixels": 46
+  },
+  {
+    "file": "boros_ground_slam_north_west.png",
+    "frame": 1,
+    "removed_components": 4,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_ground_slam_north_west.png",
+    "frame": 2,
+    "removed_components": 4,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_ground_slam_north_west.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_ground_slam_north_west.png",
+    "frame": 4,
+    "removed_components": 1,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_ground_slam_north_west.png",
+    "frame": 5,
+    "removed_components": 6,
+    "removed_pixels": 23
+  },
+  {
+    "file": "boros_ground_slam_north_west.png",
+    "frame": 6,
+    "removed_components": 6,
+    "removed_pixels": 23
+  },
+  {
+    "file": "boros_ground_slam_north_west.png",
+    "frame": 7,
+    "removed_components": 1,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_ground_slam_north_west.png",
+    "frame": 8,
+    "removed_components": 10,
+    "removed_pixels": 3542
+  },
+  {
+    "file": "boros_ground_slam_north_west.png",
+    "frame": 9,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_ground_slam_north_west.png",
+    "frame": 10,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_ground_slam_north_west.png",
+    "frame": 11,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_ground_slam_north_west.png",
+    "frame": 12,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_ground_slam_north_west.png",
+    "frame": 13,
+    "removed_components": 4,
+    "removed_pixels": 25
+  },
+  {
+    "file": "boros_ground_slam_north_west.png",
+    "frame": 14,
+    "removed_components": 4,
+    "removed_pixels": 25
+  },
+  {
+    "file": "boros_ground_slam_south.png",
+    "frame": 0,
+    "removed_components": 1,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_ground_slam_south.png",
+    "frame": 1,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_ground_slam_south.png",
+    "frame": 2,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_ground_slam_south.png",
+    "frame": 4,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_ground_slam_south.png",
+    "frame": 5,
+    "removed_components": 10,
+    "removed_pixels": 274
+  },
+  {
+    "file": "boros_ground_slam_south.png",
+    "frame": 6,
+    "removed_components": 10,
+    "removed_pixels": 274
+  },
+  {
+    "file": "boros_ground_slam_south.png",
+    "frame": 7,
+    "removed_components": 5,
+    "removed_pixels": 182
+  },
+  {
+    "file": "boros_ground_slam_south.png",
+    "frame": 8,
+    "removed_components": 9,
+    "removed_pixels": 19
+  },
+  {
+    "file": "boros_ground_slam_south.png",
+    "frame": 9,
+    "removed_components": 5,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_ground_slam_south.png",
+    "frame": 10,
+    "removed_components": 5,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_ground_slam_south.png",
+    "frame": 11,
+    "removed_components": 10,
+    "removed_pixels": 14
+  },
+  {
+    "file": "boros_ground_slam_south.png",
+    "frame": 12,
+    "removed_components": 4,
+    "removed_pixels": 28
+  },
+  {
+    "file": "boros_ground_slam_south.png",
+    "frame": 13,
+    "removed_components": 8,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_ground_slam_south.png",
+    "frame": 14,
+    "removed_components": 8,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_ground_slam_south_east.png",
+    "frame": 0,
+    "removed_components": 12,
+    "removed_pixels": 160
+  },
+  {
+    "file": "boros_ground_slam_south_east.png",
+    "frame": 1,
+    "removed_components": 4,
+    "removed_pixels": 123
+  },
+  {
+    "file": "boros_ground_slam_south_east.png",
+    "frame": 2,
+    "removed_components": 4,
+    "removed_pixels": 123
+  },
+  {
+    "file": "boros_ground_slam_south_east.png",
+    "frame": 3,
+    "removed_components": 7,
+    "removed_pixels": 101
+  },
+  {
+    "file": "boros_ground_slam_south_east.png",
+    "frame": 4,
+    "removed_components": 1,
+    "removed_pixels": 12
+  },
+  {
+    "file": "boros_ground_slam_south_east.png",
+    "frame": 5,
+    "removed_components": 7,
+    "removed_pixels": 139
+  },
+  {
+    "file": "boros_ground_slam_south_east.png",
+    "frame": 6,
+    "removed_components": 7,
+    "removed_pixels": 139
+  },
+  {
+    "file": "boros_ground_slam_south_east.png",
+    "frame": 7,
+    "removed_components": 5,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_ground_slam_south_east.png",
+    "frame": 8,
+    "removed_components": 17,
+    "removed_pixels": 4017
+  },
+  {
+    "file": "boros_ground_slam_south_east.png",
+    "frame": 9,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_ground_slam_south_east.png",
+    "frame": 10,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_ground_slam_south_east.png",
+    "frame": 11,
+    "removed_components": 13,
+    "removed_pixels": 145
+  },
+  {
+    "file": "boros_ground_slam_south_east.png",
+    "frame": 12,
+    "removed_components": 4,
+    "removed_pixels": 92
+  },
+  {
+    "file": "boros_ground_slam_south_east.png",
+    "frame": 13,
+    "removed_components": 9,
+    "removed_pixels": 19
+  },
+  {
+    "file": "boros_ground_slam_south_east.png",
+    "frame": 14,
+    "removed_components": 9,
+    "removed_pixels": 19
+  },
+  {
+    "file": "boros_ground_slam_south_east.png",
+    "frame": 15,
+    "removed_components": 2,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_ground_slam_south_west.png",
+    "frame": 0,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_ground_slam_south_west.png",
+    "frame": 1,
+    "removed_components": 7,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_ground_slam_south_west.png",
+    "frame": 2,
+    "removed_components": 7,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_ground_slam_south_west.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_ground_slam_south_west.png",
+    "frame": 4,
+    "removed_components": 5,
+    "removed_pixels": 20
+  },
+  {
+    "file": "boros_ground_slam_south_west.png",
+    "frame": 5,
+    "removed_components": 6,
+    "removed_pixels": 37
+  },
+  {
+    "file": "boros_ground_slam_south_west.png",
+    "frame": 6,
+    "removed_components": 6,
+    "removed_pixels": 37
+  },
+  {
+    "file": "boros_ground_slam_south_west.png",
+    "frame": 7,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_ground_slam_south_west.png",
+    "frame": 8,
+    "removed_components": 4,
+    "removed_pixels": 3673
+  },
+  {
+    "file": "boros_ground_slam_south_west.png",
+    "frame": 9,
+    "removed_components": 3,
+    "removed_pixels": 7
+  },
+  {
+    "file": "boros_ground_slam_south_west.png",
+    "frame": 10,
+    "removed_components": 3,
+    "removed_pixels": 7
+  },
+  {
+    "file": "boros_ground_slam_south_west.png",
+    "frame": 11,
+    "removed_components": 4,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_ground_slam_south_west.png",
+    "frame": 12,
+    "removed_components": 1,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_ground_slam_south_west.png",
+    "frame": 13,
+    "removed_components": 4,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_ground_slam_south_west.png",
+    "frame": 14,
+    "removed_components": 4,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_ground_slam_south_west.png",
+    "frame": 15,
+    "removed_components": 3,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_ground_slam_west.png",
+    "frame": 0,
+    "removed_components": 6,
+    "removed_pixels": 10
+  },
+  {
+    "file": "boros_ground_slam_west.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 38
+  },
+  {
+    "file": "boros_ground_slam_west.png",
+    "frame": 4,
+    "removed_components": 6,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_ground_slam_west.png",
+    "frame": 5,
+    "removed_components": 2,
+    "removed_pixels": 15
+  },
+  {
+    "file": "boros_ground_slam_west.png",
+    "frame": 6,
+    "removed_components": 2,
+    "removed_pixels": 15
+  },
+  {
+    "file": "boros_ground_slam_west.png",
+    "frame": 7,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_ground_slam_west.png",
+    "frame": 8,
+    "removed_components": 7,
+    "removed_pixels": 3335
+  },
+  {
+    "file": "boros_ground_slam_west.png",
+    "frame": 9,
+    "removed_components": 9,
+    "removed_pixels": 28
+  },
+  {
+    "file": "boros_ground_slam_west.png",
+    "frame": 10,
+    "removed_components": 9,
+    "removed_pixels": 28
+  },
+  {
+    "file": "boros_ground_slam_west.png",
+    "frame": 11,
+    "removed_components": 7,
+    "removed_pixels": 16
+  },
+  {
+    "file": "boros_ground_slam_west.png",
+    "frame": 12,
+    "removed_components": 14,
+    "removed_pixels": 34
+  },
+  {
+    "file": "boros_ground_slam_west.png",
+    "frame": 13,
+    "removed_components": 7,
+    "removed_pixels": 17
+  },
+  {
+    "file": "boros_ground_slam_west.png",
+    "frame": 14,
+    "removed_components": 7,
+    "removed_pixels": 17
+  },
+  {
+    "file": "boros_ground_slam_west.png",
+    "frame": 15,
+    "removed_components": 3,
+    "removed_pixels": 7
+  },
+  {
+    "file": "boros_hurt_east.png",
+    "frame": 1,
+    "removed_components": 5,
+    "removed_pixels": 1624
+  },
+  {
+    "file": "boros_hurt_east.png",
+    "frame": 2,
+    "removed_components": 4,
+    "removed_pixels": 146
+  },
+  {
+    "file": "boros_hurt_north.png",
+    "frame": 1,
+    "removed_components": 2,
+    "removed_pixels": 28
+  },
+  {
+    "file": "boros_hurt_north.png",
+    "frame": 2,
+    "removed_components": 3,
+    "removed_pixels": 50
+  },
+  {
+    "file": "boros_hurt_north_east.png",
+    "frame": 0,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_hurt_north_east.png",
+    "frame": 1,
+    "removed_components": 4,
+    "removed_pixels": 115
+  },
+  {
+    "file": "boros_hurt_north_east.png",
+    "frame": 2,
+    "removed_components": 5,
+    "removed_pixels": 33
+  },
+  {
+    "file": "boros_hurt_north_west.png",
+    "frame": 0,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_hurt_north_west.png",
+    "frame": 1,
+    "removed_components": 1,
+    "removed_pixels": 29
+  },
+  {
+    "file": "boros_hurt_north_west.png",
+    "frame": 2,
+    "removed_components": 4,
+    "removed_pixels": 27
+  },
+  {
+    "file": "boros_hurt_north_west.png",
+    "frame": 3,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_hurt_south_east.png",
+    "frame": 0,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_hurt_south_east.png",
+    "frame": 1,
+    "removed_components": 5,
+    "removed_pixels": 118
+  },
+  {
+    "file": "boros_hurt_south_east.png",
+    "frame": 2,
+    "removed_components": 3,
+    "removed_pixels": 86
+  },
+  {
+    "file": "boros_hurt_south_east.png",
+    "frame": 3,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_hurt_south_west.png",
+    "frame": 1,
+    "removed_components": 1,
+    "removed_pixels": 1344
+  },
+  {
+    "file": "boros_hurt_south_west.png",
+    "frame": 2,
+    "removed_components": 1,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_hurt_south_west.png",
+    "frame": 3,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_hurt_west.png",
+    "frame": 2,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_idle_east.png",
+    "frame": 0,
+    "removed_components": 6,
+    "removed_pixels": 83
+  },
+  {
+    "file": "boros_idle_east.png",
+    "frame": 1,
+    "removed_components": 5,
+    "removed_pixels": 147
+  },
+  {
+    "file": "boros_idle_east.png",
+    "frame": 2,
+    "removed_components": 11,
+    "removed_pixels": 101
+  },
+  {
+    "file": "boros_idle_east.png",
+    "frame": 3,
+    "removed_components": 4,
+    "removed_pixels": 93
+  },
+  {
+    "file": "boros_idle_east.png",
+    "frame": 4,
+    "removed_components": 15,
+    "removed_pixels": 109
+  },
+  {
+    "file": "boros_idle_east.png",
+    "frame": 5,
+    "removed_components": 8,
+    "removed_pixels": 162
+  },
+  {
+    "file": "boros_idle_east.png",
+    "frame": 6,
+    "removed_components": 10,
+    "removed_pixels": 207
+  },
+  {
+    "file": "boros_idle_east.png",
+    "frame": 7,
+    "removed_components": 5,
+    "removed_pixels": 159
+  },
+  {
+    "file": "boros_idle_north.png",
+    "frame": 0,
+    "removed_components": 9,
+    "removed_pixels": 13
+  },
+  {
+    "file": "boros_idle_north.png",
+    "frame": 1,
+    "removed_components": 7,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_idle_north.png",
+    "frame": 2,
+    "removed_components": 3,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_idle_north.png",
+    "frame": 3,
+    "removed_components": 10,
+    "removed_pixels": 18
+  },
+  {
+    "file": "boros_idle_north.png",
+    "frame": 4,
+    "removed_components": 13,
+    "removed_pixels": 44
+  },
+  {
+    "file": "boros_idle_north.png",
+    "frame": 5,
+    "removed_components": 5,
+    "removed_pixels": 8
+  },
+  {
+    "file": "boros_idle_north.png",
+    "frame": 6,
+    "removed_components": 2,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_idle_north.png",
+    "frame": 7,
+    "removed_components": 7,
+    "removed_pixels": 8
+  },
+  {
+    "file": "boros_idle_north_east.png",
+    "frame": 0,
+    "removed_components": 5,
+    "removed_pixels": 66
+  },
+  {
+    "file": "boros_idle_north_east.png",
+    "frame": 1,
+    "removed_components": 10,
+    "removed_pixels": 123
+  },
+  {
+    "file": "boros_idle_north_east.png",
+    "frame": 2,
+    "removed_components": 16,
+    "removed_pixels": 164
+  },
+  {
+    "file": "boros_idle_north_east.png",
+    "frame": 3,
+    "removed_components": 11,
+    "removed_pixels": 207
+  },
+  {
+    "file": "boros_idle_north_east.png",
+    "frame": 4,
+    "removed_components": 18,
+    "removed_pixels": 205
+  },
+  {
+    "file": "boros_idle_north_east.png",
+    "frame": 5,
+    "removed_components": 9,
+    "removed_pixels": 107
+  },
+  {
+    "file": "boros_idle_north_east.png",
+    "frame": 6,
+    "removed_components": 15,
+    "removed_pixels": 244
+  },
+  {
+    "file": "boros_idle_north_east.png",
+    "frame": 7,
+    "removed_components": 11,
+    "removed_pixels": 58
+  },
+  {
+    "file": "boros_idle_north_west.png",
+    "frame": 0,
+    "removed_components": 8,
+    "removed_pixels": 155
+  },
+  {
+    "file": "boros_idle_north_west.png",
+    "frame": 1,
+    "removed_components": 8,
+    "removed_pixels": 145
+  },
+  {
+    "file": "boros_idle_north_west.png",
+    "frame": 2,
+    "removed_components": 15,
+    "removed_pixels": 82
+  },
+  {
+    "file": "boros_idle_north_west.png",
+    "frame": 3,
+    "removed_components": 17,
+    "removed_pixels": 106
+  },
+  {
+    "file": "boros_idle_north_west.png",
+    "frame": 4,
+    "removed_components": 6,
+    "removed_pixels": 126
+  },
+  {
+    "file": "boros_idle_north_west.png",
+    "frame": 5,
+    "removed_components": 6,
+    "removed_pixels": 158
+  },
+  {
+    "file": "boros_idle_north_west.png",
+    "frame": 6,
+    "removed_components": 8,
+    "removed_pixels": 98
+  },
+  {
+    "file": "boros_idle_north_west.png",
+    "frame": 7,
+    "removed_components": 10,
+    "removed_pixels": 87
+  },
+  {
+    "file": "boros_idle_south.png",
+    "frame": 0,
+    "removed_components": 1,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_idle_south.png",
+    "frame": 1,
+    "removed_components": 7,
+    "removed_pixels": 77
+  },
+  {
+    "file": "boros_idle_south.png",
+    "frame": 2,
+    "removed_components": 10,
+    "removed_pixels": 96
+  },
+  {
+    "file": "boros_idle_south.png",
+    "frame": 3,
+    "removed_components": 4,
+    "removed_pixels": 27
+  },
+  {
+    "file": "boros_idle_south.png",
+    "frame": 4,
+    "removed_components": 8,
+    "removed_pixels": 19
+  },
+  {
+    "file": "boros_idle_south.png",
+    "frame": 5,
+    "removed_components": 3,
+    "removed_pixels": 31
+  },
+  {
+    "file": "boros_idle_south.png",
+    "frame": 6,
+    "removed_components": 11,
+    "removed_pixels": 152
+  },
+  {
+    "file": "boros_idle_south.png",
+    "frame": 7,
+    "removed_components": 8,
+    "removed_pixels": 38
+  },
+  {
+    "file": "boros_idle_south_east.png",
+    "frame": 0,
+    "removed_components": 6,
+    "removed_pixels": 241
+  },
+  {
+    "file": "boros_idle_south_east.png",
+    "frame": 1,
+    "removed_components": 10,
+    "removed_pixels": 243
+  },
+  {
+    "file": "boros_idle_south_east.png",
+    "frame": 2,
+    "removed_components": 9,
+    "removed_pixels": 134
+  },
+  {
+    "file": "boros_idle_south_east.png",
+    "frame": 3,
+    "removed_components": 12,
+    "removed_pixels": 86
+  },
+  {
+    "file": "boros_idle_south_east.png",
+    "frame": 4,
+    "removed_components": 12,
+    "removed_pixels": 195
+  },
+  {
+    "file": "boros_idle_south_east.png",
+    "frame": 5,
+    "removed_components": 10,
+    "removed_pixels": 279
+  },
+  {
+    "file": "boros_idle_south_east.png",
+    "frame": 6,
+    "removed_components": 9,
+    "removed_pixels": 185
+  },
+  {
+    "file": "boros_idle_south_east.png",
+    "frame": 7,
+    "removed_components": 6,
+    "removed_pixels": 82
+  },
+  {
+    "file": "boros_idle_south_west.png",
+    "frame": 0,
+    "removed_components": 2,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_idle_south_west.png",
+    "frame": 1,
+    "removed_components": 4,
+    "removed_pixels": 87
+  },
+  {
+    "file": "boros_idle_south_west.png",
+    "frame": 2,
+    "removed_components": 1,
+    "removed_pixels": 98
+  },
+  {
+    "file": "boros_idle_south_west.png",
+    "frame": 3,
+    "removed_components": 4,
+    "removed_pixels": 38
+  },
+  {
+    "file": "boros_idle_south_west.png",
+    "frame": 4,
+    "removed_components": 7,
+    "removed_pixels": 28
+  },
+  {
+    "file": "boros_idle_south_west.png",
+    "frame": 5,
+    "removed_components": 6,
+    "removed_pixels": 52
+  },
+  {
+    "file": "boros_idle_south_west.png",
+    "frame": 6,
+    "removed_components": 5,
+    "removed_pixels": 130
+  },
+  {
+    "file": "boros_idle_south_west.png",
+    "frame": 7,
+    "removed_components": 4,
+    "removed_pixels": 22
+  },
+  {
+    "file": "boros_idle_west.png",
+    "frame": 0,
+    "removed_components": 12,
+    "removed_pixels": 34
+  },
+  {
+    "file": "boros_idle_west.png",
+    "frame": 1,
+    "removed_components": 7,
+    "removed_pixels": 84
+  },
+  {
+    "file": "boros_idle_west.png",
+    "frame": 2,
+    "removed_components": 11,
+    "removed_pixels": 52
+  },
+  {
+    "file": "boros_idle_west.png",
+    "frame": 3,
+    "removed_components": 6,
+    "removed_pixels": 82
+  },
+  {
+    "file": "boros_idle_west.png",
+    "frame": 4,
+    "removed_components": 4,
+    "removed_pixels": 92
+  },
+  {
+    "file": "boros_idle_west.png",
+    "frame": 5,
+    "removed_components": 8,
+    "removed_pixels": 58
+  },
+  {
+    "file": "boros_idle_west.png",
+    "frame": 6,
+    "removed_components": 12,
+    "removed_pixels": 62
+  },
+  {
+    "file": "boros_idle_west.png",
+    "frame": 7,
+    "removed_components": 6,
+    "removed_pixels": 77
+  },
+  {
+    "file": "boros_iron_resolve_east.png",
+    "frame": 0,
+    "removed_components": 9,
+    "removed_pixels": 41
+  },
+  {
+    "file": "boros_iron_resolve_east.png",
+    "frame": 1,
+    "removed_components": 7,
+    "removed_pixels": 8
+  },
+  {
+    "file": "boros_iron_resolve_east.png",
+    "frame": 2,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_iron_resolve_east.png",
+    "frame": 3,
+    "removed_components": 21,
+    "removed_pixels": 124
+  },
+  {
+    "file": "boros_iron_resolve_east.png",
+    "frame": 4,
+    "removed_components": 9,
+    "removed_pixels": 69
+  },
+  {
+    "file": "boros_iron_resolve_east.png",
+    "frame": 5,
+    "removed_components": 6,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_iron_resolve_east.png",
+    "frame": 6,
+    "removed_components": 7,
+    "removed_pixels": 132
+  },
+  {
+    "file": "boros_iron_resolve_east.png",
+    "frame": 7,
+    "removed_components": 8,
+    "removed_pixels": 90
+  },
+  {
+    "file": "boros_iron_resolve_north.png",
+    "frame": 0,
+    "removed_components": 7,
+    "removed_pixels": 70
+  },
+  {
+    "file": "boros_iron_resolve_north.png",
+    "frame": 1,
+    "removed_components": 3,
+    "removed_pixels": 260
+  },
+  {
+    "file": "boros_iron_resolve_north.png",
+    "frame": 2,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_iron_resolve_north.png",
+    "frame": 3,
+    "removed_components": 14,
+    "removed_pixels": 90
+  },
+  {
+    "file": "boros_iron_resolve_north.png",
+    "frame": 4,
+    "removed_components": 3,
+    "removed_pixels": 13
+  },
+  {
+    "file": "boros_iron_resolve_north.png",
+    "frame": 5,
+    "removed_components": 5,
+    "removed_pixels": 252
+  },
+  {
+    "file": "boros_iron_resolve_north.png",
+    "frame": 6,
+    "removed_components": 3,
+    "removed_pixels": 253
+  },
+  {
+    "file": "boros_iron_resolve_north.png",
+    "frame": 7,
+    "removed_components": 2,
+    "removed_pixels": 54
+  },
+  {
+    "file": "boros_iron_resolve_north_east.png",
+    "frame": 0,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_iron_resolve_north_east.png",
+    "frame": 1,
+    "removed_components": 4,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_iron_resolve_north_east.png",
+    "frame": 2,
+    "removed_components": 5,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_iron_resolve_north_east.png",
+    "frame": 3,
+    "removed_components": 7,
+    "removed_pixels": 8
+  },
+  {
+    "file": "boros_iron_resolve_north_east.png",
+    "frame": 4,
+    "removed_components": 8,
+    "removed_pixels": 10
+  },
+  {
+    "file": "boros_iron_resolve_north_east.png",
+    "frame": 5,
+    "removed_components": 5,
+    "removed_pixels": 89
+  },
+  {
+    "file": "boros_iron_resolve_north_east.png",
+    "frame": 6,
+    "removed_components": 3,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_iron_resolve_north_east.png",
+    "frame": 7,
+    "removed_components": 1,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_iron_resolve_north_west.png",
+    "frame": 0,
+    "removed_components": 12,
+    "removed_pixels": 46
+  },
+  {
+    "file": "boros_iron_resolve_north_west.png",
+    "frame": 1,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_iron_resolve_north_west.png",
+    "frame": 2,
+    "removed_components": 1,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_iron_resolve_north_west.png",
+    "frame": 3,
+    "removed_components": 6,
+    "removed_pixels": 23
+  },
+  {
+    "file": "boros_iron_resolve_north_west.png",
+    "frame": 4,
+    "removed_components": 1,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_iron_resolve_north_west.png",
+    "frame": 5,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_iron_resolve_north_west.png",
+    "frame": 6,
+    "removed_components": 4,
+    "removed_pixels": 25
+  },
+  {
+    "file": "boros_iron_resolve_south.png",
+    "frame": 0,
+    "removed_components": 1,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_iron_resolve_south.png",
+    "frame": 2,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_iron_resolve_south.png",
+    "frame": 3,
+    "removed_components": 10,
+    "removed_pixels": 274
+  },
+  {
+    "file": "boros_iron_resolve_south.png",
+    "frame": 4,
+    "removed_components": 5,
+    "removed_pixels": 182
+  },
+  {
+    "file": "boros_iron_resolve_south.png",
+    "frame": 5,
+    "removed_components": 10,
+    "removed_pixels": 14
+  },
+  {
+    "file": "boros_iron_resolve_south.png",
+    "frame": 6,
+    "removed_components": 8,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_iron_resolve_south_east.png",
+    "frame": 0,
+    "removed_components": 12,
+    "removed_pixels": 160
+  },
+  {
+    "file": "boros_iron_resolve_south_east.png",
+    "frame": 1,
+    "removed_components": 7,
+    "removed_pixels": 101
+  },
+  {
+    "file": "boros_iron_resolve_south_east.png",
+    "frame": 2,
+    "removed_components": 1,
+    "removed_pixels": 12
+  },
+  {
+    "file": "boros_iron_resolve_south_east.png",
+    "frame": 3,
+    "removed_components": 7,
+    "removed_pixels": 139
+  },
+  {
+    "file": "boros_iron_resolve_south_east.png",
+    "frame": 4,
+    "removed_components": 5,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_iron_resolve_south_east.png",
+    "frame": 5,
+    "removed_components": 13,
+    "removed_pixels": 145
+  },
+  {
+    "file": "boros_iron_resolve_south_east.png",
+    "frame": 6,
+    "removed_components": 9,
+    "removed_pixels": 19
+  },
+  {
+    "file": "boros_iron_resolve_south_east.png",
+    "frame": 7,
+    "removed_components": 2,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_iron_resolve_south_west.png",
+    "frame": 0,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_iron_resolve_south_west.png",
+    "frame": 1,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_iron_resolve_south_west.png",
+    "frame": 2,
+    "removed_components": 5,
+    "removed_pixels": 20
+  },
+  {
+    "file": "boros_iron_resolve_south_west.png",
+    "frame": 3,
+    "removed_components": 6,
+    "removed_pixels": 37
+  },
+  {
+    "file": "boros_iron_resolve_south_west.png",
+    "frame": 4,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_iron_resolve_south_west.png",
+    "frame": 5,
+    "removed_components": 4,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_iron_resolve_south_west.png",
+    "frame": 6,
+    "removed_components": 4,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_iron_resolve_south_west.png",
+    "frame": 7,
+    "removed_components": 3,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_iron_resolve_west.png",
+    "frame": 0,
+    "removed_components": 6,
+    "removed_pixels": 10
+  },
+  {
+    "file": "boros_iron_resolve_west.png",
+    "frame": 1,
+    "removed_components": 3,
+    "removed_pixels": 38
+  },
+  {
+    "file": "boros_iron_resolve_west.png",
+    "frame": 2,
+    "removed_components": 6,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_iron_resolve_west.png",
+    "frame": 3,
+    "removed_components": 2,
+    "removed_pixels": 15
+  },
+  {
+    "file": "boros_iron_resolve_west.png",
+    "frame": 4,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_iron_resolve_west.png",
+    "frame": 5,
+    "removed_components": 7,
+    "removed_pixels": 16
+  },
+  {
+    "file": "boros_iron_resolve_west.png",
+    "frame": 6,
+    "removed_components": 7,
+    "removed_pixels": 17
+  },
+  {
+    "file": "boros_iron_resolve_west.png",
+    "frame": 7,
+    "removed_components": 3,
+    "removed_pixels": 7
+  },
+  {
+    "file": "boros_run_east.png",
+    "frame": 0,
+    "removed_components": 4,
+    "removed_pixels": 90
+  },
+  {
+    "file": "boros_run_east.png",
+    "frame": 1,
+    "removed_components": 9,
+    "removed_pixels": 670
+  },
+  {
+    "file": "boros_run_east.png",
+    "frame": 2,
+    "removed_components": 6,
+    "removed_pixels": 808
+  },
+  {
+    "file": "boros_run_east.png",
+    "frame": 3,
+    "removed_components": 8,
+    "removed_pixels": 970
+  },
+  {
+    "file": "boros_run_east.png",
+    "frame": 4,
+    "removed_components": 5,
+    "removed_pixels": 1072
+  },
+  {
+    "file": "boros_run_east.png",
+    "frame": 5,
+    "removed_components": 4,
+    "removed_pixels": 171
+  },
+  {
+    "file": "boros_run_east.png",
+    "frame": 6,
+    "removed_components": 4,
+    "removed_pixels": 171
+  },
+  {
+    "file": "boros_run_east.png",
+    "frame": 7,
+    "removed_components": 6,
+    "removed_pixels": 83
+  },
+  {
+    "file": "boros_run_east.png",
+    "frame": 8,
+    "removed_components": 3,
+    "removed_pixels": 89
+  },
+  {
+    "file": "boros_run_east.png",
+    "frame": 9,
+    "removed_components": 11,
+    "removed_pixels": 128
+  },
+  {
+    "file": "boros_run_east.png",
+    "frame": 10,
+    "removed_components": 5,
+    "removed_pixels": 127
+  },
+  {
+    "file": "boros_run_east.png",
+    "frame": 11,
+    "removed_components": 5,
+    "removed_pixels": 475
+  },
+  {
+    "file": "boros_run_north.png",
+    "frame": 0,
+    "removed_components": 3,
+    "removed_pixels": 7
+  },
+  {
+    "file": "boros_run_north.png",
+    "frame": 1,
+    "removed_components": 6,
+    "removed_pixels": 28
+  },
+  {
+    "file": "boros_run_north.png",
+    "frame": 2,
+    "removed_components": 4,
+    "removed_pixels": 32
+  },
+  {
+    "file": "boros_run_north.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 29
+  },
+  {
+    "file": "boros_run_north.png",
+    "frame": 4,
+    "removed_components": 4,
+    "removed_pixels": 29
+  },
+  {
+    "file": "boros_run_north.png",
+    "frame": 5,
+    "removed_components": 3,
+    "removed_pixels": 24
+  },
+  {
+    "file": "boros_run_north.png",
+    "frame": 6,
+    "removed_components": 3,
+    "removed_pixels": 24
+  },
+  {
+    "file": "boros_run_north.png",
+    "frame": 7,
+    "removed_components": 2,
+    "removed_pixels": 27
+  },
+  {
+    "file": "boros_run_north.png",
+    "frame": 8,
+    "removed_components": 2,
+    "removed_pixels": 29
+  },
+  {
+    "file": "boros_run_north.png",
+    "frame": 9,
+    "removed_components": 2,
+    "removed_pixels": 32
+  },
+  {
+    "file": "boros_run_north.png",
+    "frame": 10,
+    "removed_components": 2,
+    "removed_pixels": 24
+  },
+  {
+    "file": "boros_run_north.png",
+    "frame": 11,
+    "removed_components": 3,
+    "removed_pixels": 40
+  },
+  {
+    "file": "boros_run_north_east.png",
+    "frame": 0,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_run_north_east.png",
+    "frame": 1,
+    "removed_components": 4,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_run_north_east.png",
+    "frame": 2,
+    "removed_components": 5,
+    "removed_pixels": 8
+  },
+  {
+    "file": "boros_run_north_east.png",
+    "frame": 3,
+    "removed_components": 5,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_run_north_east.png",
+    "frame": 4,
+    "removed_components": 4,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_run_north_east.png",
+    "frame": 5,
+    "removed_components": 5,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_run_north_east.png",
+    "frame": 6,
+    "removed_components": 5,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_run_north_east.png",
+    "frame": 7,
+    "removed_components": 4,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_run_north_east.png",
+    "frame": 8,
+    "removed_components": 3,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_run_north_east.png",
+    "frame": 9,
+    "removed_components": 3,
+    "removed_pixels": 8
+  },
+  {
+    "file": "boros_run_north_east.png",
+    "frame": 10,
+    "removed_components": 1,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_run_north_east.png",
+    "frame": 11,
+    "removed_components": 7,
+    "removed_pixels": 7
+  },
+  {
+    "file": "boros_run_north_west.png",
+    "frame": 0,
+    "removed_components": 2,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_run_north_west.png",
+    "frame": 1,
+    "removed_components": 5,
+    "removed_pixels": 44
+  },
+  {
+    "file": "boros_run_north_west.png",
+    "frame": 2,
+    "removed_components": 7,
+    "removed_pixels": 22
+  },
+  {
+    "file": "boros_run_north_west.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 15
+  },
+  {
+    "file": "boros_run_north_west.png",
+    "frame": 4,
+    "removed_components": 6,
+    "removed_pixels": 16
+  },
+  {
+    "file": "boros_run_north_west.png",
+    "frame": 5,
+    "removed_components": 5,
+    "removed_pixels": 20
+  },
+  {
+    "file": "boros_run_north_west.png",
+    "frame": 6,
+    "removed_components": 5,
+    "removed_pixels": 20
+  },
+  {
+    "file": "boros_run_north_west.png",
+    "frame": 7,
+    "removed_components": 4,
+    "removed_pixels": 30
+  },
+  {
+    "file": "boros_run_north_west.png",
+    "frame": 8,
+    "removed_components": 4,
+    "removed_pixels": 23
+  },
+  {
+    "file": "boros_run_north_west.png",
+    "frame": 9,
+    "removed_components": 3,
+    "removed_pixels": 12
+  },
+  {
+    "file": "boros_run_north_west.png",
+    "frame": 10,
+    "removed_components": 5,
+    "removed_pixels": 26
+  },
+  {
+    "file": "boros_run_north_west.png",
+    "frame": 11,
+    "removed_components": 5,
+    "removed_pixels": 69
+  },
+  {
+    "file": "boros_run_south.png",
+    "frame": 0,
+    "removed_components": 4,
+    "removed_pixels": 10
+  },
+  {
+    "file": "boros_run_south.png",
+    "frame": 1,
+    "removed_components": 5,
+    "removed_pixels": 33
+  },
+  {
+    "file": "boros_run_south.png",
+    "frame": 2,
+    "removed_components": 2,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_run_south.png",
+    "frame": 3,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_run_south.png",
+    "frame": 4,
+    "removed_components": 3,
+    "removed_pixels": 16
+  },
+  {
+    "file": "boros_run_south.png",
+    "frame": 5,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_run_south.png",
+    "frame": 6,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_run_south.png",
+    "frame": 7,
+    "removed_components": 4,
+    "removed_pixels": 8
+  },
+  {
+    "file": "boros_run_south.png",
+    "frame": 8,
+    "removed_components": 1,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_run_south.png",
+    "frame": 9,
+    "removed_components": 4,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_run_south.png",
+    "frame": 10,
+    "removed_components": 4,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_run_south_east.png",
+    "frame": 0,
+    "removed_components": 6,
+    "removed_pixels": 8
+  },
+  {
+    "file": "boros_run_south_east.png",
+    "frame": 1,
+    "removed_components": 8,
+    "removed_pixels": 107
+  },
+  {
+    "file": "boros_run_south_east.png",
+    "frame": 2,
+    "removed_components": 6,
+    "removed_pixels": 10
+  },
+  {
+    "file": "boros_run_south_east.png",
+    "frame": 3,
+    "removed_components": 11,
+    "removed_pixels": 274
+  },
+  {
+    "file": "boros_run_south_east.png",
+    "frame": 4,
+    "removed_components": 5,
+    "removed_pixels": 14
+  },
+  {
+    "file": "boros_run_south_east.png",
+    "frame": 5,
+    "removed_components": 4,
+    "removed_pixels": 384
+  },
+  {
+    "file": "boros_run_south_east.png",
+    "frame": 6,
+    "removed_components": 4,
+    "removed_pixels": 384
+  },
+  {
+    "file": "boros_run_south_east.png",
+    "frame": 7,
+    "removed_components": 6,
+    "removed_pixels": 345
+  },
+  {
+    "file": "boros_run_south_east.png",
+    "frame": 8,
+    "removed_components": 3,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_run_south_east.png",
+    "frame": 9,
+    "removed_components": 6,
+    "removed_pixels": 166
+  },
+  {
+    "file": "boros_run_south_east.png",
+    "frame": 10,
+    "removed_components": 5,
+    "removed_pixels": 236
+  },
+  {
+    "file": "boros_run_south_east.png",
+    "frame": 11,
+    "removed_components": 6,
+    "removed_pixels": 23
+  },
+  {
+    "file": "boros_run_south_west.png",
+    "frame": 0,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_run_south_west.png",
+    "frame": 1,
+    "removed_components": 6,
+    "removed_pixels": 7
+  },
+  {
+    "file": "boros_run_south_west.png",
+    "frame": 2,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_run_south_west.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_run_south_west.png",
+    "frame": 4,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_run_south_west.png",
+    "frame": 5,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_run_south_west.png",
+    "frame": 6,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_run_south_west.png",
+    "frame": 7,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_run_south_west.png",
+    "frame": 8,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_run_south_west.png",
+    "frame": 9,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_run_south_west.png",
+    "frame": 11,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_run_west.png",
+    "frame": 0,
+    "removed_components": 6,
+    "removed_pixels": 94
+  },
+  {
+    "file": "boros_run_west.png",
+    "frame": 1,
+    "removed_components": 5,
+    "removed_pixels": 44
+  },
+  {
+    "file": "boros_run_west.png",
+    "frame": 2,
+    "removed_components": 5,
+    "removed_pixels": 30
+  },
+  {
+    "file": "boros_run_west.png",
+    "frame": 3,
+    "removed_components": 6,
+    "removed_pixels": 30
+  },
+  {
+    "file": "boros_run_west.png",
+    "frame": 4,
+    "removed_components": 1,
+    "removed_pixels": 32
+  },
+  {
+    "file": "boros_run_west.png",
+    "frame": 5,
+    "removed_components": 2,
+    "removed_pixels": 27
+  },
+  {
+    "file": "boros_run_west.png",
+    "frame": 6,
+    "removed_components": 2,
+    "removed_pixels": 27
+  },
+  {
+    "file": "boros_run_west.png",
+    "frame": 7,
+    "removed_components": 6,
+    "removed_pixels": 79
+  },
+  {
+    "file": "boros_run_west.png",
+    "frame": 8,
+    "removed_components": 3,
+    "removed_pixels": 22
+  },
+  {
+    "file": "boros_run_west.png",
+    "frame": 9,
+    "removed_components": 7,
+    "removed_pixels": 29
+  },
+  {
+    "file": "boros_run_west.png",
+    "frame": 10,
+    "removed_components": 9,
+    "removed_pixels": 36
+  },
+  {
+    "file": "boros_run_west.png",
+    "frame": 11,
+    "removed_components": 5,
+    "removed_pixels": 18
+  },
+  {
+    "file": "boros_transform_end_east.png",
+    "frame": 0,
+    "removed_components": 9,
+    "removed_pixels": 44
+  },
+  {
+    "file": "boros_transform_end_east.png",
+    "frame": 1,
+    "removed_components": 6,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_transform_end_east.png",
+    "frame": 2,
+    "removed_components": 6,
+    "removed_pixels": 938
+  },
+  {
+    "file": "boros_transform_end_east.png",
+    "frame": 3,
+    "removed_components": 7,
+    "removed_pixels": 132
+  },
+  {
+    "file": "boros_transform_end_east.png",
+    "frame": 4,
+    "removed_components": 7,
+    "removed_pixels": 132
+  },
+  {
+    "file": "boros_transform_end_east.png",
+    "frame": 5,
+    "removed_components": 8,
+    "removed_pixels": 90
+  },
+  {
+    "file": "boros_transform_end_east.png",
+    "frame": 6,
+    "removed_components": 8,
+    "removed_pixels": 90
+  },
+  {
+    "file": "boros_transform_end_east.png",
+    "frame": 7,
+    "removed_components": 8,
+    "removed_pixels": 90
+  },
+  {
+    "file": "boros_transform_end_north.png",
+    "frame": 0,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_transform_end_north.png",
+    "frame": 1,
+    "removed_components": 5,
+    "removed_pixels": 252
+  },
+  {
+    "file": "boros_transform_end_north.png",
+    "frame": 2,
+    "removed_components": 3,
+    "removed_pixels": 447
+  },
+  {
+    "file": "boros_transform_end_north.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 253
+  },
+  {
+    "file": "boros_transform_end_north.png",
+    "frame": 4,
+    "removed_components": 3,
+    "removed_pixels": 253
+  },
+  {
+    "file": "boros_transform_end_north.png",
+    "frame": 5,
+    "removed_components": 2,
+    "removed_pixels": 54
+  },
+  {
+    "file": "boros_transform_end_north.png",
+    "frame": 6,
+    "removed_components": 2,
+    "removed_pixels": 54
+  },
+  {
+    "file": "boros_transform_end_north.png",
+    "frame": 7,
+    "removed_components": 2,
+    "removed_pixels": 54
+  },
+  {
+    "file": "boros_transform_end_north_east.png",
+    "frame": 0,
+    "removed_components": 3,
+    "removed_pixels": 46
+  },
+  {
+    "file": "boros_transform_end_north_east.png",
+    "frame": 1,
+    "removed_components": 5,
+    "removed_pixels": 89
+  },
+  {
+    "file": "boros_transform_end_north_east.png",
+    "frame": 2,
+    "removed_components": 5,
+    "removed_pixels": 10
+  },
+  {
+    "file": "boros_transform_end_north_east.png",
+    "frame": 3,
+    "removed_components": 3,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_transform_end_north_east.png",
+    "frame": 4,
+    "removed_components": 3,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_transform_end_north_east.png",
+    "frame": 5,
+    "removed_components": 1,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_transform_end_north_east.png",
+    "frame": 6,
+    "removed_components": 1,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_transform_end_north_east.png",
+    "frame": 7,
+    "removed_components": 1,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_transform_end_north_west.png",
+    "frame": 0,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_transform_end_north_west.png",
+    "frame": 1,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_transform_end_north_west.png",
+    "frame": 2,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_transform_end_north_west.png",
+    "frame": 3,
+    "removed_components": 4,
+    "removed_pixels": 25
+  },
+  {
+    "file": "boros_transform_end_north_west.png",
+    "frame": 4,
+    "removed_components": 4,
+    "removed_pixels": 25
+  },
+  {
+    "file": "boros_transform_end_south.png",
+    "frame": 0,
+    "removed_components": 5,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_transform_end_south.png",
+    "frame": 1,
+    "removed_components": 10,
+    "removed_pixels": 14
+  },
+  {
+    "file": "boros_transform_end_south.png",
+    "frame": 2,
+    "removed_components": 4,
+    "removed_pixels": 28
+  },
+  {
+    "file": "boros_transform_end_south.png",
+    "frame": 3,
+    "removed_components": 8,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_transform_end_south.png",
+    "frame": 4,
+    "removed_components": 8,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_transform_end_south_east.png",
+    "frame": 0,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_transform_end_south_east.png",
+    "frame": 1,
+    "removed_components": 13,
+    "removed_pixels": 145
+  },
+  {
+    "file": "boros_transform_end_south_east.png",
+    "frame": 2,
+    "removed_components": 4,
+    "removed_pixels": 92
+  },
+  {
+    "file": "boros_transform_end_south_east.png",
+    "frame": 3,
+    "removed_components": 9,
+    "removed_pixels": 19
+  },
+  {
+    "file": "boros_transform_end_south_east.png",
+    "frame": 4,
+    "removed_components": 9,
+    "removed_pixels": 19
+  },
+  {
+    "file": "boros_transform_end_south_east.png",
+    "frame": 5,
+    "removed_components": 2,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_transform_end_south_east.png",
+    "frame": 6,
+    "removed_components": 2,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_transform_end_south_east.png",
+    "frame": 7,
+    "removed_components": 2,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_transform_end_south_west.png",
+    "frame": 0,
+    "removed_components": 3,
+    "removed_pixels": 7
+  },
+  {
+    "file": "boros_transform_end_south_west.png",
+    "frame": 1,
+    "removed_components": 4,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_transform_end_south_west.png",
+    "frame": 2,
+    "removed_components": 1,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_transform_end_south_west.png",
+    "frame": 3,
+    "removed_components": 4,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_transform_end_south_west.png",
+    "frame": 4,
+    "removed_components": 4,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_transform_end_south_west.png",
+    "frame": 5,
+    "removed_components": 3,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_transform_end_south_west.png",
+    "frame": 6,
+    "removed_components": 3,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_transform_end_south_west.png",
+    "frame": 7,
+    "removed_components": 3,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_transform_end_west.png",
+    "frame": 0,
+    "removed_components": 9,
+    "removed_pixels": 28
+  },
+  {
+    "file": "boros_transform_end_west.png",
+    "frame": 1,
+    "removed_components": 7,
+    "removed_pixels": 16
+  },
+  {
+    "file": "boros_transform_end_west.png",
+    "frame": 2,
+    "removed_components": 14,
+    "removed_pixels": 34
+  },
+  {
+    "file": "boros_transform_end_west.png",
+    "frame": 3,
+    "removed_components": 7,
+    "removed_pixels": 17
+  },
+  {
+    "file": "boros_transform_end_west.png",
+    "frame": 4,
+    "removed_components": 7,
+    "removed_pixels": 17
+  },
+  {
+    "file": "boros_transform_end_west.png",
+    "frame": 5,
+    "removed_components": 3,
+    "removed_pixels": 7
+  },
+  {
+    "file": "boros_transform_end_west.png",
+    "frame": 6,
+    "removed_components": 3,
+    "removed_pixels": 7
+  },
+  {
+    "file": "boros_transform_end_west.png",
+    "frame": 7,
+    "removed_components": 3,
+    "removed_pixels": 7
+  },
+  {
+    "file": "boros_transform_start_east.png",
+    "frame": 0,
+    "removed_components": 9,
+    "removed_pixels": 41
+  },
+  {
+    "file": "boros_transform_start_east.png",
+    "frame": 1,
+    "removed_components": 12,
+    "removed_pixels": 105
+  },
+  {
+    "file": "boros_transform_start_east.png",
+    "frame": 2,
+    "removed_components": 7,
+    "removed_pixels": 8
+  },
+  {
+    "file": "boros_transform_start_east.png",
+    "frame": 3,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_transform_start_east.png",
+    "frame": 4,
+    "removed_components": 21,
+    "removed_pixels": 124
+  },
+  {
+    "file": "boros_transform_start_east.png",
+    "frame": 5,
+    "removed_components": 9,
+    "removed_pixels": 69
+  },
+  {
+    "file": "boros_transform_start_east.png",
+    "frame": 6,
+    "removed_components": 8,
+    "removed_pixels": 3377
+  },
+  {
+    "file": "boros_transform_start_east.png",
+    "frame": 7,
+    "removed_components": 9,
+    "removed_pixels": 44
+  },
+  {
+    "file": "boros_transform_start_east.png",
+    "frame": 8,
+    "removed_components": 6,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_transform_start_east.png",
+    "frame": 9,
+    "removed_components": 6,
+    "removed_pixels": 938
+  },
+  {
+    "file": "boros_transform_start_east.png",
+    "frame": 10,
+    "removed_components": 7,
+    "removed_pixels": 132
+  },
+  {
+    "file": "boros_transform_start_east.png",
+    "frame": 11,
+    "removed_components": 8,
+    "removed_pixels": 90
+  },
+  {
+    "file": "boros_transform_start_north.png",
+    "frame": 0,
+    "removed_components": 7,
+    "removed_pixels": 70
+  },
+  {
+    "file": "boros_transform_start_north.png",
+    "frame": 1,
+    "removed_components": 8,
+    "removed_pixels": 149
+  },
+  {
+    "file": "boros_transform_start_north.png",
+    "frame": 2,
+    "removed_components": 3,
+    "removed_pixels": 260
+  },
+  {
+    "file": "boros_transform_start_north.png",
+    "frame": 3,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_transform_start_north.png",
+    "frame": 4,
+    "removed_components": 14,
+    "removed_pixels": 90
+  },
+  {
+    "file": "boros_transform_start_north.png",
+    "frame": 5,
+    "removed_components": 3,
+    "removed_pixels": 13
+  },
+  {
+    "file": "boros_transform_start_north.png",
+    "frame": 6,
+    "removed_components": 7,
+    "removed_pixels": 3755
+  },
+  {
+    "file": "boros_transform_start_north.png",
+    "frame": 7,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_transform_start_north.png",
+    "frame": 8,
+    "removed_components": 5,
+    "removed_pixels": 252
+  },
+  {
+    "file": "boros_transform_start_north.png",
+    "frame": 9,
+    "removed_components": 3,
+    "removed_pixels": 447
+  },
+  {
+    "file": "boros_transform_start_north.png",
+    "frame": 10,
+    "removed_components": 3,
+    "removed_pixels": 253
+  },
+  {
+    "file": "boros_transform_start_north.png",
+    "frame": 11,
+    "removed_components": 2,
+    "removed_pixels": 54
+  },
+  {
+    "file": "boros_transform_start_north_east.png",
+    "frame": 0,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_transform_start_north_east.png",
+    "frame": 1,
+    "removed_components": 8,
+    "removed_pixels": 14
+  },
+  {
+    "file": "boros_transform_start_north_east.png",
+    "frame": 2,
+    "removed_components": 4,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_transform_start_north_east.png",
+    "frame": 3,
+    "removed_components": 5,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_transform_start_north_east.png",
+    "frame": 4,
+    "removed_components": 7,
+    "removed_pixels": 8
+  },
+  {
+    "file": "boros_transform_start_north_east.png",
+    "frame": 5,
+    "removed_components": 8,
+    "removed_pixels": 10
+  },
+  {
+    "file": "boros_transform_start_north_east.png",
+    "frame": 6,
+    "removed_components": 9,
+    "removed_pixels": 3550
+  },
+  {
+    "file": "boros_transform_start_north_east.png",
+    "frame": 7,
+    "removed_components": 3,
+    "removed_pixels": 46
+  },
+  {
+    "file": "boros_transform_start_north_east.png",
+    "frame": 8,
+    "removed_components": 5,
+    "removed_pixels": 89
+  },
+  {
+    "file": "boros_transform_start_north_east.png",
+    "frame": 9,
+    "removed_components": 5,
+    "removed_pixels": 10
+  },
+  {
+    "file": "boros_transform_start_north_east.png",
+    "frame": 10,
+    "removed_components": 3,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_transform_start_north_east.png",
+    "frame": 11,
+    "removed_components": 1,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_transform_start_north_west.png",
+    "frame": 0,
+    "removed_components": 12,
+    "removed_pixels": 46
+  },
+  {
+    "file": "boros_transform_start_north_west.png",
+    "frame": 1,
+    "removed_components": 4,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_transform_start_north_west.png",
+    "frame": 2,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_transform_start_north_west.png",
+    "frame": 3,
+    "removed_components": 1,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_transform_start_north_west.png",
+    "frame": 4,
+    "removed_components": 6,
+    "removed_pixels": 23
+  },
+  {
+    "file": "boros_transform_start_north_west.png",
+    "frame": 5,
+    "removed_components": 1,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_transform_start_north_west.png",
+    "frame": 6,
+    "removed_components": 10,
+    "removed_pixels": 3542
+  },
+  {
+    "file": "boros_transform_start_north_west.png",
+    "frame": 7,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_transform_start_north_west.png",
+    "frame": 8,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_transform_start_north_west.png",
+    "frame": 9,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_transform_start_north_west.png",
+    "frame": 10,
+    "removed_components": 4,
+    "removed_pixels": 25
+  },
+  {
+    "file": "boros_transform_start_south.png",
+    "frame": 0,
+    "removed_components": 1,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_transform_start_south.png",
+    "frame": 1,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_transform_start_south.png",
+    "frame": 3,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_transform_start_south.png",
+    "frame": 4,
+    "removed_components": 10,
+    "removed_pixels": 274
+  },
+  {
+    "file": "boros_transform_start_south.png",
+    "frame": 5,
+    "removed_components": 5,
+    "removed_pixels": 182
+  },
+  {
+    "file": "boros_transform_start_south.png",
+    "frame": 6,
+    "removed_components": 9,
+    "removed_pixels": 19
+  },
+  {
+    "file": "boros_transform_start_south.png",
+    "frame": 7,
+    "removed_components": 5,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_transform_start_south.png",
+    "frame": 8,
+    "removed_components": 10,
+    "removed_pixels": 14
+  },
+  {
+    "file": "boros_transform_start_south.png",
+    "frame": 9,
+    "removed_components": 4,
+    "removed_pixels": 28
+  },
+  {
+    "file": "boros_transform_start_south.png",
+    "frame": 10,
+    "removed_components": 8,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_transform_start_south_east.png",
+    "frame": 0,
+    "removed_components": 12,
+    "removed_pixels": 160
+  },
+  {
+    "file": "boros_transform_start_south_east.png",
+    "frame": 1,
+    "removed_components": 4,
+    "removed_pixels": 123
+  },
+  {
+    "file": "boros_transform_start_south_east.png",
+    "frame": 2,
+    "removed_components": 7,
+    "removed_pixels": 101
+  },
+  {
+    "file": "boros_transform_start_south_east.png",
+    "frame": 3,
+    "removed_components": 1,
+    "removed_pixels": 12
+  },
+  {
+    "file": "boros_transform_start_south_east.png",
+    "frame": 4,
+    "removed_components": 7,
+    "removed_pixels": 139
+  },
+  {
+    "file": "boros_transform_start_south_east.png",
+    "frame": 5,
+    "removed_components": 5,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_transform_start_south_east.png",
+    "frame": 6,
+    "removed_components": 17,
+    "removed_pixels": 4017
+  },
+  {
+    "file": "boros_transform_start_south_east.png",
+    "frame": 7,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_transform_start_south_east.png",
+    "frame": 8,
+    "removed_components": 13,
+    "removed_pixels": 145
+  },
+  {
+    "file": "boros_transform_start_south_east.png",
+    "frame": 9,
+    "removed_components": 4,
+    "removed_pixels": 92
+  },
+  {
+    "file": "boros_transform_start_south_east.png",
+    "frame": 10,
+    "removed_components": 9,
+    "removed_pixels": 19
+  },
+  {
+    "file": "boros_transform_start_south_east.png",
+    "frame": 11,
+    "removed_components": 2,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_transform_start_south_west.png",
+    "frame": 0,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_transform_start_south_west.png",
+    "frame": 1,
+    "removed_components": 7,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_transform_start_south_west.png",
+    "frame": 2,
+    "removed_components": 3,
+    "removed_pixels": 3
+  },
+  {
+    "file": "boros_transform_start_south_west.png",
+    "frame": 3,
+    "removed_components": 5,
+    "removed_pixels": 20
+  },
+  {
+    "file": "boros_transform_start_south_west.png",
+    "frame": 4,
+    "removed_components": 6,
+    "removed_pixels": 37
+  },
+  {
+    "file": "boros_transform_start_south_west.png",
+    "frame": 5,
+    "removed_components": 1,
+    "removed_pixels": 1
+  },
+  {
+    "file": "boros_transform_start_south_west.png",
+    "frame": 6,
+    "removed_components": 4,
+    "removed_pixels": 3673
+  },
+  {
+    "file": "boros_transform_start_south_west.png",
+    "frame": 7,
+    "removed_components": 3,
+    "removed_pixels": 7
+  },
+  {
+    "file": "boros_transform_start_south_west.png",
+    "frame": 8,
+    "removed_components": 4,
+    "removed_pixels": 4
+  },
+  {
+    "file": "boros_transform_start_south_west.png",
+    "frame": 9,
+    "removed_components": 1,
+    "removed_pixels": 6
+  },
+  {
+    "file": "boros_transform_start_south_west.png",
+    "frame": 10,
+    "removed_components": 4,
+    "removed_pixels": 5
+  },
+  {
+    "file": "boros_transform_start_south_west.png",
+    "frame": 11,
+    "removed_components": 3,
+    "removed_pixels": 9
+  },
+  {
+    "file": "boros_transform_start_west.png",
+    "frame": 0,
+    "removed_components": 6,
+    "removed_pixels": 10
+  },
+  {
+    "file": "boros_transform_start_west.png",
+    "frame": 2,
+    "removed_components": 3,
+    "removed_pixels": 38
+  },
+  {
+    "file": "boros_transform_start_west.png",
+    "frame": 3,
+    "removed_components": 6,
+    "removed_pixels": 11
+  },
+  {
+    "file": "boros_transform_start_west.png",
+    "frame": 4,
+    "removed_components": 2,
+    "removed_pixels": 15
+  },
+  {
+    "file": "boros_transform_start_west.png",
+    "frame": 5,
+    "removed_components": 2,
+    "removed_pixels": 2
+  },
+  {
+    "file": "boros_transform_start_west.png",
+    "frame": 6,
+    "removed_components": 7,
+    "removed_pixels": 3335
+  },
+  {
+    "file": "boros_transform_start_west.png",
+    "frame": 7,
+    "removed_components": 9,
+    "removed_pixels": 28
+  },
+  {
+    "file": "boros_transform_start_west.png",
+    "frame": 8,
+    "removed_components": 7,
+    "removed_pixels": 16
+  },
+  {
+    "file": "boros_transform_start_west.png",
+    "frame": 9,
+    "removed_components": 14,
+    "removed_pixels": 34
+  },
+  {
+    "file": "boros_transform_start_west.png",
+    "frame": 10,
+    "removed_components": 7,
+    "removed_pixels": 17
+  },
+  {
+    "file": "boros_transform_start_west.png",
+    "frame": 11,
+    "removed_components": 3,
+    "removed_pixels": 7
+  }
+]

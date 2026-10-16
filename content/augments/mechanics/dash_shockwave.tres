@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="AugmentDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/augment_effect_definition.gd" id="1_rl3bg"]
+[ext_resource type="Script" path="res://scripts/data/mechanic_effect_definition.gd" id="2_t4fkc"]
+[ext_resource type="Script" path="res://scripts/data/requirement_definition.gd" id="3_5bvvq"]
+[ext_resource type="Script" path="res://scripts/data/augment_definition.gd" id="4_8qfle"]
+
+[sub_resource type="Resource" id="Resource_gh6f4"]
+script = ExtResource("2_t4fkc")
+auxiliary_values = Array[float]([0.0, 0.0, 0.0, 0.0, 0.0])
+effect_id = &"dash_wave"
+rank_values = Array[float]([25.0, 35.0, 45.0, 55.0, 65.0])
+
+[sub_resource type="Resource" id="Resource_gih2d"]
+script = ExtResource("3_5bvvq")
+required_capabilities = Array[StringName]([&"dash_completed_hook"])
+
+[resource]
+script = ExtResource("4_8qfle")
+description = "One 90px physical burst on dash completion."
+requirements = SubResource("Resource_gih2d")
+effects = Array[ExtResource("1_rl3bg")]([SubResource("Resource_gh6f4")])
+rarity_weight = 30.0
+id = &"augment.dash_shockwave"
+display_name = "Dash Shockwave"

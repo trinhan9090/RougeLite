@@ -1,0 +1,107 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS projectile_split compatible astra_j
+PASS projectile_split compatible vex_l
+PASS projectile_split rejects boros_j
+PASS multishot compatible astra_j
+PASS multishot compatible vex_l
+PASS multishot rejects boros_j
+PASS pierce compatible astra_j
+PASS pierce compatible vex_l
+PASS pierce rejects boros_j
+PASS homing compatible astra_j
+PASS homing compatible vex_l
+PASS homing rejects astra_i
+PASS echo_cast compatible astra_j
+PASS echo_cast compatible vex_l
+PASS echo_cast rejects astra_k
+PASS area_expand compatible astra_l
+PASS area_expand compatible boros_j
+PASS area_expand rejects vex_l
+PASS explosion_on_hit compatible astra_j
+PASS explosion_on_hit compatible vex_l
+PASS explosion_on_hit rejects astra_k
+PASS on_kill_burst compatible astra_j
+PASS on_kill_burst compatible vex_l
+PASS on_kill_burst rejects astra_k
+PASS cooldown_refund compatible astra_j
+PASS cooldown_refund compatible vex_l
+PASS cooldown_refund rejects boros_i
+PASS shield_reflect compatible astra_k
+PASS shield_reflect compatible boros_k
+PASS shield_reflect rejects vex_l
+PASS dash_shockwave compatible vex_k
+PASS dash_shockwave compatible boros_l
+PASS dash_shockwave rejects astra_j
+PASS execute compatible astra_j
+PASS execute compatible boros_j
+PASS execute rejects astra_k
+PASS capability tags cannot fabricate executor support
+PASS self shield adapter adds exact shield
+PASS self shield expires
+PASS instant beam exact damage
+PASS area_expand rank 1 binds
+PASS area_expand rank 2 binds
+PASS area_expand rank 3 binds
+PASS area_expand rank 4 binds
+PASS area_expand rank 5 binds
+PASS area rank5 multiplies radius by1.6
+PASS ground area adapter accepted
+PASS ground area actual timed tick without damage inflation
+PASS status adapter applies actual root
+PASS piercing projectile launched
+PASS swept piercing hits two unique targets once
+PASS projectile_split rank 1 binds
+PASS projectile_split rank 2 binds
+PASS projectile_split rank 3 binds
+PASS projectile_split rank 4 binds
+PASS projectile_split rank 5 binds
+PASS astra_j rank5 split emits primary+6
+PASS astra_j split secondary exact65percent
+PASS rank6 split rejected
+PASS projectile_split rank 1 binds
+PASS projectile_split rank 2 binds
+PASS projectile_split rank 3 binds
+PASS projectile_split rank 4 binds
+PASS projectile_split rank 5 binds
+PASS vex_l rank5 split emits primary+6
+PASS vex_l split secondary exact65percent
+PASS rank6 split rejected
+PASS execute rank 1 binds
+PASS execute rank 2 binds
+PASS execute rank 3 binds
+PASS execute rank 4 binds
+PASS execute rank 5 binds
+PASS execute adds30percent once below25percentHP
+PASS explosion_on_hit rank 1 binds
+PASS explosion_on_hit rank 2 binds
+PASS explosion_on_hit rank 3 binds
+PASS explosion_on_hit rank 4 binds
+PASS explosion_on_hit rank 5 binds
+PASS explosion root/target dedupe
+PASS explosion exact primary and burst damage; no recursive chain
+PASS shield_reflect rank 1 binds
+PASS shield_reflect rank 2 binds
+PASS shield_reflect rank 3 binds
+PASS shield_reflect rank 4 binds
+PASS shield_reflect rank 5 binds
+PASS reflect boss cap1percent maximumHP
+PASS dash_shockwave rank 1 binds
+PASS dash_shockwave rank 2 binds
+PASS dash_shockwave rank 3 binds
+PASS dash_shockwave rank 4 binds
+PASS dash_shockwave rank 5 binds
+PASS dash adapter accepted
+PASS dash endpoint one shockwave exact65physical
+PASS on_kill_burst rank 1 binds
+PASS on_kill_burst rank 2 binds
+PASS on_kill_burst rank 3 binds
+PASS on_kill_burst rank 4 binds
+PASS on_kill_burst rank 5 binds
+PASS kill burst primary death once and exact40damage
+PASS shared depth capped3
+PASS shared proc budget capped32 across branches
+PASS shared projectile budget capped64
+RESULT universal augments: checks=103 failures=1
+FAIL reflect20percent absorbed; no recursive bounce
+

@@ -1,0 +1,223 @@
+4.7.2.stable.official.ed1daf0bf
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] first_scan_filesystem | Started Project initialization (5 steps)
+[   0% ] first_scan_filesystem | Scanning file structure...
+[  16% ] first_scan_filesystem | Loading global class names...
+[  33% ] first_scan_filesystem | Verifying GDExtensions...
+[  50% ] first_scan_filesystem | Creating autoload scripts...
+[  66% ] first_scan_filesystem | Initializing plugins...
+[  83% ] first_scan_filesystem | Starting file scan...
+[ DONE ] first_scan_filesystem
+
+[   0% ] loading_editor_layout | Started Loading editor (5 steps)
+[   0% ] loading_editor_layout | Loading editor layout...
+[  16% ] loading_editor_layout | Loading docks...
+[ DONE ] loading_editor_layout
+
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS valid typed definition graph
+PASS nested skill/enemy definitions indexed
+PASS returned deep copy cannot mutate registry
+PASS source cannot mutate registry snapshot
+PASS duplicate IDs rejected
+PASS failed validation leaves no partial index
+PASS empty reference rejected
+PASS missing rank rejected
+PASS negative cooldown rejected
+PASS nonfinite cooldown rejected
+PASS ultimate max rank enforced
+PASS unlock slot mapping enforced
+PASS missing executor rejected
+PASS tags cannot fabricate executor capabilities
+PASS dependency cycle rejected
+PASS passive rank 6 rejected
+PASS missing effect rank rejected
+PASS missing requirement ID rejected
+PASS augment prerequisite cycle rejected
+PASS untyped content edge rejected
+PASS unsafe spawn radius rejected
+PASS invalid boss phase order rejected
+PASS out of range actor stats rejected
+PASS typed resource saves
+PASS typed resource reload validates
+PASS nested rank type retained after serialization
+PASS disk catalog loads
+PASS disk map is typed
+PASS missing catalog fails closed
+RESULT content: checks=29 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS same seed/state sequence 0/maps
+PASS same seed/state sequence 0/obstacles
+PASS same seed/state sequence 0/spawns
+PASS same seed/state sequence 0/offers
+PASS same seed/state sequence 0/combat
+PASS same seed/state sequence 20261015/maps
+PASS same seed/state sequence 20261015/obstacles
+PASS same seed/state sequence 20261015/spawns
+PASS same seed/state sequence 20261015/offers
+PASS same seed/state sequence 20261015/combat
+PASS same seed/state sequence -42/maps
+PASS same seed/state sequence -42/obstacles
+PASS same seed/state sequence -42/spawns
+PASS same seed/state sequence -42/offers
+PASS same seed/state sequence -42/combat
+PASS same seed/state sequence 9223372036854775807/maps
+PASS same seed/state sequence 9223372036854775807/obstacles
+PASS same seed/state sequence 9223372036854775807/spawns
+PASS same seed/state sequence 9223372036854775807/offers
+PASS same seed/state sequence 9223372036854775807/combat
+PASS combat consumption does not perturb maps
+PASS combat consumption does not perturb obstacles
+PASS combat consumption does not perturb spawns
+PASS combat consumption does not perturb offers
+PASS RNG state restore accepted
+PASS restored state continues exact sequence
+PASS partial restore rejected
+PASS failed restore is atomic
+PASS different seeds differ
+PASS different named streams differ
+PASS unknown stream fails closed
+PASS run state isolated
+PASS run initializes deterministically
+PASS seed is available for debug display
+RESULT RNG: checks=34 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS missing settings uses defaults
+PASS InputMap default move_up
+PASS InputMap default move_left
+PASS InputMap default move_down
+PASS InputMap default move_right
+PASS InputMap default active_1
+PASS InputMap default active_2
+PASS InputMap default active_3
+PASS InputMap default active_4
+PASS InputMap default pause
+PASS movement collision rejected
+PASS active collision rejected
+PASS pause collision rejected
+PASS rejected remap leaves binding intact
+PASS unknown action rejected
+PASS empty key rejected
+PASS modifier alone rejected
+PASS reserved pause key preserved
+PASS valid remap saves
+PASS InputMap applies remap
+PASS manual setting saves
+PASS invalid mode leaves state intact
+PASS new service loads persisted settings
+PASS reselecting own binding permitted
+PASS saved config readable
+PASS saved duplicate rejected atomically
+PASS wrong binding type rejected
+PASS unknown settings version rejected
+PASS save failure rolls back binding
+PASS save failure rolls back mode
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT settings restart: checks=1 failures=0
+
+PASS separate process --write
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT settings restart: checks=1 failures=0
+
+PASS separate process --read
+RESULT settings: checks=32 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RUN_FOUNDATION seed=20261015 content=foundation-v1
+BOOT_OK milestone=M0
+RESULT scene boot: checks=1 failures=0
+
+RESULT suites=4 failures=0
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RUN_FOUNDATION seed=20261015 content=foundation-v1
+BOOT_OK milestone=M0
+EXIT_CODE=0 EXPECTED=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FAIL intentional assertion: expected 2, got 1
+RESULT deliberate fixture: checks=1 failures=1
+
+RESULT suites=1 failures=1
+FAIL suite=res://tests/fixtures/deliberate_failure.gd exit=1
+EXIT_CODE=1 EXPECTED=1
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+RUN_FOUNDATION seed=20261015 content=foundation-v1
+BOOT_OK milestone=M0
+RESULT scene boot: checks=1 failures=0
+EXIT_CODE=0 EXPECTED=0
+M0 CHECKS PASSED; deliberate failing test correctly returned 1.

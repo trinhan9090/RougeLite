@@ -1,0 +1,1040 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/east/000.png" id="1_c0bdf"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/east/001.png" id="2_x4q0k"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/east/002.png" id="3_coyci"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/east/003.png" id="4_e13ip"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/east/004.png" id="5_j2hhw"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/east/005.png" id="6_okbpk"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/north/000.png" id="7_yaov0"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/north/001.png" id="8_ahwu5"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/north/002.png" id="9_rysgs"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/north/003.png" id="10_5g16e"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/north/004.png" id="11_t5dr3"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/north/005.png" id="12_ke2dk"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/south/000.png" id="13_251sl"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/south/001.png" id="14_j6rhk"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/south/002.png" id="15_nc1ds"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/south/003.png" id="16_ga2x6"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/south/004.png" id="17_ugv4e"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/south/005.png" id="18_040xr"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/west/000.png" id="19_soql0"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/west/001.png" id="20_4hidv"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/west/002.png" id="21_x07y7"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/west/003.png" id="22_rn4qy"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/west/004.png" id="23_blw5r"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/basic/west/005.png" id="24_yagpr"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/east/000.png" id="25_rujk8"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/east/001.png" id="26_srot1"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/east/002.png" id="27_dqpac"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/east/003.png" id="28_s8sli"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/east/004.png" id="29_1abdt"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/east/005.png" id="30_f48sp"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/north/000.png" id="31_i8s6c"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/north/001.png" id="32_yfk13"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/north/002.png" id="33_cuxca"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/north/003.png" id="34_ybchw"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/north/004.png" id="35_mg82x"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/north/005.png" id="36_oc8et"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/south/000.png" id="37_xbyja"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/south/001.png" id="38_dtqmh"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/south/002.png" id="39_r5ln6"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/south/003.png" id="40_8u808"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/south/004.png" id="41_8xqqw"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/south/005.png" id="42_27cko"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/west/000.png" id="43_ligym"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/west/001.png" id="44_ds3sa"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/west/002.png" id="45_g7p66"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/west/003.png" id="46_ti80g"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/west/004.png" id="47_c84b4"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_i/west/005.png" id="48_jgire"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/east/000.png" id="49_yi0f7"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/east/001.png" id="50_jpifp"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/east/002.png" id="51_noqgb"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/east/003.png" id="52_olluq"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/east/004.png" id="53_nba3t"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/east/005.png" id="54_81p1u"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/north/000.png" id="55_o04cx"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/north/001.png" id="56_he0io"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/north/002.png" id="57_bx6rq"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/north/003.png" id="58_6efkw"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/north/004.png" id="59_5xtp0"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/north/005.png" id="60_25ixw"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/south/000.png" id="61_4mgy2"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/south/001.png" id="62_wex4q"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/south/002.png" id="63_ebe8y"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/south/003.png" id="64_wguvk"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/south/004.png" id="65_otpy4"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/south/005.png" id="66_uw8fb"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/west/000.png" id="67_etirc"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/west/001.png" id="68_gs71x"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/west/002.png" id="69_h0p7s"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/west/003.png" id="70_avioa"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/west/004.png" id="71_ne1vv"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_j/west/005.png" id="72_mgt5g"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/east/000.png" id="73_bmx3o"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/east/001.png" id="74_mnp1j"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/east/002.png" id="75_td3bk"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/east/003.png" id="76_yboqp"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/east/004.png" id="77_ma8ub"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/east/005.png" id="78_dplb2"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/north/000.png" id="79_hoibx"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/north/001.png" id="80_uqxiy"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/north/002.png" id="81_dwmkq"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/north/003.png" id="82_o0aa0"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/north/004.png" id="83_xfgv6"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/north/005.png" id="84_t1gsc"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/south/000.png" id="85_42ntv"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/south/001.png" id="86_c58jp"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/south/002.png" id="87_0rfsy"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/south/003.png" id="88_4nc1m"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/south/004.png" id="89_w7p4p"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/south/005.png" id="90_o3cb7"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/west/000.png" id="91_isdmq"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/west/001.png" id="92_hnur0"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/west/002.png" id="93_uytgl"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/west/003.png" id="94_6yx7g"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/west/004.png" id="95_pv2fm"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_k/west/005.png" id="96_hsehv"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/east/000.png" id="97_lfiiy"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/east/001.png" id="98_xi1oj"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/east/002.png" id="99_nu3r5"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/east/003.png" id="100_4wqqy"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/east/004.png" id="101_balcl"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/east/005.png" id="102_hukel"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/north/000.png" id="103_gk5ly"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/north/001.png" id="104_i6j0w"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/north/002.png" id="105_yx0st"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/north/003.png" id="106_jw7cq"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/north/004.png" id="107_0ayy1"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/north/005.png" id="108_8j8m4"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/south/000.png" id="109_11uqt"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/south/001.png" id="110_7l4x3"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/south/002.png" id="111_d312k"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/south/003.png" id="112_jw1cu"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/south/004.png" id="113_nhx6f"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/south/005.png" id="114_aw62b"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/west/000.png" id="115_fhq1a"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/west/001.png" id="116_x3t8o"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/west/002.png" id="117_vjvm5"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/west/003.png" id="118_r8h88"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/west/004.png" id="119_yimhf"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/cast_l/west/005.png" id="120_a5uy0"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/east/000.png" id="121_y7xbn"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/east/001.png" id="122_anr5k"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/east/002.png" id="123_5kwkc"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/east/003.png" id="124_mh6il"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/east/004.png" id="125_3frbt"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/east/005.png" id="126_q5br8"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/east/006.png" id="127_0knvh"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/east/007.png" id="128_wuyb4"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/north/000.png" id="129_fpick"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/north/001.png" id="130_26bmj"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/north/002.png" id="131_jw5ns"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/north/003.png" id="132_uauv4"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/north/004.png" id="133_b5ows"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/north/005.png" id="134_0mx2q"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/north/006.png" id="135_n2pi5"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/north/007.png" id="136_pggjm"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/south/000.png" id="137_weiyl"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/south/001.png" id="138_6a17e"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/south/002.png" id="139_gelqn"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/south/003.png" id="140_bor01"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/south/004.png" id="141_k0h71"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/south/005.png" id="142_x2gqq"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/south/006.png" id="143_i74y7"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/south/007.png" id="144_g75r4"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/west/000.png" id="145_utbai"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/west/001.png" id="146_g718w"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/west/002.png" id="147_as4gr"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/west/003.png" id="148_q0rcw"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/west/004.png" id="149_n4uft"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/west/005.png" id="150_vqja1"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/west/006.png" id="151_qcgfa"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/death/west/007.png" id="152_gkpfh"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/hit/east/000.png" id="153_xb60r"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/hit/east/001.png" id="154_kbrpx"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/hit/east/002.png" id="155_i73g2"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/hit/north/000.png" id="156_bmjgp"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/hit/north/001.png" id="157_3l8jw"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/hit/north/002.png" id="158_o65ok"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/hit/south/000.png" id="159_87lxj"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/hit/south/001.png" id="160_ms76i"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/hit/south/002.png" id="161_poa5j"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/hit/west/000.png" id="162_470is"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/hit/west/001.png" id="163_yk4fe"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/hit/west/002.png" id="164_lcre8"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/idle/east/000.png" id="165_7b6nw"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/idle/east/001.png" id="166_srgor"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/idle/east/002.png" id="167_trlfr"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/idle/east/003.png" id="168_twv81"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/idle/north/000.png" id="169_p6fu6"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/idle/north/001.png" id="170_3tvhk"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/idle/north/002.png" id="171_r2ivr"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/idle/north/003.png" id="172_coqtk"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/idle/south/000.png" id="173_8ba6m"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/idle/south/001.png" id="174_nqym5"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/idle/south/002.png" id="175_e1l3n"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/idle/south/003.png" id="176_5y3tu"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/idle/west/000.png" id="177_obtch"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/idle/west/001.png" id="178_om2c8"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/idle/west/002.png" id="179_8cwdn"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/idle/west/003.png" id="180_ra2ek"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/east/000.png" id="181_veras"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/east/001.png" id="182_hyqxg"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/east/002.png" id="183_8no2v"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/east/003.png" id="184_id26j"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/east/004.png" id="185_ydya6"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/east/005.png" id="186_40gh3"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/east/006.png" id="187_fkr70"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/east/007.png" id="188_5756v"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/north/000.png" id="189_gm6q0"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/north/001.png" id="190_3f6sr"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/north/002.png" id="191_28v38"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/north/003.png" id="192_g4sex"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/north/004.png" id="193_wxu7q"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/north/005.png" id="194_tqv0i"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/north/006.png" id="195_23d7a"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/north/007.png" id="196_b26l8"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/south/000.png" id="197_xldkn"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/south/001.png" id="198_icswi"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/south/002.png" id="199_nv85r"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/south/003.png" id="200_7r7bm"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/south/004.png" id="201_bw626"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/south/005.png" id="202_re8x4"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/south/006.png" id="203_gonn5"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/south/007.png" id="204_vikl1"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/west/000.png" id="205_lvm4x"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/west/001.png" id="206_wt7y5"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/west/002.png" id="207_rbv4a"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/west/003.png" id="208_3vicp"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/west/004.png" id="209_q8ulj"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/west/005.png" id="210_x6cyh"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/west/006.png" id="211_26ghh"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/frames/run/west/007.png" id="212_ma5s8"]
+[ext_resource type="Texture2D" path="res://assets/characters/vex/weapon.png" id="213_8rhr1"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_c0bdf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_x4q0k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_coyci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_e13ip")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_j2hhw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_okbpk")
+}],
+"loop": 0,
+"name": &"basic_east",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_yaov0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ahwu5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_rysgs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_5g16e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_t5dr3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ke2dk")
+}],
+"loop": 0,
+"name": &"basic_north",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_251sl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_j6rhk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_nc1ds")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_ga2x6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_ugv4e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_040xr")
+}],
+"loop": 0,
+"name": &"basic_south",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_soql0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_4hidv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_x07y7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_rn4qy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_blw5r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_yagpr")
+}],
+"loop": 0,
+"name": &"basic_west",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_rujk8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_srot1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_dqpac")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_s8sli")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_1abdt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_f48sp")
+}],
+"loop": 0,
+"name": &"cast_i_east",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31_i8s6c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_yfk13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_cuxca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_ybchw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_mg82x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_oc8et")
+}],
+"loop": 0,
+"name": &"cast_i_north",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("37_xbyja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_dtqmh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_r5ln6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_8u808")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_8xqqw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_27cko")
+}],
+"loop": 0,
+"name": &"cast_i_south",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("43_ligym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_ds3sa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_g7p66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_ti80g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_c84b4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_jgire")
+}],
+"loop": 0,
+"name": &"cast_i_west",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("49_yi0f7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_jpifp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_noqgb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_olluq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_nba3t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_81p1u")
+}],
+"loop": 0,
+"name": &"cast_j_east",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("55_o04cx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_he0io")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_bx6rq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_6efkw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_5xtp0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_25ixw")
+}],
+"loop": 0,
+"name": &"cast_j_north",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("61_4mgy2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_wex4q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_ebe8y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_wguvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_otpy4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_uw8fb")
+}],
+"loop": 0,
+"name": &"cast_j_south",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("67_etirc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_gs71x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_h0p7s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_avioa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_ne1vv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_mgt5g")
+}],
+"loop": 0,
+"name": &"cast_j_west",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("73_bmx3o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_mnp1j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_td3bk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_yboqp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_ma8ub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_dplb2")
+}],
+"loop": 0,
+"name": &"cast_k_east",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("79_hoibx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_uqxiy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_dwmkq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_o0aa0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_xfgv6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_t1gsc")
+}],
+"loop": 0,
+"name": &"cast_k_north",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("85_42ntv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_c58jp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_0rfsy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_4nc1m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_w7p4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_o3cb7")
+}],
+"loop": 0,
+"name": &"cast_k_south",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("91_isdmq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_hnur0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_uytgl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_6yx7g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_pv2fm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_hsehv")
+}],
+"loop": 0,
+"name": &"cast_k_west",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("97_lfiiy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_xi1oj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_nu3r5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_4wqqy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_balcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_hukel")
+}],
+"loop": 0,
+"name": &"cast_l_east",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("103_gk5ly")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_i6j0w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_yx0st")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_jw7cq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_0ayy1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_8j8m4")
+}],
+"loop": 0,
+"name": &"cast_l_north",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("109_11uqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_7l4x3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_d312k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_jw1cu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_nhx6f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_aw62b")
+}],
+"loop": 0,
+"name": &"cast_l_south",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("115_fhq1a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_x3t8o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_vjvm5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_r8h88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_yimhf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_a5uy0")
+}],
+"loop": 0,
+"name": &"cast_l_west",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("121_y7xbn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_anr5k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_5kwkc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_mh6il")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_3frbt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_q5br8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_0knvh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_wuyb4")
+}],
+"loop": 0,
+"name": &"death_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("129_fpick")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_26bmj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_jw5ns")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_uauv4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_b5ows")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_0mx2q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_n2pi5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_pggjm")
+}],
+"loop": 0,
+"name": &"death_north",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("137_weiyl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_6a17e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_gelqn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_bor01")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_k0h71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_x2gqq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_i74y7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_g75r4")
+}],
+"loop": 0,
+"name": &"death_south",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("145_utbai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_g718w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_as4gr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_q0rcw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_n4uft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_vqja1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_qcgfa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_gkpfh")
+}],
+"loop": 0,
+"name": &"death_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("153_xb60r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_kbrpx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_i73g2")
+}],
+"loop": 0,
+"name": &"hit_east",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("156_bmjgp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_3l8jw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_o65ok")
+}],
+"loop": 0,
+"name": &"hit_north",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("159_87lxj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_ms76i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_poa5j")
+}],
+"loop": 0,
+"name": &"hit_south",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("162_470is")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_yk4fe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_lcre8")
+}],
+"loop": 0,
+"name": &"hit_west",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("165_7b6nw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_srgor")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_trlfr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_twv81")
+}],
+"loop": 1,
+"name": &"idle_east",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("169_p6fu6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_3tvhk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_r2ivr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_coqtk")
+}],
+"loop": 1,
+"name": &"idle_north",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("173_8ba6m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_nqym5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_e1l3n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_5y3tu")
+}],
+"loop": 1,
+"name": &"idle_south",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("177_obtch")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_om2c8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_8cwdn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_ra2ek")
+}],
+"loop": 1,
+"name": &"idle_west",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("181_veras")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_hyqxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_8no2v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_id26j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_ydya6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_40gh3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_fkr70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_5756v")
+}],
+"loop": 1,
+"name": &"run_east",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("189_gm6q0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_3f6sr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_28v38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_g4sex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_wxu7q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_tqv0i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_23d7a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_b26l8")
+}],
+"loop": 1,
+"name": &"run_north",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("197_xldkn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_icswi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_nv85r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_7r7bm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_bw626")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_re8x4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_gonn5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_vikl1")
+}],
+"loop": 1,
+"name": &"run_south",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("205_lvm4x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_wt7y5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_rbv4a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_3vicp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_q8ulj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_x6cyh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_26ghh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_ma5s8")
+}],
+"loop": 1,
+"name": &"run_west",
+"speed": 10.0
+}]
+metadata/directions = PackedStringArray("south", "west", "east", "north")
+metadata/cardinal = true
+metadata/weapon = ExtResource("213_8rhr1")
+metadata/feet_anchor = Vector2(64, 108)
+metadata/vfx_color = Color(0.9372549, 0.8117647, 0.56078434, 1)
+metadata/weapon_count = 2

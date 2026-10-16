@@ -1,0 +1,106 @@
+WorkerThreadPool: 12 threads, 3 max low-priority.
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+Using "default" pen tablet driver...
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+CORE API HASH: 2004498165
+EDITOR API HASH: 1696660745
+SceneTreeFTI: traversal method DEFAULT
+Loading resource: res://scripts/app/settings.gdc remapped: res://scripts/app/settings.gdc
+Completed load for: 'res://scripts/app/settings.gd' remapped 'res://scripts/app/settings.gdc' at thread -1
+Loading resource: res://scripts/app/content_registry.gdc remapped: res://scripts/app/content_registry.gdc
+Loading resource: res://.godot/exported/133200997/export-dec9a4450530936c40dd27b89ca56cb2-combat_limits.res remapped: res://.godot/exported/133200997/export-dec9a4450530936c40dd27b89ca56cb2-combat_limits.res
+Completed load for: 'res://content/progression/combat_limits.tres' remapped 'res://.godot/exported/133200997/export-dec9a4450530936c40dd27b89ca56cb2-combat_limits.res' at thread -1
+Completed load for: 'res://scripts/app/content_registry.gd' remapped 'res://scripts/app/content_registry.gdc' at thread -1
+Loaded system CA certificates
+Loading resource: res://.godot/exported/133200997/export-5321995547fa747da6f5f431ce387ab9-main.scn remapped: res://.godot/exported/133200997/export-5321995547fa747da6f5f431ce387ab9-main.scn
+Loading resource: res://scripts/ui/foundation_menu.gdc remapped: res://scripts/ui/foundation_menu.gdc
+Completed load for: 'res://scripts/ui/foundation_menu.gd' remapped 'res://scripts/ui/foundation_menu.gdc' at thread -1
+Completed load for: 'res://scenes/bootstrap/main.tscn' remapped 'res://.godot/exported/133200997/export-5321995547fa747da6f5f431ce387ab9-main.scn' at thread -1
+Loading resource: res://.godot/exported/133200997/export-6bf481a4d2d7aabf6d8b43ac7f567238-catalog.res remapped: res://.godot/exported/133200997/export-6bf481a4d2d7aabf6d8b43ac7f567238-catalog.res
+Loading resource: res://.godot/exported/133200997/export-93ba28ad5e450d451836eb3745580aac-ruined_temple.res remapped: res://.godot/exported/133200997/export-93ba28ad5e450d451836eb3745580aac-ruined_temple.res
+Completed load for: 'res://content/maps/ruined_temple.tres' remapped 'res://.godot/exported/133200997/export-93ba28ad5e450d451836eb3745580aac-ruined_temple.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-44119bd8c048f796d4154b5954c31203-astra_loadout.res remapped: res://.godot/exported/133200997/export-44119bd8c048f796d4154b5954c31203-astra_loadout.res
+Loading resource: res://.godot/exported/133200997/export-6e738647cd7645d455b3d1f146d3de7a-astra_stats.res remapped: res://.godot/exported/133200997/export-6e738647cd7645d455b3d1f146d3de7a-astra_stats.res
+Completed load for: 'res://content/characters/astra_stats.tres' remapped 'res://.godot/exported/133200997/export-6e738647cd7645d455b3d1f146d3de7a-astra_stats.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-496e4c9bb0a3527d67912df6d325a7eb-astra_basic.res remapped: res://.godot/exported/133200997/export-496e4c9bb0a3527d67912df6d325a7eb-astra_basic.res
+Completed load for: 'res://content/skills/astra_basic.tres' remapped 'res://.godot/exported/133200997/export-496e4c9bb0a3527d67912df6d325a7eb-astra_basic.res' at thread -1
+Completed load for: 'res://content/characters/astra_loadout.tres' remapped 'res://.godot/exported/133200997/export-44119bd8c048f796d4154b5954c31203-astra_loadout.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-cbf993b939863c4a2f85910c39355ec5-vex_loadout.res remapped: res://.godot/exported/133200997/export-cbf993b939863c4a2f85910c39355ec5-vex_loadout.res
+Loading resource: res://.godot/exported/133200997/export-c1ecc122d6b062ba28691c62a2547036-vex_stats.res remapped: res://.godot/exported/133200997/export-c1ecc122d6b062ba28691c62a2547036-vex_stats.res
+Completed load for: 'res://content/characters/vex_stats.tres' remapped 'res://.godot/exported/133200997/export-c1ecc122d6b062ba28691c62a2547036-vex_stats.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-e00366dfc2ae18a54503cc152355ca21-vex_basic.res remapped: res://.godot/exported/133200997/export-e00366dfc2ae18a54503cc152355ca21-vex_basic.res
+Completed load for: 'res://content/skills/vex_basic.tres' remapped 'res://.godot/exported/133200997/export-e00366dfc2ae18a54503cc152355ca21-vex_basic.res' at thread -1
+Completed load for: 'res://content/characters/vex_loadout.tres' remapped 'res://.godot/exported/133200997/export-cbf993b939863c4a2f85910c39355ec5-vex_loadout.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-e313ef5bdabc06fc3e4226934e41e051-boros_loadout.res remapped: res://.godot/exported/133200997/export-e313ef5bdabc06fc3e4226934e41e051-boros_loadout.res
+Loading resource: res://.godot/exported/133200997/export-8877ac2184d2c15f369f988bc390dfba-boros_stats.res remapped: res://.godot/exported/133200997/export-8877ac2184d2c15f369f988bc390dfba-boros_stats.res
+Completed load for: 'res://content/characters/boros_stats.tres' remapped 'res://.godot/exported/133200997/export-8877ac2184d2c15f369f988bc390dfba-boros_stats.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-622b145361b2a7838a250516aa2fefb9-boros_basic.res remapped: res://.godot/exported/133200997/export-622b145361b2a7838a250516aa2fefb9-boros_basic.res
+Completed load for: 'res://content/skills/boros_basic.tres' remapped 'res://.godot/exported/133200997/export-622b145361b2a7838a250516aa2fefb9-boros_basic.res' at thread -1
+Completed load for: 'res://content/characters/boros_loadout.tres' remapped 'res://.godot/exported/133200997/export-e313ef5bdabc06fc3e4226934e41e051-boros_loadout.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-96664bc81c916fbd7e2b6935f87de13e-chaser.res remapped: res://.godot/exported/133200997/export-96664bc81c916fbd7e2b6935f87de13e-chaser.res
+Completed load for: 'res://content/enemies/chaser.tres' remapped 'res://.godot/exported/133200997/export-96664bc81c916fbd7e2b6935f87de13e-chaser.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-4d10f710e72eaf5476e606665b83e8f5-enemy_chaser_basic.res remapped: res://.godot/exported/133200997/export-4d10f710e72eaf5476e606665b83e8f5-enemy_chaser_basic.res
+Completed load for: 'res://content/skills/enemy_chaser_basic.tres' remapped 'res://.godot/exported/133200997/export-4d10f710e72eaf5476e606665b83e8f5-enemy_chaser_basic.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-ec06228cabee32b6967bb31d59cdbb75-max_hp.res remapped: res://.godot/exported/133200997/export-ec06228cabee32b6967bb31d59cdbb75-max_hp.res
+Completed load for: 'res://content/augments/stats/max_hp.tres' remapped 'res://.godot/exported/133200997/export-ec06228cabee32b6967bb31d59cdbb75-max_hp.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-dd6bac07e660614ac40f808fd95b2866-damage.res remapped: res://.godot/exported/133200997/export-dd6bac07e660614ac40f808fd95b2866-damage.res
+Completed load for: 'res://content/augments/stats/damage.tres' remapped 'res://.godot/exported/133200997/export-dd6bac07e660614ac40f808fd95b2866-damage.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-ecc2ee2cab97ae53a0ea7ed47290a3ac-attack_speed.res remapped: res://.godot/exported/133200997/export-ecc2ee2cab97ae53a0ea7ed47290a3ac-attack_speed.res
+Completed load for: 'res://content/augments/stats/attack_speed.tres' remapped 'res://.godot/exported/133200997/export-ecc2ee2cab97ae53a0ea7ed47290a3ac-attack_speed.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-b7a3688bd0c89900eb561083d58e08cf-move_speed.res remapped: res://.godot/exported/133200997/export-b7a3688bd0c89900eb561083d58e08cf-move_speed.res
+Completed load for: 'res://content/augments/stats/move_speed.tres' remapped 'res://.godot/exported/133200997/export-b7a3688bd0c89900eb561083d58e08cf-move_speed.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-06233e23fc8ece6b294f91a5150b11ae-crit_chance.res remapped: res://.godot/exported/133200997/export-06233e23fc8ece6b294f91a5150b11ae-crit_chance.res
+Completed load for: 'res://content/augments/stats/crit_chance.tres' remapped 'res://.godot/exported/133200997/export-06233e23fc8ece6b294f91a5150b11ae-crit_chance.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-4b35b54a66efd63fe67769f41821f7ee-crit_damage.res remapped: res://.godot/exported/133200997/export-4b35b54a66efd63fe67769f41821f7ee-crit_damage.res
+Completed load for: 'res://content/augments/stats/crit_damage.tres' remapped 'res://.godot/exported/133200997/export-4b35b54a66efd63fe67769f41821f7ee-crit_damage.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-7e2eddfc5cc06848c3f3e76c50fde73e-cooldown_reduction.res remapped: res://.godot/exported/133200997/export-7e2eddfc5cc06848c3f3e76c50fde73e-cooldown_reduction.res
+Completed load for: 'res://content/augments/stats/cooldown_reduction.tres' remapped 'res://.godot/exported/133200997/export-7e2eddfc5cc06848c3f3e76c50fde73e-cooldown_reduction.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-0657d9e97d9cbaf2455edf2176994d60-pickup_radius.res remapped: res://.godot/exported/133200997/export-0657d9e97d9cbaf2455edf2176994d60-pickup_radius.res
+Completed load for: 'res://content/augments/stats/pickup_radius.tres' remapped 'res://.godot/exported/133200997/export-0657d9e97d9cbaf2455edf2176994d60-pickup_radius.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-cd868f126369409a306456737297781b-default.res remapped: res://.godot/exported/133200997/export-cd868f126369409a306456737297781b-default.res
+Completed load for: 'res://content/progression/default.tres' remapped 'res://.godot/exported/133200997/export-cd868f126369409a306456737297781b-default.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-6885d16e0b4f94a4bf31ee9ba35f5e54-spawn.res remapped: res://.godot/exported/133200997/export-6885d16e0b4f94a4bf31ee9ba35f5e54-spawn.res
+Completed load for: 'res://content/progression/spawn.tres' remapped 'res://.godot/exported/133200997/export-6885d16e0b4f94a4bf31ee9ba35f5e54-spawn.res' at thread -1
+Completed load for: 'res://content/catalog.tres' remapped 'res://.godot/exported/133200997/export-6bf481a4d2d7aabf6d8b43ac7f567238-catalog.res' at thread -1
+RUN_FOUNDATION seed=20261015 content=full-kits-m3
+BOOT_OK milestone=M5
+Loading resource: res://.godot/exported/133200997/export-bdbf9ad0b7837910add928339fe8daf3-combat_run.scn remapped: res://.godot/exported/133200997/export-bdbf9ad0b7837910add928339fe8daf3-combat_run.scn
+Completed load for: 'res://scenes/run/combat_run.tscn' remapped 'res://.godot/exported/133200997/export-bdbf9ad0b7837910add928339fe8daf3-combat_run.scn' at thread -1
+Loading resource: res://.godot/exported/133200997/export-93ba28ad5e450d451836eb3745580aac-ruined_temple.res remapped: res://.godot/exported/133200997/export-93ba28ad5e450d451836eb3745580aac-ruined_temple.res
+Completed load for: 'res://content/maps/ruined_temple.tres' remapped 'res://.godot/exported/133200997/export-93ba28ad5e450d451836eb3745580aac-ruined_temple.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-c8ae144dc4ea98eb64848d3bf0e2a75e-player.scn remapped: res://.godot/exported/133200997/export-c8ae144dc4ea98eb64848d3bf0e2a75e-player.scn
+Completed load for: 'res://scenes/characters/player.tscn' remapped 'res://.godot/exported/133200997/export-c8ae144dc4ea98eb64848d3bf0e2a75e-player.scn' at thread -1
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+Loading resource: res://.godot/exported/133200997/export-4d10f710e72eaf5476e606665b83e8f5-enemy_chaser_basic.res remapped: res://.godot/exported/133200997/export-4d10f710e72eaf5476e606665b83e8f5-enemy_chaser_basic.res
+Completed load for: 'res://content/skills/enemy_chaser_basic.tres' remapped 'res://.godot/exported/133200997/export-4d10f710e72eaf5476e606665b83e8f5-enemy_chaser_basic.res' at thread -1
+RELEASE_PROFILE_OK astra
+Loading resource: res://.godot/exported/133200997/export-93ba28ad5e450d451836eb3745580aac-ruined_temple.res remapped: res://.godot/exported/133200997/export-93ba28ad5e450d451836eb3745580aac-ruined_temple.res
+Completed load for: 'res://content/maps/ruined_temple.tres' remapped 'res://.godot/exported/133200997/export-93ba28ad5e450d451836eb3745580aac-ruined_temple.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-c8ae144dc4ea98eb64848d3bf0e2a75e-player.scn remapped: res://.godot/exported/133200997/export-c8ae144dc4ea98eb64848d3bf0e2a75e-player.scn
+Completed load for: 'res://scenes/characters/player.tscn' remapped 'res://.godot/exported/133200997/export-c8ae144dc4ea98eb64848d3bf0e2a75e-player.scn' at thread -1
+COMBAT_RUN_STARTED loadout=loadout.vex seed=20261015
+Loading resource: res://.godot/exported/133200997/export-4d10f710e72eaf5476e606665b83e8f5-enemy_chaser_basic.res remapped: res://.godot/exported/133200997/export-4d10f710e72eaf5476e606665b83e8f5-enemy_chaser_basic.res
+Completed load for: 'res://content/skills/enemy_chaser_basic.tres' remapped 'res://.godot/exported/133200997/export-4d10f710e72eaf5476e606665b83e8f5-enemy_chaser_basic.res' at thread -1
+RELEASE_PROFILE_OK vex
+Loading resource: res://.godot/exported/133200997/export-93ba28ad5e450d451836eb3745580aac-ruined_temple.res remapped: res://.godot/exported/133200997/export-93ba28ad5e450d451836eb3745580aac-ruined_temple.res
+Completed load for: 'res://content/maps/ruined_temple.tres' remapped 'res://.godot/exported/133200997/export-93ba28ad5e450d451836eb3745580aac-ruined_temple.res' at thread -1
+Loading resource: res://.godot/exported/133200997/export-c8ae144dc4ea98eb64848d3bf0e2a75e-player.scn remapped: res://.godot/exported/133200997/export-c8ae144dc4ea98eb64848d3bf0e2a75e-player.scn
+Completed load for: 'res://scenes/characters/player.tscn' remapped 'res://.godot/exported/133200997/export-c8ae144dc4ea98eb64848d3bf0e2a75e-player.scn' at thread -1
+COMBAT_RUN_STARTED loadout=loadout.boros seed=20261015
+Loading resource: res://.godot/exported/133200997/export-4d10f710e72eaf5476e606665b83e8f5-enemy_chaser_basic.res remapped: res://.godot/exported/133200997/export-4d10f710e72eaf5476e606665b83e8f5-enemy_chaser_basic.res
+Completed load for: 'res://content/skills/enemy_chaser_basic.tres' remapped 'res://.godot/exported/133200997/export-4d10f710e72eaf5476e606665b83e8f5-enemy_chaser_basic.res' at thread -1
+RELEASE_PROFILE_OK boros
+RELEASE_SMOKE_OK profiles=3 boss_victories=3
+XR: Clearing primary interface
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"
+Leaked instance: AudioStreamWAV:9223372611860302181 - Reference count: 1
+Leaked instance: AudioStreamPlaybackWAV:9223372783004682727 - Reference count: 1
+Hint: Leaked instances typically happen when nodes are removed from the scene tree (with `remove_child()`) but not freed (with `free()` or `queue_free()`).
+Orphan StringName: Master (static: 0, total: 2)
+StringName: 1 unclaimed string names at exit.
+WARNING: 2 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)

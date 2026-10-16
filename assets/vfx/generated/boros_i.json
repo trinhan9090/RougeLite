@@ -1,0 +1,14 @@
+{
+  "effect_id": "boros_i",
+  "category": "aura",
+  "layer": 1,
+  "max_instances": 80,
+  "event_type": "confirmed_execution",
+  "parameters": {
+    "skill_id": "skill.boros.i",
+    "color": "#be4e50",
+    "style": "titan",
+    "geometry": "runtime snapshot",
+    "prototype": true
+  }
+}

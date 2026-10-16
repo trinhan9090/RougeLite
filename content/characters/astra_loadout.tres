@@ -1,0 +1,348 @@
+[gd_resource type="Resource" script_class="CombatLoadoutDefinition" format=3]
+
+[ext_resource type="SpriteFrames" path="res://assets/characters/astra/frames.tres" id="art_frames"]
+
+[ext_resource type="Script" path="res://scripts/data/combat_loadout_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="1_pqwkn"]
+[ext_resource type="Resource" path="res://content/characters/astra_stats.tres" id="2"]
+[ext_resource type="Script" path="res://scripts/data/effect_executor_definition.gd" id="2_ehabx"]
+[ext_resource type="Resource" path="res://content/skills/astra_basic.tres" id="3"]
+[ext_resource type="Script" path="res://scripts/data/status_effect_definition.gd" id="3_ch7bs"]
+[ext_resource type="Script" path="res://scripts/data/skill_rank_definition.gd" id="4_cmuj4"]
+[ext_resource type="Script" path="res://scripts/data/skill_behavior_definition.gd" id="5_ehabx"]
+[ext_resource type="Script" path="res://scripts/data/targeting_definition.gd" id="5_qootf"]
+
+[sub_resource type="Resource" id="Resource_k6ted"]
+script = ExtResource("3_ch7bs")
+
+[sub_resource type="Resource" id="Resource_oiewj"]
+script = ExtResource("2_ehabx")
+status = SubResource("Resource_k6ted")
+executor_id = &"executor.projectile"
+
+[sub_resource type="Resource" id="Resource_ksrgw"]
+script = ExtResource("3_ch7bs")
+
+[sub_resource type="Resource" id="Resource_nnqs6"]
+script = ExtResource("5_ehabx")
+status = SubResource("Resource_ksrgw")
+
+[sub_resource type="Resource" id="Resource_d4orm"]
+script = ExtResource("4_cmuj4")
+cooldown = 7.0
+damage = 36.0
+damage_type = "MAGIC"
+range_px = 620.0
+projectile_speed = 780.0
+behavior = SubResource("Resource_nnqs6")
+
+[sub_resource type="Resource" id="Resource_5vpla"]
+script = ExtResource("3_ch7bs")
+
+[sub_resource type="Resource" id="Resource_80m48"]
+script = ExtResource("5_ehabx")
+status = SubResource("Resource_5vpla")
+
+[sub_resource type="Resource" id="Resource_1lwut"]
+script = ExtResource("4_cmuj4")
+rank = 2
+cooldown = 7.0
+damage = 44.0
+damage_type = "MAGIC"
+range_px = 620.0
+projectile_speed = 780.0
+pierce_count = 2
+behavior = SubResource("Resource_80m48")
+
+[sub_resource type="Resource" id="Resource_iiod7"]
+script = ExtResource("3_ch7bs")
+duration = 1.65
+
+[sub_resource type="Resource" id="Resource_2nhrf"]
+script = ExtResource("5_ehabx")
+status = SubResource("Resource_iiod7")
+
+[sub_resource type="Resource" id="Resource_nwhgs"]
+script = ExtResource("4_cmuj4")
+rank = 3
+cooldown = 7.0
+damage = 54.0
+damage_type = "MAGIC"
+range_px = 620.0
+projectile_speed = 780.0
+pierce_count = 2
+behavior = SubResource("Resource_2nhrf")
+
+[sub_resource type="Resource" id="Resource_74wd0"]
+script = ExtResource("3_ch7bs")
+duration = 1.65
+
+[sub_resource type="Resource" id="Resource_povyx"]
+script = ExtResource("5_ehabx")
+status = SubResource("Resource_74wd0")
+death_damage = 30.0
+
+[sub_resource type="Resource" id="Resource_6ahgd"]
+script = ExtResource("4_cmuj4")
+rank = 4
+cooldown = 7.0
+damage = 65.0
+damage_type = "MAGIC"
+range_px = 620.0
+projectile_speed = 780.0
+pierce_count = 2
+behavior = SubResource("Resource_povyx")
+
+[sub_resource type="Resource" id="Resource_3rgj8"]
+script = ExtResource("5_qootf")
+policy = "cursor"
+acquisition_radius = 620.0
+
+[sub_resource type="Resource" id="Resource_pqwkn"]
+script = ExtResource("1_pqwkn")
+slot = 1
+unlock_level = 3
+max_rank = 4
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"cooldown_manage", &"repeat_cast", &"modify_projectile_angle", &"spawn_projectile_pattern", &"modify_projectile_count", &"pierce_hit", &"projectile_steering", &"apply_status"])
+executor = SubResource("Resource_oiewj")
+targeting = SubResource("Resource_3rgj8")
+rank_scaling = Array[ExtResource("4_cmuj4")]([SubResource("Resource_d4orm"), SubResource("Resource_1lwut"), SubResource("Resource_nwhgs"), SubResource("Resource_6ahgd")])
+id = &"skill.astra.j"
+display_name = "Radiant Snare"
+
+[sub_resource type="Resource" id="Resource_47h4r"]
+script = ExtResource("2_ehabx")
+kind = "shield"
+executor_id = &"executor.shield"
+
+[sub_resource type="Resource" id="Resource_lp31j"]
+script = ExtResource("5_ehabx")
+move_bonus = 0.15
+
+[sub_resource type="Resource" id="Resource_ld0dc"]
+script = ExtResource("4_cmuj4")
+cooldown = 13.0
+damage_type = "MAGIC"
+range_px = 400.0
+duration = 4.0
+shield = 48.0
+behavior = SubResource("Resource_lp31j")
+
+[sub_resource type="Resource" id="Resource_640lo"]
+script = ExtResource("5_ehabx")
+move_bonus = 0.15
+
+[sub_resource type="Resource" id="Resource_st1og"]
+script = ExtResource("4_cmuj4")
+rank = 2
+cooldown = 13.0
+damage_type = "MAGIC"
+range_px = 400.0
+duration = 4.0
+shield = 68.0
+behavior = SubResource("Resource_640lo")
+
+[sub_resource type="Resource" id="Resource_kjksw"]
+script = ExtResource("5_ehabx")
+move_bonus = 0.15
+blocked_pulse = 15.0
+
+[sub_resource type="Resource" id="Resource_je2mf"]
+script = ExtResource("4_cmuj4")
+rank = 3
+cooldown = 13.0
+damage_type = "MAGIC"
+range_px = 400.0
+duration = 4.0
+shield = 68.0
+behavior = SubResource("Resource_kjksw")
+
+[sub_resource type="Resource" id="Resource_8kisw"]
+script = ExtResource("5_ehabx")
+move_bonus = 0.15
+blocked_pulse = 15.0
+expire_damage = 45.0
+
+[sub_resource type="Resource" id="Resource_e3a04"]
+script = ExtResource("4_cmuj4")
+rank = 4
+cooldown = 13.0
+damage_type = "MAGIC"
+range_px = 400.0
+duration = 4.0
+shield = 95.0
+behavior = SubResource("Resource_8kisw")
+
+[sub_resource type="Resource" id="Resource_n0g2g"]
+script = ExtResource("5_qootf")
+policy = "self"
+acquisition_radius = 400.0
+
+[sub_resource type="Resource" id="Resource_ehabx"]
+script = ExtResource("1_pqwkn")
+slot = 2
+unlock_level = 6
+max_rank = 4
+declared_capabilities = Array[StringName]([&"modify_shield", &"damage_taken_hook"])
+executor = SubResource("Resource_47h4r")
+targeting = SubResource("Resource_n0g2g")
+rank_scaling = Array[ExtResource("4_cmuj4")]([SubResource("Resource_ld0dc"), SubResource("Resource_st1og"), SubResource("Resource_je2mf"), SubResource("Resource_e3a04")])
+id = &"skill.astra.k"
+display_name = "Prism Guard"
+
+[sub_resource type="Resource" id="Resource_s6n10"]
+script = ExtResource("2_ehabx")
+kind = "area"
+executor_id = &"executor.area"
+
+[sub_resource type="Resource" id="Resource_w8eos"]
+script = ExtResource("5_ehabx")
+
+[sub_resource type="Resource" id="Resource_m6h6r"]
+script = ExtResource("4_cmuj4")
+cooldown = 9.0
+damage = 7.0
+damage_type = "MAGIC"
+range_px = 350.0
+radius_px = 80.0
+duration = 4.0
+behavior = SubResource("Resource_w8eos")
+
+[sub_resource type="Resource" id="Resource_vnpgh"]
+script = ExtResource("5_ehabx")
+
+[sub_resource type="Resource" id="Resource_k4pgg"]
+script = ExtResource("4_cmuj4")
+rank = 2
+cooldown = 9.0
+damage = 7.0
+damage_type = "MAGIC"
+range_px = 350.0
+radius_px = 100.0
+duration = 4.0
+behavior = SubResource("Resource_vnpgh")
+
+[sub_resource type="Resource" id="Resource_xrjos"]
+script = ExtResource("5_ehabx")
+
+[sub_resource type="Resource" id="Resource_htf2d"]
+script = ExtResource("4_cmuj4")
+rank = 3
+cooldown = 9.0
+damage = 7.0
+damage_type = "MAGIC"
+range_px = 350.0
+radius_px = 100.0
+duration = 5.5
+behavior = SubResource("Resource_xrjos")
+
+[sub_resource type="Resource" id="Resource_l4h1d"]
+script = ExtResource("3_ch7bs")
+kind = "slow"
+duration = 0.6
+strength = 0.1
+
+[sub_resource type="Resource" id="Resource_sutti"]
+script = ExtResource("5_ehabx")
+status = SubResource("Resource_l4h1d")
+
+[sub_resource type="Resource" id="Resource_afpn4"]
+script = ExtResource("4_cmuj4")
+rank = 4
+cooldown = 9.0
+damage = 10.0
+damage_type = "MAGIC"
+range_px = 350.0
+radius_px = 100.0
+duration = 5.5
+behavior = SubResource("Resource_sutti")
+
+[sub_resource type="Resource" id="Resource_hyifr"]
+script = ExtResource("5_qootf")
+policy = "cursor"
+acquisition_radius = 350.0
+
+[sub_resource type="Resource" id="Resource_ch7bs"]
+script = ExtResource("1_pqwkn")
+slot = 3
+unlock_level = 9
+max_rank = 4
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"cooldown_manage", &"repeat_cast", &"resize_area"])
+executor = SubResource("Resource_s6n10")
+targeting = SubResource("Resource_hyifr")
+rank_scaling = Array[ExtResource("4_cmuj4")]([SubResource("Resource_m6h6r"), SubResource("Resource_k4pgg"), SubResource("Resource_htf2d"), SubResource("Resource_afpn4")])
+id = &"skill.astra.l"
+display_name = "Solar Field"
+
+[sub_resource type="Resource" id="Resource_lcv3g"]
+script = ExtResource("2_ehabx")
+kind = "beam"
+executor_id = &"executor.beam"
+
+[sub_resource type="Resource" id="Resource_k7077"]
+script = ExtResource("5_ehabx")
+
+[sub_resource type="Resource" id="Resource_vcqrq"]
+script = ExtResource("4_cmuj4")
+cooldown = 23.0
+damage = 120.0
+damage_type = "MAGIC"
+range_px = 600.0
+radius_px = 37.5
+behavior = SubResource("Resource_k7077")
+
+[sub_resource type="Resource" id="Resource_eayav"]
+script = ExtResource("5_ehabx")
+
+[sub_resource type="Resource" id="Resource_kyosd"]
+script = ExtResource("4_cmuj4")
+rank = 2
+cooldown = 20.0
+damage = 120.0
+damage_type = "MAGIC"
+range_px = 600.0
+radius_px = 50.0
+behavior = SubResource("Resource_eayav")
+
+[sub_resource type="Resource" id="Resource_yrdu6"]
+script = ExtResource("5_ehabx")
+burn_duration = 3.0
+burn_damage = 12.0
+
+[sub_resource type="Resource" id="Resource_6ntqw"]
+script = ExtResource("4_cmuj4")
+rank = 3
+cooldown = 20.0
+damage = 120.0
+damage_type = "MAGIC"
+range_px = 600.0
+radius_px = 50.0
+behavior = SubResource("Resource_yrdu6")
+
+[sub_resource type="Resource" id="Resource_xppoi"]
+script = ExtResource("5_qootf")
+policy = "cursor"
+acquisition_radius = 600.0
+
+[sub_resource type="Resource" id="Resource_cmuj4"]
+script = ExtResource("1_pqwkn")
+slot = 4
+unlock_level = 11
+max_rank = 3
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"cooldown_manage", &"repeat_cast", &"resize_area"])
+executor = SubResource("Resource_lcv3g")
+targeting = SubResource("Resource_xppoi")
+rank_scaling = Array[ExtResource("4_cmuj4")]([SubResource("Resource_vcqrq"), SubResource("Resource_kyosd"), SubResource("Resource_6ntqw")])
+id = &"skill.astra.i"
+display_name = "Celestial Beam"
+
+[resource]
+script = ExtResource("1")
+character_id = &"character.astra"
+art_frames = ExtResource("art_frames")
+class_id = &"mage"
+stats = ExtResource("2")
+basic_attack = ExtResource("3")
+active_skills = Array[ExtResource("1_pqwkn")]([SubResource("Resource_pqwkn"), SubResource("Resource_ehabx"), SubResource("Resource_ch7bs"), SubResource("Resource_cmuj4")])
+id = &"loadout.astra"
+display_name = "Astra"

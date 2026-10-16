@@ -1,0 +1,87 @@
+[gd_resource type="Resource" script_class="SkillDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/effect_executor_definition.gd" id="1_uq6mb"]
+[ext_resource type="Script" path="res://scripts/data/skill_rank_definition.gd" id="2_ti2yr"]
+[ext_resource type="Script" path="res://scripts/data/skill_behavior_definition.gd" id="3_bftjf"]
+[ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="4_47h4r"]
+[ext_resource type="Script" path="res://scripts/data/targeting_definition.gd" id="5_ld0dc"]
+
+[sub_resource type="Resource" id="Resource_47h4r"]
+script = ExtResource("1_uq6mb")
+kind = "shield"
+executor_id = &"executor.shield"
+
+[sub_resource type="Resource" id="Resource_lp31j"]
+script = ExtResource("3_bftjf")
+move_bonus = 0.15
+
+[sub_resource type="Resource" id="Resource_ld0dc"]
+script = ExtResource("2_ti2yr")
+cooldown = 13.0
+damage_type = "MAGIC"
+range_px = 400.0
+duration = 4.0
+shield = 48.0
+behavior = SubResource("Resource_lp31j")
+
+[sub_resource type="Resource" id="Resource_640lo"]
+script = ExtResource("3_bftjf")
+move_bonus = 0.15
+
+[sub_resource type="Resource" id="Resource_st1og"]
+script = ExtResource("2_ti2yr")
+rank = 2
+cooldown = 13.0
+damage_type = "MAGIC"
+range_px = 400.0
+duration = 4.0
+shield = 68.0
+behavior = SubResource("Resource_640lo")
+
+[sub_resource type="Resource" id="Resource_kjksw"]
+script = ExtResource("3_bftjf")
+move_bonus = 0.15
+blocked_pulse = 15.0
+
+[sub_resource type="Resource" id="Resource_je2mf"]
+script = ExtResource("2_ti2yr")
+rank = 3
+cooldown = 13.0
+damage_type = "MAGIC"
+range_px = 400.0
+duration = 4.0
+shield = 68.0
+behavior = SubResource("Resource_kjksw")
+
+[sub_resource type="Resource" id="Resource_8kisw"]
+script = ExtResource("3_bftjf")
+move_bonus = 0.15
+blocked_pulse = 15.0
+expire_damage = 45.0
+
+[sub_resource type="Resource" id="Resource_e3a04"]
+script = ExtResource("2_ti2yr")
+rank = 4
+cooldown = 13.0
+damage_type = "MAGIC"
+range_px = 400.0
+duration = 4.0
+shield = 95.0
+behavior = SubResource("Resource_8kisw")
+
+[sub_resource type="Resource" id="Resource_n0g2g"]
+script = ExtResource("5_ld0dc")
+policy = "self"
+acquisition_radius = 400.0
+
+[resource]
+script = ExtResource("4_47h4r")
+slot = 2
+unlock_level = 6
+max_rank = 4
+declared_capabilities = Array[StringName]([&"modify_shield", &"damage_taken_hook"])
+executor = SubResource("Resource_47h4r")
+targeting = SubResource("Resource_n0g2g")
+rank_scaling = Array[ExtResource("2_ti2yr")]([SubResource("Resource_ld0dc"), SubResource("Resource_st1og"), SubResource("Resource_je2mf"), SubResource("Resource_e3a04")])
+id = &"skill.astra.k"
+display_name = "Prism Guard"

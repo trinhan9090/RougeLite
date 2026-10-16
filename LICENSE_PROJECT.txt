@@ -1,0 +1,7 @@
+Project source and locally authored art/audio: no public distribution license has
+been selected by the project owner. All rights reserved pending that decision.
+This private demo copy is supplied for the owner's testing and review.
+
+Godot Engine and its bundled third-party components keep their respective licenses.
+See docs/licenses/GODOT_LICENSE.txt and GODOT_THIRD_PARTY.json, or the matching
+license files included beside the packaged demo.

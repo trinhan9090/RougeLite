@@ -1,0 +1,335 @@
+[gd_resource type="Resource" script_class="CombatLoadoutDefinition" format=3]
+
+[ext_resource type="SpriteFrames" path="res://assets/characters/boros/frames.tres" id="art_frames"]
+
+[ext_resource type="Script" path="res://scripts/data/combat_loadout_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="1_mwiix"]
+[ext_resource type="Resource" path="res://content/characters/boros_stats.tres" id="2"]
+[ext_resource type="Script" path="res://scripts/data/effect_executor_definition.gd" id="2_t3t7e"]
+[ext_resource type="Resource" path="res://content/skills/boros_basic.tres" id="3"]
+[ext_resource type="Script" path="res://scripts/data/skill_rank_definition.gd" id="3_n7suh"]
+[ext_resource type="Script" path="res://scripts/data/targeting_definition.gd" id="4_17rom"]
+[ext_resource type="Script" path="res://scripts/data/skill_behavior_definition.gd" id="4_t3t7e"]
+[ext_resource type="Script" path="res://scripts/data/status_effect_definition.gd" id="5_n7suh"]
+
+[sub_resource type="Resource" id="Resource_w0l36"]
+script = ExtResource("2_t3t7e")
+kind = "area"
+executor_id = &"executor.area"
+
+[sub_resource type="Resource" id="Resource_qdudc"]
+script = ExtResource("5_n7suh")
+kind = "slow"
+duration = 1.5
+
+[sub_resource type="Resource" id="Resource_6ur45"]
+script = ExtResource("4_t3t7e")
+status = SubResource("Resource_qdudc")
+
+[sub_resource type="Resource" id="Resource_v63r5"]
+script = ExtResource("3_n7suh")
+cooldown = 8.0
+damage = 55.0
+radius_px = 140.0
+behavior = SubResource("Resource_6ur45")
+
+[sub_resource type="Resource" id="Resource_x380x"]
+script = ExtResource("5_n7suh")
+kind = "slow"
+duration = 1.5
+
+[sub_resource type="Resource" id="Resource_j5c3l"]
+script = ExtResource("4_t3t7e")
+status = SubResource("Resource_x380x")
+
+[sub_resource type="Resource" id="Resource_f6ir8"]
+script = ExtResource("3_n7suh")
+rank = 2
+cooldown = 8.0
+damage = 55.0
+radius_px = 170.0
+behavior = SubResource("Resource_j5c3l")
+
+[sub_resource type="Resource" id="Resource_qewsq"]
+script = ExtResource("5_n7suh")
+kind = "slow"
+duration = 1.5
+
+[sub_resource type="Resource" id="Resource_en17f"]
+script = ExtResource("4_t3t7e")
+status = SubResource("Resource_qewsq")
+max_hp_damage = 0.03
+
+[sub_resource type="Resource" id="Resource_wu0vf"]
+script = ExtResource("3_n7suh")
+rank = 3
+cooldown = 8.0
+damage = 55.0
+radius_px = 170.0
+behavior = SubResource("Resource_en17f")
+
+[sub_resource type="Resource" id="Resource_15exi"]
+script = ExtResource("5_n7suh")
+kind = "slow"
+duration = 1.5
+
+[sub_resource type="Resource" id="Resource_44fhd"]
+script = ExtResource("4_t3t7e")
+status = SubResource("Resource_15exi")
+max_hp_damage = 0.03
+repeat_delay = 0.4
+repeat_scale = 0.45
+
+[sub_resource type="Resource" id="Resource_2kmfj"]
+script = ExtResource("3_n7suh")
+rank = 4
+cooldown = 8.0
+damage = 55.0
+radius_px = 170.0
+behavior = SubResource("Resource_44fhd")
+
+[sub_resource type="Resource" id="Resource_ikcvj"]
+script = ExtResource("4_17rom")
+policy = "self"
+acquisition_radius = 140.0
+
+[sub_resource type="Resource" id="Resource_mwiix"]
+script = ExtResource("1_mwiix")
+slot = 1
+unlock_level = 3
+max_rank = 4
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"cooldown_manage", &"repeat_cast", &"resize_area"])
+executor = SubResource("Resource_w0l36")
+targeting = SubResource("Resource_ikcvj")
+rank_scaling = Array[ExtResource("3_n7suh")]([SubResource("Resource_v63r5"), SubResource("Resource_f6ir8"), SubResource("Resource_wu0vf"), SubResource("Resource_2kmfj")])
+id = &"skill.boros.j"
+display_name = "Ground Slam"
+
+[sub_resource type="Resource" id="Resource_vali8"]
+script = ExtResource("2_t3t7e")
+kind = "shield"
+executor_id = &"executor.shield"
+
+[sub_resource type="Resource" id="Resource_wy1ry"]
+script = ExtResource("4_t3t7e")
+shield_reduction = 0.25
+
+[sub_resource type="Resource" id="Resource_k5ups"]
+script = ExtResource("3_n7suh")
+cooldown = 16.0
+range_px = 400.0
+duration = 3.5
+shield = 70.0
+behavior = SubResource("Resource_wy1ry")
+
+[sub_resource type="Resource" id="Resource_fpgqn"]
+script = ExtResource("4_t3t7e")
+shield_reduction = 0.25
+
+[sub_resource type="Resource" id="Resource_mn38y"]
+script = ExtResource("3_n7suh")
+rank = 2
+cooldown = 16.0
+range_px = 400.0
+duration = 3.5
+shield = 95.0
+behavior = SubResource("Resource_fpgqn")
+
+[sub_resource type="Resource" id="Resource_cx2ko"]
+script = ExtResource("4_t3t7e")
+shield_reduction = 0.25
+reflect_fraction = 0.15
+
+[sub_resource type="Resource" id="Resource_ccibv"]
+script = ExtResource("3_n7suh")
+rank = 3
+cooldown = 16.0
+range_px = 400.0
+duration = 3.5
+shield = 95.0
+behavior = SubResource("Resource_cx2ko")
+
+[sub_resource type="Resource" id="Resource_qy4fo"]
+script = ExtResource("4_t3t7e")
+shield_reduction = 0.25
+reflect_fraction = 0.15
+expire_heal_fraction = 0.2
+
+[sub_resource type="Resource" id="Resource_1sqd0"]
+script = ExtResource("3_n7suh")
+rank = 4
+cooldown = 16.0
+range_px = 400.0
+duration = 3.5
+shield = 95.0
+behavior = SubResource("Resource_qy4fo")
+
+[sub_resource type="Resource" id="Resource_163rx"]
+script = ExtResource("4_17rom")
+policy = "self"
+acquisition_radius = 400.0
+
+[sub_resource type="Resource" id="Resource_t3t7e"]
+script = ExtResource("1_mwiix")
+slot = 2
+unlock_level = 6
+max_rank = 4
+declared_capabilities = Array[StringName]([&"modify_shield", &"damage_taken_hook"])
+executor = SubResource("Resource_vali8")
+targeting = SubResource("Resource_163rx")
+rank_scaling = Array[ExtResource("3_n7suh")]([SubResource("Resource_k5ups"), SubResource("Resource_mn38y"), SubResource("Resource_ccibv"), SubResource("Resource_1sqd0")])
+id = &"skill.boros.k"
+display_name = "Iron Resolve"
+
+[sub_resource type="Resource" id="Resource_t2fw6"]
+script = ExtResource("2_t3t7e")
+kind = "dash"
+executor_id = &"executor.dash"
+
+[sub_resource type="Resource" id="Resource_vavpy"]
+script = ExtResource("4_t3t7e")
+
+[sub_resource type="Resource" id="Resource_8biap"]
+script = ExtResource("3_n7suh")
+cooldown = 11.0
+damage = 60.0
+range_px = 230.0
+radius_px = 30.0
+behavior = SubResource("Resource_vavpy")
+
+[sub_resource type="Resource" id="Resource_hpb2i"]
+script = ExtResource("4_t3t7e")
+
+[sub_resource type="Resource" id="Resource_nlq1t"]
+script = ExtResource("3_n7suh")
+rank = 2
+cooldown = 11.0
+damage = 60.0
+range_px = 300.0
+radius_px = 30.0
+behavior = SubResource("Resource_hpb2i")
+
+[sub_resource type="Resource" id="Resource_n2swk"]
+script = ExtResource("5_n7suh")
+kind = "stun"
+duration = 0.7
+
+[sub_resource type="Resource" id="Resource_qu418"]
+script = ExtResource("4_t3t7e")
+status = SubResource("Resource_n2swk")
+
+[sub_resource type="Resource" id="Resource_667gn"]
+script = ExtResource("3_n7suh")
+rank = 3
+cooldown = 11.0
+damage = 60.0
+range_px = 300.0
+radius_px = 30.0
+behavior = SubResource("Resource_qu418")
+
+[sub_resource type="Resource" id="Resource_iiqy0"]
+script = ExtResource("5_n7suh")
+kind = "stun"
+duration = 0.7
+
+[sub_resource type="Resource" id="Resource_3kqen"]
+script = ExtResource("4_t3t7e")
+status = SubResource("Resource_iiqy0")
+trail_duration = 2.0
+trail_damage = 10.0
+
+[sub_resource type="Resource" id="Resource_0crgu"]
+script = ExtResource("3_n7suh")
+rank = 4
+cooldown = 11.0
+damage = 60.0
+range_px = 300.0
+radius_px = 30.0
+behavior = SubResource("Resource_3kqen")
+
+[sub_resource type="Resource" id="Resource_br745"]
+script = ExtResource("4_17rom")
+policy = "cursor"
+acquisition_radius = 230.0
+
+[sub_resource type="Resource" id="Resource_n7suh"]
+script = ExtResource("1_mwiix")
+slot = 3
+unlock_level = 9
+max_rank = 4
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"cooldown_manage", &"dash_completed_hook"])
+executor = SubResource("Resource_t2fw6")
+targeting = SubResource("Resource_br745")
+rank_scaling = Array[ExtResource("3_n7suh")]([SubResource("Resource_8biap"), SubResource("Resource_nlq1t"), SubResource("Resource_667gn"), SubResource("Resource_0crgu")])
+id = &"skill.boros.l"
+display_name = "Crushing Charge"
+
+[sub_resource type="Resource" id="Resource_o0nka"]
+script = ExtResource("2_t3t7e")
+kind = "buff"
+executor_id = &"executor.buff"
+
+[sub_resource type="Resource" id="Resource_n432b"]
+script = ExtResource("4_t3t7e")
+hp_bonus = 0.4
+range_bonus = 0.45
+
+[sub_resource type="Resource" id="Resource_4tjh4"]
+script = ExtResource("3_n7suh")
+cooldown = 30.0
+duration = 7.0
+behavior = SubResource("Resource_n432b")
+
+[sub_resource type="Resource" id="Resource_w2dbq"]
+script = ExtResource("4_t3t7e")
+hp_bonus = 0.4
+range_bonus = 0.45
+
+[sub_resource type="Resource" id="Resource_jarg4"]
+script = ExtResource("3_n7suh")
+rank = 2
+cooldown = 30.0
+duration = 9.0
+behavior = SubResource("Resource_w2dbq")
+
+[sub_resource type="Resource" id="Resource_cm70o"]
+script = ExtResource("4_t3t7e")
+hp_bonus = 0.4
+range_bonus = 0.45
+basic_pulse_scale = 0.35
+
+[sub_resource type="Resource" id="Resource_0or7t"]
+script = ExtResource("3_n7suh")
+rank = 3
+cooldown = 30.0
+duration = 9.0
+behavior = SubResource("Resource_cm70o")
+
+[sub_resource type="Resource" id="Resource_mmjgc"]
+script = ExtResource("4_17rom")
+policy = "self"
+acquisition_radius = 400.0
+
+[sub_resource type="Resource" id="Resource_17rom"]
+script = ExtResource("1_mwiix")
+slot = 4
+unlock_level = 11
+max_rank = 3
+executor = SubResource("Resource_o0nka")
+targeting = SubResource("Resource_mmjgc")
+rank_scaling = Array[ExtResource("3_n7suh")]([SubResource("Resource_4tjh4"), SubResource("Resource_jarg4"), SubResource("Resource_0or7t")])
+id = &"skill.boros.i"
+display_name = "Titan's Fury"
+
+[resource]
+script = ExtResource("1")
+character_id = &"character.boros"
+art_frames = ExtResource("art_frames")
+class_id = &"brute"
+stats = ExtResource("2")
+basic_attack = ExtResource("3")
+active_skills = Array[ExtResource("1_mwiix")]([SubResource("Resource_mwiix"), SubResource("Resource_t3t7e"), SubResource("Resource_n7suh"), SubResource("Resource_17rom")])
+tint = Color(0.6431373, 0.8745098, 0.54901963, 1)
+weapon = "hammer"
+id = &"loadout.boros"
+display_name = "Boros"

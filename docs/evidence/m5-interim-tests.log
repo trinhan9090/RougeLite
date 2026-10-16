@@ -1,0 +1,715 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS valid typed definition graph
+PASS nested skill/enemy definitions indexed
+PASS returned deep copy cannot mutate registry
+PASS source cannot mutate registry snapshot
+PASS duplicate IDs rejected
+PASS failed validation leaves no partial index
+PASS empty reference rejected
+PASS missing rank rejected
+PASS negative cooldown rejected
+PASS nonfinite cooldown rejected
+PASS ultimate max rank enforced
+PASS unlock slot mapping enforced
+PASS missing executor rejected
+PASS tags cannot fabricate executor capabilities
+PASS dependency cycle rejected
+PASS passive rank 6 rejected
+PASS missing effect rank rejected
+PASS missing requirement ID rejected
+PASS augment prerequisite cycle rejected
+PASS untyped content edge rejected
+PASS unsafe spawn radius rejected
+PASS invalid boss phase order rejected
+PASS out of range actor stats rejected
+PASS typed resource saves
+PASS typed resource reload validates
+PASS nested rank type retained after serialization
+PASS disk catalog loads
+PASS disk map is typed
+PASS missing catalog fails closed
+PASS spawn config validates exclusion radius
+PASS progression validates orb minimum lifetime
+RESULT content: checks=31 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS same seed/state sequence 0/maps
+PASS same seed/state sequence 0/obstacles
+PASS same seed/state sequence 0/spawns
+PASS same seed/state sequence 0/offers
+PASS same seed/state sequence 0/combat
+PASS same seed/state sequence 20261015/maps
+PASS same seed/state sequence 20261015/obstacles
+PASS same seed/state sequence 20261015/spawns
+PASS same seed/state sequence 20261015/offers
+PASS same seed/state sequence 20261015/combat
+PASS same seed/state sequence -42/maps
+PASS same seed/state sequence -42/obstacles
+PASS same seed/state sequence -42/spawns
+PASS same seed/state sequence -42/offers
+PASS same seed/state sequence -42/combat
+PASS same seed/state sequence 9223372036854775807/maps
+PASS same seed/state sequence 9223372036854775807/obstacles
+PASS same seed/state sequence 9223372036854775807/spawns
+PASS same seed/state sequence 9223372036854775807/offers
+PASS same seed/state sequence 9223372036854775807/combat
+PASS combat consumption does not perturb maps
+PASS combat consumption does not perturb obstacles
+PASS combat consumption does not perturb spawns
+PASS combat consumption does not perturb offers
+PASS RNG state restore accepted
+PASS restored state continues exact sequence
+PASS partial restore rejected
+PASS failed restore is atomic
+PASS different seeds differ
+PASS different named streams differ
+PASS unknown stream fails closed
+PASS run state isolated
+PASS run initializes deterministically
+PASS seed is available for debug display
+RESULT RNG: checks=34 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS missing settings uses defaults
+PASS InputMap default move_up
+PASS InputMap default move_left
+PASS InputMap default move_down
+PASS InputMap default move_right
+PASS InputMap default active_1
+PASS InputMap default active_2
+PASS InputMap default active_3
+PASS InputMap default active_4
+PASS InputMap default pause
+PASS movement collision rejected
+PASS active collision rejected
+PASS pause collision rejected
+PASS rejected remap leaves binding intact
+PASS unknown action rejected
+PASS empty key rejected
+PASS modifier alone rejected
+PASS reserved pause key preserved
+PASS valid remap saves
+PASS InputMap applies remap
+PASS manual setting saves
+PASS invalid mode leaves state intact
+PASS new service loads persisted settings
+PASS reselecting own binding permitted
+PASS saved config readable
+PASS saved duplicate rejected atomically
+PASS wrong binding type rejected
+PASS unknown settings version rejected
+PASS save failure rolls back binding
+PASS save failure rolls back mode
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT settings restart: checks=1 failures=0
+
+PASS separate process --write
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT settings restart: checks=1 failures=0
+
+PASS separate process --read
+RESULT settings: checks=32 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RUN_FOUNDATION seed=20261015 content=full-kits-m3
+BOOT_OK milestone=M5
+RESULT scene boot: checks=1 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS normalized movement (1.0, 0.0)
+PASS normalized movement (-1.0, 0.0)
+PASS normalized movement (0.0, -1.0)
+PASS normalized movement (0.0, 1.0)
+PASS normalized movement (1.0, 1.0)
+PASS normalized movement (-1.0, 1.0)
+PASS normalized movement (1.0, -1.0)
+PASS normalized movement (-1.0, -1.0)
+PASS idle velocity zero
+PASS real WASD diagonal displacement equals cardinal
+PASS physics obstacle collision
+PASS physics arena boundary collision
+RESULT movement: checks=12 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS enemy stats loaded from data
+PASS enemy physically chases target
+PASS actor emits death exactly once
+PASS dead actor stops physics/collision
+PASS runtime lifecycle does not mutate definition
+RESULT actors: checks=5 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS empty target set
+PASS nearest within range
+PASS exact range included
+PASS outside range excluded
+PASS tie uses stable ID independent of array order
+PASS near-equal distances still select strictly nearest
+PASS dead ignored
+PASS self allied null excluded
+PASS queued target excluded
+PASS freed target excluded
+RESULT targeting: checks=10 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS physical armor exact mitigation
+PASS magic resistance exact mitigation
+PASS true damage ignores resistance
+PASS negative armor formula
+PASS FIFO shield absorbs before HP
+PASS shields expire on simulation clock
+PASS guaranteed critical multiplier
+PASS crit uses explicit seeded RNG
+PASS root blocks movement but not attack
+PASS root expires
+PASS slow minimum movement factor
+PASS boss hard CC converts to stagger
+PASS boss stagger immunity cooldown
+PASS negative damage rejected
+PASS friendly damage rejected
+PASS lethal hit emits one kill
+PASS dead target emits no duplicate kill and hits dispatched
+RESULT damage: checks=17 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS loadout validates astra
+PASS no target consumes no cooldown astra
+PASS basic fires astra
+PASS cooldown prevents duplicate attack astra
+PASS actual physics hit damage astra
+PASS runtime crit override does not mutate profile astra
+PASS loadout validates vex
+PASS no target consumes no cooldown vex
+PASS basic fires vex
+PASS cooldown prevents duplicate attack vex
+PASS actual physics hit damage vex
+PASS runtime crit override does not mutate profile vex
+PASS loadout validates boros
+PASS no target consumes no cooldown boros
+PASS basic fires boros
+PASS cooldown prevents duplicate attack boros
+PASS actual physics hit damage boros
+PASS runtime crit override does not mutate profile boros
+RESULT attacks: checks=18 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS XP curve exact first thresholds
+PASS batched XP advances one level and queues choices
+PASS pending choice cannot skip level
+PASS all queued levels settle sequentially without losing XP
+PASS duplicate acknowledgement ignored
+PASS negative XP ignored
+PASS boss-active XP is banked
+PASS dead run gains no XP
+PASS orb can be collected exactly once
+PASS orb magnet physically moves and collects
+RESULT progression: checks=10 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS eight registered stat cores
+PASS shared stat modifier applies astra/stat.pickup_radius
+PASS shared stat modifier applies astra/stat.cooldown_reduction
+PASS shared stat modifier applies astra/stat.crit_damage
+PASS shared stat modifier applies astra/stat.crit_chance
+PASS shared stat modifier applies astra/stat.move_speed
+PASS shared stat modifier applies astra/stat.attack_speed
+PASS shared stat modifier applies astra/stat.max_hp
+PASS shared stat modifier applies astra/stat.damage
+PASS max HP preserves damage ratio astra
+PASS 120 sequential levels keep three distinct eligible options astra
+PASS effective stat caps astra
+PASS stat ranks remain repeatable astra
+PASS stat upgrade does not mutate content astra
+PASS global stat refuses incompatible target scope astra
+PASS dead actor cannot upgrade astra
+PASS shared stat modifier applies boros/stat.pickup_radius
+PASS shared stat modifier applies boros/stat.cooldown_reduction
+PASS shared stat modifier applies boros/stat.crit_damage
+PASS shared stat modifier applies boros/stat.crit_chance
+PASS shared stat modifier applies boros/stat.move_speed
+PASS shared stat modifier applies boros/stat.attack_speed
+PASS shared stat modifier applies boros/stat.max_hp
+PASS shared stat modifier applies boros/stat.damage
+PASS max HP preserves damage ratio boros
+PASS 120 sequential levels keep three distinct eligible options boros
+PASS effective stat caps boros
+PASS stat ranks remain repeatable boros
+PASS stat upgrade does not mutate content boros
+PASS global stat refuses incompatible target scope boros
+PASS dead actor cannot upgrade boros
+PASS same seed/state produces same three cards
+PASS duplicate/insufficient candidate pool fails closed
+PASS passive cap validation regression
+RESULT upgrades: checks=34 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+PASS combat run initializes player/domain
+PASS runtime enemy spawns beyond exclusion radius
+PASS real auto attack -> death -> XP orb -> pickup
+PASS HUD presents actual HP and XP
+PASS pause stops domain and physical world
+PASS level up pauses world and offers exactly three
+PASS actual card signal commits one upgrade and resumes
+PASS duplicate stale choice rejected
+PASS lethal combat enters game over
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+PASS retry resets run state and keeps seed
+FAIL M1 preview stops explicitly before missing boss encounter
+RESULT combat scene: checks=11 failures=1
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS four ordered active definitions accepted
+PASS all actives locked at level 1
+PASS locked skill cannot rank up or commit cast
+PASS slot 1 locked before exact milestone
+PASS free rank 1 at exact milestone 3
+PASS milestone 3 idempotent
+PASS slot 1 paid rank 2
+PASS slot 1 paid rank 3
+PASS slot 1 paid rank 4
+PASS slot 1 rank cap enforced
+PASS slot 2 locked before exact milestone
+PASS free rank 1 at exact milestone 6
+PASS milestone 6 idempotent
+PASS slot 2 paid rank 2
+PASS slot 2 paid rank 3
+PASS slot 2 paid rank 4
+PASS slot 2 rank cap enforced
+PASS slot 3 locked before exact milestone
+PASS free rank 1 at exact milestone 9
+PASS milestone 9 idempotent
+PASS slot 3 paid rank 2
+PASS slot 3 paid rank 3
+PASS slot 3 paid rank 4
+PASS slot 3 rank cap enforced
+PASS slot 4 locked before exact milestone
+PASS free rank 1 at exact milestone 11
+PASS milestone 11 idempotent
+PASS slot 4 paid rank 2
+PASS slot 4 paid rank 3
+PASS slot 4 rank cap enforced
+PASS cooldown uses current rank and CDR
+PASS cooldown rejects duplicate commit
+PASS paused simulation does not advance cooldown
+PASS simulation delta advances cooldown
+PASS invalid delta ignored
+PASS cooldown clamps at zero
+PASS CDR capped at 60 percent
+PASS rank and cooldown isolated across owners
+PASS source and returned Resource mutations isolated
+PASS large level jump unlocks all missed milestones once
+PASS schema fixture cannot advertise unimplemented capability
+PASS invalid slot configuration fails closed
+PASS invalid rank definition cannot unlock partially
+PASS batched XP unlock phase precedes every normal level offer
+RESULT skill lifecycle: checks=44 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS locked slot cannot cast
+PASS manual mode never auto casts
+PASS manual slot input reaches common cast pipeline
+PASS manual exact damage and cooldown
+PASS cooldown rejects repeated request
+PASS auto uses identical damage/cooldown pipeline
+PASS no target spends no cooldown
+PASS paused simulation rejects cast
+PASS stun rejects cast
+PASS live bound owner accepts compatible upgrade
+PASS live owner receives three offers
+PASS dead owner rejects cast
+PASS dead bound owner rejects mechanic upgrade
+PASS dead owner rejects offers and skill rank
+RESULT cast modes: checks=14 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS projectile_split compatible astra_j
+PASS projectile_split compatible vex_l
+PASS projectile_split rejects boros_j
+PASS multishot compatible astra_j
+PASS multishot compatible vex_l
+PASS multishot rejects boros_j
+PASS pierce compatible astra_j
+PASS pierce compatible vex_l
+PASS pierce rejects boros_j
+PASS homing compatible astra_j
+PASS homing compatible vex_l
+PASS homing rejects astra_i
+PASS echo_cast compatible astra_j
+PASS echo_cast compatible vex_l
+PASS echo_cast rejects astra_k
+PASS area_expand compatible astra_l
+PASS area_expand compatible boros_j
+PASS area_expand rejects vex_l
+PASS explosion_on_hit compatible astra_j
+PASS explosion_on_hit compatible vex_l
+PASS explosion_on_hit rejects astra_k
+PASS on_kill_burst compatible astra_j
+PASS on_kill_burst compatible vex_l
+PASS on_kill_burst rejects astra_k
+PASS cooldown_refund compatible astra_j
+PASS cooldown_refund compatible vex_l
+PASS cooldown_refund rejects boros_i
+PASS shield_reflect compatible astra_k
+PASS shield_reflect compatible boros_k
+PASS shield_reflect rejects vex_l
+PASS dash_shockwave compatible vex_k
+PASS dash_shockwave compatible boros_l
+PASS dash_shockwave rejects astra_j
+PASS execute compatible astra_j
+PASS execute compatible boros_j
+PASS execute rejects astra_k
+PASS capability tags cannot fabricate executor support
+PASS self shield adapter adds exact shield
+PASS self shield expires
+PASS instant beam exact damage
+PASS area_expand rank 1 binds
+PASS area_expand rank 2 binds
+PASS area_expand rank 3 binds
+PASS area_expand rank 4 binds
+PASS area_expand rank 5 binds
+PASS area rank5 multiplies radius by1.6
+PASS ground area adapter accepted
+PASS ground area actual timed tick without damage inflation
+PASS status adapter applies actual root
+PASS piercing projectile launched
+PASS swept piercing hits two unique targets once
+PASS projectile_split rank 1 binds
+PASS projectile_split rank 2 binds
+PASS projectile_split rank 3 binds
+PASS projectile_split rank 4 binds
+PASS projectile_split rank 5 binds
+PASS astra_j rank5 split emits primary+6
+PASS astra_j split secondary exact65percent
+PASS rank6 split rejected
+PASS projectile_split rank 1 binds
+PASS projectile_split rank 2 binds
+PASS projectile_split rank 3 binds
+PASS projectile_split rank 4 binds
+PASS projectile_split rank 5 binds
+PASS vex_l rank5 split emits primary+6
+PASS vex_l split secondary exact65percent
+PASS rank6 split rejected
+PASS execute rank 1 binds
+PASS execute rank 2 binds
+PASS execute rank 3 binds
+PASS execute rank 4 binds
+PASS execute rank 5 binds
+PASS execute adds30percent once below25percentHP
+PASS explosion_on_hit rank 1 binds
+PASS explosion_on_hit rank 2 binds
+PASS explosion_on_hit rank 3 binds
+PASS explosion_on_hit rank 4 binds
+PASS explosion_on_hit rank 5 binds
+PASS explosion root/target dedupe
+PASS explosion exact primary and burst damage; no recursive chain
+PASS shield_reflect rank 1 binds
+PASS shield_reflect rank 2 binds
+PASS shield_reflect rank 3 binds
+PASS shield_reflect rank 4 binds
+PASS shield_reflect rank 5 binds
+PASS reflect20percent absorbed; no recursive bounce
+PASS reflect boss cap1percent maximumHP
+PASS dash_shockwave rank 1 binds
+PASS dash_shockwave rank 2 binds
+PASS dash_shockwave rank 3 binds
+PASS dash_shockwave rank 4 binds
+PASS dash_shockwave rank 5 binds
+PASS dash adapter accepted
+PASS dash endpoint one shockwave exact65physical
+PASS on_kill_burst rank 1 binds
+PASS on_kill_burst rank 2 binds
+PASS on_kill_burst rank 3 binds
+PASS on_kill_burst rank 4 binds
+PASS on_kill_burst rank 5 binds
+PASS kill burst primary death once and exact40damage
+PASS shared depth capped3
+PASS shared proc budget capped32 across branches
+PASS shared projectile budget capped64
+RESULT universal augments: checks=103 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS astra_j four-way cast accepted
+PASS astra_j multishot6 lanes then split6 each=42
+PASS astra_j exactly one echo adds6 shots without cooldown charge
+PASS astra_j combined budgets bounded
+PASS astra_j combined projectiles and proc queue settle
+PASS astra_j combined effects resolve actual hits
+PASS vex_l four-way cast accepted
+PASS vex_l multishot6 lanes then split6 each=42
+PASS vex_l exactly one echo adds6 shots without cooldown charge
+PASS vex_l combined budgets bounded
+PASS vex_l combined projectiles and proc queue settle
+PASS vex_l combined effects resolve actual hits
+PASS modifier order independent of acquisition order
+PASS overflow deterministically truncates to64 root projectiles
+PASS overflow has finite lifetime
+PASS astra_j homing steers actual projectile
+PASS vex_l homing steers actual projectile
+PASS astra_j refund matches seeded roll trial0
+PASS astra_j refund matches seeded roll trial1
+PASS astra_j refund matches seeded roll trial2
+PASS astra_j refund matches seeded roll trial3
+PASS astra_j refund matches seeded roll trial4
+PASS astra_j refund exact10percent base
+PASS astra_j refund matches seeded roll trial5
+PASS astra_j refund matches seeded roll trial6
+PASS astra_j refund matches seeded roll trial7
+PASS astra_j refund matches seeded roll trial8
+PASS astra_j refund exact10percent base
+PASS astra_j refund matches seeded roll trial9
+PASS astra_j refund matches seeded roll trial10
+PASS astra_j refund matches seeded roll trial11
+PASS astra_j refund matches seeded roll trial12
+PASS astra_j refund matches seeded roll trial13
+PASS astra_j refund matches seeded roll trial14
+PASS astra_j refund exact10percent base
+PASS astra_j refund matches seeded roll trial15
+PASS astra_j refund exact10percent base
+PASS astra_j refund matches seeded roll trial16
+PASS astra_j refund matches seeded roll trial17
+PASS astra_j refund matches seeded roll trial18
+PASS astra_j refund exact10percent base
+PASS astra_j refund matches seeded roll trial19
+PASS astra_j refund matches seeded roll trial20
+PASS astra_j refund matches seeded roll trial21
+PASS astra_j refund matches seeded roll trial22
+PASS astra_j refund matches seeded roll trial23
+PASS astra_j refund matches seeded roll trial24
+PASS astra_j refund matches seeded roll trial25
+PASS astra_j refund matches seeded roll trial26
+PASS astra_j refund matches seeded roll trial27
+PASS astra_j refund matches seeded roll trial28
+PASS astra_j refund exact10percent base
+PASS astra_j refund matches seeded roll trial29
+PASS astra_j refund exact10percent base
+PASS astra_j refund matches seeded roll trial30
+PASS astra_j refund matches seeded roll trial31
+PASS astra_j refund matches seeded roll trial32
+PASS astra_j refund matches seeded roll trial33
+PASS astra_j refund matches seeded roll trial34
+PASS astra_j refund matches seeded roll trial35
+PASS astra_j refund matches seeded roll trial36
+PASS astra_j refund exact10percent base
+PASS astra_j refund matches seeded roll trial37
+PASS astra_j refund matches seeded roll trial38
+PASS astra_j refund matches seeded roll trial39
+PASS astra_j refund exact10percent base
+PASS astra_j refund matches seeded roll trial40
+PASS astra_j refund matches seeded roll trial41
+PASS astra_j refund matches seeded roll trial42
+PASS astra_j refund matches seeded roll trial43
+PASS astra_j refund matches seeded roll trial44
+PASS astra_j refund matches seeded roll trial45
+PASS astra_j refund matches seeded roll trial46
+PASS astra_j refund matches seeded roll trial47
+PASS astra_j refund matches seeded roll trial48
+PASS astra_j refund matches seeded roll trial49
+PASS astra_j refund exact10percent base
+PASS astra_j refund seeded16percent; one roll per root
+PASS vex_l refund matches seeded roll trial0
+PASS vex_l refund matches seeded roll trial1
+PASS vex_l refund matches seeded roll trial2
+PASS vex_l refund matches seeded roll trial3
+PASS vex_l refund matches seeded roll trial4
+PASS vex_l refund exact10percent base
+PASS vex_l refund matches seeded roll trial5
+PASS vex_l refund matches seeded roll trial6
+PASS vex_l refund matches seeded roll trial7
+PASS vex_l refund matches seeded roll trial8
+PASS vex_l refund exact10percent base
+PASS vex_l refund matches seeded roll trial9
+PASS vex_l refund matches seeded roll trial10
+PASS vex_l refund matches seeded roll trial11
+PASS vex_l refund matches seeded roll trial12
+PASS vex_l refund matches seeded roll trial13
+PASS vex_l refund matches seeded roll trial14
+PASS vex_l refund exact10percent base
+PASS vex_l refund matches seeded roll trial15
+PASS vex_l refund exact10percent base
+PASS vex_l refund matches seeded roll trial16
+PASS vex_l refund matches seeded roll trial17
+PASS vex_l refund matches seeded roll trial18
+PASS vex_l refund exact10percent base
+PASS vex_l refund matches seeded roll trial19
+PASS vex_l refund matches seeded roll trial20
+PASS vex_l refund matches seeded roll trial21
+PASS vex_l refund matches seeded roll trial22
+PASS vex_l refund matches seeded roll trial23
+PASS vex_l refund matches seeded roll trial24
+PASS vex_l refund matches seeded roll trial25
+PASS vex_l refund matches seeded roll trial26
+PASS vex_l refund matches seeded roll trial27
+PASS vex_l refund matches seeded roll trial28
+PASS vex_l refund exact10percent base
+PASS vex_l refund matches seeded roll trial29
+PASS vex_l refund exact10percent base
+PASS vex_l refund matches seeded roll trial30
+PASS vex_l refund matches seeded roll trial31
+PASS vex_l refund matches seeded roll trial32
+PASS vex_l refund matches seeded roll trial33
+PASS vex_l refund matches seeded roll trial34
+PASS vex_l refund matches seeded roll trial35
+PASS vex_l refund matches seeded roll trial36
+PASS vex_l refund exact10percent base
+PASS vex_l refund matches seeded roll trial37
+PASS vex_l refund matches seeded roll trial38
+PASS vex_l refund matches seeded roll trial39
+PASS vex_l refund exact10percent base
+PASS vex_l refund matches seeded roll trial40
+PASS vex_l refund matches seeded roll trial41
+PASS vex_l refund matches seeded roll trial42
+PASS vex_l refund matches seeded roll trial43
+PASS vex_l refund matches seeded roll trial44
+PASS vex_l refund matches seeded roll trial45
+PASS vex_l refund matches seeded roll trial46
+PASS vex_l refund matches seeded roll trial47
+PASS vex_l refund matches seeded roll trial48
+PASS vex_l refund matches seeded roll trial49
+PASS vex_l refund exact10percent base
+PASS vex_l refund seeded16percent; one roll per root
+PASS four-way overlap emits exactly one kill per target
+PASS four-way lethal combo settles after targets die
+RESULT augment combinations: checks=141 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS all mechanic rank tooltips format numeric values
+PASS Split rank5 tooltip shows confirmed numbers
+PASS astra locked slots only offer stats
+PASS astra 200 seeded offers contain3 distinct valid bound options
+PASS astra all mechanic/skill caps fall back to3 infinite stats
+PASS astra offers deterministic
+PASS vex locked slots only offer stats
+PASS vex 200 seeded offers contain3 distinct valid bound options
+PASS vex all mechanic/skill caps fall back to3 infinite stats
+PASS vex offers deterministic
+PASS boros locked slots only offer stats
+PASS boros 200 seeded offers contain3 distinct valid bound options
+PASS boros all mechanic/skill caps fall back to3 infinite stats
+PASS boros offers deterministic
+PASS unlock precedes same-level rank and mechanic eligibility
+RESULT bound offers: checks=15 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+PASS astra M2 scene spawned actual target
+PASS astra free slot1 unlock before modal
+PASS astra bound card commits/resumes slot1
+PASS astra Manual slot1 does not autocast
+PASS astra manual slot1 accepts common executor
+PASS astra slot1 commits cooldown once
+PASS astra free slot2 unlock before modal
+PASS astra bound card commits/resumes slot2
+PASS astra Manual slot2 does not autocast
+PASS astra manual slot2 accepts common executor
+PASS astra slot2 commits cooldown once
+PASS astra free slot3 unlock before modal
+PASS astra bound card commits/resumes slot3
+PASS astra Manual slot3 does not autocast
+PASS astra manual slot3 accepts common executor
+PASS astra slot3 commits cooldown once
+PASS astra basic stays automatic in Manual mode
+PASS astra modal freezes active cooldown
+COMBAT_RUN_STARTED loadout=loadout.vex seed=20261015
+PASS vex M2 scene spawned actual target
+PASS vex free slot1 unlock before modal
+PASS vex bound card commits/resumes slot1
+PASS vex Manual slot1 does not autocast
+PASS vex manual slot1 accepts common executor
+PASS vex slot1 commits cooldown once
+PASS vex free slot2 unlock before modal
+PASS vex bound card commits/resumes slot2
+PASS vex Manual slot2 does not autocast
+PASS vex manual slot2 accepts common executor
+PASS vex slot2 commits cooldown once
+PASS vex free slot3 unlock before modal
+PASS vex bound card commits/resumes slot3
+PASS vex Manual slot3 does not autocast
+PASS vex manual slot3 accepts common executor
+PASS vex slot3 commits cooldown once
+PASS vex basic stays automatic in Manual mode
+PASS vex modal freezes active cooldown
+COMBAT_RUN_STARTED loadout=loadout.boros seed=20261015
+PASS boros M2 scene spawned actual target
+PASS boros free slot1 unlock before modal
+PASS boros bound card commits/resumes slot1
+PASS boros Manual slot1 does not autocast
+PASS boros manual slot1 accepts common executor
+PASS boros slot1 commits cooldown once
+PASS boros free slot2 unlock before modal
+PASS boros bound card commits/resumes slot2
+PASS boros Manual slot2 does not autocast
+PASS boros manual slot2 accepts common executor
+PASS boros slot2 commits cooldown once
+PASS boros free slot3 unlock before modal
+PASS boros bound card commits/resumes slot3
+PASS boros Manual slot3 does not autocast
+PASS boros manual slot3 accepts common executor
+PASS boros slot3 commits cooldown once
+PASS boros basic stays automatic in Manual mode
+PASS boros modal freezes active cooldown
+RESULT M2 scenes: checks=54 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS cast captures rank1 modifier
+PASS in-flight cast snapshot survives later upgrade
+PASS collision envelope unique event/projectile IDs and parent
+PASS published event envelope remains stable
+PASS envelopes report live shared remaining budget
+PASS PRIMARY_ONLY filters secondary
+PASS ONCE_PER_ROOT_CAST dedupes sibling contexts
+PASS ALLOW_SECONDARY bounded depth1
+PASS ALLOW_SECONDARY bounded depth2
+PASS ALLOW_SECONDARY bounded depth3
+PASS ALLOW_SECONDARY cannot exceed shared depth
+PASS missing mechanic capability requirements fail closed
+PASS projectile capability requires executable geometry
+PASS combat limits are data configurable
+PASS configured projectile limit enforced
+PASS invalid combat limits rejected
+RESULT event envelope: checks=16 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS astra_l expanded collision reaches beyond base radius
+PASS boros_j expanded collision reaches beyond base radius
+PASS astra_k reflect uses absorbed damage
+PASS boros_k reflect uses absorbed damage
+PASS vex_k one25damage endpoint shockwave
+PASS boros_l one25damage endpoint shockwave
+PASS astra_j execute exact10percent
+PASS boros_j execute exact10percent
+PASS astra_j augmented pierce hits both colliders once
+PASS vex_l augmented pierce hits both colliders once
+PASS astra_j kill burst exact20damage once and settles
+PASS vex_l kill burst exact20damage once and settles
+PASS astra_basic basic uses shared multishot adapter
+PASS vex_basic basic uses shared multishot adapter
+RESULT shared effect matrix: checks=14 failures=0
+
+RESULT suites=20 failures=1
+FAIL suite=res://tests/scenes/test_combat_run.gd exit=1
+

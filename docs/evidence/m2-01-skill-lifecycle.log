@@ -1,0 +1,48 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS four ordered active definitions accepted
+PASS all actives locked at level 1
+PASS locked skill cannot rank up or commit cast
+PASS slot 1 locked before exact milestone
+PASS free rank 1 at exact milestone 3
+PASS milestone 3 idempotent
+PASS slot 1 paid rank 2
+PASS slot 1 paid rank 3
+PASS slot 1 paid rank 4
+PASS slot 1 rank cap enforced
+PASS slot 2 locked before exact milestone
+PASS free rank 1 at exact milestone 6
+PASS milestone 6 idempotent
+PASS slot 2 paid rank 2
+PASS slot 2 paid rank 3
+PASS slot 2 paid rank 4
+PASS slot 2 rank cap enforced
+PASS slot 3 locked before exact milestone
+PASS free rank 1 at exact milestone 9
+PASS milestone 9 idempotent
+PASS slot 3 paid rank 2
+PASS slot 3 paid rank 3
+PASS slot 3 paid rank 4
+PASS slot 3 rank cap enforced
+PASS slot 4 locked before exact milestone
+PASS free rank 1 at exact milestone 11
+PASS milestone 11 idempotent
+PASS slot 4 paid rank 2
+PASS slot 4 paid rank 3
+PASS slot 4 rank cap enforced
+PASS cooldown uses current rank and CDR
+PASS cooldown rejects duplicate commit
+PASS paused simulation does not advance cooldown
+PASS simulation delta advances cooldown
+PASS invalid delta ignored
+PASS cooldown clamps at zero
+PASS CDR capped at 60 percent
+PASS rank and cooldown isolated across owners
+PASS source and returned Resource mutations isolated
+PASS large level jump unlocks all missed milestones once
+PASS schema fixture cannot advertise unimplemented capability
+PASS invalid slot configuration fails closed
+PASS invalid rank definition cannot unlock partially
+PASS batched XP unlock phase precedes every normal level offer
+RESULT skill lifecycle: checks=44 failures=0
+

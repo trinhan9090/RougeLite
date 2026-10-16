@@ -1,0 +1,69 @@
+[gd_resource type="Resource" script_class="SkillDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/effect_executor_definition.gd" id="1_gkfvq"]
+[ext_resource type="Script" path="res://scripts/data/skill_rank_definition.gd" id="2_4m5ef"]
+[ext_resource type="Script" path="res://scripts/data/skill_behavior_definition.gd" id="3_j3g05"]
+[ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="4_lcv3g"]
+[ext_resource type="Script" path="res://scripts/data/targeting_definition.gd" id="5_vcqrq"]
+
+[sub_resource type="Resource" id="Resource_lcv3g"]
+script = ExtResource("1_gkfvq")
+kind = "beam"
+executor_id = &"executor.beam"
+
+[sub_resource type="Resource" id="Resource_k7077"]
+script = ExtResource("3_j3g05")
+
+[sub_resource type="Resource" id="Resource_vcqrq"]
+script = ExtResource("2_4m5ef")
+cooldown = 23.0
+damage = 120.0
+damage_type = "MAGIC"
+range_px = 600.0
+radius_px = 37.5
+behavior = SubResource("Resource_k7077")
+
+[sub_resource type="Resource" id="Resource_eayav"]
+script = ExtResource("3_j3g05")
+
+[sub_resource type="Resource" id="Resource_kyosd"]
+script = ExtResource("2_4m5ef")
+rank = 2
+cooldown = 20.0
+damage = 120.0
+damage_type = "MAGIC"
+range_px = 600.0
+radius_px = 50.0
+behavior = SubResource("Resource_eayav")
+
+[sub_resource type="Resource" id="Resource_yrdu6"]
+script = ExtResource("3_j3g05")
+burn_duration = 3.0
+burn_damage = 12.0
+
+[sub_resource type="Resource" id="Resource_6ntqw"]
+script = ExtResource("2_4m5ef")
+rank = 3
+cooldown = 20.0
+damage = 120.0
+damage_type = "MAGIC"
+range_px = 600.0
+radius_px = 50.0
+behavior = SubResource("Resource_yrdu6")
+
+[sub_resource type="Resource" id="Resource_xppoi"]
+script = ExtResource("5_vcqrq")
+policy = "cursor"
+acquisition_radius = 600.0
+
+[resource]
+script = ExtResource("4_lcv3g")
+slot = 4
+unlock_level = 11
+max_rank = 3
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"cooldown_manage", &"repeat_cast", &"resize_area"])
+executor = SubResource("Resource_lcv3g")
+targeting = SubResource("Resource_xppoi")
+rank_scaling = Array[ExtResource("2_4m5ef")]([SubResource("Resource_vcqrq"), SubResource("Resource_kyosd"), SubResource("Resource_6ntqw")])
+id = &"skill.astra.i"
+display_name = "Celestial Beam"

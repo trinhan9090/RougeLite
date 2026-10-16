@@ -1,0 +1,75 @@
+[gd_resource type="Resource" script_class="SkillDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/effect_executor_definition.gd" id="1_i42m6"]
+[ext_resource type="Script" path="res://scripts/data/skill_rank_definition.gd" id="2_37pso"]
+[ext_resource type="Script" path="res://scripts/data/skill_behavior_definition.gd" id="3_o0qug"]
+[ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="4_yeoi1"]
+[ext_resource type="Script" path="res://scripts/data/targeting_definition.gd" id="5_q607r"]
+
+[sub_resource type="Resource" id="Resource_yeoi1"]
+script = ExtResource("1_i42m6")
+kind = "dash"
+executor_id = &"executor.dash"
+
+[sub_resource type="Resource" id="Resource_p7vnw"]
+script = ExtResource("3_o0qug")
+attack_bonus = 0.2
+
+[sub_resource type="Resource" id="Resource_q607r"]
+script = ExtResource("2_37pso")
+cooldown = 12.0
+range_px = 190.0
+behavior = SubResource("Resource_p7vnw")
+
+[sub_resource type="Resource" id="Resource_g6tpw"]
+script = ExtResource("3_o0qug")
+attack_bonus = 0.3
+
+[sub_resource type="Resource" id="Resource_4d3w3"]
+script = ExtResource("2_37pso")
+rank = 2
+cooldown = 12.0
+range_px = 190.0
+behavior = SubResource("Resource_g6tpw")
+
+[sub_resource type="Resource" id="Resource_uq7dc"]
+script = ExtResource("3_o0qug")
+attack_bonus = 0.3
+extra_basic = 1
+
+[sub_resource type="Resource" id="Resource_hlwsc"]
+script = ExtResource("2_37pso")
+rank = 3
+cooldown = 12.0
+range_px = 190.0
+behavior = SubResource("Resource_uq7dc")
+
+[sub_resource type="Resource" id="Resource_kq15i"]
+script = ExtResource("3_o0qug")
+attack_bonus = 0.3
+extra_basic = 1
+kill_refund = 1.5
+
+[sub_resource type="Resource" id="Resource_ybwm2"]
+script = ExtResource("2_37pso")
+rank = 4
+cooldown = 12.0
+range_px = 190.0
+behavior = SubResource("Resource_kq15i")
+
+[sub_resource type="Resource" id="Resource_21rak"]
+script = ExtResource("5_q607r")
+policy = "cursor"
+acquisition_radius = 190.0
+
+[resource]
+script = ExtResource("4_yeoi1")
+slot = 2
+unlock_level = 6
+max_rank = 4
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"cooldown_manage", &"dash_completed_hook"])
+executor = SubResource("Resource_yeoi1")
+targeting = SubResource("Resource_21rak")
+rank_scaling = Array[ExtResource("2_37pso")]([SubResource("Resource_q607r"), SubResource("Resource_4d3w3"), SubResource("Resource_hlwsc"), SubResource("Resource_ybwm2")])
+id = &"skill.vex.k"
+display_name = "Tactical Roll"

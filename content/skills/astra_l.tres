@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SkillDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/effect_executor_definition.gd" id="1_dsjhr"]
+[ext_resource type="Script" path="res://scripts/data/skill_rank_definition.gd" id="2_466dn"]
+[ext_resource type="Script" path="res://scripts/data/skill_behavior_definition.gd" id="3_s6n10"]
+[ext_resource type="Script" path="res://scripts/data/status_effect_definition.gd" id="4_m6h6r"]
+[ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="5_k4pgg"]
+[ext_resource type="Script" path="res://scripts/data/targeting_definition.gd" id="6_htf2d"]
+
+[sub_resource type="Resource" id="Resource_s6n10"]
+script = ExtResource("1_dsjhr")
+kind = "area"
+executor_id = &"executor.area"
+
+[sub_resource type="Resource" id="Resource_w8eos"]
+script = ExtResource("3_s6n10")
+
+[sub_resource type="Resource" id="Resource_m6h6r"]
+script = ExtResource("2_466dn")
+cooldown = 9.0
+damage = 7.0
+damage_type = "MAGIC"
+range_px = 350.0
+radius_px = 80.0
+duration = 4.0
+behavior = SubResource("Resource_w8eos")
+
+[sub_resource type="Resource" id="Resource_vnpgh"]
+script = ExtResource("3_s6n10")
+
+[sub_resource type="Resource" id="Resource_k4pgg"]
+script = ExtResource("2_466dn")
+rank = 2
+cooldown = 9.0
+damage = 7.0
+damage_type = "MAGIC"
+range_px = 350.0
+radius_px = 100.0
+duration = 4.0
+behavior = SubResource("Resource_vnpgh")
+
+[sub_resource type="Resource" id="Resource_xrjos"]
+script = ExtResource("3_s6n10")
+
+[sub_resource type="Resource" id="Resource_htf2d"]
+script = ExtResource("2_466dn")
+rank = 3
+cooldown = 9.0
+damage = 7.0
+damage_type = "MAGIC"
+range_px = 350.0
+radius_px = 100.0
+duration = 5.5
+behavior = SubResource("Resource_xrjos")
+
+[sub_resource type="Resource" id="Resource_l4h1d"]
+script = ExtResource("4_m6h6r")
+kind = "slow"
+duration = 0.6
+strength = 0.1
+
+[sub_resource type="Resource" id="Resource_sutti"]
+script = ExtResource("3_s6n10")
+status = SubResource("Resource_l4h1d")
+
+[sub_resource type="Resource" id="Resource_afpn4"]
+script = ExtResource("2_466dn")
+rank = 4
+cooldown = 9.0
+damage = 10.0
+damage_type = "MAGIC"
+range_px = 350.0
+radius_px = 100.0
+duration = 5.5
+behavior = SubResource("Resource_sutti")
+
+[sub_resource type="Resource" id="Resource_hyifr"]
+script = ExtResource("6_htf2d")
+policy = "cursor"
+acquisition_radius = 350.0
+
+[resource]
+script = ExtResource("5_k4pgg")
+slot = 3
+unlock_level = 9
+max_rank = 4
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"cooldown_manage", &"repeat_cast", &"resize_area"])
+executor = SubResource("Resource_s6n10")
+targeting = SubResource("Resource_hyifr")
+rank_scaling = Array[ExtResource("2_466dn")]([SubResource("Resource_m6h6r"), SubResource("Resource_k4pgg"), SubResource("Resource_htf2d"), SubResource("Resource_afpn4")])
+id = &"skill.astra.l"
+display_name = "Solar Field"

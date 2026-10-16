@@ -1,0 +1,314 @@
+[gd_resource type="Resource" script_class="CombatLoadoutDefinition" format=3]
+
+[ext_resource type="SpriteFrames" path="res://assets/characters/vex/frames.tres" id="art_frames"]
+
+[ext_resource type="Script" path="res://scripts/data/combat_loadout_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="1_tff6j"]
+[ext_resource type="Resource" path="res://content/characters/vex_stats.tres" id="2"]
+[ext_resource type="Script" path="res://scripts/data/effect_executor_definition.gd" id="2_2kgll"]
+[ext_resource type="Resource" path="res://content/skills/vex_basic.tres" id="3"]
+[ext_resource type="Script" path="res://scripts/data/skill_rank_definition.gd" id="3_uqp5r"]
+[ext_resource type="Script" path="res://scripts/data/skill_behavior_definition.gd" id="4_2kgll"]
+[ext_resource type="Script" path="res://scripts/data/targeting_definition.gd" id="4_4g2kc"]
+
+[sub_resource type="Resource" id="Resource_jo344"]
+script = ExtResource("2_2kgll")
+spread_radians = 0.10471975511965978
+executor_id = &"executor.projectile"
+
+[sub_resource type="Resource" id="Resource_3p7oo"]
+script = ExtResource("4_2kgll")
+shot_interval = 0.12
+
+[sub_resource type="Resource" id="Resource_fmg4a"]
+script = ExtResource("3_uqp5r")
+cooldown = 8.0
+damage = 15.0
+range_px = 620.0
+projectile_speed = 930.0
+projectile_count = 4
+behavior = SubResource("Resource_3p7oo")
+
+[sub_resource type="Resource" id="Resource_iqyxp"]
+script = ExtResource("4_2kgll")
+shot_interval = 0.12
+
+[sub_resource type="Resource" id="Resource_pxw6e"]
+script = ExtResource("3_uqp5r")
+rank = 2
+cooldown = 8.0
+damage = 15.0
+range_px = 620.0
+projectile_speed = 930.0
+projectile_count = 5
+behavior = SubResource("Resource_iqyxp")
+
+[sub_resource type="Resource" id="Resource_20ry1"]
+script = ExtResource("4_2kgll")
+can_crit = true
+crit_bonus = 0.1
+shot_interval = 0.12
+
+[sub_resource type="Resource" id="Resource_nsu0k"]
+script = ExtResource("3_uqp5r")
+rank = 3
+cooldown = 8.0
+damage = 15.0
+range_px = 620.0
+projectile_speed = 930.0
+projectile_count = 6
+behavior = SubResource("Resource_20ry1")
+
+[sub_resource type="Resource" id="Resource_q0m68"]
+script = ExtResource("4_2kgll")
+can_crit = true
+crit_bonus = 0.1
+crit_pierce = 1
+shot_interval = 0.12
+
+[sub_resource type="Resource" id="Resource_4yy1s"]
+script = ExtResource("3_uqp5r")
+rank = 4
+cooldown = 8.0
+damage = 15.0
+range_px = 620.0
+projectile_speed = 930.0
+projectile_count = 7
+behavior = SubResource("Resource_q0m68")
+
+[sub_resource type="Resource" id="Resource_qxsrt"]
+script = ExtResource("4_4g2kc")
+policy = "cursor"
+acquisition_radius = 620.0
+
+[sub_resource type="Resource" id="Resource_tff6j"]
+script = ExtResource("1_tff6j")
+slot = 1
+unlock_level = 3
+max_rank = 4
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"cooldown_manage", &"repeat_cast", &"modify_projectile_angle", &"spawn_projectile_pattern", &"modify_projectile_count", &"pierce_hit", &"projectile_steering"])
+executor = SubResource("Resource_jo344")
+targeting = SubResource("Resource_qxsrt")
+rank_scaling = Array[ExtResource("3_uqp5r")]([SubResource("Resource_fmg4a"), SubResource("Resource_pxw6e"), SubResource("Resource_nsu0k"), SubResource("Resource_4yy1s")])
+id = &"skill.vex.j"
+display_name = "Quick Barrage"
+
+[sub_resource type="Resource" id="Resource_yeoi1"]
+script = ExtResource("2_2kgll")
+kind = "dash"
+executor_id = &"executor.dash"
+
+[sub_resource type="Resource" id="Resource_p7vnw"]
+script = ExtResource("4_2kgll")
+attack_bonus = 0.2
+
+[sub_resource type="Resource" id="Resource_q607r"]
+script = ExtResource("3_uqp5r")
+cooldown = 12.0
+range_px = 190.0
+behavior = SubResource("Resource_p7vnw")
+
+[sub_resource type="Resource" id="Resource_g6tpw"]
+script = ExtResource("4_2kgll")
+attack_bonus = 0.3
+
+[sub_resource type="Resource" id="Resource_4d3w3"]
+script = ExtResource("3_uqp5r")
+rank = 2
+cooldown = 12.0
+range_px = 190.0
+behavior = SubResource("Resource_g6tpw")
+
+[sub_resource type="Resource" id="Resource_uq7dc"]
+script = ExtResource("4_2kgll")
+attack_bonus = 0.3
+extra_basic = 1
+
+[sub_resource type="Resource" id="Resource_hlwsc"]
+script = ExtResource("3_uqp5r")
+rank = 3
+cooldown = 12.0
+range_px = 190.0
+behavior = SubResource("Resource_uq7dc")
+
+[sub_resource type="Resource" id="Resource_kq15i"]
+script = ExtResource("4_2kgll")
+attack_bonus = 0.3
+extra_basic = 1
+kill_refund = 1.5
+
+[sub_resource type="Resource" id="Resource_ybwm2"]
+script = ExtResource("3_uqp5r")
+rank = 4
+cooldown = 12.0
+range_px = 190.0
+behavior = SubResource("Resource_kq15i")
+
+[sub_resource type="Resource" id="Resource_21rak"]
+script = ExtResource("4_4g2kc")
+policy = "cursor"
+acquisition_radius = 190.0
+
+[sub_resource type="Resource" id="Resource_2kgll"]
+script = ExtResource("1_tff6j")
+slot = 2
+unlock_level = 6
+max_rank = 4
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"cooldown_manage", &"dash_completed_hook"])
+executor = SubResource("Resource_yeoi1")
+targeting = SubResource("Resource_21rak")
+rank_scaling = Array[ExtResource("3_uqp5r")]([SubResource("Resource_q607r"), SubResource("Resource_4d3w3"), SubResource("Resource_hlwsc"), SubResource("Resource_ybwm2")])
+id = &"skill.vex.k"
+display_name = "Tactical Roll"
+
+[sub_resource type="Resource" id="Resource_r62ek"]
+script = ExtResource("2_2kgll")
+executor_id = &"executor.projectile"
+
+[sub_resource type="Resource" id="Resource_bdjss"]
+script = ExtResource("4_2kgll")
+
+[sub_resource type="Resource" id="Resource_ok28f"]
+script = ExtResource("3_uqp5r")
+cooldown = 10.0
+damage = 65.0
+range_px = 680.0
+projectile_speed = 1100.0
+pierce_count = 3
+behavior = SubResource("Resource_bdjss")
+
+[sub_resource type="Resource" id="Resource_hiild"]
+script = ExtResource("4_2kgll")
+
+[sub_resource type="Resource" id="Resource_ii71b"]
+script = ExtResource("3_uqp5r")
+rank = 2
+cooldown = 10.0
+damage = 65.0
+range_px = 680.0
+projectile_speed = 1100.0
+pierce_count = 5
+behavior = SubResource("Resource_hiild")
+
+[sub_resource type="Resource" id="Resource_p45p2"]
+script = ExtResource("4_2kgll")
+boss_bonus = 0.35
+
+[sub_resource type="Resource" id="Resource_wmirn"]
+script = ExtResource("3_uqp5r")
+rank = 3
+cooldown = 10.0
+damage = 65.0
+range_px = 680.0
+projectile_speed = 1100.0
+pierce_count = 5
+behavior = SubResource("Resource_p45p2")
+
+[sub_resource type="Resource" id="Resource_n7rc3"]
+script = ExtResource("4_2kgll")
+boss_bonus = 0.35
+mark_duration = 3.0
+mark_bonus = 0.12
+
+[sub_resource type="Resource" id="Resource_ooucu"]
+script = ExtResource("3_uqp5r")
+rank = 4
+cooldown = 10.0
+damage = 65.0
+range_px = 680.0
+projectile_speed = 1100.0
+pierce_count = 5
+behavior = SubResource("Resource_n7rc3")
+
+[sub_resource type="Resource" id="Resource_qp1mt"]
+script = ExtResource("4_4g2kc")
+policy = "cursor"
+acquisition_radius = 680.0
+
+[sub_resource type="Resource" id="Resource_uqp5r"]
+script = ExtResource("1_tff6j")
+slot = 3
+unlock_level = 9
+max_rank = 4
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"cooldown_manage", &"repeat_cast", &"modify_projectile_angle", &"spawn_projectile_pattern", &"modify_projectile_count", &"pierce_hit", &"projectile_steering"])
+executor = SubResource("Resource_r62ek")
+targeting = SubResource("Resource_qp1mt")
+rank_scaling = Array[ExtResource("3_uqp5r")]([SubResource("Resource_ok28f"), SubResource("Resource_ii71b"), SubResource("Resource_wmirn"), SubResource("Resource_ooucu")])
+id = &"skill.vex.l"
+display_name = "Piercing Round"
+
+[sub_resource type="Resource" id="Resource_knp21"]
+script = ExtResource("2_2kgll")
+executor_id = &"executor.projectile"
+
+[sub_resource type="Resource" id="Resource_w7jo3"]
+script = ExtResource("4_2kgll")
+shot_interval = 0.17647058823529413
+
+[sub_resource type="Resource" id="Resource_r6fkf"]
+script = ExtResource("3_uqp5r")
+cooldown = 25.0
+damage = 10.0
+range_px = 620.0
+projectile_speed = 930.0
+projectile_count = 18
+behavior = SubResource("Resource_w7jo3")
+
+[sub_resource type="Resource" id="Resource_6l6at"]
+script = ExtResource("4_2kgll")
+shot_interval = 0.125
+
+[sub_resource type="Resource" id="Resource_oppge"]
+script = ExtResource("3_uqp5r")
+rank = 2
+cooldown = 25.0
+damage = 10.0
+range_px = 620.0
+projectile_speed = 930.0
+projectile_count = 25
+behavior = SubResource("Resource_6l6at")
+
+[sub_resource type="Resource" id="Resource_u14qq"]
+script = ExtResource("4_2kgll")
+shot_interval = 0.125
+bounce_chance = 0.15
+
+[sub_resource type="Resource" id="Resource_apqhl"]
+script = ExtResource("3_uqp5r")
+rank = 3
+cooldown = 25.0
+damage = 10.0
+range_px = 620.0
+projectile_speed = 930.0
+projectile_count = 25
+behavior = SubResource("Resource_u14qq")
+
+[sub_resource type="Resource" id="Resource_cfecu"]
+script = ExtResource("4_4g2kc")
+policy = "cursor"
+acquisition_radius = 620.0
+
+[sub_resource type="Resource" id="Resource_4g2kc"]
+script = ExtResource("1_tff6j")
+slot = 4
+unlock_level = 11
+max_rank = 3
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"cooldown_manage", &"repeat_cast", &"modify_projectile_angle", &"spawn_projectile_pattern", &"modify_projectile_count", &"pierce_hit", &"projectile_steering"])
+executor = SubResource("Resource_knp21")
+targeting = SubResource("Resource_cfecu")
+rank_scaling = Array[ExtResource("3_uqp5r")]([SubResource("Resource_r6fkf"), SubResource("Resource_oppge"), SubResource("Resource_apqhl")])
+id = &"skill.vex.i"
+display_name = "Bullet Storm"
+
+[resource]
+script = ExtResource("1")
+character_id = &"character.vex"
+art_frames = ExtResource("art_frames")
+class_id = &"adc"
+stats = ExtResource("2")
+basic_attack = ExtResource("3")
+active_skills = Array[ExtResource("1_tff6j")]([SubResource("Resource_tff6j"), SubResource("Resource_2kgll"), SubResource("Resource_uqp5r"), SubResource("Resource_4g2kc")])
+tint = Color(0.95686275, 0.78431374, 0.41568628, 1)
+weapon = "pistols"
+id = &"loadout.vex"
+display_name = "Vex"

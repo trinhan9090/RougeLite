@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="AugmentDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/augment_effect_definition.gd" id="1_lvdar"]
+[ext_resource type="Script" path="res://scripts/data/mechanic_effect_definition.gd" id="2_2y558"]
+[ext_resource type="Script" path="res://scripts/data/requirement_definition.gd" id="3_y8aog"]
+[ext_resource type="Script" path="res://scripts/data/augment_definition.gd" id="4_jhjtv"]
+
+[sub_resource type="Resource" id="Resource_87vpk"]
+script = ExtResource("2_2y558")
+auxiliary_values = Array[float]([55.0, 65.0, 75.0, 85.0, 95.0])
+effect_id = &"explosion"
+rank_values = Array[float]([15.0, 20.0, 25.0, 30.0, 35.0])
+
+[sub_resource type="Resource" id="Resource_ummde"]
+script = ExtResource("3_y8aog")
+required_capabilities = Array[StringName]([&"on_hit_hook", &"damage"])
+
+[resource]
+script = ExtResource("4_jhjtv")
+description = "Magic burst, once per root cast and target."
+requirements = SubResource("Resource_ummde")
+effects = Array[ExtResource("1_lvdar")]([SubResource("Resource_87vpk")])
+rarity_weight = 30.0
+id = &"augment.explosion_on_hit"
+display_name = "Explosion on Hit"

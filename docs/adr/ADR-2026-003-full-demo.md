@@ -1,0 +1,13 @@
+# ADR: Full kits, endless encounter ownership and private demo packaging
+
+Date:2026-10-15. Status: implemented under the user's M3-M5 autonomous completion request; no LOCKED rule changed.
+
+SkillRankDefinition references an immutable SkillBehaviorDefinition graph. RankEffectSystem owns per-run shield/trap timing and generic native hooks; all actor/character differences remain authored data. Actor categorical temporary buffs do not overwrite permanent stat baselines. Max-HP changes retain HP ratio, including refresh/expiry and stat picks during a transformation. Explicit crit policy prevents active effects gaining unintended basic criticals. Reflection neither crits nor reapplies outgoing-stat/mark multipliers, preserving its absorbed-damage and boss cap contracts.
+
+BossGate owns the level-driven pending/active/victory/transition state and completed milestone set. CombatRunRoot wires actual BossActor instances, delayed victory adjudication (death wins), banked EXP and world replacement. Temporary world entities are removed before applying the next seeded map; permanent upgrades/skill ranks remain; temporary buffs/status/shields clear, cooldowns reset,15% maximum-HP recovery and2s immunity apply. Subsequent upgrades are sequential transactions. Map RNG and obstacle RNG remain separate streams.
+
+MapLayoutGenerator reserves the starting area and four escape corridors, enforces configured obstacle spacing and flood-fill connectivity, with a fully open safe fallback. Enemy movement uses one shared target-cell flow field rather than repeated per-enemy full searches. Spawn candidates must be collision-clear and navigable, outside the viewport where required and at least550px from the player, with bounded attempts/defer. Boss archetypes are data selected; shared skill/augment mechanics never branch on a character identity.
+
+Runtime presentation remains separate: articulated geometric placeholders, synthesized tones, HUD/skill tooltips, explicit bound cards, pause control changes and reroll command. Source license remains owner-reserved. Windows is shipped as an exported resource pack plus the exact official portable Godot runtime because matching stripped export templates are unavailable. It runs without the source tree or a Godot installation; packaged smoke traverses all3 profiles through a real boss death/map transition. Web is a recorded secondary attempt, blocked by missing matching templates.
+
+Unanswered artistic/licensing/balance questions and provisional choices are tracked in OPEN_QUESTIONS.md. Automated rendering/playback is distinguished from an unexecuted human manual acceptance tour. Evidence and any limitations are recorded in WORK_LOG.md.

@@ -1,0 +1,14 @@
+{
+  "effect_id": "vex_k",
+  "category": "dash",
+  "layer": 1,
+  "max_instances": 80,
+  "event_type": "confirmed_execution",
+  "parameters": {
+    "skill_id": "skill.vex.k",
+    "color": "#efcf8f",
+    "style": "roll",
+    "geometry": "runtime snapshot",
+    "prototype": true
+  }
+}

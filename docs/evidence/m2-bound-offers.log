@@ -1,0 +1,17 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS astra locked slots only offer stats
+PASS astra 200 seeded offers contain3 distinct valid bound options
+PASS astra all mechanic/skill caps fall back to3 infinite stats
+PASS astra offers deterministic
+PASS vex locked slots only offer stats
+PASS vex 200 seeded offers contain3 distinct valid bound options
+PASS vex all mechanic/skill caps fall back to3 infinite stats
+PASS vex offers deterministic
+PASS boros locked slots only offer stats
+PASS boros 200 seeded offers contain3 distinct valid bound options
+PASS boros all mechanic/skill caps fall back to3 infinite stats
+PASS boros offers deterministic
+PASS unlock precedes same-level rank and mechanic eligibility
+RESULT bound offers: checks=13 failures=0
+

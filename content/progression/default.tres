@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ProgressionDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/progression_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"progression.default"
+display_name = "Default progression"
+base_xp = 25.0
+linear_xp = 12.0
+power_xp = 1.8
+exponent = 1.45
+orb_lifetime = 45.0
+collect_radius = 20.0

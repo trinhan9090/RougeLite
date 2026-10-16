@@ -1,0 +1,16 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS normalized movement (1.0, 0.0)
+PASS normalized movement (-1.0, 0.0)
+PASS normalized movement (0.0, -1.0)
+PASS normalized movement (0.0, 1.0)
+PASS normalized movement (1.0, 1.0)
+PASS normalized movement (-1.0, 1.0)
+PASS normalized movement (1.0, -1.0)
+PASS normalized movement (-1.0, -1.0)
+PASS idle velocity zero
+PASS real WASD diagonal displacement equals cardinal
+PASS physics obstacle collision
+PASS physics arena boundary collision
+RESULT movement: checks=12 failures=0
+

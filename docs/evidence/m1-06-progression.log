@@ -1,0 +1,14 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS XP curve exact first thresholds
+PASS batched XP advances one level and queues choices
+PASS pending choice cannot skip level
+PASS all queued levels settle sequentially without losing XP
+PASS duplicate acknowledgement ignored
+PASS negative XP ignored
+PASS boss-active XP is banked
+PASS dead run gains no XP
+PASS orb can be collected exactly once
+PASS orb magnet physically moves and collects
+RESULT progression: checks=10 failures=0
+

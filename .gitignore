@@ -1,0 +1,16 @@
+.godot/
+tools/godot/
+builds/
+.local-data/
+*.tmp
+export_templates/
+feature_profiles/
+script_templates/
+text_editor_themes/
+docs/evidence/*.png
+*.import
+.codex/
+.agents/
+.aws/
+.env
+.env.*

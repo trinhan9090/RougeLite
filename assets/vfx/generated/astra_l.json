@@ -1,0 +1,14 @@
+{
+  "effect_id": "astra_l",
+  "category": "area",
+  "layer": 1,
+  "max_instances": 80,
+  "event_type": "confirmed_execution",
+  "parameters": {
+    "skill_id": "skill.astra.l",
+    "color": "#91e8ef",
+    "style": "sigil",
+    "geometry": "runtime snapshot",
+    "prototype": true
+  }
+}

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="AugmentDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/augment_effect_definition.gd" id="1_17u8v"]
+[ext_resource type="Script" path="res://scripts/data/mechanic_effect_definition.gd" id="2_qklcv"]
+[ext_resource type="Script" path="res://scripts/data/requirement_definition.gd" id="3_psnu3"]
+[ext_resource type="Script" path="res://scripts/data/augment_definition.gd" id="4_0qtbc"]
+
+[sub_resource type="Resource" id="Resource_dx2cm"]
+script = ExtResource("2_qklcv")
+auxiliary_values = Array[float]([0.0, 0.0, 0.0, 0.0, 0.0])
+effect_id = &"execute"
+rank_values = Array[float]([0.1, 0.15, 0.2, 0.25, 0.3])
+
+[sub_resource type="Resource" id="Resource_x5oio"]
+script = ExtResource("3_psnu3")
+required_capabilities = Array[StringName]([&"damage"])
+
+[resource]
+script = ExtResource("4_0qtbc")
+description = "Bonus damage against targets below 25% HP."
+requirements = SubResource("Resource_x5oio")
+effects = Array[ExtResource("1_17u8v")]([SubResource("Resource_dx2cm")])
+rarity_weight = 30.0
+id = &"augment.execute"
+display_name = "Execute"

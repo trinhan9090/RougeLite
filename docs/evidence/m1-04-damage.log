@@ -1,0 +1,21 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS physical armor exact mitigation
+PASS magic resistance exact mitigation
+PASS true damage ignores resistance
+PASS negative armor formula
+PASS FIFO shield absorbs before HP
+PASS shields expire on simulation clock
+PASS guaranteed critical multiplier
+PASS crit uses explicit seeded RNG
+PASS root blocks movement but not attack
+PASS root expires
+PASS slow minimum movement factor
+PASS boss hard CC converts to stagger
+PASS boss stagger immunity cooldown
+PASS negative damage rejected
+PASS friendly damage rejected
+PASS lethal hit emits one kill
+PASS dead target emits no duplicate kill and hits dispatched
+RESULT damage: checks=17 failures=0
+

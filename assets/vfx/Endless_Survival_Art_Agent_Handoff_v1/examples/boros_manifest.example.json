@@ -1,0 +1,362 @@
+{
+  "character_id": "boros",
+  "canvas": [
+    128,
+    128
+  ],
+  "feet_anchor": [
+    64,
+    108
+  ],
+  "directions": [
+    "south",
+    "west",
+    "east",
+    "north"
+  ],
+  "animations": {
+    "idle": {
+      "fps": 6,
+      "loop": true,
+      "directions": {
+        "south": [
+          "frames/idle/south/000.png",
+          "frames/idle/south/001.png",
+          "frames/idle/south/002.png",
+          "frames/idle/south/003.png"
+        ],
+        "west": [
+          "frames/idle/west/000.png",
+          "frames/idle/west/001.png",
+          "frames/idle/west/002.png",
+          "frames/idle/west/003.png"
+        ],
+        "east": [
+          "frames/idle/east/000.png",
+          "frames/idle/east/001.png",
+          "frames/idle/east/002.png",
+          "frames/idle/east/003.png"
+        ],
+        "north": [
+          "frames/idle/north/000.png",
+          "frames/idle/north/001.png",
+          "frames/idle/north/002.png",
+          "frames/idle/north/003.png"
+        ]
+      }
+    },
+    "run": {
+      "fps": 10,
+      "loop": true,
+      "directions": {
+        "south": [
+          "frames/run/south/000.png",
+          "frames/run/south/001.png",
+          "frames/run/south/002.png",
+          "frames/run/south/003.png",
+          "frames/run/south/004.png",
+          "frames/run/south/005.png",
+          "frames/run/south/006.png",
+          "frames/run/south/007.png"
+        ],
+        "west": [
+          "frames/run/west/000.png",
+          "frames/run/west/001.png",
+          "frames/run/west/002.png",
+          "frames/run/west/003.png",
+          "frames/run/west/004.png",
+          "frames/run/west/005.png",
+          "frames/run/west/006.png",
+          "frames/run/west/007.png"
+        ],
+        "east": [
+          "frames/run/east/000.png",
+          "frames/run/east/001.png",
+          "frames/run/east/002.png",
+          "frames/run/east/003.png",
+          "frames/run/east/004.png",
+          "frames/run/east/005.png",
+          "frames/run/east/006.png",
+          "frames/run/east/007.png"
+        ],
+        "north": [
+          "frames/run/north/000.png",
+          "frames/run/north/001.png",
+          "frames/run/north/002.png",
+          "frames/run/north/003.png",
+          "frames/run/north/004.png",
+          "frames/run/north/005.png",
+          "frames/run/north/006.png",
+          "frames/run/north/007.png"
+        ]
+      }
+    },
+    "basic": {
+      "fps": 12,
+      "loop": false,
+      "directions": {
+        "south": [
+          "frames/basic/south/000.png",
+          "frames/basic/south/001.png",
+          "frames/basic/south/002.png",
+          "frames/basic/south/003.png",
+          "frames/basic/south/004.png",
+          "frames/basic/south/005.png"
+        ],
+        "west": [
+          "frames/basic/west/000.png",
+          "frames/basic/west/001.png",
+          "frames/basic/west/002.png",
+          "frames/basic/west/003.png",
+          "frames/basic/west/004.png",
+          "frames/basic/west/005.png"
+        ],
+        "east": [
+          "frames/basic/east/000.png",
+          "frames/basic/east/001.png",
+          "frames/basic/east/002.png",
+          "frames/basic/east/003.png",
+          "frames/basic/east/004.png",
+          "frames/basic/east/005.png"
+        ],
+        "north": [
+          "frames/basic/north/000.png",
+          "frames/basic/north/001.png",
+          "frames/basic/north/002.png",
+          "frames/basic/north/003.png",
+          "frames/basic/north/004.png",
+          "frames/basic/north/005.png"
+        ]
+      }
+    },
+    "cast_j": {
+      "fps": 12,
+      "loop": false,
+      "directions": {
+        "south": [
+          "frames/cast_j/south/000.png",
+          "frames/cast_j/south/001.png",
+          "frames/cast_j/south/002.png",
+          "frames/cast_j/south/003.png",
+          "frames/cast_j/south/004.png",
+          "frames/cast_j/south/005.png"
+        ],
+        "west": [
+          "frames/cast_j/west/000.png",
+          "frames/cast_j/west/001.png",
+          "frames/cast_j/west/002.png",
+          "frames/cast_j/west/003.png",
+          "frames/cast_j/west/004.png",
+          "frames/cast_j/west/005.png"
+        ],
+        "east": [
+          "frames/cast_j/east/000.png",
+          "frames/cast_j/east/001.png",
+          "frames/cast_j/east/002.png",
+          "frames/cast_j/east/003.png",
+          "frames/cast_j/east/004.png",
+          "frames/cast_j/east/005.png"
+        ],
+        "north": [
+          "frames/cast_j/north/000.png",
+          "frames/cast_j/north/001.png",
+          "frames/cast_j/north/002.png",
+          "frames/cast_j/north/003.png",
+          "frames/cast_j/north/004.png",
+          "frames/cast_j/north/005.png"
+        ]
+      }
+    },
+    "cast_k": {
+      "fps": 12,
+      "loop": false,
+      "directions": {
+        "south": [
+          "frames/cast_k/south/000.png",
+          "frames/cast_k/south/001.png",
+          "frames/cast_k/south/002.png",
+          "frames/cast_k/south/003.png",
+          "frames/cast_k/south/004.png",
+          "frames/cast_k/south/005.png"
+        ],
+        "west": [
+          "frames/cast_k/west/000.png",
+          "frames/cast_k/west/001.png",
+          "frames/cast_k/west/002.png",
+          "frames/cast_k/west/003.png",
+          "frames/cast_k/west/004.png",
+          "frames/cast_k/west/005.png"
+        ],
+        "east": [
+          "frames/cast_k/east/000.png",
+          "frames/cast_k/east/001.png",
+          "frames/cast_k/east/002.png",
+          "frames/cast_k/east/003.png",
+          "frames/cast_k/east/004.png",
+          "frames/cast_k/east/005.png"
+        ],
+        "north": [
+          "frames/cast_k/north/000.png",
+          "frames/cast_k/north/001.png",
+          "frames/cast_k/north/002.png",
+          "frames/cast_k/north/003.png",
+          "frames/cast_k/north/004.png",
+          "frames/cast_k/north/005.png"
+        ]
+      }
+    },
+    "cast_l": {
+      "fps": 12,
+      "loop": false,
+      "directions": {
+        "south": [
+          "frames/cast_l/south/000.png",
+          "frames/cast_l/south/001.png",
+          "frames/cast_l/south/002.png",
+          "frames/cast_l/south/003.png",
+          "frames/cast_l/south/004.png",
+          "frames/cast_l/south/005.png"
+        ],
+        "west": [
+          "frames/cast_l/west/000.png",
+          "frames/cast_l/west/001.png",
+          "frames/cast_l/west/002.png",
+          "frames/cast_l/west/003.png",
+          "frames/cast_l/west/004.png",
+          "frames/cast_l/west/005.png"
+        ],
+        "east": [
+          "frames/cast_l/east/000.png",
+          "frames/cast_l/east/001.png",
+          "frames/cast_l/east/002.png",
+          "frames/cast_l/east/003.png",
+          "frames/cast_l/east/004.png",
+          "frames/cast_l/east/005.png"
+        ],
+        "north": [
+          "frames/cast_l/north/000.png",
+          "frames/cast_l/north/001.png",
+          "frames/cast_l/north/002.png",
+          "frames/cast_l/north/003.png",
+          "frames/cast_l/north/004.png",
+          "frames/cast_l/north/005.png"
+        ]
+      }
+    },
+    "cast_i": {
+      "fps": 12,
+      "loop": false,
+      "directions": {
+        "south": [
+          "frames/cast_i/south/000.png",
+          "frames/cast_i/south/001.png",
+          "frames/cast_i/south/002.png",
+          "frames/cast_i/south/003.png",
+          "frames/cast_i/south/004.png",
+          "frames/cast_i/south/005.png"
+        ],
+        "west": [
+          "frames/cast_i/west/000.png",
+          "frames/cast_i/west/001.png",
+          "frames/cast_i/west/002.png",
+          "frames/cast_i/west/003.png",
+          "frames/cast_i/west/004.png",
+          "frames/cast_i/west/005.png"
+        ],
+        "east": [
+          "frames/cast_i/east/000.png",
+          "frames/cast_i/east/001.png",
+          "frames/cast_i/east/002.png",
+          "frames/cast_i/east/003.png",
+          "frames/cast_i/east/004.png",
+          "frames/cast_i/east/005.png"
+        ],
+        "north": [
+          "frames/cast_i/north/000.png",
+          "frames/cast_i/north/001.png",
+          "frames/cast_i/north/002.png",
+          "frames/cast_i/north/003.png",
+          "frames/cast_i/north/004.png",
+          "frames/cast_i/north/005.png"
+        ]
+      }
+    },
+    "hit": {
+      "fps": 10,
+      "loop": false,
+      "directions": {
+        "south": [
+          "frames/hit/south/000.png",
+          "frames/hit/south/001.png",
+          "frames/hit/south/002.png"
+        ],
+        "west": [
+          "frames/hit/west/000.png",
+          "frames/hit/west/001.png",
+          "frames/hit/west/002.png"
+        ],
+        "east": [
+          "frames/hit/east/000.png",
+          "frames/hit/east/001.png",
+          "frames/hit/east/002.png"
+        ],
+        "north": [
+          "frames/hit/north/000.png",
+          "frames/hit/north/001.png",
+          "frames/hit/north/002.png"
+        ]
+      }
+    },
+    "death": {
+      "fps": 8,
+      "loop": false,
+      "directions": {
+        "south": [
+          "frames/death/south/000.png",
+          "frames/death/south/001.png",
+          "frames/death/south/002.png",
+          "frames/death/south/003.png",
+          "frames/death/south/004.png",
+          "frames/death/south/005.png",
+          "frames/death/south/006.png",
+          "frames/death/south/007.png"
+        ],
+        "west": [
+          "frames/death/west/000.png",
+          "frames/death/west/001.png",
+          "frames/death/west/002.png",
+          "frames/death/west/003.png",
+          "frames/death/west/004.png",
+          "frames/death/west/005.png",
+          "frames/death/west/006.png",
+          "frames/death/west/007.png"
+        ],
+        "east": [
+          "frames/death/east/000.png",
+          "frames/death/east/001.png",
+          "frames/death/east/002.png",
+          "frames/death/east/003.png",
+          "frames/death/east/004.png",
+          "frames/death/east/005.png",
+          "frames/death/east/006.png",
+          "frames/death/east/007.png"
+        ],
+        "north": [
+          "frames/death/north/000.png",
+          "frames/death/north/001.png",
+          "frames/death/north/002.png",
+          "frames/death/north/003.png",
+          "frames/death/north/004.png",
+          "frames/death/north/005.png",
+          "frames/death/north/006.png",
+          "frames/death/north/007.png"
+        ]
+      }
+    }
+  },
+  "visual_profile": {
+    "staff": null,
+    "weapons": "greatsword",
+    "texture_filter": "nearest"
+  }
+}

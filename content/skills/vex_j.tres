@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SkillDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/effect_executor_definition.gd" id="1_s8e5e"]
+[ext_resource type="Script" path="res://scripts/data/skill_rank_definition.gd" id="2_rw6ky"]
+[ext_resource type="Script" path="res://scripts/data/skill_behavior_definition.gd" id="3_naqhd"]
+[ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="4_jo344"]
+[ext_resource type="Script" path="res://scripts/data/targeting_definition.gd" id="5_fmg4a"]
+
+[sub_resource type="Resource" id="Resource_jo344"]
+script = ExtResource("1_s8e5e")
+spread_radians = 0.10471975511965978
+executor_id = &"executor.projectile"
+
+[sub_resource type="Resource" id="Resource_3p7oo"]
+script = ExtResource("3_naqhd")
+shot_interval = 0.12
+
+[sub_resource type="Resource" id="Resource_fmg4a"]
+script = ExtResource("2_rw6ky")
+cooldown = 8.0
+damage = 15.0
+range_px = 620.0
+projectile_speed = 930.0
+projectile_count = 4
+behavior = SubResource("Resource_3p7oo")
+
+[sub_resource type="Resource" id="Resource_iqyxp"]
+script = ExtResource("3_naqhd")
+shot_interval = 0.12
+
+[sub_resource type="Resource" id="Resource_pxw6e"]
+script = ExtResource("2_rw6ky")
+rank = 2
+cooldown = 8.0
+damage = 15.0
+range_px = 620.0
+projectile_speed = 930.0
+projectile_count = 5
+behavior = SubResource("Resource_iqyxp")
+
+[sub_resource type="Resource" id="Resource_20ry1"]
+script = ExtResource("3_naqhd")
+can_crit = true
+crit_bonus = 0.1
+shot_interval = 0.12
+
+[sub_resource type="Resource" id="Resource_nsu0k"]
+script = ExtResource("2_rw6ky")
+rank = 3
+cooldown = 8.0
+damage = 15.0
+range_px = 620.0
+projectile_speed = 930.0
+projectile_count = 6
+behavior = SubResource("Resource_20ry1")
+
+[sub_resource type="Resource" id="Resource_q0m68"]
+script = ExtResource("3_naqhd")
+can_crit = true
+crit_bonus = 0.1
+crit_pierce = 1
+shot_interval = 0.12
+
+[sub_resource type="Resource" id="Resource_4yy1s"]
+script = ExtResource("2_rw6ky")
+rank = 4
+cooldown = 8.0
+damage = 15.0
+range_px = 620.0
+projectile_speed = 930.0
+projectile_count = 7
+behavior = SubResource("Resource_q0m68")
+
+[sub_resource type="Resource" id="Resource_qxsrt"]
+script = ExtResource("5_fmg4a")
+policy = "cursor"
+acquisition_radius = 620.0
+
+[resource]
+script = ExtResource("4_jo344")
+slot = 1
+unlock_level = 3
+max_rank = 4
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"cooldown_manage", &"repeat_cast", &"modify_projectile_angle", &"spawn_projectile_pattern", &"modify_projectile_count", &"pierce_hit", &"projectile_steering"])
+executor = SubResource("Resource_jo344")
+targeting = SubResource("Resource_qxsrt")
+rank_scaling = Array[ExtResource("2_rw6ky")]([SubResource("Resource_fmg4a"), SubResource("Resource_pxw6e"), SubResource("Resource_nsu0k"), SubResource("Resource_4yy1s")])
+id = &"skill.vex.j"
+display_name = "Quick Barrage"

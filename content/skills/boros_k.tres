@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="SkillDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/effect_executor_definition.gd" id="1_ytcu0"]
+[ext_resource type="Script" path="res://scripts/data/skill_rank_definition.gd" id="2_cx32d"]
+[ext_resource type="Script" path="res://scripts/data/skill_behavior_definition.gd" id="3_xhyxv"]
+[ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="4_vali8"]
+[ext_resource type="Script" path="res://scripts/data/targeting_definition.gd" id="5_k5ups"]
+
+[sub_resource type="Resource" id="Resource_vali8"]
+script = ExtResource("1_ytcu0")
+kind = "shield"
+executor_id = &"executor.shield"
+
+[sub_resource type="Resource" id="Resource_wy1ry"]
+script = ExtResource("3_xhyxv")
+shield_reduction = 0.25
+
+[sub_resource type="Resource" id="Resource_k5ups"]
+script = ExtResource("2_cx32d")
+cooldown = 16.0
+range_px = 400.0
+duration = 3.5
+shield = 70.0
+behavior = SubResource("Resource_wy1ry")
+
+[sub_resource type="Resource" id="Resource_fpgqn"]
+script = ExtResource("3_xhyxv")
+shield_reduction = 0.25
+
+[sub_resource type="Resource" id="Resource_mn38y"]
+script = ExtResource("2_cx32d")
+rank = 2
+cooldown = 16.0
+range_px = 400.0
+duration = 3.5
+shield = 95.0
+behavior = SubResource("Resource_fpgqn")
+
+[sub_resource type="Resource" id="Resource_cx2ko"]
+script = ExtResource("3_xhyxv")
+shield_reduction = 0.25
+reflect_fraction = 0.15
+
+[sub_resource type="Resource" id="Resource_ccibv"]
+script = ExtResource("2_cx32d")
+rank = 3
+cooldown = 16.0
+range_px = 400.0
+duration = 3.5
+shield = 95.0
+behavior = SubResource("Resource_cx2ko")
+
+[sub_resource type="Resource" id="Resource_qy4fo"]
+script = ExtResource("3_xhyxv")
+shield_reduction = 0.25
+reflect_fraction = 0.15
+expire_heal_fraction = 0.2
+
+[sub_resource type="Resource" id="Resource_1sqd0"]
+script = ExtResource("2_cx32d")
+rank = 4
+cooldown = 16.0
+range_px = 400.0
+duration = 3.5
+shield = 95.0
+behavior = SubResource("Resource_qy4fo")
+
+[sub_resource type="Resource" id="Resource_163rx"]
+script = ExtResource("5_k5ups")
+policy = "self"
+acquisition_radius = 400.0
+
+[resource]
+script = ExtResource("4_vali8")
+slot = 2
+unlock_level = 6
+max_rank = 4
+declared_capabilities = Array[StringName]([&"modify_shield", &"damage_taken_hook"])
+executor = SubResource("Resource_vali8")
+targeting = SubResource("Resource_163rx")
+rank_scaling = Array[ExtResource("2_cx32d")]([SubResource("Resource_k5ups"), SubResource("Resource_mn38y"), SubResource("Resource_ccibv"), SubResource("Resource_1sqd0")])
+id = &"skill.boros.k"
+display_name = "Iron Resolve"

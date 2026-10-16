@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "effect_id",
+    "category",
+    "layer",
+    "max_instances",
+    "event_type"
+  ],
+  "properties": {
+    "effect_id": {
+      "type": "string"
+    },
+    "category": {
+      "enum": [
+        "projectile",
+        "impact",
+        "aura",
+        "area",
+        "beam",
+        "slash",
+        "dash",
+        "status"
+      ]
+    },
+    "layer": {
+      "type": "integer"
+    },
+    "max_instances": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "event_type": {
+      "type": "string"
+    },
+    "parameters": {
+      "type": "object"
+    }
+  }
+}

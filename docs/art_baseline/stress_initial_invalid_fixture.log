@@ -1,0 +1,10 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+ART_STRESS population=100 projectiles=250 frames=60 median_ms=33.451 p95_ms=57.778 trails=100 impacts=50 renderer=Windows cpu=AMD Ryzen 5 6600H with Radeon Graphics
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+ART_STRESS population=200 projectiles=125 frames=60 median_ms=57.865 p95_ms=93.853 trails=50 impacts=42 renderer=Windows cpu=AMD Ryzen 5 6600H with Radeon Graphics
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+ART_STRESS population=400 projectiles=25 frames=60 median_ms=80.308 p95_ms=169.341 trails=10 impacts=80 renderer=Windows cpu=AMD Ryzen 5 6600H with Radeon Graphics
+RESULT art stress failures=3 (performance acceptance reported separately)

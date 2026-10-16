@@ -1,0 +1,11 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Vietnamese menu with full diacritics
+PASS Vietnamese character title
+PASS skill display translated without changing ID
+PASS formatted Vietnamese HUD
+PASS Vietnamese manual mode
+PASS Vietnamese upgrade name and rank
+PASS localization preserves content and stable ID
+PASS English catalog retained
+RESULT localization checks=8 failures=0

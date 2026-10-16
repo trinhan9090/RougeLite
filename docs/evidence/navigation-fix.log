@@ -1,0 +1,9 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS chase reached player (23.58491, -6.854267)
+PASS chase reached player (24.07258, 6.973061)
+PASS chase reached player (22.89804, -8.177894)
+PASS chase reached player (-24.53341, -3.333089)
+PASS chase reached player (0.949748, 25.21656)
+PASS wall-adjacent target reached
+RESULT navigation checks=6 failures=0

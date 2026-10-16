@@ -1,0 +1,62 @@
+{
+  "character_id": "astra",
+  "art_version": "demo-v2",
+  "source_blend": "assets/source_3d/astra/master.blend",
+  "frame": {
+    "width": 192,
+    "height": 192,
+    "feet_anchor": [
+      96,
+      170
+    ],
+    "body_height_px": 88
+  },
+  "directions": [
+    "north",
+    "south",
+    "east",
+    "west"
+  ],
+  "animations": {
+    "idle": {
+      "fps": 8,
+      "loop": true,
+      "frames": 6
+    },
+    "run": {
+      "fps": 10,
+      "loop": true,
+      "frames": 8
+    },
+    "basic_attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": 5
+    },
+    "cast_j": {
+      "fps": 12,
+      "loop": false,
+      "frames": 6
+    },
+    "cast_k": {
+      "fps": 12,
+      "loop": false,
+      "frames": 6
+    },
+    "cast_l": {
+      "fps": 12,
+      "loop": false,
+      "frames": 7
+    },
+    "cast_i": {
+      "fps": 12,
+      "loop": false,
+      "frames": 10
+    }
+  },
+  "license": "original-generated",
+  "provenance": {
+    "reference": "reference/astra_concept.png",
+    "quality_status": "not_yet_generated"
+  }
+}

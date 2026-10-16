@@ -1,0 +1,12 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+PASS performance fixture100 actual enemy actors
+PASS performance fixture300 actual swept projectiles
+PASS fixture maintains100 enemies/300 projectiles while processing
+PROFILE renderer=Windows CPU=AMD Ryzen 5 6600H with Radeon Graphics frames=60 frame_min_ms=16.745 frame_median_ms=28.776 frame_p95_ms=119.762 cpu_median_ms=24.865 cpu_p95_ms=24.865 fps=16
+PASS performance has no critical quarter-second stalls
+PASS run teardown returns live node count to baseline
+RESULT performance: checks=5 failures=0
+

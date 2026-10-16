@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="AugmentDefinition" load_steps=7 format=3]
+[ext_resource type="Script" path="res://scripts/data/augment_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/requirement_definition.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/data/stat_modifier_definition.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/data/augment_effect_definition.gd" id="4"]
+[sub_resource type="Resource" id="Requirement"]
+script = ExtResource("2")
+[sub_resource type="Resource" id="Effect"]
+script = ExtResource("3")
+effect_id = &"effect.stat_modifier"
+rank_values = Array[float]([0.12])
+stat_key = &"pickup_radius"
+operation = "MULTIPLY_BASE"
+cap = -1
+[resource]
+script = ExtResource("1")
+id = &"stat.pickup_radius"
+display_name = "Magnet"
+description = "+12% base pickup radius"
+max_rank = 0
+scope = "GLOBAL"
+requirements = SubResource("Requirement")
+effects = Array[ExtResource("4")]([SubResource("Effect")])

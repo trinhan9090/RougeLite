@@ -1,0 +1,145 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS astra_j four-way cast accepted
+PASS astra_j multishot6 lanes then split6 each=42
+PASS astra_j exactly one echo adds6 shots without cooldown charge
+PASS astra_j combined budgets bounded
+PASS astra_j combined projectiles and proc queue settle
+PASS astra_j combined effects resolve actual hits
+PASS vex_l four-way cast accepted
+PASS vex_l multishot6 lanes then split6 each=42
+PASS vex_l exactly one echo adds6 shots without cooldown charge
+PASS vex_l combined budgets bounded
+PASS vex_l combined projectiles and proc queue settle
+PASS vex_l combined effects resolve actual hits
+PASS modifier order independent of acquisition order
+PASS overflow deterministically truncates to64 root projectiles
+PASS overflow has finite lifetime
+PASS astra_j homing steers actual projectile
+PASS vex_l homing steers actual projectile
+PASS astra_j refund matches seeded roll trial0
+PASS astra_j refund matches seeded roll trial1
+PASS astra_j refund matches seeded roll trial2
+PASS astra_j refund matches seeded roll trial3
+PASS astra_j refund matches seeded roll trial4
+PASS astra_j refund exact10percent base
+PASS astra_j refund matches seeded roll trial5
+PASS astra_j refund matches seeded roll trial6
+PASS astra_j refund matches seeded roll trial7
+PASS astra_j refund matches seeded roll trial8
+PASS astra_j refund exact10percent base
+PASS astra_j refund matches seeded roll trial9
+PASS astra_j refund matches seeded roll trial10
+PASS astra_j refund matches seeded roll trial11
+PASS astra_j refund matches seeded roll trial12
+PASS astra_j refund matches seeded roll trial13
+PASS astra_j refund matches seeded roll trial14
+PASS astra_j refund exact10percent base
+PASS astra_j refund matches seeded roll trial15
+PASS astra_j refund exact10percent base
+PASS astra_j refund matches seeded roll trial16
+PASS astra_j refund matches seeded roll trial17
+PASS astra_j refund matches seeded roll trial18
+PASS astra_j refund exact10percent base
+PASS astra_j refund matches seeded roll trial19
+PASS astra_j refund matches seeded roll trial20
+PASS astra_j refund matches seeded roll trial21
+PASS astra_j refund matches seeded roll trial22
+PASS astra_j refund matches seeded roll trial23
+PASS astra_j refund matches seeded roll trial24
+PASS astra_j refund matches seeded roll trial25
+PASS astra_j refund matches seeded roll trial26
+PASS astra_j refund matches seeded roll trial27
+PASS astra_j refund matches seeded roll trial28
+PASS astra_j refund exact10percent base
+PASS astra_j refund matches seeded roll trial29
+PASS astra_j refund exact10percent base
+PASS astra_j refund matches seeded roll trial30
+PASS astra_j refund matches seeded roll trial31
+PASS astra_j refund matches seeded roll trial32
+PASS astra_j refund matches seeded roll trial33
+PASS astra_j refund matches seeded roll trial34
+PASS astra_j refund matches seeded roll trial35
+PASS astra_j refund matches seeded roll trial36
+PASS astra_j refund exact10percent base
+PASS astra_j refund matches seeded roll trial37
+PASS astra_j refund matches seeded roll trial38
+PASS astra_j refund matches seeded roll trial39
+PASS astra_j refund exact10percent base
+PASS astra_j refund matches seeded roll trial40
+PASS astra_j refund matches seeded roll trial41
+PASS astra_j refund matches seeded roll trial42
+PASS astra_j refund matches seeded roll trial43
+PASS astra_j refund matches seeded roll trial44
+PASS astra_j refund matches seeded roll trial45
+PASS astra_j refund matches seeded roll trial46
+PASS astra_j refund matches seeded roll trial47
+PASS astra_j refund matches seeded roll trial48
+PASS astra_j refund matches seeded roll trial49
+PASS astra_j refund exact10percent base
+PASS astra_j refund seeded16percent; one roll per root
+PASS vex_l refund matches seeded roll trial0
+PASS vex_l refund matches seeded roll trial1
+PASS vex_l refund matches seeded roll trial2
+PASS vex_l refund matches seeded roll trial3
+PASS vex_l refund matches seeded roll trial4
+PASS vex_l refund exact10percent base
+PASS vex_l refund matches seeded roll trial5
+PASS vex_l refund matches seeded roll trial6
+PASS vex_l refund matches seeded roll trial7
+PASS vex_l refund matches seeded roll trial8
+PASS vex_l refund exact10percent base
+PASS vex_l refund matches seeded roll trial9
+PASS vex_l refund matches seeded roll trial10
+PASS vex_l refund matches seeded roll trial11
+PASS vex_l refund matches seeded roll trial12
+PASS vex_l refund matches seeded roll trial13
+PASS vex_l refund matches seeded roll trial14
+PASS vex_l refund exact10percent base
+PASS vex_l refund matches seeded roll trial15
+PASS vex_l refund exact10percent base
+PASS vex_l refund matches seeded roll trial16
+PASS vex_l refund matches seeded roll trial17
+PASS vex_l refund matches seeded roll trial18
+PASS vex_l refund exact10percent base
+PASS vex_l refund matches seeded roll trial19
+PASS vex_l refund matches seeded roll trial20
+PASS vex_l refund matches seeded roll trial21
+PASS vex_l refund matches seeded roll trial22
+PASS vex_l refund matches seeded roll trial23
+PASS vex_l refund matches seeded roll trial24
+PASS vex_l refund matches seeded roll trial25
+PASS vex_l refund matches seeded roll trial26
+PASS vex_l refund matches seeded roll trial27
+PASS vex_l refund matches seeded roll trial28
+PASS vex_l refund exact10percent base
+PASS vex_l refund matches seeded roll trial29
+PASS vex_l refund exact10percent base
+PASS vex_l refund matches seeded roll trial30
+PASS vex_l refund matches seeded roll trial31
+PASS vex_l refund matches seeded roll trial32
+PASS vex_l refund matches seeded roll trial33
+PASS vex_l refund matches seeded roll trial34
+PASS vex_l refund matches seeded roll trial35
+PASS vex_l refund matches seeded roll trial36
+PASS vex_l refund exact10percent base
+PASS vex_l refund matches seeded roll trial37
+PASS vex_l refund matches seeded roll trial38
+PASS vex_l refund matches seeded roll trial39
+PASS vex_l refund exact10percent base
+PASS vex_l refund matches seeded roll trial40
+PASS vex_l refund matches seeded roll trial41
+PASS vex_l refund matches seeded roll trial42
+PASS vex_l refund matches seeded roll trial43
+PASS vex_l refund matches seeded roll trial44
+PASS vex_l refund matches seeded roll trial45
+PASS vex_l refund matches seeded roll trial46
+PASS vex_l refund matches seeded roll trial47
+PASS vex_l refund matches seeded roll trial48
+PASS vex_l refund matches seeded roll trial49
+PASS vex_l refund exact10percent base
+PASS vex_l refund seeded16percent; one roll per root
+PASS four-way overlap emits exactly one kill per target
+PASS four-way lethal combo settles after targets die
+RESULT augment combinations: checks=141 failures=0
+

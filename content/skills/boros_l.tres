@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SkillDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/effect_executor_definition.gd" id="1_wvbri"]
+[ext_resource type="Script" path="res://scripts/data/skill_rank_definition.gd" id="2_xrvbt"]
+[ext_resource type="Script" path="res://scripts/data/skill_behavior_definition.gd" id="3_t2fw6"]
+[ext_resource type="Script" path="res://scripts/data/status_effect_definition.gd" id="4_8biap"]
+[ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="5_nlq1t"]
+[ext_resource type="Script" path="res://scripts/data/targeting_definition.gd" id="6_667gn"]
+
+[sub_resource type="Resource" id="Resource_t2fw6"]
+script = ExtResource("1_wvbri")
+kind = "dash"
+executor_id = &"executor.dash"
+
+[sub_resource type="Resource" id="Resource_vavpy"]
+script = ExtResource("3_t2fw6")
+
+[sub_resource type="Resource" id="Resource_8biap"]
+script = ExtResource("2_xrvbt")
+cooldown = 11.0
+damage = 60.0
+range_px = 230.0
+radius_px = 30.0
+behavior = SubResource("Resource_vavpy")
+
+[sub_resource type="Resource" id="Resource_hpb2i"]
+script = ExtResource("3_t2fw6")
+
+[sub_resource type="Resource" id="Resource_nlq1t"]
+script = ExtResource("2_xrvbt")
+rank = 2
+cooldown = 11.0
+damage = 60.0
+range_px = 300.0
+radius_px = 30.0
+behavior = SubResource("Resource_hpb2i")
+
+[sub_resource type="Resource" id="Resource_n2swk"]
+script = ExtResource("4_8biap")
+kind = "stun"
+duration = 0.7
+
+[sub_resource type="Resource" id="Resource_qu418"]
+script = ExtResource("3_t2fw6")
+status = SubResource("Resource_n2swk")
+
+[sub_resource type="Resource" id="Resource_667gn"]
+script = ExtResource("2_xrvbt")
+rank = 3
+cooldown = 11.0
+damage = 60.0
+range_px = 300.0
+radius_px = 30.0
+behavior = SubResource("Resource_qu418")
+
+[sub_resource type="Resource" id="Resource_iiqy0"]
+script = ExtResource("4_8biap")
+kind = "stun"
+duration = 0.7
+
+[sub_resource type="Resource" id="Resource_3kqen"]
+script = ExtResource("3_t2fw6")
+status = SubResource("Resource_iiqy0")
+trail_duration = 2.0
+trail_damage = 10.0
+
+[sub_resource type="Resource" id="Resource_0crgu"]
+script = ExtResource("2_xrvbt")
+rank = 4
+cooldown = 11.0
+damage = 60.0
+range_px = 300.0
+radius_px = 30.0
+behavior = SubResource("Resource_3kqen")
+
+[sub_resource type="Resource" id="Resource_br745"]
+script = ExtResource("6_667gn")
+policy = "cursor"
+acquisition_radius = 230.0
+
+[resource]
+script = ExtResource("5_nlq1t")
+slot = 3
+unlock_level = 9
+max_rank = 4
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"cooldown_manage", &"dash_completed_hook"])
+executor = SubResource("Resource_t2fw6")
+targeting = SubResource("Resource_br745")
+rank_scaling = Array[ExtResource("2_xrvbt")]([SubResource("Resource_8biap"), SubResource("Resource_nlq1t"), SubResource("Resource_667gn"), SubResource("Resource_0crgu")])
+id = &"skill.boros.l"
+display_name = "Crushing Charge"

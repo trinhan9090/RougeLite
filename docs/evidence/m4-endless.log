@@ -1,0 +1,196 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+PASS astra level2 valid3-choice transaction
+PASS astra level3 valid3-choice transaction
+PASS astra level4 valid3-choice transaction
+PASS astra level5 valid3-choice transaction
+PASS astra level6 valid3-choice transaction
+PASS astra level7 valid3-choice transaction
+PASS astra level8 valid3-choice transaction
+PASS astra level9 valid3-choice transaction
+PASS astra level10 valid3-choice transaction
+PASS astra real boss at10
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS astra level11 valid3-choice transaction
+PASS astra level12 valid3-choice transaction
+PASS astra level13 valid3-choice transaction
+PASS astra level14 valid3-choice transaction
+PASS astra level15 valid3-choice transaction
+PASS astra level16 valid3-choice transaction
+PASS astra level17 valid3-choice transaction
+PASS astra level18 valid3-choice transaction
+PASS astra level19 valid3-choice transaction
+PASS astra level20 valid3-choice transaction
+PASS astra real boss at20
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS astra level21 valid3-choice transaction
+PASS astra level22 valid3-choice transaction
+PASS astra level23 valid3-choice transaction
+PASS astra level24 valid3-choice transaction
+PASS astra level25 valid3-choice transaction
+PASS astra level26 valid3-choice transaction
+PASS astra level27 valid3-choice transaction
+PASS astra level28 valid3-choice transaction
+PASS astra level29 valid3-choice transaction
+PASS astra level30 valid3-choice transaction
+PASS astra real boss at30
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS astra level31 valid3-choice transaction
+PASS astra level32 valid3-choice transaction
+PASS astra level33 valid3-choice transaction
+PASS astra level34 valid3-choice transaction
+PASS astra level35 valid3-choice transaction
+PASS astra level36 valid3-choice transaction
+PASS astra level37 valid3-choice transaction
+PASS astra level38 valid3-choice transaction
+PASS astra level39 valid3-choice transaction
+PASS astra level40 valid3-choice transaction
+PASS astra real boss at40
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS astra level41 valid3-choice transaction
+PASS astra endless reaches41 with four real boss deaths/transitions
+PASS map bag visits all3 before repeat
+PASS ultimate unlocked after first real boss
+COMBAT_RUN_STARTED loadout=loadout.vex seed=20261015
+PASS vex level2 valid3-choice transaction
+PASS vex level3 valid3-choice transaction
+PASS vex level4 valid3-choice transaction
+PASS vex level5 valid3-choice transaction
+PASS vex level6 valid3-choice transaction
+PASS vex level7 valid3-choice transaction
+PASS vex level8 valid3-choice transaction
+PASS vex level9 valid3-choice transaction
+PASS vex level10 valid3-choice transaction
+PASS vex real boss at10
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS vex level11 valid3-choice transaction
+PASS vex level12 valid3-choice transaction
+PASS vex level13 valid3-choice transaction
+PASS vex level14 valid3-choice transaction
+PASS vex level15 valid3-choice transaction
+PASS vex level16 valid3-choice transaction
+PASS vex level17 valid3-choice transaction
+PASS vex level18 valid3-choice transaction
+PASS vex level19 valid3-choice transaction
+PASS vex level20 valid3-choice transaction
+PASS vex real boss at20
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS vex level21 valid3-choice transaction
+PASS vex level22 valid3-choice transaction
+PASS vex level23 valid3-choice transaction
+PASS vex level24 valid3-choice transaction
+PASS vex level25 valid3-choice transaction
+PASS vex level26 valid3-choice transaction
+PASS vex level27 valid3-choice transaction
+PASS vex level28 valid3-choice transaction
+PASS vex level29 valid3-choice transaction
+PASS vex level30 valid3-choice transaction
+PASS vex real boss at30
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS vex level31 valid3-choice transaction
+PASS vex level32 valid3-choice transaction
+PASS vex level33 valid3-choice transaction
+PASS vex level34 valid3-choice transaction
+PASS vex level35 valid3-choice transaction
+PASS vex level36 valid3-choice transaction
+PASS vex level37 valid3-choice transaction
+PASS vex level38 valid3-choice transaction
+PASS vex level39 valid3-choice transaction
+PASS vex level40 valid3-choice transaction
+PASS vex real boss at40
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS vex level41 valid3-choice transaction
+PASS vex endless reaches41 with four real boss deaths/transitions
+PASS map bag visits all3 before repeat
+PASS ultimate unlocked after first real boss
+COMBAT_RUN_STARTED loadout=loadout.boros seed=20261015
+PASS boros level2 valid3-choice transaction
+PASS boros level3 valid3-choice transaction
+PASS boros level4 valid3-choice transaction
+PASS boros level5 valid3-choice transaction
+PASS boros level6 valid3-choice transaction
+PASS boros level7 valid3-choice transaction
+PASS boros level8 valid3-choice transaction
+PASS boros level9 valid3-choice transaction
+PASS boros level10 valid3-choice transaction
+PASS boros real boss at10
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS boros level11 valid3-choice transaction
+PASS boros level12 valid3-choice transaction
+PASS boros level13 valid3-choice transaction
+PASS boros level14 valid3-choice transaction
+PASS boros level15 valid3-choice transaction
+PASS boros level16 valid3-choice transaction
+PASS boros level17 valid3-choice transaction
+PASS boros level18 valid3-choice transaction
+PASS boros level19 valid3-choice transaction
+PASS boros level20 valid3-choice transaction
+PASS boros real boss at20
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS boros level21 valid3-choice transaction
+PASS boros level22 valid3-choice transaction
+PASS boros level23 valid3-choice transaction
+PASS boros level24 valid3-choice transaction
+PASS boros level25 valid3-choice transaction
+PASS boros level26 valid3-choice transaction
+PASS boros level27 valid3-choice transaction
+PASS boros level28 valid3-choice transaction
+PASS boros level29 valid3-choice transaction
+PASS boros level30 valid3-choice transaction
+PASS boros real boss at30
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS boros level31 valid3-choice transaction
+PASS boros level32 valid3-choice transaction
+PASS boros level33 valid3-choice transaction
+PASS boros level34 valid3-choice transaction
+PASS boros level35 valid3-choice transaction
+PASS boros level36 valid3-choice transaction
+PASS boros level37 valid3-choice transaction
+PASS boros level38 valid3-choice transaction
+PASS boros level39 valid3-choice transaction
+PASS boros level40 valid3-choice transaction
+PASS boros real boss at40
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS boros level41 valid3-choice transaction
+PASS boros endless reaches41 with four real boss deaths/transitions
+PASS map bag visits all3 before repeat
+PASS ultimate unlocked after first real boss
+RESULT endless loop: checks=189 failures=0
+

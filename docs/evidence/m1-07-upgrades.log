@@ -1,0 +1,38 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS eight registered stat cores
+PASS shared stat modifier applies astra/stat.pickup_radius
+PASS shared stat modifier applies astra/stat.cooldown_reduction
+PASS shared stat modifier applies astra/stat.crit_damage
+PASS shared stat modifier applies astra/stat.crit_chance
+PASS shared stat modifier applies astra/stat.move_speed
+PASS shared stat modifier applies astra/stat.attack_speed
+PASS shared stat modifier applies astra/stat.max_hp
+PASS shared stat modifier applies astra/stat.damage
+PASS max HP preserves damage ratio astra
+PASS 120 sequential levels keep three distinct eligible options astra
+PASS effective stat caps astra
+PASS stat ranks remain repeatable astra
+PASS stat upgrade does not mutate content astra
+PASS global stat refuses incompatible target scope astra
+PASS dead actor cannot upgrade astra
+PASS shared stat modifier applies boros/stat.pickup_radius
+PASS shared stat modifier applies boros/stat.cooldown_reduction
+PASS shared stat modifier applies boros/stat.crit_damage
+PASS shared stat modifier applies boros/stat.crit_chance
+PASS shared stat modifier applies boros/stat.move_speed
+PASS shared stat modifier applies boros/stat.attack_speed
+PASS shared stat modifier applies boros/stat.max_hp
+PASS shared stat modifier applies boros/stat.damage
+PASS max HP preserves damage ratio boros
+PASS 120 sequential levels keep three distinct eligible options boros
+PASS effective stat caps boros
+PASS stat ranks remain repeatable boros
+PASS stat upgrade does not mutate content boros
+PASS global stat refuses incompatible target scope boros
+PASS dead actor cannot upgrade boros
+PASS same seed/state produces same three cards
+PASS duplicate/insufficient candidate pool fails closed
+PASS passive cap validation regression
+RESULT upgrades: checks=34 failures=0
+

@@ -1,0 +1,14 @@
+{
+  "effect_id": "vex_i",
+  "category": "projectile",
+  "layer": 1,
+  "max_instances": 80,
+  "event_type": "actual_projectile",
+  "parameters": {
+    "skill_id": "skill.vex.i",
+    "color": "#efcf8f",
+    "style": "storm",
+    "geometry": "runtime snapshot",
+    "prototype": true
+  }
+}
