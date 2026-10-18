@@ -11,7 +11,7 @@ func check(value: bool,label: String) -> void:
 func frames(count: int) -> void:
 	for i in range(count): await physics_frame
 func run_tests() -> void:
-	for identity in ["astra","vex","boros"]:
+	for identity in ["astra","vex","boros","atyu"]:
 		var run := (load("res://scenes/run/combat_run.tscn") as PackedScene).instantiate() as CombatRunRoot
 		run.loadout_id = StringName("loadout."+identity)
 		root.add_child(run)
@@ -42,6 +42,8 @@ func run_tests() -> void:
 				check(run.state.current_level == before and run.state.xp_pending_during_boss >= 13,"boss banks XP")
 				var map_before: StringName = run.state.map_id
 				var upgrades: Dictionary = run.state.run_upgrades.duplicate()
+				if identity == "atyu" and run.state.current_level >= 20:
+					check(run.skills.request_cast(3,run.player.global_position+Vector2.RIGHT*240),"Atyu companion active before map transition")
 				var lethal := SkillRankDefinition.new()
 				lethal.damage = 999999
 				lethal.damage_type = "TRUE"
@@ -51,6 +53,7 @@ func run_tests() -> void:
 				await process_frame
 				check(run.state.map_id != map_before and run.state.run_upgrades == upgrades and run.player.invulnerability_left > 0,"victory changes map, preserves upgrades, grants immunity")
 				check(run.state.boss_gate_state == &"IDLE" and run.state.xp_pending_during_boss == 0,"transition releases bank exactly once")
+				if identity == "atyu": check(not run.player.has_meta("companion_runtime"),"map transition clears companion runtime")
 				visited.append(run.state.map_id)
 				run._spawn_clock = 99999
 				run.player.invulnerability_left = 99999

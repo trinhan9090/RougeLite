@@ -1,0 +1,251 @@
+﻿state_id,preceding_comment,status
+170,Lose by Time Over,source-text detected; sprite not visually verified
+172,Lose,source-text detected; sprite not visually verified
+173,,source-text detected; sprite not visually verified
+175,DRAWGAME (Time over),source-text detected; sprite not visually verified
+180,Win state decider,source-text detected; sprite not visually verified
+189,Win pose 1 - Time Over,source-text detected; sprite not visually verified
+181,Win pose 1 - Win KO,source-text detected; sprite not visually verified
+182,Win pose 2- Win KO,source-text detected; sprite not visually verified
+183,Win pose 3- Win KO,source-text detected; sprite not visually verified
+184,Win pose 4- Win KO,source-text detected; sprite not visually verified
+185,Win pose 5- Win KO,source-text detected; sprite not visually verified
+186,Win pose 6- Win KO,source-text detected; sprite not visually verified
+187,Win pose 7- Win KO,source-text detected; sprite not visually verified
+188,Win pose 8 Win KO,source-text detected; sprite not visually verified
+191,Introduction,source-text detected; sprite not visually verified
+192,Introduction,source-text detected; sprite not visually verified
+193,Introduction 2,source-text detected; sprite not visually verified
+194,Introduction 3,source-text detected; sprite not visually verified
+7196,Introduction 2,source-text detected; sprite not visually verified
+7197,Introduction,source-text detected; sprite not visually verified
+7198,Introduction,source-text detected; sprite not visually verified
+198,Jump Land,source-text detected; sprite not visually verified
+199,,source-text detected; sprite not visually verified
+195,Taunt,source-text detected; sprite not visually verified
+200,Standing Punch,source-text detected; sprite not visually verified
+210,Stand Medium Punch,source-text detected; sprite not visually verified
+211,Stand Medium Punch 2,source-text detected; sprite not visually verified
+220,Stand  Strong Punch,source-text detected; sprite not visually verified
+300,Stand Kick,source-text detected; sprite not visually verified
+310,Stand Medium Kick,source-text detected; sprite not visually verified
+320,Stand Strong Kick,source-text detected; sprite not visually verified
+400,Crouch Punch,source-text detected; sprite not visually verified
+410,Crouch Medium Punch,source-text detected; sprite not visually verified
+420,Crouch Strong Punch,source-text detected; sprite not visually verified
+500,Crouch Kick,source-text detected; sprite not visually verified
+510,Crouch Medium Kick,source-text detected; sprite not visually verified
+520,Crouch Strong Kick,source-text detected; sprite not visually verified
+521,Launcher Kick,source-text detected; sprite not visually verified
+590,OverHead Atk,source-text detected; sprite not visually verified
+600,Air Punch,source-text detected; sprite not visually verified
+610,Air Medium Punch,source-text detected; sprite not visually verified
+620,Air Strong Punch,source-text detected; sprite not visually verified
+631,Stand to Air transistion,source-text detected; sprite not visually verified
+635,Air Land,source-text detected; sprite not visually verified
+700,Air Kick,source-text detected; sprite not visually verified
+710,Air Medium Kick,source-text detected; sprite not visually verified
+720,Air Strong Kick,source-text detected; sprite not visually verified
+721,Air Strong Kick Down,source-text detected; sprite not visually verified
+722,Air Strong Kick Down,source-text detected; sprite not visually verified
+725,Air Strong Kick Down End,source-text detected; sprite not visually verified
+726,Air Strong Kick Down End,source-text detected; sprite not visually verified
+800,to mean that he is in another player's state file).,source-text detected; sprite not visually verified
+810,Throw,source-text detected; sprite not visually verified
+811,Throw,source-text detected; sprite not visually verified
+812,Throw,source-text detected; sprite not visually verified
+813,Throw End,source-text detected; sprite not visually verified
+820,Thrown,source-text detected; sprite not visually verified
+821,Thrown,source-text detected; sprite not visually verified
+823,Thrown,source-text detected; sprite not visually verified
+824,Thrown,source-text detected; sprite not visually verified
+825,Wall Smack,source-text detected; sprite not visually verified
+826,Hit Ground By Throw,source-text detected; sprite not visually verified
+827,Wall Smack,source-text detected; sprite not visually verified
+830,to mean that he is in another player's state file).,source-text detected; sprite not visually verified
+840,Toss,source-text detected; sprite not visually verified
+841,Toss,source-text detected; sprite not visually verified
+843,Toss End,source-text detected; sprite not visually verified
+850,Thrown,source-text detected; sprite not visually verified
+851,Thrown,source-text detected; sprite not visually verified
+853,Thrown,source-text detected; sprite not visually verified
+855,Thrown,source-text detected; sprite not visually verified
+857,Thrown,source-text detected; sprite not visually verified
+858,Thrown,source-text detected; sprite not visually verified
+859,Thrown,source-text detected; sprite not visually verified
+920,Air Throw - Attempt,source-text detected; sprite not visually verified
+930,Air Throw,source-text detected; sprite not visually verified
+931,Air Throw,source-text detected; sprite not visually verified
+932,Air Throw,source-text detected; sprite not visually verified
+933,Air Throw,source-text detected; sprite not visually verified
+935,Air Throw End,source-text detected; sprite not visually verified
+940,Thrown,source-text detected; sprite not visually verified
+941,Thrown,source-text detected; sprite not visually verified
+942,Thrown,source-text detected; sprite not visually verified
+943,Thrown,source-text detected; sprite not visually verified
+944,Thrown,source-text detected; sprite not visually verified
+945,Thrown,source-text detected; sprite not visually verified
+950,Air Toss - Attempt,source-text detected; sprite not visually verified
+960,Air Toss,source-text detected; sprite not visually verified
+965,Air Throw End,source-text detected; sprite not visually verified
+970,Thrown,source-text detected; sprite not visually verified
+975,Thrown,source-text detected; sprite not visually verified
+1240,Unibeam,source-text detected; sprite not visually verified
+1250,Unibeam,source-text detected; sprite not visually verified
+1260,Unibeam,source-text detected; sprite not visually verified
+1270,Repulsor Blast,source-text detected; sprite not visually verified
+1280,Repulsor Blast,source-text detected; sprite not visually verified
+1290,Repulsor Blast,source-text detected; sprite not visually verified
+1330,Flight,source-text detected; sprite not visually verified
+1331,Flight Cancel,source-text detected; sprite not visually verified
+1332,Flight End,source-text detected; sprite not visually verified
+1333,Flight after S Jump,source-text detected; sprite not visually verified
+1334,Super Jump Up,source-text detected; sprite not visually verified
+1335,Flight,source-text detected; sprite not visually verified
+1340,Air Dash Forward,source-text detected; sprite not visually verified
+1341,Air Dash Forward Up,source-text detected; sprite not visually verified
+1342,Air Dash Up,source-text detected; sprite not visually verified
+1343,Air Dash Forward Down,source-text detected; sprite not visually verified
+1344,Air Dash Down,source-text detected; sprite not visually verified
+1345,Air Dash Back,source-text detected; sprite not visually verified
+1346,Air Dash Back Up,source-text detected; sprite not visually verified
+1347,Air Dash Back Down,source-text detected; sprite not visually verified
+1400,Warp Top Left,source-text detected; sprite not visually verified
+1405,Warp Top Middle,source-text detected; sprite not visually verified
+1410,Warp Top Right,source-text detected; sprite not visually verified
+1415,Warp Bottom Left,source-text detected; sprite not visually verified
+1420,Warp Bottom Middle,source-text detected; sprite not visually verified
+1425,Warp Bottom Right,source-text detected; sprite not visually verified
+1450,Plasma Beam,source-text detected; sprite not visually verified
+1460,Plasma Beam Diag Up,source-text detected; sprite not visually verified
+1470,Plasma Beam Diag Down,source-text detected; sprite not visually verified
+1480,Molecular Shield,source-text detected; sprite not visually verified
+1481,Molecular Shield,source-text detected; sprite not visually verified
+1490,Molecular Shield,source-text detected; sprite not visually verified
+1500,Molecular Shield,source-text detected; sprite not visually verified
+1510,Photon Shot,source-text detected; sprite not visually verified
+1511,Photon Shot,source-text detected; sprite not visually verified
+3000,Electric Cage,source-text detected; sprite not visually verified
+3001,Electric Cage,source-text detected; sprite not visually verified
+3019,Electric Cage End,source-text detected; sprite not visually verified
+3040,Sphere Flame,source-text detected; sprite not visually verified
+3041,Sphere Flame,source-text detected; sprite not visually verified
+3049,Sphere Flame End,source-text detected; sprite not visually verified
+3080,Photon Array,source-text detected; sprite not visually verified
+3081,Photon Array,source-text detected; sprite not visually verified
+3089,Photon Array End,source-text detected; sprite not visually verified
+3090,Photon Array Air,source-text detected; sprite not visually verified
+3091,Photon Array,source-text detected; sprite not visually verified
+3099,Photon Array Air End,source-text detected; sprite not visually verified
+3120,Molecular Shield,source-text detected; sprite not visually verified
+3121,Molecular Shield,source-text detected; sprite not visually verified
+33110,Hyper Spark Helper,source-text detected; sprite not visually verified
+33117,Hyper Portrait Helper,source-text detected; sprite not visually verified
+33120,Hyper Bg,source-text detected; sprite not visually verified
+33121,Hyper KO Bg,source-text detected; sprite not visually verified
+5300,dizzy,source-text detected; sprite not visually verified
+5301,Short Circuit Dizzyness,source-text detected; sprite not visually verified
+5999,,source-text detected; sprite not visually verified
+6000,Stand Spark Helper,source-text detected; sprite not visually verified
+6182,intro 2 Helper,source-text detected; sprite not visually verified
+6183,intro 2 Helper,source-text detected; sprite not visually verified
+6185,Win 5 helper,source-text detected; sprite not visually verified
+6186,Win 5 helper,source-text detected; sprite not visually verified
+6191,Dust Helper,source-text detected; sprite not visually verified
+6192,Shuttle Helper,source-text detected; sprite not visually verified
+6199,Cloak,source-text detected; sprite not visually verified
+6620,Air Strong Punch Helper,source-text detected; sprite not visually verified
+6629,Beam End,source-text detected; sprite not visually verified
+6810,Throw Helper,source-text detected; sprite not visually verified
+6930,Air Throw Helper,source-text detected; sprite not visually verified
+7003,Cloak,source-text detected; sprite not visually verified
+7005,Dash Forward Booster Helper,source-text detected; sprite not visually verified
+7006,Dash Back Booster Helper,source-text detected; sprite not visually verified
+7070,Explodsion A,source-text detected; sprite not visually verified
+7106,Dust Trail,source-text detected; sprite not visually verified
+7321,HITA_UP (initial going up),source-text detected; sprite not visually verified
+7510,Guard Shield,source-text detected; sprite not visually verified
+7555,"General Explode Helper, No Loop",source-text detected; sprite not visually verified
+7600,,source-text detected; sprite not visually verified
+7601,Dramatic K.O. Effects,source-text detected; sprite not visually verified
+7610,Guard Push (stand),source-text detected; sprite not visually verified
+7611,Guard Push (Helper),source-text detected; sprite not visually verified
+7615,Guard Push (Crouching),source-text detected; sprite not visually verified
+7620,Guard Push (Air),source-text detected; sprite not visually verified
+7621,Guard Push (Air - Falling),source-text detected; sprite not visually verified
+7622,Guard Push (Air Helper),source-text detected; sprite not visually verified
+7710,Super Jump Start,source-text detected; sprite not visually verified
+7711,Super Jump Up,source-text detected; sprite not visually verified
+7720,AI Super Jump Start,source-text detected; sprite not visually verified
+7721,Super Jump Up,source-text detected; sprite not visually verified
+7722,Jump Land,source-text detected; sprite not visually verified
+7730,Triangle Jump,source-text detected; sprite not visually verified
+7731,Triangle Jump End,source-text detected; sprite not visually verified
+7740,Flying to End of Screen,source-text detected; sprite not visually verified
+7741,Hit Wall or Stop Moving,source-text detected; sprite not visually verified
+7750,Wall Hit Helper,source-text detected; sprite not visually verified
+7755,Ground Hit Helper,source-text detected; sprite not visually verified
+7760,Ko Sound Helper,source-text detected; sprite not visually verified
+7777,res,source-text detected; sprite not visually verified
+7800,Roll Recovery Forward,source-text detected; sprite not visually verified
+7801,Roll Recovery Backward,source-text detected; sprite not visually verified
+7802,Roll Recovery End,source-text detected; sprite not visually verified
+7805,Remove Helper,source-text detected; sprite not visually verified
+7827,Stand by,source-text detected; sprite not visually verified
+7970,Special reversal,source-text detected; sprite not visually verified
+7972,Special reversal punch,source-text detected; sprite not visually verified
+7973,,source-text detected; sprite not visually verified
+8016,Down Kick,source-text detected; sprite not visually verified
+8017,Down Kick Medium,source-text detected; sprite not visually verified
+8018,Down Kick Hard,source-text detected; sprite not visually verified
+8600,Super Armor,source-text detected; sprite not visually verified
+8601,Super Armor End,source-text detected; sprite not visually verified
+9020,(a custom gethit state),source-text detected; sprite not visually verified
+9030,(a custom gethit state),source-text detected; sprite not visually verified
+9027,(a custom gethit state),source-text detected; sprite not visually verified
+9028,(a custom gethit state),source-text detected; sprite not visually verified
+10000,Arm For Stand State,source-text detected; sprite not visually verified
+10001,Arm Detached,source-text detected; sprite not visually verified
+10002,Arm Detached Land,source-text detected; sprite not visually verified
+21240,Unibeam Helper,source-text detected; sprite not visually verified
+21241,Unibeam Startup Helper,source-text detected; sprite not visually verified
+21249,UniBeam End,source-text detected; sprite not visually verified
+21250,Unibeam Helper,source-text detected; sprite not visually verified
+21260,Unibeam Helper,source-text detected; sprite not visually verified
+21270,Repulsor Beam Helper,source-text detected; sprite not visually verified
+21271,Repulsor Beam Helper,source-text detected; sprite not visually verified
+21272,Repulsor Beam Helper,source-text detected; sprite not visually verified
+21273,Repulsor Beam Helper,source-text detected; sprite not visually verified
+21280,Repulsor Beam Helper,source-text detected; sprite not visually verified
+21281,Repulsor Beam Helper,source-text detected; sprite not visually verified
+21282,Repulsor Beam Helper,source-text detected; sprite not visually verified
+21283,Repulsor Beam Helper,source-text detected; sprite not visually verified
+21290,Repulsor Beam Helper,source-text detected; sprite not visually verified
+21291,Repulsor Beam Helper,source-text detected; sprite not visually verified
+21292,Repulsor Beam Helper,source-text detected; sprite not visually verified
+21293,Repulsor Beam Helper,source-text detected; sprite not visually verified
+21400,Warp Top Left Helper,source-text detected; sprite not visually verified
+21405,Warp Top Middle Helper,source-text detected; sprite not visually verified
+21410,Warp Top Right Helper,source-text detected; sprite not visually verified
+21415,Warp Bottom Left Helper,source-text detected; sprite not visually verified
+21420,Warp Bottom Middle Helper,source-text detected; sprite not visually verified
+21425,Warp Bottom Right Helper,source-text detected; sprite not visually verified
+21450,Plasma Beam Helper,source-text detected; sprite not visually verified
+21459,Plasma Beam End,source-text detected; sprite not visually verified
+21460,Plasma Beam Helper,source-text detected; sprite not visually verified
+21470,Plasma Beam Helper,source-text detected; sprite not visually verified
+21480,Molecular Shield Helper,source-text detected; sprite not visually verified
+21481,Molecular Shield Helper,source-text detected; sprite not visually verified
+21482,Molecular Shield Helper,source-text detected; sprite not visually verified
+21489,Molecular Shield End,source-text detected; sprite not visually verified
+23000,Electric Cage Helper,source-text detected; sprite not visually verified
+23001,Electric Cage Helper,source-text detected; sprite not visually verified
+23005,Electric Cage Helper,source-text detected; sprite not visually verified
+23009,Electric Cage End,source-text detected; sprite not visually verified
+23040,Electric Cage Helper,source-text detected; sprite not visually verified
+23120,Molecular Shield Helper,source-text detected; sprite not visually verified
+23125,Bomb Explod Helper on Ground,source-text detected; sprite not visually verified
+28103,Blood Spit,source-text detected; sprite not visually verified
+28104,Blood Spit,source-text detected; sprite not visually verified
+28108,Blood Spit,source-text detected; sprite not visually verified
+28109,Blood Spit,source-text detected; sprite not visually verified

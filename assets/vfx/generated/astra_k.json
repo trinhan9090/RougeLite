@@ -9,6 +9,9 @@
     "color": "#91e8ef",
     "style": "shield",
     "geometry": "runtime snapshot",
-    "prototype": true
+    "prototype": true,
+    "renderer": "pixel_v3",
+    "revision": "astra-pixel-v3",
+    "art_status": "OWNER_REVIEW_PENDING"
   }
 }

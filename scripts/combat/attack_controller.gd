@@ -36,6 +36,11 @@ func step(delta: float, candidates: Array[Actor], combat: CombatService) -> bool
 	context.runtime = runtime
 	if not executor.execute(combat, owner, target, rank, context):
 		return false
+	if owner is PlayerActor:
+		var origin: Vector2 = combat.cast_origin(owner)
+		var direction: Vector2 = owner.global_position.direction_to(target.global_position)
+		if executor.strategy == "projectile": direction = origin.direction_to(TargetingService.intercept_point(origin,target,rank.projectile_speed))
+		(owner as PlayerActor).record_attack_direction(direction)
 	cooldown_left = maxf(1.0 / 6.0, rank.cooldown / (owner.stats.attack_speed_multiplier * owner.factor(&"attack_speed")))
 	if owner.native_pulse_scale > 0:
 		combat.queue_burst(owner, target.global_position, context, &"basic_pulse", rank.damage * owner.native_pulse_scale, owner.native_pulse_radius,0,rank.damage_type)

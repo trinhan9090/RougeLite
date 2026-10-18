@@ -1,0 +1,8 @@
+{
+  "art_approval": "PENDING",
+  "capture_fps": 30,
+  "fixture": "real executors, forced unlocks and invulnerability; separate normal_play video preserves normal progression",
+  "frames": 1200,
+  "nodes": 170,
+  "renderer": "NVIDIA GeForce RTX 3050 Laptop GPU"
+}

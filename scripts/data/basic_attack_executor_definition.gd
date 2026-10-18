@@ -23,8 +23,9 @@ func execute(combat: CombatService, source: Actor, target: Actor, rank: SkillRan
 			intent.runtime = context.runtime
 			intent.rank = rank
 			intent.context = context
-			intent.aim_point = TargetingService.intercept_point(source.global_position, target, rank.projectile_speed)
-			intent.direction = source.global_position.direction_to(intent.aim_point)
+			var origin: Vector2 = combat.cast_origin(source)
+			intent.aim_point = TargetingService.intercept_point(origin, target, rank.projectile_speed)
+			intent.direction = origin.direction_to(intent.aim_point)
 			var executor := EffectExecutorDefinition.new()
 			executor.executor_id = &"executor.projectile"
 			return combat.execute_effect(executor, intent)

@@ -21,8 +21,8 @@ func run_tests() -> void:
 				actor.sprite_visual.play_action(StringName(clip))
 				check(actor.sprite_visual.animation == StringName(clip+"_"+pair[1]),hero+" directional clip "+clip)
 				var texture: Texture2D = actor.visual_frames.get_frame_texture(actor.sprite_visual.animation,0)
-				check(texture is not AtlasTexture and texture.get_width()==128, "separate PNG prevents atlas bleeding")
-		check(actor.sprite_visual.has_node("WeaponPivot/Weapon"),"separate weapon layer")
+				check(texture is not AtlasTexture and texture.get_width()==(96 if actor.visual_frames.get_meta("pixel_v3",false) else 128), "separate PNG prevents atlas bleeding")
+		check(actor.sprite_visual.has_node("WeaponPivot/Weapon") or actor.visual_frames.get_meta("pixel_v3",false),"separate weapon node or frame-composited editable weapon layer")
 		check((actor.get_node("CollisionShape2D").shape as CircleShape2D).radius==14,"collider preserved")
 		actor.sprite_visual.play_action(&"run")
 		paused = true

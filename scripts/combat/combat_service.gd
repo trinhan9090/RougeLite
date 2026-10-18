@@ -1,6 +1,7 @@
 class_name CombatService
 extends Node2D
 signal visual_event(event: Dictionary)
+signal projectile_fired(source: Actor, skill_id: StringName)
 ## Per-run service, no autoload state. Basic projectiles snapshot rank at spawn.
 
 var rng: RandomNumberGenerator
@@ -55,6 +56,16 @@ func modifier(context: CombatContext, operation: StringName, auxiliary: bool = f
 func simulation_active() -> bool:
 	return is_inside_tree() and not get_tree().paused
 
+func cast_origin(source: Actor) -> Vector2:
+	var origin: Vector2 = source.global_position + source.cast_origin_offset
+	if source.cast_origin_offset == Vector2.ZERO: return origin
+	var query := PhysicsRayQueryParameters2D.create(source.global_position,origin,4)
+	query.hit_from_inside = true
+	var collision: Dictionary = get_world_2d().direct_space_state.intersect_ray(query)
+	if not collision.is_empty():
+		return collision.position + (source.global_position-origin).normalized()
+	return origin
+
 func next_context(source: Actor, skill_id: StringName) -> CombatContext:
 	_cast_sequence += 1
 	var context := CombatContext.new()
@@ -71,7 +82,8 @@ func spawn_projectile(source: Actor, target: Actor, rank: SkillRankDefinition, c
 	var projectile := CombatProjectile.new()
 	projectile.configure(self, source, target, rank, context)
 	add_child(projectile)
-	projectile.global_position = source.global_position
+	projectile.global_position = cast_origin(source)
+	projectile_fired.emit(source,context.source_skill_id)
 	return true
 
 func hit(source: Actor, target: Actor, rank: SkillRankDefinition, parent_context: CombatContext, projectile_id: int = 0, status: StatusEffectDefinition = null) -> DamageResult:
@@ -98,14 +110,42 @@ func hit(source: Actor, target: Actor, rank: SkillRankDefinition, parent_context
 	packet.status = behavior.status if behavior != null and behavior.status != null else status
 	var result: DamageResult = resolver.resolve(packet, source, target, rng)
 	if result.accepted:
-		visual_event.emit({"kind":"impact","skill":context.source_skill_id,"position":target.global_position,"radius":14})
+		if target.team!=1 and result.mitigated_damage>0:
+			visual_event.emit({"kind":"damage_number","position":target.hit_position(),"height":90 if target.is_boss else 48,"amount":result.mitigated_damage,"critical":result.critical,"follow":weakref(target)})
+		visual_event.emit({"kind":"impact","skill":context.source_skill_id,"position":target.hit_position(),"radius":14})
+		if packet.status != null and target.statuses.movement_factor()==0:
+			visual_event.emit({"kind":"status","skill":context.source_skill_id,"position":target.global_position,"radius":21,
+				"duration":packet.status.duration,"follow":weakref(target),"target_id":target.actor_id})
 		if result.shield_damage > 0:
-			visual_event.emit({"kind":"shield","skill":context.source_skill_id,"position":target.global_position,"radius":24})
+			var guard_skill:StringName=context.source_skill_id
+			if _shields.has(target.actor_id):guard_skill=(_shields[target.actor_id] as CombatContext).source_skill_id
+			visual_event.emit({"kind":"guard_hit","skill":guard_skill,"position":target.global_position,"follow":weakref(target),"radius":18,"duration":.14})
 		queue_hit_procs(source, target, context, result)
 		queue_reflect(source, target, context, result)
 		rank_effects.hit_resolved(source,target,rank,context,result)
 		rank_effects.blocked(source,target,context,result)
 	return result
+
+func beam_receivers(source: Actor, origin: Vector2, direction: Vector2, length: float, radius: float) -> Array[Actor]:
+	var box := RectangleShape2D.new()
+	box.size=Vector2(maxf(.01,length),maxf(.01,radius*2))
+	var query := PhysicsShapeQueryParameters2D.new()
+	query.shape=box
+	query.transform=Transform2D(direction.angle(),origin+direction*length*.5)
+	query.collision_mask=2|16 if source.team==1 else 1|8
+	query.collide_with_areas=true
+	var intersected: Dictionary[int,bool]={}
+	for result: Dictionary in get_world_2d().direct_space_state.intersect_shape(query,512):
+		var receiver: Object=result.collider
+		var actor: Actor=receiver.actor if receiver is ActorHurtbox else receiver as Actor
+		if actor!=null and (receiver is ActorHurtbox or not is_instance_valid(actor.hurtbox)):intersected[actor.actor_id]=true
+	var targets: Array[Actor]=[]
+	for target in actors():
+		if target.team==source.team:continue
+		var offset: Vector2=target.hit_position()-origin
+		var inside: bool=intersected.has(target.actor_id) if is_instance_valid(target.hurtbox) else (offset.dot(direction)>=0 and offset.dot(direction)<=length and absf(offset.cross(direction))<=radius)
+		if inside and unobstructed(origin,target.hit_position()) and unobstructed(origin,target.global_position):targets.append(target)
+	return targets
 
 func execute_effect(executor: EffectExecutorDefinition, intent: CastIntent) -> bool:
 	var source: Actor = intent.source()
@@ -125,18 +165,15 @@ func execute_effect(executor: EffectExecutorDefinition, intent: CastIntent) -> b
 		effect.executor = executor
 		add_child(effect)
 	elif executor.kind == "beam":
+		var origin: Vector2 = cast_origin(source)
 		var flash := CombatFlash.new()
 		flash.line_end = intent.direction * intent.rank.range_px
 		flash.radius = modified_radius(intent)
 		add_child(flash)
-		flash.global_position = source.global_position
+		flash.global_position = origin
 		var ids: Dictionary[int, bool] = {}
-		for target in actors():
-			if target.team == source.team: continue
-			var offset: Vector2 = target.global_position - source.global_position
-			var projection: float = offset.dot(intent.direction)
-			if projection >= 0 and projection <= intent.rank.range_px and absf(offset.cross(intent.direction)) <= modified_radius(intent) and unobstructed(source.global_position, target.global_position):
-				deliver(intent, target, executor.status, ids)
+		for target in beam_receivers(source,origin,intent.direction,intent.rank.range_px,modified_radius(intent)):
+			deliver(intent, target, executor.status, ids)
 	elif executor.kind == "status":
 		var target: Actor = intent.target()
 		if target == null or not target.health.is_alive(): return false
@@ -146,9 +183,18 @@ func execute_effect(executor: EffectExecutorDefinition, intent: CastIntent) -> b
 	else: return false
 	rank_effects.cast_started(intent,executor.kind)
 	if executor.kind in ["shield","buff","beam"]:
-		visual_event.emit({"kind":executor.kind,"skill":intent.context.source_skill_id,"position":source.global_position,
+		var presentation: Dictionary = {"kind":executor.kind,"skill":intent.context.source_skill_id,"position":source.global_position,
 			"radius":modified_radius(intent) if executor.kind == "beam" else 28.0,
-			"duration":.35,"line_end":intent.direction*intent.rank.range_px if executor.kind == "beam" else Vector2.ZERO})
+			"duration":.35,"line_end":intent.direction*intent.rank.range_px if executor.kind == "beam" else Vector2.ZERO}
+		if executor.kind == "beam": presentation["position"] = cast_origin(source)
+		if executor.kind == "buff":
+			presentation["buff_id"]=intent.context.source_skill_id
+			presentation["follow"]=weakref(source)
+			presentation["duration"]=intent.rank.duration
+		if executor.kind == "shield":
+			presentation["shield_instance"] = source.health.shields.back()
+			presentation["follow"] = weakref(source)
+		visual_event.emit(presentation)
 	if intent.rank.behavior != null:
 		var behavior: SkillBehaviorDefinition = intent.rank.behavior
 		if behavior.repeat_scale > 0 and not intent.context.is_secondary:
@@ -166,6 +212,7 @@ func execute_effect(executor: EffectExecutorDefinition, intent: CastIntent) -> b
 		if behavior.burn_duration > 0:
 			var burn := intent.rank.duplicate(true) as SkillRankDefinition
 			burn.damage = behavior.burn_damage
+			burn.radius_px=modified_radius(intent)
 			burn.behavior = null
 			for tick in range(1,roundi(behavior.burn_duration / .5) + 1):
 				var copy := CastIntent.new()
@@ -173,8 +220,12 @@ func execute_effect(executor: EffectExecutorDefinition, intent: CastIntent) -> b
 				copy.context = intent.context.child(&"line_burn")
 				copy.rank = burn
 				copy.direction = intent.direction
-				copy.aim_point = source.global_position
+				copy.aim_point = cast_origin(source)
 				if copy.context != null: schedule(tick * .5,func() -> void: beam_tick(copy))
+	queue_echo(executor,intent,func(copy: CastIntent) -> void: execute_effect(executor,copy))
+	return true
+
+func queue_echo(executor: EffectExecutorDefinition,intent: CastIntent,replay: Callable) -> void:
 	var echo_damage: float = modifier(intent.context, &"echo")
 	if echo_damage > 0 and not intent.context.is_echo and intent.context.allows(&"echo") and executor.supported_capabilities().has(&"repeat_cast"):
 		var child: CombatContext = intent.context.child(&"echo", true)
@@ -188,8 +239,7 @@ func execute_effect(executor: EffectExecutorDefinition, intent: CastIntent) -> b
 			echo.context = child
 			echo.aim_point = intent.aim_point
 			echo.direction = intent.direction
-			schedule(0.6, func() -> void: execute_effect(executor, echo))
-	return true
+			schedule(0.6, func() -> void: replay.call(echo))
 
 func spawn_pattern(executor: EffectExecutorDefinition, intent: CastIntent) -> bool:
 	# Canonical order: base lanes -> Multishot -> Split -> damage -> pierce -> steering.
@@ -228,7 +278,8 @@ func emit_projectile(intent: CastIntent, direction: Vector2, scale: float, statu
 	rank.pierce_count += int(modifier(intent.context, &"pierce"))
 	projectile.configure_direction(self, intent.source(), intent.target(), rank, intent.context, direction, modifier(intent.context, &"homing") + executor_steering(intent), status)
 	add_child(projectile)
-	projectile.global_position = intent.source().global_position
+	projectile.global_position = cast_origin(intent.source())
+	projectile_fired.emit(intent.source(),intent.context.source_skill_id)
 	return true
 
 func scale_rank_damage(rank: SkillRankDefinition, scale: float) -> void:
@@ -281,10 +332,9 @@ func queue_burst(source: Actor, center: Vector2, parent: CombatContext, operatio
 func beam_tick(intent: CastIntent) -> void:
 	var source: Actor = intent.source()
 	if not is_instance_valid(source) or not source.health.is_alive(): return
+	visual_event.emit({"kind":"burn_line","skill":intent.context.source_skill_id,"position":intent.aim_point,"line_end":intent.direction*intent.rank.range_px,"radius":intent.rank.radius_px,"duration":.5})
 	var ids: Dictionary[int,bool] = {}
-	for target in actors():
-		var offset: Vector2 = target.global_position - intent.aim_point
-		if target.team != source.team and offset.dot(intent.direction) >= 0 and offset.dot(intent.direction) <= intent.rank.range_px and absf(offset.cross(intent.direction)) <= intent.rank.radius_px: deliver(intent,target,null,ids)
+	for target in beam_receivers(source,intent.aim_point,intent.direction,intent.rank.range_px,intent.rank.radius_px):deliver(intent,target,null,ids)
 
 func queue_hit_procs(source: Actor, target: Actor, context: CombatContext, result: DamageResult) -> void:
 	# Policy gates are data-driven. Allowed secondary effects still spend shared budgets.

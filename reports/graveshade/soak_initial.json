@@ -1,0 +1,32 @@
+{
+  "cpu": "AMD Ryzen 5 6600H with Radeon Graphics",
+  "failures": 1,
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "max_audio_voices": 12,
+  "max_mines": 6,
+  "max_nodes": 864,
+  "memory_static": 59434965,
+  "mobs": 60,
+  "phases": [
+    {
+      "median_ms": 16.567,
+      "mobs": 30,
+      "p95_ms": 56.299,
+      "p99_ms": 122.555,
+      "samples": 9417
+    },
+    {
+      "median_ms": 16.741,
+      "mobs": 60,
+      "p95_ms": 100.692,
+      "p99_ms": 188.492,
+      "samples": 5003
+    }
+  ],
+  "qa_only": "Detached spawn cap120, immortal player and enemies, forced4second skills; real AI/navigation/projectiles/damage/render/audio. NormalPLAY cap110 unchanged.",
+  "real_gameplay_events": 50999,
+  "renderer": "Windows",
+  "required_seconds": 600.0,
+  "safe_spawns": true,
+  "wall_seconds": 336.614
+}

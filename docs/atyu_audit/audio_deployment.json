@@ -1,0 +1,758 @@
+{
+  "baseline": "060b7d3",
+  "backup": "D:\\SelfProject\\RougeLite\\.local-data\\atyu_audio_20261017_101243",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "8ac259021f4321ac933c7bbecc0a8cba815ed0f1d3a59c4a97b2992b976164a0"
+    },
+    {
+      "path": "ASSET_LICENSES.md",
+      "sha256": "e34e62aba84e213ad3f6cc132ab88eefa72139ef146aca90a8ba72603ad19934"
+    },
+    {
+      "path": "assets/private_atyu/audio/0_2.wav",
+      "sha256": "78b030c149b30e0322b16b3e64828806ccc446457adc1e08518dbec1906e4e87"
+    },
+    {
+      "path": "assets/private_atyu/audio/0_4.wav",
+      "sha256": "78b030c149b30e0322b16b3e64828806ccc446457adc1e08518dbec1906e4e87"
+    },
+    {
+      "path": "assets/private_atyu/audio/1_23.wav",
+      "sha256": "bd0445260a8f5127098c989305345526fc9a041040e7797b0308d6fb20c43bc7"
+    },
+    {
+      "path": "assets/private_atyu/audio/500_11.wav",
+      "sha256": "86d84baa370f7b40b69d2d3e0f5b2bfee277ad2b9d9072d2916c61b850f1306e"
+    },
+    {
+      "path": "assets/private_atyu/audio/500_12.wav",
+      "sha256": "d56a899b1a583fcef82be99ca7a6ded28a736f4f070a1cba7f742945a3983612"
+    },
+    {
+      "path": "assets/private_atyu/audio/500_13.wav",
+      "sha256": "c826740ffe720332d15904d2cd72d0b12f4d57637b7439f4854fe66978455208"
+    },
+    {
+      "path": "assets/private_atyu/audio/500_16.wav",
+      "sha256": "a926c9cd8e41843c003f35c67934e606322a8295b515df1e0c8adabc333c00b3"
+    },
+    {
+      "path": "assets/private_atyu/audio/5_21.wav",
+      "sha256": "41e66eaf99c3a5af4f1a15da4564d41738fd6157e603efbcd7c081820c7509e3"
+    },
+    {
+      "path": "assets/private_atyu/audio/5_35.wav",
+      "sha256": "66146b998a5d0b44803da21345eebdcf8ba74667d44e2da0fc79f6ae4e8baf2c"
+    },
+    {
+      "path": "assets/private_atyu/audio/5_36.wav",
+      "sha256": "b0753eebd60c52cb382636a1b3c44dd5b8d71d421e15b32a150543ba941b4564"
+    },
+    {
+      "path": "assets/private_atyu/audio/5_38.wav",
+      "sha256": "ead9421a218b44355d43b356025991da2e36aa80f46b4a2911c5de0f0ac3f911"
+    },
+    {
+      "path": "assets/private_atyu/audio/cues.json",
+      "sha256": "ad0f402bf655509972c3f4dd09affcaa7335c16af39777760654b7afb824712a"
+    },
+    {
+      "path": "assets/private_atyu/frames.tres",
+      "sha256": "eb16d3aa5b555e383ad4b4fbe51970cccf64ab83d84439f84867fa62987c9674"
+    },
+    {
+      "path": "docs/04_TASKS.md",
+      "sha256": "13a7caa7b9daf02e15c27c4ebd154113feb9d3ac4f407a18b03ecf1fe62a6610"
+    },
+    {
+      "path": "docs/05_DECISIONS.md",
+      "sha256": "0ba67b8338855dd72260ee35274cd493bf0009cfcbe213d468ce8ff0aee29750"
+    },
+    {
+      "path": "docs/ATYU_AUDIO.md",
+      "sha256": "cdbcf797f2c0687a8cc6a84b46795a3ff88014e2d6fe3a3ade53dd3935edf30f"
+    },
+    {
+      "path": "docs/WORK_LOG.md",
+      "sha256": "511f8fbcbf150a87c62a1b42579bbf4be0c157ed7a777f67b451e3493ac2301b"
+    },
+    {
+      "path": "docs/adr/ADR-2026-009-atyu-action-audio.md",
+      "sha256": "08df36a1ec9cb0f90a562e41f6bfdb85d784b138b9bec9e694d7eb1a1116939e"
+    },
+    {
+      "path": "docs/atyu_audit/audio_auto_fixture_failure.log",
+      "sha256": "6b93a91f114328e2c15d6d9fc7a9571213eb721280c7ab4110af3e64dbd4ea0b"
+    },
+    {
+      "path": "docs/atyu_audit/audio_auto_wall_timer_failure.log",
+      "sha256": "9ad007509b11bb99591d197fbc980e1b1ddecd7e006226d1abdf8a36819566b5"
+    },
+    {
+      "path": "docs/atyu_audit/audio_focused.log",
+      "sha256": "8299efb0876009f89769880b4499c71e5e260759451a0e883b7a01ea398337cb"
+    },
+    {
+      "path": "docs/atyu_audit/audio_focused_final.log",
+      "sha256": "1526d6e1d7f82079cc15b3f369a9b69c334733ef5ff58d24a35befda05e5fa7a"
+    },
+    {
+      "path": "docs/atyu_audit/audio_focused_negative_fixture_failure.log",
+      "sha256": "c37251899c476de5d953ea2afd416fa6db99e3022f681d253dc9f2f7f62d4b7f"
+    },
+    {
+      "path": "docs/atyu_audit/audio_gui.log",
+      "sha256": "b805b6f8cd18c1148a883382c616faff5292115526c851845fa5b89dc9d984b7"
+    },
+    {
+      "path": "docs/atyu_audit/audio_import.log",
+      "sha256": "3afb736632c2ecfa42042f3bc54359cffded4fbe9e4e9c3a3dfd7b8a49214155"
+    },
+    {
+      "path": "docs/atyu_audit/audio_import_final.log",
+      "sha256": "b6b71e3726ca1b00a57f05ffe7f75399400cf49805036df19fe5ca15d8f0b5db"
+    },
+    {
+      "path": "docs/atyu_audit/audio_inventory.json",
+      "sha256": "ae7b32cc0bb25c68b06594a4938fa10a0906fc82612a1d90ff872c5c87990c94"
+    },
+    {
+      "path": "docs/atyu_audit/audio_live_atyu_regression.log",
+      "sha256": "e153342fb6771b4fb38061c528f603108b3c6f474ff3ffaae30f18402f5deaee"
+    },
+    {
+      "path": "docs/atyu_audit/audio_live_gui_auto_wall_timer_failure.log",
+      "sha256": "1c571afa695471f8b8483866f9b2262b7bb9ae66a158c83d710b1c31051273cc"
+    },
+    {
+      "path": "docs/atyu_audit/audio_live_gui_final.log",
+      "sha256": "5b4d275db0c48beda72232bb81ee0f6231e137f721d3d7123a1a453e93a89408"
+    },
+    {
+      "path": "docs/atyu_audit/audio_live_gui_import_failure.log",
+      "sha256": "960addf56e6eb0c0b71f34ede92a48ae9c2dbfba78051b03b433a5587ab9bacf"
+    },
+    {
+      "path": "docs/atyu_audit/audio_live_headless_final.log",
+      "sha256": "1526d6e1d7f82079cc15b3f369a9b69c334733ef5ff58d24a35befda05e5fa7a"
+    },
+    {
+      "path": "docs/atyu_audit/audio_live_import.log",
+      "sha256": "6c377714e3470e456fa3c105bba3411ac5b830eb0bae738f9e6d6bae3920a1a2"
+    },
+    {
+      "path": "docs/atyu_audit/audio_live_import_complete.log",
+      "sha256": "3afb736632c2ecfa42042f3bc54359cffded4fbe9e4e9c3a3dfd7b8a49214155"
+    },
+    {
+      "path": "docs/atyu_audit/audio_python.log",
+      "sha256": "2a003d9a6bb50e65f691b05107a9f05c6de843bdf553402337627a00f914ed0f"
+    },
+    {
+      "path": "docs/atyu_audit/audio_regression.log",
+      "sha256": "aa001fbdba84534a5bf1b97383a4996760e766dc25b3efcb27f70f4d1b6d72c3"
+    },
+    {
+      "path": "docs/atyu_audit/audio_results.json",
+      "sha256": "929b77a0c6a061af6fbd75b20bc442820e0d19433bbe3ed6078793bbd7d1e446"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/.gdignore",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_1.wav",
+      "sha256": "78b030c149b30e0322b16b3e64828806ccc446457adc1e08518dbec1906e4e87"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_10.wav",
+      "sha256": "2073eb681f93e3a7b9d660487dffd599df0aa03df6b7148f62311ecdfbcd8090"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_11.wav",
+      "sha256": "430e585af002f840ae88d34aac2b27f0f5965fef69d9a619f1d3122135062fc3"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_17.wav",
+      "sha256": "d1bf6644f576cb2bd5c78cc7a1273b40b28eb7789b05cea8a0bdd4c48d86be10"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_2.wav",
+      "sha256": "78b030c149b30e0322b16b3e64828806ccc446457adc1e08518dbec1906e4e87"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_22.wav",
+      "sha256": "b00385e5c76763d7282ac045d3faa926b673fff4ca138dafd1c895d4eab0e5a2"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_23.wav",
+      "sha256": "088f049b992a77f4c62210a74083abd0bc45b0f1decc00b91c0d49c92648f1c4"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_26.wav",
+      "sha256": "aff8fb4e0208eca92dddea2c804d87bd4645b198337fd97b50f620b5cda09ee1"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_27.wav",
+      "sha256": "bd1b8ae63ee69e065b8eb9fd2ae762e6fabe9764efba96b21ce4a48bb739b1d1"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_3.wav",
+      "sha256": "78b030c149b30e0322b16b3e64828806ccc446457adc1e08518dbec1906e4e87"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_30.wav",
+      "sha256": "63857983e9ff1e0b4ce9ebb5104f8edd79f8e57f0aed8a2a4f1ba6918169854e"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_31.wav",
+      "sha256": "df6b10e99b4e12a586c20a914564f0f15dd9022a15c86e855542fc6826bc5803"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_32.wav",
+      "sha256": "9a468fcfc3793133e6ad58f5162465ea8295ae83bf02df5919076537395f3893"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_33.wav",
+      "sha256": "d2da7eb7d313cce7382114b7952673783cde3b71513dcc5ca52ed85c7b413f1e"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_34.wav",
+      "sha256": "b98f17d953ea8e26335bcced63d53ff6f20075f79f1d7be1ef728ee6c6902c02"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_35.wav",
+      "sha256": "e2939b72b28279b42f0dc0afbf43bd9bc021eda2fb2f4d2280635341547b4e0a"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_36.wav",
+      "sha256": "1802eaa75326cc8d1ef89a2f83e61cc4b24aeee066468cb784cec5bfd38655ca"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_37.wav",
+      "sha256": "960bcdd1ad70533b43a45f5b5c8af4bb58e1093e05338896b124408fec8f8cfb"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_38.wav",
+      "sha256": "757948603b4db51586a7b572df966d40c4aec62da7269c59df55bdb49e776b38"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_39.wav",
+      "sha256": "b06855528380c3af91ab411ee0410532b57b196eb96d5d2cf2c812afe7876363"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_4.wav",
+      "sha256": "78b030c149b30e0322b16b3e64828806ccc446457adc1e08518dbec1906e4e87"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_40.wav",
+      "sha256": "a8c93cdc0c2554b64226888be54aa66b45154de2662799189e82f3873b8d37f8"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_41.wav",
+      "sha256": "7dba96d9645555cd6ad92e237a6c31b9872386c6a854b063838c1b7580a5823c"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_42.wav",
+      "sha256": "4f5b94ead04e0f941ac68a449f0bb8cf5db3d86e0b185f7a29ded2d2abc0b43d"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_43.wav",
+      "sha256": "a36354c563be95fe93f25a65148566624b9c7c36c0a399bce24fda3d3a6e2471"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_44.wav",
+      "sha256": "54faeacd4d199902420d318c38c1585021b1eddca40d7409e1fddb01535edd3f"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_45.wav",
+      "sha256": "429b9c57e02a4b02e4dc2ef4350ae1ddd6dcce0f6aadf6f0b5d1edb95f3fc9b5"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_46.wav",
+      "sha256": "087cbc65f3c39ed89252f24aa823baa76ba43f22c6d0f20b949f349d51f42186"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_47.wav",
+      "sha256": "951955f2cba7410a7703abdad0d74988cc61d788e5d800fa0d4d0eb0d51426d7"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_5.wav",
+      "sha256": "78b030c149b30e0322b16b3e64828806ccc446457adc1e08518dbec1906e4e87"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_50.wav",
+      "sha256": "6ea9935a9efb6778d64e0c6aafb8cc5eb29737ddb54867cc45301fc5f5425c02"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_51.wav",
+      "sha256": "27519d9f419ff72d8bd2ca537bd206a85802ad9abd8fe6c4b29db9c3be261bc8"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_52.wav",
+      "sha256": "17097953e2c576b8545154c68b24676c5a4cc966cae7427b3949f79c2d5e729e"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_53.wav",
+      "sha256": "56421c453db75574412d21680a7ec2b05b20b21e8fee6416c535786a1e44f5a5"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_6.wav",
+      "sha256": "78b030c149b30e0322b16b3e64828806ccc446457adc1e08518dbec1906e4e87"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_7.wav",
+      "sha256": "4f54dd5932721a2cd10a1185c7e53233a70687db57b7740ff6157c50e5e12787"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_8.wav",
+      "sha256": "d3c28559c08f93996c6538dc2ea4c1b5020cf834c54c441ed426c0dcfa72bced"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/0_9.wav",
+      "sha256": "6866b028ae2e83c6494c2f371c915d7528c3ad9f0ad713ff1e22e9df47f731c1"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/11_0.wav",
+      "sha256": "43ea922cd29f3e9c333b095740bddd4f8745dc777f0845383322cb4dfdbcd877"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_1.wav",
+      "sha256": "c51a46b3da302daf86e3e27f607ee48d570cd7d70b0689b9645ff911d760ac0b"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_10.wav",
+      "sha256": "32eb05ed225958563fd4bc17022999462860da84771be6e534cb810d624bf368"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_11.wav",
+      "sha256": "b84150b89cc636846b4b6bf4dd3f8623e4f41a093fb75be64514eb6c0a1f07a8"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_12.wav",
+      "sha256": "e1267ea076ead97649ffdd075734130632b4d66381295f3b8f21ab5715931554"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_13.wav",
+      "sha256": "9d23581416330abeef2b8655da048691e70ef6f22a765b5f0354ca0c9e0fcf3d"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_14.wav",
+      "sha256": "5cd1c4772112dae4fcdebf7ad8eee5a3f978c13019f47ee628892fe080cbab78"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_15.wav",
+      "sha256": "7620732195acd8b3a906b12b8345e81ffe138e75be8a110a0fdf015f5e653b6b"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_16.wav",
+      "sha256": "9a3e62d83555580e6d0f72146c450d2b7227380a61081f27640d70b2841c7d18"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_17.wav",
+      "sha256": "7bb2e5a7f42237adbcd5c9e52565421377962c8843fed16e75122d729bdc0709"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_18.wav",
+      "sha256": "48138d8f06b1f7befe9bf919d276505ffe410665baa27a995ccdf8294908fe7c"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_19.wav",
+      "sha256": "22e33df17efee23656cc3a7449488890417acc56b79e921f3f7fac8389f571fd"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_2.wav",
+      "sha256": "63bbffbf4749909de2fae20986f1f91d679bda1afee4a35df6babd20f63d90a6"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_20.wav",
+      "sha256": "1eb5c283441d3274ebd6ed48996d67485df3fc9cccdd621b237d82159395305e"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_21.wav",
+      "sha256": "74b9e7f514cb537977b3e50b4e0df61d825a6de62cd110f8e544e89ee784ed48"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_22.wav",
+      "sha256": "f0a77f9b6733a84475c9be014bbb32567098fd67317d17b3b55647bf42f5e5dc"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_23.wav",
+      "sha256": "bd0445260a8f5127098c989305345526fc9a041040e7797b0308d6fb20c43bc7"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_24.wav",
+      "sha256": "f6eb3e909d240daeabc823795393598f1258b4ada06b5e62c4cbb400af731495"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_25.wav",
+      "sha256": "2fe0782a799ed9b3291cf6706c47f0be6478bb2cc608fc381f3bfa6507f8dce9"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_26.wav",
+      "sha256": "5614eba3e0d64a6a64a8cee4686579ca8651e7b350613e7114422ac19cdb1012"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_27.wav",
+      "sha256": "a134ce123e6cb3d5b1bb99f90665803cc743d89c00490dfab405c3612e254879"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_28.wav",
+      "sha256": "8bee5f04bd1c2cd9bd8c6683bf5961933decdfe58571ae103ab05e7343a447c0"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_29.wav",
+      "sha256": "483b91947845fabc6456f5d2923678a9796af470e7a8fc34df2366e9f4750952"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_3.wav",
+      "sha256": "7e690c2720be05566534cd68047d562d060bc10e1d1621218e269f4fac529809"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_4.wav",
+      "sha256": "b482c375c6db6cb65ae810dba1e246e4c5883e0f58f836904c497f5e93ab767a"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_5.wav",
+      "sha256": "e7aa80b52f89d179f0c3cbbf029f3d17729001c43462c1ebb6c9f15370571478"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_6.wav",
+      "sha256": "18cca6e5095fb6b75fe329fe7437d578596f66a22f023b189ba0997a7a701aa8"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_7.wav",
+      "sha256": "8006d6a165d05975cbaf5584b8d645725616b4b1449b8f334b006e6547de123b"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_8.wav",
+      "sha256": "819c841e7bcfbd0423cc445849cc1f240983ba622581a233c693c1f875848cfa"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/1_9.wav",
+      "sha256": "e4a77461a4905e46dad7d99ad430e5e236fba0cfd492bf7998d19d9151198dfe"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/20_1.wav",
+      "sha256": "e152ba7580128e02eff19860651b721b27fc3445baa40dcaed50242470086214"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/2_1.wav",
+      "sha256": "b5644452bb83540e7683f476fbe5a4cd2734012c9054a6a0fffc9d0f0fdbba0a"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/2_2.wav",
+      "sha256": "39d4d37e2848c3b61131b89e09067e123d5850ea19b64e5aa64374179951a788"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/2_3.wav",
+      "sha256": "a332f02760747a14f6d817c17c3dcc928f650050fe0cfc09ff0d2f121faeb99a"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/2_4.wav",
+      "sha256": "3fa7efb87b8e43c607b6302cfb7ac5c9f2fb1dee60a33624ede39c8627226c0b"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/3_1.wav",
+      "sha256": "8af8732943da1044965d22cd8b0e52c65a2699b2c0b00a0f1877273619e31be9"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/3_2.wav",
+      "sha256": "1f5f343c9ad4530e849edccef8040209e34a0448e311f64c52faa9e357704e44"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/40_1.wav",
+      "sha256": "9e0db487e83a4b1cdc48794f1ed88bd445d1bd8e703e45b98eb6b9a66470e13c"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/40_2.wav",
+      "sha256": "62fbc07893a69ad45fe2186f93cfa907a055a0c7e79237e4c9e31f5c6467ac0a"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/4_1.wav",
+      "sha256": "ffe785973229bfeb4ed43b3c8932c56b34ae7fcb7953769ac53d139f84180ccd"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5000_1.wav",
+      "sha256": "96968018b7a9cf62608c1bbbabc6a29213feb38d655ecabd63f69ddfaea02aff"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5000_2.wav",
+      "sha256": "3e131b663278af37ded0210332bd2e8d98a96fb59732f0f0c6aaa67b8dfb3811"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5000_3.wav",
+      "sha256": "2153c879a54718db9db18032e600b5bf88f70334d8d9d54f62d053996ede3d73"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5000_9.wav",
+      "sha256": "aff8fb4e0208eca92dddea2c804d87bd4645b198337fd97b50f620b5cda09ee1"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_1.wav",
+      "sha256": "bf5c24026bc5f0d11e463dcdbe1548b7b499faadaa824ed2e8efa6ea09d59414"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_10.wav",
+      "sha256": "ead9ce9eb13ff3f0c1c7aa75a7c9b7287a0c3ad9c6bdc5fd06b4c195d8e1b2df"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_10_duplicate_112.wav",
+      "sha256": "ead9ce9eb13ff3f0c1c7aa75a7c9b7287a0c3ad9c6bdc5fd06b4c195d8e1b2df"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_11.wav",
+      "sha256": "86d84baa370f7b40b69d2d3e0f5b2bfee277ad2b9d9072d2916c61b850f1306e"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_12.wav",
+      "sha256": "d56a899b1a583fcef82be99ca7a6ded28a736f4f070a1cba7f742945a3983612"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_13.wav",
+      "sha256": "c826740ffe720332d15904d2cd72d0b12f4d57637b7439f4854fe66978455208"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_14.wav",
+      "sha256": "947015fe27e64a7d23a6046a900cba5da231e9b8cc77d01d8b28450344dbf8f3"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_15.wav",
+      "sha256": "93d6bedf01787d1de907a30f15cccee9d2ec89794cbf2a42d385e5c31c202a3d"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_16.wav",
+      "sha256": "a926c9cd8e41843c003f35c67934e606322a8295b515df1e0c8adabc333c00b3"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_17.wav",
+      "sha256": "0e6a7749ad7ec43be0365204e26e4b98b23132a1aa5377c174c8b53b7d3c3bf5"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_19.wav",
+      "sha256": "831f66d81950fa15ed7bbc0db0c8908bed1eb6bc39480c75baabf9cc4484917f"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_2.wav",
+      "sha256": "38f706dd96b54f36e608eeb98edff889974ac6ddb6336882afe34d7da52eb61d"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_20.wav",
+      "sha256": "7273301164b5ae6eb04abe878636cd5cda711b3bcba1b20593e1c6f9f6cf3b18"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_21.wav",
+      "sha256": "e3f8aee2d136454454b7f8a79cd6bbee0d7af301f7bf69985cffc5106aeee87e"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_22.wav",
+      "sha256": "baf19a238cfc3f90253433b06871dcc6a26a1fcd5b6ff0e46949754afde7ee7b"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_23.wav",
+      "sha256": "f2180882724b811afe8ea116c1b3dbe0a2cf400a271fa203ca3211b5a2aba383"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_3.wav",
+      "sha256": "6d134d5e6d4f4cd37695d06ffa38030ccaa36f8c1e7e7dd39aacf3bb3fba5d29"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_4.wav",
+      "sha256": "7d884d970995b8f2670d456fb5f5de72c9d2cf6d87128db04f515ea00834aee3"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/500_5.wav",
+      "sha256": "8a4d18e6a3783028003a46f4948d2ce1e94383399d4c2d87102550c9992a85bc"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/52_1.wav",
+      "sha256": "8bfce2a1fb58042b0433965ab345b94fc2f09179504cb5cedfedf990967fcc37"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_1.wav",
+      "sha256": "93ea13a7824d2b9d1bad9580766436774826960738eae01b313d459b15bb21d6"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_10.wav",
+      "sha256": "f2fd8e407e7e2a03f1783e910398ac359bada80ecdf5280b026c0b63e2df3e5c"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_11.wav",
+      "sha256": "692a5bb93ac7dcfdc85bba2774b18cc56e24f11517e4e8520b761436a24b9db2"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_12.wav",
+      "sha256": "f8db2385f1c06d774c67b21b40e9438435c597da1006f8a9ab1554f4f027390e"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_13.wav",
+      "sha256": "daa5384d61f284e32d67c7ccb9daa4b996829653961064167633b9d19be2704d"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_14.wav",
+      "sha256": "0640ceebaa44d1fabf0c99ae950209f2d775d9e3ac2dcc6a93ea9158538461d1"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_16.wav",
+      "sha256": "49e1b4a6f2bb1a57db7cd1ba7905d8d9ae5a0ed1b70b4575d26f14a300bfad90"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_2.wav",
+      "sha256": "6b6e05a2498f0bc37faaeca6f4657c4a983e3e07cd6c55ed55cda578d44b61b6"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_20.wav",
+      "sha256": "446cb72d99cd6dab5cecc1ed8b895475adb0ea7f70edb13a090aa3a4e86b0374"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_21.wav",
+      "sha256": "41e66eaf99c3a5af4f1a15da4564d41738fd6157e603efbcd7c081820c7509e3"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_26.wav",
+      "sha256": "8db20d2184d4514937aae5f5462f65492c0945dfe487db577eab96b66ab5496f"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_27.wav",
+      "sha256": "3f2cafcce42ba58aeae505ca292d35c91e0a474e82708dd5b75310b6d9a8cf47"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_3.wav",
+      "sha256": "e9a3644c04d7a724b57e579765dee467bc9028ad95d55a37a778f481800894c0"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_34.wav",
+      "sha256": "bdafd651a16861f7b72fd5140bea2383274df6758b644e5062479f5d9de3d401"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_35.wav",
+      "sha256": "66146b998a5d0b44803da21345eebdcf8ba74667d44e2da0fc79f6ae4e8baf2c"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_36.wav",
+      "sha256": "b0753eebd60c52cb382636a1b3c44dd5b8d71d421e15b32a150543ba941b4564"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_37.wav",
+      "sha256": "eab9cde8cdf0ac51edd7ba03399db639cf5a5cf2f42294b862bd1f6ef2a4bd48"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_38.wav",
+      "sha256": "ead9421a218b44355d43b356025991da2e36aa80f46b4a2911c5de0f0ac3f911"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_39.wav",
+      "sha256": "b2b8681ed1e1bea8017dfe001f67e0666dbfbbb598b82ef412ba2f1d49621e9f"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_4.wav",
+      "sha256": "72662ed99a4ffd4e837cb8f2f5181315b63e8814cf76306943197f639123b1b2"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_40.wav",
+      "sha256": "49e1b4a6f2bb1a57db7cd1ba7905d8d9ae5a0ed1b70b4575d26f14a300bfad90"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_5.wav",
+      "sha256": "3791395211b68c00431bb20d6d4753e097fcd92f5fe8cfec3fd8220c8cbfbfbb"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_6.wav",
+      "sha256": "b488a0cce38fe42c7a3a290958d6b689dbda3efb4a32bc184b19157087ab533e"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_7.wav",
+      "sha256": "9967a5a132910ade2241fb24658cc5ed9e21281d81f893cea2bda39e4e2e4361"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_8.wav",
+      "sha256": "8051eb5bc14304ccef73e21c8adca7d368f444a08ea474cfd9873215fa0a63f2"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/5_9.wav",
+      "sha256": "2552a9b670e61e20282c89d86957db065e82f3dacd9afe9c44f86f674c8b8084"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/60_1.wav",
+      "sha256": "2f7800141b633b0af38e15422cc46a3974d8bbb889d703658f4947d893758107"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/900_1.wav",
+      "sha256": "11ea81f7cb2c558c621bedb4e7024aa3852aeb908f9e5e1a33ba40006e2a6a0e"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/900_2.wav",
+      "sha256": "35f56b9f033a71bc3c6dd918ab82c7c1d72cded8492f4290d97f2ce7fda29d4a"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/900_3.wav",
+      "sha256": "40f0a8c1e759b9200dc237ed00c0b4a5fc3f2ae889ee94a42ad773b6251c0a17"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/950_1.wav",
+      "sha256": "308d5496e960446e6a648e1d054a3a10bc46bcb353d4bbd88dac872ef28bfe73"
+    },
+    {
+      "path": "experiments/mugen_atyu/audio/950_2.wav",
+      "sha256": "cef8b44deefaf955cd97c0cb0d34c2c858c99cc2bd0c547791b0b8fcd5951e1f"
+    },
+    {
+      "path": "export_presets.cfg",
+      "sha256": "65773b1f67c94b2b77147c9303bf2e76fc7af655fd800a32c1238eb4aff29ef0"
+    },
+    {
+      "path": "scripts/actors/player_actor.gd",
+      "sha256": "c0a4f96965e072a91750b3c4d9aaad6b0d53a257f05934dcd85ec62a15d818cf"
+    },
+    {
+      "path": "scripts/combat/source_move_runtime.gd",
+      "sha256": "fc4d60541367352526bb9a1c67d730bcbec7a8cad7b6004f81b4cae788577210"
+    },
+    {
+      "path": "scripts/core/combat_run_root.gd",
+      "sha256": "445083f249f2237fe7011ccc91127c3e17c5b5103172a7560a7248084a059497"
+    },
+    {
+      "path": "scripts/ui/action_audio.gd",
+      "sha256": "42dad56851d0f8ffe21f23597942d7ddcef584529b6cc65561ce405167594a03"
+    },
+    {
+      "path": "scripts/ui/action_audio.gd.uid",
+      "sha256": "ee09f23f8a3a8bd4cec2e34d2be69c20e6b26319237c7ed4ae99f630b9d0b88e"
+    },
+    {
+      "path": "scripts/ui/actor_sprite.gd",
+      "sha256": "a3dd27967a8195fcfe1223d7fd27c73b124448a75936ff6d186a511a96d4dd18"
+    },
+    {
+      "path": "tests/integration/test_atyu_audio.gd",
+      "sha256": "1e60254399dc500980ce499053158909353177a1cbd5d8ba2bfa233a696fa4fd"
+    },
+    {
+      "path": "tests/integration/test_atyu_audio.gd.uid",
+      "sha256": "7a5f6cb55d15f16e2ff5c0049ee47d4323c033d639cc2f83a06dc5d1316d225e"
+    },
+    {
+      "path": "tests/run_all.gd",
+      "sha256": "c51ecefffe3bee3e6bfda98a25de97c82256bd44ca6a0ee3b740f1f87930c40d"
+    },
+    {
+      "path": "tools/deploy_atyu_audio.py",
+      "sha256": "1177552c6a06dd8cf9e3975eb3730dbca3321569d6fd52406d9233058be70f11"
+    },
+    {
+      "path": "tools/mugen_import/build_audio.py",
+      "sha256": "face4341ed17c2eca6e790b47bb58cf9aecadf2350c2f1256e068724d8e4761a"
+    },
+    {
+      "path": "tools/mugen_import/build_playable.py",
+      "sha256": "ce228c0ddde60e6bdd111780c2ea33c0c7a54ef2a97d3e1705b8abef3719415e"
+    },
+    {
+      "path": "tools/mugen_import/test_audio.py",
+      "sha256": "547ae07664ee5df18ec76ec6ca0593b67849d22d9dc76c1ef374aed0d8ed83bc"
+    }
+  ]
+}

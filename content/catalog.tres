@@ -27,6 +27,12 @@
 [ext_resource type="Script" path="res://scripts/data/actor_stat_definition.gd" id="24_tegip"]
 [ext_resource type="Script" path="res://scripts/data/boss_definition.gd" id="25_fm3wg"]
 
+[ext_resource type="Resource" path="res://content/characters/atyu_loadout.tres" id="atyu"]
+
+[ext_resource type="Resource" path="res://content/characters/viridian_loadout.tres" id="viridian"]
+
+[ext_resource type="Resource" path="res://content/characters/graveshade_loadout.tres" id="graveshade"]
+
 [sub_resource type="Resource" id="Resource_vxusx"]
 script = ExtResource("19_hn5n0")
 auxiliary_values = Array[float]([0.4, 0.5, 0.5, 0.65, 0.65])
@@ -314,5 +320,5 @@ display_name = "Ember Sentinel"
 [resource]
 script = ExtResource("1")
 content_version = "endless-demo-v1"
-definitions = Array[ExtResource("2")]([ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14"), ExtResource("15"), ExtResource("16"), ExtResource("17"), ExtResource("18"), SubResource("Resource_0bx0u"), SubResource("Resource_hn5n0"), SubResource("Resource_ihkt6"), SubResource("Resource_1igeu"), SubResource("Resource_4ngj7"), SubResource("Resource_vq5hg"), SubResource("Resource_tegip"), SubResource("Resource_fm3wg"), SubResource("Resource_1q02i"), SubResource("Resource_ubmj3"), SubResource("Resource_rep2c"), SubResource("Resource_j2f3t"), SubResource("Resource_lmid7"), SubResource("Resource_pagr3"), SubResource("Resource_8hid0"), SubResource("Resource_3v71e")])
+definitions = Array[ExtResource("2")]([ExtResource("graveshade"), ExtResource("viridian"), ExtResource("atyu"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14"), ExtResource("15"), ExtResource("16"), ExtResource("17"), ExtResource("18"), SubResource("Resource_0bx0u"), SubResource("Resource_hn5n0"), SubResource("Resource_ihkt6"), SubResource("Resource_1igeu"), SubResource("Resource_4ngj7"), SubResource("Resource_vq5hg"), SubResource("Resource_tegip"), SubResource("Resource_fm3wg"), SubResource("Resource_1q02i"), SubResource("Resource_ubmj3"), SubResource("Resource_rep2c"), SubResource("Resource_j2f3t"), SubResource("Resource_lmid7"), SubResource("Resource_pagr3"), SubResource("Resource_8hid0"), SubResource("Resource_3v71e")])
 

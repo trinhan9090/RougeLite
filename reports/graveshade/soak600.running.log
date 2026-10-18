@@ -1,0 +1,8 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+COMBAT_RUN_STARTED loadout=loadout.graveshade seed=20261015
+SOAK_PHASE mobs=30 seconds=0.0
+SOAK_PHASE mobs=60 seconds=200.009
+SOAK_PHASE mobs=120 seconds=400.106
+RESULT graveshade_soak: seconds=600.012 failures=0

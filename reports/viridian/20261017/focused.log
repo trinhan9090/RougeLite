@@ -1,0 +1,58 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS all content validates with fifth hero
+PASS Viridian Mage stats data
+PASS original nine-state four-direction fallback
+PASS unlock thresholds3/6/9/11
+PASS Manual never auto-casts
+PASS J accepts current last-attack direction ignoring cursor
+PASS J telegraph before hit
+PASS J multi-target48 damage once each
+PASS J normal cooldown enforced
+PASS J rank3 boss bonus and rank4 two plasma ticks
+PASS rank definition unchanged
+PASS K .24s pulse15 and real normal root
+PASS K one initial hit and finite root
+PASS K boss uses authoritative .15s stagger
+PASS boss CC cap preserved
+PASS K rank4 initial15 plus exit45 exactly once
+PASS L grants55 shield instantly
+PASS orb contact hit once within .7 ICD
+PASS L refresh replaces shield/orbits without stacking
+PASS rank1 two actual orbitals
+PASS shield and orbs expire7s
+PASS L rank4 four orbs shield80
+PASS ultimate channel halves movement
+PASS cannot overlap active channels
+PASS I .65s windup
+PASS five rays respect two hits per target
+PASS channel cleanup restores movement
+PASS Split binds real basic projectile
+PASS Split rejected for active1
+PASS Split rejected for active2
+PASS Split rejected for active3
+PASS Split rejected for active4
+PASS Echo compatible J
+PASS J shared Echo once without echo-of-echo
+PASS Echo compatible K
+PASS K shared Echo pulse bounded
+PASS guarded orbit/channel Echo fails closed
+PASS J width expand compatible
+PASS expanded beam query agrees with width
+PASS Auto K accepts cluster placement
+PASS Auto chooses dense cluster rather than nearest isolated target
+PASS stun interrupts channel and cleans movement state
+COMBAT_RUN_STARTED loadout=loadout.viridian seed=20261015
+TRAINING_READY hero=loadout.viridian rank=1
+PASS actual run binds mapped VFX and positional audio
+PASS basic guaranteed original non-voice shot
+PASS basic impact guaranteed non-voice
+PASS shared projectile displays actual source sprite
+PASS actual J mapped source beam
+PASS actual K mapped source cage
+PASS two real moving source orbital sprites
+PASS five mapped ultimate rays
+COMBAT_RUN_STARTED loadout=loadout.viridian seed=20261015
+TRAINING_READY hero=loadout.viridian rank=1
+PASS reset clears new temporary effects
+RESULT viridian: checks=51 failures=0

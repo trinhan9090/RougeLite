@@ -1,0 +1,106 @@
+{
+  "basic": [
+    {
+      "path": "res://assets/private_graveshade/audio/0_16.wav",
+      "delay": 0,
+      "db": -26,
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.snd",
+      "snd_group": 0,
+      "snd_index": 16,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ],
+  "round": [
+    {
+      "path": "res://assets/private_graveshade/audio/0_31.wav",
+      "delay": 0,
+      "db": -26,
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.snd",
+      "snd_group": 0,
+      "snd_index": 31,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ],
+  "throw": [
+    {
+      "path": "res://assets/private_graveshade/audio/0_24.wav",
+      "delay": 0,
+      "db": -26,
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.snd",
+      "snd_group": 0,
+      "snd_index": 24,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ],
+  "mine_arm": [
+    {
+      "path": "res://assets/private_graveshade/audio/0_24.wav",
+      "delay": 0,
+      "db": -26,
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.snd",
+      "snd_group": 0,
+      "snd_index": 24,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ],
+  "explosion": [
+    {
+      "path": "res://assets/private_graveshade/audio/0_25.wav",
+      "delay": 0,
+      "db": -26,
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.snd",
+      "snd_group": 0,
+      "snd_index": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ],
+  "rocket_launch": [
+    {
+      "path": "res://assets/private_graveshade/audio/0_38.wav",
+      "delay": 0,
+      "db": -26,
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.snd",
+      "snd_group": 0,
+      "snd_index": 38,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ],
+  "impact": [
+    {
+      "path": "res://assets/private_graveshade/audio/0_15.wav",
+      "delay": 0,
+      "db": -26,
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.snd",
+      "snd_group": 0,
+      "snd_index": 15,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ],
+  "impact:skill.graveshade.basic": [
+    {
+      "path": "res://assets/private_graveshade/audio/0_15.wav",
+      "delay": 0,
+      "db": -26,
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.snd",
+      "snd_group": 0,
+      "snd_index": 15,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ]
+}

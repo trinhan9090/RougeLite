@@ -1,0 +1,1215 @@
+{
+  "runtime_actor": "MUGEN_SOURCE_SIDE_VIEW",
+  "source_tree_sha256": "07c0fb7b748bd180a7488c95e2626d12a1821b3395a9025f93cd934cef34a376",
+  "direction_policy": "Source right-facing mirrored left; vertical movement retains last horizontal facing. Directional names are controller aliases, not distinct north/south artwork.",
+  "scale": 0.43,
+  "anchor": [
+    80,
+    84
+  ],
+  "canvas": [
+    160,
+    112
+  ],
+  "actions": [
+    {
+      "action": "idle",
+      "air_action": 0,
+      "frames": [
+        {
+          "sprite": "0_0",
+          "axis": [
+            70,
+            124
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "afbf9dbc4fd3102b794c9f7d6b09edd79c38cd959c36432a8e3948679a6439e5"
+        },
+        {
+          "sprite": "0_1",
+          "axis": [
+            73,
+            124
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "2442f908eabda89164284ba29cb158fb3d8c25f675af63d11a236669a4108cd7"
+        },
+        {
+          "sprite": "0_2",
+          "axis": [
+            83,
+            125
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "31966bf330d21116432a9eda69db17150e6a8ad6adb6535f6264c535b5925211"
+        },
+        {
+          "sprite": "0_3",
+          "axis": [
+            93,
+            126
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "99875783addc2c5eead87764663b19186f056452fdc1fd0e9a087564dc953b1b"
+        },
+        {
+          "sprite": "0_4",
+          "axis": [
+            92,
+            126
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "a27d337f6d6d6fab1fb430e89deb2aa4d4d2bafc4aaf5288b42f0e31e89839ac"
+        },
+        {
+          "sprite": "0_5",
+          "axis": [
+            77,
+            126
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "d7a569512832d74dcd7b8bf10f231fb0d5fdb65ccef94c3aa2dc4c2dfc18157c"
+        },
+        {
+          "sprite": "0_6",
+          "axis": [
+            73,
+            126
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "b192e58b147901541e5fa8a690eafde81ff48235e27a6f588df174a78c723723"
+        },
+        {
+          "sprite": "0_7",
+          "axis": [
+            70,
+            126
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "b801b516258c5ab5254eb075e3366e26b4346245b2f2d6ec1e4590197e1b928a"
+        },
+        {
+          "sprite": "0_8",
+          "axis": [
+            73,
+            126
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "0667d2264e2b58e9bac45af800cb230cbe12afd4018f5ed85db20fb8ee5946b5"
+        },
+        {
+          "sprite": "0_9",
+          "axis": [
+            83,
+            125
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "1087e6202783ff2cc59502f1ffd819807544f47f8957cdcaeba4bb7420b4f796"
+        },
+        {
+          "sprite": "0_10",
+          "axis": [
+            93,
+            124
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "efe6e66cd46cde0451b895638a1100a7bd27faa63d1429962231d9909ab8b75b"
+        },
+        {
+          "sprite": "0_11",
+          "axis": [
+            92,
+            124
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "dc58240ea4a7d0e78ce809905859d52ba42a9ef17185dc3bf608c8c9dc0f8ea8"
+        },
+        {
+          "sprite": "0_12",
+          "axis": [
+            77,
+            124
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "178ca1ee17aa77086c5269e2474382e6a671e775a5326be8d4f1e8352241a250"
+        },
+        {
+          "sprite": "0_13",
+          "axis": [
+            73,
+            124
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "00523f325590fd24de3d2e90592e2410d09aed6e71b1543983035bc7ab411a21"
+        }
+      ],
+      "relative_ticks_preserved": true,
+      "runtime_duration": 1.8666666666666667,
+      "texture_sha256": "44e5b3519c3c8b0affb35962e8c7c9134a0f832145310e10eb0715f27f4c022b"
+    },
+    {
+      "action": "run",
+      "air_action": 20,
+      "frames": [
+        {
+          "sprite": "20_0",
+          "axis": [
+            95,
+            125
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "0f4f0b5be57b53be6216474f8b092912ac0991770888e4fa963559eaecc4107a"
+        },
+        {
+          "sprite": "20_1",
+          "axis": [
+            92,
+            128
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "746fca3222d9f84069f045c9b1088f21d96b3cc7634e213e9a37e5622a63f4d4"
+        },
+        {
+          "sprite": "20_2",
+          "axis": [
+            90,
+            130
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "e892e56266950a401642b824c9c39d7b7f234a4cab17229fa72621ffc8c7dbf2"
+        },
+        {
+          "sprite": "20_3",
+          "axis": [
+            93,
+            128
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "1cd56e2e6e6921875130d475e8d216b53981bfd421b0562398f650df0968d4e4"
+        },
+        {
+          "sprite": "20_4",
+          "axis": [
+            95,
+            125
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "28c8efc4b93cc8b929e71de1f38b3d6b242012f88698c7385f1ab88a62a525df"
+        },
+        {
+          "sprite": "20_5",
+          "axis": [
+            92,
+            128
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "fb7604586079f0ca09277cc536f4d33d5690d8505d34e572d946237f4f6f5311"
+        },
+        {
+          "sprite": "20_6",
+          "axis": [
+            90,
+            130
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "c0a3c23142bfc067f184f123786173ddeaa6a81a01f8f5cd1d95c4ab320ab62b"
+        },
+        {
+          "sprite": "20_7",
+          "axis": [
+            93,
+            128
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 8,
+          "decoded_sha256": "0f3c91668a9425e938dddd25d4eb590fd248a17d37b1566540d6604f9dbe5db2"
+        }
+      ],
+      "relative_ticks_preserved": true,
+      "runtime_duration": 1.0666666666666667,
+      "texture_sha256": "91e9e05d7610faead1e77b684659f6e4f560484a5bebe57e401aa0a936ffdf3a"
+    },
+    {
+      "action": "basic",
+      "air_action": 1510,
+      "frames": [
+        {
+          "sprite": "1510_0",
+          "axis": [
+            75,
+            125
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "decoded_sha256": "f7cbb7ce207645ee61fd08ddee5fc08b5794b8a0f2a054d83ffc830bfd85ffd2"
+        },
+        {
+          "sprite": "1510_1",
+          "axis": [
+            49,
+            116
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "decoded_sha256": "ceb60cc063d2bdbb46f12669341ee756f0b3b6bd9b250b9b68a55e6fda0c5fb1"
+        },
+        {
+          "sprite": "1510_2",
+          "axis": [
+            49,
+            116
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "decoded_sha256": "ec62f7429ef9828d4943e52701d899485189fc97c2d416b69cc52f522e025164"
+        },
+        {
+          "sprite": "1510_3",
+          "axis": [
+            73,
+            125
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "decoded_sha256": "05d1c76848a6cc02acd0621818eeeb5c59645086b0e9d6a8c40682cefbb83a7b"
+        },
+        {
+          "sprite": "1510_4",
+          "axis": [
+            73,
+            125
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "decoded_sha256": "b545545cb8a9e721d17251f1edc052e6724cc6dbded5f0c77689efe3d85a1862"
+        },
+        {
+          "sprite": "1510_5",
+          "axis": [
+            73,
+            125
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "decoded_sha256": "4dd721bf63777dd5ef795b06fe67b61a50f4ee814831107b9dde57aa77bcbfb9"
+        },
+        {
+          "sprite": "1510_6",
+          "axis": [
+            73,
+            125
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "decoded_sha256": "7a91f4706e31b3afae6781b3753dbb411ba97962692549a07dba790ca545e6e4"
+        },
+        {
+          "sprite": "1510_7",
+          "axis": [
+            60,
+            109
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "0736664578ac340e4445c29fb92b6545be196e369e3d478bf2b43f87d4dd34df"
+        },
+        {
+          "sprite": "1510_8",
+          "axis": [
+            60,
+            110
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "ca46c2827190387afd23b507baf2e905e262806c6006a6769b5a79b402b58328"
+        },
+        {
+          "sprite": "1510_9",
+          "axis": [
+            55,
+            109
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "08768a2018ceb763e281215b93c7d6a8ddd56b653372c5629554cef72fb1470a"
+        },
+        {
+          "sprite": "1510_10",
+          "axis": [
+            55,
+            109
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "70064d8737a29aca700dc10a1f6313f8774f59726b117c706545cbdeaed03c7a"
+        },
+        {
+          "sprite": "1510_11",
+          "axis": [
+            60,
+            109
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "e4950af22aa4e7e3cddb0910a165c6422d125d5a1307a844e86fef7bba2884df"
+        },
+        {
+          "sprite": "1510_12",
+          "axis": [
+            60,
+            108
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "36bc9f6e0878500b8904ad8e81bff312bf27bb13294ff12d0c1e3b6873f3250c"
+        },
+        {
+          "sprite": "1510_13",
+          "axis": [
+            55,
+            109
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "755c42ae0aff5f8dd11234a2ee62a7277990bceadf542ca22ec3529eb1c9ebca"
+        },
+        {
+          "sprite": "1510_14",
+          "axis": [
+            55,
+            109
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "99eae98ae2bfa314a8637906bc2103f5589b63ebd76818cd6cb1810af970947c"
+        },
+        {
+          "sprite": "1510_15",
+          "axis": [
+            60,
+            108
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "a161f3709fb23d34930e49928b01e0825d532ee0f9b90282cec4229c0443f986"
+        },
+        {
+          "sprite": "1510_16",
+          "axis": [
+            60,
+            108
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "852a0ad9d3e294082b008f9e59259a43a16972deb19e68bbd996d32b0d60b642"
+        },
+        {
+          "sprite": "1510_17",
+          "axis": [
+            55,
+            109
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "0ecfad867a3989f89cbc918fc7c1849691f137f27632acce5cb97bdfbd0954bb"
+        },
+        {
+          "sprite": "220_11",
+          "axis": [
+            46,
+            116
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "3b748258b5f1bbb01086dec715c5d4bb66c597e473e5a0f0a3aeb925c7499852"
+        }
+      ],
+      "relative_ticks_preserved": true,
+      "runtime_duration": 0.65,
+      "texture_sha256": "6b59a13dba6403dcd4205b3b7868d7bcd40cc02174c06d45a3bc9f39388d864a"
+    },
+    {
+      "action": "cast_j",
+      "air_action": 1450,
+      "frames": [
+        {
+          "sprite": "1450_0",
+          "axis": [
+            54,
+            116
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 1,
+          "decoded_sha256": "c6ef7ab7c3eaab199d2b238d3fb8df084cda24bf8719ded62f9b5c8f77ec7e50"
+        },
+        {
+          "sprite": "1450_1",
+          "axis": [
+            54,
+            116
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "decoded_sha256": "69f1d69cfa98b949348215441fdc9e955045e1ddb4e28cf5d89f8b74b9fd5465"
+        },
+        {
+          "sprite": "1450_2",
+          "axis": [
+            128,
+            144
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 1,
+          "decoded_sha256": "25edbb0140552f40fcc5ef0ceb07e2d1e8e9fb4afd33cd2b3efd2eea44fc1f3d"
+        },
+        {
+          "sprite": "1450_3",
+          "axis": [
+            144,
+            150
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "decoded_sha256": "244a52c0388857cc199841068dd86a7ffd9552c5f3061b1bc1a0454a1be48959"
+        },
+        {
+          "sprite": "1450_4",
+          "axis": [
+            157,
+            147
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "2d053100976a2b09a6b4c3e9dd85beadeb9f9989852a7d4c261e60d7f0438571"
+        },
+        {
+          "sprite": "1450_5",
+          "axis": [
+            150,
+            146
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "6e926a6b1a907018b635dbd7327489b24ae43ad44828779bf0b84dbdf658ffe0"
+        },
+        {
+          "sprite": "1450_6",
+          "axis": [
+            126,
+            128
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "e9b025fbf41628987e7a44d6b9963570ed370ccf44d73c077bcdde710ea17fd8"
+        },
+        {
+          "sprite": "1450_17",
+          "axis": [
+            150,
+            111
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "99c909f32affc1e9fb4cb58613d7f8d1faec256576ba6922907e6b1d91c8b13c"
+        },
+        {
+          "sprite": "1450_18",
+          "axis": [
+            125,
+            109
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "8dcf068bd2b15d7c0489f9147889fb6922c5f65472fd3037f948350a27ac22a6"
+        },
+        {
+          "sprite": "1450_19",
+          "axis": [
+            149,
+            111
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "99c909f32affc1e9fb4cb58613d7f8d1faec256576ba6922907e6b1d91c8b13c"
+        },
+        {
+          "sprite": "1450_20",
+          "axis": [
+            125,
+            109
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "8dcf068bd2b15d7c0489f9147889fb6922c5f65472fd3037f948350a27ac22a6"
+        },
+        {
+          "sprite": "1450_21",
+          "axis": [
+            149,
+            111
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "decoded_sha256": "99c909f32affc1e9fb4cb58613d7f8d1faec256576ba6922907e6b1d91c8b13c"
+        },
+        {
+          "sprite": "1450_22",
+          "axis": [
+            126,
+            109
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "decoded_sha256": "8dcf068bd2b15d7c0489f9147889fb6922c5f65472fd3037f948350a27ac22a6"
+        },
+        {
+          "sprite": "1450_23",
+          "axis": [
+            150,
+            111
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "decoded_sha256": "99c909f32affc1e9fb4cb58613d7f8d1faec256576ba6922907e6b1d91c8b13c"
+        },
+        {
+          "sprite": "1450_14",
+          "axis": [
+            126,
+            123
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "fd1e20a224b8a6037de65df495826700473578cc6c4515edc31da391a69ba9ea"
+        },
+        {
+          "sprite": "1450_15",
+          "axis": [
+            150,
+            115
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "a1248a115e12fce0aa77245a69a4d24e503c739990a293baf192cae5d988ff45"
+        },
+        {
+          "sprite": "1450_16",
+          "axis": [
+            126,
+            121
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "ad63316e39525c67324f176fafb6690f8662cb5da98c4d8bfdab0392c6293f81"
+        },
+        {
+          "sprite": "10_3",
+          "axis": [
+            73,
+            125
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "aafe96e8be1ba29073a675961d2ccfd2e8526cd092be551ab84987b8e9366ea5"
+        }
+      ],
+      "relative_ticks_preserved": true,
+      "runtime_duration": 0.5,
+      "texture_sha256": "1a88d30f73823f9ad83ae8d7e41cc80b38ff041f113ed3547f98bbae58cc08da"
+    },
+    {
+      "action": "cast_k",
+      "air_action": 3001,
+      "frames": [
+        {
+          "sprite": "3000_2",
+          "axis": [
+            88,
+            110
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 6,
+          "decoded_sha256": "2fe21c98642fadbe78aeb418e669c0c46f8de02712e60888fc2af809b9a503dc"
+        },
+        {
+          "sprite": "3000_3",
+          "axis": [
+            101,
+            112
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "9c8e386827b17b804577d937d6f9cbbe8dd4795d54e666d73fb0098eae7ce25b"
+        },
+        {
+          "sprite": "3000_4",
+          "axis": [
+            99,
+            109
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "decoded_sha256": "47e751adcfe73a0cf252c9ed10f852d2344649cc3134bf44c436e87ef9fa48fa"
+        },
+        {
+          "sprite": "3000_5",
+          "axis": [
+            101,
+            111
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "decoded_sha256": "9ca8dd4d0129c4e787c267c01aeb3e9d63c692e412c3a78e4f368a87e59e5ebb"
+        }
+      ],
+      "relative_ticks_preserved": true,
+      "runtime_duration": 0.4,
+      "texture_sha256": "601ef09b06dee67d5ad7d3ca62ad78e737cc32e8dc194858a365d810324a4f77"
+    },
+    {
+      "action": "cast_l",
+      "air_action": 1480,
+      "frames": [
+        {
+          "sprite": "1480_0",
+          "axis": [
+            73,
+            126
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "decoded_sha256": "5f8e2d50ecd36b8df0f01442969221a23c1f87c996c092954eb614638832e772"
+        },
+        {
+          "sprite": "1480_1",
+          "axis": [
+            77,
+            126
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "decoded_sha256": "52a3c8f8cb6d27a00f7c0714b6875c2b29810ef5aabbd7974a24b506af10432d"
+        },
+        {
+          "sprite": "1480_2",
+          "axis": [
+            92,
+            126
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "8e539112731df11bc2b7bfb6f4ff9c5a06364efae1553e1569b8c7bdc2110013"
+        },
+        {
+          "sprite": "1480_3",
+          "axis": [
+            93,
+            126
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "d9355c36b8f10c69ca596cb44e1ef428c403398a85a445f17c819b22a7657428"
+        },
+        {
+          "sprite": "1480_4",
+          "axis": [
+            83,
+            125
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "5642a2320989abb9ca62b06167821ee1cf91bdb52cbf68b330b5409e53382748"
+        },
+        {
+          "sprite": "1480_5",
+          "axis": [
+            73,
+            124
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "bd4b572408d4f26a535587ab4c7ca11afa859326b161574868a931df8f773028"
+        },
+        {
+          "sprite": "1480_6",
+          "axis": [
+            70,
+            124
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "01dc14b357c843ecb910dc0b72da0af1bea45e6dbfa16621a66fcfcd061aa5d5"
+        },
+        {
+          "sprite": "1480_7",
+          "axis": [
+            75,
+            125
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "f7cbb7ce207645ee61fd08ddee5fc08b5794b8a0f2a054d83ffc830bfd85ffd2"
+        },
+        {
+          "sprite": "1480_8",
+          "axis": [
+            73,
+            125
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "aafe96e8be1ba29073a675961d2ccfd2e8526cd092be551ab84987b8e9366ea5"
+        },
+        {
+          "sprite": "1480_9",
+          "axis": [
+            93,
+            125
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "f81162a2dd35a10de8604bd7909643e266403e630e5204425f69b22f8ddbb2b3"
+        },
+        {
+          "sprite": "1480_10",
+          "axis": [
+            77,
+            125
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "bd345edc0225ac9a8647e2b86f50e9b7f2b8aad910d4617c0236b40b4939a49e"
+        },
+        {
+          "sprite": "1480_11",
+          "axis": [
+            73,
+            125
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "decoded_sha256": "134c659f02795ef187a2303d5f3718d869c95c770c777c6afc92ad4dd5e4be22"
+        }
+      ],
+      "relative_ticks_preserved": true,
+      "runtime_duration": 0.6,
+      "texture_sha256": "bbfc36455f30a565dc94a6967343842c832a584646447f0fff3d259460000ee1"
+    },
+    {
+      "action": "cast_i",
+      "air_action": 3081,
+      "frames": [
+        {
+          "sprite": "1510_8",
+          "axis": [
+            60,
+            110
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 1,
+          "decoded_sha256": "ca46c2827190387afd23b507baf2e905e262806c6006a6769b5a79b402b58328"
+        },
+        {
+          "sprite": "1510_9",
+          "axis": [
+            55,
+            109
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "decoded_sha256": "08768a2018ceb763e281215b93c7d6a8ddd56b653372c5629554cef72fb1470a"
+        },
+        {
+          "sprite": "1510_10",
+          "axis": [
+            55,
+            109
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "decoded_sha256": "70064d8737a29aca700dc10a1f6313f8774f59726b117c706545cbdeaed03c7a"
+        },
+        {
+          "sprite": "1510_11",
+          "axis": [
+            60,
+            109
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "decoded_sha256": "e4950af22aa4e7e3cddb0910a165c6422d125d5a1307a844e86fef7bba2884df"
+        },
+        {
+          "sprite": "1510_12",
+          "axis": [
+            60,
+            108
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "decoded_sha256": "36bc9f6e0878500b8904ad8e81bff312bf27bb13294ff12d0c1e3b6873f3250c"
+        },
+        {
+          "sprite": "1510_13",
+          "axis": [
+            55,
+            109
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "decoded_sha256": "755c42ae0aff5f8dd11234a2ee62a7277990bceadf542ca22ec3529eb1c9ebca"
+        },
+        {
+          "sprite": "1510_14",
+          "axis": [
+            55,
+            109
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 1,
+          "decoded_sha256": "99eae98ae2bfa314a8637906bc2103f5589b63ebd76818cd6cb1810af970947c"
+        },
+        {
+          "sprite": "1510_15",
+          "axis": [
+            60,
+            108
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 1,
+          "decoded_sha256": "a161f3709fb23d34930e49928b01e0825d532ee0f9b90282cec4229c0443f986"
+        }
+      ],
+      "relative_ticks_preserved": true,
+      "runtime_duration": 1.4,
+      "texture_sha256": "da11e4adc59f00c071e0002b4d4b8c5f8bb18c0d878bc6748691699fca0e64f4"
+    },
+    {
+      "action": "hit",
+      "air_action": 5000,
+      "frames": [
+        {
+          "sprite": "5000_0",
+          "axis": [
+            83,
+            124
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 7,
+          "decoded_sha256": "44ddfc8871091cec6a178b96a0dfeae4198cddf53852e08939ca648429844a77"
+        }
+      ],
+      "relative_ticks_preserved": true,
+      "runtime_duration": 0.12,
+      "texture_sha256": "fb9c9bd47f1974c37074fec7fd14e6743c58fbc89fe1ab8b24006b8f34d82989"
+    },
+    {
+      "action": "death",
+      "air_action": 5100,
+      "frames": [
+        {
+          "sprite": "5040_0",
+          "axis": [
+            52,
+            97
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "decoded_sha256": "28ee623e2c04c90afc91f0bea503cd902f2638e0adc65a8b530e1f0bff933cc3"
+        },
+        {
+          "sprite": "5040_1",
+          "axis": [
+            52,
+            53
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "decoded_sha256": "6b5899c6566f053354d504a6ff60f6681d68b43904d6405c7a8f169d61272065"
+        }
+      ],
+      "relative_ticks_preserved": true,
+      "runtime_duration": 0.6,
+      "texture_sha256": "365cf949ad56e8159b7ca89e8dfe15930e1ca8bb44ed78c7fb4cf8c8fa676814"
+    }
+  ]
+}

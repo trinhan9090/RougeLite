@@ -1,0 +1,56 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+PASS fractional scale removes integer black frame
+PASS expand aspect fills irregular window
+PASS fullscreen configured by default
+PASS native render viewport1920x1080
+PASS actual startup fullscreen
+PASS actual native render surface1920x1080 before resize
+RUN_FOUNDATION seed=20261015 content=endless-demo-v1
+BOOT_OK milestone=M5
+PASS native UI covers viewport (1280, 720)
+PASS 20-slot grid visible (1280, 720)
+PASS native UI covers viewport (1918, 1052)
+PASS 20-slot grid visible (1918, 1052)
+PASS native UI covers viewport (1366, 768)
+PASS 20-slot grid visible (1366, 768)
+PASS astra actual basic accepted
+PASS astra records actual basic direction
+PASS astra movement cannot rotate aim
+PASS astra indicator under feet behind art
+PASS astra invalid directions ignored
+PASS astra rejected cast preserves aim
+PASS astra Manual J accepted
+PASS astra projectile pattern matches last attack instead of movement
+PASS astra directed skill maintains Manual direction
+PASS astra Auto hides ground indicator
+PASS vex actual basic accepted
+PASS vex records actual basic direction
+PASS vex movement cannot rotate aim
+PASS vex indicator under feet behind art
+PASS vex invalid directions ignored
+PASS vex rejected cast preserves aim
+PASS vex Manual J accepted
+PASS vex projectile pattern matches last attack instead of movement
+PASS vex directed skill maintains Manual direction
+PASS vex Auto hides ground indicator
+PASS boros actual basic accepted
+PASS boros records actual basic direction
+PASS boros movement cannot rotate aim
+PASS boros indicator under feet behind art
+PASS boros invalid directions ignored
+PASS boros rejected cast preserves aim
+PASS boros Manual J accepted
+PASS boros directed skill maintains Manual direction
+PASS boros Auto hides ground indicator
+PASS atyu actual basic accepted
+PASS atyu records actual basic direction
+PASS atyu movement cannot rotate aim
+PASS atyu indicator under feet behind art
+PASS atyu invalid directions ignored
+PASS atyu rejected cast preserves aim
+PASS atyu Manual J accepted
+PASS atyu directed skill maintains Manual direction
+PASS atyu Auto hides ground indicator
+RESULT fullscreen attack aim: checks=50 failures=0

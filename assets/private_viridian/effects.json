@@ -1,0 +1,300 @@
+{
+  "bolt": [
+    {
+      "path": "res://assets/private_viridian/bolt_0.png",
+      "ticks": 1,
+      "axis": [
+        29,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/bolt_1.png",
+      "ticks": 1,
+      "axis": [
+        29,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/bolt_2.png",
+      "ticks": 1,
+      "axis": [
+        29,
+        0
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/bolt_3.png",
+      "ticks": 1,
+      "axis": [
+        29,
+        -1
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/bolt_4.png",
+      "ticks": 1,
+      "axis": [
+        29,
+        2
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/bolt_5.png",
+      "ticks": 1,
+      "axis": [
+        29,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    }
+  ],
+  "beam": [
+    {
+      "path": "res://assets/private_viridian/beam_0.png",
+      "ticks": 8,
+      "axis": [
+        19,
+        73
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/beam_1.png",
+      "ticks": 2,
+      "axis": [
+        32,
+        39
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/beam_2.png",
+      "ticks": 4,
+      "axis": [
+        34,
+        40
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/beam_3.png",
+      "ticks": 4,
+      "axis": [
+        35,
+        56
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/beam_4.png",
+      "ticks": 4,
+      "axis": [
+        34,
+        38
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/beam_5.png",
+      "ticks": 4,
+      "axis": [
+        31,
+        39
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/beam_6.png",
+      "ticks": 4,
+      "axis": [
+        25,
+        39
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    }
+  ],
+  "prison": [
+    {
+      "path": "res://assets/private_viridian/prison_0.png",
+      "ticks": 2,
+      "axis": [
+        104,
+        89
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/prison_1.png",
+      "ticks": 2,
+      "axis": [
+        90,
+        78
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/prison_2.png",
+      "ticks": 2,
+      "axis": [
+        101,
+        86
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/prison_3.png",
+      "ticks": 2,
+      "axis": [
+        91,
+        75
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    }
+  ],
+  "orb": [
+    {
+      "path": "res://assets/private_viridian/orb_0.png",
+      "ticks": 7,
+      "axis": [
+        18,
+        24
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    }
+  ],
+  "ultimate": [
+    {
+      "path": "res://assets/private_viridian/ultimate_0.png",
+      "ticks": 1,
+      "axis": [
+        29,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/ultimate_1.png",
+      "ticks": 1,
+      "axis": [
+        29,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/ultimate_2.png",
+      "ticks": 1,
+      "axis": [
+        29,
+        0
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/ultimate_3.png",
+      "ticks": 1,
+      "axis": [
+        29,
+        -1
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/ultimate_4.png",
+      "ticks": 1,
+      "axis": [
+        29,
+        2
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "path": "res://assets/private_viridian/ultimate_5.png",
+      "ticks": 1,
+      "axis": [
+        29,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "cpu": "AMD Ryzen 5 6600H with Radeon Graphics",
+  "enemies": 33,
+  "fixture": "real live AI/combat; QA-only invulnerability, high enemy HP and forced cooldowns; no movie writer",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "max_nodes": 381,
+  "max_temporary_vfx": 80,
+  "mean_fps": 145.337746756243,
+  "mean_ms": 6.880525,
+  "median_ms": 6.367,
+  "one_percent_low_fps": 64.8046140885231,
+  "p95_ms": 13.539,
+  "renderer": "gl_compatibility",
+  "samples": 600,
+  "skill_cycles": 12
+}

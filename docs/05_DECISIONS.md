@@ -1,4 +1,5 @@
 # 05 — DECISIONS / ASSUMPTIONS / OPEN QUESTIONS
+2026-10-17 latest user approval: add Atyu as fourth hero, adapt actual supplied MUGEN attacks to existing controls/J/K/L/I, side-facing left/right accepted, varied combo imagery without fighting-game controls. CHARACTER becomes twenty small avatar slots, four available and sixteen question marks; click reveals details then select. See ADR-2026-006. Private local testing scope and unresolved artwork rights retained; no redistribution approval inferred.
 **Decision register and ADR index · v1.0 · 2026-10-15**
 
 ## How to use
@@ -108,3 +109,29 @@ User approval/reference:
 - Windows private packaging uses an exported PCK and exact official portable runtime with extracted license notices. Source rights remain reserved. Web export was attempted but matching templates are absent. Art/tuning/localization/license questions remain in OPEN_QUESTIONS.md.
 
 - 2026-10-16: Explicit user correction supersedes P-012 mouse aim: Manual skills use last nonzero movement/current facing; cursor position ignored for player casts. WASD keeps facing when stopped. Basic nearest-target auto attack remains unchanged. User also requests Vietnamese UI; enabled Vietnamese locale without settings-schema change.
+
+- 2026-10-17: Explicit user correction authorizes caster hand/torso projectile and beam origin, and Astra L nearest eligible enemy in range with maximum-range facing fallback when none exists, in both modes. This supersedes directional-only L placement. Other Manual skills remain facing based. ADR: docs/adr/ADR-2026-004-cast-origin-target-assist.md.
+
+- 2026-10-17: Latest explicit user instruction authorizes torso hurtboxes separate from locomotion and continuing V3-A6 Vex / V3-A7 Boros before Astra visual approval. Faces may remain blank; preserve hats, hair, coats and readable action states. Skill identities/ranks and other locked gameplay remain unchanged. ADR-2026-005. Human visual approval remains pending.
+
+- 2026-10-17: User explicitly selected Boros sword carry "Chúc xuống cạnh hông"; apply to idle/run, preserve distinct combat actions. Latest correction requests Astra/Boros buff/shield center alignment; presentation-only shared body-center metadata, no gameplay changes.
+
+- 2026-10-17: User explicitly requests no further QA screenshot/contact-sheet/video exports; required gameplay sprite/VFX assets remain part of implementation. Complete changes in the current playable project, retain necessary automated verification, and record implementation/tests/known limitations in docs. User performs direct visual play-testing. This overrides prior media-export deliverables for subsequent work. Existing prior evidence is preserved.
+
+- 2026-10-17: User approved the proposed Atyu P1-P2 source decoder and standalone Godot animation browser. This is a private source-inspection experiment, not approval to add Atyu gameplay, replace the three current heroes, alter boss CC, or distribute mod assets. No QA image/video exports; preserve source metadata and label unresolved/duplicate entries.
+
+- 2026-10-17: Latest explicit user instruction supersedes movement-based Manual direction: ground-plane indicator and directional Manual casts use last accepted attack direction, independent of WASD and mouse. Default RIGHT until first attack. Basic remains automatic nearest. Astra L nearest-target assistance retained; empty Manual fallback uses attack direction, Auto fallback movement facing. Fullscreen default and fractional/expand stretch authorized. See ADR-2026-007.
+
+Latest display clarification: actual render viewport1920x1080 and native-scale UI, not640x360 fitted to monitor. Supersedes prior pixel viewport defaults; art textures and combat numbers unchanged.
+
+2026-10-17: User explicitly requests Training with full health, no skill cooldown, stationary immortal boss. Authorizes separate local sandbox with unlocked skills. Normal PLAY/progression unaffected. See ADR-2026-008.
+
+2026-10-17 latest user extension: numeric HP/EXP instead of percent, Space for basic attack, floating damage above hit enemies. Space is additive to existing normal auto basic, uses same nearest valid target and interval. Training basic-auto checkbox supports isolated Space tests. Existing settings v1 accepts optional basic_attack binding; no resource content mutation.
+
+2026-10-17: User explicitly authorizes supplied Atyu SND extraction, CNS mapping, Basic/J/K/L/I AudioStreamPlayer2D integration and animation/VFX synchronization for local testing. Presentation-only addition; missing source sound references are documented with explicit in-package substitutions. No distribution permission inferred. See ATYU_AUDIO.md.
+
+2026-10-17: User explicitly requests removing Atyu voice sounds from all basic attacks, retaining sword sounds. Remove S5,36/S5,35 from basic/combo cue lists only; active skill and impact audio unchanged.
+
+2026-10-17 explicit user correction: Viridian body animation must use actual supplied MVC2_DrDoom-AI(Maro) SFF/AIR, not an original generated fallback. Runtime now uses source side-view body artwork with mirrored left/right; vertical motion retains last horizontal facing. Does not change combat/input contracts. Visual approval pending.
+
+2026-10-17 explicit user approval: add Graveshade Tactical Suppressor as sixthhero ADC using supplied actual Punisher MUGEN source. Preserve all current hero mechanics, shared CombatSystem/UniversalAugment, inputs/AutoManual/progression. Keep20avatarboxes with6available/14unknown. No media exports; user direct playtests. Source numerical rank parameters are DEMO DEFAULT per handoff, not newlyLOCKED. Same-session steering: reduce Doom/Viridian Basic visual bolt and hit flash slightly; damage/hitbox remain unchanged.

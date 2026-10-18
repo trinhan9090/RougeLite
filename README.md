@@ -1,14 +1,20 @@
 # Endless Survival RPG — Windows demo
 
+**Current local PLAY (2026-10-17):** `Launch.cmd` now includes Atyu as a fourth hero, with a20-slot avatar selector (16 unavailable). This private MUGEN-art adaptation is documented in [ATYU_PLAYABLE](docs/ATYU_PLAYABLE.md); artwork redistribution rights remain unverified. Historical packaged ZIPs below retain their original three-hero roster. No new public package is supplied.
+
 Godot4.7.2 / GDScript / Compatibility renderer. Three complete character kits,12 reusable mechanic augments,8 infinite stat cores,three seeded map templates and two boss archetypes with endless scaling.
 
 ## Play
+
+**TRAINING:** choose a hero, then TRAINING on the home menu: full HP, zero active cooldown, stationary immortal boss, hero/rank/reset controls and measured hit damage. See [TRAINING](docs/TRAINING.md). Normal PLAY rules remain unchanged.
+
+Current display/input: native1920x1080 fullscreen, native-scale HUD, ground Manual arrow follows last attack independently of movement. See [UI_AIM03](docs/UI_AIM03.md).
 
 **Packaged:** extract `builds/EndlessSurvival-Windows.zip`, open `windows`, double-click `Play.cmd`. The included runtime needs no Godot installation, PowerShell7 or internet connection.
 
 **From source:** double-click `Launch.cmd` (or `.\Launch.cmd` in Windows PowerShell). Open the editor with `.\Launch.cmd --editor`. A matching engine already exists locally under ignored `tools/godot/`; on a fresh source checkout supply/install Godot4.7.2 as described by `tools/launch.ps1 -GodotPath <executable>`.
 
-Choose Astra/Mage, Vex/ADC or Boros/Brute. WASD moves; the nearest enemy in range is attacked automatically. Auto uses active skills when valid; Manual uses the last movement/facing direction and J/K/L/I (remappable). Skills unlock for free at3/6/9/11, capped at4/4/4/3 ranks. Every level offers one of3 valid upgrades with explicit skill targets and numeric before/after values. Earn one reroll every10 levels, store at most3.
+Choose Astra/Mage, Vex/ADC or Boros/Brute. WASD moves; the nearest enemy in range is attacked automatically. Auto uses active skills when valid; Manual uses the last accepted attack direction and J/K/L/I (remappable). Skills unlock for free at3/6/9/11, capped at4/4/4/3 ranks. Every level offers one of3 valid upgrades with explicit skill targets and numeric before/after values. Earn one reroll every10 levels, store at most3.
 
 Esc pauses. The pause menu switches Auto/Manual, remaps skills and toggles fullscreen/windowed. Bosses arrive at10/20/30/...; dodge orange warnings. Boss EXP is banked until victory. Winning changes map, keeps permanent upgrades/ranks, clears temporary effects, resets cooldowns, heals15% maximum HP and gives2s immunity. Death ends the run; Retry preserves settings and resets run progress.
 
@@ -49,3 +55,6 @@ Boros now uses the supplied directional greatsword prototype sprites. All three 
 
 
 Boros frame cleanup: imported visuals now use derived strips under assets/sprites/characters/boros/cleaned, removing disconnected adjacent-pose fragments baked into original cells. Source PNGs are preserved. Rebuild with Python3/Pillow: tools/clean_boros_sprites.py, then Godot editor import followed by --script res://tools/import_boros_sprites.gd. Run the authoring regression with Python tests/unit/test_sprite_cleanup.py. Gameplay launch has no Python dependency.
+## Astra VFX02 — current play build (2026-10-17)
+
+Astra Basic/J/K/L/I now use the celestial VFX renderer in normal PLAY and CHARACTER → Art Preview. Run `Launch.cmd`, choose Astra and PLAY. Normal unlocks remain J3/K6/L9/I11; Art Preview lets you inspect all five actual skills immediately. The existing character/map art and other characters' VFX remain in place. Evidence is in `reports/astra_vfx02`; graphics quality awaits owner play-test approval. The updated Windows package is `builds/EndlessSurvival-Windows.zip` / `builds/windows/Play.cmd`.

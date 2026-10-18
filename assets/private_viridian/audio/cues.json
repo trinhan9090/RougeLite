@@ -1,0 +1,79 @@
+{
+  "basic": [
+    {
+      "path": "res://assets/viridian/audio/emerald_shot.wav",
+      "delay": 0,
+      "db": -17
+    }
+  ],
+  "cast_j": [
+    {
+      "path": "res://assets/private_viridian/audio/810_0.wav",
+      "delay": 0,
+      "db": -20
+    }
+  ],
+  "cast_k": [
+    {
+      "path": "res://assets/private_viridian/audio/1_1.wav",
+      "delay": 0,
+      "db": -22
+    }
+  ],
+  "cast_l": [
+    {
+      "path": "res://assets/private_viridian/audio/1480_1.wav",
+      "delay": 0,
+      "db": -22
+    }
+  ],
+  "cast_i": [
+    {
+      "path": "res://assets/private_viridian/audio/1510_1.wav",
+      "delay": 0,
+      "db": -23
+    }
+  ],
+  "beam": [
+    {
+      "path": "res://assets/private_viridian/audio/810_0.wav",
+      "delay": 0,
+      "db": -20
+    }
+  ],
+  "prison": [
+    {
+      "path": "res://assets/private_viridian/audio/1_1.wav",
+      "delay": 0,
+      "db": -22
+    }
+  ],
+  "orbit": [
+    {
+      "path": "res://assets/private_viridian/audio/1480_1.wav",
+      "delay": 0,
+      "db": -24
+    }
+  ],
+  "ray": [
+    {
+      "path": "res://assets/private_viridian/audio/1510_1.wav",
+      "delay": 0,
+      "db": -24
+    }
+  ],
+  "impact": [
+    {
+      "path": "res://assets/private_viridian/audio/1_7.wav",
+      "delay": 0,
+      "db": -23
+    }
+  ],
+  "impact:skill.viridian.basic": [
+    {
+      "path": "res://assets/viridian/audio/emerald_hit.wav",
+      "delay": 0,
+      "db": -17
+    }
+  ]
+}

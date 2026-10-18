@@ -2,6 +2,7 @@ class_name ArenaGeometry
 extends Node2D
 ## Authored open test arena; random obstacle/navigation generation belongs to M4.
 
+const PIXEL_WALL: Texture2D = preload("res://assets/art_v3/world/wall.png")
 var definition: MapDefinition
 var obstacles: Array[Rect2] = [Rect2(300, -70, 80, 140), Rect2(-480, -240, 100, 160), Rect2(-180, 360, 180, 70)]
 var _grid: AStarGrid2D
@@ -160,6 +161,10 @@ func _draw() -> void:
 	draw_rect(definition.bounds, Color("536175"), false, 3)
 	for obstacle in obstacles:
 		draw_rect(obstacle, definition.obstacle_color)
+		if definition.id == &"map.ruined_temple":
+			draw_texture_rect(PIXEL_WALL,obstacle,true)
+			draw_rect(obstacle,Color("657086"),false,2)
+			continue
 		draw_rect(Rect2(obstacle.position,Vector2(obstacle.size.x,8)),definition.obstacle_color.lightened(.2))
 		for x in range(int(obstacle.position.x)+12,int(obstacle.end.x),24):
 			draw_line(Vector2(x,obstacle.position.y+10),Vector2(x,obstacle.end.y-2),definition.obstacle_color.darkened(.2),2)

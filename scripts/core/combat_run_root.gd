@@ -35,6 +35,7 @@ var _warning_left: float = 0
 var audio: AudioFeedback
 var _environment: Actor
 var visual_factory: CombatVisualFactory
+var damage_numbers: DamageNumberLayer
 
 func _ready() -> void:
 	var registry := get_node("/root/ContentRegistry") as ContentRegistryService
@@ -45,6 +46,7 @@ func _ready() -> void:
 	_arena = ArenaGeometry.new()
 	add_child(_arena)
 	_actors = Node2D.new()
+	_actors.y_sort_enabled = true
 	add_child(_actors)
 	_loot = Node2D.new()
 	add_child(_loot)
@@ -99,14 +101,29 @@ func _start_run() -> void:
 	for skill in _profile.active_skills:
 		visual_factory.colors[String(skill.id)] = visual_color
 	add_child(visual_factory)
+	if is_instance_valid(damage_numbers): damage_numbers.free()
+	damage_numbers=DamageNumberLayer.new()
+	damage_numbers.combat=combat
+	add_child(damage_numbers)
 	player = (load("res://scenes/characters/player.tscn") as PackedScene).instantiate() as PlayerActor
 	player.stats_definition = _profile.stats
+	player.cast_origin_offset = _profile.cast_origin_offset
 	player.tint = _profile.tint
 	player.weapon = _profile.weapon
 	player.visual_frames = _profile.art_frames if _profile.art_frames != null else _profile.visual_frames
 	player.actor_id = 1
 	player.position = _arena.definition.safe_spawn_anchor
 	_actors.add_child(player)
+	if player.visual_frames != null and player.visual_frames.has_meta("mapped_effects_profile"):
+		var mapped := MappedActorEffects.new()
+		mapped.name="MappedEffects"
+		player.add_child(mapped)
+		mapped.configure(player,combat)
+	if player.visual_frames != null and player.visual_frames.has_meta("tactical_effects_profile"):
+		var tactical := TacticalActorEffects.new()
+		tactical.name="TacticalEffects"
+		player.add_child(tactical)
+		tactical.configure(player,combat)
 	player.died.connect(_on_player_died)
 	_environment = Actor.new()
 	_environment.actor_id = -1
@@ -117,7 +134,10 @@ func _start_run() -> void:
 	if audio == null:
 		audio = AudioFeedback.new()
 		add_child(audio)
-	combat.resolver.events.damage_applied.connect(audio.on_damage)
+	combat.resolver.events.damage_applied.connect(func(context: CombatContext,result: DamageResult) -> void:
+		if player.action_audio != null and context.owner_actor_id == player.actor_id:
+			if result.accepted and result.mitigated_damage > 0: player.action_audio.play_impact(context.source_skill_id)
+		else: audio.on_damage(context,result))
 	combat.resolver.events.damage_applied.connect(func(_context: CombatContext,result: DamageResult) -> void:
 		if result.target_id == player.actor_id:
 			if player.sprite_visual != null and player.health.is_alive() and player.visual_frames.get_meta("cardinal",false):
@@ -127,10 +147,17 @@ func _start_run() -> void:
 	skills = SkillController.new(player.actor_id, _profile.active_skills, _profile.basic_attack)
 	skills.bind(player, combat)
 	skills.augments = augments
+	combat.projectile_fired.connect(func(source: Actor, skill_id: StringName) -> void:
+		if source!=player or player.sprite_visual==null: return
+		for slot in range(5):
+			var runtime: SkillRuntime=skills.runtime_for(slot)
+			if runtime!=null and runtime.definition.id==skill_id:
+				player.sprite_visual.play_action(&"basic" if slot==0 else StringName("cast_"+["j","k","l","i"][slot-1]))
+				break)
 	skills.skill_cast.connect(func(slot: int,_context: CombatContext) -> void:
 		player.attack_flash = .12
 		if player.sprite_visual != null:
-			if player.visual_frames.get_meta("cardinal",false):
+			if player.visual_frames.get_meta("cardinal",false) or player.visual_frames.get_meta("slot_actions",false):
 				player.sprite_visual.play_action(StringName("cast_"+["j","k","l","i"][slot-1]))
 				return
 			var executor := skills.runtime_for(slot).definition.executor as EffectExecutorDefinition
@@ -144,6 +171,7 @@ func _start_run() -> void:
 			if is_instance_valid(actor): result.append(actor)
 		return result
 	_camera = Camera2D.new()
+	_camera.zoom = Vector2(2,2) # native1080p; retain readable pixel-art character size
 	_camera.limit_left = roundi(_arena.definition.bounds.position.x)
 	_camera.limit_right = roundi(_arena.definition.bounds.end.x)
 	_camera.limit_top = roundi(_arena.definition.bounds.position.y)
@@ -154,6 +182,8 @@ func _start_run() -> void:
 	_basic.augments = augments
 	_basic.runtime = skills.runtime_for(0)
 	_basic.attack_fired.connect(func(target: Actor) -> void:
+		if player.sprite_visual != null and player.visual_frames.get_meta("slot_actions",false):
+			player.sprite_visual.play_action(&"basic")
 		if not player.manual_aim: player.facing = player.global_position.direction_to(target.global_position)
 		player.attack_flash = 0.12
 	)
@@ -201,7 +231,8 @@ func _physics_process(delta: float) -> void:
 func spawn_enemy() -> EnemyActor:
 	if _enemies.size() >= EnemySpawnDirector.population_cap(_spawn_config,state.current_level) or not state.alive:
 		return null
-	var visible := Rect2(_camera.get_screen_center_position() - get_viewport().get_visible_rect().size / 2.0, get_viewport().get_visible_rect().size)
+	var world_view: Vector2 = get_viewport().get_visible_rect().size / _camera.zoom
+	var visible := Rect2(_camera.get_screen_center_position() - world_view / 2.0,world_view)
 	var point: Variant = EnemySpawnDirector.sample(player.global_position, visible, _arena, _spawn_config, state.rng.stream(&"spawns"), _enemies)
 	if point == null:
 		return null
@@ -291,6 +322,7 @@ func request_upgrade(index: int) -> void:
 	_present_hud()
 
 func _on_player_died(_actor: Actor) -> void:
+	call_deferred("_clear_failed_run_vfx")
 	state.alive = false
 	state.run_phase = &"DEAD"
 	state.boss_gate_state = &"DEAD"
@@ -298,6 +330,16 @@ func _on_player_died(_actor: Actor) -> void:
 	get_tree().paused = true
 	presentation.show_message("RUN ENDED", tr("Level %d | Kills %d | Bosses %d | Maps %d\nTime %.1fs | Seed %d | Upgrades %d") % [state.current_level,kills,bosses_defeated,maps_visited,state.elapsed_simulation_seconds,state.seed,state.run_upgrades.size()], false)
 	_present_hud()
+
+func _clear_failed_run_vfx() -> void:
+	if is_instance_valid(combat): combat.clear_transients()
+	if is_instance_valid(visual_factory): visual_factory.clear()
+	if is_instance_valid(damage_numbers): damage_numbers.clear()
+	if is_instance_valid(player):
+		var mapped := player.get_node_or_null("MappedEffects") as MappedActorEffects
+		if mapped != null: mapped.clear()
+		var tactical := player.get_node_or_null("TacticalEffects") as TacticalActorEffects
+		if tactical != null: tactical.clear()
 
 func request_pause() -> void:
 	if state.run_phase == &"RUNNING":
@@ -402,7 +444,13 @@ func _resolve_boss_victory() -> void:
 		if is_instance_valid(actor): actor.queue_free()
 	for orb in _loot.get_children(): orb.queue_free()
 	combat.clear_transients()
+	if player.action_audio != null: player.action_audio.clear()
+	var mapped := player.get_node_or_null("MappedEffects") as MappedActorEffects
+	if mapped != null: mapped.clear()
+	var tactical := player.get_node_or_null("TacticalEffects") as TacticalActorEffects
+	if tactical != null: tactical.clear()
 	visual_factory.clear()
+	damage_numbers.clear()
 	_enemies.clear()
 	_enemy_attacks.clear()
 	boss = null
@@ -427,7 +475,13 @@ func _resolve_boss_victory() -> void:
 
 func _unhandled_input(event: InputEvent) -> void:
 	if skills == null or state == null or state.run_phase != &"RUNNING" or not state.alive: return
+	if event.is_action_pressed(&"basic_attack") and not event.is_echo():
+		request_basic_attack()
+		get_viewport().set_input_as_handled()
+		return
 	skills.set_mode((get_node("/root/AppSettings") as SettingsService).mode())
 	if SkillInputRouter.handle(event, skills, player.global_position + player.facing * 1000): get_viewport().set_input_as_handled()
 
-
+func request_basic_attack() -> bool:
+	if state==null or state.run_phase!=&"RUNNING" or not state.alive or get_tree().paused: return false
+	return _basic.step(0,_enemies,combat)

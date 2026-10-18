@@ -1,0 +1,469 @@
+RUN_SUITE tests/scenes/test_m2_run.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+PASS astra M2 scene spawned actual target
+PASS astra free slot1 unlock before modal
+PASS astra bound card commits/resumes slot1
+PASS astra Manual slot1 does not autocast
+PASS astra manual slot1 accepts common executor
+PASS astra slot1 commits cooldown once
+PASS astra free slot2 unlock before modal
+PASS astra bound card commits/resumes slot2
+PASS astra Manual slot2 does not autocast
+PASS astra manual slot2 accepts common executor
+PASS astra slot2 commits cooldown once
+PASS astra free slot3 unlock before modal
+PASS astra bound card commits/resumes slot3
+PASS astra Manual slot3 does not autocast
+PASS astra manual slot3 accepts common executor
+PASS astra slot3 commits cooldown once
+PASS astra basic stays automatic in Manual mode
+PASS astra modal freezes active cooldown
+COMBAT_RUN_STARTED loadout=loadout.vex seed=20261015
+PASS vex M2 scene spawned actual target
+PASS vex free slot1 unlock before modal
+PASS vex bound card commits/resumes slot1
+PASS vex Manual slot1 does not autocast
+PASS vex manual slot1 accepts common executor
+PASS vex slot1 commits cooldown once
+PASS vex free slot2 unlock before modal
+PASS vex bound card commits/resumes slot2
+PASS vex Manual slot2 does not autocast
+PASS vex manual slot2 accepts common executor
+PASS vex slot2 commits cooldown once
+PASS vex free slot3 unlock before modal
+PASS vex bound card commits/resumes slot3
+PASS vex Manual slot3 does not autocast
+PASS vex manual slot3 accepts common executor
+PASS vex slot3 commits cooldown once
+PASS vex basic stays automatic in Manual mode
+PASS vex modal freezes active cooldown
+COMBAT_RUN_STARTED loadout=loadout.boros seed=20261015
+PASS boros M2 scene spawned actual target
+PASS boros free slot1 unlock before modal
+PASS boros bound card commits/resumes slot1
+PASS boros Manual slot1 does not autocast
+PASS boros manual slot1 accepts common executor
+PASS boros slot1 commits cooldown once
+PASS boros free slot2 unlock before modal
+PASS boros bound card commits/resumes slot2
+PASS boros Manual slot2 does not autocast
+PASS boros manual slot2 accepts common executor
+PASS boros slot2 commits cooldown once
+PASS boros free slot3 unlock before modal
+PASS boros bound card commits/resumes slot3
+PASS boros Manual slot3 does not autocast
+PASS boros manual slot3 accepts common executor
+PASS boros slot3 commits cooldown once
+PASS boros basic stays automatic in Manual mode
+PASS boros modal freezes active cooldown
+RESULT M2 scenes: checks=54 failures=0
+RUN_SUITE tests/unit/test_event_envelope.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS cast captures rank1 modifier
+PASS in-flight cast snapshot survives later upgrade
+PASS collision envelope unique event/projectile IDs and parent
+PASS published event envelope remains stable
+PASS envelopes report live shared remaining budget
+PASS PRIMARY_ONLY filters secondary
+PASS ONCE_PER_ROOT_CAST dedupes sibling contexts
+PASS ALLOW_SECONDARY bounded depth1
+PASS ALLOW_SECONDARY bounded depth2
+PASS ALLOW_SECONDARY bounded depth3
+PASS ALLOW_SECONDARY cannot exceed shared depth
+PASS missing mechanic capability requirements fail closed
+PASS projectile capability requires executable geometry
+PASS combat limits are data configurable
+PASS configured projectile limit enforced
+PASS invalid combat limits rejected
+RESULT event envelope: checks=16 failures=0
+RUN_SUITE tests/integration/test_shared_effect_matrix.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS astra_l expanded collision reaches beyond base radius
+PASS boros_j expanded collision reaches beyond base radius
+PASS astra_k reflect uses absorbed damage
+PASS boros_k reflect uses absorbed damage
+PASS vex_k one25damage endpoint shockwave
+PASS boros_l one25damage endpoint shockwave
+PASS astra_j execute exact10percent
+PASS boros_j execute exact10percent
+PASS astra_j augmented pierce hits both colliders once
+PASS vex_l augmented pierce hits both colliders once
+PASS astra_j kill burst exact20damage once and settles
+PASS vex_l kill burst exact20damage once and settles
+PASS astra_basic basic uses shared multishot adapter
+PASS vex_basic basic uses shared multishot adapter
+RESULT shared effect matrix: checks=14 failures=0
+RUN_SUITE tests/integration/test_full_kits.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS astra j complete rank graph
+PASS astra k complete rank graph
+PASS astra l complete rank graph
+PASS astra i complete rank graph
+PASS vex j complete rank graph
+PASS vex k complete rank graph
+PASS vex l complete rank graph
+PASS vex i complete rank graph
+PASS boros j complete rank graph
+PASS boros k complete rank graph
+PASS boros l complete rank graph
+PASS boros i complete rank graph
+PASS Astra J rank3 exact magic54/root
+PASS Astra root rank3 expires1.65s
+PASS Astra K rank4 shield95/move buff
+PASS Astra move buff expires independently
+PASS Astra blocked pulse exact15
+PASS Astra expiry blast exact45
+PASS Astra beam120 plus six12 burn ticks
+PASS Vex barrage first shot immediate
+PASS Vex four spaced shots by0.4s
+PASS Vex roll buff and next-basic double shot
+PASS Vex roll travels190px
+PASS Vex round boss bonus35percent and mark
+PASS Boros slam maxHP scaling
+PASS Boros shield/reduction exact
+PASS Boros native reflection postmitigation15percent
+PASS Boros shield expiry heals20percent absorbed
+PASS transform adds40percent maxHP preserving ratio
+PASS transform refresh cannot stack/free-heal
+PASS transform melee range/pulse
+PASS transform restores stats at expiry
+PASS Echo scales HP-based skill damage as well as flat damage
+PASS Auto self-area uses rank2 radius170 despite active shield
+PASS Auto self-buff is not suppressed by an unrelated shield
+PASS Auto dash uses rank2 range300
+PASS root prevents dash movement without consuming cooldown
+RESULT full kits: checks=37 failures=0
+RUN_SUITE tests/integration/test_kit_edges.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Astra rooted death fires30damage pulse
+PASS Boros second ring repeats45percent including HP scaling
+PASS Vex roll kill refunds1.5s once
+PASS Vex roll cannot refund on second kill
+PASS Boros charge60 plus four10damage path-trail ticks
+PASS Vex storm budgeted15percent bounce hits distinct target at50percent damage
+RESULT kit edges: checks=6 failures=0
+RUN_SUITE tests/integration/test_maps_and_bosses.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS adaptive population cap grows40 to110 without exceeding hard cap
+PASS ruined_temple seed0 deterministic connected safe layout
+PASS ruined_temple seed1 deterministic connected safe layout
+PASS ruined_temple seed2 deterministic connected safe layout
+PASS ruined_temple seed3 deterministic connected safe layout
+PASS ruined_temple seed4 deterministic connected safe layout
+PASS enchanted_forest seed0 deterministic connected safe layout
+PASS enchanted_forest seed1 deterministic connected safe layout
+PASS enchanted_forest seed2 deterministic connected safe layout
+PASS enchanted_forest seed3 deterministic connected safe layout
+PASS enchanted_forest seed4 deterministic connected safe layout
+PASS volcanic_arena seed0 deterministic connected safe layout
+PASS volcanic_arena seed1 deterministic connected safe layout
+PASS volcanic_arena seed2 deterministic connected safe layout
+PASS volcanic_arena seed3 deterministic connected safe layout
+PASS volcanic_arena seed4 deterministic connected safe layout
+PASS stone_warden no damage during telegraph
+PASS stone_warden telegraphed damage exact24
+PASS stone_warden WASD input movement dodges actual telegraphed attack
+PASS stone_warden phase2 continues attacks
+PASS ember_sentinel no damage during telegraph
+PASS ember_sentinel telegraphed damage exact24
+PASS ember_sentinel WASD input movement dodges actual telegraphed attack
+PASS ember_sentinel phase2 continues attacks
+RESULT maps and bosses: checks=24 failures=0
+RUN_SUITE tests/integration/test_endless_loop.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+PASS astra level2 valid3-choice transaction
+PASS astra level3 valid3-choice transaction
+PASS astra level4 valid3-choice transaction
+PASS astra level5 valid3-choice transaction
+PASS astra level6 valid3-choice transaction
+PASS astra level7 valid3-choice transaction
+PASS astra level8 valid3-choice transaction
+PASS astra level9 valid3-choice transaction
+PASS astra level10 valid3-choice transaction
+PASS earned reroll replaces3 cards without repeats
+PASS astra real boss at10
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS astra level11 valid3-choice transaction
+PASS astra level12 valid3-choice transaction
+PASS astra level13 valid3-choice transaction
+PASS astra level14 valid3-choice transaction
+PASS astra level15 valid3-choice transaction
+PASS astra level16 valid3-choice transaction
+PASS astra level17 valid3-choice transaction
+PASS astra level18 valid3-choice transaction
+PASS astra level19 valid3-choice transaction
+PASS astra level20 valid3-choice transaction
+PASS astra real boss at20
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS astra level21 valid3-choice transaction
+PASS astra level22 valid3-choice transaction
+PASS astra level23 valid3-choice transaction
+PASS astra level24 valid3-choice transaction
+PASS astra level25 valid3-choice transaction
+PASS astra level26 valid3-choice transaction
+PASS astra level27 valid3-choice transaction
+PASS astra level28 valid3-choice transaction
+PASS astra level29 valid3-choice transaction
+PASS astra level30 valid3-choice transaction
+PASS astra real boss at30
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS astra level31 valid3-choice transaction
+PASS astra level32 valid3-choice transaction
+PASS astra level33 valid3-choice transaction
+PASS astra level34 valid3-choice transaction
+PASS astra level35 valid3-choice transaction
+PASS astra level36 valid3-choice transaction
+PASS astra level37 valid3-choice transaction
+PASS astra level38 valid3-choice transaction
+PASS astra level39 valid3-choice transaction
+PASS astra level40 valid3-choice transaction
+PASS astra real boss at40
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS astra level41 valid3-choice transaction
+PASS astra endless reaches41 with four real boss deaths/transitions
+PASS map bag visits all3 before repeat
+PASS ultimate unlocked after first real boss
+PASS simultaneous-death fixture has real boss
+PASS simultaneous death prevents victory/transition
+COMBAT_RUN_STARTED loadout=loadout.vex seed=20261015
+PASS vex level2 valid3-choice transaction
+PASS vex level3 valid3-choice transaction
+PASS vex level4 valid3-choice transaction
+PASS vex level5 valid3-choice transaction
+PASS vex level6 valid3-choice transaction
+PASS vex level7 valid3-choice transaction
+PASS vex level8 valid3-choice transaction
+PASS vex level9 valid3-choice transaction
+PASS vex level10 valid3-choice transaction
+PASS earned reroll replaces3 cards without repeats
+PASS vex real boss at10
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS vex level11 valid3-choice transaction
+PASS vex level12 valid3-choice transaction
+PASS vex level13 valid3-choice transaction
+PASS vex level14 valid3-choice transaction
+PASS vex level15 valid3-choice transaction
+PASS vex level16 valid3-choice transaction
+PASS vex level17 valid3-choice transaction
+PASS vex level18 valid3-choice transaction
+PASS vex level19 valid3-choice transaction
+PASS vex level20 valid3-choice transaction
+PASS vex real boss at20
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS vex level21 valid3-choice transaction
+PASS vex level22 valid3-choice transaction
+PASS vex level23 valid3-choice transaction
+PASS vex level24 valid3-choice transaction
+PASS vex level25 valid3-choice transaction
+PASS vex level26 valid3-choice transaction
+PASS vex level27 valid3-choice transaction
+PASS vex level28 valid3-choice transaction
+PASS vex level29 valid3-choice transaction
+PASS vex level30 valid3-choice transaction
+PASS vex real boss at30
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS vex level31 valid3-choice transaction
+PASS vex level32 valid3-choice transaction
+PASS vex level33 valid3-choice transaction
+PASS vex level34 valid3-choice transaction
+PASS vex level35 valid3-choice transaction
+PASS vex level36 valid3-choice transaction
+PASS vex level37 valid3-choice transaction
+PASS vex level38 valid3-choice transaction
+PASS vex level39 valid3-choice transaction
+PASS vex level40 valid3-choice transaction
+PASS vex real boss at40
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS vex level41 valid3-choice transaction
+PASS vex endless reaches41 with four real boss deaths/transitions
+PASS map bag visits all3 before repeat
+PASS ultimate unlocked after first real boss
+PASS simultaneous-death fixture has real boss
+PASS simultaneous death prevents victory/transition
+COMBAT_RUN_STARTED loadout=loadout.boros seed=20261015
+PASS boros level2 valid3-choice transaction
+PASS boros level3 valid3-choice transaction
+PASS boros level4 valid3-choice transaction
+PASS boros level5 valid3-choice transaction
+PASS boros level6 valid3-choice transaction
+PASS boros level7 valid3-choice transaction
+PASS boros level8 valid3-choice transaction
+PASS boros level9 valid3-choice transaction
+PASS boros level10 valid3-choice transaction
+PASS earned reroll replaces3 cards without repeats
+PASS boros real boss at10
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS boros level11 valid3-choice transaction
+PASS boros level12 valid3-choice transaction
+PASS boros level13 valid3-choice transaction
+PASS boros level14 valid3-choice transaction
+PASS boros level15 valid3-choice transaction
+PASS boros level16 valid3-choice transaction
+PASS boros level17 valid3-choice transaction
+PASS boros level18 valid3-choice transaction
+PASS boros level19 valid3-choice transaction
+PASS boros level20 valid3-choice transaction
+PASS boros real boss at20
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS boros level21 valid3-choice transaction
+PASS boros level22 valid3-choice transaction
+PASS boros level23 valid3-choice transaction
+PASS boros level24 valid3-choice transaction
+PASS boros level25 valid3-choice transaction
+PASS boros level26 valid3-choice transaction
+PASS boros level27 valid3-choice transaction
+PASS boros level28 valid3-choice transaction
+PASS boros level29 valid3-choice transaction
+PASS boros level30 valid3-choice transaction
+PASS boros real boss at30
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS boros level31 valid3-choice transaction
+PASS boros level32 valid3-choice transaction
+PASS boros level33 valid3-choice transaction
+PASS boros level34 valid3-choice transaction
+PASS boros level35 valid3-choice transaction
+PASS boros level36 valid3-choice transaction
+PASS boros level37 valid3-choice transaction
+PASS boros level38 valid3-choice transaction
+PASS boros level39 valid3-choice transaction
+PASS boros level40 valid3-choice transaction
+PASS boros real boss at40
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS boros level41 valid3-choice transaction
+PASS boros endless reaches41 with four real boss deaths/transitions
+PASS map bag visits all3 before repeat
+PASS ultimate unlocked after first real boss
+PASS simultaneous-death fixture has real boss
+PASS simultaneous death prevents victory/transition
+COMBAT_RUN_STARTED loadout=loadout.atyu seed=20261015
+PASS atyu level2 valid3-choice transaction
+PASS atyu level3 valid3-choice transaction
+PASS atyu level4 valid3-choice transaction
+PASS atyu level5 valid3-choice transaction
+PASS atyu level6 valid3-choice transaction
+PASS atyu level7 valid3-choice transaction
+PASS atyu level8 valid3-choice transaction
+PASS atyu level9 valid3-choice transaction
+PASS atyu level10 valid3-choice transaction
+PASS earned reroll replaces3 cards without repeats
+PASS atyu real boss at10
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS map transition clears companion runtime
+PASS atyu level11 valid3-choice transaction
+PASS atyu level12 valid3-choice transaction
+PASS atyu level13 valid3-choice transaction
+PASS atyu level14 valid3-choice transaction
+PASS atyu level15 valid3-choice transaction
+PASS atyu level16 valid3-choice transaction
+PASS atyu level17 valid3-choice transaction
+PASS atyu level18 valid3-choice transaction
+PASS atyu level19 valid3-choice transaction
+PASS atyu level20 valid3-choice transaction
+PASS atyu real boss at20
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS Atyu companion active before map transition
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS map transition clears companion runtime
+PASS atyu level21 valid3-choice transaction
+PASS atyu level22 valid3-choice transaction
+PASS atyu level23 valid3-choice transaction
+PASS atyu level24 valid3-choice transaction
+PASS atyu level25 valid3-choice transaction
+PASS atyu level26 valid3-choice transaction
+PASS atyu level27 valid3-choice transaction
+PASS atyu level28 valid3-choice transaction
+PASS atyu level29 valid3-choice transaction
+PASS atyu level30 valid3-choice transaction
+PASS atyu real boss at30
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS Atyu companion active before map transition
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS map transition clears companion runtime
+PASS atyu level31 valid3-choice transaction
+PASS atyu level32 valid3-choice transaction
+PASS atyu level33 valid3-choice transaction
+PASS atyu level34 valid3-choice transaction
+PASS atyu level35 valid3-choice transaction
+PASS atyu level36 valid3-choice transaction
+PASS atyu level37 valid3-choice transaction
+PASS atyu level38 valid3-choice transaction
+PASS atyu level39 valid3-choice transaction
+PASS atyu level40 valid3-choice transaction
+PASS atyu real boss at40
+PASS active gate rejects duplicate boss
+PASS boss banks XP
+PASS Atyu companion active before map transition
+PASS victory changes map, preserves upgrades, grants immunity
+PASS transition releases bank exactly once
+PASS map transition clears companion runtime
+PASS atyu level41 valid3-choice transaction
+PASS atyu endless reaches41 with four real boss deaths/transitions
+PASS map bag visits all3 before repeat
+PASS ultimate unlocked after first real boss
+PASS simultaneous-death fixture has real boss
+PASS simultaneous death prevents victory/transition
+RESULT endless loop: checks=271 failures=0
+RUN_SUITE tests/scenes/test_hazards.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+PASS volcanic hazards preserve safe starting area
+PASS spawn validation excludes lava strips
+PASS lava warning grants time before damage
+PASS lava applies5 true damage on simulation ticks
+PASS paused lava cannot damage player
+PASS moving out of strip avoids further lava damage
+RESULT hazards: checks=6 failures=0
+RESULT remaining suites=8 failures=0

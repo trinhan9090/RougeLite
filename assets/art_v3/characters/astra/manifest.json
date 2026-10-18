@@ -1,0 +1,95 @@
+{
+  "spec_version": "3.0",
+  "asset_id": "astra",
+  "kind": "character",
+  "source_method": "pixel_layers",
+  "source_license": "ORIGINAL_CREATED_FOR_PROJECT",
+  "source_files": [
+    "tools/art_v3/generate.py",
+    "tools/art_v3/generate_roster.py",
+    "art_source/v3/astra"
+  ],
+  "frame_canvas_px": [
+    96,
+    96
+  ],
+  "feet_anchor_px": [
+    48,
+    76
+  ],
+  "directions": [
+    "N",
+    "S",
+    "E",
+    "W"
+  ],
+  "palette": [
+    "#101522",
+    "#191f36",
+    "#354268",
+    "#dfae91",
+    "#f7d7b0",
+    "#ab746b",
+    "#222c4c",
+    "#344d83",
+    "#5977b3",
+    "#dce3e8",
+    "#9caec4",
+    "#d6ab62",
+    "#f2d89b",
+    "#222332",
+    "#494451",
+    "#a1d9ff",
+    "#79604e",
+    "#926c43"
+  ],
+  "animations": {
+    "idle": {
+      "frames": 6,
+      "fps": 5,
+      "loop": true
+    },
+    "run": {
+      "frames": 8,
+      "fps": 10,
+      "loop": true
+    },
+    "basic": {
+      "frames": 6,
+      "fps": 14,
+      "loop": false
+    },
+    "cast_j": {
+      "frames": 6,
+      "fps": 14,
+      "loop": false
+    },
+    "cast_k": {
+      "frames": 6,
+      "fps": 12,
+      "loop": false
+    },
+    "cast_l": {
+      "frames": 8,
+      "fps": 12,
+      "loop": false
+    },
+    "cast_i": {
+      "frames": 8,
+      "fps": 14,
+      "loop": false
+    },
+    "hit": {
+      "frames": 4,
+      "fps": 12,
+      "loop": false
+    },
+    "death": {
+      "frames": 8,
+      "fps": 10,
+      "loop": false
+    }
+  },
+  "godot_scene": "res://scenes/characters/character_visual.tscn",
+  "build_hash": "12099a27d9b26773dc6ba8637b5093c9670d01dc0e548cd5c263777b7b136a30"
+}

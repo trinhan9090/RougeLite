@@ -1,0 +1,55 @@
+{
+  "suites": 39,
+  "completed": 8,
+  "failures": 0,
+  "results": [
+    {
+      "suite": "res://tests/integration/test_roster_corrections.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 11.235
+    },
+    {
+      "suite": "res://tests/integration/test_roster_pixel.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 16.234
+    },
+    {
+      "suite": "res://tests/integration/test_torso_hurtbox.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 5.031
+    },
+    {
+      "suite": "res://tests/integration/test_astra_cast_corrections.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 4.563
+    },
+    {
+      "suite": "res://tests/integration/test_pixel_v3.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 4.187
+    },
+    {
+      "suite": "res://tests/integration/test_astra_celestial_vfx.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 4.203
+    },
+    {
+      "suite": "res://tests/integration/test_art_maps.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 16.328
+    },
+    {
+      "suite": "res://tests/integration/test_art_vfx.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.813
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "baseline": "a1b2c8f",
+  "backup": "D:\\SelfProject\\RougeLite\\.local-data\\training_20261017_093346",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "f0f58d32c988c6ee3e90ebc63322d38e1c05b3fd26beb99c5f1c60b12def001a"
+    },
+    {
+      "path": "docs/04_TASKS.md",
+      "sha256": "c61bc70d27bb0757791adca49e09fa082fcd7c25fe7df830639c7f32d878d388"
+    },
+    {
+      "path": "docs/05_DECISIONS.md",
+      "sha256": "95d66c437d445bcdc34c5041d38c5de427e8eeaef682f2820b03104ab187016e"
+    },
+    {
+      "path": "docs/TRAINING.md",
+      "sha256": "24e33bb2fe7b55fc62c87905d24c13c6ce9bf0c58437801f89b439def1a38bc7"
+    },
+    {
+      "path": "docs/WORK_LOG.md",
+      "sha256": "b718d94bc438f41358e7459bc75ac817a10ae4dcded65e51ac8c55d8f597dcfd"
+    },
+    {
+      "path": "docs/adr/ADR-2026-008-training-mode.md",
+      "sha256": "cfc4472a843a21fc1fda760e83474617deb6e4b35a21fc58e8e0cf76116335d9"
+    },
+    {
+      "path": "docs/atyu_audit/training_focused.log",
+      "sha256": "dd468ba1e74e119065855851c39abba207e27c084f0f2c5193e54a4111fcf68c"
+    },
+    {
+      "path": "docs/atyu_audit/training_gui.log",
+      "sha256": "6f5073cbc2d6f7520358fcb59e7fd8d3383fb69828cdfd8686d89c1f0e2b2324"
+    },
+    {
+      "path": "docs/atyu_audit/training_gui_final.log",
+      "sha256": "edf4112aeb1a7c0b3975ba0d76793e7433971a51ceccdb70302d6a6e9a3d053d"
+    },
+    {
+      "path": "docs/atyu_audit/training_import.log",
+      "sha256": "646776fef987a7d841d6ab47e91763fe380943e10c377f9695b6d1fb478e9dec"
+    },
+    {
+      "path": "docs/atyu_audit/training_live_gui.log",
+      "sha256": "edf4112aeb1a7c0b3975ba0d76793e7433971a51ceccdb70302d6a6e9a3d053d"
+    },
+    {
+      "path": "docs/atyu_audit/training_live_import.log",
+      "sha256": "b775fd423f8f3c2791c7d26be276c58c00edc308be6ddeebe344970071750acd"
+    },
+    {
+      "path": "docs/atyu_audit/training_live_ui_gui.log",
+      "sha256": "1ab60a88e75997a38ac6843aa8014bdcf339035b7c6177f1dc9c0c8309469cb4"
+    },
+    {
+      "path": "docs/atyu_audit/training_regression.log",
+      "sha256": "3a21e432ab02cab2e962eb5bab7db4e6fc1bcfde9447fb8a358fbcb535034e5b"
+    },
+    {
+      "path": "docs/atyu_audit/training_regression_final.log",
+      "sha256": "32d868f156fb6dc7546346bec997f4c3f2d0dba64262dea335c857ecdf82a577"
+    },
+    {
+      "path": "docs/atyu_audit/training_results.json",
+      "sha256": "43e6ee6ba857f12ebebd242126ac0ef1cd150e91a100f7773bd9e2d6b8d3355a"
+    },
+    {
+      "path": "docs/atyu_audit/training_ui_focused.log",
+      "sha256": "cc71146de4ee67a898087c9a294fc3ae4b7df21e270c634fed865ab9f7c5b0bd"
+    },
+    {
+      "path": "docs/atyu_audit/training_ui_gui.log",
+      "sha256": "1ab60a88e75997a38ac6843aa8014bdcf339035b7c6177f1dc9c0c8309469cb4"
+    },
+    {
+      "path": "docs/atyu_audit/training_ui_import.log",
+      "sha256": "9e3c3730d729597ef14953c123c379c0d22d21f79d42386b3c71e2dcad535a30"
+    },
+    {
+      "path": "scenes/run/training_run.tscn",
+      "sha256": "64b42dfb7fe0c4fc61bee5e6c3d4e31e2e63091c297af39fb72773cabcd4045f"
+    },
+    {
+      "path": "scripts/app/settings.gd",
+      "sha256": "416db913bb2b122ef2d0ee94cefcc7e3770ff4075a7d6e8b9aafe429931cba84"
+    },
+    {
+      "path": "scripts/combat/combat_service.gd",
+      "sha256": "3d53d7e47b02e6017bedc327baa2b17fe9cdf4d8e97aba237ce068e29c9944fe"
+    },
+    {
+      "path": "scripts/combat/damage_resolver.gd",
+      "sha256": "6a118f7bfdd3e6d74c3d5ddc6580c0cd7b6b6c6d086bfd90d86be4d356adaed7"
+    },
+    {
+      "path": "scripts/core/combat_run_root.gd",
+      "sha256": "8fc9fb577f7ad4302adadf792973a5cdc5833752f04a88c488cf3679a40f7f35"
+    },
+    {
+      "path": "scripts/training/training_boss.gd",
+      "sha256": "fc3825e06fdbccb8726be2bc9b5f5678eb6a59859206fcf3a11ed1ef0e2478c3"
+    },
+    {
+      "path": "scripts/training/training_boss.gd.uid",
+      "sha256": "b74097dc0d535308cfeb4a850584538d2e39ae550f4dc2642b4a81732c2b1282"
+    },
+    {
+      "path": "scripts/training/training_health.gd",
+      "sha256": "baaa430c26cd34b27e7b4b5c7c212178d48390c657b97531d59381695d92408c"
+    },
+    {
+      "path": "scripts/training/training_health.gd.uid",
+      "sha256": "ebff891f6203ada7888dea9ab52b9d00b6727d854c14a3eb9f8de620c9c99c36"
+    },
+    {
+      "path": "scripts/training/training_panel.gd",
+      "sha256": "0a315fe7b4a46e4492a24f34b862fd241c56012e2fc19b66c5606c1a495338e0"
+    },
+    {
+      "path": "scripts/training/training_panel.gd.uid",
+      "sha256": "dec062d9c03ca7f934c2f743d7b46e2a50d1c2d155b75d3c5feff097dfae0c4e"
+    },
+    {
+      "path": "scripts/training/training_run.gd",
+      "sha256": "1f5a1650e224a9f837337c977d33d17253701b55f3ffde2fe19e879409ba8b9e"
+    },
+    {
+      "path": "scripts/training/training_run.gd.uid",
+      "sha256": "83a56555564d930285ad7a9a104f1df7dcd4f684ce16d7ee183a37512395681a"
+    },
+    {
+      "path": "scripts/ui/combat_visual_factory.gd",
+      "sha256": "8a902c3acd61acbe534842cd68e23b4dad716682b9d028a9ef0c39caf0d726ca"
+    },
+    {
+      "path": "scripts/ui/damage_number_layer.gd",
+      "sha256": "945b68f8c5d4f667365aa0ae0259e0b48862072c46d444d8964b5c0d16e0b3c3"
+    },
+    {
+      "path": "scripts/ui/damage_number_layer.gd.uid",
+      "sha256": "c1c8841e207fef25583a1074923032b56da8d3b3c76d063aea350bca429b6ea5"
+    },
+    {
+      "path": "scripts/ui/floating_damage_number.gd",
+      "sha256": "c6b39249026612fd58b145dfb8c1a9e48433992eec547742268e0d0ba2099fdf"
+    },
+    {
+      "path": "scripts/ui/floating_damage_number.gd.uid",
+      "sha256": "752d171871bdf6609d204702c053e4de67a0885f28c13a19f4de7faa1274b010"
+    },
+    {
+      "path": "scripts/ui/foundation_menu.gd",
+      "sha256": "ebfaedc7cc8f267f5f4999f11315db857a324fae0ebf616668089be2f2cf93b4"
+    },
+    {
+      "path": "scripts/ui/run_hud.gd",
+      "sha256": "0cd203325374ebe9ee8372941ec0b814a54841914c5b0e36984fee1f72e9b350"
+    },
+    {
+      "path": "scripts/ui/run_presentation.gd",
+      "sha256": "ddd37dfc0490c9c37865e198f761174307c1e87633e6ec7e27310aa6abd8491c"
+    },
+    {
+      "path": "tests/integration/test_training.gd",
+      "sha256": "c5b9a9520e0b5b7e5b849866830e861da446185957f4092bdc0e72733bde516b"
+    },
+    {
+      "path": "tests/integration/test_training.gd.uid",
+      "sha256": "d578d886b3453f3224bba6df5d14e7b468cf28e3ace355bc24f564ffa6c1eb46"
+    },
+    {
+      "path": "tests/integration/test_training_ui.gd",
+      "sha256": "53b4940c7892b4baa335f899c4ae5c7d1da840897030b39ad7302dbcd7a13634"
+    },
+    {
+      "path": "tests/integration/test_training_ui.gd.uid",
+      "sha256": "f522b0a0bde7054e0b7aeee60f1ea8ffd39129d06c1767b0cd48c913c843a3fb"
+    },
+    {
+      "path": "tests/run_all.gd",
+      "sha256": "5383f4fb1c8f1c76b6c0919d021c0f8d959054b48d4d0aa5efb22507be8f74a3"
+    },
+    {
+      "path": "tools/deploy_training.py",
+      "sha256": "2ebca8495ab9b889e7f3f1fa2753e388c10aea719bc392288684a9ea5a734163"
+    }
+  ]
+}

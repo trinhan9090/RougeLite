@@ -176,3 +176,8 @@ Editable parameters: base stats, XP threshold curve, orb pickup radius, mob caps
 6. SpawnDirector never spawns enemy inside obstacle or within player exclusion zone; if no valid site, no spawn.
 7. `split + multishot + echo + explosion` obeys projectile/proc budgets with no hang or duplicate kill count.
 8. In endless level >30, even after many capped cores, level-up always offers exactly 3 distinct stat/valid cards.
+
+## 2026-10-17 targeting correction (explicit user instruction)
+Astra Solar Field (L): select nearest alive opposing actor within the existing350px cast range in both Auto and Manual. If no eligible target exists, cast at350px along current/last movement facing. The empty-scene Auto cast consumes its normal cooldown. Other facing-based Manual skills keep their existing direction policy. Astra v3 Basic/J/I use the shared hand/torso origin12px above grounded feet; actual projectile prediction, sweeps, beam damage/VFX and line burn agree. Damage, range, width, rank, timing and budgets remain unchanged.
+
+Presentation/collision correction (explicit user request2026-10-17): standard enemies receive projectile/beam damage through a vertical torso capsule centered18px above the navigation root,24x32px. Ground locomotion remains the existing13px circle. Ground AoE, melee distance, spawning and pathfinding retain ground coordinates. Boss geometry is unchanged.

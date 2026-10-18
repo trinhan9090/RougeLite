@@ -1,0 +1,1969 @@
+{
+  "assets": [
+    {
+      "path": "assets/art_v3/vfx/area.png",
+      "sha256": "a4dd7222ab41c6e11ef7473356bd093fe941262c50b8146f1353b43503826ab7",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/beam.png",
+      "sha256": "87415f7b274f55036b69a1bf00c4c8642fbe451c9419c0c6cbd7775b240e2553",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/bolt.png",
+      "sha256": "82834a66ebf73177528d4963ae21e730b229988553534639e14c8828bd2d8f82",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/cast.png",
+      "sha256": "35a4c0d919a3785e307e164fb60fde4acb465fbbefb08978b6a2ec45be67b6c7",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/impact.png",
+      "sha256": "00b5e906f92e570c256fa98e710e66bec0cd6257b6496c49fddf8f03a2f53c37",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/shield.png",
+      "sha256": "e27f5c6d2fd3f2e9171936657ec663544f808e3551ec71dcdfb02c4dbff5f7c6",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/snare.png",
+      "sha256": "0f483859883c9dc7b9720dda11825f1030d18d761bed494b8b226077521f9328",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/status.png",
+      "sha256": "4fa219f3d59acb8d29fb7ae66451ae8aeb09244b60b5e06669a50d6e0be099c2",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/world/courtyard.png",
+      "sha256": "eb310ad8b8760fe452a3658cd720e61777b9ccd4be648a45961c502dd57e5070",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/world/shade_enemy.png",
+      "sha256": "edede1cbe66298eddee610471a8997f3559081b332723f1ee34bcf0f0cb1aecc",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/world/wall.png",
+      "sha256": "611e068e875543e270b207a5667e52510235c0684cdb723649dbb2cbf7e5aba5",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_east_00.png",
+      "sha256": "d3e5c0c2c3c305cb71a14b92720f568384ff2fc730f03db336d51159909eb5ab",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_east_01.png",
+      "sha256": "6c73607165d6e0a9fec3e865d74740e86ab74ae625fd2c629262dfc6a2be683d",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_east_02.png",
+      "sha256": "8ebab1a7e59c2c6b4e5ab05b8f06ffd1ac47d80c1d5eba549cae256a4b4bd6bd",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_east_03.png",
+      "sha256": "8ebab1a7e59c2c6b4e5ab05b8f06ffd1ac47d80c1d5eba549cae256a4b4bd6bd",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_east_04.png",
+      "sha256": "6c73607165d6e0a9fec3e865d74740e86ab74ae625fd2c629262dfc6a2be683d",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_east_05.png",
+      "sha256": "d3e5c0c2c3c305cb71a14b92720f568384ff2fc730f03db336d51159909eb5ab",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_north_00.png",
+      "sha256": "0b6cc55d1c57eacc52865b3ecf37aabb1b0e344fb75601d4173fe9fe2408dedc",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_north_01.png",
+      "sha256": "ab741575738d172408beef5c7521d744f35ed29ff77a50160ef61680bb35198e",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_north_02.png",
+      "sha256": "4dc470c5587e6ca195a5a17af17e3124833eb6ae18d8d137729806078d48d4e3",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_north_03.png",
+      "sha256": "4dc470c5587e6ca195a5a17af17e3124833eb6ae18d8d137729806078d48d4e3",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_north_04.png",
+      "sha256": "ab741575738d172408beef5c7521d744f35ed29ff77a50160ef61680bb35198e",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_north_05.png",
+      "sha256": "0b6cc55d1c57eacc52865b3ecf37aabb1b0e344fb75601d4173fe9fe2408dedc",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_south_00.png",
+      "sha256": "4e0091a2abe69e4fc0fb30769a67b0efb138aac77b7060b5f163e0d7fc51bbc0",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_south_01.png",
+      "sha256": "056d2d742583123d2d6337d4b037f6b1760ec281ff1cc9ce7dd78a36ab349de1",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_south_02.png",
+      "sha256": "7ba2a87e48b4131015b2413f44b1c96ad097b0223f16e3a5b29db36fde57eb20",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_south_03.png",
+      "sha256": "7ba2a87e48b4131015b2413f44b1c96ad097b0223f16e3a5b29db36fde57eb20",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_south_04.png",
+      "sha256": "056d2d742583123d2d6337d4b037f6b1760ec281ff1cc9ce7dd78a36ab349de1",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_south_05.png",
+      "sha256": "4e0091a2abe69e4fc0fb30769a67b0efb138aac77b7060b5f163e0d7fc51bbc0",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_west_00.png",
+      "sha256": "47bc1c6ee5c414ec68cd35569d5c1a304808ce7e7171c6386728ec12f2863ac4",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_west_01.png",
+      "sha256": "aaf4e292c7dd1baf7d955a823086bc7dfd2caa85bfa02a2b0ec67612d105244a",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_west_02.png",
+      "sha256": "18cf5a5770e62fabe2d34634eac8df86e510da1a6fb8f49ebbbfc24cbe3daa17",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_west_03.png",
+      "sha256": "18cf5a5770e62fabe2d34634eac8df86e510da1a6fb8f49ebbbfc24cbe3daa17",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_west_04.png",
+      "sha256": "aaf4e292c7dd1baf7d955a823086bc7dfd2caa85bfa02a2b0ec67612d105244a",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_west_05.png",
+      "sha256": "47bc1c6ee5c414ec68cd35569d5c1a304808ce7e7171c6386728ec12f2863ac4",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_east_00.png",
+      "sha256": "47ff25f2eb3dd7d5906c729928b843d0b3a7ae9ea8e42aad7e2d6d08b9b19882",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_east_01.png",
+      "sha256": "6f13edf4f16be954bfca27accf17a4d89e4ab462eab77e36c391c62e936c46ef",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_east_02.png",
+      "sha256": "30d6b5cea3bc231752cc6c81df116773bd88187196c8e5bfa8f41425ead0e2ac",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_east_03.png",
+      "sha256": "096120a4c5b17bc0524c6700ea9ba096423c8ac1adb38651c60e9139acbfa85e",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_east_04.png",
+      "sha256": "096120a4c5b17bc0524c6700ea9ba096423c8ac1adb38651c60e9139acbfa85e",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_east_05.png",
+      "sha256": "30d6b5cea3bc231752cc6c81df116773bd88187196c8e5bfa8f41425ead0e2ac",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_east_06.png",
+      "sha256": "6f13edf4f16be954bfca27accf17a4d89e4ab462eab77e36c391c62e936c46ef",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_east_07.png",
+      "sha256": "47ff25f2eb3dd7d5906c729928b843d0b3a7ae9ea8e42aad7e2d6d08b9b19882",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_north_00.png",
+      "sha256": "39720756573c4af23b423f4790ea8d5d8d8c4060ccdbdd5edb7d04ec35e58a40",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_north_01.png",
+      "sha256": "caf6de6449728dfbc80ce7fe0b46b83da298815279813d9cba84959201c44446",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_north_02.png",
+      "sha256": "ebe27d299e76618f6bc9dde7627a99ff3ba0bcbe8465c310ee9fb5eab05744c4",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_north_03.png",
+      "sha256": "a67fa8f3a235e1fc4ef619f9be007dcd83e919b9312bc223e0e1bf5b85533c82",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_north_04.png",
+      "sha256": "a67fa8f3a235e1fc4ef619f9be007dcd83e919b9312bc223e0e1bf5b85533c82",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_north_05.png",
+      "sha256": "ebe27d299e76618f6bc9dde7627a99ff3ba0bcbe8465c310ee9fb5eab05744c4",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_north_06.png",
+      "sha256": "caf6de6449728dfbc80ce7fe0b46b83da298815279813d9cba84959201c44446",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_north_07.png",
+      "sha256": "39720756573c4af23b423f4790ea8d5d8d8c4060ccdbdd5edb7d04ec35e58a40",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_south_00.png",
+      "sha256": "5e09601610bce833c28a026a614555323ca81093e36ae6ba1a70d67a28665f25",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_south_01.png",
+      "sha256": "38e2545a0e1200ac0680c884c0358c524535159bc36b599155c8e1ceaa16f831",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_south_02.png",
+      "sha256": "e9b218f2910f38a05cfa0efc1e01da683dccda4dcee47eb2b4b71855fc8034d6",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_south_03.png",
+      "sha256": "0d57ce6207e73da35d5170a14e33c904093dc3e5b475b9ef75375a4446031e0e",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_south_04.png",
+      "sha256": "0d57ce6207e73da35d5170a14e33c904093dc3e5b475b9ef75375a4446031e0e",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_south_05.png",
+      "sha256": "e9b218f2910f38a05cfa0efc1e01da683dccda4dcee47eb2b4b71855fc8034d6",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_south_06.png",
+      "sha256": "38e2545a0e1200ac0680c884c0358c524535159bc36b599155c8e1ceaa16f831",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_south_07.png",
+      "sha256": "5e09601610bce833c28a026a614555323ca81093e36ae6ba1a70d67a28665f25",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_west_00.png",
+      "sha256": "965c6fd463d0b35321599bd8bc84ff50263347c5f87a2fb0d6eb98431f861480",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_west_01.png",
+      "sha256": "c8c9afef19b2ee6386b858e274b39241901e503115c4482a150fc5392d9e8030",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_west_02.png",
+      "sha256": "e5c3f652af496a33e9c299f0959539c39c831782c994d5fb35467c9eb52389fb",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_west_03.png",
+      "sha256": "72a40d2033cd70e1aeb6ee6ef600ed504d141e60a62c55cf1f7d4fb3a3749abe",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_west_04.png",
+      "sha256": "72a40d2033cd70e1aeb6ee6ef600ed504d141e60a62c55cf1f7d4fb3a3749abe",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_west_05.png",
+      "sha256": "e5c3f652af496a33e9c299f0959539c39c831782c994d5fb35467c9eb52389fb",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_west_06.png",
+      "sha256": "c8c9afef19b2ee6386b858e274b39241901e503115c4482a150fc5392d9e8030",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_west_07.png",
+      "sha256": "965c6fd463d0b35321599bd8bc84ff50263347c5f87a2fb0d6eb98431f861480",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_east_00.png",
+      "sha256": "d3e5c0c2c3c305cb71a14b92720f568384ff2fc730f03db336d51159909eb5ab",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_east_01.png",
+      "sha256": "6c73607165d6e0a9fec3e865d74740e86ab74ae625fd2c629262dfc6a2be683d",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_east_02.png",
+      "sha256": "8ebab1a7e59c2c6b4e5ab05b8f06ffd1ac47d80c1d5eba549cae256a4b4bd6bd",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_east_03.png",
+      "sha256": "8ebab1a7e59c2c6b4e5ab05b8f06ffd1ac47d80c1d5eba549cae256a4b4bd6bd",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_east_04.png",
+      "sha256": "6c73607165d6e0a9fec3e865d74740e86ab74ae625fd2c629262dfc6a2be683d",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_east_05.png",
+      "sha256": "d3e5c0c2c3c305cb71a14b92720f568384ff2fc730f03db336d51159909eb5ab",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_north_00.png",
+      "sha256": "0b6cc55d1c57eacc52865b3ecf37aabb1b0e344fb75601d4173fe9fe2408dedc",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_north_01.png",
+      "sha256": "ab741575738d172408beef5c7521d744f35ed29ff77a50160ef61680bb35198e",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_north_02.png",
+      "sha256": "4dc470c5587e6ca195a5a17af17e3124833eb6ae18d8d137729806078d48d4e3",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_north_03.png",
+      "sha256": "4dc470c5587e6ca195a5a17af17e3124833eb6ae18d8d137729806078d48d4e3",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_north_04.png",
+      "sha256": "ab741575738d172408beef5c7521d744f35ed29ff77a50160ef61680bb35198e",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_north_05.png",
+      "sha256": "0b6cc55d1c57eacc52865b3ecf37aabb1b0e344fb75601d4173fe9fe2408dedc",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_south_00.png",
+      "sha256": "4e0091a2abe69e4fc0fb30769a67b0efb138aac77b7060b5f163e0d7fc51bbc0",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_south_01.png",
+      "sha256": "056d2d742583123d2d6337d4b037f6b1760ec281ff1cc9ce7dd78a36ab349de1",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_south_02.png",
+      "sha256": "7ba2a87e48b4131015b2413f44b1c96ad097b0223f16e3a5b29db36fde57eb20",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_south_03.png",
+      "sha256": "7ba2a87e48b4131015b2413f44b1c96ad097b0223f16e3a5b29db36fde57eb20",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_south_04.png",
+      "sha256": "056d2d742583123d2d6337d4b037f6b1760ec281ff1cc9ce7dd78a36ab349de1",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_south_05.png",
+      "sha256": "4e0091a2abe69e4fc0fb30769a67b0efb138aac77b7060b5f163e0d7fc51bbc0",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_west_00.png",
+      "sha256": "47bc1c6ee5c414ec68cd35569d5c1a304808ce7e7171c6386728ec12f2863ac4",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_west_01.png",
+      "sha256": "aaf4e292c7dd1baf7d955a823086bc7dfd2caa85bfa02a2b0ec67612d105244a",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_west_02.png",
+      "sha256": "18cf5a5770e62fabe2d34634eac8df86e510da1a6fb8f49ebbbfc24cbe3daa17",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_west_03.png",
+      "sha256": "18cf5a5770e62fabe2d34634eac8df86e510da1a6fb8f49ebbbfc24cbe3daa17",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_west_04.png",
+      "sha256": "aaf4e292c7dd1baf7d955a823086bc7dfd2caa85bfa02a2b0ec67612d105244a",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_west_05.png",
+      "sha256": "47bc1c6ee5c414ec68cd35569d5c1a304808ce7e7171c6386728ec12f2863ac4",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_east_00.png",
+      "sha256": "d3e5c0c2c3c305cb71a14b92720f568384ff2fc730f03db336d51159909eb5ab",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_east_01.png",
+      "sha256": "93cd59433e4d228c4770b355cbdc2b10dede30ae8895eaca63184f1d46af56b7",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_east_02.png",
+      "sha256": "c155651ef22b4ef4a9b85b80b07b186d481de95d8da143d17a6a08062eaba287",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_east_03.png",
+      "sha256": "c155651ef22b4ef4a9b85b80b07b186d481de95d8da143d17a6a08062eaba287",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_east_04.png",
+      "sha256": "93cd59433e4d228c4770b355cbdc2b10dede30ae8895eaca63184f1d46af56b7",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_east_05.png",
+      "sha256": "d3e5c0c2c3c305cb71a14b92720f568384ff2fc730f03db336d51159909eb5ab",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_north_00.png",
+      "sha256": "0b6cc55d1c57eacc52865b3ecf37aabb1b0e344fb75601d4173fe9fe2408dedc",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_north_01.png",
+      "sha256": "f6382a7e85e748629b4ceb68ccec2f816617a53e803f155247822d70c5b764e6",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_north_02.png",
+      "sha256": "87f56034d74a07db41f0c99de588bcb214570747c8fcaf46ae638d94c434be6d",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_north_03.png",
+      "sha256": "87f56034d74a07db41f0c99de588bcb214570747c8fcaf46ae638d94c434be6d",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_north_04.png",
+      "sha256": "f6382a7e85e748629b4ceb68ccec2f816617a53e803f155247822d70c5b764e6",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_north_05.png",
+      "sha256": "0b6cc55d1c57eacc52865b3ecf37aabb1b0e344fb75601d4173fe9fe2408dedc",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_south_00.png",
+      "sha256": "4e0091a2abe69e4fc0fb30769a67b0efb138aac77b7060b5f163e0d7fc51bbc0",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_south_01.png",
+      "sha256": "67bd9d610c4b92bb3abe9b5c1e6e29f3f81f435255e704c0e786d28ea93c006d",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_south_02.png",
+      "sha256": "dad45b632e105bf3a4e0aff30b48a24ace037c20fc8cade622749482f680676c",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_south_03.png",
+      "sha256": "dad45b632e105bf3a4e0aff30b48a24ace037c20fc8cade622749482f680676c",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_south_04.png",
+      "sha256": "67bd9d610c4b92bb3abe9b5c1e6e29f3f81f435255e704c0e786d28ea93c006d",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_south_05.png",
+      "sha256": "4e0091a2abe69e4fc0fb30769a67b0efb138aac77b7060b5f163e0d7fc51bbc0",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_west_00.png",
+      "sha256": "47bc1c6ee5c414ec68cd35569d5c1a304808ce7e7171c6386728ec12f2863ac4",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_west_01.png",
+      "sha256": "c217f512dee7278bf70ac187304af7bb389643f186d0616a1c0b6b69832e9117",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_west_02.png",
+      "sha256": "fe737238c3c9b54e6b36edbccc92e7c1bbd22c999912031724ac125d9b5563ad",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_west_03.png",
+      "sha256": "fe737238c3c9b54e6b36edbccc92e7c1bbd22c999912031724ac125d9b5563ad",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_west_04.png",
+      "sha256": "c217f512dee7278bf70ac187304af7bb389643f186d0616a1c0b6b69832e9117",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_west_05.png",
+      "sha256": "47bc1c6ee5c414ec68cd35569d5c1a304808ce7e7171c6386728ec12f2863ac4",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_east_00.png",
+      "sha256": "64f08926a5719499d60a1520c644c6151102f18de6ea8af92c00f110165acb18",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_east_01.png",
+      "sha256": "15b4f8ecd30d8746fe33a77ba3603bb3218f104e6c9170e087bce84abe06ee22",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_east_02.png",
+      "sha256": "83bc2e18138f8eeebafec964f47bd97735b300ff184265f0b4282d5cc13f3338",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_east_03.png",
+      "sha256": "49eb158108e85a21a0b1f825e42b3212d5a1790c545db16dc1525660d5124e50",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_east_04.png",
+      "sha256": "49eb158108e85a21a0b1f825e42b3212d5a1790c545db16dc1525660d5124e50",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_east_05.png",
+      "sha256": "83bc2e18138f8eeebafec964f47bd97735b300ff184265f0b4282d5cc13f3338",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_east_06.png",
+      "sha256": "15b4f8ecd30d8746fe33a77ba3603bb3218f104e6c9170e087bce84abe06ee22",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_east_07.png",
+      "sha256": "64f08926a5719499d60a1520c644c6151102f18de6ea8af92c00f110165acb18",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_north_00.png",
+      "sha256": "95722d4b27b454bf7531cef258be8f969574c670b02894d9a7fbcc9a3952ae14",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_north_01.png",
+      "sha256": "f3ccef903e064352b59bffec54c0226aa504c0531033a80f580652d10d38f7c1",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_north_02.png",
+      "sha256": "b6517bfa58c591145174d497245b4b01bf89ae4f158fecf3a921125acf10bf4d",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_north_03.png",
+      "sha256": "51ce79322b72bb6af7b714db730321731720c4ca541f5f49a03e8809d8b322d1",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_north_04.png",
+      "sha256": "51ce79322b72bb6af7b714db730321731720c4ca541f5f49a03e8809d8b322d1",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_north_05.png",
+      "sha256": "b6517bfa58c591145174d497245b4b01bf89ae4f158fecf3a921125acf10bf4d",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_north_06.png",
+      "sha256": "f3ccef903e064352b59bffec54c0226aa504c0531033a80f580652d10d38f7c1",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_north_07.png",
+      "sha256": "95722d4b27b454bf7531cef258be8f969574c670b02894d9a7fbcc9a3952ae14",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_south_00.png",
+      "sha256": "ec6062ffeb3a7114f5ee3cf445cf8dd3cb238e6e1dbbfe0e66a757792fc25d45",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_south_01.png",
+      "sha256": "cf0a222e5c0d80f882d457c4574f91d38fe4a2a60075551e93f03b320a7443b9",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_south_02.png",
+      "sha256": "aab7342648f9f9ce5e05434fedc4307e643a97f764739cd261c4ef0933c623d9",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_south_03.png",
+      "sha256": "274cc21ea713d64837ea39a68f119ae4a0332a7a0eb411284fa4e599d6e29b3c",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_south_04.png",
+      "sha256": "274cc21ea713d64837ea39a68f119ae4a0332a7a0eb411284fa4e599d6e29b3c",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_south_05.png",
+      "sha256": "aab7342648f9f9ce5e05434fedc4307e643a97f764739cd261c4ef0933c623d9",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_south_06.png",
+      "sha256": "cf0a222e5c0d80f882d457c4574f91d38fe4a2a60075551e93f03b320a7443b9",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_south_07.png",
+      "sha256": "ec6062ffeb3a7114f5ee3cf445cf8dd3cb238e6e1dbbfe0e66a757792fc25d45",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_west_00.png",
+      "sha256": "c75c6782cc134a5482de755b12de00d75a84170e3499469112e8100d90faa725",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_west_01.png",
+      "sha256": "3a4222b237185dd378d7474891f4dbe5474b1fa01d6aa476d08f314696a411cb",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_west_02.png",
+      "sha256": "98ee2a62e0e82b8a2d25d251626b7a967fe98095ce14a98f4cac69617bdabccd",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_west_03.png",
+      "sha256": "afb501d0059a288820fb1e86a66fa5de3c3b6bcaa716f6003af2e4b2112ac969",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_west_04.png",
+      "sha256": "afb501d0059a288820fb1e86a66fa5de3c3b6bcaa716f6003af2e4b2112ac969",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_west_05.png",
+      "sha256": "98ee2a62e0e82b8a2d25d251626b7a967fe98095ce14a98f4cac69617bdabccd",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_west_06.png",
+      "sha256": "3a4222b237185dd378d7474891f4dbe5474b1fa01d6aa476d08f314696a411cb",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_west_07.png",
+      "sha256": "c75c6782cc134a5482de755b12de00d75a84170e3499469112e8100d90faa725",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_east_00.png",
+      "sha256": "d3e5c0c2c3c305cb71a14b92720f568384ff2fc730f03db336d51159909eb5ab",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_east_01.png",
+      "sha256": "34e1f8be6c31f0345a19c9e3c11ad0a547357e7b63a6b929941f8ae64aff8f27",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_east_02.png",
+      "sha256": "0f9f2808989dcc7c78e3d777effed8840838db13a84d19f0814b810a6045a688",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_east_03.png",
+      "sha256": "b59b2d4b5e3b3fc1b4d708e5d166362a1c35f4c348a36e60bac58cc005160303",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_east_04.png",
+      "sha256": "e46b761b79a72a7ef85d826556804a13c608eea07a04c2ef12c978d942ec6428",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_east_05.png",
+      "sha256": "8a416f85766bc5c7cc635d756dd15807299026a6f1d54416ed35be6da132863c",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_east_06.png",
+      "sha256": "ee4f505edcafbed44f0595a98a5c9ead64461c57c6894b0ac52d17fa566ce839",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_east_07.png",
+      "sha256": "0a7f63e26783dee2ad8f406a934b038de8ae76b8911c2593e84dc77b2119dd8c",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_north_00.png",
+      "sha256": "0b6cc55d1c57eacc52865b3ecf37aabb1b0e344fb75601d4173fe9fe2408dedc",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_north_01.png",
+      "sha256": "7eab56d755177e49f0ba937e4408d41a633a9491d80a6f8f70d90fbbb56c0ecf",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_north_02.png",
+      "sha256": "7fcae9441c32d92c14921d91d8c0d1fa3f32996ab4c08dba7299d5de640851a1",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_north_03.png",
+      "sha256": "98d56a773d9658941ab8a445e73fada95981609f78757fdb09786bd943b4722f",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_north_04.png",
+      "sha256": "a5323bb3b65f9b0a85e929ae2a052110c2106ada5a94c322e8c1b48d6e1ca2bf",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_north_05.png",
+      "sha256": "52b8768d7d08f6ef5bf3b3ece770a47bc8de6b6ac973cbb4a9cbb19a35475e89",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_north_06.png",
+      "sha256": "366201991f920e54f3ae4b0397afa46c9f1132f3c7dd55b474a746146562a8e2",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_north_07.png",
+      "sha256": "9d9bd6c3d46afb5fef20b152513dd9a8d86268609eff67798206787f487536f6",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_south_00.png",
+      "sha256": "4e0091a2abe69e4fc0fb30769a67b0efb138aac77b7060b5f163e0d7fc51bbc0",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_south_01.png",
+      "sha256": "d3fad8fa04394cf69f5c6b3baa4230e0db0e7984d5eadf2ccb80b696da89bc8c",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_south_02.png",
+      "sha256": "e9880a7c3235d84a2d9f4db64a503af677c1ba0fb85051814348d36628c28a3b",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_south_03.png",
+      "sha256": "5c4b31215ed9610c05e5520aaed24c3626469c29b6854d132a6dd5d687f60463",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_south_04.png",
+      "sha256": "f6a2eb6d87bf4b6ef91feeba1bc0f94ef47e4d22b46cab8b25ff0db10ea3a59d",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_south_05.png",
+      "sha256": "264e589432a4ce4a2ea49cd5d35eb142c1dadbb730c52e6216a012ec6b43c0b9",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_south_06.png",
+      "sha256": "b60567acbefda7c7446af466eb680831b0f5eb5e4027406dbd155b034eb72f1a",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_south_07.png",
+      "sha256": "e8d52536af8dec20809fc50490f42dc04ac301f03eca6f2be8b1337bfd66d2d1",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_west_00.png",
+      "sha256": "47bc1c6ee5c414ec68cd35569d5c1a304808ce7e7171c6386728ec12f2863ac4",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_west_01.png",
+      "sha256": "a502725fac1256656f09cfe9264038a37174b55d809a3aa75ca36ea3f2bb4b3b",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_west_02.png",
+      "sha256": "65b74bbba28758150587244e8c41b4d7c51671ac46dc247fbdf2efa9c9615332",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_west_03.png",
+      "sha256": "88ec2164e4c79e14c9c7021635d5450fae831e4dd7358ae9784d62a3a9e288d3",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_west_04.png",
+      "sha256": "a4e273954f84eb6c14230ea1acf4e26801bc993e4be8bbdcefbafeb69717a70f",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_west_05.png",
+      "sha256": "bf319eb33dd99275fbcdaa264fcca9965d2a97c4800e30edda44bae03f520a84",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_west_06.png",
+      "sha256": "1e8e0953af764131f59ac877fa4a6b921b507588846e7f9abccb9b37978e2d26",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_west_07.png",
+      "sha256": "008005de119468abe9a30a62e1d3aa432b49713cea6bf64fcee9bad68a8915e0",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/frames.tres",
+      "sha256": "4440b23e350861fd0f4e6127e57c8363297784398de17bc5462ef23fc20ac6bf",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_east_00.png",
+      "sha256": "45266f6297bde14364b8f29cd2a7512c22b435f700fdf8886af4692360a0660d",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_east_01.png",
+      "sha256": "60f6cc771336f92ded5ddd39e3f128662b0e3a85d6c0d0f9c1e4c24d5ff1a870",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_east_02.png",
+      "sha256": "9d2eed7c1e9ed06827ed9e81204f25d514a813ad53f7c39f86ea6c8b7257e12e",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_east_03.png",
+      "sha256": "edb1788557e9e0ea8689c40457ebdb52bccb16bad8be42e8fc6eeac131f3f38b",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_north_00.png",
+      "sha256": "cb9e54c04c0e923591c21c6d28f0ef10e4d784c5e5c4863cf271a526bc7386ec",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_north_01.png",
+      "sha256": "1022a10662ee80c20e3bbe56f916ceca96d6431c0d7f5dd01190bca342778c46",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_north_02.png",
+      "sha256": "0b6cc55d1c57eacc52865b3ecf37aabb1b0e344fb75601d4173fe9fe2408dedc",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_north_03.png",
+      "sha256": "f4b7019e993792853a84a80fe3008486e8c69ebc2783dc18fac13f16e9163a8d",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_south_00.png",
+      "sha256": "4e5f4c2c292eb014911dd545f9a9056329531c3bc67beb0b3f7826779da73417",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_south_01.png",
+      "sha256": "b21af0aa96d4ed70a29bd3a314c3555cf13d1118e5d3534befda4cb84eae6f9b",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_south_02.png",
+      "sha256": "4e0091a2abe69e4fc0fb30769a67b0efb138aac77b7060b5f163e0d7fc51bbc0",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_south_03.png",
+      "sha256": "089a2093f790eeb704ea7fca26fb4a66f6d7e2241aa4bd7047ac6defe6678944",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_west_00.png",
+      "sha256": "b5753e4d3b7dd7c26dc572f05ba75a9da67ff671d69369d4c393f33cdae86092",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_west_01.png",
+      "sha256": "71a7caada6639ba8b9ea7c73f17f63a14eafd98b4b1f3ab3d96a2017a016cabb",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_west_02.png",
+      "sha256": "cced4e5c3ad3e8f21ca3d2d12b487cca72e479c584ff4e2168b9f424a1049b8b",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_west_03.png",
+      "sha256": "433aa1404cc87f9043cc2fbd22bc71e7059ddcc75437d7fa10b6194b4cae4f83",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_east_00.png",
+      "sha256": "d3e5c0c2c3c305cb71a14b92720f568384ff2fc730f03db336d51159909eb5ab",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_east_01.png",
+      "sha256": "d3e5c0c2c3c305cb71a14b92720f568384ff2fc730f03db336d51159909eb5ab",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_east_02.png",
+      "sha256": "c710b7ac6cb5323ee1cc0403b12a430ae07b824d3ee7deb190efd61ec4d67e3c",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_east_03.png",
+      "sha256": "c710b7ac6cb5323ee1cc0403b12a430ae07b824d3ee7deb190efd61ec4d67e3c",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_east_04.png",
+      "sha256": "d3e5c0c2c3c305cb71a14b92720f568384ff2fc730f03db336d51159909eb5ab",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_east_05.png",
+      "sha256": "d3e5c0c2c3c305cb71a14b92720f568384ff2fc730f03db336d51159909eb5ab",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_north_00.png",
+      "sha256": "0b6cc55d1c57eacc52865b3ecf37aabb1b0e344fb75601d4173fe9fe2408dedc",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_north_01.png",
+      "sha256": "0b6cc55d1c57eacc52865b3ecf37aabb1b0e344fb75601d4173fe9fe2408dedc",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_north_02.png",
+      "sha256": "c7066b4c7c2531a4ae8ae63f3cbb10a68f6dbb8f4642328cd676656ed9b7c7d3",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_north_03.png",
+      "sha256": "c7066b4c7c2531a4ae8ae63f3cbb10a68f6dbb8f4642328cd676656ed9b7c7d3",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_north_04.png",
+      "sha256": "0b6cc55d1c57eacc52865b3ecf37aabb1b0e344fb75601d4173fe9fe2408dedc",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_north_05.png",
+      "sha256": "0b6cc55d1c57eacc52865b3ecf37aabb1b0e344fb75601d4173fe9fe2408dedc",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_south_00.png",
+      "sha256": "4e0091a2abe69e4fc0fb30769a67b0efb138aac77b7060b5f163e0d7fc51bbc0",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_south_01.png",
+      "sha256": "4e0091a2abe69e4fc0fb30769a67b0efb138aac77b7060b5f163e0d7fc51bbc0",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_south_02.png",
+      "sha256": "b813d4e1b0b89c715b0261fd4e3503a740900120030baf256414a84ce5520a8f",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_south_03.png",
+      "sha256": "b813d4e1b0b89c715b0261fd4e3503a740900120030baf256414a84ce5520a8f",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_south_04.png",
+      "sha256": "4e0091a2abe69e4fc0fb30769a67b0efb138aac77b7060b5f163e0d7fc51bbc0",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_south_05.png",
+      "sha256": "4e0091a2abe69e4fc0fb30769a67b0efb138aac77b7060b5f163e0d7fc51bbc0",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_west_00.png",
+      "sha256": "47bc1c6ee5c414ec68cd35569d5c1a304808ce7e7171c6386728ec12f2863ac4",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_west_01.png",
+      "sha256": "47bc1c6ee5c414ec68cd35569d5c1a304808ce7e7171c6386728ec12f2863ac4",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_west_02.png",
+      "sha256": "d3c9de7e461c5f6627b46b03d278eb0830d230c73bf6d00d9b12bf734ccacfd3",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_west_03.png",
+      "sha256": "d3c9de7e461c5f6627b46b03d278eb0830d230c73bf6d00d9b12bf734ccacfd3",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_west_04.png",
+      "sha256": "47bc1c6ee5c414ec68cd35569d5c1a304808ce7e7171c6386728ec12f2863ac4",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_west_05.png",
+      "sha256": "47bc1c6ee5c414ec68cd35569d5c1a304808ce7e7171c6386728ec12f2863ac4",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/manifest.json",
+      "sha256": "54f312f994848dcec55d79d41b155aed4b686896f9fe6af9aa68e8f51afd4ddf",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_east_00.png",
+      "sha256": "d3e5c0c2c3c305cb71a14b92720f568384ff2fc730f03db336d51159909eb5ab",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_east_01.png",
+      "sha256": "b9ebb791e3d1595d9daf5b2cae02dd93753039281c799dbd606a7939fcf2617f",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_east_02.png",
+      "sha256": "42dca932042ed1c1c406b581214582a27766ef0fc530d3dd67443e115a844570",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_east_03.png",
+      "sha256": "87966aced12b18083c3b8bb493065c14057755594d89d6b90376753c38d79c96",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_east_04.png",
+      "sha256": "d3e5c0c2c3c305cb71a14b92720f568384ff2fc730f03db336d51159909eb5ab",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_east_05.png",
+      "sha256": "e8eee1b66a8df681caa4c988185c4bc3a51bdddd7c5461ad32b912b638cc2c51",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_east_06.png",
+      "sha256": "d1d5f05a4239d1ad29270cc74c90ebbf1e8ebb794fb1547ff465357095026804",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_east_07.png",
+      "sha256": "a83d06464dd55abf1bbebfb0c3b4900cc1ec24f0c85c521faedf40fb0a63b2ea",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_north_00.png",
+      "sha256": "0b6cc55d1c57eacc52865b3ecf37aabb1b0e344fb75601d4173fe9fe2408dedc",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_north_01.png",
+      "sha256": "318d40d8c8835359bda5285fd604b5b9eed556efe9bf85651661388a56e27b21",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_north_02.png",
+      "sha256": "e46dea9d56932a495b12db238540f118e8a42f4423d108bec3fb44773b25773e",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_north_03.png",
+      "sha256": "5644b588a3383a0765a327e4d19805e0fa2126678d4378b0aafb6d72e0f584a8",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_north_04.png",
+      "sha256": "0b6cc55d1c57eacc52865b3ecf37aabb1b0e344fb75601d4173fe9fe2408dedc",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_north_05.png",
+      "sha256": "4ad18bf1fae5271a628f98caf1b9a8a9f17f1066e1cecc94f9b815340f20dedf",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_north_06.png",
+      "sha256": "59d8a7280b59d95e2875bb95d96b250e6c55d4a49ef7d4e945b1dbded47c9ad5",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_north_07.png",
+      "sha256": "a32452f354e24d86067e85b89d1ecf8d3a896ab89159399f3cf8ef72e9fab50d",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_south_00.png",
+      "sha256": "4e0091a2abe69e4fc0fb30769a67b0efb138aac77b7060b5f163e0d7fc51bbc0",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_south_01.png",
+      "sha256": "64972940bd57a0cbc4d15de73a0652025e10d432a95db464eea9c12acc700dec",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_south_02.png",
+      "sha256": "d3aba7cb8605fccbb5c664fa28ba0bfc15d74c3035f75d296d29e974e9afceec",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_south_03.png",
+      "sha256": "f9e8e8ccd2d17b0e15fce12d6837016f50a708055a8222c3cf9d4f9d106027cf",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_south_04.png",
+      "sha256": "4e0091a2abe69e4fc0fb30769a67b0efb138aac77b7060b5f163e0d7fc51bbc0",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_south_05.png",
+      "sha256": "eff9a992b669b339f65ae84b79863141e293eb5d1a6cafcf0603905bfd6e906c",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_south_06.png",
+      "sha256": "c7d9cf49d6669b06aba60d05b51b97259d3b4dcca8ef18a2e7e79682fc9f081c",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_south_07.png",
+      "sha256": "131d5870164fceb739203562c446bc5755c49676d96234ae1b6bd0a5a7244e1b",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_west_00.png",
+      "sha256": "47bc1c6ee5c414ec68cd35569d5c1a304808ce7e7171c6386728ec12f2863ac4",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_west_01.png",
+      "sha256": "7e6664190fa5adaac99e163cc38ce980da4b2ac89f91fd918a54604214aac7dc",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_west_02.png",
+      "sha256": "2d95cece22d8aebb32d74122a6cf2e101e006eec9a434c8c5c76534ba7657c28",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_west_03.png",
+      "sha256": "fc5244042eb246c2a42fbda999981053d1254656d7e7f562c349ef92e2e10cdf",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_west_04.png",
+      "sha256": "47bc1c6ee5c414ec68cd35569d5c1a304808ce7e7171c6386728ec12f2863ac4",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_west_05.png",
+      "sha256": "75780672d19b1a13f9587a9094e7896d0258e388c6b806b6dfb7772cdb0c2090",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_west_06.png",
+      "sha256": "10960412ac60a56ebd36c0bc7af71368cc60fdd6786b6b4ba85786206a782b61",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_west_07.png",
+      "sha256": "e3787fff0fc7a86cbba3ea710b40155e77511323fa9137112f045d54fbe1e9fb",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/basic_east_body.png",
+      "sha256": "b1bd6e514f2aad9811d7c0efb2c58991d8015d8178a580ce176df679275e7793",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/basic_east_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/basic_north_body.png",
+      "sha256": "5461d21c1746319e645ba4e5ef0bee064f2faef6cf25617332d13372bb5620cd",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/basic_north_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/basic_south_body.png",
+      "sha256": "2fac24045ff3203e592687e3be88e3dc9154c83d8c11f4e7e2bf961bd530e4cb",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/basic_south_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/basic_west_body.png",
+      "sha256": "26d16aca7ee248c4eedcd1031973bb46ae591c0bb4bbc82f6b0e72ccdf2c7575",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/basic_west_weapon.png",
+      "sha256": "c0dbb197caed0cc0ab9a1467285702fff29fea676908c0347ed2a999ab56c214",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_i_east_body.png",
+      "sha256": "68eeeb6becb7e99f2302d6e1807201e0f07875944d70bd8ba6a79a64a3803660",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_i_east_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_i_north_body.png",
+      "sha256": "0dabbf2ce6a60d38539f6c1f45476a31ccc600455ebf76c193d0cafedcdc7df4",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_i_north_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_i_south_body.png",
+      "sha256": "07f9592d276179eca31bfaa593f1ae4b7ebe855b3fcb91ed7b1d27d05deb2b06",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_i_south_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_i_west_body.png",
+      "sha256": "2716e3541dbd45d407897f958e739fddda82d7c2da6423132addae4171c2a24b",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_i_west_weapon.png",
+      "sha256": "c0dbb197caed0cc0ab9a1467285702fff29fea676908c0347ed2a999ab56c214",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_j_east_body.png",
+      "sha256": "b1bd6e514f2aad9811d7c0efb2c58991d8015d8178a580ce176df679275e7793",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_j_east_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_j_north_body.png",
+      "sha256": "5461d21c1746319e645ba4e5ef0bee064f2faef6cf25617332d13372bb5620cd",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_j_north_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_j_south_body.png",
+      "sha256": "2fac24045ff3203e592687e3be88e3dc9154c83d8c11f4e7e2bf961bd530e4cb",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_j_south_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_j_west_body.png",
+      "sha256": "26d16aca7ee248c4eedcd1031973bb46ae591c0bb4bbc82f6b0e72ccdf2c7575",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_j_west_weapon.png",
+      "sha256": "c0dbb197caed0cc0ab9a1467285702fff29fea676908c0347ed2a999ab56c214",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_k_east_body.png",
+      "sha256": "b1bd6e514f2aad9811d7c0efb2c58991d8015d8178a580ce176df679275e7793",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_k_east_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_k_north_body.png",
+      "sha256": "5461d21c1746319e645ba4e5ef0bee064f2faef6cf25617332d13372bb5620cd",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_k_north_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_k_south_body.png",
+      "sha256": "2fac24045ff3203e592687e3be88e3dc9154c83d8c11f4e7e2bf961bd530e4cb",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_k_south_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_k_west_body.png",
+      "sha256": "26d16aca7ee248c4eedcd1031973bb46ae591c0bb4bbc82f6b0e72ccdf2c7575",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_k_west_weapon.png",
+      "sha256": "c0dbb197caed0cc0ab9a1467285702fff29fea676908c0347ed2a999ab56c214",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_l_east_body.png",
+      "sha256": "eb502f8fe2bd00efc51c37c5d46ea49da95a288eee2b037661a51a5f50c33496",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_l_east_weapon.png",
+      "sha256": "e45d172b23bc64cea23e9f5f5896ef2ec7f8eb6977fe6302233f2dc85490cb9f",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_l_north_body.png",
+      "sha256": "9b9bc7ab6950129bbbe7dc3cc38586ba646e75e5c0b2b3955f3bf011c690af0e",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_l_north_weapon.png",
+      "sha256": "e45d172b23bc64cea23e9f5f5896ef2ec7f8eb6977fe6302233f2dc85490cb9f",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_l_south_body.png",
+      "sha256": "df5ea5d77da733361af23656b4726b30e120aa777853c203d472757725566192",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_l_south_weapon.png",
+      "sha256": "e45d172b23bc64cea23e9f5f5896ef2ec7f8eb6977fe6302233f2dc85490cb9f",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_l_west_body.png",
+      "sha256": "02d84fb736aed512460a32e84464a275684acce8bae8c7c63ec9cd0aaacaf62e",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/cast_l_west_weapon.png",
+      "sha256": "5fe3b43595193406ae59d56e6d655339a657533f3f87caa0b008f5cb6c6ef99c",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/death_east_body.png",
+      "sha256": "b1bd6e514f2aad9811d7c0efb2c58991d8015d8178a580ce176df679275e7793",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/death_east_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/death_north_body.png",
+      "sha256": "5461d21c1746319e645ba4e5ef0bee064f2faef6cf25617332d13372bb5620cd",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/death_north_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/death_south_body.png",
+      "sha256": "2fac24045ff3203e592687e3be88e3dc9154c83d8c11f4e7e2bf961bd530e4cb",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/death_south_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/death_west_body.png",
+      "sha256": "26d16aca7ee248c4eedcd1031973bb46ae591c0bb4bbc82f6b0e72ccdf2c7575",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/death_west_weapon.png",
+      "sha256": "c0dbb197caed0cc0ab9a1467285702fff29fea676908c0347ed2a999ab56c214",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/hit_east_body.png",
+      "sha256": "b4bef2a0670d81064b907b83fd4ac47502fae2b058f1bb9463dc8fbb229f9499",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/hit_east_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/hit_north_body.png",
+      "sha256": "85cab7e43f2197dc98132a10eb0c45e5503b17b71acdcc971e010f730fbe5370",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/hit_north_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/hit_south_body.png",
+      "sha256": "d5c3765f92f1e5f0093aab1aec515ae6ddece2adf3a686369133b3a103267843",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/hit_south_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/hit_west_body.png",
+      "sha256": "3845da6ce648262eaf695786a3e86e4a605f06def5bad3a34d6fc1d3deeafdaa",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/hit_west_weapon.png",
+      "sha256": "c0dbb197caed0cc0ab9a1467285702fff29fea676908c0347ed2a999ab56c214",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/idle_east_body.png",
+      "sha256": "b1bd6e514f2aad9811d7c0efb2c58991d8015d8178a580ce176df679275e7793",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/idle_east_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/idle_north_body.png",
+      "sha256": "5461d21c1746319e645ba4e5ef0bee064f2faef6cf25617332d13372bb5620cd",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/idle_north_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/idle_south_body.png",
+      "sha256": "2fac24045ff3203e592687e3be88e3dc9154c83d8c11f4e7e2bf961bd530e4cb",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/idle_south_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/idle_west_body.png",
+      "sha256": "26d16aca7ee248c4eedcd1031973bb46ae591c0bb4bbc82f6b0e72ccdf2c7575",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/idle_west_weapon.png",
+      "sha256": "c0dbb197caed0cc0ab9a1467285702fff29fea676908c0347ed2a999ab56c214",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/palette.json",
+      "sha256": "7ad3d7c22de1809a3df1035a3828bb8ff4129a8ee79708ae2e8c5d70bb2f925d",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/run_east_body.png",
+      "sha256": "b1bd6e514f2aad9811d7c0efb2c58991d8015d8178a580ce176df679275e7793",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/run_east_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/run_north_body.png",
+      "sha256": "5461d21c1746319e645ba4e5ef0bee064f2faef6cf25617332d13372bb5620cd",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/run_north_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/run_south_body.png",
+      "sha256": "2fac24045ff3203e592687e3be88e3dc9154c83d8c11f4e7e2bf961bd530e4cb",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/run_south_weapon.png",
+      "sha256": "786d743bee35b7d2fbcf08c5d6c353ed60dee665a48e20ef8805218bb0eecf42",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/run_west_body.png",
+      "sha256": "26d16aca7ee248c4eedcd1031973bb46ae591c0bb4bbc82f6b0e72ccdf2c7575",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "art_source/v3/astra/run_west_weapon.png",
+      "sha256": "c0dbb197caed0cc0ab9a1467285702fff29fea676908c0347ed2a999ab56c214",
+      "source": "tools/art_v3/generate.py",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    }
+  ],
+  "reference": "user-supplied concept posters, reference only; no poster pixels in runtime assets",
+  "tools": {
+    "Godot": "4.7.2 MIT",
+    "Python": "3.12.14 PSF",
+    "Pillow": "12.3.0 MIT-CMU",
+    "Blender": "5.2.2 LTS GPL, encoding only",
+    "Pixelorama/LibreSprite/FFmpeg": "not detected on PATH; optional, not required"
+  },
+  "branch": "feature/visual-v3-astra"
+}

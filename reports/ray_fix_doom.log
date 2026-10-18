@@ -1,0 +1,87 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS all content validates with fifth hero
+PASS Viridian Mage stats data
+PASS source nine-state side-view animation aliases
+PASS unlock thresholds3/6/9/11
+PASS Manual never auto-casts
+PASS J accepts current last-attack direction ignoring cursor
+PASS J telegraph before hit
+PASS J multi-target48 damage once each
+PASS J normal cooldown enforced
+PASS J rank3 boss bonus and rank4 two plasma ticks
+PASS rank definition unchanged
+PASS K .24s pulse15 and real normal root
+PASS K one initial hit and finite root
+PASS K boss uses authoritative .15s stagger
+PASS boss CC cap preserved
+PASS K rank4 initial15 plus exit45 exactly once
+PASS L grants55 shield instantly
+PASS orb contact hit once within .7 ICD
+PASS L refresh replaces shield/orbits without stacking
+PASS rank1 two actual orbitals
+PASS shield and orbs expire7s
+PASS L rank4 four orbs shield80
+PASS ultimate channel halves movement
+PASS cannot overlap active channels
+PASS I .65s windup
+PASS five rays respect two hits per target
+PASS channel cleanup restores movement
+PASS I empty lane does not damage distant target
+PASS I torso entering an already visible ray is hit
+PASS I same ray cannot rehit each physics frame
+PASS I emitted hitbox origin stays fixed when caster moves
+PASS I gap beside individual ray is not whole-fan damage
+PASS I expired ray cannot hit a late entrant
+PASS rank3 nine rays keep global two-hit cap
+PASS rank3 endpoint ray68 plus final55 burst once
+PASS shield reflection compatible L and rejected J
+PASS L reuses shared8percent shield reflect without recursion
+PASS Split binds real basic projectile
+PASS Split basic accepts actual projectile attack
+PASS Split basic spawns three real shared projectiles
+PASS Split rejected for active1
+PASS Split rejected for active2
+PASS Split rejected for active3
+PASS Split rejected for active4
+PASS Echo compatible J
+PASS J shared Echo once without echo-of-echo
+PASS Echo compatible K
+PASS K shared Echo pulse bounded
+PASS guarded orbit/channel Echo fails closed
+PASS K elite .7s root vs normal1.6s
+PASS J width expand compatible
+PASS expanded beam query agrees with width
+PASS K area expansion compatible
+PASS expanded prison hits beyond base86 radius
+PASS Auto K accepts cluster placement
+PASS Auto chooses dense cluster rather than nearest isolated target
+PASS stun interrupts channel and cleans movement state
+COMBAT_RUN_STARTED loadout=loadout.viridian seed=20261015
+TRAINING_READY hero=loadout.viridian rank=1
+PASS directional cast pose follows attack while run follows movement
+PASS latest requested smaller Doom basic VFX, presentation only
+PASS actual run binds mapped VFX and positional audio
+PASS basic guaranteed original non-voice shot
+PASS basic impact guaranteed non-voice
+PASS shared projectile displays actual source sprite
+PASS actual J mapped source beam
+PASS actual K mapped source cage
+PASS two real moving source orbital sprites
+PASS five mapped ultimate rays
+COMBAT_RUN_STARTED loadout=loadout.viridian seed=20261015
+TRAINING_READY hero=loadout.viridian rank=1
+PASS reset clears new temporary effects
+RUN_FOUNDATION seed=20261015 content=endless-demo-v1
+BOOT_OK milestone=M5
+PASS fifth avatar available in twenty-slot selection
+COMBAT_RUN_STARTED loadout=loadout.viridian seed=20261015
+PASS selected Viridian starts actual PLAY
+PASS PLAY enemy respects spawn safety
+PASS current physical J binding casts in PLAY
+PASS Auto casts through same PLAY controller
+PASS map-style clear removes orbital/channel runtimes
+PASS real level-gated boss spawns for Viridian PLAY
+PASS real boss death transitions map with new hero
+PASS actual map transition clears mapped effects and custom hit runtimes
+RESULT viridian: checks=77 failures=0

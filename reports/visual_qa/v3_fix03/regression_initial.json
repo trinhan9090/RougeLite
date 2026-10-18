@@ -1,0 +1,103 @@
+{
+  "suites": 39,
+  "completed": 16,
+  "failures": 1,
+  "results": [
+    {
+      "suite": "res://tests/integration/test_roster_corrections.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 9.906
+    },
+    {
+      "suite": "res://tests/integration/test_roster_pixel.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 15.922
+    },
+    {
+      "suite": "res://tests/integration/test_torso_hurtbox.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 5.328
+    },
+    {
+      "suite": "res://tests/integration/test_astra_cast_corrections.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 5.437
+    },
+    {
+      "suite": "res://tests/integration/test_pixel_v3.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 4.86
+    },
+    {
+      "suite": "res://tests/integration/test_astra_celestial_vfx.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 4.515
+    },
+    {
+      "suite": "res://tests/integration/test_art_maps.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 19.547
+    },
+    {
+      "suite": "res://tests/integration/test_art_vfx.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 4.422
+    },
+    {
+      "suite": "res://tests/integration/test_art_frames.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 4.313
+    },
+    {
+      "suite": "res://tests/unit/test_localization.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.656
+    },
+    {
+      "suite": "res://tests/integration/test_boros_visual.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.438
+    },
+    {
+      "suite": "res://tests/integration/test_sprite_visual.gd",
+      "exit_code": 1,
+      "passed": false,
+      "seconds": 3.891
+    },
+    {
+      "suite": "res://tests/integration/test_aiming.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 5.234
+    },
+    {
+      "suite": "res://tests/integration/test_enemy_navigation.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 28.719
+    },
+    {
+      "suite": "res://tests/unit/test_content.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.812
+    },
+    {
+      "suite": "res://tests/unit/test_rng.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.953
+    }
+  ]
+}

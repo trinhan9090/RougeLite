@@ -1,0 +1,223 @@
+{
+  "suites": 36,
+  "completed": 36,
+  "failures": 0,
+  "results": [
+    {
+      "suite": "res://tests/integration/test_astra_cast_corrections.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.844
+    },
+    {
+      "suite": "res://tests/integration/test_pixel_v3.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.812
+    },
+    {
+      "suite": "res://tests/integration/test_astra_celestial_vfx.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.984
+    },
+    {
+      "suite": "res://tests/integration/test_art_maps.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 16.125
+    },
+    {
+      "suite": "res://tests/integration/test_art_vfx.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.656
+    },
+    {
+      "suite": "res://tests/integration/test_art_frames.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 4.188
+    },
+    {
+      "suite": "res://tests/unit/test_localization.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.172
+    },
+    {
+      "suite": "res://tests/integration/test_boros_visual.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 4.297
+    },
+    {
+      "suite": "res://tests/integration/test_sprite_visual.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.625
+    },
+    {
+      "suite": "res://tests/integration/test_aiming.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 4.546
+    },
+    {
+      "suite": "res://tests/integration/test_enemy_navigation.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 28.25
+    },
+    {
+      "suite": "res://tests/unit/test_content.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.516
+    },
+    {
+      "suite": "res://tests/unit/test_rng.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.328
+    },
+    {
+      "suite": "res://tests/unit/test_settings.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 10.39
+    },
+    {
+      "suite": "res://tests/scenes/test_boot.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 4.375
+    },
+    {
+      "suite": "res://tests/integration/test_movement.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 5.219
+    },
+    {
+      "suite": "res://tests/integration/test_actors.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.641
+    },
+    {
+      "suite": "res://tests/unit/test_targeting.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.156
+    },
+    {
+      "suite": "res://tests/unit/test_damage.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.172
+    },
+    {
+      "suite": "res://tests/integration/test_attacks.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 4.469
+    },
+    {
+      "suite": "res://tests/unit/test_progression.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.718
+    },
+    {
+      "suite": "res://tests/unit/test_upgrades.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.422
+    },
+    {
+      "suite": "res://tests/scenes/test_combat_run.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 8.016
+    },
+    {
+      "suite": "res://tests/unit/test_skill_lifecycle.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.437
+    },
+    {
+      "suite": "res://tests/integration/test_cast_modes.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.25
+    },
+    {
+      "suite": "res://tests/integration/test_universal_augments.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 6.235
+    },
+    {
+      "suite": "res://tests/integration/test_augment_combinations.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 18.656
+    },
+    {
+      "suite": "res://tests/unit/test_bound_offers.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 21.422
+    },
+    {
+      "suite": "res://tests/scenes/test_m2_run.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 8.078
+    },
+    {
+      "suite": "res://tests/unit/test_event_envelope.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.188
+    },
+    {
+      "suite": "res://tests/integration/test_shared_effect_matrix.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 7.421
+    },
+    {
+      "suite": "res://tests/integration/test_full_kits.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 9.688
+    },
+    {
+      "suite": "res://tests/integration/test_kit_edges.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 9.375
+    },
+    {
+      "suite": "res://tests/integration/test_maps_and_bosses.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 8.656
+    },
+    {
+      "suite": "res://tests/integration/test_endless_loop.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 9.375
+    },
+    {
+      "suite": "res://tests/scenes/test_hazards.gd",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 6.25
+    }
+  ]
+}

@@ -7,8 +7,10 @@
   "parameters": {
     "skill_id": "skill.boros.k",
     "color": "#be4e50",
-    "style": "shield",
+    "style": "resolve",
     "geometry": "runtime snapshot",
-    "prototype": true
+    "prototype": true,
+    "renderer": "pixel_v3",
+    "revision": "three-heroes-v3"
   }
 }

@@ -1,0 +1,146 @@
+{
+  "baseline": "5786d30",
+  "backup": "D:\\SelfProject\\RougeLite\\.local-data\\ui_aim03_20261017_090321",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "3e0a434fbb95cfaef4ef2722ff4206a64dad4ed95092de1f03d4223b6d239181"
+    },
+    {
+      "path": "docs/04_TASKS.md",
+      "sha256": "041e453152128e7f4ad1d8be97a477228d914c1ce7a8fb9ecd553ad5b869f7d5"
+    },
+    {
+      "path": "docs/05_DECISIONS.md",
+      "sha256": "3b720b9f43e7198118a95bcfa714ddd9f0986bda3d3535c3fd736878b62fe96c"
+    },
+    {
+      "path": "docs/ATYU_PLAYABLE.md",
+      "sha256": "6449a1f30461e9ee3bc40388f0e1122dbdddac78e9185822f37e2a4921a6b93e"
+    },
+    {
+      "path": "docs/UI_AIM03.md",
+      "sha256": "1ef2c9b9ceab71451bb1f692ccdec1d844d4bb66a69c3bd7212333c3d7950fb0"
+    },
+    {
+      "path": "docs/WORK_LOG.md",
+      "sha256": "d95e87f0b487e92cb29aa497a102c7cd465bb35aa01d9df0f084ebd4c3345f08"
+    },
+    {
+      "path": "docs/adr/ADR-2026-007-ground-attack-aim.md",
+      "sha256": "98af9f907d61ae0c628a28b98955a71382fab69fc01d73189cedf3f30769b426"
+    },
+    {
+      "path": "docs/atyu_audit/ui_aim03_focused.log",
+      "sha256": "2290fbcc315eeabc3f0f633dbdbed47f2ba7d895b4438a1c4c66fde1a731f05a"
+    },
+    {
+      "path": "docs/atyu_audit/ui_aim03_focused_final.log",
+      "sha256": "21857c4d4eb26a9bff0fcd24d22675d2ee214a980f3cd05a466034b1628bdb3f"
+    },
+    {
+      "path": "docs/atyu_audit/ui_aim03_gui.log",
+      "sha256": "f0c9856afb2ee9b61acf06607a839622288259ccaf3ce1e70133908d4b846505"
+    },
+    {
+      "path": "docs/atyu_audit/ui_aim03_gui_final.log",
+      "sha256": "ffb5c2ce1d12d3d2b0ab973c861a9f90353148ef3ba31645ad4b5b113e313206"
+    },
+    {
+      "path": "docs/atyu_audit/ui_aim03_import.log",
+      "sha256": "96994eb9f962c6a9bd29ab81a9cdf703f55a5617379f1b015c72c04c7b722d1a"
+    },
+    {
+      "path": "docs/atyu_audit/ui_aim03_live_gui.log",
+      "sha256": "4c5e8c1c64f928196b89ff179d08002e12911f3d54f92e87be16f8086d52dd71"
+    },
+    {
+      "path": "docs/atyu_audit/ui_aim03_live_import.log",
+      "sha256": "4157492b4f399c68641faa8580be0abf71f40b54748788b204697509dded7371"
+    },
+    {
+      "path": "docs/atyu_audit/ui_aim03_pixel_rerun.log",
+      "sha256": "8442a5362e7814977829662b4fe87295a22e61b74599ee517cf54b50772b58c2"
+    },
+    {
+      "path": "docs/atyu_audit/ui_aim03_regression.log",
+      "sha256": "e59b55e3da598202037013347d2a4c197f05907fec1bbb3411c7104440b3f1c6"
+    },
+    {
+      "path": "docs/atyu_audit/ui_aim03_regression_final.log",
+      "sha256": "421b0dbed5ccfecc67553de29e8ecbd990b3a6881225e27957e231b15bc897f4"
+    },
+    {
+      "path": "docs/atyu_audit/ui_aim03_results.json",
+      "sha256": "7d08d97558c91cec767c6944aa53a1071fb30e0646a23d954727ead720d0c890"
+    },
+    {
+      "path": "docs/atyu_audit/ui_aim03_roster.log",
+      "sha256": "1674767c44e7326db77f68ebe895818e4fdd6f7f621b64732c654c5380ab7f6e"
+    },
+    {
+      "path": "project.godot",
+      "sha256": "16363453845e6e9fab34939f3c7b6f9b65e2618a7909a19cb07e8c9e500dd28c"
+    },
+    {
+      "path": "scripts/actors/player_actor.gd",
+      "sha256": "5579dfe6d01b1e9b6c35a726531f594dfce4b711458aa5c12ed1c10f374634be"
+    },
+    {
+      "path": "scripts/combat/attack_controller.gd",
+      "sha256": "fe65a70aeec8f574e051ef200153958fe89ad324ce6de05898df1833fc6dee83"
+    },
+    {
+      "path": "scripts/combat/skill_controller.gd",
+      "sha256": "54c2822face3f10a47a75705e5699a0ccc117bba617b5b9d2a5a155eae9e87be"
+    },
+    {
+      "path": "scripts/core/combat_run_root.gd",
+      "sha256": "940262365e812ab41413df24b8e396a57217c49d73088d231eccbbfcb8bfc879"
+    },
+    {
+      "path": "scripts/ui/foundation_menu.gd",
+      "sha256": "d78d746ff180e82d4998f5fa2010799236f43b023e26ed913707eaf8b673c3f5"
+    },
+    {
+      "path": "scripts/ui/manual_aim_indicator.gd",
+      "sha256": "e37b72dc31a7ee05070307e8915f181169af9ccceec985f6768614aeb1a60fcf"
+    },
+    {
+      "path": "scripts/ui/manual_aim_indicator.gd.uid",
+      "sha256": "8c1440c7ede90478106bfb11c54f2976de778ca20dda31c0c02775c33a93a8e8"
+    },
+    {
+      "path": "scripts/ui/run_presentation.gd",
+      "sha256": "978b075020fe5d267c66595c5d9b8a7edb2db8d38ce66b7c9392cea912eda8be"
+    },
+    {
+      "path": "tests/integration/test_aiming.gd",
+      "sha256": "6bd4df273167e92a17c8e566554e0f5282f8def311d1e872649e72f60adf44aa"
+    },
+    {
+      "path": "tests/integration/test_astra_cast_corrections.gd",
+      "sha256": "6bd7c04604aa0919efed42437964a3cea8479fdc64daad6a5f0073b419d347ee"
+    },
+    {
+      "path": "tests/integration/test_fullscreen_attack_aim.gd",
+      "sha256": "a5961cb3cffe8d6be2f047d7b29c64a10e784e660ec143af9996377c744347f2"
+    },
+    {
+      "path": "tests/integration/test_fullscreen_attack_aim.gd.uid",
+      "sha256": "9f036e0184bc4aea461be1c7747b01b87efca8a992760e1b376679505abe19ee"
+    },
+    {
+      "path": "tests/integration/test_pixel_v3.gd",
+      "sha256": "b867cbb64a9c34b91724e23c100087f43d0834734749d230389019ad09f2afd2"
+    },
+    {
+      "path": "tests/run_all.gd",
+      "sha256": "50a6055ea7f77eb0bcdeeb6a2455884bab07e93f461065854b9ab6324fd8048d"
+    },
+    {
+      "path": "tools/deploy_ui_aim03.py",
+      "sha256": "3a9f30d37664630680002b56ec526d974792943dcffaecf3ac5b0c308af7ae96"
+    }
+  ]
+}

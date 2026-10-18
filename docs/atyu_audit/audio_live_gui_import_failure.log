@@ -1,0 +1,777 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+ERROR: No loader found for resource: res://assets/private_atyu/audio/5_36.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/ui/action_audio.gd:19)
+       [1] _ready (res://scripts/actors/player_actor.gd:39)
+       [2] _start_run (res://scripts/core/combat_run_root.gd:116)
+       [3] _start_run (res://scripts/training/training_run.gd:16)
+       [4] _ready (res://scripts/core/combat_run_root.gd:70)
+       [5] run_tests (res://tests/integration/test_atyu_audio.gd:15)
+SCRIPT ERROR: Assertion failed: Missing mapped audio: res://assets/private_atyu/audio/5_36.wav
+   at: ActionAudio._ready (res://scripts/ui/action_audio.gd:20)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/ui/action_audio.gd:20)
+       [1] _ready (res://scripts/actors/player_actor.gd:39)
+       [2] _start_run (res://scripts/core/combat_run_root.gd:116)
+       [3] _start_run (res://scripts/training/training_run.gd:16)
+       [4] _ready (res://scripts/core/combat_run_root.gd:70)
+       [5] run_tests (res://tests/integration/test_atyu_audio.gd:15)
+COMBAT_RUN_STARTED loadout=loadout.atyu seed=20261015
+TRAINING_READY hero=loadout.atyu rank=1
+FAIL Atyu owns twelve bounded positional audio voices
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] <anonymous lambda> (res://scripts/core/combat_run_root.gd:129)
+       [3] resolve (res://scripts/combat/damage_resolver.gd:44)
+       [4] hit (res://scripts/combat/combat_service.gd:111)
+       [5] execute (res://scripts/data/basic_attack_executor_definition.gd:34)
+       [6] step (res://scripts/combat/attack_controller.gd:37)
+       [7] request_basic_attack (res://scripts/core/combat_run_root.gd:468)
+       [8] run_tests (res://tests/integration/test_atyu_audio.gd:25)
+PASS accepted basic against immortal boss
+FAIL basic animation and actual hit dispatch source audio
+PASS rejected basic produces no extra sound
+PASS pause rejects new audio requests
+PASS accepted active slot 1
+PASS cone audio waits for actual windup/VFX resolution
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] <anonymous lambda> (res://scripts/core/combat_run_root.gd:129)
+       [3] resolve (res://scripts/combat/damage_resolver.gd:44)
+       [4] hit (res://scripts/combat/combat_service.gd:111)
+       [5] deliver (res://scripts/combat/combat_service.gd:301)
+       [6] resolve_move (res://scripts/combat/source_move_runtime.gd:60)
+       [7] _physics_process (res://scripts/combat/source_move_runtime.gd:50)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] _audio_cue (res://scripts/combat/source_move_runtime.gd:105)
+       [3] resolve_move (res://scripts/combat/source_move_runtime.gd:69)
+       [4] _physics_process (res://scripts/combat/source_move_runtime.gd:50)
+PASS accepted active slot 2
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] _audio_cue (res://scripts/combat/source_move_runtime.gd:105)
+       [3] resolve_move (res://scripts/combat/source_move_runtime.gd:85)
+       [4] _physics_process (res://scripts/combat/source_move_runtime.gd:50)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] _audio_cue (res://scripts/combat/source_move_runtime.gd:105)
+       [3] _ready (res://scripts/combat/source_move_runtime.gd:21)
+       [4] execute_cast (res://scripts/data/source_move_executor.gd:41)
+       [5] request_cast (res://scripts/combat/skill_controller.gd:140)
+       [6] run_tests (res://tests/integration/test_atyu_audio.gd:39)
+PASS accepted active slot 3
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] <anonymous lambda> (res://scripts/core/combat_run_root.gd:129)
+       [3] resolve (res://scripts/combat/damage_resolver.gd:44)
+       [4] hit (res://scripts/combat/combat_service.gd:111)
+       [5] _physics_process (res://scripts/combat/source_move_runtime.gd:38)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] _audio_cue (res://scripts/combat/source_move_runtime.gd:105)
+       [3] _physics_process (res://scripts/combat/source_move_runtime.gd:40)
+PASS accepted active slot 4
+PASS beam audio waits for actual charge resolution
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] _audio_cue (res://scripts/combat/source_move_runtime.gd:105)
+       [3] resolve_move (res://scripts/combat/source_move_runtime.gd:101)
+       [4] _physics_process (res://scripts/combat/source_move_runtime.gd:50)
+FAIL actual action/VFX timing cue cast_j
+PASS actual action/VFX timing cue cone
+FAIL actual action/VFX timing cue cast_k
+PASS actual action/VFX timing cue control
+FAIL actual action/VFX timing cue cast_l
+PASS actual action/VFX timing cue companion
+PASS actual action/VFX timing cue companion_attack
+FAIL actual action/VFX timing cue cast_i
+PASS actual action/VFX timing cue charged_beam
+FAIL GUI started real AudioStreamPlayer2D playback
+FAIL GUI audio stream is playing
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] <anonymous lambda> (res://scripts/core/combat_run_root.gd:129)
+       [3] resolve (res://scripts/combat/damage_resolver.gd:44)
+       [4] hit (res://scripts/combat/combat_service.gd:111)
+       [5] execute (res://scripts/data/basic_attack_executor_definition.gd:34)
+       [6] step (res://scripts/combat/attack_controller.gd:37)
+       [7] request_basic_attack (res://scripts/core/combat_run_root.gd:468)
+       [8] run_tests (res://tests/integration/test_atyu_audio.gd:53)
+PASS basic accepted during long source skill animation
+FAIL accepted basic explicitly starts its next combo and sound during another pose
+PASS manual control without target is rejected before animation/audio
+PASS missing control target produces no false seal effect audio
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+SCRIPT ERROR: Out of bounds get index '0' (on base: 'Array[AudioStreamPlayer2D]')
+   at: ActionAudio._flush (res://scripts/ui/action_audio.gd:54)
+   GDScript backtrace (most recent call first):
+       [0] _flush (res://scripts/ui/action_audio.gd:54)
+       [1] play_cue (res://scripts/ui/action_audio.gd:36)
+       [2] run_tests (res://tests/integration/test_atyu_audio.gd:60)
+FAIL spam remains bounded without node growth
+PASS clear cancels delayed sounds
+ERROR: No loader found for resource: res://assets/private_atyu/audio/5_36.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/ui/action_audio.gd:19)
+       [1] _ready (res://scripts/actors/player_actor.gd:39)
+       [2] _start_run (res://scripts/core/combat_run_root.gd:116)
+       [3] _start_run (res://scripts/training/training_run.gd:16)
+       [4] _retry_deferred (res://scripts/core/combat_run_root.gd:351)
+SCRIPT ERROR: Assertion failed: Missing mapped audio: res://assets/private_atyu/audio/5_36.wav
+   at: ActionAudio._ready (res://scripts/ui/action_audio.gd:20)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/ui/action_audio.gd:20)
+       [1] _ready (res://scripts/actors/player_actor.gd:39)
+       [2] _start_run (res://scripts/core/combat_run_root.gd:116)
+       [3] _start_run (res://scripts/training/training_run.gd:16)
+       [4] _retry_deferred (res://scripts/core/combat_run_root.gd:351)
+COMBAT_RUN_STARTED loadout=loadout.atyu seed=20261015
+TRAINING_READY hero=loadout.atyu rank=1
+PASS reset replaces audio adapter and removes stale cues
+ERROR: No loader found for resource: res://assets/private_atyu/audio/5_36.wav (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/ui/action_audio.gd:19)
+       [1] _ready (res://scripts/actors/player_actor.gd:39)
+       [2] _start_run (res://scripts/core/combat_run_root.gd:116)
+       [3] _ready (res://scripts/core/combat_run_root.gd:70)
+       [4] run_tests (res://tests/integration/test_atyu_audio.gd:73)
+SCRIPT ERROR: Assertion failed: Missing mapped audio: res://assets/private_atyu/audio/5_36.wav
+   at: ActionAudio._ready (res://scripts/ui/action_audio.gd:20)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/ui/action_audio.gd:20)
+       [1] _ready (res://scripts/actors/player_actor.gd:39)
+       [2] _start_run (res://scripts/core/combat_run_root.gd:116)
+       [3] _ready (res://scripts/core/combat_run_root.gd:70)
+       [4] run_tests (res://tests/integration/test_atyu_audio.gd:73)
+COMBAT_RUN_STARTED loadout=loadout.atyu seed=20261015
+PASS ordinary PLAY has same audio integration
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+TRAINING_READY hero=loadout.astra rank=1
+PASS other hero audio unchanged
+RESULT atyu audio: checks=31 failures=10

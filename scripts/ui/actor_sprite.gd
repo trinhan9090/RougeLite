@@ -1,5 +1,6 @@
 class_name ActorSprite
 extends AnimatedSprite2D
+signal action_started(action: StringName)
 ## Presentation-only adapter; damage and movement remain owned by gameplay.
 var actor: PlayerActor
 var _flash: float = 0
@@ -8,6 +9,9 @@ var _playing_base: StringName = &""
 var _base_scale: float = 1
 var _feet_offset: float = 0
 var _weapon_sprite: Sprite2D
+var _was_motion: bool=false
+var _combo_index: int = 0
+var _side_left: bool = false
 
 func _ready() -> void:
 	texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
@@ -15,6 +19,9 @@ func _ready() -> void:
 	var used: Rect2i = reference.get_image().get_used_rect()
 	_base_scale = PlayerActor.VISUAL_HEIGHT / maxf(1,used.size.y)
 	_feet_offset = (used.end.y-reference.get_height()*.5)*_base_scale
+	if sprite_frames.get_meta("pixel_v3",false):
+		_base_scale = 1
+		_feet_offset = float(sprite_frames.get_meta("feet_anchor").y)-reference.get_height()*.5
 	_update_size()
 	if sprite_frames.has_meta("weapon"):
 		_weapon_sprite = Sprite2D.new()
@@ -29,8 +36,9 @@ func _resolve(action: StringName) -> StringName:
 	if sprite_frames.get_meta("cardinal",false):
 		var aliases: Dictionary = {&"attack": &"basic", &"cast": &"cast_j", &"dash": &"run"}
 		action = aliases.get(action,action)
-		var direction: String = "east" if actor.facing.x >= 0 else "west"
-		if absf(actor.facing.y) > absf(actor.facing.x): direction = "south" if actor.facing.y > 0 else "north"
+		var facing: Vector2 = actor.attack_direction if String(action) in sprite_frames.get_meta("aimed_actions",PackedStringArray()) else actor.facing
+		var direction: String = "east" if facing.x >= 0 else "west"
+		if absf(facing.y) > absf(facing.x): direction = "south" if facing.y > 0 else "north"
 		return StringName(String(action)+"_"+direction)
 	var directions: PackedStringArray = sprite_frames.get_meta("directions",PackedStringArray())
 	if directions.is_empty(): return action
@@ -41,7 +49,7 @@ func _resolve(action: StringName) -> StringName:
 func _update_size() -> void:
 	var factor: float = 1.25 if actor.factor(&"max_hp") > 1 else 1
 	scale = Vector2.ONE * _base_scale * factor
-	position = Vector2(0,20-_feet_offset*factor)
+	position = Vector2(0,(0 if sprite_frames.get_meta("pixel_v3",false) else 20)-_feet_offset*factor)
 
 func _play(action: StringName) -> void:
 	var id: StringName = _resolve(action)
@@ -55,9 +63,18 @@ func _play(action: StringName) -> void:
 	_playing_base = action
 
 func play_action(action: StringName) -> void:
+	var sustained: PackedStringArray = sprite_frames.get_meta("sustained_actions",PackedStringArray())
+	if String(_action) in sustained and is_playing() and (action==_action or action in [&"attack",&"basic"]): return
+	var combos: PackedStringArray = sprite_frames.get_meta("combo_actions",PackedStringArray())
+	if action in [&"attack",&"basic"] and not combos.is_empty():
+		action = StringName(combos[_combo_index % combos.size()])
+		_combo_index += 1
+	# A real command arriving immediately after motion supersedes exit cleanup.
+	if not actor.motion_active: _was_motion=false
 	_action = action
 	_play(action)
-	set_frame_and_progress(0,0)
+	set_frame_and_progress(int(sprite_frames.get_meta("action_start_frames",{}).get(String(action),0)),0)
+	action_started.emit(action)
 
 func _process(_delta: float) -> void:
 	if not is_instance_valid(actor): return
@@ -70,14 +87,23 @@ func _process(_delta: float) -> void:
 	var directions: PackedStringArray = sprite_frames.get_meta("directions",PackedStringArray())
 	var left_facing: PackedStringArray = sprite_frames.get_meta("left_facing_animations",PackedStringArray())
 	flip_h = false if not directions.is_empty() else (actor.facing.x > 0 if String(_playing_base) in left_facing else actor.facing.x < 0)
+	if sprite_frames.get_meta("side_view",false):
+		var side_facing: Vector2 = actor.attack_direction if String(_playing_base) in sprite_frames.get_meta("aimed_actions",PackedStringArray()) else actor.facing
+		if absf(side_facing.x) > .001: _side_left = side_facing.x < 0
+		flip_h = _side_left
 	if not actor.health.is_alive():
 		_play(&"death")
 		return
 	if actor.motion_active:
+		_was_motion=true
+		_flash=actor.attack_flash
 		_action = &""
-		_play(&"dash")
+		_play(StringName(sprite_frames.get_meta("motion_action",&"dash")))
 		return
-	if _playing_base == &"dash": _action = &""
+	if _was_motion:
+		_was_motion=false
+		_action=&""
+		_flash=actor.attack_flash
 	if actor.attack_flash > _flash and _action == &"": play_action(&"attack")
 	_flash = actor.attack_flash
 	if _action != &"": _play(_action)

@@ -2,6 +2,19 @@ extends SceneTree
 ## Each suite is an isolated Godot process; exit code and diagnostics checked.
 
 const SUITES: Array[String] = [
+	"res://tests/integration/test_graveshade.gd",
+	"res://tests/integration/test_viridian.gd",
+	"res://tests/integration/test_atyu_audio.gd",
+	"res://tests/integration/test_training_ui.gd",
+	"res://tests/integration/test_training.gd",
+	"res://tests/integration/test_fullscreen_attack_aim.gd",
+	"res://tests/integration/test_atyu.gd",
+	"res://tests/integration/test_roster_corrections.gd",
+	"res://tests/integration/test_roster_pixel.gd",
+	"res://tests/integration/test_torso_hurtbox.gd",
+	"res://tests/integration/test_astra_cast_corrections.gd",
+	"res://tests/integration/test_pixel_v3.gd",
+	"res://tests/integration/test_astra_celestial_vfx.gd",
 	"res://tests/integration/test_art_maps.gd",
 	"res://tests/integration/test_art_vfx.gd",
 	"res://tests/integration/test_art_frames.gd",

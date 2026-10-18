@@ -1,0 +1,6 @@
+move,source_state,air_action,visual_verified,notes
+bolt,1510,21516,True,Decoded/visually inspected; geometry/timing adapted by game runtime
+beam,1450,6810,True,Partial plasma21450 missing sprites; intact6810 sub-sequence adapted
+prison,3001,23001,True,Decoded/visually inspected; geometry/timing adapted by game runtime
+orb,1480,21480,True,Decoded/visually inspected; geometry/timing adapted by game runtime
+ultimate,3081,21516,True,Decoded/visually inspected; geometry/timing adapted by game runtime

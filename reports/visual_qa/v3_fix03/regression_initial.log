@@ -1,0 +1,378 @@
+res://tests/integration/test_roster_corrections.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.vex seed=20261015
+COMBAT_RUN_STARTED loadout=loadout.boros seed=20261015
+RESULT roster corrections checks=17 failures=0
+
+res://tests/integration/test_roster_pixel.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.vex seed=20261015
+COMBAT_RUN_STARTED loadout=loadout.boros seed=20261015
+RESULT roster pixel checks=28 failures=0
+
+res://tests/integration/test_torso_hurtbox.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+RESULT torso hurtbox checks=11 failures=0
+
+res://tests/integration/test_astra_cast_corrections.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+RESULT Astra cast corrections checks=22 failures=0
+
+res://tests/integration/test_pixel_v3.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RUN_FOUNDATION seed=20261015 content=endless-demo-v1
+BOOT_OK milestone=M5
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+RESULT pixel v3 checks=46 failures=0
+
+res://tests/integration/test_astra_celestial_vfx.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+RESULT Astra celestial VFX checks=35 failures=0
+
+res://tests/integration/test_art_maps.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ART_MAP_SEEDS theme=enchanted_forest seeds=100
+ART_MAP_SEEDS theme=ruined_temple seeds=100
+ART_MAP_SEEDS theme=volcanic_arena seeds=100
+RESULT art maps checks=3300 failures=0
+
+res://tests/integration/test_art_vfx.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT art VFX checks=41 failures=0
+
+res://tests/integration/test_art_frames.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT art frames checks=228 failures=0
+
+res://tests/unit/test_localization.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Vietnamese menu with full diacritics
+PASS Vietnamese character title
+PASS skill display translated without changing ID
+PASS formatted Vietnamese HUD
+PASS Vietnamese manual mode
+PASS Vietnamese upgrade name and rank
+PASS localization preserves content and stable ID
+PASS English catalog retained
+RESULT localization checks=8 failures=0
+
+res://tests/integration/test_boros_visual.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS same72px baseline for actor0
+PASS visual sizing preserves body and14px collider
+PASS same72px baseline for actor1
+PASS visual sizing preserves body and14px collider
+PASS same72px baseline for actor2
+PASS visual sizing preserves body and14px collider
+PASS Boros nonempty128px frames attack_east
+PASS Boros nonempty128px frames attack_north
+PASS Boros nonempty128px frames attack_north_east
+PASS Boros nonempty128px frames attack_north_west
+PASS Boros nonempty128px frames attack_south
+PASS Boros nonempty128px frames attack_south_east
+PASS Boros nonempty128px frames attack_south_west
+PASS Boros nonempty128px frames attack_west
+PASS Boros nonempty128px frames basic_attack_east
+PASS Boros nonempty128px frames basic_attack_north
+PASS Boros nonempty128px frames basic_attack_north_east
+PASS Boros nonempty128px frames basic_attack_north_west
+PASS Boros nonempty128px frames basic_attack_south
+PASS Boros nonempty128px frames basic_attack_south_east
+PASS Boros nonempty128px frames basic_attack_south_west
+PASS Boros nonempty128px frames basic_attack_west
+PASS Boros nonempty128px frames cast_east
+PASS Boros nonempty128px frames cast_north
+PASS Boros nonempty128px frames cast_north_east
+PASS Boros nonempty128px frames cast_north_west
+PASS Boros nonempty128px frames cast_south
+PASS Boros nonempty128px frames cast_south_east
+PASS Boros nonempty128px frames cast_south_west
+PASS Boros nonempty128px frames cast_west
+PASS Boros nonempty128px frames charge_end_east
+PASS Boros nonempty128px frames charge_end_north
+PASS Boros nonempty128px frames charge_end_north_east
+PASS Boros nonempty128px frames charge_end_north_west
+PASS Boros nonempty128px frames charge_end_south
+PASS Boros nonempty128px frames charge_end_south_east
+PASS Boros nonempty128px frames charge_end_south_west
+PASS Boros nonempty128px frames charge_end_west
+PASS Boros nonempty128px frames charge_loop_east
+PASS Boros nonempty128px frames charge_loop_north
+PASS Boros nonempty128px frames charge_loop_north_east
+PASS Boros nonempty128px frames charge_loop_north_west
+PASS Boros nonempty128px frames charge_loop_south
+PASS Boros nonempty128px frames charge_loop_south_east
+PASS Boros nonempty128px frames charge_loop_south_west
+PASS Boros nonempty128px frames charge_loop_west
+PASS Boros nonempty128px frames charge_start_east
+PASS Boros nonempty128px frames charge_start_north
+PASS Boros nonempty128px frames charge_start_north_east
+PASS Boros nonempty128px frames charge_start_north_west
+PASS Boros nonempty128px frames charge_start_south
+PASS Boros nonempty128px frames charge_start_south_east
+PASS Boros nonempty128px frames charge_start_south_west
+PASS Boros nonempty128px frames charge_start_west
+PASS Boros nonempty128px frames dash_east
+PASS Boros nonempty128px frames dash_north
+PASS Boros nonempty128px frames dash_north_east
+PASS Boros nonempty128px frames dash_north_west
+PASS Boros nonempty128px frames dash_south
+PASS Boros nonempty128px frames dash_south_east
+PASS Boros nonempty128px frames dash_south_west
+PASS Boros nonempty128px frames dash_west
+PASS Boros nonempty128px frames death_east
+PASS Boros nonempty128px frames death_north
+PASS Boros nonempty128px frames death_north_east
+PASS Boros nonempty128px frames death_north_west
+PASS Boros nonempty128px frames death_south
+PASS Boros nonempty128px frames death_south_east
+PASS Boros nonempty128px frames death_south_west
+PASS Boros nonempty128px frames death_west
+PASS Boros nonempty128px frames ground_slam_east
+PASS Boros nonempty128px frames ground_slam_north
+PASS Boros nonempty128px frames ground_slam_north_east
+PASS Boros nonempty128px frames ground_slam_north_west
+PASS Boros nonempty128px frames ground_slam_south
+PASS Boros nonempty128px frames ground_slam_south_east
+PASS Boros nonempty128px frames ground_slam_south_west
+PASS Boros nonempty128px frames ground_slam_west
+PASS Boros nonempty128px frames hurt_east
+PASS Boros nonempty128px frames hurt_north
+PASS Boros nonempty128px frames hurt_north_east
+PASS Boros nonempty128px frames hurt_north_west
+PASS Boros nonempty128px frames hurt_south
+PASS Boros nonempty128px frames hurt_south_east
+PASS Boros nonempty128px frames hurt_south_west
+PASS Boros nonempty128px frames hurt_west
+PASS Boros nonempty128px frames idle_east
+PASS Boros nonempty128px frames idle_north
+PASS Boros nonempty128px frames idle_north_east
+PASS Boros nonempty128px frames idle_north_west
+PASS Boros nonempty128px frames idle_south
+PASS Boros nonempty128px frames idle_south_east
+PASS Boros nonempty128px frames idle_south_west
+PASS Boros nonempty128px frames idle_west
+PASS Boros nonempty128px frames iron_resolve_east
+PASS Boros nonempty128px frames iron_resolve_north
+PASS Boros nonempty128px frames iron_resolve_north_east
+PASS Boros nonempty128px frames iron_resolve_north_west
+PASS Boros nonempty128px frames iron_resolve_south
+PASS Boros nonempty128px frames iron_resolve_south_east
+PASS Boros nonempty128px frames iron_resolve_south_west
+PASS Boros nonempty128px frames iron_resolve_west
+PASS Boros nonempty128px frames run_east
+PASS Boros nonempty128px frames run_north
+PASS Boros nonempty128px frames run_north_east
+PASS Boros nonempty128px frames run_north_west
+PASS Boros nonempty128px frames run_south
+PASS Boros nonempty128px frames run_south_east
+PASS Boros nonempty128px frames run_south_west
+PASS Boros nonempty128px frames run_west
+PASS Boros nonempty128px frames transform_end_east
+PASS Boros nonempty128px frames transform_end_north
+PASS Boros nonempty128px frames transform_end_north_east
+PASS Boros nonempty128px frames transform_end_north_west
+PASS Boros nonempty128px frames transform_end_south
+PASS Boros nonempty128px frames transform_end_south_east
+PASS Boros nonempty128px frames transform_end_south_west
+PASS Boros nonempty128px frames transform_end_west
+PASS Boros nonempty128px frames transform_start_east
+PASS Boros nonempty128px frames transform_start_north
+PASS Boros nonempty128px frames transform_start_north_east
+PASS Boros nonempty128px frames transform_start_north_west
+PASS Boros nonempty128px frames transform_start_south
+PASS Boros nonempty128px frames transform_start_south_east
+PASS Boros nonempty128px frames transform_start_south_west
+PASS Boros nonempty128px frames transform_start_west
+PASS Boros actual direction east
+PASS Boros actual direction south
+PASS Boros actual direction west
+PASS Boros actual direction north
+PASS Boros actual direction south_east
+PASS Boros actual direction south_west
+PASS Boros actual direction north_west
+PASS Boros actual direction north_east
+PASS Boros action attack
+PASS Boros action ground_slam
+PASS Boros action iron_resolve
+PASS Boros action transform_start
+PASS Boros charge visual
+PASS transform grows visual then restores shared baseline
+PASS Boros death visual
+RESULT Boros visual checks=141 failures=0
+
+res://tests/integration/test_sprite_visual.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Vex profile has sprite frames
+PASS nonempty64px frame attack/0
+PASS nonempty64px frame attack/1
+PASS nonempty64px frame attack/2
+PASS nonempty64px frame attack/3
+PASS nonempty64px frame attack/4
+PASS nonempty64px frame attack/5
+PASS nonempty64px frame attack/6
+PASS nonempty64px frame cast/0
+PASS nonempty64px frame cast/1
+PASS nonempty64px frame cast/2
+PASS nonempty64px frame cast/3
+PASS nonempty64px frame dash/0
+PASS nonempty64px frame dash/1
+PASS nonempty64px frame dash/2
+PASS nonempty64px frame dash/3
+PASS nonempty64px frame dash/4
+PASS nonempty64px frame dash/5
+PASS nonempty64px frame dash/6
+PASS nonempty64px frame death/0
+PASS nonempty64px frame death/1
+PASS nonempty64px frame death/2
+PASS nonempty64px frame death/3
+PASS nonempty64px frame death/4
+PASS nonempty64px frame death/5
+PASS nonempty64px frame death/6
+PASS nonempty64px frame death/7
+PASS nonempty64px frame idle/0
+PASS nonempty64px frame idle/1
+PASS nonempty64px frame idle/2
+PASS nonempty64px frame idle/3
+PASS nonempty64px frame idle/4
+PASS nonempty64px frame idle/5
+PASS nonempty64px frame run/0
+PASS nonempty64px frame run/1
+PASS nonempty64px frame run/2
+PASS nonempty64px frame run/3
+PASS nonempty64px frame run/4
+PASS nonempty64px frame run/5
+PASS nonempty64px frame run/6
+PASS nonempty64px frame run/7
+PASS sprite replaces geometry only
+PASS idle animation
+PASS WASD movement animates run
+PASS attack feedback animates sprite
+PASS active skill presentation
+PASS dash presentation
+PASS death presentation
+RESULT Vex sprites checks=49 failures=1
+FAIL left facing mirrors sprite
+
+res://tests/integration/test_aiming.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS astra basic emits projectile
+PASS astra basic has no implicit homing
+PASS astra leads moving torso from actual cast origin
+PASS astra trajectory remains straight
+PASS astra actually hits moving target
+PASS vex basic emits projectile
+PASS vex basic has no implicit homing
+PASS vex leads moving torso from actual cast origin
+PASS vex trajectory remains straight
+PASS vex actually hits moving target
+PASS homing reacquires from projectile and excludes already-hit target
+PASS explicit homing still turns toward fresh target
+PASS Manual facing follows movement and persists after stopping
+PASS manual cast succeeds away from enemy
+PASS Manual cast ignores opposite mouse aim and follows facing
+PASS cursor at feet preserves last facing
+RESULT aiming checks=16 failures=0
+
+res://tests/integration/test_enemy_navigation.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS chase reached player (23.58491, -6.854267)
+PASS chase reached player (24.07258, 6.973061)
+PASS chase reached player (22.89804, -8.177894)
+PASS chase reached player (-24.53341, -3.333089)
+PASS chase reached player (0.949748, 25.21656)
+PASS wall-adjacent target reached
+RESULT navigation checks=6 failures=0
+
+res://tests/unit/test_content.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS valid typed definition graph
+PASS nested skill/enemy definitions indexed
+PASS returned deep copy cannot mutate registry
+PASS source cannot mutate registry snapshot
+PASS duplicate IDs rejected
+PASS failed validation leaves no partial index
+PASS empty reference rejected
+PASS missing rank rejected
+PASS negative cooldown rejected
+PASS nonfinite cooldown rejected
+PASS ultimate max rank enforced
+PASS unlock slot mapping enforced
+PASS missing executor rejected
+PASS tags cannot fabricate executor capabilities
+PASS dependency cycle rejected
+PASS passive rank 6 rejected
+PASS missing effect rank rejected
+PASS missing requirement ID rejected
+PASS augment prerequisite cycle rejected
+PASS untyped content edge rejected
+PASS unsafe spawn radius rejected
+PASS invalid boss phase order rejected
+PASS out of range actor stats rejected
+PASS typed resource saves
+PASS typed resource reload validates
+PASS nested rank type retained after serialization
+PASS disk catalog loads
+PASS disk map is typed
+PASS missing catalog fails closed
+PASS spawn config validates exclusion radius
+PASS progression validates orb minimum lifetime
+RESULT content: checks=31 failures=0
+
+res://tests/unit/test_rng.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS same seed/state sequence 0/maps
+PASS same seed/state sequence 0/obstacles
+PASS same seed/state sequence 0/spawns
+PASS same seed/state sequence 0/offers
+PASS same seed/state sequence 0/combat
+PASS same seed/state sequence 20261015/maps
+PASS same seed/state sequence 20261015/obstacles
+PASS same seed/state sequence 20261015/spawns
+PASS same seed/state sequence 20261015/offers
+PASS same seed/state sequence 20261015/combat
+PASS same seed/state sequence -42/maps
+PASS same seed/state sequence -42/obstacles
+PASS same seed/state sequence -42/spawns
+PASS same seed/state sequence -42/offers
+PASS same seed/state sequence -42/combat
+PASS same seed/state sequence 9223372036854775807/maps
+PASS same seed/state sequence 9223372036854775807/obstacles
+PASS same seed/state sequence 9223372036854775807/spawns
+PASS same seed/state sequence 9223372036854775807/offers
+PASS same seed/state sequence 9223372036854775807/combat
+PASS combat consumption does not perturb maps
+PASS combat consumption does not perturb obstacles
+PASS combat consumption does not perturb spawns
+PASS combat consumption does not perturb offers
+PASS RNG state restore accepted
+PASS restored state continues exact sequence
+PASS partial restore rejected
+PASS failed restore is atomic
+PASS different seeds differ
+PASS different named streams differ
+PASS unknown stream fails closed
+PASS run state isolated
+PASS run initializes deterministically
+PASS seed is available for debug display
+RESULT RNG: checks=34 failures=0
+

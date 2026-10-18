@@ -1,0 +1,49 @@
+{
+  "baseline": "8ea19b3",
+  "backup": "D:\\SelfProject\\RougeLite\\.local-data\\combat_vfx_fix_20261017_201538",
+  "files": [
+    {
+      "path": "scripts/combat/control_mage_runtime.gd",
+      "sha256": "bb7fbb35a8cbe9f3984de9231ed06f1e8d132846b3dbfd6f82b8a345b4924433"
+    },
+    {
+      "path": "scripts/ui/mapped_actor_effects.gd",
+      "sha256": "2444a0a69d3fcb1fe72660f490d58284ef1ec4dd21d26f1a258989e0e1d2c2fe"
+    },
+    {
+      "path": "scripts/ui/mapped_sprite_effect.gd",
+      "sha256": "606248851247a1b128c5ff3b6c058ba327eec91742cc89e59a9430380916e694"
+    },
+    {
+      "path": "scripts/ui/tactical_actor_effects.gd",
+      "sha256": "8ab9ead51e416440cba02fad31fa0bdc374131842a6d7196baf939440feebac8"
+    },
+    {
+      "path": "scripts/ui/tactical_visual.gd",
+      "sha256": "f0ad2c051ee9e63fdc76310ceaf14103de770103703bfb84c164e4eeb5b29ee9"
+    },
+    {
+      "path": "tests/integration/test_viridian.gd",
+      "sha256": "59f0547291462d56168f4c1bb0a76a0d16b592f948273b1e6e0e7f06411c7dc3"
+    },
+    {
+      "path": "tests/integration/test_graveshade.gd",
+      "sha256": "030d81643c883cdbaba79444037307ee08be1c1b2f73923a06f396b98211720d"
+    },
+    {
+      "path": "docs/04_TASKS.md",
+      "sha256": "19dad079b31de793b4d839b48626f47212b635d3ad91dffb38fca48089b0bccf"
+    },
+    {
+      "path": "docs/WORK_LOG.md",
+      "sha256": "a5e875b47681a9fd475e3ece0466a841896adc7577418e518feb7a768aa4b36b"
+    }
+  ],
+  "verification": {
+    "doom_gui_checks": 79,
+    "punisher_gui_checks": 81,
+    "confirmed_regression_suites": 45,
+    "unconfirmed_suite": "test_bound_offers.gd",
+    "visual_acceptance": "pending"
+  }
+}

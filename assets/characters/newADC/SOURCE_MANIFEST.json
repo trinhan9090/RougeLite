@@ -1,0 +1,38 @@
+{
+  "source_archive": "marvel P.rar",
+  "source_root": "Punisher",
+  "source_character": "Punisher by RAHLONNIR (patch by Candido159)",
+  "license": "unverified; prototype-only until permission established",
+  "source_move_list": "MOVELIST.txt",
+  "import_status": "not visually decoded",
+  "action_declarations": 204,
+  "state_records": 114,
+  "files": {
+    "Punisher.def": {
+      "size": 928,
+      "sha256": "515bee65f393d1c940dd009980752af70b1ca7ddf54e0fa99f9b284415768028"
+    },
+    "P.sff": {
+      "size": 5974383,
+      "sha256": "dd187a79c447526d9488404220a7efaff9d935c5dbad4ce70e12479deefed2ce"
+    },
+    "P.snd": {
+      "size": 12833218,
+      "sha256": "3f16f6a3f80fe8241ca807169332fb34cee962e68afa8fc7fadf760ca51b5387"
+    },
+    "P.cmd": {
+      "size": 44211,
+      "sha256": "795fdbb9fa9b6cb82d0db9db5c5e96e45ae167f464f5c93654e897dc95561be6"
+    },
+    "P.air": {
+      "size": 53124,
+      "sha256": "7af7aa398b6f93f642def1ffa04c2b6c558d21c79cc5fac01481a7f58d9fc7fb"
+    }
+  },
+  "source_confidence": {
+    "moveset": "VERIFIED_TEXT",
+    "skill_to_state": "TO_BE_MAPPED",
+    "sprite_visuals": "TO_BE_VERIFIED",
+    "sound_content": "TO_BE_VERIFIED"
+  }
+}

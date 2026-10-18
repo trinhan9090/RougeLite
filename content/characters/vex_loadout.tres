@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="CombatLoadoutDefinition" format=3]
 
-[ext_resource type="SpriteFrames" path="res://assets/characters/vex/frames.tres" id="art_frames"]
+[ext_resource type="SpriteFrames" path="res://assets/art_v3/characters/vex/frames.tres" id="art_frames"]
 
 [ext_resource type="Script" path="res://scripts/data/combat_loadout_definition.gd" id="1"]
 [ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="1_tff6j"]
@@ -302,6 +302,7 @@ display_name = "Bullet Storm"
 
 [resource]
 script = ExtResource("1")
+cast_origin_offset = Vector2(0, -18)
 character_id = &"character.vex"
 art_frames = ExtResource("art_frames")
 class_id = &"adc"

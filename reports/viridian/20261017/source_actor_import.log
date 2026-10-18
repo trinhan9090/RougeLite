@@ -1,0 +1,94 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Registering global classes... (9 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | ControlMageRuntime[39m[0m
+[  10% ] [90m[1mupdate_scripts_classes[22m | ControlMageExecutor[39m[0m
+[  20% ] [90m[1mupdate_scripts_classes[22m | ActorSprite[39m[0m
+[  30% ] [90m[1mupdate_scripts_classes[22m | MappedActorEffects[39m[0m
+[  40% ] [90m[1mupdate_scripts_classes[22m | MappedSpriteEffect[39m[0m
+[  50% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  60% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  70% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  80% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started Scanning actions... (36 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | actor_basic.png[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | actor_cast_i.png[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | actor_cast_j.png[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | actor_cast_k.png[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | actor_cast_l.png[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | actor_death.png[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | actor_hit.png[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | actor_idle.png[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | actor_run.png[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | beam_0.png[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | beam_1.png[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | beam_2.png[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | beam_3.png[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | beam_4.png[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | beam_5.png[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | beam_6.png[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | bolt_0.png[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | bolt_1.png[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | bolt_2.png[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | bolt_3.png[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | bolt_4.png[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | bolt_5.png[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | orb_0.png[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | prison_0.png[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | prison_1.png[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | prison_2.png[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | prison_3.png[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | ultimate_0.png[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | ultimate_1.png[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | ultimate_2.png[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | ultimate_3.png[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | ultimate_4.png[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | ultimate_5.png[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | ART_ASSET_LEDGER_TEMPLATE.csv[39m[0m
+[  91% ] [90m[1m_update_scan_actions[22m | emerald_hit.wav[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | emerald_shot.wav[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (9 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  10% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  30% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  50% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing pre-reimport operations...[39m[0m
+[   0% ] [90m[1mreimport[22m | actor_basic.png[39m[0m
+[  10% ] [90m[1mreimport[22m | actor_cast_i.png[39m[0m
+[  20% ] [90m[1mreimport[22m | actor_cast_j.png[39m[0m
+[  30% ] [90m[1mreimport[22m | actor_cast_k.png[39m[0m
+[  40% ] [90m[1mreimport[22m | actor_cast_l.png[39m[0m
+[  50% ] [90m[1mreimport[22m | actor_death.png[39m[0m
+[  60% ] [90m[1mreimport[22m | actor_hit.png[39m[0m
+[  70% ] [90m[1mreimport[22m | actor_idle.png[39m[0m
+[  80% ] [90m[1mreimport[22m | actor_run.png[39m[0m
+[  90% ] [90m[1mreimport[22m | Finalizing Asset Import...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (9 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing post-reimport operations...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m

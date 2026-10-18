@@ -1,0 +1,15 @@
+{
+  "sequences": "res://assets/private_viridian/effects.json",
+  "skills": {
+    "skill.viridian.basic": "bolt",
+    "skill.viridian.j": "lance",
+    "skill.viridian.k": "prison",
+    "skill.viridian.l": "orbit",
+    "skill.viridian.i": "cataclysm"
+  },
+  "bolt_size": [
+    22,
+    11
+  ],
+  "basic_impact_size": 16
+}

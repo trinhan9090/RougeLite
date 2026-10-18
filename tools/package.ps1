@@ -16,7 +16,7 @@ set "APPDATA=%~dp0userdata"
 start "" "%~dp0EndlessSurvival.exe" --main-pack "%~dp0EndlessSurvival.pck" %*
 '@ | Set-Content -LiteralPath (Join-Path $releaseDir 'Play.cmd') -Encoding ascii
 @'
-ENDLESS SURVIVAL RPG - WINDOWS DEMO
+ENDLESS SURVIVAL RPG - THREE HEROES PIXEL V3 FIX03 REVIEW
 
 Extract the entire folder. Double-click Play.cmd (or EndlessSurvival.exe).
 No Godot installation or PowerShell7 is needed. Offline, keyboard/mouse.
@@ -29,6 +29,9 @@ change map, keep upgrades, restore15% HP and gain2s spawn protection.
 Retry resets the run while preserving control settings. Reroll1 per10 levels,
 max3 stored. Original procedural pixel characters/tiles/VFX and synthetic sounds
 are prototype demo art. CHARACTER includes a real-executor Art Preview.
+Astra, Vex and Boros use the original 2D pixel v3 pipeline and shared VFX.
+Enemy damage receivers follow the torso, separate from navigation colliders.
+Concept-fidelity review is PENDING owner approval.
 
 This package uses the official portable Godot4.7.2 runtime plus an exported PCK.
 The runtime is the full official executable because stripped export templates
@@ -43,10 +46,15 @@ EndlessSurvival_console.exe --headless --main-pack EndlessSurvival.pck -- --smok
 '@ | Set-Content -LiteralPath (Join-Path $releaseDir 'README.txt') -Encoding utf8
 Copy-Item -LiteralPath (Join-Path $ProjectRoot 'docs/licenses/GODOT_LICENSE.txt'),(Join-Path $ProjectRoot 'docs/licenses/GODOT_THIRD_PARTY.json'),(Join-Path $ProjectRoot 'LICENSE_PROJECT.txt') -Destination $releaseDir -Force
 Copy-Item -LiteralPath (Join-Path $ProjectRoot 'ASSET_LICENSES.md'),(Join-Path $ProjectRoot 'docs/art_asset_ledger.csv') -Destination $releaseDir -Force
+$licenseDir = Join-Path $releaseDir 'licenses'
+New-Item -ItemType Directory -Force $licenseDir | Out-Null
+Get-ChildItem -LiteralPath (Join-Path $ProjectRoot 'licenses') -File |
+    Where-Object { $_.Extension -in @('.txt','.md','.csv') } |
+    Copy-Item -Destination $licenseDir -Force
 Invoke-CheckedGodot (Join-Path $releaseDir 'EndlessSurvival_console.exe') @('--headless','--main-pack',(Join-Path $releaseDir 'EndlessSurvival.pck'),'--','--smoke-release','--pack-check') 'm5-release-smoke.log' -TimeoutSeconds 120 -WorkingDirectory $releaseDir
 $smoke = Get-Content -LiteralPath (Join-Path $ProjectRoot 'docs/evidence/m5-release-smoke.log') -Raw
 if (-not $smoke.Contains('RELEASE_SMOKE_OK profiles=3 boss_victories=3')) { throw 'Packaged acceptance marker missing' }
 $releaseZip = Join-Path $ProjectRoot 'builds/EndlessSurvival-Windows.zip'
-Compress-Archive -LiteralPath $releaseDir -DestinationPath $releaseZip -Force
+& (Join-Path $PSScriptRoot 'release_archive.ps1') -ReleaseDir $releaseDir -ArchivePath $releaseZip
 Write-Output "WINDOWS_PACKAGE=$releaseZip"
 

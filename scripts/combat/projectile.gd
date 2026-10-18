@@ -17,7 +17,8 @@ var projectile_id: int = 0
 var _crit_pierce_applied: bool = false
 
 func configure(combat: CombatService, source: Actor, target: Actor, rank: SkillRankDefinition, context: CombatContext) -> void:
-	configure_direction(combat, source, target, rank, context, source.global_position.direction_to(TargetingService.intercept_point(source.global_position,target,rank.projectile_speed)), 0.0, null)
+	var origin: Vector2 = combat.cast_origin(source)
+	configure_direction(combat, source, target, rank, context, origin.direction_to(TargetingService.intercept_point(origin,target,rank.projectile_speed)), 0.0, null)
 	_legacy = true
 
 func configure_direction(combat: CombatService, source: Actor, target: Actor, rank: SkillRankDefinition, context: CombatContext, direction: Vector2, steering: float, status: StatusEffectDefinition) -> void:
@@ -49,28 +50,40 @@ func _physics_process(delta: float) -> void:
 			var nearest: float = _distance_left * _distance_left
 			for candidate: Actor in _combat.actors():
 				if candidate.team == source.team or _hits.has(candidate.actor_id): continue
-				var distance_sq: float = global_position.distance_squared_to(candidate.global_position)
+				var distance_sq: float = global_position.distance_squared_to(candidate.hit_position())
 				if distance_sq < nearest:
 					nearest = distance_sq
 					target = candidate
 			_target = weakref(target) if target != null else null
 		if target != null:
-			var desired: Vector2 = (target.global_position - global_position).normalized()
+			var desired: Vector2 = (target.hit_position() - global_position).normalized()
 			_direction = desired if _legacy else _direction.rotated(clampf(_direction.angle_to(desired), -_steering * TAU * delta, _steering * TAU * delta))
 	var distance: float = minf(_rank.projectile_speed * delta, _distance_left)
-	if _legacy: distance = minf(distance, global_position.distance_to(target.global_position))
+	if _legacy: distance = minf(distance, global_position.distance_to(target.hit_position()))
 	var next: Vector2 = global_position + _direction * distance
 	# A bounded sweep can pass through several colliders in one physics frame.
-	for iteration in range(_rank.pierce_count + 2):
-		var query := PhysicsRayQueryParameters2D.create(global_position, next, (2 if source.team == 1 else 1) | 4)
+	for iteration in range(2 * (_rank.pierce_count + 2)):
+		var query := PhysicsRayQueryParameters2D.create(global_position, next, (2|16 if source.team == 1 else 1|8) | 4)
+		query.collide_with_areas=true
+		# A moving target can enter the segment's starting point between ticks.
+		query.hit_from_inside = true
 		query.exclude = _excluded
 		var collision: Dictionary = get_world_2d().direct_space_state.intersect_ray(query)
 		if collision.is_empty(): break
-		var actor: Actor = collision.collider as Actor
+		var receiver: Object=collision.collider
+		var actor: Actor = receiver.actor if receiver is ActorHurtbox else receiver as Actor
+		if receiver is Actor and is_instance_valid(actor.hurtbox):
+			_excluded.append(actor.get_rid())
+			continue
 		if actor == null:
 			queue_free()
 			return
-		_excluded.append(actor.get_rid())
+		_excluded.append(receiver.get_rid())
+		if receiver is ActorHurtbox: _excluded.append(actor.get_rid())
+		if actor==source or actor.team==source.team or not actor.health.is_alive(): continue
+		if not _combat.unobstructed(global_position,actor.global_position):
+			queue_free()
+			return
 		if not _hits.has(actor.actor_id):
 			_hits[actor.actor_id] = true
 			var result: DamageResult = _combat.hit(source, actor, _rank, _context, projectile_id, _status)

@@ -1,0 +1,41 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Punisher by RAHLONNIR"
+displayname ="Punisher"
+versiondate =12/21/15
+mugenversion =1.0
+author ="RAHLONNIR" (Patch by Candido159)
+pal.defaults =1,2,3,4,5,6,7,8,9,10,11
+
+[Files]
+sprite =P.sff
+anim =P.air
+sound =P.snd
+cmd =P.cmd
+cns =P.cns
+stcommon =common1.cns
+st =P.cns
+pal1=modern.act
+pal2=thunderbolt.act
+pal3=movie.act
+pal4=SpiderTAS.act
+pal5=whiteshirt.act
+pal6=random.act
+pal7=classic.act
+pal8=war.act
+pal9=classicblue.act
+pal10=Topless.act
+pal11=1989.act
+
+
+st1=throws.cns
+st2=specials.cns
+st3=hypers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

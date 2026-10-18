@@ -1,0 +1,124 @@
+{
+  "source": "MVC2_DrDoom-AI(Maro).zip",
+  "archive_files": [
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/1.act",
+      "size": 768
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/2.act",
+      "size": 768
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/3.act",
+      "size": 768
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/4.act",
+      "size": 768
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/5.act",
+      "size": 768
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/6.act",
+      "size": 768
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/7.act",
+      "size": 768
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/8.act",
+      "size": 768
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/common___1.cns",
+      "size": 41477
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/Maro/AI.cns",
+      "size": 66834
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/Maro/AIcommon.cns",
+      "size": 46988
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/Maro/AIconfig.cns",
+      "size": 29990
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/Maro/MVC2_DrDoom.air",
+      "size": 105658
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/Maro/MVC2_DrDoom.cmd",
+      "size": 27308
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/Maro/MVC2_DrDoom.cns",
+      "size": 333967
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/Maro/MVC2_DrDoom_-2.cns",
+      "size": 10641
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/Maro/MVC2_DrDoom_overide.cns",
+      "size": 51406
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/MVC2_DrDoom.air",
+      "size": 103380
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/MVC2_DrDoom.cns",
+      "size": 338781
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/MVC2_DrDoom.def",
+      "size": 809
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/MVC2_DrDoom.sff",
+      "size": 7242578
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/MVC2_DrDoom.snd",
+      "size": 3167918
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/MVC2_DrDoom_-2.cns",
+      "size": 10619
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/MVC2_DrDoom_-3.cns",
+      "size": 4583
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/MVC2_DrDoom_Easy.cmd",
+      "size": 75085
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/MVC2_DrDoom_Hard.cmd",
+      "size": 75085
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/MVC2_DrDoom_Medium.cmd",
+      "size": 75085
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/MVC2_DrDoom_overide.cns",
+      "size": 48554
+    },
+    {
+      "path": "MVC2_DrDoom-AI(Maro)/MVC2_DrDoom-AI(Maro).def",
+      "size": 794
+    }
+  ],
+  "base_states_detected": 250,
+  "base_air_action_declarations": 326,
+  "verification": "Source metadata only; SFF/SND have not been visually/audibly decoded"
+}

@@ -9,6 +9,8 @@
     "color": "#efcf8f",
     "style": "bullet",
     "geometry": "runtime snapshot",
-    "prototype": true
+    "prototype": true,
+    "renderer": "pixel_v3",
+    "revision": "three-heroes-v3"
   }
 }

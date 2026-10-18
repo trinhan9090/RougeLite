@@ -1,0 +1,24 @@
+{
+  "task": "ATYU-AUDIO-01",
+  "status": "TECH_PASS",
+  "human_listening_approval": "PENDING",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "branch": "feat/atyu-source-audio",
+  "extracted_wav_occurrences": 134,
+  "runtime_wavs": 11,
+  "python_tests": 2,
+  "evidence": {
+    "canonical": "audio_regression.log",
+    "source_focused": "audio_focused_final.log",
+    "live_headless": "audio_live_headless_final.log",
+    "live_gui": "audio_live_gui_final.log",
+    "live_atyu_regression": "audio_live_atyu_regression.log"
+  },
+  "qa_media_exported": false,
+  "known_limitations": [
+    "K/I absent source sound IDs explicitly substituted with available same-package audio",
+    "Shared1,23 impact sample",
+    "Private mod redistribution rights unverified",
+    "No audio device capture or human listening claim"
+  ]
+}

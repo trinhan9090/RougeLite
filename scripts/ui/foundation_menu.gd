@@ -10,8 +10,12 @@ var _selected_loadout: StringName = &"loadout.astra"
 var _selected_label: Label
 var _seed_input: LineEdit
 var _selection_buttons: Dictionary[StringName, Button] = {}
+var _character_details: Dictionary[StringName, Control] = {}
+var _avatar_buttons: Dictionary[StringName, Button] = {}
 
 func _ready() -> void:
+	call_deferred("_pixel_layout")
+	get_viewport().size_changed.connect(_pixel_layout)
 	var registry := get_node("/root/ContentRegistry") as ContentRegistryService
 	var errors: PackedStringArray = registry.validate_all()
 	if not errors.is_empty():
@@ -36,13 +40,14 @@ func _ready() -> void:
 	_add_label(home, "Move. Survive. Evolve.", 20)
 	_selected_label = _add_label(home, "Selected: Astra / MAGE", 18)
 	_selected_label.name = "SelectedCharacter"
-	for title: String in ["PLAY", "CHARACTER", "SETTING"]:
+	for title: String in ["PLAY", "TRAINING", "CHARACTER", "SETTING"]:
 		var button := Button.new()
 		button.text = title
 		button.name = title.capitalize() + "Button"
 		button.custom_minimum_size.y = 64
 		home.add_child(button)
 		if title == "PLAY": button.pressed.connect(_start_run)
+		elif title == "TRAINING": button.pressed.connect(func() -> void: _start_run(true))
 		else:
 			var page := StringName(title)
 			button.pressed.connect(func() -> void: _show_page(page))
@@ -112,9 +117,9 @@ func _ready() -> void:
 	key_grid.add_theme_constant_override("h_separation", 20)
 	key_grid.add_theme_constant_override("v_separation", 6)
 	column.add_child(key_grid)
-	for slot in range(1, 5):
-		var action := StringName("active_%d" % slot)
-		_add_label(key_grid, tr("Active slot %d") % slot, 16)
+	for slot in range(0, 5):
+		var action := StringName("active_%d" % slot) if slot>0 else &"basic_attack"
+		_add_label(key_grid, tr("Active slot %d") % slot if slot>0 else "Đánh thường (Space)", 16)
 		var button := Button.new()
 		button.name = "Rebind%d" % slot
 		button.custom_minimum_size.x = 260
@@ -144,13 +149,46 @@ func _ready() -> void:
 	art_preview.pressed.connect(func() -> void: get_tree().change_scene_to_file("res://scenes/art_preview.tscn"))
 	characters.add_child(art_preview)
 	var play_row := HBoxContainer.new()
+	var avatar_grid := GridContainer.new()
+	avatar_grid.name = "CharacterSlots"
+	avatar_grid.columns = 10
+	avatar_grid.add_theme_constant_override("h_separation", 10)
+	avatar_grid.add_theme_constant_override("v_separation", 10)
+	characters.add_child(avatar_grid)
+	for index in range(20):
+		var avatar := Button.new()
+		avatar.name = "Slot%d" % index
+		avatar.custom_minimum_size = Vector2(76,76)
+		avatar.expand_icon = true
+		avatar.add_theme_constant_override("icon_max_width",64)
+		avatar_grid.add_child(avatar)
+		if index >= 6:
+			avatar.text = "?"
+			avatar.disabled = true
+			avatar.tooltip_text = "Nhân vật chưa mở"
+			continue
+		var hero: String = ["astra","vex","boros","atyu","viridian","graveshade"][index]
+		var profile := registry.definition_copy(StringName("loadout."+hero)) as CombatLoadoutDefinition
+		var frames: SpriteFrames = profile.art_frames if profile.art_frames != null else profile.visual_frames
+		var idle: StringName = &"idle_south" if frames.has_animation(&"idle_south") else &"idle"
+		var texture: Texture2D = frames.get_frame_texture(idle,0)
+		var cropped := AtlasTexture.new()
+		cropped.atlas = texture
+		cropped.region = texture.get_image().get_used_rect()
+		avatar.icon = cropped
+		avatar.tooltip_text = profile.display_name
+		avatar.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
+		var id := StringName("loadout."+hero)
+		_avatar_buttons[id] = avatar
+		avatar.pressed.connect(func() -> void: _preview_character(id))
 	play_row.alignment = BoxContainer.ALIGNMENT_CENTER
 	play_row.add_theme_constant_override("separation", 12)
 	characters.add_child(play_row)
-	for character_id: String in ["astra", "vex", "boros"]:
+	for character_id: String in ["astra", "vex", "boros", "atyu", "viridian", "graveshade"]:
 		var profile := registry.definition_copy(StringName("loadout." + character_id)) as CombatLoadoutDefinition
 		var card := VBoxContainer.new()
-		card.custom_minimum_size.x = 290
+		card.custom_minimum_size.x = 840
+		_character_details[StringName("loadout."+character_id)] = card
 		play_row.add_child(card)
 		_add_label(card, "%s / %s" % [profile.display_name, tr(String(profile.class_id).to_upper())], 22)
 		var portrait := Control.new()
@@ -172,6 +210,10 @@ func _ready() -> void:
 			var skill: SkillDefinition = profile.active_skills[slot]
 			var label := _add_label(card, tr("%s - %s\nLv%d | Max rank %d | CD %.1fs") % [["J","K","L","I"][slot],tr(skill.display_name),skill.unlock_level,skill.max_rank,skill.rank_scaling[0].cooldown],15)
 			label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+			var ranks := PackedStringArray()
+			for rank: SkillRankDefinition in skill.rank_scaling:
+				ranks.append("Hạng %d: sát thương %.0f | tầm %.0f | bán kính %.0f | thời lượng %.1fs" % [rank.rank,rank.damage,rank.range_px,rank.radius_px,rank.duration])
+			label.tooltip_text = "\n".join(ranks)
 		var play := Button.new()
 		play.name = "Select" + character_id.capitalize()
 		play.custom_minimum_size.y = 44
@@ -180,6 +222,7 @@ func _ready() -> void:
 		card.add_child(play)
 		_selection_buttons[id] = play
 	_select_character(_selected_loadout)
+	_preview_character(_selected_loadout)
 	_show_page(&"HOME")
 	var quit_button := Button.new()
 	quit_button.text = "Quit"
@@ -202,13 +245,21 @@ func _select_character(id: StringName) -> void:
 	var registry := get_node("/root/ContentRegistry") as ContentRegistryService
 	var profile := registry.definition_copy(id) as CombatLoadoutDefinition
 	_selected_label.text = tr("Selected: %s / %s") % [profile.display_name, tr(String(profile.class_id).to_upper())]
+	_preview_character(id)
 
-func _start_run() -> void:
+func _preview_character(id: StringName) -> void:
+	for key: StringName in _character_details:
+		_character_details[key].visible = key == id
+	for key: StringName in _avatar_buttons:
+		_avatar_buttons[key].modulate = Color.WHITE if key == id else Color(.65,.65,.65)
+
+func _start_run(training: bool = false) -> void:
 	if not _seed_input.text.is_valid_int():
 		_show_page(&"SETTING")
 		_status.text = "Seed must be a signed integer."
 		return
-	var run := (load("res://scenes/run/combat_run.tscn") as PackedScene).instantiate() as CombatRunRoot
+	var scene: String = "res://scenes/run/training_run.tscn" if training else "res://scenes/run/combat_run.tscn"
+	var run := (load(scene) as PackedScene).instantiate() as CombatRunRoot
 	run.loadout_id = _selected_loadout
 	run.run_seed = _seed_input.text.to_int()
 	get_tree().root.add_child(run)
@@ -250,3 +301,8 @@ func _add_label(parent: Control, value: String, size: int) -> Label:
 
 
 
+
+func _pixel_layout() -> void:
+	set_anchors_and_offsets_preset(Control.PRESET_TOP_LEFT)
+	size = get_viewport_rect().size
+	scale = Vector2.ONE

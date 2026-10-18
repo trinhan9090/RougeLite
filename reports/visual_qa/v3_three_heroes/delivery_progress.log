@@ -1,0 +1,13 @@
+PROMOTED 912 files; rollback D:\SelfProject\RougeLite\.local-data\three_heroes_20261017_061203
+PASS live_import.log
+PASS live_test_torso_hurtbox.log
+PASS live_test_roster_pixel.log
+PASS live_test_astra_cast_corrections.log
+PASS package.log
+Traceback (most recent call last):
+  File "D:\SelfProject\RougeLite\worktrees\visual_pipeline_v2\tools\art_v3\deliver_roster.py", line 25, in <module>
+    run([str(release/'EndlessSurvival_console.exe'),'--headless','--main-pack',str(release/'EndlessSurvival.pck'),'--script',f'res://tests/integration/{suite}.gd'],'packed_'+suite+'.log',cwd=release)
+  File "D:\SelfProject\RougeLite\worktrees\visual_pipeline_v2\tools\art_v3\deliver_roster.py", line 17, in run
+    assert p.returncode==0 and 'SCRIPT ERROR:' not in text and 'ERROR:' not in text,(name,p.returncode,text[-2500:])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('packed_test_torso_hurtbox.log', 1, "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\r\n\r\nERROR: Attempt to open script 'res://tests/integration/test_torso_hurtbox.gd' resulted in error 'File not found'.\r\n   at: load_source_code (modules/gdscript/gdscript.cpp:1139)\r\nERROR: Failed loading resource: res://tests/integration/test_torso_hurtbox.gd.\r\n   at: _load (core/io/resource_loader.cpp:317)\r\nERROR: Can't load script: res://tests/integration/test_torso_hurtbox.gd\r\n   at: start (main/main.cpp:4370)\r\n")

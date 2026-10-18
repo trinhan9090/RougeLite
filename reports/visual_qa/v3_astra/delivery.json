@@ -1,0 +1,18 @@
+{
+  "status": "TECH_PASSED; HUMAN_ART_REVIEW_PENDING",
+  "gates": "A0-A5 Astra review candidate; A6-A10 not accepted",
+  "branch": "feature/visual-v3-astra",
+  "source_commit": "654c42495b0de844af87ff25d264f4f8b169efd5",
+  "regression_suites": 35,
+  "failed_suites": 0,
+  "pixel_checks": 1036,
+  "live_and_packaged_play_checks": 46,
+  "packaged_vfx_checks": 35,
+  "protected_gameplay_files_verified": 82,
+  "launch": "D:/SelfProject/RougeLite/Launch.cmd",
+  "build": "D:\\SelfProject\\RougeLite\\builds\\EndlessSurvival-Windows.zip",
+  "zip_bytes": 86781446,
+  "zip_sha256": "c1039da76f669a8cec7f0a3dfc76650ca306c6349bb8f8b6dd12390320b662c5",
+  "pck_sha256": "86608a2e799134d2d1128c47b8f6ac4a62621d3da97c4603f52fbfe3bbe723ab",
+  "system_media_export": "BLOCKED: Pictures/Videos write permission denied; media preserved in project reports"
+}

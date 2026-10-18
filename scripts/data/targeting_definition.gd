@@ -3,6 +3,7 @@ extends Resource
 
 @export_enum("nearest", "cursor", "self", "movement") var policy: String = "nearest"
 @export var acquisition_radius: float = 0.0
+@export var prefer_nearest_with_facing_fallback: bool = false
 
 func validate() -> PackedStringArray:
 	var errors := PackedStringArray()

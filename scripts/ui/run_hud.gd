@@ -3,6 +3,8 @@ extends Control
 
 var _hp: ProgressBar
 var _xp: ProgressBar
+var _hp_value: Label
+var _xp_value: Label
 var _label: Label
 var _hint: Label
 var _skills: Array[Button] = []
@@ -23,10 +25,14 @@ func _ready() -> void:
 	_hp.name = "HpBar"
 	_hp.custom_minimum_size = Vector2(500, 22)
 	panel.add_child(_hp)
+	_hp.show_percentage=false
+	_hp_value=_numeric_label(_hp,"HpValue")
 	_xp = ProgressBar.new()
 	_xp.name = "XpBar"
-	_xp.custom_minimum_size = Vector2(500, 12)
+	_xp.custom_minimum_size = Vector2(500, 22)
 	panel.add_child(_xp)
+	_xp.show_percentage=false
+	_xp_value=_numeric_label(_xp,"XpValue")
 	_hint = Label.new()
 	_hint.add_theme_color_override("font_color", Color("a1b5cc"))
 	panel.add_child(_hint)
@@ -46,9 +52,24 @@ func present(hp: float, maximum: float, xp: int, threshold: int, level: int, see
 	_label.text = tr("%s   |   Lv %d   |   Kills %d") % [character, level, kills]
 	_hp.max_value = maximum
 	_hp.value = hp
+	_hp_value.text="%.1f / %.1f"%[hp,maximum]
 	_xp.max_value = threshold
 	_xp.value = xp
+	_xp_value.text="%d / %d"%[xp,threshold]
 	_hint.text = tr("WASD move  /  Esc pause  |  %s  |  Seed %d") % [tr(String(mode)), seed]
+	var settings := get_node("/root/AppSettings") as SettingsService
+	_hint.text += " | %s: đánh thường"%OS.get_keycode_string(settings.binding_for(&"basic_attack"))
+
+func _numeric_label(bar: ProgressBar,id: String) -> Label:
+	var label := Label.new()
+	label.name=id
+	label.mouse_filter=Control.MOUSE_FILTER_IGNORE
+	label.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	label.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
+	label.vertical_alignment=VERTICAL_ALIGNMENT_CENTER
+	label.add_theme_font_size_override("font_size",15)
+	bar.add_child(label)
+	return label
 
 func present_skills(controller: SkillController, settings: SettingsService) -> void:
 	var parts: PackedStringArray = []

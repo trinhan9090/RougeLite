@@ -1,0 +1,56 @@
+{
+  "spec_version": "3.0",
+  "asset_id": "astra",
+  "kind": "character",
+  "source_method": "pixel_layers",
+  "source_files": [],
+  "source_license": "ORIGINAL_CREATED_FOR_PROJECT",
+  "frame_canvas_px": [
+    64,
+    64
+  ],
+  "opaque_height_reference_px": 40,
+  "feet_anchor_px": [
+    32,
+    56
+  ],
+  "directions": [
+    "N",
+    "S",
+    "E",
+    "W"
+  ],
+  "palette": [
+    "#10182d",
+    "#244572",
+    "#6c9ce3",
+    "#e0ebfa",
+    "#d1aa65"
+  ],
+  "animations": {
+    "idle": {
+      "fps": 5,
+      "loop": true,
+      "frames": 6
+    },
+    "run": {
+      "fps": 10,
+      "loop": true,
+      "frames": 8
+    },
+    "basic": {
+      "fps": 12,
+      "loop": false,
+      "frames": 6
+    }
+  },
+  "godot_scene": "res://scenes/visual/characters/astra_visual.tscn",
+  "expected_events": [
+    "basic_attack",
+    "radiant_snare",
+    "prism_guard",
+    "solar_field",
+    "celestial_beam"
+  ],
+  "build_hash": "TO_BE_COMPUTED_BY_AGENT"
+}

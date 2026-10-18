@@ -1,0 +1,62 @@
+
+A - Low Slash
+
+B - Strong Slash
+
+C - Zangetsu
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Reiatsu Liberation 
+
+D,DB,B,a - Counter
+
+D,DF,F,b - Dark Speed Attack
+
+D,DB,B,b - Sword Tornado
+
+D,DF,F,c - Getsuga Tenshou
+
+D,DB,B,c - Reiatsu Explosion 
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Saigo no Getsuga Tenshou
+
+D,DF,F,D,DF,F,b+c - Saigo no Getsuga Tenshou: Mugetsu 
+
+TRANSFORMS:
+
+Down + S - Hollow Mask Mode
+
+
+Hollow Mask Mode Movelist:
+
+A - Low Slash
+
+B - Strong Slash
+
+C - Zangetsu
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Dark Speed Attack 
+
+D,DB,B,a - Crescend Getsuga Tenshou
+
+D,DF,F,b - Sword Slice
+
+D,DB,B,b - Sword Tornado
+
+D,DF,F,c - Getsuga Tenshou
+
+D,DB,B,c - Reiatsu Explosion 
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Saigo no Getsuga Tenshou
+

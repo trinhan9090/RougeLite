@@ -1,0 +1,84 @@
+PUNISHER 1.0 by RAHLONNIR
+
+MOVESET 
+
+6 buttons
+Crouching Strong Punch Launcher
+Crouching Strong Kick sweep
+Standing Strong Kick has a wall bounce
+
+Can cancel from normals to special
+Can cancel from special to hyper
+
+*MOVEMENT*
+
+Down,Up/up after launcher hits - Super Jump
+Fwd/Back while down - Recover
+Up/a+b while hit in air - Recover
+
+FF - Roll
+BB - HopBack
+
+Reload using start(CAN ONLY RELOAD ON AN EMPTY CLIP)
+
+Crouch+Start(TOGGLE BETWEEN grenade,tear gas, molotov)
+
+Fire gun using StandingStrongPunch,CrouchingStrongKick,JumpingStrongKick
+
+*MISC*
+
+PRESS START TO RELOAD
+WHEN OUT OF BULLETS HE SWITCHES TO MELEE ATTACKS
+THE ONES WITH GUN MOVES ARE "STANDING STRONG PUNCH,CROUCHGING STRONG KICK,JUMPING STRONG PUNCH"
+
+*Throw*
+
+FWD+z/c - BANG!, thrown forward
+BACK+z/c - BANG!, thrown back
+
+
+*Specials*
+
+Df,x - Beretta rush
+Df,y - Shotgun rush
+Df,z - Uzi rush
+
+Db,x/y/z - Fire in the hole(grenade/teargas/molotov)
+
+Df,a - AK-47 front fire
+Df,b - AK-47 diagonal fire
+Df,c - FN P90
+
+Db,a/b/c - Land Mine(CAN WALL BOUNCE)
+
+*Air Specials*
+
+Df,x/y/z - Knife
+Df,a/b/c - Fire in the hole(grenade/teargas/molotov) AIR
+
+*Hypers*
+
+Df,Df,PP - Crack Shot - 1k pwr
+Db,Db,PP - Eat Lead - 1k pwr
+
+Df,Df,KK - Bazooka - 2k pwr (Press x/y/z/a/b/c-FIRE)
+Db,Db,KK - Interrogation - 3k pwr (Press x/y/z - pistol whip a/b/c-knife)
+
+*PALETTE*
+
+X=P.act
+Y=Black.act
+Z=Grey.act
+A=snes.act
+B=Vibranium.act
+C=Navy.act
+
+START+X=Guerilla.act
+START+Y=Red.act
+START+Z=Green.act
+START+A=Blue.act
+START+B=Old.act
+START+C=Canada.act
+
+*AI WEAKNESS*
+WHEN YOU BLOCK HIS RUSHES OR NORMAL PUNCHES HE DOES A LITTLE FORWARD ROLL LEAVING HIMSELF OPEN FOR AN ATTACK

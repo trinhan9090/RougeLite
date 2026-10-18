@@ -1,0 +1,18 @@
+{
+  "status": "TECH_PASSED; direct source visual review pending",
+  "decoded_sprites": 3679,
+  "unique_sprite_keys": 3669,
+  "air_declarations": 684,
+  "frame_rows": 4916,
+  "missing_rows": 72,
+  "empty_rows": 160,
+  "python_tests": 8,
+  "browser_smoke": "source + live + LaunchAtyu.cmd",
+  "main_project": "import and scene boot passed; gameplay unchanged",
+  "media_exports": false,
+  "limitations": [
+    "not a MUGEN logic emulator",
+    "missing source sprites and malformed header flagged",
+    "no Atyu PLAY/top-down integration"
+  ]
+}

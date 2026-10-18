@@ -1,0 +1,20 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+DEBUG f=0 player=(0.0, 0.0) enemy=(60.0, 0.0) hp=35.0 velocity=(0.0, 0.0) xp=0
+BULLET (0.0, -22.0) dir=(0.938876, 0.344255)
+DEBUG f=10 player=(0.0, 0.0) enemy=(41.66668, 0.0) hp=35.0 velocity=(-110.0, 0.0) xp=0
+DEBUG f=20 player=(0.0, 0.0) enemy=(25.16668, 0.0) hp=35.0 velocity=(0.0, 0.0) xp=0
+DEBUG f=30 player=(0.0, 0.0) enemy=(25.16668, 0.0) hp=35.0 velocity=(0.0, 0.0) xp=0
+DEBUG f=40 player=(0.0, 0.0) enemy=(25.16668, 0.0) hp=35.0 velocity=(0.0, 0.0) xp=0
+DEBUG f=50 player=(0.0, 0.0) enemy=(25.16668, 0.0) hp=35.0 velocity=(0.0, 0.0) xp=0
+BULLET (0.0, -22.0) dir=(0.752886, 0.658151)
+DEBUG f=60 player=(0.0, 0.0) enemy=(25.16668, 0.0) hp=21.0 velocity=(0.0, 0.0) xp=0
+DEBUG f=70 player=(0.0, 0.0) enemy=(25.16668, 0.0) hp=21.0 velocity=(0.0, 0.0) xp=0
+DEBUG f=80 player=(0.0, 0.0) enemy=(25.16668, 0.0) hp=21.0 velocity=(0.0, 0.0) xp=0
+DEBUG f=90 player=(0.0, 0.0) enemy=(25.16668, 0.0) hp=21.0 velocity=(0.0, 0.0) xp=0
+DEBUG f=100 player=(0.0, 0.0) enemy=(25.16668, 0.0) hp=21.0 velocity=(0.0, 0.0) xp=0
+BULLET (0.0, -22.0) dir=(0.752886, 0.658151)
+DEBUG f=110 player=(0.0, 0.0) enemy=(25.16668, 0.0) hp=7.0 velocity=(0.0, 0.0) xp=0
+DEBUG f=120 player=(0.0, 0.0) enemy=(25.16668, 0.0) hp=7.0 velocity=(0.0, 0.0) xp=0
+DEBUG f=130 player=(0.0, 0.0) enemy=(25.16668, 0.0) hp=7.0 velocity=(0.0, 0.0) xp=0

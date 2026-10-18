@@ -1,0 +1,83 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+PASS T26 all content validates with sixth hero
+PASS T02 data ADC115HP210speed
+PASS T06 T07 actual source side-view body, no invented rear
+PASS T07 vertical controller aliases same original side artwork
+PASS T19 skills unlock3/6/9/11
+PASS T20 rank caps4/4/4/3
+PASS T08 nearest basic accepted
+PASS T08 basic15 actual hit nearest only
+PASS T09 no basic outside340
+PASS T10 J accepted
+PASS T10 J exactly5 native round events
+PASS T10 J native spread22degrees
+PASS T10 J5hit cap actual projectiles
+PASS T16 J cooldown enforced
+PASS J rank4 accepted
+PASS J7rounds max5target hits with exposed modifier
+PASS J rank4 EXPOSED after3confirmed hits
+PASS T11 K accepted
+PASS K .7s fuse telegraph before damage
+PASS T11 K80damage once per target
+PASS T11 no duplicate explosion hits
+PASS T12 grenade clamps to wall and cannot damage through obstacle
+PASS K rank4 two secondary blasts and3burn ticks
+PASS K bounded80+48burn+up to80secondary
+PASS T13 L accepted
+PASS T13 rank1two mines
+PASS L mines not armed before.5s
+PASS L real proximity trigger after arming
+PASS T13 mine owner cap6 evicts oldest without damage
+PASS T15 bounded chain detonates neighbor at mostonce
+PASS T14 expiry removes mine with no explosion
+PASS T16 I accepted
+PASS I .45s windup before rocket
+PASS T16 I one actual rocket then260AOE
+PASS T16 I28s cooldown enforced
+PASS T16 rank2+ three actual rockets
+PASS rank3exactly3cluster pulses
+PASS T17 at most2rocket explosions plus3boundedcluster ticks
+PASS T21 shared Split binds J
+PASS T21 Split rejected mines
+PASS T23 shared split stays bounded
+PASS T21 shared Echo binds active1
+PASS T21 shared Echo binds active2
+PASS T21 shared Echo binds active3
+PASS T21 shared Echo binds active4
+PASS J Echo test binds
+PASS T23 Echo J replays once with its own activation hit cap
+PASS T21 Split fails closed on grenade and rocket
+PASS Area expand binds ordnance2
+PASS Area expand binds ordnance3
+PASS Area expand binds ordnance4
+PASS T22 shared bidirectional conflict lock on real J runtime
+PASS T18 Manual never auto casts
+PASS T18 Auto uses same data executors
+PASS reset cleans ordnance/mines/timers
+COMBAT_RUN_STARTED loadout=loadout.graveshade seed=20261015
+TRAINING_READY hero=loadout.graveshade rank=1
+PASS T29 actual training source actor and effects bind
+PASS T05 source muzzle and tracer follow actual basic
+PASS T04 source gun cue, no S1 voice bank on basic
+PASS T29 actual source grenade mine rocket play in Godot
+PASS T28 bounded12voice64queue
+PASS T04 actual GUI AudioStreamPlayer2D playback
+PASS T24 pause freezes gameplay events
+COMBAT_RUN_STARTED loadout=loadout.graveshade seed=20261015
+TRAINING_READY hero=loadout.graveshade rank=1
+PASS training reset removes mines
+RUN_FOUNDATION seed=20261015 content=endless-demo-v1
+BOOT_OK milestone=M5
+PASS 20 character slots, six heroes and14unknown
+PASS T18 sixthhero selectable
+COMBAT_RUN_STARTED loadout=loadout.graveshade seed=20261015
+PASS actual selected sixthhero starts PLAY
+PASS PLAY keeps safe550spawn
+PASS current remappable physical J key casts in PLAY
+PASS burst projectile events do not reset source body animation everyround
+PASS actual PLAY Auto uses same accepted skills
+PASS T24 actual level-up modal pauses with exactly3 valid offers
+PASS T24 selected upgrade resumes sixthhero
+RESULT graveshade: checks=72 failures=0

@@ -1,0 +1,89 @@
+# Graveshade changes
+
+Branch:feat/graveshade-tactical-suppressor, baselineecc5b2c. RootLaunch source was promoted with SHA preflight and reversible backups; historical unrelated root edits preserved.
+
+- `.gitignore`
+- `ASSET_LICENSES.md`
+- `assets/characters/newADC/.gdignore`
+- `assets/private_graveshade/audio/cues.json`
+- `assets/private_graveshade/effects.json`
+- `assets/private_graveshade/frames.tres`
+- `assets/private_viridian/profile.json`
+- `content/catalog.tres`
+- `content/characters/graveshade_loadout.tres`
+- `content/characters/graveshade_stats.tres`
+- `content/skills/graveshade_basic.tres`
+- `docs/04_TASKS.md`
+- `docs/05_DECISIONS.md`
+- `docs/WORK_LOG.md`
+- `docs/adr/ADR-2026-011-graveshade-source-adapter.md`
+- `export_presets.cfg`
+- `reports/graveshade/actor_mapping.json`
+- `reports/graveshade/boot_initial.log`
+- `reports/graveshade/build_final.log`
+- `reports/graveshade/decoder_regression.log`
+- `reports/graveshade/deployment.json`
+- `reports/graveshade/focused.log`
+- `reports/graveshade/focused_delivery.log`
+- `reports/graveshade/focused_expanded.log`
+- `reports/graveshade/focused_final.log`
+- `reports/graveshade/focused_initial.log`
+- `reports/graveshade/focused_socket.log`
+- `reports/graveshade/import.log`
+- `reports/graveshade/import_socket.log`
+- `reports/graveshade/live_gui_final.log`
+- `reports/graveshade/live_import.log`
+- `reports/graveshade/live_import_final.log`
+- `reports/graveshade/mapping_evidence.json`
+- `reports/graveshade/python.log`
+- `reports/graveshade/python_final.log`
+- `reports/graveshade/quick_live.log`
+- `reports/graveshade/regression.log`
+- `reports/graveshade/regression_final.log`
+- `reports/graveshade/soak600.json`
+- `reports/graveshade/soak600.log`
+- `reports/graveshade/soak_initial.json`
+- `reports/graveshade/soak_initial.log`
+- `reports/graveshade/soak_quick.json`
+- `reports/graveshade/source_catalog.json`
+- `reports/graveshade/state_mapping.csv`
+- `reports/graveshade_blockers.md`
+- `reports/graveshade_source_audit.md`
+- `reports/graveshade_state_mapping.csv`
+- `reports/graveshade_tests.md`
+- `scripts/combat/payload_flight.gd`
+- `scripts/combat/payload_flight.gd.uid`
+- `scripts/combat/tactical_mine.gd`
+- `scripts/combat/tactical_mine.gd.uid`
+- `scripts/combat/tactical_runtime.gd`
+- `scripts/combat/tactical_runtime.gd.uid`
+- `scripts/core/combat_run_root.gd`
+- `scripts/data/socket_projectile_basic.gd`
+- `scripts/data/socket_projectile_basic.gd.uid`
+- `scripts/data/tactical_executor.gd`
+- `scripts/data/tactical_executor.gd.uid`
+- `scripts/training/training_panel.gd`
+- `scripts/ui/actor_sprite.gd`
+- `scripts/ui/foundation_menu.gd`
+- `scripts/ui/mapped_actor_effects.gd`
+- `scripts/ui/tactical_actor_effects.gd`
+- `scripts/ui/tactical_actor_effects.gd.uid`
+- `scripts/ui/tactical_visual.gd`
+- `scripts/ui/tactical_visual.gd.uid`
+- `tests/integration/soak_graveshade.gd`
+- `tests/integration/soak_graveshade.gd.uid`
+- `tests/integration/test_atyu.gd`
+- `tests/integration/test_graveshade.gd`
+- `tests/integration/test_graveshade.gd.uid`
+- `tests/integration/test_viridian.gd`
+- `tests/run_all.gd`
+- `tools/deploy_graveshade.py`
+- `tools/mugen_import/decode_sff.py`
+- `tools/mugen_import/graveshade_build.py`
+- `tools/mugen_import/graveshade_content.py`
+- `tools/mugen_import/test_graveshade.py`
+- `tools/mugen_import/viridian_build.py`
+
+Private generated runtime assets (not inGit):9sourcebody PNGstrips,81effectPNGframes,7sourceWAVfiles underassets/private_graveshade. Full700sprite/65sound extraction cache is quarantined/ignored underexperiments/graveshade/data. OriginalPunisher35files unchanged. No images/videos/recordings delivered as QA artifacts.
+
+Additional scoped files: `tools/mugen_import/audit_directory.py`, `docs/GRAVESHADE.md`. Pre-existing Viridian deployment journal/log dirt in the isolated source copy was preserved outside this commit.

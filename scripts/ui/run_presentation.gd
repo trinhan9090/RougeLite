@@ -23,6 +23,8 @@ var _pending_bind: StringName
 var _reroll: Button
 
 func _ready() -> void:
+	call_deferred("_pixel_layout")
+	get_viewport().size_changed.connect(_pixel_layout)
 	process_mode = Node.PROCESS_MODE_ALWAYS
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	mouse_filter = Control.MOUSE_FILTER_IGNORE
@@ -85,9 +87,9 @@ func _ready() -> void:
 		settings.set_mode(&"MANUAL" if settings.mode() == &"AUTO" else &"AUTO")
 		_description.text = tr("Mode: %s") % settings.mode())
 	_button(_settings_panel,"Fullscreen / Window",func() -> void: DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED if DisplayServer.window_get_mode() == DisplayServer.WINDOW_MODE_FULLSCREEN else DisplayServer.WINDOW_MODE_FULLSCREEN))
-	for slot in range(1,5):
-		_button(_settings_panel,tr("Rebind skill %d") % slot,func() -> void:
-			_pending_bind = StringName("active_%d" % slot)
+	for slot in range(0,5):
+		_button(_settings_panel,tr("Rebind skill %d") % slot if slot>0 else "Đổi phím đánh thường",func() -> void:
+			_pending_bind = StringName("active_%d" % slot) if slot>0 else &"basic_attack"
 			_description.text = "Press a new key; Esc cancels.")
 	_retry = _button(column, "Retry same character / seed", func() -> void: retry_requested.emit())
 	_menu = _button(column, "Back to menu", func() -> void: menu_requested.emit())
@@ -156,3 +158,8 @@ func announce(text: String) -> void:
 	_notice.text = tr(text)
 
 
+
+func _pixel_layout() -> void:
+	set_anchors_and_offsets_preset(Control.PRESET_TOP_LEFT)
+	size = get_viewport_rect().size
+	scale = Vector2.ONE

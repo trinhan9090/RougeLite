@@ -37,7 +37,8 @@ func run_tests() -> void:
 		var projectile := combat.get_child(0) as CombatProjectile
 		var initial: Vector2 = projectile._direction
 		check(projectile._steering == 0,name+" basic has no implicit homing")
-		check(initial.y > 0,name+" aims ahead of moving target")
+		var expected:Vector2=(TargetingService.intercept_point(combat.cast_origin(source),target,skill.rank_scaling[0].projectile_speed)-combat.cast_origin(source)).normalized()
+		check(initial.is_equal_approx(expected),name+" leads moving torso from actual cast origin")
 		var straight: bool = true
 		for i in range(40):
 			target.position += target.velocity / 60.0
@@ -82,6 +83,7 @@ func run_tests() -> void:
 	controller.set_mode(&"MANUAL")
 	controller.candidates = [target]
 	source.manual_aim = true
+	source.record_attack_direction(Vector2.LEFT)
 	source.set_physics_process(true)
 	Input.action_press(&"move_down")
 	for i in range(3): await physics_frame
@@ -91,11 +93,11 @@ func run_tests() -> void:
 	check(source.facing.is_equal_approx(Vector2.DOWN),"Manual facing follows movement and persists after stopping")
 	check(controller.request_cast(1,source.position+Vector2.UP*200),"manual cast succeeds away from enemy")
 	var shot := combat.get_child(0) as CombatProjectile
-	check(source.facing.is_equal_approx(Vector2.DOWN) and shot._direction.is_equal_approx(source.facing),"Manual cast ignores opposite mouse aim and follows facing")
+	check(source.facing.is_equal_approx(Vector2.DOWN) and shot._direction.is_equal_approx(Vector2.LEFT),"Manual ignores movement and mouse; uses last attack")
 	var saved: Vector2 = source.facing
 	source.face_toward(source.position)
 	check(source.facing == saved,"cursor at feet preserves last facing")
-	if DisplayServer.get_name() != "headless":
+	if OS.get_cmdline_user_args().has("--capture-frame") and DisplayServer.get_name() != "headless":
 		source.queue_redraw()
 		await process_frame
 		await RenderingServer.frame_post_draw

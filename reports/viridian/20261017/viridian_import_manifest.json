@@ -1,0 +1,112 @@
+{
+  "status": "MAPPED_VISUAL_SOURCE_AND_CNS_LINKS",
+  "source_direction_coverage": "2_DIR_POC_ONLY",
+  "runtime_actor": "MUGEN_SOURCE_SIDE_VIEW",
+  "audio_identity": "CNS_LINKED_NOT_AUDIBLY_VERIFIED",
+  "mappings": [
+    {
+      "move": "bolt",
+      "state_id": 1510,
+      "air_action_id": 21516,
+      "sprite_refs": [
+        "21510_36",
+        "21510_37",
+        "21510_38",
+        "21510_39",
+        "21510_40",
+        "21510_41"
+      ],
+      "definition_variant": "base",
+      "cns_path": "MVC2_DrDoom.cns",
+      "source_tree_sha256": "07c0fb7b748bd180a7488c95e2626d12a1821b3395a9025f93cd934cef34a376",
+      "source_archive_sha256": null,
+      "source_license_status": "PRIVATE_TEST_ONLY",
+      "verified_by_preview": true,
+      "heard_by_agent": false,
+      "fallback_required": false,
+      "notes": "Decoded/visually inspected; geometry/timing adapted by game runtime"
+    },
+    {
+      "move": "beam",
+      "state_id": 1450,
+      "air_action_id": 6810,
+      "sprite_refs": [
+        "6810_6",
+        "6810_0",
+        "6810_1",
+        "6810_2",
+        "6810_3",
+        "6810_4",
+        "6810_5"
+      ],
+      "definition_variant": "base",
+      "cns_path": "MVC2_DrDoom.cns",
+      "source_tree_sha256": "07c0fb7b748bd180a7488c95e2626d12a1821b3395a9025f93cd934cef34a376",
+      "source_archive_sha256": null,
+      "source_license_status": "PRIVATE_TEST_ONLY",
+      "verified_by_preview": true,
+      "heard_by_agent": false,
+      "fallback_required": true,
+      "notes": "Partial plasma21450 missing sprites; intact6810 sub-sequence adapted"
+    },
+    {
+      "move": "prison",
+      "state_id": 3001,
+      "air_action_id": 23001,
+      "sprite_refs": [
+        "23000_4",
+        "23000_5",
+        "23000_6",
+        "23000_7"
+      ],
+      "definition_variant": "base",
+      "cns_path": "MVC2_DrDoom.cns",
+      "source_tree_sha256": "07c0fb7b748bd180a7488c95e2626d12a1821b3395a9025f93cd934cef34a376",
+      "source_archive_sha256": null,
+      "source_license_status": "PRIVATE_TEST_ONLY",
+      "verified_by_preview": true,
+      "heard_by_agent": false,
+      "fallback_required": false,
+      "notes": "Decoded/visually inspected; geometry/timing adapted by game runtime"
+    },
+    {
+      "move": "orb",
+      "state_id": 1480,
+      "air_action_id": 21480,
+      "sprite_refs": [
+        "21480_0"
+      ],
+      "definition_variant": "base",
+      "cns_path": "MVC2_DrDoom.cns",
+      "source_tree_sha256": "07c0fb7b748bd180a7488c95e2626d12a1821b3395a9025f93cd934cef34a376",
+      "source_archive_sha256": null,
+      "source_license_status": "PRIVATE_TEST_ONLY",
+      "verified_by_preview": true,
+      "heard_by_agent": false,
+      "fallback_required": false,
+      "notes": "Decoded/visually inspected; geometry/timing adapted by game runtime"
+    },
+    {
+      "move": "ultimate",
+      "state_id": 3081,
+      "air_action_id": 21516,
+      "sprite_refs": [
+        "21510_36",
+        "21510_37",
+        "21510_38",
+        "21510_39",
+        "21510_40",
+        "21510_41"
+      ],
+      "definition_variant": "base",
+      "cns_path": "MVC2_DrDoom.cns",
+      "source_tree_sha256": "07c0fb7b748bd180a7488c95e2626d12a1821b3395a9025f93cd934cef34a376",
+      "source_archive_sha256": null,
+      "source_license_status": "PRIVATE_TEST_ONLY",
+      "verified_by_preview": true,
+      "heard_by_agent": false,
+      "fallback_required": false,
+      "notes": "Decoded/visually inspected; geometry/timing adapted by game runtime"
+    }
+  ]
+}

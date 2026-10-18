@@ -29,6 +29,8 @@ def main():
                   'event_type':'actual_projectile' if category=='projectile' else 'confirmed_execution',
                   'parameters':{'skill_id':f'skill.{hero}.{action}','color':PALETTES[hero][2] if hero=='boros' else PALETTES[hero][3],'style':style,
                       'geometry':'runtime snapshot','prototype':True}}
+            if hero=='astra':
+                data['parameters'].update(renderer='celestial',revision='astra-vfx-02',art_status='OWNER_REVIEW_PENDING')
             (vfx/f'{hero}_{action}.json').write_text(json.dumps(data,indent=2)+'\n')
     ledger=ROOT/'docs/art_asset_ledger.csv'
     columns=['asset_id','asset_path','source_url','author','license','license_url','modifications','commercial_use_allowed','attribution_required','verification_date','notes']

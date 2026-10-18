@@ -1,0 +1,54 @@
+res://tests/integration/test_roster_corrections.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.vex seed=20261015
+COMBAT_RUN_STARTED loadout=loadout.boros seed=20261015
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+RESULT roster corrections checks=30 failures=0
+
+res://tests/integration/test_roster_pixel.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.vex seed=20261015
+COMBAT_RUN_STARTED loadout=loadout.boros seed=20261015
+RESULT roster pixel checks=28 failures=0
+
+res://tests/integration/test_torso_hurtbox.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+RESULT torso hurtbox checks=11 failures=0
+
+res://tests/integration/test_astra_cast_corrections.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+RESULT Astra cast corrections checks=22 failures=0
+
+res://tests/integration/test_pixel_v3.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RUN_FOUNDATION seed=20261015 content=endless-demo-v1
+BOOT_OK milestone=M5
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+RESULT pixel v3 checks=46 failures=0
+
+res://tests/integration/test_astra_celestial_vfx.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+RESULT Astra celestial VFX checks=35 failures=0
+
+res://tests/integration/test_art_maps.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ART_MAP_SEEDS theme=enchanted_forest seeds=100
+ART_MAP_SEEDS theme=ruined_temple seeds=100
+ART_MAP_SEEDS theme=volcanic_arena seeds=100
+RESULT art maps checks=3300 failures=0
+
+res://tests/integration/test_art_vfx.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT art VFX checks=41 failures=0
+

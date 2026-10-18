@@ -10,10 +10,12 @@ extends ContentDefinition
 @export var tint: Color = Color("71d8f3")
 @export var visual_frames: SpriteFrames
 @export var art_frames: SpriteFrames
+@export var cast_origin_offset: Vector2 = Vector2.ZERO
 @export_enum("staff","pistols","hammer") var weapon: String = "staff"
 
 func validate() -> PackedStringArray:
 	var errors := super.validate()
+	if not cast_origin_offset.is_finite(): errors.append("%s: invalid cast origin offset" % id)
 	if character_id == &"" or class_id not in [&"mage", &"adc", &"brute"]:
 		errors.append("%s: invalid character/class identity" % id)
 	if stats == null:

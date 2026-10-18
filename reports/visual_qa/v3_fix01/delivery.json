@@ -1,0 +1,10 @@
+{
+  "status": "TECH_PASSED; visual review pending",
+  "canonical_suites": 36,
+  "failed_suites": 0,
+  "focused_live_and_packed_checks": 22,
+  "build": "D:\\SelfProject\\RougeLite\\builds\\EndlessSurvival-Astra-Pixel-v3-Fix01-Windows.zip",
+  "sha256": "f5d88e8991f39e3beebc244d9083edc500326e62f917b17b405d3942a1c81c21",
+  "pck_sha256": "89cbd95addf045667042e10dd3835ad7612a5bf472eb1a883819785274dd1164",
+  "source_branch": "fix/astra-facing-cast-origin"
+}

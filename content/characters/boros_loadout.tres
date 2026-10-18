@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="CombatLoadoutDefinition" format=3]
 
-[ext_resource type="SpriteFrames" path="res://assets/characters/boros/frames.tres" id="art_frames"]
+[ext_resource type="SpriteFrames" path="res://assets/art_v3/characters/boros/frames.tres" id="art_frames"]
 
 [ext_resource type="Script" path="res://scripts/data/combat_loadout_definition.gd" id="1"]
 [ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="1_mwiix"]
@@ -323,6 +323,7 @@ display_name = "Titan's Fury"
 
 [resource]
 script = ExtResource("1")
+cast_origin_offset = Vector2(0, -18)
 character_id = &"character.boros"
 art_frames = ExtResource("art_frames")
 class_id = &"brute"

@@ -1,0 +1,12 @@
+{
+  "status": "TECH_PASSED; owner visual review pending",
+  "canonical_suites": 39,
+  "failed_suites": 0,
+  "focused_checks_each_environment": 95,
+  "build": "D:\\SelfProject\\RougeLite\\builds\\EndlessSurvival-Three-Heroes-Pixel-v3-Fix03-Windows.zip",
+  "sha256": "cb7f4c4f8d79adb52880edfa149a0513de93c92f4cef7ae14d1fc5b76dd2e0d8",
+  "pck_sha256": "32245d0528167bdaccbbdfd7885d166a13fad1ef3379a14325379694b5198f04",
+  "branch": "fix/roster-north-sword-dash",
+  "implementation_commit": "98d237b",
+  "media_exports": "waived by user; none after instruction"
+}

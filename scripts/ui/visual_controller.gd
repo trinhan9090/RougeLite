@@ -4,6 +4,7 @@ extends ActorSprite
 @export var profile: VisualProfile
 var _offhand: Sprite2D
 func _ready() -> void:
+	if sprite_frames.has_meta("visual_profile"): profile = sprite_frames.get_meta("visual_profile") as VisualProfile
 	super._ready()
 	if _weapon_sprite != null:
 		_weapon_sprite.reparent($WeaponPivot,false)
@@ -14,6 +15,10 @@ func _ready() -> void:
 			$WeaponPivot.add_child(_offhand)
 	var shadow := $Shadow as Polygon2D
 	shadow.polygon = PackedVector2Array([Vector2(-20,37),Vector2(-13,32),Vector2(13,32),Vector2(20,37),Vector2(13,42),Vector2(-13,42)])
+	if sprite_frames.get_meta("baked_3d",false): shadow.position.y = profile.feet_anchor.y-96-37
+	if sprite_frames.get_meta("pixel_v3",false):
+		shadow.position.y = float(sprite_frames.get_meta("feet_anchor").y)-48-37
+		shadow.scale.x = .65
 func _process(delta: float) -> void:
 	if is_instance_valid(actor) and actor.health != null and get_tree().paused and actor.health.is_alive():
 		speed_scale = 0
@@ -41,9 +46,11 @@ func _process(delta: float) -> void:
 func _draw() -> void:
 	if actor == null or actor.health == null or not actor.health.is_alive(): return
 	var center := Vector2(0,12)
-	if actor.health.shield_total() > 0:
+	var shell: WeakRef = actor.get_meta("shield_visual") as WeakRef if actor.has_meta("shield_visual") else null
+	var custom_shell: bool = shell!=null and is_instance_valid(shell.get_ref()) and (shell.get_ref() as Node).is_inside_tree()
+	if actor.health.shield_total() > 0 and not custom_shell:
 		draw_arc(center,47,0,TAU,32,Color(.55,.8,1,.65),2,false)
-	if actor.factor(&"max_hp") > 1:
+	if actor.factor(&"max_hp") > 1 and not sprite_frames.get_meta("pixel_v3",false):
 		draw_arc(Vector2(0,37),30,0,TAU,24,Color(.9,.2,.25,.65),3,false)
 	if actor.statuses.movement_factor() == 0:
 		draw_rect(Rect2(-22,34,44,4),Color(.3,.8,.85,.8))

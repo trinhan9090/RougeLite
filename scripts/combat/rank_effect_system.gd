@@ -28,6 +28,7 @@ func cast_started(intent: CastIntent, kind: String) -> void:
 	var actor: Actor = intent.source()
 	if behavior.move_bonus > 0 or behavior.attack_bonus > 0:
 		actor.add_buff(intent.context.source_skill_id, behavior.buff_duration, {&"move_speed": behavior.move_bonus, &"attack_speed": behavior.attack_bonus})
+		combat.visual_event.emit({"kind":"buff","skill":intent.context.source_skill_id,"position":actor.global_position,"follow":weakref(actor),"buff_id":intent.context.source_skill_id,"duration":behavior.buff_duration})
 	if kind == "buff":
 		actor.add_buff(intent.context.source_skill_id, intent.rank.duration, {&"max_hp": behavior.hp_bonus, &"range": behavior.range_bonus})
 		actor.native_pulse_scale = behavior.basic_pulse_scale
@@ -67,10 +68,13 @@ func hit_resolved(source: Actor, target: Actor, rank: SkillRankDefinition, conte
 			copy.behavior = null
 			var source_ref: WeakRef = weakref(source)
 			var next_ref: WeakRef = weakref(next)
+			var bounce_origin:Vector2=target.hit_position()
 			combat.schedule(0,func() -> void:
 				var a: Actor = source_ref.get_ref() as Actor
 				var b: Actor = next_ref.get_ref() as Actor
-				if is_instance_valid(a) and is_instance_valid(b): combat.hit(a,b,copy,child))
+				if is_instance_valid(a) and is_instance_valid(b):
+					var hit:DamageResult=combat.hit(a,b,copy,child)
+					if hit.accepted:combat.visual_event.emit({"kind":"ricochet","skill":child.source_skill_id,"position":bounce_origin,"line_end":b.hit_position()-bounce_origin,"radius":2.0,"duration":.12}))
 
 func _trap_died(target: Actor) -> void:
 	if not traps.has(target.actor_id): return

@@ -1,5 +1,6 @@
 class_name CombatVisualEffect
 extends Node2D
+signal finished(effect: CombatVisualEffect)
 ## Cosmetic only. Radius/length are copied from executed combat geometry.
 var kind: String = "impact"
 var style: String = ""
@@ -10,21 +11,32 @@ var duration: float = .3
 var remaining: float = .3
 var follow: WeakRef
 var persistent: bool = false
+var pooled: bool = false
+var elapsed: float = 0
 func _ready() -> void:
 	# A projectile's parent transform supplies movement/rotation. Its local art
 	# is immutable, so cache the draw commands instead of rebuilding each frame.
-	if persistent and follow == null: set_process(false)
+	if persistent and kind == "projectile" and follow == null: set_process(false)
+func _finish() -> void:
+	if pooled: finished.emit(self)
+	else: queue_free()
 func _process(delta: float) -> void:
+	elapsed += delta
 	if follow != null:
 		var node := follow.get_ref() as Node2D
 		if not is_instance_valid(node):
-			queue_free()
+			_finish()
 			return
 		global_position = node.global_position
+		if kind == "status" and node is Actor:
+			var actor := node as Actor
+			if not actor.health.is_alive() or actor.statuses.movement_factor() > 0:
+				_finish()
+				return
 	if not persistent:
 		remaining -= delta
 		if remaining <= 0:
-			queue_free()
+			_finish()
 			return
 	queue_redraw()
 func _draw() -> void:

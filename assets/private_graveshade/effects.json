@@ -1,0 +1,1804 @@
+{
+  "bullet": [
+    {
+      "path": "res://assets/private_graveshade/bullet_0.png",
+      "ticks": 2,
+      "source_sprite": "9993_4",
+      "axis": [
+        -328,
+        456
+      ],
+      "offset": [
+        -120,
+        100
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 9993,
+      "sprite_index": 4,
+      "source_palette": 12,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ],
+  "muzzle": [
+    {
+      "path": "res://assets/private_graveshade/muzzle_0.png",
+      "ticks": 1,
+      "source_sprite": "9993_0",
+      "axis": [
+        -332,
+        504
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 9993,
+      "sprite_index": 0,
+      "source_palette": 8,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/muzzle_1.png",
+      "ticks": 1,
+      "source_sprite": "9993_1",
+      "axis": [
+        -332,
+        504
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 9993,
+      "sprite_index": 1,
+      "source_palette": 9,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/muzzle_2.png",
+      "ticks": 1,
+      "source_sprite": "9993_2",
+      "axis": [
+        -332,
+        508
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 9993,
+      "sprite_index": 2,
+      "source_palette": 10,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/muzzle_3.png",
+      "ticks": 1,
+      "source_sprite": "9993_3",
+      "axis": [
+        -328,
+        484
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 9993,
+      "sprite_index": 3,
+      "source_palette": 11,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/muzzle_4.png",
+      "ticks": 1,
+      "source_sprite": "9993_4",
+      "axis": [
+        -328,
+        456
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 9993,
+      "sprite_index": 4,
+      "source_palette": 12,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ],
+  "grenade": [
+    {
+      "path": "res://assets/private_graveshade/grenade_0.png",
+      "ticks": 2,
+      "source_sprite": "3014_0",
+      "axis": [
+        24,
+        24
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "",
+      "runtime_blend": "source_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 3014,
+      "sprite_index": 0,
+      "source_palette": 3,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/grenade_1.png",
+      "ticks": 2,
+      "source_sprite": "3014_1",
+      "axis": [
+        24,
+        24
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "",
+      "runtime_blend": "source_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 3014,
+      "sprite_index": 1,
+      "source_palette": 3,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/grenade_2.png",
+      "ticks": 2,
+      "source_sprite": "3014_2",
+      "axis": [
+        28,
+        20
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "",
+      "runtime_blend": "source_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 3014,
+      "sprite_index": 2,
+      "source_palette": 3,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/grenade_3.png",
+      "ticks": 2,
+      "source_sprite": "3014_3",
+      "axis": [
+        24,
+        20
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "",
+      "runtime_blend": "source_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 3014,
+      "sprite_index": 3,
+      "source_palette": 3,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/grenade_4.png",
+      "ticks": 2,
+      "source_sprite": "3014_4",
+      "axis": [
+        20,
+        24
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "",
+      "runtime_blend": "source_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 3014,
+      "sprite_index": 4,
+      "source_palette": 3,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/grenade_5.png",
+      "ticks": 2,
+      "source_sprite": "3014_5",
+      "axis": [
+        24,
+        24
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "",
+      "runtime_blend": "source_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 3014,
+      "sprite_index": 5,
+      "source_palette": 3,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/grenade_6.png",
+      "ticks": 2,
+      "source_sprite": "3014_6",
+      "axis": [
+        28,
+        20
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "",
+      "runtime_blend": "source_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 3014,
+      "sprite_index": 6,
+      "source_palette": 3,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/grenade_7.png",
+      "ticks": 2,
+      "source_sprite": "3014_7",
+      "axis": [
+        24,
+        20
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "",
+      "runtime_blend": "source_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 3014,
+      "sprite_index": 7,
+      "source_palette": 3,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ],
+  "explosion": [
+    {
+      "path": "res://assets/private_graveshade/explosion_0.png",
+      "ticks": 1,
+      "source_sprite": "3014_2",
+      "axis": [
+        28,
+        20
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 3014,
+      "sprite_index": 2,
+      "source_palette": 3,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/explosion_1.png",
+      "ticks": 1,
+      "source_sprite": "619_17",
+      "axis": [
+        66,
+        79
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 17,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/explosion_2.png",
+      "ticks": 1,
+      "source_sprite": "619_18",
+      "axis": [
+        91,
+        94
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 18,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/explosion_3.png",
+      "ticks": 1,
+      "source_sprite": "619_19",
+      "axis": [
+        104,
+        97
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 19,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/explosion_4.png",
+      "ticks": 1,
+      "source_sprite": "619_20",
+      "axis": [
+        110,
+        105
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 20,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/explosion_5.png",
+      "ticks": 1,
+      "source_sprite": "619_21",
+      "axis": [
+        111,
+        111
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 21,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/explosion_6.png",
+      "ticks": 1,
+      "source_sprite": "619_22",
+      "axis": [
+        111,
+        111
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 22,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/explosion_7.png",
+      "ticks": 1,
+      "source_sprite": "619_23",
+      "axis": [
+        115,
+        115
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 23,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/explosion_8.png",
+      "ticks": 1,
+      "source_sprite": "619_24",
+      "axis": [
+        111,
+        107
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 24,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/explosion_9.png",
+      "ticks": 1,
+      "source_sprite": "619_25",
+      "axis": [
+        117,
+        117
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 25,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/explosion_10.png",
+      "ticks": 1,
+      "source_sprite": "619_26",
+      "axis": [
+        116,
+        111
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 26,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/explosion_11.png",
+      "ticks": 1,
+      "source_sprite": "619_27",
+      "axis": [
+        116,
+        109
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 27,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/explosion_12.png",
+      "ticks": 1,
+      "source_sprite": "619_28",
+      "axis": [
+        118,
+        113
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 28,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/explosion_13.png",
+      "ticks": 1,
+      "source_sprite": "619_29",
+      "axis": [
+        115,
+        109
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 29,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/explosion_14.png",
+      "ticks": 1,
+      "source_sprite": "619_30",
+      "axis": [
+        114,
+        112
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 30,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ],
+  "mine": [
+    {
+      "path": "res://assets/private_graveshade/mine_0.png",
+      "ticks": 4,
+      "source_sprite": "706_19",
+      "axis": [
+        56,
+        16
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "",
+      "runtime_blend": "source_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 706,
+      "sprite_index": 19,
+      "source_palette": 0,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ],
+  "mine_explosion": [
+    {
+      "path": "res://assets/private_graveshade/mine_explosion_0.png",
+      "ticks": 20,
+      "source_sprite": "706_20",
+      "axis": [
+        56,
+        16
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "",
+      "runtime_blend": "source_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 706,
+      "sprite_index": 20,
+      "source_palette": 0,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/mine_explosion_1.png",
+      "ticks": 2,
+      "source_sprite": "619_75",
+      "axis": [
+        51,
+        32
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 75,
+      "source_palette": 31,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/mine_explosion_2.png",
+      "ticks": 2,
+      "source_sprite": "619_76",
+      "axis": [
+        73,
+        85
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 76,
+      "source_palette": 31,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/mine_explosion_3.png",
+      "ticks": 2,
+      "source_sprite": "619_77",
+      "axis": [
+        89,
+        145
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 77,
+      "source_palette": 31,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/mine_explosion_4.png",
+      "ticks": 2,
+      "source_sprite": "619_78",
+      "axis": [
+        90,
+        414
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 78,
+      "source_palette": 31,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/mine_explosion_5.png",
+      "ticks": 2,
+      "source_sprite": "619_79",
+      "axis": [
+        90,
+        461
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 79,
+      "source_palette": 31,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/mine_explosion_6.png",
+      "ticks": 2,
+      "source_sprite": "619_80",
+      "axis": [
+        82,
+        462
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 80,
+      "source_palette": 31,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/mine_explosion_7.png",
+      "ticks": 2,
+      "source_sprite": "619_81",
+      "axis": [
+        81,
+        507
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 81,
+      "source_palette": 31,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/mine_explosion_8.png",
+      "ticks": 2,
+      "source_sprite": "619_82",
+      "axis": [
+        69,
+        448
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 82,
+      "source_palette": 31,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/mine_explosion_9.png",
+      "ticks": 2,
+      "source_sprite": "619_83",
+      "axis": [
+        47,
+        437
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 83,
+      "source_palette": 31,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ],
+  "rocket": [
+    {
+      "path": "res://assets/private_graveshade/rocket_0.png",
+      "ticks": 10,
+      "source_sprite": "619_15",
+      "axis": [
+        0,
+        45
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "",
+      "runtime_blend": "source_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 15,
+      "source_palette": 23,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ],
+  "rocket_explosion": [
+    {
+      "path": "res://assets/private_graveshade/rocket_explosion_0.png",
+      "ticks": 1,
+      "source_sprite": "619_17",
+      "axis": [
+        66,
+        79
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 17,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_explosion_1.png",
+      "ticks": 1,
+      "source_sprite": "619_18",
+      "axis": [
+        91,
+        94
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 18,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_explosion_2.png",
+      "ticks": 1,
+      "source_sprite": "619_19",
+      "axis": [
+        104,
+        97
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 19,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_explosion_3.png",
+      "ticks": 1,
+      "source_sprite": "619_20",
+      "axis": [
+        110,
+        105
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 20,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_explosion_4.png",
+      "ticks": 1,
+      "source_sprite": "619_21",
+      "axis": [
+        111,
+        111
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 21,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_explosion_5.png",
+      "ticks": 1,
+      "source_sprite": "619_22",
+      "axis": [
+        111,
+        111
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 22,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_explosion_6.png",
+      "ticks": 1,
+      "source_sprite": "619_23",
+      "axis": [
+        115,
+        115
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 23,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_explosion_7.png",
+      "ticks": 1,
+      "source_sprite": "619_24",
+      "axis": [
+        111,
+        107
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 24,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_explosion_8.png",
+      "ticks": 1,
+      "source_sprite": "619_25",
+      "axis": [
+        117,
+        117
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 25,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_explosion_9.png",
+      "ticks": 1,
+      "source_sprite": "619_26",
+      "axis": [
+        116,
+        111
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 26,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_explosion_10.png",
+      "ticks": 1,
+      "source_sprite": "619_27",
+      "axis": [
+        116,
+        109
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 27,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_explosion_11.png",
+      "ticks": 1,
+      "source_sprite": "619_28",
+      "axis": [
+        118,
+        113
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 28,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_explosion_12.png",
+      "ticks": 1,
+      "source_sprite": "619_29",
+      "axis": [
+        115,
+        109
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 29,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_explosion_13.png",
+      "ticks": 1,
+      "source_sprite": "619_30",
+      "axis": [
+        114,
+        112
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 30,
+      "source_palette": 25,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ],
+  "rocket_muzzle": [
+    {
+      "path": "res://assets/private_graveshade/rocket_muzzle_0.png",
+      "ticks": 2,
+      "source_sprite": "619_105",
+      "axis": [
+        46,
+        44
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 105,
+      "source_palette": 36,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_muzzle_1.png",
+      "ticks": 2,
+      "source_sprite": "619_106",
+      "axis": [
+        40,
+        45
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 106,
+      "source_palette": 36,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_muzzle_2.png",
+      "ticks": 2,
+      "source_sprite": "619_107",
+      "axis": [
+        47,
+        48
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 107,
+      "source_palette": 36,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_muzzle_3.png",
+      "ticks": 2,
+      "source_sprite": "619_108",
+      "axis": [
+        48,
+        47
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 108,
+      "source_palette": 36,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_muzzle_4.png",
+      "ticks": 2,
+      "source_sprite": "619_109",
+      "axis": [
+        50,
+        46
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 109,
+      "source_palette": 36,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_muzzle_5.png",
+      "ticks": 2,
+      "source_sprite": "619_110",
+      "axis": [
+        52,
+        51
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 110,
+      "source_palette": 36,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_muzzle_6.png",
+      "ticks": 2,
+      "source_sprite": "619_105",
+      "axis": [
+        46,
+        44
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 105,
+      "source_palette": 36,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_muzzle_7.png",
+      "ticks": 2,
+      "source_sprite": "619_106",
+      "axis": [
+        40,
+        45
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 106,
+      "source_palette": 36,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_muzzle_8.png",
+      "ticks": 2,
+      "source_sprite": "619_107",
+      "axis": [
+        47,
+        48
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 107,
+      "source_palette": 36,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_muzzle_9.png",
+      "ticks": 2,
+      "source_sprite": "619_108",
+      "axis": [
+        48,
+        47
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 108,
+      "source_palette": 36,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_muzzle_10.png",
+      "ticks": 2,
+      "source_sprite": "619_109",
+      "axis": [
+        50,
+        46
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 109,
+      "source_palette": 36,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_muzzle_11.png",
+      "ticks": 2,
+      "source_sprite": "619_110",
+      "axis": [
+        52,
+        51
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 110,
+      "source_palette": 36,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_muzzle_12.png",
+      "ticks": 2,
+      "source_sprite": "619_105",
+      "axis": [
+        46,
+        44
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 105,
+      "source_palette": 36,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_muzzle_13.png",
+      "ticks": 2,
+      "source_sprite": "619_106",
+      "axis": [
+        40,
+        45
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 106,
+      "source_palette": 36,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_muzzle_14.png",
+      "ticks": 2,
+      "source_sprite": "619_107",
+      "axis": [
+        47,
+        48
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 107,
+      "source_palette": 36,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_muzzle_15.png",
+      "ticks": 2,
+      "source_sprite": "619_108",
+      "axis": [
+        48,
+        47
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 108,
+      "source_palette": 36,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_muzzle_16.png",
+      "ticks": 2,
+      "source_sprite": "619_109",
+      "axis": [
+        50,
+        46
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 109,
+      "source_palette": 36,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/rocket_muzzle_17.png",
+      "ticks": 2,
+      "source_sprite": "619_110",
+      "axis": [
+        52,
+        51
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 619,
+      "sprite_index": 110,
+      "source_palette": 36,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ],
+  "impact": [
+    {
+      "path": "res://assets/private_graveshade/impact_0.png",
+      "ticks": 1,
+      "source_sprite": "9998_0",
+      "axis": [
+        196,
+        204
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A1",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 9998,
+      "sprite_index": 0,
+      "source_palette": 14,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/impact_1.png",
+      "ticks": 1,
+      "source_sprite": "9998_1",
+      "axis": [
+        244,
+        220
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A1",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 9998,
+      "sprite_index": 1,
+      "source_palette": 14,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/impact_2.png",
+      "ticks": 1,
+      "source_sprite": "9998_2",
+      "axis": [
+        232,
+        212
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A1",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 9998,
+      "sprite_index": 2,
+      "source_palette": 14,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/impact_3.png",
+      "ticks": 1,
+      "source_sprite": "9998_3",
+      "axis": [
+        228,
+        192
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A1",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 9998,
+      "sprite_index": 3,
+      "source_palette": 14,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/impact_4.png",
+      "ticks": 1,
+      "source_sprite": "9998_4",
+      "axis": [
+        228,
+        192
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A1",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 9998,
+      "sprite_index": 4,
+      "source_palette": 14,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/impact_5.png",
+      "ticks": 1,
+      "source_sprite": "9998_5",
+      "axis": [
+        228,
+        192
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A1",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 9998,
+      "sprite_index": 5,
+      "source_palette": 14,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/impact_6.png",
+      "ticks": 1,
+      "source_sprite": "9998_6",
+      "axis": [
+        216,
+        172
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A1",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 9998,
+      "sprite_index": 6,
+      "source_palette": 14,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "path": "res://assets/private_graveshade/impact_7.png",
+      "ticks": 1,
+      "source_sprite": "9998_7",
+      "axis": [
+        208,
+        176
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "blend": "A1",
+      "runtime_blend": "luminance_alpha",
+      "source_id": "punisher_rahlonnir_local",
+      "source_file": "P.sff",
+      "sprite_group": 9998,
+      "sprite_index": 7,
+      "source_palette": 14,
+      "provenance_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ]
+}

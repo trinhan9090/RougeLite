@@ -1,0 +1,70 @@
+[gd_resource type="SpriteFrames" format=3]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/idle_0.png" id="t0"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/idle_1.png" id="t1"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/idle_2.png" id="t2"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/run_3.png" id="t3"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/run_4.png" id="t4"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/run_5.png" id="t5"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/run_6.png" id="t6"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/run_7.png" id="t7"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/run_8.png" id="t8"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/run_9.png" id="t9"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/basic_10.png" id="t10"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/basic_11.png" id="t11"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/basic_12.png" id="t12"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/basic_13.png" id="t13"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/combo_1_14.png" id="t14"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/combo_1_15.png" id="t15"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/combo_1_16.png" id="t16"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/combo_1_17.png" id="t17"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/combo_1_18.png" id="t18"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/combo_2_19.png" id="t19"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/combo_2_20.png" id="t20"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/combo_2_21.png" id="t21"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/combo_2_22.png" id="t22"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/combo_2_23.png" id="t23"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_j_24.png" id="t24"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_j_25.png" id="t25"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_j_26.png" id="t26"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_j_27.png" id="t27"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_j_28.png" id="t28"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_k_29.png" id="t29"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_k_30.png" id="t30"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_k_31.png" id="t31"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_k_32.png" id="t32"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_k_33.png" id="t33"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_k_34.png" id="t34"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_k_35.png" id="t35"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_k_36.png" id="t36"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_k_37.png" id="t37"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_l_38.png" id="t38"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_l_39.png" id="t39"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_l_40.png" id="t40"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_i_41.png" id="t41"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_i_42.png" id="t42"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_i_43.png" id="t43"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_i_44.png" id="t44"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_i_45.png" id="t45"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/cast_i_46.png" id="t46"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/hit_47.png" id="t47"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/hit_48.png" id="t48"]
+[ext_resource type="Texture2D" path="res://assets/private_atyu/death_49.png" id="t49"]
+[resource]
+animations = [{"name": &"idle", "loop": true, "speed": 60.0, "frames": [{"duration": 10, "texture": ExtResource("t0")},{"duration": 10, "texture": ExtResource("t1")},{"duration": 11, "texture": ExtResource("t2")}]},
+{"name": &"run", "loop": true, "speed": 60.0, "frames": [{"duration": 3, "texture": ExtResource("t3")},{"duration": 3, "texture": ExtResource("t4")},{"duration": 3, "texture": ExtResource("t5")},{"duration": 3, "texture": ExtResource("t6")},{"duration": 3, "texture": ExtResource("t7")},{"duration": 3, "texture": ExtResource("t8")},{"duration": 3, "texture": ExtResource("t9")}]},
+{"name": &"basic", "loop": false, "speed": 60.0, "frames": [{"duration": 2, "texture": ExtResource("t10")},{"duration": 4, "texture": ExtResource("t11")},{"duration": 3, "texture": ExtResource("t12")},{"duration": 10, "texture": ExtResource("t13")}]},
+{"name": &"combo_1", "loop": false, "speed": 60.0, "frames": [{"duration": 7, "texture": ExtResource("t14")},{"duration": 2, "texture": ExtResource("t15")},{"duration": 2, "texture": ExtResource("t16")},{"duration": 2, "texture": ExtResource("t17")},{"duration": 7, "texture": ExtResource("t18")}]},
+{"name": &"combo_2", "loop": false, "speed": 60.0, "frames": [{"duration": 6, "texture": ExtResource("t19")},{"duration": 1, "texture": ExtResource("t20")},{"duration": 1, "texture": ExtResource("t21")},{"duration": 1, "texture": ExtResource("t22")},{"duration": 3, "texture": ExtResource("t23")}]},
+{"name": &"cast_j", "loop": false, "speed": 60.0, "frames": [{"duration": 7, "texture": ExtResource("t24")},{"duration": 2, "texture": ExtResource("t25")},{"duration": 2, "texture": ExtResource("t26")},{"duration": 2, "texture": ExtResource("t27")},{"duration": 7, "texture": ExtResource("t28")}]},
+{"name": &"cast_k", "loop": false, "speed": 60.0, "frames": [{"duration": 4, "texture": ExtResource("t29")},{"duration": 4, "texture": ExtResource("t30")},{"duration": 15, "texture": ExtResource("t31")},{"duration": 4, "texture": ExtResource("t32")},{"duration": 4, "texture": ExtResource("t33")},{"duration": 15, "texture": ExtResource("t34")},{"duration": 1, "texture": ExtResource("t35")},{"duration": 50, "texture": ExtResource("t36")},{"duration": 40, "texture": ExtResource("t37")}]},
+{"name": &"cast_l", "loop": false, "speed": 60.0, "frames": [{"duration": 2, "texture": ExtResource("t38")},{"duration": 4, "texture": ExtResource("t39")},{"duration": 10, "texture": ExtResource("t40")}]},
+{"name": &"cast_i", "loop": false, "speed": 60.0, "frames": [{"duration": 1, "texture": ExtResource("t41")},{"duration": 1, "texture": ExtResource("t42")},{"duration": 1, "texture": ExtResource("t43")},{"duration": 2, "texture": ExtResource("t44")},{"duration": 50, "texture": ExtResource("t45")},{"duration": 20, "texture": ExtResource("t46")}]},
+{"name": &"hit", "loop": false, "speed": 60.0, "frames": [{"duration": 4, "texture": ExtResource("t47")},{"duration": 4, "texture": ExtResource("t48")}]},
+{"name": &"death", "loop": false, "speed": 60.0, "frames": [{"duration": 1, "texture": ExtResource("t49")}]}]
+metadata/pixel_v3 = true
+metadata/feet_anchor = Vector2(128,192)
+metadata/body_center = Vector2(128,168)
+metadata/slot_actions = true
+metadata/side_view = true
+metadata/combo_actions = PackedStringArray("basic", "combo_1", "combo_2")
+metadata/audio_profile = "res://assets/private_atyu/audio/cues.json"

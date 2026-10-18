@@ -9,6 +9,13 @@ func _ready() -> void:
 	stats_definition = definition.stats
 	team = 2
 	super._ready()
+	if not is_boss:
+		hurtbox=ActorHurtbox.new()
+		hurtbox.configure(self,Vector2(0,-18),Vector2(24,32))
+		add_child(hurtbox)
+		var visual := EnemyPixelVisual.new()
+		visual.actor = self
+		add_child(visual)
 
 func set_target(actor: Actor) -> void:
 	_target = weakref(actor)
@@ -28,10 +35,6 @@ func _physics_process(delta: float) -> void:
 	MovementController.move(self, direction, stats.move_speed * statuses.movement_factor())
 
 func _draw() -> void:
-	draw_circle(Vector2(0, 6), 16, Color(0, 0, 0, 0.3))
-	draw_circle(Vector2.ZERO, 13, Color("ea7078"))
-	draw_circle(Vector2(-4, -3), 2, Color("451c2b"))
-	draw_circle(Vector2(4, -3), 2, Color("451c2b"))
 	if health != null and health.current < health.maximum:
-		draw_rect(Rect2(-16, -23, 32, 4), Color("3c2533"))
-		draw_rect(Rect2(-16, -23, 32 * health.current / health.maximum, 4), Color("f0b46a"))
+		draw_rect(Rect2(-16, -39, 32, 3), Color("3c2533"))
+		draw_rect(Rect2(-16, -39, 32 * health.current / health.maximum, 3), Color("f0b46a"))

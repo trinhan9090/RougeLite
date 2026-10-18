@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="SkillDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/limited_projectile_basic.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/data/skill_rank_definition.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/data/targeting_definition.gd" id="4"]
+
+[sub_resource type="Resource" id="Executor"]
+script = ExtResource("2")
+executor_id = &"executor.basic_projectile"
+
+[sub_resource type="Resource" id="Rank"]
+script = ExtResource("3")
+cooldown = 0.70
+damage = 17.0
+damage_type = "MAGIC"
+range_px = 310.0
+projectile_speed = 590.0
+radius_px = 7.0
+
+[sub_resource type="Resource" id="Targeting"]
+script = ExtResource("4")
+acquisition_radius = 310.0
+
+[resource]
+script = ExtResource("1")
+declared_capabilities = Array[StringName]([&"damage", &"on_hit_hook", &"on_kill_hook", &"modify_projectile_angle", &"spawn_projectile_pattern", &"modify_projectile_count", &"pierce_hit", &"projectile_steering", &"repeat_cast"])
+executor = SubResource("Executor")
+targeting = SubResource("Targeting")
+rank_scaling = Array[ExtResource("3")]([SubResource("Rank")])
+id = &"skill.viridian.basic"
+display_name = "Emerald Bolt"

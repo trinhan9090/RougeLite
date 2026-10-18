@@ -1,0 +1,39 @@
+; Contains all the filenames needed for the character
+
+; Player information
+[Info]
+name ="DrDoom"
+displayname ="DrDoom"
+pal.defaults =1,2,3,4,5,6,7,8
+versiondate=11/25/2008
+mugenversion=06,14,2003
+author="DrDoom"
+
+; Files for the player
+[Files]
+cmd     =Maro/MVC2_DrDoom.cmd
+cns     =Maro/MVC2_DrDoom.cns
+st      =Maro/MVC2_DrDoom.cns
+st1	=Maro/MVC2_DrDoom_-2.cns
+st2	=Maro/MVC2_DrDoom_overide.cns
+st3	=Maro/AI.cns
+st4	=Maro/AIconfig.cns
+stcommon =Maro/AIcommon.cns
+sprite  =MVC2_DrDoom.sff
+anim    =Maro/MVC2_DrDoom.air
+sound   =MVC2_DrDoom.snd
+pal1=1.act
+pal2=2.act
+pal3=3.act
+pal4=4.act
+pal5=5.act
+pal6=6.act
+pal7=7.act
+pal8=8.act
+
+; Arcade mode
+[Arcade]
+intro.storyboard=
+ending.storyboard=
+;intro.storyboard =intro.def
+;ending.storyboard =ending.def

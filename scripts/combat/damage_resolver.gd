@@ -35,9 +35,10 @@ func resolve(packet: DamagePacket, source: Actor, target: Actor, rng: RandomNumb
 		shield.absorbed += absorbed
 		remaining -= absorbed
 		result.shield_damage += absorbed
-	result.hp_damage = minf(target.health.current, remaining)
-	result.killed = remaining >= target.health.current
-	target.health.commit_resolved_hp(target.health.current - remaining)
+	var hp_before: float = target.health.current
+	target.health.commit_resolved_hp(hp_before - remaining)
+	result.hp_damage = maxf(0.0,hp_before-target.health.current)
+	result.killed = not target.health.is_alive()
 	if target.health.is_alive():
 		target.statuses.apply(packet.status, target.is_boss)
 	events.damage_applied.emit(packet.context, result)

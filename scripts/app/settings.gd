@@ -8,6 +8,7 @@ const DEFAULT_BINDINGS: Dictionary[StringName, int] = {
 	&"move_up": KEY_W, &"move_left": KEY_A, &"move_down": KEY_S, &"move_right": KEY_D,
 	&"active_1": KEY_J, &"active_2": KEY_K, &"active_3": KEY_L, &"active_4": KEY_I,
 	&"pause": KEY_ESCAPE,
+	&"basic_attack": KEY_SPACE,
 }
 var last_load_error: Error = OK
 var _path: String

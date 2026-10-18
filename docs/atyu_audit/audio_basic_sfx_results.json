@@ -1,0 +1,13 @@
+{
+  "task": "ATYU-AUDIO-02",
+  "status": "TECH_PASS",
+  "basic_cues": {
+    "basic": "0_4",
+    "combo_1": "0_2",
+    "combo_2": "0_4"
+  },
+  "active_and_impact_cues": "unchanged",
+  "headless_checks": 53,
+  "live_gui_checks": 55,
+  "failures": 0
+}

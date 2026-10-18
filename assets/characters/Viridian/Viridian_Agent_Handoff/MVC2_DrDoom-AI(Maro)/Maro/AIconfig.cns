@@ -1,0 +1,1272 @@
+[Statedef 7000]
+type=A
+movetype=I
+physics=N
+ctrl=0
+anim=0
+sprpriority=0
+;=========================================================================
+;			性能改変(プレイヤー操作時にも影響)
+;=========================================================================
+[State AI,Super版 Molecular Shield使用時のゲージ増加封印]
+Type=Varset
+Trigger1=1
+V=49
+Value=(0)
+;()内の数値が1ならばSuper版 Molecular Shield(以後 岩と呼ぶ)を
+;使用時にゲージが増えません
+;0だと増えます
+
+[State AI,Super版 Molecular Shield使用時の岩の初期位置変更]
+Type=Varset
+Trigger1=1
+V=43
+Value=(1)
+;()内の数値が1ならば岩使用時にヘルパーが
+;地面から一斉に出てきます。
+;0だと場所に応じて出現します。
+
+[State AI,岩の削り無効化]
+Type=Varset
+Trigger1=Time=0
+V=55
+Value=(0)
+;()内の数値が0なら岩の削りを無効化します
+;1だと削ります。
+;ちなみにガードの固いAI相手だと削りがないとグダグダに
+;なってタイムアップまで決着が付かない可能性があるので注意
+
+
+;===============================基本AI設定====================================
+;==========================================
+[State -3, AI Level]
+Type=Varset
+Trigger1=Time=0
+V=59
+Value=5
+;ここはAIレベルのスイッチです。
+;最大が5、最小が1で0にするとAIが起動しません
+;AIレベル別に行動制限もありますが下で設定を
+;変えることができます。
+;==========================================
+[State -3, Reaction Speed]
+Type=Varset
+Trigger1=Time=0
+V=58
+Value=5
+;ここはAIの反応速度スイッチです
+;0で格ゲー始めたばかりの人(50F)
+;1で何とかガードできるようになってきた人(40F)
+;2で大体格ゲーに慣れてきた人間と同じ(30F)
+;3で人間＋読み補正(20F)
+;4で完全読み(10F)で反応します。
+;5で超反応(0F)で反応します。
+;※ 反応速度が適用されるのは
+;- 切り替えし鬼焼き系＋回避行動
+;- ブロッキングとＪＤ
+;- 対空技(鬼焼きなど)
+;==========================================
+[State -3, 常時AI起動]
+Type=Varset
+Trigger1=Time=0
+V=57
+Value=1
+;ここはAI常時起動スイッチです
+;Value=0をValue=1にするとAIが
+;常に起動した状態になります
+
+;============================
+[State -3, モード]
+Type=Varset
+Trigger1=Time=0
+V=56
+Value=2
+;1:対人モード
+;2:対AIモード
+;※詳しくは同封のテキストファイルにて
+;
+;============================
+[State AI, 立ち、しゃがみ、空中状態確認]
+Type=Varset
+Trigger1=Time=0
+Trigger1=Var(56)=1
+V=54
+Value=15
+
+;こちらは対人モード限定です
+;牽制、固め、崩しにおいて相手の
+;上中下段を確認するために必要なフレーム数を
+;設定できます。
+;デフォルトは15フレームです。
+
+;============================
+[State AI, ガード確率]
+Type=Varset
+Trigger1=Time=0
+V=53
+Value=100
+;こちらはガード確率となっています
+;ここの数値+%の確率でガードします
+;デフォルトは100%です。
+;対人モードだとさらに半分になりますので
+;ご注意くだしあす
+
+;============================
+[State -3, リカバリ封印スイッチ]
+Type=Varset
+Trigger1=Time=0
+V=42
+Value=1
+;※ここの値が1であればAIが
+;　ダウン時のリカバリーロールを
+;　使用しなくなります
+
+;============================
+[State -3, アドバンスガード封印スイッチ]
+Type=Varset
+Trigger1=Time=0
+V=41
+Value=1
+;※ここの値が1であればAIが
+;　アドバンスガードを
+;　使用しなくなります
+;
+;=========================================================================
+;				岩の使用設定
+;=========================================================================
+;===========================================
+[State -3, 岩封印スイッチ]
+Type=ParentVarset
+Trigger1=Time=0
+V=42
+Value=(0)
+;Value=の()内の数値(0-1)を入力してください
+;()内の数値が1ならば岩ボロスを封印、0ならば使用します
+
+;===================================================
+;	↓の項目は↑がValue=1のとき関係します
+;===================================================
+;============================
+;	　使用条件
+;============================
+[State -3, 岩の使用頻度]
+Type=ParentVarset
+Trigger1=Time=1
+V=42 
+Value=(5)*10+Root,Var(42)
+;Value=の()内の数値(1-10)を入力してください(デフォルトは5)
+;(入力した数値の2乗)+％の確率で岩ボロスを使用します
+
+;============================
+[State -3, 岩を使用可能にする体力]
+Type=ParentVarset
+Trigger1=Time=0
+V=41
+Value=(10)
+;Value=の()内の数値(1-10)を入力してください(デフォルトは10)
+;(入力した数値)+割 以下の体力で岩ボロスが使用可能となります
+
+
+;============================
+;	　使用時の性能
+;============================
+[State -3, 出現する岩の数]
+Type=ParentVarset
+Trigger1=Time=1
+V=41
+Value=(10)*100+Root,Var(41)
+;Value=の()内の数値(1-30)を入力してください(デフォルトは10)
+;(入力した数値)個の岩が出現します。
+;ただし表示できるヘルパーの数に限りがあるので注意してください
+
+[State -3, 岩使用時の無敵スイッチ]
+Type=ParentVarset
+Trigger1=Time=0
+V=40
+Value=1
+;Value=の()内の数値(0-1)を入力してください
+;()内の数値が1ならば岩ボロス中の無敵が解除、0ならば常時無敵となります
+;kong氏のデフォルトAIだと0でした
+
+;============================
+[State -3, 発生する岩の寿命フレーム数]
+Type=ParentVarset
+Trigger1=Time=1
+V=40
+Value=(899)*10+Root,Var(40)
+;Value=の()内の数値(1-999)を入力してください(デフォルトは899)
+;(入力した数値)+フレーム間、岩が出現し続けます。
+
+;==============================行動設定===================================
+;[AI共通項目]
+;============================
+[State -3, 開幕前行動]
+Type=Varset
+Trigger1=1
+V=47
+Value=(1)
+;デフォルトは1です
+;()内の数値が1なら行動か、0なら行動不可
+;ちなみに行動可能なのは1ラウンド目のみ
+
+;============================
+[State -3, VSタッグ時の]
+Type=Varset
+Trigger1=1
+V=48
+Value=(1)
+;デフォルトは1です
+;()内の数値が1なら相手が2人のとき、遠距離からビーム脳。
+;0なら通常の立ち回りを行ないます。
+
+
+;=========================AIレベル別行動設定==============================
+;[対AIモード限定]
+;============================
+[State -3,とどめ]
+Type=Varset
+Trigger1=1
+V=46
+Value=4
+;AIレベルがここの値を超えるならば
+;削りで勝ちにいくようになります。
+
+
+;=============Level 4===============
+[State -3, 牽制技記憶]
+Type=Varset
+Trigger1=1
+V=45
+Value=4
+;AIレベルがここの値を超えるならば
+;相手の牽制攻撃を記憶し、反応速度を速めます
+;でも小足とか発生の早いのは無理です
+
+
+
+
+;=============================================================================
+;			設定できるのはここまで
+;=============================================================================
+
+;=============================================================================
+;			Unlimited Mode(狂キャラ化)
+;=============================================================================
+[State AI,Unlimited Mode]
+Type=Varset
+Trigger1=Root,Var(59)=5
+V=0
+Value=0
+;投げ成功時は無敵
+;岩出現中は飛び道具無敵
+;2ゲージ以上でオート岩出現(無敵スイッチ強制off)
+
+;=============================================================================
+[State -2, デバック(変数確認)]
+Type=DisplayToClipBoard
+Trigger1=1
+Text="Var(17)=%d,Var(18)=%d,var(23)=%d,var(54)=%d,var(26)=%d\n"
+Params=Var(17),Var(18),var(23),Var(54),Var(26)
+IgnoreHitPause=1
+
+[State -2, 距離確認デバック]
+type=AppendToClipboard
+Trigger1=1
+text= "Var(58)=%d,Var(57)=%d,Var(56)=%d,Var(11)%d Frame:%d \n"
+params=Var(58),Var(57),Var(56),Var(11),Var(58)-Var(56)
+IgnoreHitPause=1
+
+;===============================変数圧縮====================================
+[State AI,変数圧縮]
+Type=Varset
+Trigger1=Time=2
+V=59
+Value=Var(59)+10*Var(58)+100*Var(57)+Var(56)*1000+Var(55)*10000
+
+;================================
+;(55):岩の削り無効化
+;Helper(7000),Var(59)%100000/10000
+
+;(56):AI Mode
+;Helper(7000),Var(59)%10000/1000
+
+;(57):AI常時起動
+;Helper(7000),Var(59)%1000/100
+
+;(58):反応速度
+;Helper(7000),Var(59)%100/10
+
+;(59):AILevel
+;Helper(7000),Var(59)%10
+;Root,Var(59)
+;================================
+
+;===============================================================================================
+[State -2]
+type=varset
+Trigger1=Var(2):=Floor(1000*Enemynear(Var(4)),Life/Enemynear(var(4)),Const(Data.Life))
+Trigger1=Var(3):=Floor(1000*Parent,Life/Parent,LifeMax)
+var(1)=Root,Facing*Enemynear(Var(4)),Facing
+;=============================================================================
+;生死確認
+[State -3,tag]
+type=Varset
+Trigger1=RoundState=2
+Trigger1=NumEnemy=2
+var(4)=IfElse(!Enemynear ,Alive,1,0)
+
+;=============================================================================
+[State -3, 反応速度内部処理]
+Type=Varset
+Trigger1=1
+V=5
+Value=0
+
+[State -3, 反応速度内部処理]
+Type=Varset
+Trigger1=Enemynear(Var(4)),Time>=50-(Var(59)%100/10)*10
+Trigger2=Var(12)>=50-(Var(59)%100/10)*10
+Trigger3=Var(13)>=50-(Var(59)%100/10)*10
+Trigger4=Var(27)
+Trigger4=(Root,Var(59))>Var(45)
+Trigger4=Enemynear(Var(4)),Time>5
+Trigger5=Root,Movetype=A
+Trigger5=Root,Movecontact=0
+Trigger5=Root,Time>50-((Var(59)%100/10)-1)*10
+Trigger6=Var(11)=0
+Trigger6=Enemynear(Var(4)),Time>5
+Trigger6=Root,PrevStateNo=[5000,5270]
+Trigger6=Var(2)<200||Random<=(Root,Var(59))*20||Root,Time>=20
+Trigger7=Var(11)=0
+Trigger7=Enemynear(Var(4)),Time>5
+Trigger7=Root,PrevStateNo=[120,159]
+Trigger7=Var(2)<200||Random<=(Root,Var(59))*20||Root,Time>=20
+Trigger8=Root,Prevstateno=[700,704]
+V=5
+Value=1
+
+;================================================================================================
+[State -3,相手のヘルパー数]
+type=VarSet
+trigger1=Time=0
+V=7
+Value=-1
+
+[State -3]
+Type=Varset
+Trigger1=Var(19)=1
+Trigger1=Var(7)=-1
+Trigger1=Enemynear(Var(4)),Stateno=0
+V=7
+Value=Enemynear(Var(4)),NumHelper
+
+;================================================================================================
+[State -3,相手のProjectile数]
+type=VarSet
+trigger1=Time=0
+V=8
+Value=-1
+
+[State -3]
+Type=Varset
+Trigger1=Var(19)=1
+Trigger1=Var(8)=-1
+Trigger1=Enemynear(Var(4)),Stateno=0
+V=8
+Value=Enemynear(Var(4)),Numproj
+
+;=============================================================================
+[State -3, Inguarddist]
+Type=Varset
+Trigger1=1
+V=10
+Value=0
+Ignorehitpause=1
+
+[State -3, Inguarddist]
+Type=Varset
+Trigger1=Inguarddist
+Trigger2=NumHelper(7001)
+Trigger2=Helper(7001),Var(0)=1
+V=10
+Value=1
+Ignorehitpause=1
+
+;=============================================================================
+[State -3, 攻撃ミス確認]
+Type=Varset
+Trigger1=Var(10)=0
+Trigger1=Root,Inguarddist=0
+Trigger2=Root,Movetype=H
+V=11
+Value=0
+Ignorehitpause=1
+
+[State -3, 攻撃ミス確認]
+Type=Varset
+Trigger1=Root,Inguarddist
+Trigger1=Enemynear(Var(4)),HitdefAttr=SCA,AA,AT
+V=11
+Value=1
+Ignorehitpause=1
+
+;=============================================================================
+[State -3, 相手滞空時間]
+Type=Varset
+Trigger1=Enemynear(Var(4)),Statetype!=A
+V=12
+Value=0
+Ignorehitpause=1
+
+[State -3, 相手滞空時間]
+Type=Varadd
+Trigger1=Enemynear(Var(4)),Statetype=A
+V=12
+Value=1
+Ignorehitpause=1
+
+;=============================================================================
+[State -3, Inguarddist時間]
+Type=Varset
+Trigger1=Root,Inguarddist=0
+Trigger1=!Inguarddist
+V=13
+Value=0
+
+[State -3, Inguarddist時間]
+Type=Varadd
+Trigger1=Root,Inguarddist
+Trigger2=Inguarddist
+V=13
+Value=1
+
+;================================================================================================
+[State -3, 相手ゲージ監視]
+Type=Varset
+Trigger1=Root,Stateno!=[120,159]
+V=15
+Value=Enemynear(Var(4)),Power
+Ignorehitpause=1
+
+;================================================================================
+[State -3, ヒットまでの時間]
+Type=Varset
+Trigger1=Enemynear(Var(4)),Movetype!=A
+V=16
+Value=0
+Ignorehitpause=1
+
+[State -3, ヒットまでの時間]
+Type=Varadd
+Trigger1=Root,Movetype!=H
+Trigger1=Enemynear(Var(4)),Movetype=A
+V=16
+Value=1
+Ignorehitpause=1
+
+;================================================================================
+[State AI, Statetype確認処理用]
+Type=Varset
+TriggerAll=Var(18)>=Var(54)
+Trigger1=Var(17)!=1
+Trigger1=Enemynear(Var(4)),Statetype=S
+Trigger1=(Var(17):=1)||1
+Trigger2=Var(17)!=2
+Trigger2=Enemynear(Var(4)),Statetype=C
+Trigger2=(Var(17):=2)||1
+Trigger3=Var(17)!=3
+Trigger3=Enemynear(Var(4)),Statetype=A
+Trigger3=(Var(17):=3)||1
+V=17
+Value=Var(17)
+Ignorehitpause=1
+;S:1
+;C:2
+;A:3
+
+[State AI, Statetype状態フレーム確認]
+Type=Varadd
+Trigger1=1
+V=18
+Value=1
+Ignorehitpause=1
+
+[State AI, Statetype状態フレーム確認]
+Type=Varset
+Trigger1=Var(17)=1
+Trigger1=Enemynear(Var(4)),Statetype=S
+Trigger2=Var(17)=2
+Trigger2=Enemynear(Var(4)),Statetype=C
+Trigger3=Var(17)=3
+Trigger3=Enemynear(Var(4)),Statetype=A
+V=18
+Value=0
+Ignorehitpause=1
+
+;=============================================================================
+[State -3, 敵の数]
+Type=Varset
+Trigger1=NumEnemy=1
+V=19
+Value=1
+
+[State -3, 敵の数]
+Type=Varset
+Trigger1=NumEnemy=2
+V=19
+Value=Enemynear(0),Alive+Enemynear(1),Alive
+Ignorehitpause=1
+
+;=============================================================================
+[State -3, 技記憶フラグ]
+Type=Varset
+Trigger1=1
+V=20
+Value=0
+Ignorehitpause=1
+
+[State -3, 技記憶フラグ]
+Type=Varset
+Trigger1=Root,Movetype!=H
+Trigger1=Var(19)=1||NumEnemy=1
+Trigger1=Var(16)>5||Var(12)>10
+Trigger1=Enemynear(Var(4)),Movetype=A
+Trigger1=Enemynear(Var(4)),AnimTime<=-10||Var(12)>10
+V=20
+Value=1
+Ignorehitpause=1
+
+;================================================================================
+[State AI]
+Type=Varset
+Trigger1=Time=2
+Trigger1=(Var(21):=-1)||1
+Trigger1=(Var(22):=-1)||1
+Trigger1=(Var(23):=-1)||1
+Trigger1=(Var(24):=-1)||1
+V=25
+Value=-1
+
+[State -3, 技記憶]
+Type=Varset
+Trigger1=Var(20)=1
+Trigger1=Var(21)<0
+V=21
+Value=Enemynear(Var(4)),Stateno
+Ignorehitpause=1
+
+[State -3, 技記憶]
+Type=Varset
+Trigger1=Var(20)=1
+Trigger1=Var(21)!=0
+Trigger1=Var(21)!=Enemynear(Var(4)),Stateno
+Trigger1=Var(22)<0
+V=22
+Value=Enemynear(Var(4)),Stateno
+Ignorehitpause=1
+
+[State -3, 技記憶]
+Type=Varset
+Trigger1=Var(20)=1
+Trigger1=Var(21)!=0
+Trigger1=Var(22)!=0
+Trigger1=Var(21)!=Enemynear(Var(4)),Stateno
+Trigger1=Var(22)!=Enemynear(Var(4)),Stateno
+Trigger1=Var(23)<0
+V=23
+Value=Enemynear(Var(4)),Stateno
+Ignorehitpause=1
+
+[State -3, 技記憶]
+Type=Varset
+Trigger1=Var(20)=1
+Trigger1=Var(21)!=0
+Trigger1=Var(22)!=0
+Trigger1=Var(23)!=0
+Trigger1=Var(21)!=Enemynear(Var(4)),Stateno
+Trigger1=Var(22)!=Enemynear(Var(4)),Stateno
+Trigger1=Var(23)!=Enemynear(Var(4)),Stateno
+Trigger1=Var(24)<0
+V=24
+Value=Enemynear(Var(4)),Stateno
+Ignorehitpause=1
+
+[State -3, 技記憶]
+Type=Varset
+Trigger1=Var(20)=1
+Trigger1=Var(21)!=0
+Trigger1=Var(22)!=0
+Trigger1=Var(23)!=0
+Trigger1=Var(24)!=0
+Trigger1=Var(21)!=Enemynear(Var(4)),Stateno
+Trigger1=Var(22)!=Enemynear(Var(4)),Stateno
+Trigger1=Var(23)!=Enemynear(Var(4)),Stateno
+Trigger1=Var(24)!=Enemynear(Var(4)),Stateno
+Trigger1=Var(25)<0
+V=25
+Value=Enemynear(Var(4)),Stateno
+Ignorehitpause=1
+
+;================================================================================
+[State -3, 技回数記憶]
+Type=Varset
+Trigger1=Enemynear(Var(4)),Time=1
+Trigger1=Enemynear(Var(4)),Stateno=Var(21)
+V=26
+Value=Var(26)+1
+Ignorehitpause=1
+
+[State -3, 技回数記憶]
+Type=Varset
+Trigger1=Enemynear(Var(4)),Time=1
+Trigger1=Enemynear(Var(4)),Stateno=Var(22)
+V=26
+Value=10+Var(26)
+Ignorehitpause=1
+
+[State -3, 技回数記憶]
+Type=Varset
+Trigger1=Enemynear(Var(4)),Time=1
+Trigger1=Enemynear(Var(4)),Stateno=Var(23)
+V=26
+Value=100+Var(26)
+Ignorehitpause=1
+
+[State -3, 技回数記憶]
+Type=Varset
+Trigger1=Enemynear(Var(4)),Time=1
+Trigger1=Enemynear(Var(4)),Stateno=Var(24)
+V=26
+Value=1000+Var(26)
+Ignorehitpause=1
+
+[State -3, 技回数記憶]
+Type=Varset
+Trigger1=Enemynear(Var(4)),Time=1
+Trigger1=Enemynear(Var(4)),Stateno=Var(25)
+V=26
+Value=10000+Var(26)
+Ignorehitpause=1
+
+;================================================================================
+[State -3, 記憶した技の使用回数が一定値を超える]
+Type=Varset
+Trigger1=1
+V=27
+Value=0
+Ignorehitpause=1
+
+[State -3, 記憶した技の使用回数が一定値を超える]
+Type=Varset
+Trigger1=Var(21)=Enemynear(Var(4)),Stateno
+Trigger1=Var(26)%10		>8-Root,Var(59)
+Trigger2=Var(22)=Enemynear(Var(4)),Stateno
+Trigger2=Var(26)%100/10		>8-Root,Var(59)
+Trigger3=Var(23)=Enemynear(Var(4)),Stateno
+Trigger3=Var(26)%1000/100	>8-Root,Var(59)
+Trigger4=Var(24)=Enemynear(Var(4)),Stateno
+Trigger4=Var(26)%10000/1000	>8-Root,Var(59)
+Trigger5=Var(25)=Enemynear(Var(4)),Stateno
+Trigger5=Var(26)/10000		>8-Root,Var(59)
+V=27
+Value=1
+Ignorehitpause=1
+
+;================================================================================
+[State AI,ダメージ量(被弾距離)]
+Type=Varset
+TriggerAll=Root,Movetype!=H
+;投げ間合い
+Trigger1=Root,P2bodydist X<=20
+Trigger1=(Var(28):=1)||1
+
+;しゃがみ蹴り
+Trigger2=Root,P2bodydist X>20
+Trigger2=Root,P2bodydist X<=(50*13/16)
+Trigger2=(Var(28):=2)||1
+
+;空ダ
+Trigger3=Root,P2bodydist X>(50*13/16)
+Trigger3=Root,P2bodydist X<=120
+Trigger3=(Var(28):=3)||1
+
+;飛び道具
+Trigger4=Root,Stateno!=[120,159]
+Trigger4=Root,P2bodydist X>120
+Trigger4=(Var(28):=4)||1
+V=28
+Value=Var(28)
+Ignorehitpause=1
+
+[State AI]
+Type=Varset
+TriggerAll=Var(30)=1
+TriggerAll=Root,Movetype=H
+TriggerAll=Root,Stateno!=[120,159]
+Trigger1=Var(28)=1
+Trigger1=Var(29)%10<9
+Trigger1=(Var(29):=Var(29)+1)||1
+Trigger1=(Var(30):=2)||1
+Trigger2=Var(28)=2
+Trigger2=Var(29)%100/10<9
+Trigger2=(Var(29):=Var(29)+10)||1
+Trigger2=(Var(30):=2)||1
+Trigger3=Var(28)=3
+Trigger3=Var(29)%1000/100<9
+Trigger3=(Var(29):=Var(29)+100)||1
+Trigger3=(Var(30):=2)||1
+Trigger4=Var(28)=4
+Trigger4=Var(29)%10000/1000<9
+Trigger4=(Var(29):=Var(29)+1000)||1
+Trigger4=(Var(30):=2)||1
+V=29
+Value=Var(29)
+Ignorehitpause=1
+
+;距離モード認知
+[State AI]
+Type=Varset
+TriggerAll=Var(3)<=500
+Trigger1=Var(29)/10000=0
+Trigger1=Var(29)%10>3
+Trigger1=(Var(29):=Var(29)+10000)||1
+Trigger2=Var(29)/10000=0
+Trigger2=Var(29)%100/10>3
+Trigger2=(Var(29):=Var(29)+10000)||1
+Trigger3=Var(29)/10000=0
+Trigger3=Var(29)%1000/100>3
+Trigger3=(Var(29):=Var(29)+10000)||1
+;Trigger4=Var(29)/100000%10000=0
+;Trigger4=Var(29)%10000/1000>3
+;Trigger4=(Var(29):=Var(29)+10000)||1
+V=29
+Value=Var(29)
+Ignorehitpause=1
+
+[State AI,被弾スイッチ]
+Type=Varset
+Trigger1=Var(30)=0
+Trigger1=Root,Movetype=H
+Trigger1=(Var(30):=1)||1
+Trigger2=Var(30)=2
+Trigger2=Root,Movetype!=H
+Trigger2=(Var(30):=0)||1
+V=30
+Value=Var(30)
+Ignorehitpause=1
+
+;================================================================================================
+[State -3, タッグ時の敵キャラ状態]
+Type=Varset
+Trigger1=1
+V=32
+Value=0
+
+[State -3, タッグ時の敵キャラ状態]
+Type=Varset
+TriggerAll=NumEnemy=2
+TriggerAll=NumPartner
+TriggerAll=Partner,Alive
+
+;[味方救助]
+
+; 一番近くの敵が死んでいる時(敵の後ろにいる)
+Trigger1=Enemynear(0),Alive=0
+Trigger1=Enemynear(1),Alive=1
+Trigger1=P2bodydist X>10
+Trigger1=Partner,Ctrl=0
+Trigger1=Partner,MoveType=H
+Trigger1=Enemynear(1),Movetype=A
+Trigger1=(Enemynear(0),Facing*Facing=1)
+; 一番近くの敵が死んでいる時(味方をはさんでいる)
+Trigger2=Enemynear(0),Alive=0
+Trigger2=Enemynear(1),Alive=1
+Trigger2=P2bodydist X>10
+Trigger2=Partner,Ctrl=0
+Trigger2=Partner,MoveType=H
+Trigger2=Enemynear(1),Movetype=A
+Trigger2=(Partner,Pos X=[Root,Pos X, Enemynear(1),Pos X])||(Partner,Pos X=[Enemynear(1),Pos X, Root,Pos X])
+
+; 一番遠くの敵が死んでいる時(敵の後ろにいる)
+Trigger3=Enemynear(1),Alive=0
+Trigger3=Enemynear(0),Alive=1
+Trigger3=P2bodydist X>10
+Trigger3=Partner,Ctrl=0
+Trigger3=Partner,Movetype=H
+Trigger3=Enemynear(0),Movetype=A
+Trigger3=(Enemynear(0),Facing*Facing=1)
+; 一番近くの敵が死んでいる時(味方をはさんでいる)
+Trigger4=Enemynear(1),Alive=0
+Trigger4=Enemynear(0),Alive=1
+Trigger4=P2bodydist X>10
+Trigger4=Partner,Ctrl=0
+Trigger4=Partner,MoveType=H
+Trigger4=Enemynear(0),Movetype=A
+Trigger4=(Partner,Pos X=[Root,Pos X, Enemynear(0),Pos X])||(Partner,Pos X=[Enemynear(0),Pos X, Root,Pos X])
+
+;[追撃]
+
+Trigger5=(!Enemynear(0),Alive)
+Trigger5=Enemynear(1),Alive
+Trigger5=P2bodydist X*-1>0||Enemynear(1),Pos X<0
+Trigger5=Enemynear(1),Movetype=H
+
+Trigger6=(!Enemynear(1),Alive)
+Trigger6=Enemynear(0),Alive
+Trigger6=P2bodydist X>0||Enemynear(0),Pos X<0
+Trigger6=Enemynear(0),Movetype=H
+
+;敵が両方生きている時
+Trigger7=P2bodydist X>0
+Trigger7=Enemynear(0),Alive
+Trigger7=Enemynear(1),Alive
+Trigger7=(Partner,Pos X=[Pos X,Enemynear(0),Pos X])||(Partner,Pos X=[Enemynear(0),Pos X,Pos X])||Var(1)>0
+Trigger7=(Partner,Pos X=[Pos X,Enemynear(1),Pos X])||(Partner,Pos X=[Enemynear(1),Pos X,Pos X])||Enemynear(1),Facing*Facing=-1
+Trigger7=abs(Partner,Pos X-Pos X)>20
+V=32
+Value=1
+
+;================================================================================================
+[State AI, 立ち下段記憶]
+Type=Varset
+TriggerAll=Var(19)=1
+TriggerAll=Var(33)=0
+TriggerAll=Var(34)=0
+TriggerAll=Root,Movetype=H
+TriggerAll=Root,Stateno!=[120,159]
+TriggerAll=Root,PrevStateno=[120,159]
+TriggerAll=Root,Statetype=S||Root,Statetype=A
+TriggerAll=Enemynear(Var(4)),Statetype=S
+Trigger1=Enemynear(Var(4)),HitdefAttr=SC,AA,AP
+Trigger2=Var(7)!=-1
+Trigger2=Enemynear(Var(4)),NumHelper>Var(7)
+Trigger3=Var(8)!=-1
+Trigger3=Enemynear(Var(4)),NumProj>Var(8)
+V=33
+Value=Enemynear(Var(4)),Stateno
+Ignorehitpause=1
+
+[State AI, 立ち下段記憶]
+Type=Varset
+TriggerAll=Var(33)!=0
+TriggerAll=Var(19)=1
+TriggerAll=Var(34)=0
+TriggerAll=Root,Movetype=H
+TriggerAll=Root,Stateno!=[120,159]
+TriggerAll=Root,PrevStateno=[120,159]
+TriggerAll=Root,Statetype=S||Root,Statetype=A
+TriggerAll=Enemynear(Var(4)),Statetype=S
+TriggerAll=Enemynear(Var(4)),Stateno!=Var(33)
+Trigger1=Enemynear(Var(4)),HitdefAttr=SC,AA,AP
+Trigger2=Var(7)!=-1
+Trigger2=Enemynear(Var(4)),NumHelper>Var(7)
+Trigger3=Var(8)!=-1
+Trigger3=Enemynear(Var(4)),NumProj>Var(8)
+V=34
+Value=Enemynear(Var(4)),Stateno
+Ignorehitpause=1
+
+;=============================================================================
+[State AI, アーマー対策]
+Type=Varset
+Trigger1=Enemynear(Var(4)),Movetype!=H
+Trigger1=Enemynear(Var(4)),Stateno!=[120,159]
+Trigger1=Enemynear(Var(4)),GetHitVar(HitTime)>0
+V=35
+Value=Enemynear(Var(4)),ID
+Ignorehitpause=1
+
+[State AI, アーマー対策]
+Type=Varset
+TriggerAll=EnemyNear(Var(4)),ID=Var(35)
+Trigger1=Enemynear(Var(4)),Movetype=H
+Trigger1=Enemynear(Var(4)),GetHitVar(HitTime)>0
+Trigger2=Enemynear(Var(4)),Ctrl=0
+Trigger2=Enemynear(Var(4)),Vel X=0
+Trigger2=Enemynear(Var(4)),Movetype=I
+Trigger2=Enemynear(Var(4)),Stateno!=[0,101]
+V=35
+Value=-1
+Ignorehitpause=1
+
+[State AI アーマー対策(ID一致)]
+Type=Varset
+TriggerAll=Var(35)!=0
+Trigger1=Var(19)=1
+Trigger1=(Var(36):=Var(35))||1
+Trigger2=Var(19)=2
+Trigger2=Var(36)=[-1,0]
+Trigger2=(Var(36):=Var(35))||1
+Trigger3=Var(19)=2
+Trigger3=Var(36)!=[-1,0]
+Trigger3=Var(36)!=9999
+Trigger3=Var(36)!=Var(35)
+Trigger3=(Var(36):=9999)||1
+Trigger4=Var(36)=9999
+V=36
+Value=Var(36)
+Ignorehitpause=1
+
+[State AI]
+Type=Varset
+Trigger1=1
+V=37
+Value=(Enemynear(Var(4)),ID=Var(36)||Var(36)=9999)
+
+;=============================================================================
+[State AI, 移動起き上がり]
+Type=Varset
+Trigger1=1
+V=38
+Value=0
+
+[State AI, 移動起き上がり]
+Type=Varset
+Trigger1=Enemynear(Var(4)),Stateno=FVar(30)
+Trigger2=Enemynear(Var(4)),Stateno=FVar(31)
+Trigger3=Enemynear(Var(4)),Stateno=[5200,5210]
+V=38
+Value=1
+
+[State AI, 移動起き上がり]
+Type=Varset
+Trigger1=Time=0
+Trigger1=(FVar(30):=-1)||1
+FV=31
+Value=-1
+
+[State AI, 移動起き上がり]
+Type=Varset
+Trigger1=Var(19)=1
+Trigger1=Var(40)<2
+Trigger1=FVar(30)=0
+Trigger1=Enemynear(Var(4)),Vel X>1
+Trigger1=Enemynear(Var(4)),Stateno!=5120
+Trigger1=Enemynear(Var(4)),Stateno!=[5100,5101]
+Trigger1=Enemynear(Var(4)),PrevStateno=[5100,5120]
+FV=30
+Value=Enemynear(Var(4)),Stateno
+Ignorehitpause=1
+
+[State AI, 移動起き上がり]
+Type=Varset
+Trigger1=Var(19)=1
+Trigger1=Var(40)<2
+Trigger1=FVar(31)=0
+Trigger1=Enemynear(Var(4)),Vel X<-1
+Trigger1=Enemynear(Var(4)),Stateno!=5120
+Trigger1=Enemynear(Var(4)),Stateno!=[5100,5101]
+Trigger1=Enemynear(Var(4)),PrevStateno=[5100,5120]
+FV=31
+Value=Enemynear(Var(4)),Stateno
+Ignorehitpause=1
+
+;=============================================================================
+[State AI, 起き上がり時間]
+Type=Varset
+Trigger1=Enemynear(Var(4)),Time=[0,1]
+Trigger1=Enemynear(Var(4)),Stateno=5120
+Trigger1=Enemynear(Var(4)),AnimTime>=-7
+V=39
+Value=Enemynear(Var(4)),AnimTime
+Ignorehitpause=1
+
+[State AI, 起き上がり時間]
+Type=Varadd
+TriggerAll=Var(39)<0
+Trigger1=Var(38)=0
+Trigger1=Enemynear(Var(4)),Stateno=5110
+V=40
+Value=1
+Ignorehitpause=1
+
+[State AI, 起き上がり時間]
+Type=Varset
+Trigger1=Enemynear(Var(4)),Statetype!=L
+V=40
+Value=0
+Ignorehitpause=1
+
+;================================================================================================
+[State -2,(Movecontactスイッチ)]
+type=varset
+TriggerAll=Time>5
+TriggerAll=Var(19)=1
+;接触
+trigger1=Root,stateno=5000
+trigger1=(var(55):=1)||1
+trigger2=Root,stateno=5010
+trigger2=(var(55):=1)||1
+trigger3=Root,stateno=5020
+trigger3=(var(55):=1)||1
+trigger4=Root,stateno=[150,159]
+trigger4=(var(55):=1)||1
+trigger5=Root,stateno=[7600,7620]
+trigger5=(var(55):=1)||1
+;接触終了
+trigger6=EnemyNear(Var(4)),ctrl=1
+trigger6=(var(55):=0)||1
+V=55
+Value=Var(55)
+Ignorehitpause=1
+
+[State -2,(相手の総フレーム数を逆算)]
+type=varadd
+TriggerAll=Time>5
+TriggerAll=RoundState=2
+trigger1=EnemyNear(Var(4)),ctrl=0
+trigger1=var(55)
+V=56
+Value=1
+Ignorehitpause=1
+
+[State -2,(初期化)]
+type=varset
+TriggerAll=Time>5
+trigger1=Root,stateno!=5000
+trigger1=Root,stateno!=5010
+trigger1=Root,stateno!=5020
+trigger1=Root,stateno!=[120,159]
+trigger1=Root,stateno!=[7600,7620]
+V=56
+Value=0
+Ignorehitpause=1
+
+[State -2,(防御認識)]
+type=varset
+;防御認識
+TriggerAll=Time>5
+TriggerAll=RoundState=2
+TriggerAll=Var(19)=1
+trigger1=Root,stateno=5000
+trigger1=(var(57):=1)||1
+trigger2=Root,stateno=5010
+trigger2=(var(57):=1)||1
+trigger3=Root,stateno=5020
+trigger3=(var(57):=1)||1
+trigger4=Root,stateno=[150,159]
+trigger4=(var(57):=1)||1
+trigger5=Root,stateno=[7600,7620]
+trigger5=(var(57):=1)||1
+;防御終了
+trigger6=Root,ctrl=1
+trigger6=(var(57):=0)||1
+V=57
+Value=Var(57)
+Ignorehitpause=1
+
+[State -2,(防御フレーム数)]
+type=varadd
+TriggerAll=Time>5
+TriggerAll=RoundState=2
+trigger1=Root,ctrl=0
+trigger1=var(57)
+var(58)=1
+
+[State -2,(防御フレーム数)]
+type=varadd
+TriggerAll=Time>5
+TriggerAll=RoundState=2
+trigger1=Root,ctrl=1
+trigger1=var(57)
+var(58)=-1
+Ignorehitpause=1
+
+[State -2,(初期化)]
+type=varset
+TriggerAll=Time>5
+trigger1=Root,stateno!=5000
+trigger1=Root,stateno!=5010
+trigger1=Root,stateno!=5020
+trigger1=Root,stateno!=[120,159]
+trigger1=Root,stateno!=[7600,7620]
+V=58
+Value=0
+Ignorehitpause=1
+
+;=============================================================================
+;================================================================================================
+[State -3, 重力計算用]
+Type=Varset
+Trigger1=1
+FV=1
+Value=Enemynear(Var(4)),Const(Movement.Yaccel)*(Enemynear(Var(4)),Statetype=A&&Enemynear(Var(4)),Vel Y)
+Ignorehitpause=1
+
+;================================================================================================
+[State -3, 重力計算用]
+Type=Varset
+Trigger1=1
+FV=2
+Value=Root,Const(Movement.Yaccel)*(Root,Statetype=A&&Root,Vel Y)
+Ignorehitpause=1
+
+;================================================================================================
+[State -2]
+type=Nothitby
+trigger1=1
+value=SCA
+[State AI]
+type=ScreenBound
+trigger1=1
+value=0
+movecamera=0,0
+[State AI]
+type=assertspecial
+trigger1=1
+flag=noshadow
+flag2=invisible
+ignorehitpause=1
+[State AI]
+type=velset
+trigger1=1
+x=0
+y=0
+[State -2, Turn]
+Type=Turn
+Trigger1=Facing=Root,Facing
+
+[State -2]
+type=PosSet
+Trigger1=1
+x=root,Pos X
+y=root,Pos Y
+;================================================================================================
+;(0):
+;(1):向き
+;(2):相手体力
+;(3):自分体力
+;(4):生死確認
+;(5):反応速度内部処理
+;(7):相手のヘルパー数
+;(8):相手のProjectile数
+;
+;(10):Inguarddist
+;(11):攻撃ミス確認
+;(12):相手の滞空時間
+;(13):Inguarddist時間
+;(14):
+;(15):相手ゲージ監視
+;(16):相手の攻撃からヒットまでの時間
+;(17):Statetype状態確認
+;(18):Statetype状態フレーム確認
+;(19);敵の数
+;(20):技記憶フラグ
+;(21):技記憶
+;(22):技記憶
+;(23):技記憶
+;(24):技記憶
+;(25):技記憶
+
+;(26):技回数記憶
+;(27):記憶した技の使用回数が一定値を超える
+;(28):ダメージ量(被弾距離)
+;(29):ダメージ量(被弾回数)
+;(30):被弾スイッチ
+;(31):
+;(32):タッグ時の敵キャラ状態
+;(33):立ち下段記憶
+;(34):立ち下段記憶
+;(35):アーマー対策(ID確認)
+;(36):アーマー対策(ID記憶)
+;(37):アーマー対策(ID一致)
+;(38):移動起き上がり
+;(39):起き上がり時間
+;(40):起き上がり時間
+;
+;(41):アドバンスガード封印
+;(42):リカバリ封印スイッチ
+;(43):岩の出現位置変更
+;(44):
+;(45):牽制技記憶
+;(46):とどめ
+;(47):開幕前行動
+;(48):ビーム脳停止
+;(49):岩使用時のゲージ増加防止
+;
+;(50):
+;(51):
+;(52):
+;(53):ガード使用率
+;(54):State状態確認設定
+
+;=====圧縮前=====
+;(55):岩の削り無効化
+;(56):AI Mode
+;(57):AI常時起動
+;(58):反応速度
+;(59):AILevel
+
+;=====圧縮後=====
+;(55):相手の攻撃認識
+;(56):相手の総フレーム数を逆算
+;(57):防御認識
+;(58):防御フレーム数
+;(59):圧縮
+
+;================
+;FV
+;(1):重力計算
+;(2):
+;(30):移動起き上がり前Stateno
+;(31):移動起き上がり後Stateno
+;
+;================================================================================================
+;===========置き攻め対策==============
+[Statedef 7001]
+type=A
+movetype=I
+physics=N
+ctrl=0
+anim=0
+sprpriority=0
+
+[State -2]
+type=Nothitby
+trigger1=1
+value=SCA
+[State AI]
+type=ScreenBound
+trigger1=1
+value=0
+movecamera=0,0
+[State AI]
+type=assertspecial
+trigger1=1
+flag=noshadow
+flag2=invisible
+ignorehitpause=1
+[State AI]
+type=velset
+trigger1=1
+x=0
+y=0
+[State -2, Turn]
+Type=Turn
+Trigger1=Facing!=Root,Facing
+
+[State -2]
+type=PosSet
+Trigger1=1
+x=root,Pos X+Facing*-30
+y=root,Pos Y
+
+
+[State AI]
+Type=Destroyself
+Trigger1=Time>7
+
+;======================================
+[State AI, 置き攻め対策(初期化)]
+Type=Varset
+Trigger1=1
+Value=0
+Ignorehitpause=1
+
+[State AI, 置き攻め対策]
+Type=Varset
+Trigger1=Inguarddist
+Trigger1=Root,Inguarddist=0
+V=0
+Value=1
+Ignorehitpause=1

@@ -107,17 +107,21 @@ func request_cast(slot: int, target_override: Variant = null) -> bool:
 		elif adapter.kind == "area": range_px = rank.radius_px * (1.0 + (augments.value(definition.id,&"area") if augments != null else 0.0))
 	var target: Actor = TargetingService.nearest(owner, candidates, range_px)
 	var manual: bool = target_override is Vector2
+	var assisted: bool = definition.targeting.prefer_nearest_with_facing_fallback
 	if definition.targeting.policy == "self":
 		if not manual and (target == null or (adapter != null and adapter.kind == "shield" and owner.health.shield_total() > 0.0)):
 			return false
-	elif target == null and not manual:
+	elif target == null and not manual and not assisted:
 		return false
 	var aim: Vector2 = target.global_position if target != null else owner.global_position + Vector2.RIGHT * rank.range_px
-	if manual:
+	if manual and not (assisted and target != null):
 		aim = target_override
 		if owner is PlayerActor:
 			var player := owner as PlayerActor
-			aim = player.global_position + player.facing * maxf(1,rank.range_px)
+			aim = player.global_position + player.attack_direction * maxf(1,rank.range_px)
+	if assisted and target == null and owner is PlayerActor:
+		var player := owner as PlayerActor
+		aim = owner.global_position + (player.attack_direction if manual else player.facing) * maxf(1,rank.range_px)
 	var offset: Vector2 = aim - owner.global_position
 	var intent := CastIntent.new()
 	intent.source_ref = weakref(owner)
@@ -127,12 +131,16 @@ func request_cast(slot: int, target_override: Variant = null) -> bool:
 	intent.rank = rank
 	intent.aim_point = owner.global_position + offset.limit_length(rank.range_px) if rank.range_px > 0 else owner.global_position
 	intent.direction = offset.normalized() if offset.length_squared() > 0 else Vector2.RIGHT
+	if not manual and adapter != null and adapter.kind in ["projectile","beam"]:
+		intent.direction = combat.cast_origin(owner).direction_to(target.hit_position() if target!=null else aim)
 	intent.manual = manual
 	intent.context = combat.next_context(owner, definition.id)
 	intent.context.manager = augments
 	intent.context.runtime = runtime
 	if not definition.executor.execute_cast(intent, combat):
 		return false
+	if owner is PlayerActor and definition.targeting.policy != "self":
+		(owner as PlayerActor).record_attack_direction(intent.direction)
 	runtime.commit_cast(owner.stats.cooldown_reduction)
 	skill_cast.emit(slot, intent.context)
 	return true

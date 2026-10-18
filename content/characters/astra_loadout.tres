@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="CombatLoadoutDefinition" format=3]
 
-[ext_resource type="SpriteFrames" path="res://assets/characters/astra/frames.tres" id="art_frames"]
+[ext_resource type="SpriteFrames" path="res://assets/art_v3/characters/astra/frames.tres" id="art_frames"]
 
 [ext_resource type="Script" path="res://scripts/data/combat_loadout_definition.gd" id="1"]
 [ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="1_pqwkn"]
@@ -259,6 +259,7 @@ behavior = SubResource("Resource_sutti")
 
 [sub_resource type="Resource" id="Resource_hyifr"]
 script = ExtResource("5_qootf")
+prefer_nearest_with_facing_fallback = true
 policy = "cursor"
 acquisition_radius = 350.0
 
@@ -339,6 +340,7 @@ display_name = "Celestial Beam"
 [resource]
 script = ExtResource("1")
 character_id = &"character.astra"
+cast_origin_offset = Vector2(0, -12)
 art_frames = ExtResource("art_frames")
 class_id = &"mage"
 stats = ExtResource("2")

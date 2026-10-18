@@ -1,0 +1,99 @@
+{
+  "source": "D:\\SelfProject\\RougeLite\\worktrees\\visual_pipeline_v2",
+  "target": "D:\\SelfProject\\RougeLite",
+  "scope": "Astra VFX only; existing character/map resources unchanged",
+  "files": [
+    {
+      "after_sha256": "F4917B3FDAE1EF1987CBAFE802F702997A70E21CD06ECF36D84AFFF57C669BE7",
+      "before_sha256": "F4917B3FDAE1EF1987CBAFE802F702997A70E21CD06ECF36D84AFFF57C669BE7",
+      "path": "scripts/ui/combat_visual_effect.gd"
+    },
+    {
+      "after_sha256": "A60D64DA3EA4893EA761C6A87AE3E3925293F342E8258DC4E710DA954A2256DB",
+      "before_sha256": "49A18E13E00245CC2C59398813BD34EE9D00429E13D145D159E6CC48E95866A9",
+      "path": "scripts/ui/combat_visual_factory.gd"
+    },
+    {
+      "after_sha256": "E246ACC885EB27AD1D8C8A63627D4C3C7CCCADCCC5BB0B063566BF9C202F26D8",
+      "before_sha256": "E246ACC885EB27AD1D8C8A63627D4C3C7CCCADCCC5BB0B063566BF9C202F26D8",
+      "path": "scripts/ui/celestial_visual_effect.gd"
+    },
+    {
+      "after_sha256": "8778718A0FB6C307FDEB114A470EA5D980283333EF3520781177275F66D9A5A7",
+      "before_sha256": "8778718A0FB6C307FDEB114A470EA5D980283333EF3520781177275F66D9A5A7",
+      "path": "scripts/ui/celestial_visual_effect.gd.uid"
+    },
+    {
+      "after_sha256": "5D63DBE8973D02DE2BC5839FED958CC7B3E9B1E24DB25014B8FC78FB7486E4B4",
+      "before_sha256": "5D63DBE8973D02DE2BC5839FED958CC7B3E9B1E24DB25014B8FC78FB7486E4B4",
+      "path": "scripts/combat/combat_service.gd"
+    },
+    {
+      "after_sha256": "B230B3954943F30A6180A05FED8EA2938D49B7D31610769CBE3E3BC1185AA01E",
+      "before_sha256": "7C27D8D1E068F334D9EFF551C3E83B94D0774F57CED0E04EB728FC8FA7D08714",
+      "path": "scripts/actors/player_actor.gd"
+    },
+    {
+      "after_sha256": "24B4A196FD272A2A0319EA98020A472AA0374414F8A8F11F979BB2D944FE973A",
+      "before_sha256": "5C9FBF47302666EC76D6A352929138BFC0D7259C2DF90E0E7D382C83344A4EFC",
+      "path": "scripts/ui/visual_controller.gd"
+    },
+    {
+      "after_sha256": "615D5957CE41F91ACD51E2028181EC20D1C34D2861CC92ABD09559161E2D57A7",
+      "before_sha256": "0C6557AC649F31A51230F4436A526E04A8A9B116E8E572B367B323CF0B26A6DF",
+      "path": "tests/integration/test_astra_celestial_vfx.gd"
+    },
+    {
+      "after_sha256": "5EDCCF7EC02B5AD08BAE14A140463942CCEB7B7F48088F0BD0AECA6802340B0D",
+      "before_sha256": "5EDCCF7EC02B5AD08BAE14A140463942CCEB7B7F48088F0BD0AECA6802340B0D",
+      "path": "tests/integration/test_astra_celestial_vfx.gd.uid"
+    },
+    {
+      "after_sha256": "86BA428270CF9A1C7891633727BA8594EEE0A136ED05BCA07FF2467D4D103498",
+      "before_sha256": "86BA428270CF9A1C7891633727BA8594EEE0A136ED05BCA07FF2467D4D103498",
+      "path": "tools/capture_astra_vfx.gd"
+    },
+    {
+      "after_sha256": "C7BECFEFA27F51531CC693D9D959379710FE9B484D9D0D6800A57BC30D136117",
+      "before_sha256": "C7BECFEFA27F51531CC693D9D959379710FE9B484D9D0D6800A57BC30D136117",
+      "path": "tools/capture_astra_vfx.gd.uid"
+    },
+    {
+      "after_sha256": "D8C6AC7B79CCD9F3828D6B4AF74164BD86D8CF7A8A1E26E97889BE9544F670FC",
+      "before_sha256": "D8C6AC7B79CCD9F3828D6B4AF74164BD86D8CF7A8A1E26E97889BE9544F670FC",
+      "path": "tools/art_pipeline/generate_environment.py"
+    },
+    {
+      "after_sha256": "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B",
+      "before_sha256": null,
+      "path": "assets/vfx/Endless_Survival_Blender_Pixel_Godot_Spec_v2/.gdignore"
+    },
+    {
+      "after_sha256": "4B328A8FF1E22232D93E727584A1FD83DC54907ECA3A18C559BB83AD01306954",
+      "before_sha256": "4B328A8FF1E22232D93E727584A1FD83DC54907ECA3A18C559BB83AD01306954",
+      "path": "assets/vfx/generated/astra_basic.json"
+    },
+    {
+      "after_sha256": "346550EDE5BCBF2BE1B1B8535884B1B07A8FB0F3A082636E05413E498CFB1CF4",
+      "before_sha256": "346550EDE5BCBF2BE1B1B8535884B1B07A8FB0F3A082636E05413E498CFB1CF4",
+      "path": "assets/vfx/generated/astra_j.json"
+    },
+    {
+      "after_sha256": "888CCAA712E91933672E0765AD8EF449E843597B3E382A887977D0798BA8712A",
+      "before_sha256": "888CCAA712E91933672E0765AD8EF449E843597B3E382A887977D0798BA8712A",
+      "path": "assets/vfx/generated/astra_k.json"
+    },
+    {
+      "after_sha256": "6C38316E1B724BD80E159C10B848A8B529DFC7CC02E8232B2FD531D3909D5B95",
+      "before_sha256": "6C38316E1B724BD80E159C10B848A8B529DFC7CC02E8232B2FD531D3909D5B95",
+      "path": "assets/vfx/generated/astra_l.json"
+    },
+    {
+      "after_sha256": "879EF3CA4461EA11B847A0B18636062D1E8F83ECEB316FA6AD2391650DC032C2",
+      "before_sha256": "879EF3CA4461EA11B847A0B18636062D1E8F83ECEB316FA6AD2391650DC032C2",
+      "path": "assets/vfx/generated/astra_i.json"
+    }
+  ],
+  "backup": "D:\\SelfProject\\RougeLite\\worktrees\\visual_pipeline_v2\\.local-data\\astra_vfx02_backup_20261017_113235",
+  "date": "2026-10-17T11:32:35.5819826+07:00"
+}

@@ -5,6 +5,10 @@ signal died(actor: Actor)
 @export var stats_definition: ActorStatDefinition
 @export var team: int = 1
 var actor_id: int = 0
+var cast_origin_offset: Vector2 = Vector2.ZERO
+var hurtbox: ActorHurtbox
+func hit_position() -> Vector2:
+	return hurtbox.global_position if is_instance_valid(hurtbox) else global_position
 var stats: ActorStats
 var health: Health
 var statuses: StatusController = StatusController.new()
@@ -73,5 +77,6 @@ func advance_effects(delta: float) -> void:
 func _on_depleted() -> void:
 	velocity = Vector2.ZERO
 	collision_layer = 0
+	if is_instance_valid(hurtbox): hurtbox.collision_layer=0
 	set_physics_process(false)
 	died.emit(self)

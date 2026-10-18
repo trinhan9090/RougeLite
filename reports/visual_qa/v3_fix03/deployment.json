@@ -1,0 +1,1905 @@
+{
+  "rollback": "D:\\SelfProject\\RougeLite\\.local-data\\roster_fix03_20261017_064051",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "1346b91fb1b0116e4413948223e25a9041502e1863e5371f95c6687bc80562bb"
+    },
+    {
+      "path": "ASSET_LICENSES.md",
+      "sha256": "784ba7a58cb19c309cd8e52ba40870b2788000432f3b2c9eb5bf236a0b915f1b"
+    },
+    {
+      "path": "art_source/v3/boros/basic_north_body.png",
+      "sha256": "36961f1d69cd9485986b0cda315bfd6520e6f2ea99634147aa8814f7b25125dc"
+    },
+    {
+      "path": "art_source/v3/boros/cast_i_north_body.png",
+      "sha256": "1c1be7cddf90c1048a23bf48e5370c0cd4d436163f96a16cb68363cf8816933a"
+    },
+    {
+      "path": "art_source/v3/boros/cast_j_north_body.png",
+      "sha256": "36961f1d69cd9485986b0cda315bfd6520e6f2ea99634147aa8814f7b25125dc"
+    },
+    {
+      "path": "art_source/v3/boros/cast_k_north_body.png",
+      "sha256": "36961f1d69cd9485986b0cda315bfd6520e6f2ea99634147aa8814f7b25125dc"
+    },
+    {
+      "path": "art_source/v3/boros/cast_l_north_body.png",
+      "sha256": "36961f1d69cd9485986b0cda315bfd6520e6f2ea99634147aa8814f7b25125dc"
+    },
+    {
+      "path": "art_source/v3/boros/death_east_weapon.png",
+      "sha256": "db1eb210264623160b3fa65ea22aa0006551bc074042a66083af1c414a8b5a2a"
+    },
+    {
+      "path": "art_source/v3/boros/death_north_body.png",
+      "sha256": "36961f1d69cd9485986b0cda315bfd6520e6f2ea99634147aa8814f7b25125dc"
+    },
+    {
+      "path": "art_source/v3/boros/death_north_weapon.png",
+      "sha256": "db1eb210264623160b3fa65ea22aa0006551bc074042a66083af1c414a8b5a2a"
+    },
+    {
+      "path": "art_source/v3/boros/death_south_weapon.png",
+      "sha256": "db1eb210264623160b3fa65ea22aa0006551bc074042a66083af1c414a8b5a2a"
+    },
+    {
+      "path": "art_source/v3/boros/death_west_weapon.png",
+      "sha256": "1959eb0c4c27ed09607afb9acb063c5d8340c1abf126893a4cb465522771a669"
+    },
+    {
+      "path": "art_source/v3/boros/hit_east_weapon.png",
+      "sha256": "db1eb210264623160b3fa65ea22aa0006551bc074042a66083af1c414a8b5a2a"
+    },
+    {
+      "path": "art_source/v3/boros/hit_north_body.png",
+      "sha256": "125a518597bc69e346e4de189f4d2dc2e36f5a680c841db844f81139b21f138a"
+    },
+    {
+      "path": "art_source/v3/boros/hit_north_weapon.png",
+      "sha256": "db1eb210264623160b3fa65ea22aa0006551bc074042a66083af1c414a8b5a2a"
+    },
+    {
+      "path": "art_source/v3/boros/hit_south_weapon.png",
+      "sha256": "db1eb210264623160b3fa65ea22aa0006551bc074042a66083af1c414a8b5a2a"
+    },
+    {
+      "path": "art_source/v3/boros/hit_west_weapon.png",
+      "sha256": "1959eb0c4c27ed09607afb9acb063c5d8340c1abf126893a4cb465522771a669"
+    },
+    {
+      "path": "art_source/v3/boros/idle_east_weapon.png",
+      "sha256": "db1eb210264623160b3fa65ea22aa0006551bc074042a66083af1c414a8b5a2a"
+    },
+    {
+      "path": "art_source/v3/boros/idle_north_body.png",
+      "sha256": "36961f1d69cd9485986b0cda315bfd6520e6f2ea99634147aa8814f7b25125dc"
+    },
+    {
+      "path": "art_source/v3/boros/idle_north_weapon.png",
+      "sha256": "db1eb210264623160b3fa65ea22aa0006551bc074042a66083af1c414a8b5a2a"
+    },
+    {
+      "path": "art_source/v3/boros/idle_south_weapon.png",
+      "sha256": "db1eb210264623160b3fa65ea22aa0006551bc074042a66083af1c414a8b5a2a"
+    },
+    {
+      "path": "art_source/v3/boros/idle_west_weapon.png",
+      "sha256": "1959eb0c4c27ed09607afb9acb063c5d8340c1abf126893a4cb465522771a669"
+    },
+    {
+      "path": "art_source/v3/boros/run_east_weapon.png",
+      "sha256": "db1eb210264623160b3fa65ea22aa0006551bc074042a66083af1c414a8b5a2a"
+    },
+    {
+      "path": "art_source/v3/boros/run_north_body.png",
+      "sha256": "36961f1d69cd9485986b0cda315bfd6520e6f2ea99634147aa8814f7b25125dc"
+    },
+    {
+      "path": "art_source/v3/boros/run_north_weapon.png",
+      "sha256": "db1eb210264623160b3fa65ea22aa0006551bc074042a66083af1c414a8b5a2a"
+    },
+    {
+      "path": "art_source/v3/boros/run_south_weapon.png",
+      "sha256": "db1eb210264623160b3fa65ea22aa0006551bc074042a66083af1c414a8b5a2a"
+    },
+    {
+      "path": "art_source/v3/boros/run_west_weapon.png",
+      "sha256": "1959eb0c4c27ed09607afb9acb063c5d8340c1abf126893a4cb465522771a669"
+    },
+    {
+      "path": "art_source/v3/vex/basic_east_body.png",
+      "sha256": "2c293ec94a4821b19bcfd97eed3bd08b63e33b3b4926212848c9ceac5ab864e9"
+    },
+    {
+      "path": "art_source/v3/vex/basic_north_body.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08"
+    },
+    {
+      "path": "art_source/v3/vex/basic_south_body.png",
+      "sha256": "2c293ec94a4821b19bcfd97eed3bd08b63e33b3b4926212848c9ceac5ab864e9"
+    },
+    {
+      "path": "art_source/v3/vex/basic_west_body.png",
+      "sha256": "2c293ec94a4821b19bcfd97eed3bd08b63e33b3b4926212848c9ceac5ab864e9"
+    },
+    {
+      "path": "art_source/v3/vex/cast_i_east_body.png",
+      "sha256": "2c293ec94a4821b19bcfd97eed3bd08b63e33b3b4926212848c9ceac5ab864e9"
+    },
+    {
+      "path": "art_source/v3/vex/cast_i_north_body.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08"
+    },
+    {
+      "path": "art_source/v3/vex/cast_i_south_body.png",
+      "sha256": "2c293ec94a4821b19bcfd97eed3bd08b63e33b3b4926212848c9ceac5ab864e9"
+    },
+    {
+      "path": "art_source/v3/vex/cast_i_west_body.png",
+      "sha256": "2c293ec94a4821b19bcfd97eed3bd08b63e33b3b4926212848c9ceac5ab864e9"
+    },
+    {
+      "path": "art_source/v3/vex/cast_j_east_body.png",
+      "sha256": "2c293ec94a4821b19bcfd97eed3bd08b63e33b3b4926212848c9ceac5ab864e9"
+    },
+    {
+      "path": "art_source/v3/vex/cast_j_north_body.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08"
+    },
+    {
+      "path": "art_source/v3/vex/cast_j_south_body.png",
+      "sha256": "2c293ec94a4821b19bcfd97eed3bd08b63e33b3b4926212848c9ceac5ab864e9"
+    },
+    {
+      "path": "art_source/v3/vex/cast_j_west_body.png",
+      "sha256": "2c293ec94a4821b19bcfd97eed3bd08b63e33b3b4926212848c9ceac5ab864e9"
+    },
+    {
+      "path": "art_source/v3/vex/cast_k_east_body.png",
+      "sha256": "40fd4f26906de58e86117c46ccc094716548eb72d976c7eeec16709b7812ba6e"
+    },
+    {
+      "path": "art_source/v3/vex/cast_k_north_body.png",
+      "sha256": "7f7ac6a8ca1a3836f2fcb09fbd193af9d9c796365a8eefece89de205f58b1e06"
+    },
+    {
+      "path": "art_source/v3/vex/cast_k_south_body.png",
+      "sha256": "40fd4f26906de58e86117c46ccc094716548eb72d976c7eeec16709b7812ba6e"
+    },
+    {
+      "path": "art_source/v3/vex/cast_k_west_body.png",
+      "sha256": "40fd4f26906de58e86117c46ccc094716548eb72d976c7eeec16709b7812ba6e"
+    },
+    {
+      "path": "art_source/v3/vex/cast_l_east_body.png",
+      "sha256": "2c293ec94a4821b19bcfd97eed3bd08b63e33b3b4926212848c9ceac5ab864e9"
+    },
+    {
+      "path": "art_source/v3/vex/cast_l_north_body.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08"
+    },
+    {
+      "path": "art_source/v3/vex/cast_l_south_body.png",
+      "sha256": "2c293ec94a4821b19bcfd97eed3bd08b63e33b3b4926212848c9ceac5ab864e9"
+    },
+    {
+      "path": "art_source/v3/vex/cast_l_west_body.png",
+      "sha256": "2c293ec94a4821b19bcfd97eed3bd08b63e33b3b4926212848c9ceac5ab864e9"
+    },
+    {
+      "path": "art_source/v3/vex/death_east_body.png",
+      "sha256": "40fd4f26906de58e86117c46ccc094716548eb72d976c7eeec16709b7812ba6e"
+    },
+    {
+      "path": "art_source/v3/vex/death_north_body.png",
+      "sha256": "21718804425ad218a28046530b6d276ca9c3ba006824436317c39e3a22ec73f4"
+    },
+    {
+      "path": "art_source/v3/vex/death_south_body.png",
+      "sha256": "40fd4f26906de58e86117c46ccc094716548eb72d976c7eeec16709b7812ba6e"
+    },
+    {
+      "path": "art_source/v3/vex/death_west_body.png",
+      "sha256": "40fd4f26906de58e86117c46ccc094716548eb72d976c7eeec16709b7812ba6e"
+    },
+    {
+      "path": "art_source/v3/vex/hit_east_body.png",
+      "sha256": "193c61241f873ff63372417eac2e4d47b2f2b43f4d8b8a391d6122aeabe0ee3c"
+    },
+    {
+      "path": "art_source/v3/vex/hit_north_body.png",
+      "sha256": "df41f5c9fb4b594e76dad26d69bc841e7d940dcca2cdfb0fb5b5fd794a821e97"
+    },
+    {
+      "path": "art_source/v3/vex/hit_south_body.png",
+      "sha256": "193c61241f873ff63372417eac2e4d47b2f2b43f4d8b8a391d6122aeabe0ee3c"
+    },
+    {
+      "path": "art_source/v3/vex/hit_west_body.png",
+      "sha256": "193c61241f873ff63372417eac2e4d47b2f2b43f4d8b8a391d6122aeabe0ee3c"
+    },
+    {
+      "path": "art_source/v3/vex/idle_east_body.png",
+      "sha256": "40fd4f26906de58e86117c46ccc094716548eb72d976c7eeec16709b7812ba6e"
+    },
+    {
+      "path": "art_source/v3/vex/idle_north_body.png",
+      "sha256": "21718804425ad218a28046530b6d276ca9c3ba006824436317c39e3a22ec73f4"
+    },
+    {
+      "path": "art_source/v3/vex/idle_south_body.png",
+      "sha256": "40fd4f26906de58e86117c46ccc094716548eb72d976c7eeec16709b7812ba6e"
+    },
+    {
+      "path": "art_source/v3/vex/idle_west_body.png",
+      "sha256": "40fd4f26906de58e86117c46ccc094716548eb72d976c7eeec16709b7812ba6e"
+    },
+    {
+      "path": "art_source/v3/vex/run_east_body.png",
+      "sha256": "40fd4f26906de58e86117c46ccc094716548eb72d976c7eeec16709b7812ba6e"
+    },
+    {
+      "path": "art_source/v3/vex/run_north_body.png",
+      "sha256": "21718804425ad218a28046530b6d276ca9c3ba006824436317c39e3a22ec73f4"
+    },
+    {
+      "path": "art_source/v3/vex/run_south_body.png",
+      "sha256": "40fd4f26906de58e86117c46ccc094716548eb72d976c7eeec16709b7812ba6e"
+    },
+    {
+      "path": "art_source/v3/vex/run_west_body.png",
+      "sha256": "40fd4f26906de58e86117c46ccc094716548eb72d976c7eeec16709b7812ba6e"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/frames.tres",
+      "sha256": "6a424b81a7a4288d494b362eedcbfc01d9bb2ae063aa9983a18cd7927c98d980"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_north_00.png",
+      "sha256": "2c3f16d4dc20cfd93a64fb61d42efcd9f38f2940f79c6e5697892b775d011168"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_north_01.png",
+      "sha256": "bb3f273205955c0ce2addd69ac591226891222838f145391763672badfc2d6f0"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_north_02.png",
+      "sha256": "72536ccbe94b94fbd0ebf0fbd88a603810b8551aa9ccd2d01e1dcd944c611cd6"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_north_03.png",
+      "sha256": "72536ccbe94b94fbd0ebf0fbd88a603810b8551aa9ccd2d01e1dcd944c611cd6"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_north_04.png",
+      "sha256": "bb3f273205955c0ce2addd69ac591226891222838f145391763672badfc2d6f0"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_north_05.png",
+      "sha256": "2c3f16d4dc20cfd93a64fb61d42efcd9f38f2940f79c6e5697892b775d011168"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_north_00.png",
+      "sha256": "03df9b37465bd3c53ab8b1ca5d24eac87db0c6b6096236565b5fb29a438e7161"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_north_01.png",
+      "sha256": "2f2785f110e5d9bc2b39affc005c3d2f16b4d03acf4d37daae1d1586b1b394e6"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_north_02.png",
+      "sha256": "4d9e28e2cf6d54ee1112c21fe51a6154b3a1767293be0ef76fbc3e9175bb349e"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_north_03.png",
+      "sha256": "03be322f07fd40e300b1339d26f3345e30ac64d4efbeac35de77966edc57174a"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_north_04.png",
+      "sha256": "03be322f07fd40e300b1339d26f3345e30ac64d4efbeac35de77966edc57174a"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_north_05.png",
+      "sha256": "4d9e28e2cf6d54ee1112c21fe51a6154b3a1767293be0ef76fbc3e9175bb349e"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_north_06.png",
+      "sha256": "2f2785f110e5d9bc2b39affc005c3d2f16b4d03acf4d37daae1d1586b1b394e6"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_north_07.png",
+      "sha256": "03df9b37465bd3c53ab8b1ca5d24eac87db0c6b6096236565b5fb29a438e7161"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_north_00.png",
+      "sha256": "a3e04ef8faa6611698534d1f00e789751a7735e2fcb4fefd3bcd2b62de0fc951"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_north_01.png",
+      "sha256": "b73c52b6a075c81fe3e74aa2678f36042a21ec3ebd2ed13b57719d3d5f850126"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_north_02.png",
+      "sha256": "6fa63e4969714f3fff371c06cb43ffc2d86d154750aa09daf78928e8883fa6e5"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_north_03.png",
+      "sha256": "37cad340af25ddd0ee46668c7accda1c5694e5eb342dcfba1c2d38f6f95f8cb0"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_north_04.png",
+      "sha256": "7673dcac669538ea3ac32f48bff7f7454b760bbf7c1789e8f32f33ada701cd1b"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_north_05.png",
+      "sha256": "db772fff1b250f16946d2e129e4999cd0865299e84a409abc8cad354c6a1d6d9"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_north_00.png",
+      "sha256": "39a98bc0d8066e949ecf2bf5dde7f288b907ab74f7c13b52d2a9b26e6f53e5bb"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_north_01.png",
+      "sha256": "cc44bf80f7bee689a321d154aa4c4044ed7da625a10a620b0a911d6b89260d13"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_north_02.png",
+      "sha256": "dd88b9a25fa72bcb2fe529bd784d7f2c77e1474a7ee8bdc56aa64455a780c80f"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_north_03.png",
+      "sha256": "dd88b9a25fa72bcb2fe529bd784d7f2c77e1474a7ee8bdc56aa64455a780c80f"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_north_04.png",
+      "sha256": "cc44bf80f7bee689a321d154aa4c4044ed7da625a10a620b0a911d6b89260d13"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_north_05.png",
+      "sha256": "39a98bc0d8066e949ecf2bf5dde7f288b907ab74f7c13b52d2a9b26e6f53e5bb"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_north_00.png",
+      "sha256": "3ced865d4d31b20f6c8727853c5ce391e21ab16afd9005cf923e8a30abbf0615"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_north_01.png",
+      "sha256": "f57c9b19c0da8a5542d52cc82060009131e7bdd27bcb193c9996d81670da65a1"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_north_02.png",
+      "sha256": "88c3616d34288f5ef25d4d59f4d569ac61c3d4c3ecce024710b71cebf55ee08d"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_north_03.png",
+      "sha256": "96179351d14daf6b1cf0020ed1662b354625044aa71dc74698e5cd17a44950c6"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_north_04.png",
+      "sha256": "0eca7e8aec7af179472edf79430ccf25499927ab6990d637e843340e0ffd927d"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_north_05.png",
+      "sha256": "6a4157d9beae9d81dd5d0dc9542cc4bf5cacddb08ba23822626cd730a6665ea1"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_north_06.png",
+      "sha256": "dc964364302ae970fa34af5270025b34b379822cfe88ed6fb4197ecab440a4c0"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_north_07.png",
+      "sha256": "3b5c5e81b8decc9facc6d379ace69079105260d1311c5f2e47d1a802545da7bc"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_east_00.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_east_01.png",
+      "sha256": "c33c6fa1dd63b98f5fe6086a969cf4c71dbfa1a4c3e1106c324dfccea6c789fc"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_east_02.png",
+      "sha256": "af36f7a85eccd9fdea4a5723af8ee3b2dcca7e25a6fd4fa62b4dcf09df060360"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_east_03.png",
+      "sha256": "4d4dabacea5dfcd9c3160978898e0cda85a7e1e695764a061339f15ede102f5e"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_east_04.png",
+      "sha256": "57f3fe6f7b78ce5edabeab216bacd6b2b14ae7f745c57433494c20f7b3d39197"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_east_05.png",
+      "sha256": "e23318a96c1cb0e679d3e110b909b0d58c1124be97edb64d651491ce3b77f9cf"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_east_06.png",
+      "sha256": "9cd08ca055c15e30c1f45a4112e2373fec405fed7f5dceb53b8a62af1b57e771"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_east_07.png",
+      "sha256": "be14f3032f5303f477919f1600261c4956e5beb5538f8c74c9cd19e2b113a80e"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_north_00.png",
+      "sha256": "907748a3d8ee68f4785e4e0768675a4b86649f2d9214d4b1517b12b9dc183c2c"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_north_01.png",
+      "sha256": "32d71cd98b28a70060b1e4bd058d480a66a0dd8bc155cddc5f5c8eba4df971bc"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_north_02.png",
+      "sha256": "f359066646727388b7a8a2bf0dcfac2efbfe030684ad16a7fd6c50c0d2bedcfb"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_north_03.png",
+      "sha256": "cd1c62d66bf014a468a77be8d4a13579456ddfcb24d45958a9f4214b81c9229d"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_north_04.png",
+      "sha256": "7817801eaa3b4b7d1d39b30c3e88234d6d38e0f79ae992f04e47ea8ab620e1b4"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_north_05.png",
+      "sha256": "1c3c1ceabe2137aa121d14d3e58b11c1809d67d7b3b4f03ffb349e75766b6dc7"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_north_06.png",
+      "sha256": "2044a72d4ecaad2ae4e1cfb5d31448b40037f1744ab5318b79d8d57deb858d3a"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_north_07.png",
+      "sha256": "980ec01e0e1f85ffd2ea014ae33fd64ae5923900df75f9b07a764b875982773d"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_south_00.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_south_01.png",
+      "sha256": "c33c6fa1dd63b98f5fe6086a969cf4c71dbfa1a4c3e1106c324dfccea6c789fc"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_south_02.png",
+      "sha256": "af36f7a85eccd9fdea4a5723af8ee3b2dcca7e25a6fd4fa62b4dcf09df060360"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_south_03.png",
+      "sha256": "4d4dabacea5dfcd9c3160978898e0cda85a7e1e695764a061339f15ede102f5e"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_south_04.png",
+      "sha256": "57f3fe6f7b78ce5edabeab216bacd6b2b14ae7f745c57433494c20f7b3d39197"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_south_05.png",
+      "sha256": "e23318a96c1cb0e679d3e110b909b0d58c1124be97edb64d651491ce3b77f9cf"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_south_06.png",
+      "sha256": "9cd08ca055c15e30c1f45a4112e2373fec405fed7f5dceb53b8a62af1b57e771"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_south_07.png",
+      "sha256": "be14f3032f5303f477919f1600261c4956e5beb5538f8c74c9cd19e2b113a80e"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_west_00.png",
+      "sha256": "d1a5bdf5057823e26dc599c546ca614d84f38dbed764c8ebb244f569e26faaaf"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_west_01.png",
+      "sha256": "cf41c7555d551cb29ba1caed095d598e332e0b93b30064158e2c5acfc15eb2c3"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_west_02.png",
+      "sha256": "420b40faa89af2559a6ff845b12a31fb7364f34a2fcb918c86f1af824652a146"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_west_03.png",
+      "sha256": "7641fe89f33c261c8c496b3c17fb7e9d665c38674a9f23c3f505c0fcc562668e"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_west_04.png",
+      "sha256": "e92322d8f0cd12a307605715e460878da891473050bd6ca65dcf19064c50866d"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_west_05.png",
+      "sha256": "b5ee4c62ecd525d90ed8aad264fefab85446131ca8bd11f961e1c8a58f58f093"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_west_06.png",
+      "sha256": "39d0d64fa39e61f87ccaebae7bb83cf98218026fc1d317abd188ef8c31772263"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_west_07.png",
+      "sha256": "7629ce5b884be53d4d8251ad630de36f10eacf1a79b4b56a706472ceadfbd85f"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/frames.tres",
+      "sha256": "43f123336375be7906b446b71125e823591854ad67dd3b64d6912a8195af6209"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_east_00.png",
+      "sha256": "ad2c441cffa724edb1233492672e043f7d860c181ad77f9be4c3b063ef6ffa6c"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_east_01.png",
+      "sha256": "d0f286f963ec74e6f0d6f407fba3d2713a3aadef0f69adc63fe97cc965c75675"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_east_02.png",
+      "sha256": "1a8ce9f3dcf9a64ff6ad03cb62a79b11250376dc4dd0f6b0bb4250de09c49749"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_east_03.png",
+      "sha256": "c2aa6bce4839bc220447c08c0a6a6700a9491e563a3a3ad798feb0ff0370601e"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_north_00.png",
+      "sha256": "d9287387b636c4e25934e8ba42488f3d53e66c8232af7413b329738e792cf9ce"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_north_01.png",
+      "sha256": "6b89517eb904e232741adc876ce8a906c65ca4afa3ccd7807397a093a7a4c894"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_north_02.png",
+      "sha256": "5e37b9adfcc40a11bcfb9925e1469c9f99fd0d5f1fef55b67318a1de3b330904"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_north_03.png",
+      "sha256": "db4b957c8e04480d882443f8d6fc363429e8ecfcfdd2ebe28be1de0c124beb71"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_south_00.png",
+      "sha256": "ad2c441cffa724edb1233492672e043f7d860c181ad77f9be4c3b063ef6ffa6c"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_south_01.png",
+      "sha256": "d0f286f963ec74e6f0d6f407fba3d2713a3aadef0f69adc63fe97cc965c75675"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_south_02.png",
+      "sha256": "1a8ce9f3dcf9a64ff6ad03cb62a79b11250376dc4dd0f6b0bb4250de09c49749"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_south_03.png",
+      "sha256": "c2aa6bce4839bc220447c08c0a6a6700a9491e563a3a3ad798feb0ff0370601e"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_west_00.png",
+      "sha256": "bf40bccc7ef3c4aae05cc5cb5fc2344f66560f7288383b2da3a4b6be8666033e"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_west_01.png",
+      "sha256": "24fd96c40108ad62dc2fb903a063552cce52cb9dad84cb1d1cebc9e8a3efd95e"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_west_02.png",
+      "sha256": "aad4c93d52f6e637ef475ca3f0dcbebd3d6b82d15298a5fa8f27b45199740c64"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_west_03.png",
+      "sha256": "61c6c90414d6b9ebeabd4b7b1d7a873409c189e0c3264ba576d7dd64b898eca7"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_east_00.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_east_01.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_east_02.png",
+      "sha256": "aa8fdc0cf68626c24ec1fe6823a27689431c3d28dec2066177e79de23c9b47ad"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_east_03.png",
+      "sha256": "aa8fdc0cf68626c24ec1fe6823a27689431c3d28dec2066177e79de23c9b47ad"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_east_04.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_east_05.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_north_00.png",
+      "sha256": "907748a3d8ee68f4785e4e0768675a4b86649f2d9214d4b1517b12b9dc183c2c"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_north_01.png",
+      "sha256": "907748a3d8ee68f4785e4e0768675a4b86649f2d9214d4b1517b12b9dc183c2c"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_north_02.png",
+      "sha256": "982d310db1e37c687309fb19041d83e8addc8e1744409596bb1a4c611be23a50"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_north_03.png",
+      "sha256": "982d310db1e37c687309fb19041d83e8addc8e1744409596bb1a4c611be23a50"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_north_04.png",
+      "sha256": "907748a3d8ee68f4785e4e0768675a4b86649f2d9214d4b1517b12b9dc183c2c"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_north_05.png",
+      "sha256": "907748a3d8ee68f4785e4e0768675a4b86649f2d9214d4b1517b12b9dc183c2c"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_south_00.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_south_01.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_south_02.png",
+      "sha256": "aa8fdc0cf68626c24ec1fe6823a27689431c3d28dec2066177e79de23c9b47ad"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_south_03.png",
+      "sha256": "aa8fdc0cf68626c24ec1fe6823a27689431c3d28dec2066177e79de23c9b47ad"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_south_04.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_south_05.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_west_00.png",
+      "sha256": "d1a5bdf5057823e26dc599c546ca614d84f38dbed764c8ebb244f569e26faaaf"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_west_01.png",
+      "sha256": "d1a5bdf5057823e26dc599c546ca614d84f38dbed764c8ebb244f569e26faaaf"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_west_02.png",
+      "sha256": "37a6e113fade72f14b6db3cc7771bac45875a5bdfeee7e9ba82f378f3bea8f4d"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_west_03.png",
+      "sha256": "37a6e113fade72f14b6db3cc7771bac45875a5bdfeee7e9ba82f378f3bea8f4d"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_west_04.png",
+      "sha256": "d1a5bdf5057823e26dc599c546ca614d84f38dbed764c8ebb244f569e26faaaf"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_west_05.png",
+      "sha256": "d1a5bdf5057823e26dc599c546ca614d84f38dbed764c8ebb244f569e26faaaf"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/manifest.json",
+      "sha256": "b0513367dd86109643c4586e31ab40d07d489b9acc6eb254064b172533000455"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_east_00.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_east_01.png",
+      "sha256": "cd87db521bd27432bcc603db9ee01515f472b629d0ed76f683825e6a93a635c1"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_east_02.png",
+      "sha256": "fe15f2ac27fc7b51b11ce83f444f7230cfdb977747c0f7d51c4359cfd4015886"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_east_03.png",
+      "sha256": "c2314c41cd3840d3900117a5a132172f9f4ece0cab3fe7d028704d457ab28c15"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_east_04.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_east_05.png",
+      "sha256": "1d8076f6b3f2f7f710ecbe288daa38ef96cb10c7acf1ec3adbbf79bd271cda21"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_east_06.png",
+      "sha256": "03ade23f9b97f6315100b636e6c58e72f3295161cbf2b6047645c8cf84cd856f"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_east_07.png",
+      "sha256": "73e2a9712db0a7bc3b5d9cc5ca8851f64b0b2c6d489c57c6aa28952db722b507"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_north_00.png",
+      "sha256": "907748a3d8ee68f4785e4e0768675a4b86649f2d9214d4b1517b12b9dc183c2c"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_north_01.png",
+      "sha256": "126129b2f766e4f52c85a803d27a8db7b76ab97875155041d608e2c73ca53954"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_north_02.png",
+      "sha256": "2e08e2d58e8b743aa087df57cee0b2f0688ced0b424f820c34e7a9654b3c8d06"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_north_03.png",
+      "sha256": "f2e803c663cfee6d8fe3a2dcad73e04fedcc55975d99c87aceea6582f465dd08"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_north_04.png",
+      "sha256": "907748a3d8ee68f4785e4e0768675a4b86649f2d9214d4b1517b12b9dc183c2c"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_north_05.png",
+      "sha256": "f687886c5419615a4768fa8b86a449d908901d709b68cf119a46d30910997124"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_north_06.png",
+      "sha256": "209af0fb4e9c2c6f6063a115713245808c0334cf9e8d9dbac3ea0a653e771b82"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_north_07.png",
+      "sha256": "9716df15a0da82366219fc60c10ca99c1e2c947f33d46c50e413201326e7c62b"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_south_00.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_south_01.png",
+      "sha256": "cd87db521bd27432bcc603db9ee01515f472b629d0ed76f683825e6a93a635c1"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_south_02.png",
+      "sha256": "fe15f2ac27fc7b51b11ce83f444f7230cfdb977747c0f7d51c4359cfd4015886"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_south_03.png",
+      "sha256": "c2314c41cd3840d3900117a5a132172f9f4ece0cab3fe7d028704d457ab28c15"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_south_04.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_south_05.png",
+      "sha256": "1d8076f6b3f2f7f710ecbe288daa38ef96cb10c7acf1ec3adbbf79bd271cda21"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_south_06.png",
+      "sha256": "03ade23f9b97f6315100b636e6c58e72f3295161cbf2b6047645c8cf84cd856f"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_south_07.png",
+      "sha256": "73e2a9712db0a7bc3b5d9cc5ca8851f64b0b2c6d489c57c6aa28952db722b507"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_west_00.png",
+      "sha256": "d1a5bdf5057823e26dc599c546ca614d84f38dbed764c8ebb244f569e26faaaf"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_west_01.png",
+      "sha256": "3301b980e125570aa38247e5236e0c7b03d1a83f59ccf8f1be51a5b344cf0e58"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_west_02.png",
+      "sha256": "53255d4366a486c190a821fe19ecf975bdf19b4828b84889d9480048c00d491c"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_west_03.png",
+      "sha256": "c0b48267be248e1d9cfb8d0bdf4e422f4e2d36d2a1447364dbccb1e9be3ebd51"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_west_04.png",
+      "sha256": "d1a5bdf5057823e26dc599c546ca614d84f38dbed764c8ebb244f569e26faaaf"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_west_05.png",
+      "sha256": "f567d6aaf66d822fb6d61d94c19bfecd583d711d9087e7e94703a16f2ce2a362"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_west_06.png",
+      "sha256": "6773840cfb940faeef5b8ddc24a1b74eafaa62fadc576cf6ae7383e65b9fcbc7"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_west_07.png",
+      "sha256": "d78a3936e01c615a13d312f3ccc2eeb393152f28701c3a3fd4a6b6f5fd9432bd"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_east_00.png",
+      "sha256": "eb855fbb1b2be5f161daaa9a7b07c2269073dd3d8c183f457a4feb297064a1cf"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_east_01.png",
+      "sha256": "5fb4482a1e12c7a52de25b70b5bdb93929e1aca95382b1bbf4d8cf9ba94c0b1f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_east_02.png",
+      "sha256": "31afebd4309df5fb11f2cf7fd6c15f72143858336ae995b993b56191633db705"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_east_03.png",
+      "sha256": "d4da1be7c5d6fa83da02b55b9621cea715acb6f3ca5ecd3b08f55f1545668e56"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_east_04.png",
+      "sha256": "485b37efb58a69c113028e844455d71149b8e16edf1bf89307fd2333afb9b73a"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_east_05.png",
+      "sha256": "eb855fbb1b2be5f161daaa9a7b07c2269073dd3d8c183f457a4feb297064a1cf"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_north_00.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_north_01.png",
+      "sha256": "74cb6957d8e653436b9d2383f903adc8e3eaec0e773eec05a7e0ac589a0aa731"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_north_02.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_north_03.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_north_04.png",
+      "sha256": "74cb6957d8e653436b9d2383f903adc8e3eaec0e773eec05a7e0ac589a0aa731"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_north_05.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_south_00.png",
+      "sha256": "b5193c26363ffbe9a37da4f168cdd03569de7226e821a2a692fd8a49c9030282"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_south_01.png",
+      "sha256": "b92dc649e1630a303c4b40d773b2572be7e3029e2bb78f5e98e57f2b7cd3a2b8"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_south_02.png",
+      "sha256": "366d765089c61533253fb9f811952e0edc57ea68784b9ed24f20c218a1fa8366"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_south_03.png",
+      "sha256": "20555625594de59b0b375c38181ec72cd3d023f8bae4639d96806faadaad559d"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_south_04.png",
+      "sha256": "58bb497bb13643670f965d70916d9cfdaa72ddaf5f7014847e02ef342dbcc18c"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_south_05.png",
+      "sha256": "b5193c26363ffbe9a37da4f168cdd03569de7226e821a2a692fd8a49c9030282"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_west_00.png",
+      "sha256": "53361ec03311952e10925e15d9506e38c4603b3aac0012284f92b240a5053ff9"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_west_01.png",
+      "sha256": "6b529ac34337064a607c806c766510eaf09e6eee6bd7bef5c1fb66ae4e06066f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_west_02.png",
+      "sha256": "55dc7e49d2e6521415cbfc138316586f5c55b9cb98a0b7a48218581356f787c3"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_west_03.png",
+      "sha256": "0cfaa98bcb0cc9902b2bb8fb089038a82a88f7d2e254354116d55258f774d2f2"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_west_04.png",
+      "sha256": "7c4bba3d3f0424b761bbbb87244198a984ae8bb1635f1b9cddce34c401f77642"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_west_05.png",
+      "sha256": "53361ec03311952e10925e15d9506e38c4603b3aac0012284f92b240a5053ff9"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_east_00.png",
+      "sha256": "eb855fbb1b2be5f161daaa9a7b07c2269073dd3d8c183f457a4feb297064a1cf"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_east_01.png",
+      "sha256": "5fb4482a1e12c7a52de25b70b5bdb93929e1aca95382b1bbf4d8cf9ba94c0b1f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_east_02.png",
+      "sha256": "31afebd4309df5fb11f2cf7fd6c15f72143858336ae995b993b56191633db705"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_east_03.png",
+      "sha256": "d4da1be7c5d6fa83da02b55b9621cea715acb6f3ca5ecd3b08f55f1545668e56"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_east_04.png",
+      "sha256": "b7a5191b9907054bc82d9ba5d1b7e23c6a16a198c30604bc6e0e479084fb3f22"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_east_05.png",
+      "sha256": "d4da1be7c5d6fa83da02b55b9621cea715acb6f3ca5ecd3b08f55f1545668e56"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_east_06.png",
+      "sha256": "5a2e220fe16d05ac68637650f90061528e07e1f56533fda34ce852f64290993f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_east_07.png",
+      "sha256": "eb855fbb1b2be5f161daaa9a7b07c2269073dd3d8c183f457a4feb297064a1cf"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_north_00.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_north_01.png",
+      "sha256": "74cb6957d8e653436b9d2383f903adc8e3eaec0e773eec05a7e0ac589a0aa731"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_north_02.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_north_03.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_north_04.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_north_05.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_north_06.png",
+      "sha256": "74cb6957d8e653436b9d2383f903adc8e3eaec0e773eec05a7e0ac589a0aa731"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_north_07.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_south_00.png",
+      "sha256": "b5193c26363ffbe9a37da4f168cdd03569de7226e821a2a692fd8a49c9030282"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_south_01.png",
+      "sha256": "b92dc649e1630a303c4b40d773b2572be7e3029e2bb78f5e98e57f2b7cd3a2b8"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_south_02.png",
+      "sha256": "366d765089c61533253fb9f811952e0edc57ea68784b9ed24f20c218a1fa8366"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_south_03.png",
+      "sha256": "20555625594de59b0b375c38181ec72cd3d023f8bae4639d96806faadaad559d"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_south_04.png",
+      "sha256": "ced5f565e3ae6676cbc5951ad70eb07eb99caa72caa7851d4a1675375f96f8a4"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_south_05.png",
+      "sha256": "20555625594de59b0b375c38181ec72cd3d023f8bae4639d96806faadaad559d"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_south_06.png",
+      "sha256": "eff7262dbc2d81a3947a265282df7238aadeb59fc4c6d1c05a989d26a65490af"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_south_07.png",
+      "sha256": "b5193c26363ffbe9a37da4f168cdd03569de7226e821a2a692fd8a49c9030282"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_west_00.png",
+      "sha256": "53361ec03311952e10925e15d9506e38c4603b3aac0012284f92b240a5053ff9"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_west_01.png",
+      "sha256": "6b529ac34337064a607c806c766510eaf09e6eee6bd7bef5c1fb66ae4e06066f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_west_02.png",
+      "sha256": "55dc7e49d2e6521415cbfc138316586f5c55b9cb98a0b7a48218581356f787c3"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_west_03.png",
+      "sha256": "0cfaa98bcb0cc9902b2bb8fb089038a82a88f7d2e254354116d55258f774d2f2"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_west_04.png",
+      "sha256": "1ab04a26538d3dd0ba61f94d28c90cf9e9342e2bfa2459a921e0f9f4a1913ea0"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_west_05.png",
+      "sha256": "0cfaa98bcb0cc9902b2bb8fb089038a82a88f7d2e254354116d55258f774d2f2"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_west_06.png",
+      "sha256": "7a41263f5c3d20982a92bc549e327a5264c3a22f827798ba1d54b312f983f5f1"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_west_07.png",
+      "sha256": "53361ec03311952e10925e15d9506e38c4603b3aac0012284f92b240a5053ff9"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_east_00.png",
+      "sha256": "eb855fbb1b2be5f161daaa9a7b07c2269073dd3d8c183f457a4feb297064a1cf"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_east_01.png",
+      "sha256": "5fb4482a1e12c7a52de25b70b5bdb93929e1aca95382b1bbf4d8cf9ba94c0b1f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_east_02.png",
+      "sha256": "31afebd4309df5fb11f2cf7fd6c15f72143858336ae995b993b56191633db705"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_east_03.png",
+      "sha256": "d4da1be7c5d6fa83da02b55b9621cea715acb6f3ca5ecd3b08f55f1545668e56"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_east_04.png",
+      "sha256": "485b37efb58a69c113028e844455d71149b8e16edf1bf89307fd2333afb9b73a"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_east_05.png",
+      "sha256": "eb855fbb1b2be5f161daaa9a7b07c2269073dd3d8c183f457a4feb297064a1cf"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_north_00.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_north_01.png",
+      "sha256": "74cb6957d8e653436b9d2383f903adc8e3eaec0e773eec05a7e0ac589a0aa731"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_north_02.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_north_03.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_north_04.png",
+      "sha256": "74cb6957d8e653436b9d2383f903adc8e3eaec0e773eec05a7e0ac589a0aa731"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_north_05.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_south_00.png",
+      "sha256": "b5193c26363ffbe9a37da4f168cdd03569de7226e821a2a692fd8a49c9030282"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_south_01.png",
+      "sha256": "b92dc649e1630a303c4b40d773b2572be7e3029e2bb78f5e98e57f2b7cd3a2b8"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_south_02.png",
+      "sha256": "366d765089c61533253fb9f811952e0edc57ea68784b9ed24f20c218a1fa8366"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_south_03.png",
+      "sha256": "20555625594de59b0b375c38181ec72cd3d023f8bae4639d96806faadaad559d"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_south_04.png",
+      "sha256": "58bb497bb13643670f965d70916d9cfdaa72ddaf5f7014847e02ef342dbcc18c"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_south_05.png",
+      "sha256": "b5193c26363ffbe9a37da4f168cdd03569de7226e821a2a692fd8a49c9030282"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_west_00.png",
+      "sha256": "53361ec03311952e10925e15d9506e38c4603b3aac0012284f92b240a5053ff9"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_west_01.png",
+      "sha256": "6b529ac34337064a607c806c766510eaf09e6eee6bd7bef5c1fb66ae4e06066f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_west_02.png",
+      "sha256": "55dc7e49d2e6521415cbfc138316586f5c55b9cb98a0b7a48218581356f787c3"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_west_03.png",
+      "sha256": "0cfaa98bcb0cc9902b2bb8fb089038a82a88f7d2e254354116d55258f774d2f2"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_west_04.png",
+      "sha256": "7c4bba3d3f0424b761bbbb87244198a984ae8bb1635f1b9cddce34c401f77642"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_west_05.png",
+      "sha256": "53361ec03311952e10925e15d9506e38c4603b3aac0012284f92b240a5053ff9"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_east_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_east_01.png",
+      "sha256": "30966f3472fc1f10d92ba9636a8b1491b34bea1c5e73a9425612e7981535492b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_east_02.png",
+      "sha256": "15fc0419a007007ce077d75f20a4c4549e6473f5f37cd626f7b85d05ab67fe2e"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_east_03.png",
+      "sha256": "93faf5e1a343b927eabced989546dd219cedd5d1e99ff0a9d4247da8f5da9fed"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_east_04.png",
+      "sha256": "42a47aa7e995c0fdb0af050537896bc27e00ee2ae4589c303b5ed1e3974809d2"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_east_05.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_north_00.png",
+      "sha256": "206b6cf99b68abe6977f9181a58e466806cc04222a0437b6beda30545aebb50b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_north_01.png",
+      "sha256": "5499bb70a9f29cc196a2f1b8d31069b1c8d076d20a318e5c2ccf973c12a3105b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_north_02.png",
+      "sha256": "691d29983a00e84bbc967cb2570b946e0f3840d7fef9fa3f7018883439b64955"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_north_03.png",
+      "sha256": "0f1d1e5146e05af2f0dc64f3459def261d0a53fb8ebdb06d25b3510c56834ef8"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_north_04.png",
+      "sha256": "0ee31e3c8eadeed6ff772ab821b9f75613f4fa38e391ed30549b7dda513e6c14"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_north_05.png",
+      "sha256": "206b6cf99b68abe6977f9181a58e466806cc04222a0437b6beda30545aebb50b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_south_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_south_01.png",
+      "sha256": "30966f3472fc1f10d92ba9636a8b1491b34bea1c5e73a9425612e7981535492b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_south_02.png",
+      "sha256": "15fc0419a007007ce077d75f20a4c4549e6473f5f37cd626f7b85d05ab67fe2e"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_south_03.png",
+      "sha256": "93faf5e1a343b927eabced989546dd219cedd5d1e99ff0a9d4247da8f5da9fed"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_south_04.png",
+      "sha256": "42a47aa7e995c0fdb0af050537896bc27e00ee2ae4589c303b5ed1e3974809d2"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_south_05.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_west_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_west_01.png",
+      "sha256": "71db65bee1c6f4361f31ef33e070d6c3ffe6bd13b4a800ab8ef7b9675b4ecb7e"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_west_02.png",
+      "sha256": "fc1da33f47cd85a6aec3b31411f92d79a001d3f2bafc0cd1fb5d6aaa4fd92cd6"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_west_03.png",
+      "sha256": "705e3d57f36e528bb7d3e9a3eed59b1c623bd0983b4fd045da27120c544d3d51"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_west_04.png",
+      "sha256": "70730f4ff7da4bfa9cf08f23422826e5a964f6101e5feeebea19934a8982d4cb"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_west_05.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_east_00.png",
+      "sha256": "eb855fbb1b2be5f161daaa9a7b07c2269073dd3d8c183f457a4feb297064a1cf"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_east_01.png",
+      "sha256": "5fb4482a1e12c7a52de25b70b5bdb93929e1aca95382b1bbf4d8cf9ba94c0b1f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_east_02.png",
+      "sha256": "31afebd4309df5fb11f2cf7fd6c15f72143858336ae995b993b56191633db705"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_east_03.png",
+      "sha256": "d4da1be7c5d6fa83da02b55b9621cea715acb6f3ca5ecd3b08f55f1545668e56"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_east_04.png",
+      "sha256": "b7a5191b9907054bc82d9ba5d1b7e23c6a16a198c30604bc6e0e479084fb3f22"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_east_05.png",
+      "sha256": "d4da1be7c5d6fa83da02b55b9621cea715acb6f3ca5ecd3b08f55f1545668e56"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_east_06.png",
+      "sha256": "5a2e220fe16d05ac68637650f90061528e07e1f56533fda34ce852f64290993f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_east_07.png",
+      "sha256": "eb855fbb1b2be5f161daaa9a7b07c2269073dd3d8c183f457a4feb297064a1cf"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_north_00.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_north_01.png",
+      "sha256": "74cb6957d8e653436b9d2383f903adc8e3eaec0e773eec05a7e0ac589a0aa731"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_north_02.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_north_03.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_north_04.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_north_05.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_north_06.png",
+      "sha256": "74cb6957d8e653436b9d2383f903adc8e3eaec0e773eec05a7e0ac589a0aa731"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_north_07.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_south_00.png",
+      "sha256": "b5193c26363ffbe9a37da4f168cdd03569de7226e821a2a692fd8a49c9030282"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_south_01.png",
+      "sha256": "b92dc649e1630a303c4b40d773b2572be7e3029e2bb78f5e98e57f2b7cd3a2b8"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_south_02.png",
+      "sha256": "366d765089c61533253fb9f811952e0edc57ea68784b9ed24f20c218a1fa8366"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_south_03.png",
+      "sha256": "20555625594de59b0b375c38181ec72cd3d023f8bae4639d96806faadaad559d"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_south_04.png",
+      "sha256": "ced5f565e3ae6676cbc5951ad70eb07eb99caa72caa7851d4a1675375f96f8a4"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_south_05.png",
+      "sha256": "20555625594de59b0b375c38181ec72cd3d023f8bae4639d96806faadaad559d"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_south_06.png",
+      "sha256": "eff7262dbc2d81a3947a265282df7238aadeb59fc4c6d1c05a989d26a65490af"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_south_07.png",
+      "sha256": "b5193c26363ffbe9a37da4f168cdd03569de7226e821a2a692fd8a49c9030282"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_west_00.png",
+      "sha256": "53361ec03311952e10925e15d9506e38c4603b3aac0012284f92b240a5053ff9"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_west_01.png",
+      "sha256": "6b529ac34337064a607c806c766510eaf09e6eee6bd7bef5c1fb66ae4e06066f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_west_02.png",
+      "sha256": "55dc7e49d2e6521415cbfc138316586f5c55b9cb98a0b7a48218581356f787c3"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_west_03.png",
+      "sha256": "0cfaa98bcb0cc9902b2bb8fb089038a82a88f7d2e254354116d55258f774d2f2"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_west_04.png",
+      "sha256": "1ab04a26538d3dd0ba61f94d28c90cf9e9342e2bfa2459a921e0f9f4a1913ea0"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_west_05.png",
+      "sha256": "0cfaa98bcb0cc9902b2bb8fb089038a82a88f7d2e254354116d55258f774d2f2"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_west_06.png",
+      "sha256": "7a41263f5c3d20982a92bc549e327a5264c3a22f827798ba1d54b312f983f5f1"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_west_07.png",
+      "sha256": "53361ec03311952e10925e15d9506e38c4603b3aac0012284f92b240a5053ff9"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_east_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_east_01.png",
+      "sha256": "dc652111ee1f924ab57bf49655bec64c3c842a60726258d22d6e4381abecdf4b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_east_02.png",
+      "sha256": "7f36b80a2a865c05c69cc58e8d81c5be52dd6f59decbb6b5c4a74ffd0da643ff"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_east_03.png",
+      "sha256": "7f56c1207aff38b8969cfe104a7094da67c7d96a222359593b4b004ca8fb2bc5"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_east_04.png",
+      "sha256": "3db4274995c963ce4485bccfde91ec5bd07c2a923eda799c04e56b603dcec25b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_east_05.png",
+      "sha256": "2a3364e6401d0ae87a7de26f1c033fc804fe060091b4bb635a2814138a60134a"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_east_06.png",
+      "sha256": "0e74e4b6fa238081e01cf85093836bc1660e4c4993d02a91f905aac4e103f6bb"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_east_07.png",
+      "sha256": "abe3457c659e7db1f9351906a5b0ab055e2cec65d8d5da79cbd562a415faf9aa"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_north_00.png",
+      "sha256": "21718804425ad218a28046530b6d276ca9c3ba006824436317c39e3a22ec73f4"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_north_01.png",
+      "sha256": "fe03c265995256491e89a95e30575ebe8445f2b0306120c692e27aa7d5020ef0"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_north_02.png",
+      "sha256": "48b2a006270b1dec3f8b3d29fe595e129cd1234452877702ff30488e21af8b45"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_north_03.png",
+      "sha256": "fede93a77d3806c244a7c77d46b893e020a6a0425d593a231c4b1e9aeec77051"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_north_04.png",
+      "sha256": "a2c89aaf34204a1cbb1b6c77f36397b48862ded8c114d4d3bd18627e97da8241"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_north_05.png",
+      "sha256": "01073060efe0942334dba34de3ea3997b574da415187ee79ce8c0bed9647b791"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_north_06.png",
+      "sha256": "13b9c8b2003468754cea5bd03711828d2d490cdbe12835d4cd405a05c14f6905"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_north_07.png",
+      "sha256": "addcc77a6552cdd498d61cb7628b4953a01e794cb49d2f571adf3d46854a942f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_south_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_south_01.png",
+      "sha256": "dc652111ee1f924ab57bf49655bec64c3c842a60726258d22d6e4381abecdf4b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_south_02.png",
+      "sha256": "7f36b80a2a865c05c69cc58e8d81c5be52dd6f59decbb6b5c4a74ffd0da643ff"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_south_03.png",
+      "sha256": "7f56c1207aff38b8969cfe104a7094da67c7d96a222359593b4b004ca8fb2bc5"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_south_04.png",
+      "sha256": "3db4274995c963ce4485bccfde91ec5bd07c2a923eda799c04e56b603dcec25b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_south_05.png",
+      "sha256": "2a3364e6401d0ae87a7de26f1c033fc804fe060091b4bb635a2814138a60134a"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_south_06.png",
+      "sha256": "0e74e4b6fa238081e01cf85093836bc1660e4c4993d02a91f905aac4e103f6bb"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_south_07.png",
+      "sha256": "abe3457c659e7db1f9351906a5b0ab055e2cec65d8d5da79cbd562a415faf9aa"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_west_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_west_01.png",
+      "sha256": "bfa8fca0204e43153ec86b2d1ce2ea0f0e7cbcb95e63281a8632bb5fbb6cbae6"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_west_02.png",
+      "sha256": "ee58ae99b78d4b160b71d8584228877ce8a10a9ab9f56312d5af0213a242d998"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_west_03.png",
+      "sha256": "fbced9a5fcda1fabd0ed4e987652f2a4188febfc05905c428104a37254e4ff4c"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_west_04.png",
+      "sha256": "959ee698d17ed9021dd46340cd5a08812d8fdefdbc8f00ae44a9eb40650abc5f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_west_05.png",
+      "sha256": "55f684af5fe182e961b30c0b5b045b10e966bc11aaf5a74fb2ff5979f540fd7d"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_west_06.png",
+      "sha256": "f778b293b8f0490244c1acf7fd93e6df7e0b51aaa832a7bceae3c008dd0e0f6b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_west_07.png",
+      "sha256": "abe3457c659e7db1f9351906a5b0ab055e2cec65d8d5da79cbd562a415faf9aa"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/frames.tres",
+      "sha256": "3e6a8f1d9613aebfd0516fe90e70044033e412c06900548e5e6d808da49a64c4"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_east_00.png",
+      "sha256": "9215a9176911f303b3828838bf0f1d63de5cefdd7d37207145b5f30da0428855"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_east_01.png",
+      "sha256": "e58d91c93f0439f1e9841c8c94c0fd4b6f1d113bc6029a57cbc702c0e735b5b1"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_east_02.png",
+      "sha256": "3e479a283a1560a0cef8cb351aa2c1626c9fa91fedbe90ef6b30f91390c406e7"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_east_03.png",
+      "sha256": "fd1e8ddc3d24fa9054df48096aac57ebb2c5dac72a6085f00851c269b0149440"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_north_00.png",
+      "sha256": "b08c8a4f005f7350690ed81b3ec355067f1b5ec3d8324a9739995aef5fc588b4"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_north_01.png",
+      "sha256": "512b16e7885bd2b6fe16a3c178b62b7b19c3cdd9abf71d1a6933466ebbff2efb"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_north_02.png",
+      "sha256": "7e28f5c104db34d695227c3de1116561a32a57d5deb7a986b7d52cbd9593701d"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_north_03.png",
+      "sha256": "b0c6791e97917c788cc724594dc9b0d3c93d358052683048ed46fd127c9264b4"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_south_00.png",
+      "sha256": "9215a9176911f303b3828838bf0f1d63de5cefdd7d37207145b5f30da0428855"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_south_01.png",
+      "sha256": "e58d91c93f0439f1e9841c8c94c0fd4b6f1d113bc6029a57cbc702c0e735b5b1"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_south_02.png",
+      "sha256": "3e479a283a1560a0cef8cb351aa2c1626c9fa91fedbe90ef6b30f91390c406e7"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_south_03.png",
+      "sha256": "fd1e8ddc3d24fa9054df48096aac57ebb2c5dac72a6085f00851c269b0149440"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_west_00.png",
+      "sha256": "9215a9176911f303b3828838bf0f1d63de5cefdd7d37207145b5f30da0428855"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_west_01.png",
+      "sha256": "8c9b699a086e069b8e9e614c5e5e0b778c2131efffb195d54a5d21657599fb67"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_west_02.png",
+      "sha256": "69243766ea5468978661bac7c3d073dd21fec2219ff7c75f8426b44ff840dcfc"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_west_03.png",
+      "sha256": "fd1e8ddc3d24fa9054df48096aac57ebb2c5dac72a6085f00851c269b0149440"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_east_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_east_01.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_east_02.png",
+      "sha256": "90d50f69f944198b60bc494afd1d9400c7ffba10fc57155abbc90edab801fc5f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_east_03.png",
+      "sha256": "90d50f69f944198b60bc494afd1d9400c7ffba10fc57155abbc90edab801fc5f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_east_04.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_east_05.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_north_00.png",
+      "sha256": "21718804425ad218a28046530b6d276ca9c3ba006824436317c39e3a22ec73f4"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_north_01.png",
+      "sha256": "21718804425ad218a28046530b6d276ca9c3ba006824436317c39e3a22ec73f4"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_north_02.png",
+      "sha256": "854d83ce21c14873daf6dfc924e683553385baab605f8f6fdaeec06fb3094b5c"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_north_03.png",
+      "sha256": "854d83ce21c14873daf6dfc924e683553385baab605f8f6fdaeec06fb3094b5c"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_north_04.png",
+      "sha256": "21718804425ad218a28046530b6d276ca9c3ba006824436317c39e3a22ec73f4"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_north_05.png",
+      "sha256": "21718804425ad218a28046530b6d276ca9c3ba006824436317c39e3a22ec73f4"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_south_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_south_01.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_south_02.png",
+      "sha256": "90d50f69f944198b60bc494afd1d9400c7ffba10fc57155abbc90edab801fc5f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_south_03.png",
+      "sha256": "90d50f69f944198b60bc494afd1d9400c7ffba10fc57155abbc90edab801fc5f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_south_04.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_south_05.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_west_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_west_01.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_west_02.png",
+      "sha256": "90d50f69f944198b60bc494afd1d9400c7ffba10fc57155abbc90edab801fc5f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_west_03.png",
+      "sha256": "90d50f69f944198b60bc494afd1d9400c7ffba10fc57155abbc90edab801fc5f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_west_04.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_west_05.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/manifest.json",
+      "sha256": "3740dd6c48dd703a73cdd236e4b9d42f54c5bcb5434dcf4855bbfc7e4bd800de"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_east_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_east_01.png",
+      "sha256": "cef85c8c224681efbfb2b7d52c939b8ebe1712979cd78af4de70af90067c8a8f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_east_02.png",
+      "sha256": "859c0ef53ac33963a5a2ce2ac1b0b3eb13c6d21231e3622af9a9b8d07cceb2c3"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_east_03.png",
+      "sha256": "12c876689e87cf52c598bad0a1affd7d9df705a0071b210742404e4c5656d02e"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_east_04.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_east_05.png",
+      "sha256": "428ef3af3876507cc15a7b18d72b8559a32e9525f88b4b3f1e1e5e1fc74fdc96"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_east_06.png",
+      "sha256": "1edf8e91f531272df5bd496d1a051e33fdbf020c510b93ac7074b79682e89fbe"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_east_07.png",
+      "sha256": "5a1945ed86acd90df8819026d4d8cc8b596921a27de248a3cf5c776ee9f90af1"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_north_00.png",
+      "sha256": "21718804425ad218a28046530b6d276ca9c3ba006824436317c39e3a22ec73f4"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_north_01.png",
+      "sha256": "0eeafe775a8a361dd6754b01f80c969630faee50de9a35c60b61692413c1722f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_north_02.png",
+      "sha256": "2c592ea7bd151d9ddb95f8ccc33ef669346ff5412addbc0ad1f715b8689eed80"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_north_03.png",
+      "sha256": "91690346453ba8f968a3be6155a1349ddf426fbb437d440ef9e3ad150c654ce4"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_north_04.png",
+      "sha256": "21718804425ad218a28046530b6d276ca9c3ba006824436317c39e3a22ec73f4"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_north_05.png",
+      "sha256": "4e96e74d121d3146820c7b538edf4a81801a35796e90c421f000f8e201e09ca1"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_north_06.png",
+      "sha256": "346e97e298acb2d5dd942e8c27509c97a0b2e0d9e9b93efff91810248a9c387d"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_north_07.png",
+      "sha256": "d8e7cd6039ba4f29555ede54a3c8907d0dfb38d880fcecd21518306cb3362fe6"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_south_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_south_01.png",
+      "sha256": "cef85c8c224681efbfb2b7d52c939b8ebe1712979cd78af4de70af90067c8a8f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_south_02.png",
+      "sha256": "859c0ef53ac33963a5a2ce2ac1b0b3eb13c6d21231e3622af9a9b8d07cceb2c3"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_south_03.png",
+      "sha256": "12c876689e87cf52c598bad0a1affd7d9df705a0071b210742404e4c5656d02e"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_south_04.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_south_05.png",
+      "sha256": "428ef3af3876507cc15a7b18d72b8559a32e9525f88b4b3f1e1e5e1fc74fdc96"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_south_06.png",
+      "sha256": "1edf8e91f531272df5bd496d1a051e33fdbf020c510b93ac7074b79682e89fbe"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_south_07.png",
+      "sha256": "5a1945ed86acd90df8819026d4d8cc8b596921a27de248a3cf5c776ee9f90af1"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_west_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_west_01.png",
+      "sha256": "cef85c8c224681efbfb2b7d52c939b8ebe1712979cd78af4de70af90067c8a8f"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_west_02.png",
+      "sha256": "859c0ef53ac33963a5a2ce2ac1b0b3eb13c6d21231e3622af9a9b8d07cceb2c3"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_west_03.png",
+      "sha256": "12c876689e87cf52c598bad0a1affd7d9df705a0071b210742404e4c5656d02e"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_west_04.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_west_05.png",
+      "sha256": "428ef3af3876507cc15a7b18d72b8559a32e9525f88b4b3f1e1e5e1fc74fdc96"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_west_06.png",
+      "sha256": "1edf8e91f531272df5bd496d1a051e33fdbf020c510b93ac7074b79682e89fbe"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_west_07.png",
+      "sha256": "5a1945ed86acd90df8819026d4d8cc8b596921a27de248a3cf5c776ee9f90af1"
+    },
+    {
+      "path": "assets/art_v3/vfx/haste.png",
+      "sha256": "aa0d9bfffaefa8b87510ac28b9deb4969389a4df870c4df61b4af6b032aacd8f"
+    },
+    {
+      "path": "docs/04_TASKS.md",
+      "sha256": "92595c24b7924e17d57d4ac22869fd51220f6654040b66018d824de1941311a7"
+    },
+    {
+      "path": "docs/05_DECISIONS.md",
+      "sha256": "cceba0663a7a4cc01fd45bfc684f83aba919cd1191d6ac84fc7d097380d2b829"
+    },
+    {
+      "path": "docs/WORK_LOG.md",
+      "sha256": "4d162243c35654002f6db2d29ae47ca25544ee6ab3c852d27ccb92bc1f321c2b"
+    },
+    {
+      "path": "docs/art_asset_ledger.asset.translation",
+      "sha256": "4afbf5ef43a36b7b1bc808dadb609ae7c6976975952e2143d71850717c04bd04"
+    },
+    {
+      "path": "docs/art_asset_ledger.attribution.translation",
+      "sha256": "c7e3a5c4be50e7c244c103fc5ef29b5f80a432265c9498c29fa3f780b5b12d2e"
+    },
+    {
+      "path": "docs/art_asset_ledger.author.translation",
+      "sha256": "88b351a46ee4aea775762f6226b126db3754d1f6e4cd21b9326b39c48a7d7775"
+    },
+    {
+      "path": "docs/art_asset_ledger.commercial.translation",
+      "sha256": "6e431b1ff41e029f8645b3a0b69f677d9d6d39c634a89c5578a9782507c521b3"
+    },
+    {
+      "path": "docs/art_asset_ledger.csv",
+      "sha256": "cd38eaa8d89693e837405c09f1f891b59b1edb28334542c998ef7a92d7ba37de"
+    },
+    {
+      "path": "docs/art_asset_ledger.license.translation",
+      "sha256": "0e88a29dddba13cbedcb7197d961dd357562d232aa08a4ac480b85c318af942d"
+    },
+    {
+      "path": "docs/art_asset_ledger.modifications.translation",
+      "sha256": "e0c636f8891e8bd987d27984e8fd52558c4f32caf088ca118573c904fd45e067"
+    },
+    {
+      "path": "docs/art_asset_ledger.notes.translation",
+      "sha256": "471adc208321b614526c93edaca2a6e502bcf7f778ae70d83cb46b5ef1b212d7"
+    },
+    {
+      "path": "docs/art_asset_ledger.source.translation",
+      "sha256": "616be445ffa6df3fc8940bb12d6e4a1e16e9ca8e0eeeaf6259570b4c090eaa94"
+    },
+    {
+      "path": "docs/art_asset_ledger.verification.translation",
+      "sha256": "8c5f7c37485028288a6b631923d56f48eacb9b333cb5dd20a6e84d41409471ea"
+    },
+    {
+      "path": "project.godot",
+      "sha256": "3678d26572abeb2202ff9ea9345be710c78506706bd4a86b81ef8787dc2ed60c"
+    },
+    {
+      "path": "scripts/combat/combat_service.gd",
+      "sha256": "eae4e60328b11d3c39d3a84dbd27e24b8881f9eb4c764d194dc748319504f360"
+    },
+    {
+      "path": "scripts/ui/actor_sprite.gd",
+      "sha256": "913b232bca1760ca65517fc661e21960410427dbfcc2e236471c334acb0e910f"
+    },
+    {
+      "path": "scripts/ui/pixel_visual_effect.gd",
+      "sha256": "4f061218a6724dd6c6fa494fd60c0a84f04fefbf3e6b6389e6cc5a629fa928d0"
+    },
+    {
+      "path": "tests/integration/test_roster_corrections.gd",
+      "sha256": "0484b223fd138c1f9537f7fcf24fcf33a9e0c7e5755191f37a53f85befe6ee4d"
+    },
+    {
+      "path": "tests/integration/test_roster_corrections.gd.uid",
+      "sha256": "0a1b94f5ddcd16013983885a0a23b8f46c7ad4016d9b6a5a2d9743881f64ee3d"
+    },
+    {
+      "path": "tests/run_all.gd",
+      "sha256": "b5adcf2687a08e8417b0d81270a7c15817af847c0b872552ca9b76783b486ca7"
+    },
+    {
+      "path": "tools/art_v3/deliver_fix03.py",
+      "sha256": "4dd746002272a0eab264b7d212b1a675ca5e7d160682f5b8173ce55006d82891"
+    },
+    {
+      "path": "tools/art_v3/generate.py",
+      "sha256": "af782daf596e05b815ceaeee93b351db0db24c78638da8ce1e8d1bf06135f2d3"
+    },
+    {
+      "path": "tools/art_v3/generate_roster.py",
+      "sha256": "170f2f1eaf4864707b85ef44a3fd45aea6cd46097a31420ff9e917aa2ba079d8"
+    },
+    {
+      "path": "tools/art_v3/promote_fix03.py",
+      "sha256": "f4fc8ead49df951139c7ce6022902e84fe001e7f126abec55e6641d0c376f5e7"
+    },
+    {
+      "path": "tools/art_v3/test_fix03_pixels.py",
+      "sha256": "c97f3ade23747570061afa22387eeadf9bc5a87850539e63035c98587a2bd967"
+    },
+    {
+      "path": "tools/art_v3/validate_roster.py",
+      "sha256": "f00e75ab2f1721ded54dac6880b6d36dd564f5bbc6217480ddfe5fa02f67e724"
+    },
+    {
+      "path": "tools/package.ps1",
+      "sha256": "325e13fff2de86cafc5aa6add6ecfb5d9c67e06bcfecca3cd7cacab5d654c1ef"
+    },
+    {
+      "path": "docs/VISUAL_FIX03.md",
+      "sha256": "4ed91b84de948bcc236aeacd98b9b2b66886c83c993401ddcb73513293338bc1"
+    }
+  ]
+}

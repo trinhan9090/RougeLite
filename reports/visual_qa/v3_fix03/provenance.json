@@ -1,0 +1,3747 @@
+{
+  "revision": "three-heroes-pixel-v3-fix03",
+  "assets": [
+    {
+      "path": "assets/art_v3/vfx/area.png",
+      "sha256": "a4dd7222ab41c6e11ef7473356bd093fe941262c50b8146f1353b43503826ab7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/beam.png",
+      "sha256": "87415f7b274f55036b69a1bf00c4c8642fbe451c9419c0c6cbd7775b240e2553",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/bolt.png",
+      "sha256": "82834a66ebf73177528d4963ae21e730b229988553534639e14c8828bd2d8f82",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/brass_impact.png",
+      "sha256": "11c5ae8b556f8beba3f658940d803ada927a4a5635f8dc9a0c06efc73862b454",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/bullet.png",
+      "sha256": "9ffad4a9518db332cb6bb49be435a65e8f18d9f87f70b2b97328d3f8fa47bb4c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/cast.png",
+      "sha256": "35a4c0d919a3785e307e164fb60fde4acb465fbbefb08978b6a2ec45be67b6c7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/charge.png",
+      "sha256": "9084e3c89c35397c986dce46fa44c399ab742d125ae41d44b66e30b35f731d6e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/dust.png",
+      "sha256": "460d85ccd5d77b4b727dc743e75b355be9ad1377dd7ff81576159cd87a0403ff",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/haste.png",
+      "sha256": "aa0d9bfffaefa8b87510ac28b9deb4969389a4df870c4df61b4af6b032aacd8f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/impact.png",
+      "sha256": "00b5e906f92e570c256fa98e710e66bec0cd6257b6496c49fddf8f03a2f53c37",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/iron.png",
+      "sha256": "b230b5556a92b11dd14721f305b5b842361bf64ab5c011d1f5548faf07d41348",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/muzzle.png",
+      "sha256": "bd51feafcfa47073649161561944c14d934c0ca5f3b6361d4533656ae1f80166",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/piercing.png",
+      "sha256": "c206decf5dfa868781884016b52f4bd422595de6284c1a124232ae2a22cd0810",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/shield.png",
+      "sha256": "e27f5c6d2fd3f2e9171936657ec663544f808e3551ec71dcdfb02c4dbff5f7c6",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/slam.png",
+      "sha256": "0507683457493a9524a833d66665b67ec670060e5578d8312e7d42369bb02641",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/slash.png",
+      "sha256": "d37135c736dc5a548c69243227cc456ee69ffc09fe5268a3d7e06eed052b6298",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/snare.png",
+      "sha256": "0f483859883c9dc7b9720dda11825f1030d18d761bed494b8b226077521f9328",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/status.png",
+      "sha256": "4fa219f3d59acb8d29fb7ae66451ae8aeb09244b60b5e06669a50d6e0be099c2",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/vfx/titan.png",
+      "sha256": "74710fa38464b53b895c1aba6b3e444b156bc31874548faf3345d2e35cb926a0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/world/courtyard.png",
+      "sha256": "eb310ad8b8760fe452a3658cd720e61777b9ccd4be648a45961c502dd57e5070",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/world/shade_enemy.png",
+      "sha256": "edede1cbe66298eddee610471a8997f3559081b332723f1ee34bcf0f0cb1aecc",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/world/wall.png",
+      "sha256": "611e068e875543e270b207a5667e52510235c0684cdb723649dbb2cbf7e5aba5",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_east_00.png",
+      "sha256": "ce40f07d38418fb781d2127fc22c2a440394a27214c8ef0f12ff3ba2641c20f4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_east_01.png",
+      "sha256": "fb293bc1d108cb628c7e20f4eac5b06d20e6c3d1e9ae0577ef9796dd68004e91",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_east_02.png",
+      "sha256": "37eff236fc4762d1c97abc97841e41100b4be5f7748ceab0411adee3f13697af",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_east_03.png",
+      "sha256": "37eff236fc4762d1c97abc97841e41100b4be5f7748ceab0411adee3f13697af",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_east_04.png",
+      "sha256": "fb293bc1d108cb628c7e20f4eac5b06d20e6c3d1e9ae0577ef9796dd68004e91",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_east_05.png",
+      "sha256": "ce40f07d38418fb781d2127fc22c2a440394a27214c8ef0f12ff3ba2641c20f4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_north_00.png",
+      "sha256": "eeda8d40bddc4cd9a0c960bbe733d310fc0b3ccfab1ff5c34b7bd5130ea67ba0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_north_01.png",
+      "sha256": "500f73c9b151289871a786e2fb62a1576f4ed1aa924704efce563da1a4944cc7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_north_02.png",
+      "sha256": "182e8faac573860eacc87e2b2659cb821dc119ac975f684cdd4aceb2d3e857e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_north_03.png",
+      "sha256": "182e8faac573860eacc87e2b2659cb821dc119ac975f684cdd4aceb2d3e857e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_north_04.png",
+      "sha256": "500f73c9b151289871a786e2fb62a1576f4ed1aa924704efce563da1a4944cc7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_north_05.png",
+      "sha256": "eeda8d40bddc4cd9a0c960bbe733d310fc0b3ccfab1ff5c34b7bd5130ea67ba0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_south_00.png",
+      "sha256": "edb0a52fbc2752add7404988515582d168a9151926953d2259f18301474e3229",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_south_01.png",
+      "sha256": "d5ab9fb9cab31ffc32f259b58a18afa4af8e6fc279e266816dbc2cfa4da931d7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_south_02.png",
+      "sha256": "18c0b4fad2612e55d0afb1ee8705721fba98fc6433f760910eecda319a09415b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_south_03.png",
+      "sha256": "18c0b4fad2612e55d0afb1ee8705721fba98fc6433f760910eecda319a09415b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_south_04.png",
+      "sha256": "d5ab9fb9cab31ffc32f259b58a18afa4af8e6fc279e266816dbc2cfa4da931d7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_south_05.png",
+      "sha256": "edb0a52fbc2752add7404988515582d168a9151926953d2259f18301474e3229",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_west_00.png",
+      "sha256": "77442b061276b2fa24d24f16a2167bbcbf6d69e3483c463695b3d47b2701213d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_west_01.png",
+      "sha256": "3aa90952d9796cf3c48ac6fb35a2b34887c5916f9346327595c09fe45406ea06",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_west_02.png",
+      "sha256": "5e5c71930e0cbebebb383a1f63cf52bbe23f958ed121ef475cb50386ad863a27",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_west_03.png",
+      "sha256": "5e5c71930e0cbebebb383a1f63cf52bbe23f958ed121ef475cb50386ad863a27",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_west_04.png",
+      "sha256": "3aa90952d9796cf3c48ac6fb35a2b34887c5916f9346327595c09fe45406ea06",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/basic_west_05.png",
+      "sha256": "77442b061276b2fa24d24f16a2167bbcbf6d69e3483c463695b3d47b2701213d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_east_00.png",
+      "sha256": "ce40f07d38418fb781d2127fc22c2a440394a27214c8ef0f12ff3ba2641c20f4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_east_01.png",
+      "sha256": "19f608c9cd8b1088e4341b2dbb36752ef499a497b3a004b317b12a37440ab57a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_east_02.png",
+      "sha256": "eec5bb05b4d8ca1f50b74d1a939bc9f2fdc4039c45f04d651b46942b1b76e33b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_east_03.png",
+      "sha256": "37eff236fc4762d1c97abc97841e41100b4be5f7748ceab0411adee3f13697af",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_east_04.png",
+      "sha256": "37eff236fc4762d1c97abc97841e41100b4be5f7748ceab0411adee3f13697af",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_east_05.png",
+      "sha256": "eec5bb05b4d8ca1f50b74d1a939bc9f2fdc4039c45f04d651b46942b1b76e33b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_east_06.png",
+      "sha256": "19f608c9cd8b1088e4341b2dbb36752ef499a497b3a004b317b12a37440ab57a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_east_07.png",
+      "sha256": "ce40f07d38418fb781d2127fc22c2a440394a27214c8ef0f12ff3ba2641c20f4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_north_00.png",
+      "sha256": "eeda8d40bddc4cd9a0c960bbe733d310fc0b3ccfab1ff5c34b7bd5130ea67ba0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_north_01.png",
+      "sha256": "1c54924dc8b180f0f9da852f9dfaf8dc820b4a8113208879df5b0dce01861a52",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_north_02.png",
+      "sha256": "401cf4127e684592978237b205bfc3db47715e2c8bf6dfbe9b9ab88affa633e8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_north_03.png",
+      "sha256": "182e8faac573860eacc87e2b2659cb821dc119ac975f684cdd4aceb2d3e857e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_north_04.png",
+      "sha256": "182e8faac573860eacc87e2b2659cb821dc119ac975f684cdd4aceb2d3e857e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_north_05.png",
+      "sha256": "401cf4127e684592978237b205bfc3db47715e2c8bf6dfbe9b9ab88affa633e8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_north_06.png",
+      "sha256": "1c54924dc8b180f0f9da852f9dfaf8dc820b4a8113208879df5b0dce01861a52",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_north_07.png",
+      "sha256": "eeda8d40bddc4cd9a0c960bbe733d310fc0b3ccfab1ff5c34b7bd5130ea67ba0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_south_00.png",
+      "sha256": "edb0a52fbc2752add7404988515582d168a9151926953d2259f18301474e3229",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_south_01.png",
+      "sha256": "d6865e580ef252f61d01e6ee9fa03d2d8b0a694b5929a7a94e046019eb16f103",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_south_02.png",
+      "sha256": "68dfb6db8b9b8fd6ad2f50246ad014abe3a5fa2c4454e62fa0dae76a5da03a13",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_south_03.png",
+      "sha256": "18c0b4fad2612e55d0afb1ee8705721fba98fc6433f760910eecda319a09415b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_south_04.png",
+      "sha256": "18c0b4fad2612e55d0afb1ee8705721fba98fc6433f760910eecda319a09415b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_south_05.png",
+      "sha256": "68dfb6db8b9b8fd6ad2f50246ad014abe3a5fa2c4454e62fa0dae76a5da03a13",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_south_06.png",
+      "sha256": "d6865e580ef252f61d01e6ee9fa03d2d8b0a694b5929a7a94e046019eb16f103",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_south_07.png",
+      "sha256": "edb0a52fbc2752add7404988515582d168a9151926953d2259f18301474e3229",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_west_00.png",
+      "sha256": "77442b061276b2fa24d24f16a2167bbcbf6d69e3483c463695b3d47b2701213d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_west_01.png",
+      "sha256": "55111803b4cf07347d6f9fc09611325e5473535ec2c26e02740cd2cdb3b05d3e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_west_02.png",
+      "sha256": "b450ba9bb3610b268b317345b981a98992e6ac19c94e222ac34ed0b57c6a55a3",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_west_03.png",
+      "sha256": "5e5c71930e0cbebebb383a1f63cf52bbe23f958ed121ef475cb50386ad863a27",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_west_04.png",
+      "sha256": "5e5c71930e0cbebebb383a1f63cf52bbe23f958ed121ef475cb50386ad863a27",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_west_05.png",
+      "sha256": "b450ba9bb3610b268b317345b981a98992e6ac19c94e222ac34ed0b57c6a55a3",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_west_06.png",
+      "sha256": "55111803b4cf07347d6f9fc09611325e5473535ec2c26e02740cd2cdb3b05d3e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_i_west_07.png",
+      "sha256": "77442b061276b2fa24d24f16a2167bbcbf6d69e3483c463695b3d47b2701213d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_east_00.png",
+      "sha256": "ce40f07d38418fb781d2127fc22c2a440394a27214c8ef0f12ff3ba2641c20f4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_east_01.png",
+      "sha256": "fb293bc1d108cb628c7e20f4eac5b06d20e6c3d1e9ae0577ef9796dd68004e91",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_east_02.png",
+      "sha256": "37eff236fc4762d1c97abc97841e41100b4be5f7748ceab0411adee3f13697af",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_east_03.png",
+      "sha256": "37eff236fc4762d1c97abc97841e41100b4be5f7748ceab0411adee3f13697af",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_east_04.png",
+      "sha256": "fb293bc1d108cb628c7e20f4eac5b06d20e6c3d1e9ae0577ef9796dd68004e91",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_east_05.png",
+      "sha256": "ce40f07d38418fb781d2127fc22c2a440394a27214c8ef0f12ff3ba2641c20f4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_north_00.png",
+      "sha256": "eeda8d40bddc4cd9a0c960bbe733d310fc0b3ccfab1ff5c34b7bd5130ea67ba0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_north_01.png",
+      "sha256": "500f73c9b151289871a786e2fb62a1576f4ed1aa924704efce563da1a4944cc7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_north_02.png",
+      "sha256": "182e8faac573860eacc87e2b2659cb821dc119ac975f684cdd4aceb2d3e857e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_north_03.png",
+      "sha256": "182e8faac573860eacc87e2b2659cb821dc119ac975f684cdd4aceb2d3e857e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_north_04.png",
+      "sha256": "500f73c9b151289871a786e2fb62a1576f4ed1aa924704efce563da1a4944cc7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_north_05.png",
+      "sha256": "eeda8d40bddc4cd9a0c960bbe733d310fc0b3ccfab1ff5c34b7bd5130ea67ba0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_south_00.png",
+      "sha256": "edb0a52fbc2752add7404988515582d168a9151926953d2259f18301474e3229",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_south_01.png",
+      "sha256": "d5ab9fb9cab31ffc32f259b58a18afa4af8e6fc279e266816dbc2cfa4da931d7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_south_02.png",
+      "sha256": "18c0b4fad2612e55d0afb1ee8705721fba98fc6433f760910eecda319a09415b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_south_03.png",
+      "sha256": "18c0b4fad2612e55d0afb1ee8705721fba98fc6433f760910eecda319a09415b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_south_04.png",
+      "sha256": "d5ab9fb9cab31ffc32f259b58a18afa4af8e6fc279e266816dbc2cfa4da931d7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_south_05.png",
+      "sha256": "edb0a52fbc2752add7404988515582d168a9151926953d2259f18301474e3229",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_west_00.png",
+      "sha256": "77442b061276b2fa24d24f16a2167bbcbf6d69e3483c463695b3d47b2701213d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_west_01.png",
+      "sha256": "3aa90952d9796cf3c48ac6fb35a2b34887c5916f9346327595c09fe45406ea06",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_west_02.png",
+      "sha256": "5e5c71930e0cbebebb383a1f63cf52bbe23f958ed121ef475cb50386ad863a27",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_west_03.png",
+      "sha256": "5e5c71930e0cbebebb383a1f63cf52bbe23f958ed121ef475cb50386ad863a27",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_west_04.png",
+      "sha256": "3aa90952d9796cf3c48ac6fb35a2b34887c5916f9346327595c09fe45406ea06",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_j_west_05.png",
+      "sha256": "77442b061276b2fa24d24f16a2167bbcbf6d69e3483c463695b3d47b2701213d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_east_00.png",
+      "sha256": "1756e4c0791ceae445cc230bcaaf2163dcc39df8320d02f603d7cf33ce304920",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_east_01.png",
+      "sha256": "6d7844e378e7e54c412d42b5f5a9bfe8e25a51f43cf74be02ba38a0fc4b13146",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_east_02.png",
+      "sha256": "6583450ab3becded1c4f79f2b7a960c20a1be844c87cebae71e61f05de33cc3c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_east_03.png",
+      "sha256": "6583450ab3becded1c4f79f2b7a960c20a1be844c87cebae71e61f05de33cc3c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_east_04.png",
+      "sha256": "6d7844e378e7e54c412d42b5f5a9bfe8e25a51f43cf74be02ba38a0fc4b13146",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_east_05.png",
+      "sha256": "1756e4c0791ceae445cc230bcaaf2163dcc39df8320d02f603d7cf33ce304920",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_north_00.png",
+      "sha256": "36d6b577c466c8dd0a1a62c1df6018ee36f5b6db8240bb9dd2db5a25c1151950",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_north_01.png",
+      "sha256": "b7f8cdf1419ee27696bf00d9d06aecf089d3002ad3e2f90d47d336ad90c667d1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_north_02.png",
+      "sha256": "ce92cdb119ed54e924c75c8f91fc08bf03b7fe9ebcb8574efbf486cc18a0b600",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_north_03.png",
+      "sha256": "ce92cdb119ed54e924c75c8f91fc08bf03b7fe9ebcb8574efbf486cc18a0b600",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_north_04.png",
+      "sha256": "b7f8cdf1419ee27696bf00d9d06aecf089d3002ad3e2f90d47d336ad90c667d1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_north_05.png",
+      "sha256": "36d6b577c466c8dd0a1a62c1df6018ee36f5b6db8240bb9dd2db5a25c1151950",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_south_00.png",
+      "sha256": "e77d07bfdb6df92145fe7ae61f78ed842275ffe93eacc2f241751fba78e126e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_south_01.png",
+      "sha256": "4db76478ffac8fd2dec252105d82b425801628ae0548cb24d48399615ab7c760",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_south_02.png",
+      "sha256": "e941220d6a803cf089dee749d4c3457aa9483c61e70e153e893849fdfa3b1045",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_south_03.png",
+      "sha256": "e941220d6a803cf089dee749d4c3457aa9483c61e70e153e893849fdfa3b1045",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_south_04.png",
+      "sha256": "4db76478ffac8fd2dec252105d82b425801628ae0548cb24d48399615ab7c760",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_south_05.png",
+      "sha256": "e77d07bfdb6df92145fe7ae61f78ed842275ffe93eacc2f241751fba78e126e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_west_00.png",
+      "sha256": "1726bc94ee28b4adcb0a81fbc2735d668fec7aeb0fdd1cad3b0953def7d0739b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_west_01.png",
+      "sha256": "cc8f987630a3eb6c56420c493749e7ba977190bc10774e6fe8274a020061c58c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_west_02.png",
+      "sha256": "addd2716fa8eb7d190ebcc1de54ed296c96ee4a9845c97c3dacc70358d35a0b7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_west_03.png",
+      "sha256": "addd2716fa8eb7d190ebcc1de54ed296c96ee4a9845c97c3dacc70358d35a0b7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_west_04.png",
+      "sha256": "cc8f987630a3eb6c56420c493749e7ba977190bc10774e6fe8274a020061c58c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_k_west_05.png",
+      "sha256": "1726bc94ee28b4adcb0a81fbc2735d668fec7aeb0fdd1cad3b0953def7d0739b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_east_00.png",
+      "sha256": "4fb1e4e17fe3c07c0e00feaa009d28437a758f32d4babc82ab0c1391daee3af6",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_east_01.png",
+      "sha256": "0edb3378c1b78171bffcbff09901d00bf97fb73db78274851161ba596f96b0dd",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_east_02.png",
+      "sha256": "5cfd9bb0bea69e20b363c3447d476784cb7f28c34ae0581eafefe33d3ea3851d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_east_03.png",
+      "sha256": "0c381cacd642c22c116bfc1fe0a319a32e371e46abf7a8af39d4b6cb913e85ee",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_east_04.png",
+      "sha256": "0c381cacd642c22c116bfc1fe0a319a32e371e46abf7a8af39d4b6cb913e85ee",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_east_05.png",
+      "sha256": "5cfd9bb0bea69e20b363c3447d476784cb7f28c34ae0581eafefe33d3ea3851d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_east_06.png",
+      "sha256": "0edb3378c1b78171bffcbff09901d00bf97fb73db78274851161ba596f96b0dd",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_east_07.png",
+      "sha256": "4fb1e4e17fe3c07c0e00feaa009d28437a758f32d4babc82ab0c1391daee3af6",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_north_00.png",
+      "sha256": "1b8326ce4ac9c6728e0505610d41c3ad7b31312f2dfdaa82c20ca68808282b3f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_north_01.png",
+      "sha256": "f4febc0ad10549705dcd2a6ac8ccffc1712e2afb0b2eb8c10addab2e6b04d981",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_north_02.png",
+      "sha256": "e48192df82c27cfccb7210a4b9ac2dda74af8dbb96e704f3573609c49f7e40cc",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_north_03.png",
+      "sha256": "9ddbb6e5b91894241bcb0296af70ae0f211bd94641a4b906de67a75d6eab7b14",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_north_04.png",
+      "sha256": "9ddbb6e5b91894241bcb0296af70ae0f211bd94641a4b906de67a75d6eab7b14",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_north_05.png",
+      "sha256": "e48192df82c27cfccb7210a4b9ac2dda74af8dbb96e704f3573609c49f7e40cc",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_north_06.png",
+      "sha256": "f4febc0ad10549705dcd2a6ac8ccffc1712e2afb0b2eb8c10addab2e6b04d981",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_north_07.png",
+      "sha256": "1b8326ce4ac9c6728e0505610d41c3ad7b31312f2dfdaa82c20ca68808282b3f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_south_00.png",
+      "sha256": "239bcb473f8a568d5de56f5c824d0534df09ad6bec9a03f960c3a9b3cd552db3",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_south_01.png",
+      "sha256": "bd542c6705a00d0704fa74b065db086e03046f63381e975a33758dfdcd05eb80",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_south_02.png",
+      "sha256": "e095c633e5b0bf8d95d811cf0b08edf8b50598927ff04b13d3c08ef82b6dbb39",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_south_03.png",
+      "sha256": "b41c63b48071bb32c8ca34a3e4067f8e2309026bd3951ad7ca570cb36855ad22",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_south_04.png",
+      "sha256": "b41c63b48071bb32c8ca34a3e4067f8e2309026bd3951ad7ca570cb36855ad22",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_south_05.png",
+      "sha256": "e095c633e5b0bf8d95d811cf0b08edf8b50598927ff04b13d3c08ef82b6dbb39",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_south_06.png",
+      "sha256": "bd542c6705a00d0704fa74b065db086e03046f63381e975a33758dfdcd05eb80",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_south_07.png",
+      "sha256": "239bcb473f8a568d5de56f5c824d0534df09ad6bec9a03f960c3a9b3cd552db3",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_west_00.png",
+      "sha256": "37456b970f45f48c2b51b32a6b5b521fa24d8d8fa4d4c0bf97504de5a1e9a33f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_west_01.png",
+      "sha256": "4499a9077eba6bd7db4860ae3115b5520e0461f6529ac6b03dd785918fe9a2da",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_west_02.png",
+      "sha256": "5116c59a8c9edef8e7fbb97731b6fb975d791a1e39c0f44963b6dbc8ac3de994",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_west_03.png",
+      "sha256": "1db100dedc9b83e579c984425b5bf6b5b0a89972b510be2cb0cd7e8c175fdbd2",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_west_04.png",
+      "sha256": "1db100dedc9b83e579c984425b5bf6b5b0a89972b510be2cb0cd7e8c175fdbd2",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_west_05.png",
+      "sha256": "5116c59a8c9edef8e7fbb97731b6fb975d791a1e39c0f44963b6dbc8ac3de994",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_west_06.png",
+      "sha256": "4499a9077eba6bd7db4860ae3115b5520e0461f6529ac6b03dd785918fe9a2da",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/cast_l_west_07.png",
+      "sha256": "37456b970f45f48c2b51b32a6b5b521fa24d8d8fa4d4c0bf97504de5a1e9a33f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_east_00.png",
+      "sha256": "1756e4c0791ceae445cc230bcaaf2163dcc39df8320d02f603d7cf33ce304920",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_east_01.png",
+      "sha256": "b37aba5f79669c62f42702226a0e7b6e71a17a75318feebb29b5f5175968fbd8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_east_02.png",
+      "sha256": "10deb27df6afb80a0b07339a50504898a4a21510e000a3867a304b0b15b67953",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_east_03.png",
+      "sha256": "f2dc9fac3d8e21a0d99d08dd5e48568b2f6b6045f7c60a2bb4105540aa069cad",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_east_04.png",
+      "sha256": "a2bbab3c38d1e5c717232c77996a762aa8ca72211627bb0a40e44575ea59ef93",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_east_05.png",
+      "sha256": "3e3354ce05dee1e062309b6eabd04399cf3a8fe7dc70154ead352fccb526faa8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_east_06.png",
+      "sha256": "f05228ebaadc2690eba94e82c43ba3d3c15d767859b56c5ade4e85c6743a17ef",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_east_07.png",
+      "sha256": "15ab53a8c0c1c1fd7b717fbbdcd5f671791927e8aae2c040b85358ecd8c07f05",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_north_00.png",
+      "sha256": "36d6b577c466c8dd0a1a62c1df6018ee36f5b6db8240bb9dd2db5a25c1151950",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_north_01.png",
+      "sha256": "9a15f9c8b23c725045cb2ab0ca883d25061ed75c84cca9227c9acdff63fd5b9f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_north_02.png",
+      "sha256": "3a2edd6f6db6d0ceea9e85ebce2f4e8a834aacc10b642b4988de8c0cb93666e6",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_north_03.png",
+      "sha256": "77b172093817f02fba9d4c003f9c83d479cde9c8809059cae4c4ab2851a97753",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_north_04.png",
+      "sha256": "a114bc29da046f38955ae22508638ddf7f8999c8b07949354556ef380c2f0c92",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_north_05.png",
+      "sha256": "796d501d83ba7b02439bbeaa3b21e3c8acbdd8e947af9e85f9bdd7c464bd58bb",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_north_06.png",
+      "sha256": "7271e9301f2c2da0f8a2f2a29c3e8445708a86a9ed2d08f1aa6f152fb008eb89",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_north_07.png",
+      "sha256": "4d82aac79dfe4f015bd6af7d8412dd35dc4055aa488c8ff3277b4a4b95c9fc19",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_south_00.png",
+      "sha256": "e77d07bfdb6df92145fe7ae61f78ed842275ffe93eacc2f241751fba78e126e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_south_01.png",
+      "sha256": "e106099973888900adab82f365e3408bf3be67d4b151db35ca3825b7850bf43c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_south_02.png",
+      "sha256": "aa0756d5d47c6247379feac8d9bf6f82009044bc0c7616fb77c1855e5e4b4687",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_south_03.png",
+      "sha256": "a762ba8bf302d5498e98e8b9d5ad0280c5b629e4915398e0896062098f48070f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_south_04.png",
+      "sha256": "684261695dfd78ea24471e485ac7540f314901663fac162212feea1e034274b4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_south_05.png",
+      "sha256": "f41081b8e7eabe3d36816de50e5cfe2542f64445ee2125b18f96b24491c817af",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_south_06.png",
+      "sha256": "ba72c7d4d8d3033c6361a8f95ee984b455d09a7a3cff065751d645dac494ed9b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_south_07.png",
+      "sha256": "ad79e9ddcc3045a72cca2d439d8e96ec0edddf75a295ae895c0477f09bc661f5",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_west_00.png",
+      "sha256": "1726bc94ee28b4adcb0a81fbc2735d668fec7aeb0fdd1cad3b0953def7d0739b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_west_01.png",
+      "sha256": "95e2515633424661a29119b221eca8c3b09552a6e34ae70f76e6c1a65bc37be5",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_west_02.png",
+      "sha256": "c2d64cca2b570c2ee4986846fbdd11e183d99aa6a63e7dfeec37f8ea29fce24d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_west_03.png",
+      "sha256": "a18ff5bbb34ca7b0ce5e14011ed3e62b8e0977367cadd285e8cb5ef80b14ace3",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_west_04.png",
+      "sha256": "a57a9dbb2e804e58bfdea72c654d9dd5be62d00a40b45a5e80088d6780121e5c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_west_05.png",
+      "sha256": "26025eec9919cfe8090486b0771466bba4d2bc0a44c48008d814f130e5324418",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_west_06.png",
+      "sha256": "7ff9726a86ac000cdd0fa22a953dc338e17b01911800e2a321e85a1127cd2169",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/death_west_07.png",
+      "sha256": "32da97394089b586b80464e9f39d4c3bfecb890e500e2ebe65ef5cf02edd21c7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/frames.tres",
+      "sha256": "6a424b81a7a4288d494b362eedcbfc01d9bb2ae063aa9983a18cd7927c98d980",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_east_00.png",
+      "sha256": "3b183ee9abe839969d7585fc21f6f75610d07b421ae23c0d789e441cfb349862",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_east_01.png",
+      "sha256": "444bebfdfc77da37949a7f631dce46981e45e54368c8f2f12ad087fb855afa62",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_east_02.png",
+      "sha256": "b74a2be7e53def6faeacd48fc6c740db79fe4d680b970cb1f4c794bdf1500929",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_east_03.png",
+      "sha256": "077cbcbcc69b297ac01156ad5c3c921bf9c87f74e62c0a49d560961ffedb13e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_north_00.png",
+      "sha256": "dd1089689ac7dbab9591be819fc92d9099d74e08c40f224f3516e259d4fe3ce3",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_north_01.png",
+      "sha256": "e4e44b52630f252fce2aeafd29599a7f3805ac90aa88b637cb1e2cfb04f63bd1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_north_02.png",
+      "sha256": "36d6b577c466c8dd0a1a62c1df6018ee36f5b6db8240bb9dd2db5a25c1151950",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_north_03.png",
+      "sha256": "267c299e316a05e9b5fa9468a78314a32e21208f5d0d6cd9776ea2aaf54778f0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_south_00.png",
+      "sha256": "956ba23a825cc034b18e8b1c75f6077e4c09e1a03f3f7d7571ac1c276b4ff5ae",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_south_01.png",
+      "sha256": "e547fd5dba5370c3789e83558ed0d38677b03754d10dbd9b8c671482cd7ed3a4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_south_02.png",
+      "sha256": "e77d07bfdb6df92145fe7ae61f78ed842275ffe93eacc2f241751fba78e126e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_south_03.png",
+      "sha256": "b039056a6acc814b36eb9eba9f028a67e8cf3f89613ddbe0b64b0f0ee1be7699",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_west_00.png",
+      "sha256": "a066dfb67567dac524408de6997ebd1820d3c43be0bbbf323368e06f5623a3a9",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_west_01.png",
+      "sha256": "ff7a4b162b6b0a68820909c67982b8462d60c8266d4844d119a3bd05a036a390",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_west_02.png",
+      "sha256": "217984eaf9c47e8eac232e076c2d82230d76901f5f7e1551189a836020117323",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/hit_west_03.png",
+      "sha256": "1cf853c6b401f6fc4d0e379c9a63f3248548eb19b710d91e02627ae76542a91c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_east_00.png",
+      "sha256": "1756e4c0791ceae445cc230bcaaf2163dcc39df8320d02f603d7cf33ce304920",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_east_01.png",
+      "sha256": "1756e4c0791ceae445cc230bcaaf2163dcc39df8320d02f603d7cf33ce304920",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_east_02.png",
+      "sha256": "470ee26b71fcb405065d9b510d2efbbb1a59753e0d6f0a1a2f016a83a2a1516a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_east_03.png",
+      "sha256": "470ee26b71fcb405065d9b510d2efbbb1a59753e0d6f0a1a2f016a83a2a1516a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_east_04.png",
+      "sha256": "1756e4c0791ceae445cc230bcaaf2163dcc39df8320d02f603d7cf33ce304920",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_east_05.png",
+      "sha256": "1756e4c0791ceae445cc230bcaaf2163dcc39df8320d02f603d7cf33ce304920",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_north_00.png",
+      "sha256": "36d6b577c466c8dd0a1a62c1df6018ee36f5b6db8240bb9dd2db5a25c1151950",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_north_01.png",
+      "sha256": "36d6b577c466c8dd0a1a62c1df6018ee36f5b6db8240bb9dd2db5a25c1151950",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_north_02.png",
+      "sha256": "be75bc383d39e1ae2ce10d1823f37a13fb968c6c3b401b56c79d85e46cfe4599",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_north_03.png",
+      "sha256": "be75bc383d39e1ae2ce10d1823f37a13fb968c6c3b401b56c79d85e46cfe4599",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_north_04.png",
+      "sha256": "36d6b577c466c8dd0a1a62c1df6018ee36f5b6db8240bb9dd2db5a25c1151950",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_north_05.png",
+      "sha256": "36d6b577c466c8dd0a1a62c1df6018ee36f5b6db8240bb9dd2db5a25c1151950",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_south_00.png",
+      "sha256": "e77d07bfdb6df92145fe7ae61f78ed842275ffe93eacc2f241751fba78e126e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_south_01.png",
+      "sha256": "e77d07bfdb6df92145fe7ae61f78ed842275ffe93eacc2f241751fba78e126e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_south_02.png",
+      "sha256": "9827ae7f7a87860ae47668130427cdb15fdef7080c8d2f0f13c47f79e9122ecb",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_south_03.png",
+      "sha256": "9827ae7f7a87860ae47668130427cdb15fdef7080c8d2f0f13c47f79e9122ecb",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_south_04.png",
+      "sha256": "e77d07bfdb6df92145fe7ae61f78ed842275ffe93eacc2f241751fba78e126e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_south_05.png",
+      "sha256": "e77d07bfdb6df92145fe7ae61f78ed842275ffe93eacc2f241751fba78e126e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_west_00.png",
+      "sha256": "1726bc94ee28b4adcb0a81fbc2735d668fec7aeb0fdd1cad3b0953def7d0739b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_west_01.png",
+      "sha256": "1726bc94ee28b4adcb0a81fbc2735d668fec7aeb0fdd1cad3b0953def7d0739b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_west_02.png",
+      "sha256": "9f92301d936f3f0d294648366fc01b70198d77b5358913c4cd47b74507aa00b5",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_west_03.png",
+      "sha256": "9f92301d936f3f0d294648366fc01b70198d77b5358913c4cd47b74507aa00b5",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_west_04.png",
+      "sha256": "1726bc94ee28b4adcb0a81fbc2735d668fec7aeb0fdd1cad3b0953def7d0739b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/idle_west_05.png",
+      "sha256": "1726bc94ee28b4adcb0a81fbc2735d668fec7aeb0fdd1cad3b0953def7d0739b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/manifest.json",
+      "sha256": "02950d4b4ab5a3974bcddb198327412c4fc0b089c90011f482693784d56f7790",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_east_00.png",
+      "sha256": "1756e4c0791ceae445cc230bcaaf2163dcc39df8320d02f603d7cf33ce304920",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_east_01.png",
+      "sha256": "b0fbd6e4358c774552c46de15c208de4f333418d40698872a994766da1b16008",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_east_02.png",
+      "sha256": "35e11d5b70252775d5b315d1205d4399fb1a480345bc2846a7ee849020c83696",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_east_03.png",
+      "sha256": "140e0fabbb72c92eabd75b362a3d06c039eb82e4e8cbf1e903f1fded51ad6768",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_east_04.png",
+      "sha256": "1756e4c0791ceae445cc230bcaaf2163dcc39df8320d02f603d7cf33ce304920",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_east_05.png",
+      "sha256": "ca45d7402ec681fa2d493170a568735e86d09786627cbc2e72f1a067bda2665c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_east_06.png",
+      "sha256": "3383f26b4f72a48ee3370cbbd83f5eb07dab9f274a4e5bc6f354240065f44972",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_east_07.png",
+      "sha256": "9cc80ca2e74bd5786c7b7178f129abd95ee98af301f5d7060bef847aeac06779",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_north_00.png",
+      "sha256": "36d6b577c466c8dd0a1a62c1df6018ee36f5b6db8240bb9dd2db5a25c1151950",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_north_01.png",
+      "sha256": "b1380e8b70ec158741b6b0ce1a55d424c536b6f6a3a10140a93fbfc9f60ed275",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_north_02.png",
+      "sha256": "a9d8e63a74beff59919d4fd7d32639f74e232850a77b15d5e781d0ae2fd70723",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_north_03.png",
+      "sha256": "974a8c5baf0cf413ebc761ff379ca6db0fb557431cb205d9d3e26821bf1a4da2",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_north_04.png",
+      "sha256": "36d6b577c466c8dd0a1a62c1df6018ee36f5b6db8240bb9dd2db5a25c1151950",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_north_05.png",
+      "sha256": "46257f623e7d1a07a30039eaf0d6db54733baf1c874719d71971dd1684ec94a0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_north_06.png",
+      "sha256": "9f3dd346ce8a0a9fdcc921ccf351dcfe78f12691f15469216c6cf59d5d4845a9",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_north_07.png",
+      "sha256": "c8a9836f943b50da71d2a15de20ed90f71a6419e0c6f3e8439b0cca9a8432cb8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_south_00.png",
+      "sha256": "e77d07bfdb6df92145fe7ae61f78ed842275ffe93eacc2f241751fba78e126e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_south_01.png",
+      "sha256": "2245f91a5b8db5bd4eb92554bcfb25fa0a2b99fb78e6a4179e9badba74c64b23",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_south_02.png",
+      "sha256": "3e1132a4f5514eed5bcb9eb34ff219f7e1077755be9694e4fd15047266b9d0e1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_south_03.png",
+      "sha256": "94788d6eb5e987eaae736603450e5ce75d9afde0b0b4fcfe6922b2b54d3a913f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_south_04.png",
+      "sha256": "e77d07bfdb6df92145fe7ae61f78ed842275ffe93eacc2f241751fba78e126e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_south_05.png",
+      "sha256": "f91ed8d47e14f26c53aed87255e41220cfa5c800805de57a71679b03c8f458f5",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_south_06.png",
+      "sha256": "81d69413b81a4cbf9b240de3c0018247ab4fef1beb2558aef750c83754306910",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_south_07.png",
+      "sha256": "03c3efc31898cbf7f2e90ce252d006db43ae28225ead3b08a170748510f33699",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_west_00.png",
+      "sha256": "1726bc94ee28b4adcb0a81fbc2735d668fec7aeb0fdd1cad3b0953def7d0739b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_west_01.png",
+      "sha256": "b399f07cccfa16e9aaa05671d37112dd31ccc92d6961778af46dfade0948a7c6",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_west_02.png",
+      "sha256": "1bcb33857da690ea6cda876329e481e9cbd462211a34b3df5229516a60bcae7c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_west_03.png",
+      "sha256": "b436d79d7d64842d6a2470b9bc2c34b54064ee77a8c2ce553d465122013811a1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_west_04.png",
+      "sha256": "1726bc94ee28b4adcb0a81fbc2735d668fec7aeb0fdd1cad3b0953def7d0739b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_west_05.png",
+      "sha256": "4a1ad3905250d38a864a07bba304bb0b0e294f6d389c34c6cc8628910efd73da",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_west_06.png",
+      "sha256": "94c8eedbe1ffe5861082cb6c437d1dea1e1f91f8e7d5afb959b35b8bd0afc941",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/astra/run_west_07.png",
+      "sha256": "aed4f0efe110692a80d8045411202130c6fbde79396bea653b26a6d2debda065",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_east_00.png",
+      "sha256": "c5d1f285eaf7a62a9b691d0ad5e220e0057aecd1eb7ada12d5cde83904b899ec",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_east_01.png",
+      "sha256": "4df347487666336be20f6bde1de5ad511559b35c96ac6a9e20cc6cca709699fb",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_east_02.png",
+      "sha256": "ba1b5a8ae6b3eaeff9b8f159b9828f2b8e3a00d06c71922c0a766d642e5c11e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_east_03.png",
+      "sha256": "ba1b5a8ae6b3eaeff9b8f159b9828f2b8e3a00d06c71922c0a766d642e5c11e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_east_04.png",
+      "sha256": "4df347487666336be20f6bde1de5ad511559b35c96ac6a9e20cc6cca709699fb",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_east_05.png",
+      "sha256": "c5d1f285eaf7a62a9b691d0ad5e220e0057aecd1eb7ada12d5cde83904b899ec",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_north_00.png",
+      "sha256": "2c3f16d4dc20cfd93a64fb61d42efcd9f38f2940f79c6e5697892b775d011168",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_north_01.png",
+      "sha256": "bb3f273205955c0ce2addd69ac591226891222838f145391763672badfc2d6f0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_north_02.png",
+      "sha256": "72536ccbe94b94fbd0ebf0fbd88a603810b8551aa9ccd2d01e1dcd944c611cd6",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_north_03.png",
+      "sha256": "72536ccbe94b94fbd0ebf0fbd88a603810b8551aa9ccd2d01e1dcd944c611cd6",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_north_04.png",
+      "sha256": "bb3f273205955c0ce2addd69ac591226891222838f145391763672badfc2d6f0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_north_05.png",
+      "sha256": "2c3f16d4dc20cfd93a64fb61d42efcd9f38f2940f79c6e5697892b775d011168",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_south_00.png",
+      "sha256": "c5d1f285eaf7a62a9b691d0ad5e220e0057aecd1eb7ada12d5cde83904b899ec",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_south_01.png",
+      "sha256": "4df347487666336be20f6bde1de5ad511559b35c96ac6a9e20cc6cca709699fb",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_south_02.png",
+      "sha256": "ba1b5a8ae6b3eaeff9b8f159b9828f2b8e3a00d06c71922c0a766d642e5c11e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_south_03.png",
+      "sha256": "ba1b5a8ae6b3eaeff9b8f159b9828f2b8e3a00d06c71922c0a766d642e5c11e0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_south_04.png",
+      "sha256": "4df347487666336be20f6bde1de5ad511559b35c96ac6a9e20cc6cca709699fb",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_south_05.png",
+      "sha256": "c5d1f285eaf7a62a9b691d0ad5e220e0057aecd1eb7ada12d5cde83904b899ec",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_west_00.png",
+      "sha256": "b14eb2ea2d3f5372d0f5423f958c19bfe12fa7185c5221e975fdd5a86cf3869f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_west_01.png",
+      "sha256": "a6337739f3024bbeb454f26ff03242a36fcc0ce92ab54bc8fa22850433a7078c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_west_02.png",
+      "sha256": "68d95ae2fce4ffb53e36ea6df46660de8d03f87bc5cb8cfccf56c58ac5a5be1e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_west_03.png",
+      "sha256": "68d95ae2fce4ffb53e36ea6df46660de8d03f87bc5cb8cfccf56c58ac5a5be1e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_west_04.png",
+      "sha256": "a6337739f3024bbeb454f26ff03242a36fcc0ce92ab54bc8fa22850433a7078c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/basic_west_05.png",
+      "sha256": "b14eb2ea2d3f5372d0f5423f958c19bfe12fa7185c5221e975fdd5a86cf3869f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_east_00.png",
+      "sha256": "bf92a9ddad5ff352b5078717b857a6d1e510e56bcba24c76fd9f3f3401e784b1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_east_01.png",
+      "sha256": "63a862d2e151354d781e7db2e4de042e48a43dff11057ddf21eacedcfb343014",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_east_02.png",
+      "sha256": "35509b3d8a15897ec60d06e1a37b37b9cce59bfb25f07bfcb8e0d6d1cc4ed220",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_east_03.png",
+      "sha256": "edfe0fb4cf703ae35d521978b8fef8f605663974d355fb2f7ae522fa2ff3cf67",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_east_04.png",
+      "sha256": "edfe0fb4cf703ae35d521978b8fef8f605663974d355fb2f7ae522fa2ff3cf67",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_east_05.png",
+      "sha256": "35509b3d8a15897ec60d06e1a37b37b9cce59bfb25f07bfcb8e0d6d1cc4ed220",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_east_06.png",
+      "sha256": "63a862d2e151354d781e7db2e4de042e48a43dff11057ddf21eacedcfb343014",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_east_07.png",
+      "sha256": "bf92a9ddad5ff352b5078717b857a6d1e510e56bcba24c76fd9f3f3401e784b1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_north_00.png",
+      "sha256": "03df9b37465bd3c53ab8b1ca5d24eac87db0c6b6096236565b5fb29a438e7161",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_north_01.png",
+      "sha256": "2f2785f110e5d9bc2b39affc005c3d2f16b4d03acf4d37daae1d1586b1b394e6",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_north_02.png",
+      "sha256": "4d9e28e2cf6d54ee1112c21fe51a6154b3a1767293be0ef76fbc3e9175bb349e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_north_03.png",
+      "sha256": "03be322f07fd40e300b1339d26f3345e30ac64d4efbeac35de77966edc57174a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_north_04.png",
+      "sha256": "03be322f07fd40e300b1339d26f3345e30ac64d4efbeac35de77966edc57174a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_north_05.png",
+      "sha256": "4d9e28e2cf6d54ee1112c21fe51a6154b3a1767293be0ef76fbc3e9175bb349e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_north_06.png",
+      "sha256": "2f2785f110e5d9bc2b39affc005c3d2f16b4d03acf4d37daae1d1586b1b394e6",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_north_07.png",
+      "sha256": "03df9b37465bd3c53ab8b1ca5d24eac87db0c6b6096236565b5fb29a438e7161",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_south_00.png",
+      "sha256": "bf92a9ddad5ff352b5078717b857a6d1e510e56bcba24c76fd9f3f3401e784b1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_south_01.png",
+      "sha256": "63a862d2e151354d781e7db2e4de042e48a43dff11057ddf21eacedcfb343014",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_south_02.png",
+      "sha256": "35509b3d8a15897ec60d06e1a37b37b9cce59bfb25f07bfcb8e0d6d1cc4ed220",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_south_03.png",
+      "sha256": "edfe0fb4cf703ae35d521978b8fef8f605663974d355fb2f7ae522fa2ff3cf67",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_south_04.png",
+      "sha256": "edfe0fb4cf703ae35d521978b8fef8f605663974d355fb2f7ae522fa2ff3cf67",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_south_05.png",
+      "sha256": "35509b3d8a15897ec60d06e1a37b37b9cce59bfb25f07bfcb8e0d6d1cc4ed220",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_south_06.png",
+      "sha256": "63a862d2e151354d781e7db2e4de042e48a43dff11057ddf21eacedcfb343014",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_south_07.png",
+      "sha256": "bf92a9ddad5ff352b5078717b857a6d1e510e56bcba24c76fd9f3f3401e784b1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_west_00.png",
+      "sha256": "2b007abba491707c05b70c5cb31a64179f7e8653a4460900c099f84e32b94d59",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_west_01.png",
+      "sha256": "5d41d7eebe4d3c8e8b88f1f303d37ac4953577463331a0b27744bff2d8f480df",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_west_02.png",
+      "sha256": "8a3a3c3045ca2c82c8c601ee99d45b20add485f22847da0e86b84382d05e601a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_west_03.png",
+      "sha256": "0134b064f4cb4f19b20c34e0a220f406273f6c73de492adbd630dc7057cad8b8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_west_04.png",
+      "sha256": "0134b064f4cb4f19b20c34e0a220f406273f6c73de492adbd630dc7057cad8b8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_west_05.png",
+      "sha256": "8a3a3c3045ca2c82c8c601ee99d45b20add485f22847da0e86b84382d05e601a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_west_06.png",
+      "sha256": "5d41d7eebe4d3c8e8b88f1f303d37ac4953577463331a0b27744bff2d8f480df",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_i_west_07.png",
+      "sha256": "2b007abba491707c05b70c5cb31a64179f7e8653a4460900c099f84e32b94d59",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_east_00.png",
+      "sha256": "bec8dfda1638713732a89710aa054ca6ce8f36239be1dd7bc731d27189515eca",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_east_01.png",
+      "sha256": "5e55f37a0470d9b0b103a958191ab0fa94ae8d7c63176e281a7dce606a37b2d1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_east_02.png",
+      "sha256": "4f8810bb958dde90c53d2a6acb1ff08f22ee57c66c554f108532c051ee3b1e6e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_east_03.png",
+      "sha256": "d09b308a03e264d0a6fdb31db3e1527bd5e92b0c25929d4e9753593757cba745",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_east_04.png",
+      "sha256": "9981ed60d7f893cf0d9321a542903d572ab12767b470e3f77b8065c4f54c8090",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_east_05.png",
+      "sha256": "bcd25b86b0c5bb2982153e396c8b12e92559d98bf9142553fdbca58c7f542e80",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_north_00.png",
+      "sha256": "a3e04ef8faa6611698534d1f00e789751a7735e2fcb4fefd3bcd2b62de0fc951",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_north_01.png",
+      "sha256": "b73c52b6a075c81fe3e74aa2678f36042a21ec3ebd2ed13b57719d3d5f850126",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_north_02.png",
+      "sha256": "6fa63e4969714f3fff371c06cb43ffc2d86d154750aa09daf78928e8883fa6e5",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_north_03.png",
+      "sha256": "37cad340af25ddd0ee46668c7accda1c5694e5eb342dcfba1c2d38f6f95f8cb0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_north_04.png",
+      "sha256": "7673dcac669538ea3ac32f48bff7f7454b760bbf7c1789e8f32f33ada701cd1b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_north_05.png",
+      "sha256": "db772fff1b250f16946d2e129e4999cd0865299e84a409abc8cad354c6a1d6d9",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_south_00.png",
+      "sha256": "bec8dfda1638713732a89710aa054ca6ce8f36239be1dd7bc731d27189515eca",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_south_01.png",
+      "sha256": "5e55f37a0470d9b0b103a958191ab0fa94ae8d7c63176e281a7dce606a37b2d1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_south_02.png",
+      "sha256": "4f8810bb958dde90c53d2a6acb1ff08f22ee57c66c554f108532c051ee3b1e6e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_south_03.png",
+      "sha256": "d09b308a03e264d0a6fdb31db3e1527bd5e92b0c25929d4e9753593757cba745",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_south_04.png",
+      "sha256": "9981ed60d7f893cf0d9321a542903d572ab12767b470e3f77b8065c4f54c8090",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_south_05.png",
+      "sha256": "bcd25b86b0c5bb2982153e396c8b12e92559d98bf9142553fdbca58c7f542e80",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_west_00.png",
+      "sha256": "85df04f4b3d38f36a4952f87a013a8f21c3e86f1ba055e8b0cff8f11680c022c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_west_01.png",
+      "sha256": "5656d73cc58cad8a2c0fcba04626c6aaa66e2b2f1a1db953a9a7be41d67a99af",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_west_02.png",
+      "sha256": "4bd3db473bdf2d24d873378961b09cdb4b86f51ae5b99698f0768bdaf665f363",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_west_03.png",
+      "sha256": "cf5d5b4322171d911e7e1fea5a0357fb4a62963413c44544d2f9761a42e6a06e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_west_04.png",
+      "sha256": "309ca6b7214ae8150c6e4996e972e8a551070d7b120d702ac799e6f7e9f76174",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_j_west_05.png",
+      "sha256": "19b7c6d656259210679e6662cf4e5b2cc17ded83ae3d309aa195237c4c789968",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_east_00.png",
+      "sha256": "b6ed06dba27822dd299e03756403bbc8db55763dc77a83f5b4b259b05c2cfaa5",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_east_01.png",
+      "sha256": "a5bcf038f71ea0ba6af2331e9d5a6e2ca7a0ea6db27bb991b5652966dd64587a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_east_02.png",
+      "sha256": "e8331fb546226477d340b8e45e93c5eb1879d42c8476ba75c1396a717f394dce",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_east_03.png",
+      "sha256": "e8331fb546226477d340b8e45e93c5eb1879d42c8476ba75c1396a717f394dce",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_east_04.png",
+      "sha256": "a5bcf038f71ea0ba6af2331e9d5a6e2ca7a0ea6db27bb991b5652966dd64587a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_east_05.png",
+      "sha256": "b6ed06dba27822dd299e03756403bbc8db55763dc77a83f5b4b259b05c2cfaa5",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_north_00.png",
+      "sha256": "39a98bc0d8066e949ecf2bf5dde7f288b907ab74f7c13b52d2a9b26e6f53e5bb",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_north_01.png",
+      "sha256": "cc44bf80f7bee689a321d154aa4c4044ed7da625a10a620b0a911d6b89260d13",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_north_02.png",
+      "sha256": "dd88b9a25fa72bcb2fe529bd784d7f2c77e1474a7ee8bdc56aa64455a780c80f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_north_03.png",
+      "sha256": "dd88b9a25fa72bcb2fe529bd784d7f2c77e1474a7ee8bdc56aa64455a780c80f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_north_04.png",
+      "sha256": "cc44bf80f7bee689a321d154aa4c4044ed7da625a10a620b0a911d6b89260d13",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_north_05.png",
+      "sha256": "39a98bc0d8066e949ecf2bf5dde7f288b907ab74f7c13b52d2a9b26e6f53e5bb",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_south_00.png",
+      "sha256": "b6ed06dba27822dd299e03756403bbc8db55763dc77a83f5b4b259b05c2cfaa5",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_south_01.png",
+      "sha256": "a5bcf038f71ea0ba6af2331e9d5a6e2ca7a0ea6db27bb991b5652966dd64587a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_south_02.png",
+      "sha256": "e8331fb546226477d340b8e45e93c5eb1879d42c8476ba75c1396a717f394dce",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_south_03.png",
+      "sha256": "e8331fb546226477d340b8e45e93c5eb1879d42c8476ba75c1396a717f394dce",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_south_04.png",
+      "sha256": "a5bcf038f71ea0ba6af2331e9d5a6e2ca7a0ea6db27bb991b5652966dd64587a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_south_05.png",
+      "sha256": "b6ed06dba27822dd299e03756403bbc8db55763dc77a83f5b4b259b05c2cfaa5",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_west_00.png",
+      "sha256": "f6f9aa3e594aaa7981b84a72bf7c32cd7b41c5f026647ce112419a9ea5372086",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_west_01.png",
+      "sha256": "ab71ac9baff20bf39fdc6964233473fdaef1945c5f81768f7b9e73de643db9d7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_west_02.png",
+      "sha256": "879cc32935f95f5ad5b8fde83de6104673518036bc4fa411fce602ab6fb79139",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_west_03.png",
+      "sha256": "879cc32935f95f5ad5b8fde83de6104673518036bc4fa411fce602ab6fb79139",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_west_04.png",
+      "sha256": "ab71ac9baff20bf39fdc6964233473fdaef1945c5f81768f7b9e73de643db9d7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_k_west_05.png",
+      "sha256": "f6f9aa3e594aaa7981b84a72bf7c32cd7b41c5f026647ce112419a9ea5372086",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_east_00.png",
+      "sha256": "c45ab4b1e0ef6fd46a3b237859abfecf831bbbfa0485f457b28b591f5cbe984f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_east_01.png",
+      "sha256": "fa5e11bd294782f76889a8702a3f823184f7a6ee8def5370cf8f2cd4f18b7fb6",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_east_02.png",
+      "sha256": "5aba7c8708ed2ec07b5fca347d66ba16d509d1fdd1ca07560d9c7fb13c123eb7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_east_03.png",
+      "sha256": "d00869c43e6bd2a79056dffb31a5784cb720ba2d85caf98cf19e887cf963516a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_east_04.png",
+      "sha256": "334798208cf21540fe883a36cfa193302e44e8965596705f2de397b6aeba7072",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_east_05.png",
+      "sha256": "da319a3f828fe22be77f73ecc98fa2b7ea9f945d592e4db6894bca649bbd97ca",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_east_06.png",
+      "sha256": "1d7797c63501959a7de11838b5501336bfdd5593060c3702f9275faebde4e3f0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_east_07.png",
+      "sha256": "309134fcf4e7abfaeb125eb2b40e805c70231f72bd8bff49859935f19f994f3b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_north_00.png",
+      "sha256": "3ced865d4d31b20f6c8727853c5ce391e21ab16afd9005cf923e8a30abbf0615",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_north_01.png",
+      "sha256": "f57c9b19c0da8a5542d52cc82060009131e7bdd27bcb193c9996d81670da65a1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_north_02.png",
+      "sha256": "88c3616d34288f5ef25d4d59f4d569ac61c3d4c3ecce024710b71cebf55ee08d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_north_03.png",
+      "sha256": "96179351d14daf6b1cf0020ed1662b354625044aa71dc74698e5cd17a44950c6",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_north_04.png",
+      "sha256": "0eca7e8aec7af179472edf79430ccf25499927ab6990d637e843340e0ffd927d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_north_05.png",
+      "sha256": "6a4157d9beae9d81dd5d0dc9542cc4bf5cacddb08ba23822626cd730a6665ea1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_north_06.png",
+      "sha256": "dc964364302ae970fa34af5270025b34b379822cfe88ed6fb4197ecab440a4c0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_north_07.png",
+      "sha256": "3b5c5e81b8decc9facc6d379ace69079105260d1311c5f2e47d1a802545da7bc",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_south_00.png",
+      "sha256": "c45ab4b1e0ef6fd46a3b237859abfecf831bbbfa0485f457b28b591f5cbe984f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_south_01.png",
+      "sha256": "fa5e11bd294782f76889a8702a3f823184f7a6ee8def5370cf8f2cd4f18b7fb6",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_south_02.png",
+      "sha256": "5aba7c8708ed2ec07b5fca347d66ba16d509d1fdd1ca07560d9c7fb13c123eb7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_south_03.png",
+      "sha256": "d00869c43e6bd2a79056dffb31a5784cb720ba2d85caf98cf19e887cf963516a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_south_04.png",
+      "sha256": "334798208cf21540fe883a36cfa193302e44e8965596705f2de397b6aeba7072",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_south_05.png",
+      "sha256": "da319a3f828fe22be77f73ecc98fa2b7ea9f945d592e4db6894bca649bbd97ca",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_south_06.png",
+      "sha256": "1d7797c63501959a7de11838b5501336bfdd5593060c3702f9275faebde4e3f0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_south_07.png",
+      "sha256": "309134fcf4e7abfaeb125eb2b40e805c70231f72bd8bff49859935f19f994f3b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_west_00.png",
+      "sha256": "3cc29f2d8a51e0c662e3dbbad2a3b0f22de37721d07a2600f47ffe98756ab040",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_west_01.png",
+      "sha256": "c506810406a95b95601f3a168f709e6f1171b9dd66ebd8ed77b93b75db78fd17",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_west_02.png",
+      "sha256": "8276dde69ae0ecc09b72db1cd66c3ebcc06961642b8b43bae58d32f34f22e5d2",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_west_03.png",
+      "sha256": "3177e64b4ca6f6353da3207020f02660e57dcd47f6b52c7486ca96b6e3bbefe2",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_west_04.png",
+      "sha256": "5d61b18cede170d7d17cff5abe2628b0b5de3b46d4d1cee6b0742c299f38aac5",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_west_05.png",
+      "sha256": "9318f5c83122ab72124f139626466e2e5c0ee30555894fd2ba82aa0912b60fac",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_west_06.png",
+      "sha256": "02a3f11e55c94a66b789c93fedbeb9665e16c7a7ba43505030379e02cda5c5a2",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/cast_l_west_07.png",
+      "sha256": "c95575ba3ef6fbeec79f520aef2abb6db12953ca8e368c0f1a7ae9d84ed295f1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_east_00.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_east_01.png",
+      "sha256": "c33c6fa1dd63b98f5fe6086a969cf4c71dbfa1a4c3e1106c324dfccea6c789fc",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_east_02.png",
+      "sha256": "af36f7a85eccd9fdea4a5723af8ee3b2dcca7e25a6fd4fa62b4dcf09df060360",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_east_03.png",
+      "sha256": "4d4dabacea5dfcd9c3160978898e0cda85a7e1e695764a061339f15ede102f5e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_east_04.png",
+      "sha256": "57f3fe6f7b78ce5edabeab216bacd6b2b14ae7f745c57433494c20f7b3d39197",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_east_05.png",
+      "sha256": "e23318a96c1cb0e679d3e110b909b0d58c1124be97edb64d651491ce3b77f9cf",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_east_06.png",
+      "sha256": "9cd08ca055c15e30c1f45a4112e2373fec405fed7f5dceb53b8a62af1b57e771",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_east_07.png",
+      "sha256": "be14f3032f5303f477919f1600261c4956e5beb5538f8c74c9cd19e2b113a80e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_north_00.png",
+      "sha256": "907748a3d8ee68f4785e4e0768675a4b86649f2d9214d4b1517b12b9dc183c2c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_north_01.png",
+      "sha256": "32d71cd98b28a70060b1e4bd058d480a66a0dd8bc155cddc5f5c8eba4df971bc",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_north_02.png",
+      "sha256": "f359066646727388b7a8a2bf0dcfac2efbfe030684ad16a7fd6c50c0d2bedcfb",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_north_03.png",
+      "sha256": "cd1c62d66bf014a468a77be8d4a13579456ddfcb24d45958a9f4214b81c9229d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_north_04.png",
+      "sha256": "7817801eaa3b4b7d1d39b30c3e88234d6d38e0f79ae992f04e47ea8ab620e1b4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_north_05.png",
+      "sha256": "1c3c1ceabe2137aa121d14d3e58b11c1809d67d7b3b4f03ffb349e75766b6dc7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_north_06.png",
+      "sha256": "2044a72d4ecaad2ae4e1cfb5d31448b40037f1744ab5318b79d8d57deb858d3a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_north_07.png",
+      "sha256": "980ec01e0e1f85ffd2ea014ae33fd64ae5923900df75f9b07a764b875982773d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_south_00.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_south_01.png",
+      "sha256": "c33c6fa1dd63b98f5fe6086a969cf4c71dbfa1a4c3e1106c324dfccea6c789fc",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_south_02.png",
+      "sha256": "af36f7a85eccd9fdea4a5723af8ee3b2dcca7e25a6fd4fa62b4dcf09df060360",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_south_03.png",
+      "sha256": "4d4dabacea5dfcd9c3160978898e0cda85a7e1e695764a061339f15ede102f5e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_south_04.png",
+      "sha256": "57f3fe6f7b78ce5edabeab216bacd6b2b14ae7f745c57433494c20f7b3d39197",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_south_05.png",
+      "sha256": "e23318a96c1cb0e679d3e110b909b0d58c1124be97edb64d651491ce3b77f9cf",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_south_06.png",
+      "sha256": "9cd08ca055c15e30c1f45a4112e2373fec405fed7f5dceb53b8a62af1b57e771",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_south_07.png",
+      "sha256": "be14f3032f5303f477919f1600261c4956e5beb5538f8c74c9cd19e2b113a80e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_west_00.png",
+      "sha256": "d1a5bdf5057823e26dc599c546ca614d84f38dbed764c8ebb244f569e26faaaf",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_west_01.png",
+      "sha256": "cf41c7555d551cb29ba1caed095d598e332e0b93b30064158e2c5acfc15eb2c3",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_west_02.png",
+      "sha256": "420b40faa89af2559a6ff845b12a31fb7364f34a2fcb918c86f1af824652a146",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_west_03.png",
+      "sha256": "7641fe89f33c261c8c496b3c17fb7e9d665c38674a9f23c3f505c0fcc562668e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_west_04.png",
+      "sha256": "e92322d8f0cd12a307605715e460878da891473050bd6ca65dcf19064c50866d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_west_05.png",
+      "sha256": "b5ee4c62ecd525d90ed8aad264fefab85446131ca8bd11f961e1c8a58f58f093",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_west_06.png",
+      "sha256": "39d0d64fa39e61f87ccaebae7bb83cf98218026fc1d317abd188ef8c31772263",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/death_west_07.png",
+      "sha256": "7629ce5b884be53d4d8251ad630de36f10eacf1a79b4b56a706472ceadfbd85f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/frames.tres",
+      "sha256": "43f123336375be7906b446b71125e823591854ad67dd3b64d6912a8195af6209",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_east_00.png",
+      "sha256": "ad2c441cffa724edb1233492672e043f7d860c181ad77f9be4c3b063ef6ffa6c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_east_01.png",
+      "sha256": "d0f286f963ec74e6f0d6f407fba3d2713a3aadef0f69adc63fe97cc965c75675",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_east_02.png",
+      "sha256": "1a8ce9f3dcf9a64ff6ad03cb62a79b11250376dc4dd0f6b0bb4250de09c49749",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_east_03.png",
+      "sha256": "c2aa6bce4839bc220447c08c0a6a6700a9491e563a3a3ad798feb0ff0370601e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_north_00.png",
+      "sha256": "d9287387b636c4e25934e8ba42488f3d53e66c8232af7413b329738e792cf9ce",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_north_01.png",
+      "sha256": "6b89517eb904e232741adc876ce8a906c65ca4afa3ccd7807397a093a7a4c894",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_north_02.png",
+      "sha256": "5e37b9adfcc40a11bcfb9925e1469c9f99fd0d5f1fef55b67318a1de3b330904",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_north_03.png",
+      "sha256": "db4b957c8e04480d882443f8d6fc363429e8ecfcfdd2ebe28be1de0c124beb71",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_south_00.png",
+      "sha256": "ad2c441cffa724edb1233492672e043f7d860c181ad77f9be4c3b063ef6ffa6c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_south_01.png",
+      "sha256": "d0f286f963ec74e6f0d6f407fba3d2713a3aadef0f69adc63fe97cc965c75675",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_south_02.png",
+      "sha256": "1a8ce9f3dcf9a64ff6ad03cb62a79b11250376dc4dd0f6b0bb4250de09c49749",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_south_03.png",
+      "sha256": "c2aa6bce4839bc220447c08c0a6a6700a9491e563a3a3ad798feb0ff0370601e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_west_00.png",
+      "sha256": "bf40bccc7ef3c4aae05cc5cb5fc2344f66560f7288383b2da3a4b6be8666033e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_west_01.png",
+      "sha256": "24fd96c40108ad62dc2fb903a063552cce52cb9dad84cb1d1cebc9e8a3efd95e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_west_02.png",
+      "sha256": "aad4c93d52f6e637ef475ca3f0dcbebd3d6b82d15298a5fa8f27b45199740c64",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/hit_west_03.png",
+      "sha256": "61c6c90414d6b9ebeabd4b7b1d7a873409c189e0c3264ba576d7dd64b898eca7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_east_00.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_east_01.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_east_02.png",
+      "sha256": "aa8fdc0cf68626c24ec1fe6823a27689431c3d28dec2066177e79de23c9b47ad",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_east_03.png",
+      "sha256": "aa8fdc0cf68626c24ec1fe6823a27689431c3d28dec2066177e79de23c9b47ad",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_east_04.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_east_05.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_north_00.png",
+      "sha256": "907748a3d8ee68f4785e4e0768675a4b86649f2d9214d4b1517b12b9dc183c2c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_north_01.png",
+      "sha256": "907748a3d8ee68f4785e4e0768675a4b86649f2d9214d4b1517b12b9dc183c2c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_north_02.png",
+      "sha256": "982d310db1e37c687309fb19041d83e8addc8e1744409596bb1a4c611be23a50",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_north_03.png",
+      "sha256": "982d310db1e37c687309fb19041d83e8addc8e1744409596bb1a4c611be23a50",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_north_04.png",
+      "sha256": "907748a3d8ee68f4785e4e0768675a4b86649f2d9214d4b1517b12b9dc183c2c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_north_05.png",
+      "sha256": "907748a3d8ee68f4785e4e0768675a4b86649f2d9214d4b1517b12b9dc183c2c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_south_00.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_south_01.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_south_02.png",
+      "sha256": "aa8fdc0cf68626c24ec1fe6823a27689431c3d28dec2066177e79de23c9b47ad",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_south_03.png",
+      "sha256": "aa8fdc0cf68626c24ec1fe6823a27689431c3d28dec2066177e79de23c9b47ad",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_south_04.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_south_05.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_west_00.png",
+      "sha256": "d1a5bdf5057823e26dc599c546ca614d84f38dbed764c8ebb244f569e26faaaf",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_west_01.png",
+      "sha256": "d1a5bdf5057823e26dc599c546ca614d84f38dbed764c8ebb244f569e26faaaf",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_west_02.png",
+      "sha256": "37a6e113fade72f14b6db3cc7771bac45875a5bdfeee7e9ba82f378f3bea8f4d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_west_03.png",
+      "sha256": "37a6e113fade72f14b6db3cc7771bac45875a5bdfeee7e9ba82f378f3bea8f4d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_west_04.png",
+      "sha256": "d1a5bdf5057823e26dc599c546ca614d84f38dbed764c8ebb244f569e26faaaf",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/idle_west_05.png",
+      "sha256": "d1a5bdf5057823e26dc599c546ca614d84f38dbed764c8ebb244f569e26faaaf",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/manifest.json",
+      "sha256": "b0513367dd86109643c4586e31ab40d07d489b9acc6eb254064b172533000455",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_east_00.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_east_01.png",
+      "sha256": "cd87db521bd27432bcc603db9ee01515f472b629d0ed76f683825e6a93a635c1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_east_02.png",
+      "sha256": "fe15f2ac27fc7b51b11ce83f444f7230cfdb977747c0f7d51c4359cfd4015886",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_east_03.png",
+      "sha256": "c2314c41cd3840d3900117a5a132172f9f4ece0cab3fe7d028704d457ab28c15",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_east_04.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_east_05.png",
+      "sha256": "1d8076f6b3f2f7f710ecbe288daa38ef96cb10c7acf1ec3adbbf79bd271cda21",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_east_06.png",
+      "sha256": "03ade23f9b97f6315100b636e6c58e72f3295161cbf2b6047645c8cf84cd856f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_east_07.png",
+      "sha256": "73e2a9712db0a7bc3b5d9cc5ca8851f64b0b2c6d489c57c6aa28952db722b507",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_north_00.png",
+      "sha256": "907748a3d8ee68f4785e4e0768675a4b86649f2d9214d4b1517b12b9dc183c2c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_north_01.png",
+      "sha256": "126129b2f766e4f52c85a803d27a8db7b76ab97875155041d608e2c73ca53954",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_north_02.png",
+      "sha256": "2e08e2d58e8b743aa087df57cee0b2f0688ced0b424f820c34e7a9654b3c8d06",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_north_03.png",
+      "sha256": "f2e803c663cfee6d8fe3a2dcad73e04fedcc55975d99c87aceea6582f465dd08",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_north_04.png",
+      "sha256": "907748a3d8ee68f4785e4e0768675a4b86649f2d9214d4b1517b12b9dc183c2c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_north_05.png",
+      "sha256": "f687886c5419615a4768fa8b86a449d908901d709b68cf119a46d30910997124",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_north_06.png",
+      "sha256": "209af0fb4e9c2c6f6063a115713245808c0334cf9e8d9dbac3ea0a653e771b82",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_north_07.png",
+      "sha256": "9716df15a0da82366219fc60c10ca99c1e2c947f33d46c50e413201326e7c62b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_south_00.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_south_01.png",
+      "sha256": "cd87db521bd27432bcc603db9ee01515f472b629d0ed76f683825e6a93a635c1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_south_02.png",
+      "sha256": "fe15f2ac27fc7b51b11ce83f444f7230cfdb977747c0f7d51c4359cfd4015886",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_south_03.png",
+      "sha256": "c2314c41cd3840d3900117a5a132172f9f4ece0cab3fe7d028704d457ab28c15",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_south_04.png",
+      "sha256": "6a6b57241ab345011098d9778694e7eb80a38ff71a2f75a9d3c6bd368af2d35a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_south_05.png",
+      "sha256": "1d8076f6b3f2f7f710ecbe288daa38ef96cb10c7acf1ec3adbbf79bd271cda21",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_south_06.png",
+      "sha256": "03ade23f9b97f6315100b636e6c58e72f3295161cbf2b6047645c8cf84cd856f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_south_07.png",
+      "sha256": "73e2a9712db0a7bc3b5d9cc5ca8851f64b0b2c6d489c57c6aa28952db722b507",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_west_00.png",
+      "sha256": "d1a5bdf5057823e26dc599c546ca614d84f38dbed764c8ebb244f569e26faaaf",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_west_01.png",
+      "sha256": "3301b980e125570aa38247e5236e0c7b03d1a83f59ccf8f1be51a5b344cf0e58",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_west_02.png",
+      "sha256": "53255d4366a486c190a821fe19ecf975bdf19b4828b84889d9480048c00d491c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_west_03.png",
+      "sha256": "c0b48267be248e1d9cfb8d0bdf4e422f4e2d36d2a1447364dbccb1e9be3ebd51",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_west_04.png",
+      "sha256": "d1a5bdf5057823e26dc599c546ca614d84f38dbed764c8ebb244f569e26faaaf",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_west_05.png",
+      "sha256": "f567d6aaf66d822fb6d61d94c19bfecd583d711d9087e7e94703a16f2ce2a362",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_west_06.png",
+      "sha256": "6773840cfb940faeef5b8ddc24a1b74eafaa62fadc576cf6ae7383e65b9fcbc7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/boros/run_west_07.png",
+      "sha256": "d78a3936e01c615a13d312f3ccc2eeb393152f28701c3a3fd4a6b6f5fd9432bd",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_east_00.png",
+      "sha256": "eb855fbb1b2be5f161daaa9a7b07c2269073dd3d8c183f457a4feb297064a1cf",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_east_01.png",
+      "sha256": "5fb4482a1e12c7a52de25b70b5bdb93929e1aca95382b1bbf4d8cf9ba94c0b1f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_east_02.png",
+      "sha256": "31afebd4309df5fb11f2cf7fd6c15f72143858336ae995b993b56191633db705",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_east_03.png",
+      "sha256": "d4da1be7c5d6fa83da02b55b9621cea715acb6f3ca5ecd3b08f55f1545668e56",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_east_04.png",
+      "sha256": "485b37efb58a69c113028e844455d71149b8e16edf1bf89307fd2333afb9b73a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_east_05.png",
+      "sha256": "eb855fbb1b2be5f161daaa9a7b07c2269073dd3d8c183f457a4feb297064a1cf",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_north_00.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_north_01.png",
+      "sha256": "74cb6957d8e653436b9d2383f903adc8e3eaec0e773eec05a7e0ac589a0aa731",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_north_02.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_north_03.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_north_04.png",
+      "sha256": "74cb6957d8e653436b9d2383f903adc8e3eaec0e773eec05a7e0ac589a0aa731",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_north_05.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_south_00.png",
+      "sha256": "b5193c26363ffbe9a37da4f168cdd03569de7226e821a2a692fd8a49c9030282",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_south_01.png",
+      "sha256": "b92dc649e1630a303c4b40d773b2572be7e3029e2bb78f5e98e57f2b7cd3a2b8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_south_02.png",
+      "sha256": "366d765089c61533253fb9f811952e0edc57ea68784b9ed24f20c218a1fa8366",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_south_03.png",
+      "sha256": "20555625594de59b0b375c38181ec72cd3d023f8bae4639d96806faadaad559d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_south_04.png",
+      "sha256": "58bb497bb13643670f965d70916d9cfdaa72ddaf5f7014847e02ef342dbcc18c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_south_05.png",
+      "sha256": "b5193c26363ffbe9a37da4f168cdd03569de7226e821a2a692fd8a49c9030282",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_west_00.png",
+      "sha256": "53361ec03311952e10925e15d9506e38c4603b3aac0012284f92b240a5053ff9",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_west_01.png",
+      "sha256": "6b529ac34337064a607c806c766510eaf09e6eee6bd7bef5c1fb66ae4e06066f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_west_02.png",
+      "sha256": "55dc7e49d2e6521415cbfc138316586f5c55b9cb98a0b7a48218581356f787c3",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_west_03.png",
+      "sha256": "0cfaa98bcb0cc9902b2bb8fb089038a82a88f7d2e254354116d55258f774d2f2",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_west_04.png",
+      "sha256": "7c4bba3d3f0424b761bbbb87244198a984ae8bb1635f1b9cddce34c401f77642",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/basic_west_05.png",
+      "sha256": "53361ec03311952e10925e15d9506e38c4603b3aac0012284f92b240a5053ff9",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_east_00.png",
+      "sha256": "eb855fbb1b2be5f161daaa9a7b07c2269073dd3d8c183f457a4feb297064a1cf",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_east_01.png",
+      "sha256": "5fb4482a1e12c7a52de25b70b5bdb93929e1aca95382b1bbf4d8cf9ba94c0b1f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_east_02.png",
+      "sha256": "31afebd4309df5fb11f2cf7fd6c15f72143858336ae995b993b56191633db705",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_east_03.png",
+      "sha256": "d4da1be7c5d6fa83da02b55b9621cea715acb6f3ca5ecd3b08f55f1545668e56",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_east_04.png",
+      "sha256": "b7a5191b9907054bc82d9ba5d1b7e23c6a16a198c30604bc6e0e479084fb3f22",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_east_05.png",
+      "sha256": "d4da1be7c5d6fa83da02b55b9621cea715acb6f3ca5ecd3b08f55f1545668e56",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_east_06.png",
+      "sha256": "5a2e220fe16d05ac68637650f90061528e07e1f56533fda34ce852f64290993f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_east_07.png",
+      "sha256": "eb855fbb1b2be5f161daaa9a7b07c2269073dd3d8c183f457a4feb297064a1cf",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_north_00.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_north_01.png",
+      "sha256": "74cb6957d8e653436b9d2383f903adc8e3eaec0e773eec05a7e0ac589a0aa731",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_north_02.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_north_03.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_north_04.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_north_05.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_north_06.png",
+      "sha256": "74cb6957d8e653436b9d2383f903adc8e3eaec0e773eec05a7e0ac589a0aa731",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_north_07.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_south_00.png",
+      "sha256": "b5193c26363ffbe9a37da4f168cdd03569de7226e821a2a692fd8a49c9030282",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_south_01.png",
+      "sha256": "b92dc649e1630a303c4b40d773b2572be7e3029e2bb78f5e98e57f2b7cd3a2b8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_south_02.png",
+      "sha256": "366d765089c61533253fb9f811952e0edc57ea68784b9ed24f20c218a1fa8366",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_south_03.png",
+      "sha256": "20555625594de59b0b375c38181ec72cd3d023f8bae4639d96806faadaad559d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_south_04.png",
+      "sha256": "ced5f565e3ae6676cbc5951ad70eb07eb99caa72caa7851d4a1675375f96f8a4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_south_05.png",
+      "sha256": "20555625594de59b0b375c38181ec72cd3d023f8bae4639d96806faadaad559d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_south_06.png",
+      "sha256": "eff7262dbc2d81a3947a265282df7238aadeb59fc4c6d1c05a989d26a65490af",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_south_07.png",
+      "sha256": "b5193c26363ffbe9a37da4f168cdd03569de7226e821a2a692fd8a49c9030282",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_west_00.png",
+      "sha256": "53361ec03311952e10925e15d9506e38c4603b3aac0012284f92b240a5053ff9",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_west_01.png",
+      "sha256": "6b529ac34337064a607c806c766510eaf09e6eee6bd7bef5c1fb66ae4e06066f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_west_02.png",
+      "sha256": "55dc7e49d2e6521415cbfc138316586f5c55b9cb98a0b7a48218581356f787c3",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_west_03.png",
+      "sha256": "0cfaa98bcb0cc9902b2bb8fb089038a82a88f7d2e254354116d55258f774d2f2",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_west_04.png",
+      "sha256": "1ab04a26538d3dd0ba61f94d28c90cf9e9342e2bfa2459a921e0f9f4a1913ea0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_west_05.png",
+      "sha256": "0cfaa98bcb0cc9902b2bb8fb089038a82a88f7d2e254354116d55258f774d2f2",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_west_06.png",
+      "sha256": "7a41263f5c3d20982a92bc549e327a5264c3a22f827798ba1d54b312f983f5f1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_i_west_07.png",
+      "sha256": "53361ec03311952e10925e15d9506e38c4603b3aac0012284f92b240a5053ff9",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_east_00.png",
+      "sha256": "eb855fbb1b2be5f161daaa9a7b07c2269073dd3d8c183f457a4feb297064a1cf",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_east_01.png",
+      "sha256": "5fb4482a1e12c7a52de25b70b5bdb93929e1aca95382b1bbf4d8cf9ba94c0b1f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_east_02.png",
+      "sha256": "31afebd4309df5fb11f2cf7fd6c15f72143858336ae995b993b56191633db705",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_east_03.png",
+      "sha256": "d4da1be7c5d6fa83da02b55b9621cea715acb6f3ca5ecd3b08f55f1545668e56",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_east_04.png",
+      "sha256": "485b37efb58a69c113028e844455d71149b8e16edf1bf89307fd2333afb9b73a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_east_05.png",
+      "sha256": "eb855fbb1b2be5f161daaa9a7b07c2269073dd3d8c183f457a4feb297064a1cf",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_north_00.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_north_01.png",
+      "sha256": "74cb6957d8e653436b9d2383f903adc8e3eaec0e773eec05a7e0ac589a0aa731",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_north_02.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_north_03.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_north_04.png",
+      "sha256": "74cb6957d8e653436b9d2383f903adc8e3eaec0e773eec05a7e0ac589a0aa731",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_north_05.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_south_00.png",
+      "sha256": "b5193c26363ffbe9a37da4f168cdd03569de7226e821a2a692fd8a49c9030282",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_south_01.png",
+      "sha256": "b92dc649e1630a303c4b40d773b2572be7e3029e2bb78f5e98e57f2b7cd3a2b8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_south_02.png",
+      "sha256": "366d765089c61533253fb9f811952e0edc57ea68784b9ed24f20c218a1fa8366",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_south_03.png",
+      "sha256": "20555625594de59b0b375c38181ec72cd3d023f8bae4639d96806faadaad559d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_south_04.png",
+      "sha256": "58bb497bb13643670f965d70916d9cfdaa72ddaf5f7014847e02ef342dbcc18c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_south_05.png",
+      "sha256": "b5193c26363ffbe9a37da4f168cdd03569de7226e821a2a692fd8a49c9030282",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_west_00.png",
+      "sha256": "53361ec03311952e10925e15d9506e38c4603b3aac0012284f92b240a5053ff9",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_west_01.png",
+      "sha256": "6b529ac34337064a607c806c766510eaf09e6eee6bd7bef5c1fb66ae4e06066f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_west_02.png",
+      "sha256": "55dc7e49d2e6521415cbfc138316586f5c55b9cb98a0b7a48218581356f787c3",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_west_03.png",
+      "sha256": "0cfaa98bcb0cc9902b2bb8fb089038a82a88f7d2e254354116d55258f774d2f2",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_west_04.png",
+      "sha256": "7c4bba3d3f0424b761bbbb87244198a984ae8bb1635f1b9cddce34c401f77642",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_j_west_05.png",
+      "sha256": "53361ec03311952e10925e15d9506e38c4603b3aac0012284f92b240a5053ff9",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_east_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_east_01.png",
+      "sha256": "30966f3472fc1f10d92ba9636a8b1491b34bea1c5e73a9425612e7981535492b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_east_02.png",
+      "sha256": "15fc0419a007007ce077d75f20a4c4549e6473f5f37cd626f7b85d05ab67fe2e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_east_03.png",
+      "sha256": "93faf5e1a343b927eabced989546dd219cedd5d1e99ff0a9d4247da8f5da9fed",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_east_04.png",
+      "sha256": "42a47aa7e995c0fdb0af050537896bc27e00ee2ae4589c303b5ed1e3974809d2",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_east_05.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_north_00.png",
+      "sha256": "206b6cf99b68abe6977f9181a58e466806cc04222a0437b6beda30545aebb50b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_north_01.png",
+      "sha256": "5499bb70a9f29cc196a2f1b8d31069b1c8d076d20a318e5c2ccf973c12a3105b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_north_02.png",
+      "sha256": "691d29983a00e84bbc967cb2570b946e0f3840d7fef9fa3f7018883439b64955",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_north_03.png",
+      "sha256": "0f1d1e5146e05af2f0dc64f3459def261d0a53fb8ebdb06d25b3510c56834ef8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_north_04.png",
+      "sha256": "0ee31e3c8eadeed6ff772ab821b9f75613f4fa38e391ed30549b7dda513e6c14",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_north_05.png",
+      "sha256": "206b6cf99b68abe6977f9181a58e466806cc04222a0437b6beda30545aebb50b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_south_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_south_01.png",
+      "sha256": "30966f3472fc1f10d92ba9636a8b1491b34bea1c5e73a9425612e7981535492b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_south_02.png",
+      "sha256": "15fc0419a007007ce077d75f20a4c4549e6473f5f37cd626f7b85d05ab67fe2e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_south_03.png",
+      "sha256": "93faf5e1a343b927eabced989546dd219cedd5d1e99ff0a9d4247da8f5da9fed",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_south_04.png",
+      "sha256": "42a47aa7e995c0fdb0af050537896bc27e00ee2ae4589c303b5ed1e3974809d2",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_south_05.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_west_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_west_01.png",
+      "sha256": "71db65bee1c6f4361f31ef33e070d6c3ffe6bd13b4a800ab8ef7b9675b4ecb7e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_west_02.png",
+      "sha256": "fc1da33f47cd85a6aec3b31411f92d79a001d3f2bafc0cd1fb5d6aaa4fd92cd6",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_west_03.png",
+      "sha256": "705e3d57f36e528bb7d3e9a3eed59b1c623bd0983b4fd045da27120c544d3d51",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_west_04.png",
+      "sha256": "70730f4ff7da4bfa9cf08f23422826e5a964f6101e5feeebea19934a8982d4cb",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_k_west_05.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_east_00.png",
+      "sha256": "eb855fbb1b2be5f161daaa9a7b07c2269073dd3d8c183f457a4feb297064a1cf",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_east_01.png",
+      "sha256": "5fb4482a1e12c7a52de25b70b5bdb93929e1aca95382b1bbf4d8cf9ba94c0b1f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_east_02.png",
+      "sha256": "31afebd4309df5fb11f2cf7fd6c15f72143858336ae995b993b56191633db705",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_east_03.png",
+      "sha256": "d4da1be7c5d6fa83da02b55b9621cea715acb6f3ca5ecd3b08f55f1545668e56",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_east_04.png",
+      "sha256": "b7a5191b9907054bc82d9ba5d1b7e23c6a16a198c30604bc6e0e479084fb3f22",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_east_05.png",
+      "sha256": "d4da1be7c5d6fa83da02b55b9621cea715acb6f3ca5ecd3b08f55f1545668e56",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_east_06.png",
+      "sha256": "5a2e220fe16d05ac68637650f90061528e07e1f56533fda34ce852f64290993f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_east_07.png",
+      "sha256": "eb855fbb1b2be5f161daaa9a7b07c2269073dd3d8c183f457a4feb297064a1cf",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_north_00.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_north_01.png",
+      "sha256": "74cb6957d8e653436b9d2383f903adc8e3eaec0e773eec05a7e0ac589a0aa731",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_north_02.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_north_03.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_north_04.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_north_05.png",
+      "sha256": "07354b702b1f8b43029c98433447224283c8c222c68217fffc0358db0a3ac8e8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_north_06.png",
+      "sha256": "74cb6957d8e653436b9d2383f903adc8e3eaec0e773eec05a7e0ac589a0aa731",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_north_07.png",
+      "sha256": "e768165dffbf21b3f7226b3773df09da4439b863ff56fabce2d7bf94f0f02e08",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_south_00.png",
+      "sha256": "b5193c26363ffbe9a37da4f168cdd03569de7226e821a2a692fd8a49c9030282",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_south_01.png",
+      "sha256": "b92dc649e1630a303c4b40d773b2572be7e3029e2bb78f5e98e57f2b7cd3a2b8",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_south_02.png",
+      "sha256": "366d765089c61533253fb9f811952e0edc57ea68784b9ed24f20c218a1fa8366",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_south_03.png",
+      "sha256": "20555625594de59b0b375c38181ec72cd3d023f8bae4639d96806faadaad559d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_south_04.png",
+      "sha256": "ced5f565e3ae6676cbc5951ad70eb07eb99caa72caa7851d4a1675375f96f8a4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_south_05.png",
+      "sha256": "20555625594de59b0b375c38181ec72cd3d023f8bae4639d96806faadaad559d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_south_06.png",
+      "sha256": "eff7262dbc2d81a3947a265282df7238aadeb59fc4c6d1c05a989d26a65490af",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_south_07.png",
+      "sha256": "b5193c26363ffbe9a37da4f168cdd03569de7226e821a2a692fd8a49c9030282",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_west_00.png",
+      "sha256": "53361ec03311952e10925e15d9506e38c4603b3aac0012284f92b240a5053ff9",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_west_01.png",
+      "sha256": "6b529ac34337064a607c806c766510eaf09e6eee6bd7bef5c1fb66ae4e06066f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_west_02.png",
+      "sha256": "55dc7e49d2e6521415cbfc138316586f5c55b9cb98a0b7a48218581356f787c3",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_west_03.png",
+      "sha256": "0cfaa98bcb0cc9902b2bb8fb089038a82a88f7d2e254354116d55258f774d2f2",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_west_04.png",
+      "sha256": "1ab04a26538d3dd0ba61f94d28c90cf9e9342e2bfa2459a921e0f9f4a1913ea0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_west_05.png",
+      "sha256": "0cfaa98bcb0cc9902b2bb8fb089038a82a88f7d2e254354116d55258f774d2f2",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_west_06.png",
+      "sha256": "7a41263f5c3d20982a92bc549e327a5264c3a22f827798ba1d54b312f983f5f1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/cast_l_west_07.png",
+      "sha256": "53361ec03311952e10925e15d9506e38c4603b3aac0012284f92b240a5053ff9",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_east_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_east_01.png",
+      "sha256": "dc652111ee1f924ab57bf49655bec64c3c842a60726258d22d6e4381abecdf4b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_east_02.png",
+      "sha256": "7f36b80a2a865c05c69cc58e8d81c5be52dd6f59decbb6b5c4a74ffd0da643ff",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_east_03.png",
+      "sha256": "7f56c1207aff38b8969cfe104a7094da67c7d96a222359593b4b004ca8fb2bc5",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_east_04.png",
+      "sha256": "3db4274995c963ce4485bccfde91ec5bd07c2a923eda799c04e56b603dcec25b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_east_05.png",
+      "sha256": "2a3364e6401d0ae87a7de26f1c033fc804fe060091b4bb635a2814138a60134a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_east_06.png",
+      "sha256": "0e74e4b6fa238081e01cf85093836bc1660e4c4993d02a91f905aac4e103f6bb",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_east_07.png",
+      "sha256": "abe3457c659e7db1f9351906a5b0ab055e2cec65d8d5da79cbd562a415faf9aa",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_north_00.png",
+      "sha256": "21718804425ad218a28046530b6d276ca9c3ba006824436317c39e3a22ec73f4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_north_01.png",
+      "sha256": "fe03c265995256491e89a95e30575ebe8445f2b0306120c692e27aa7d5020ef0",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_north_02.png",
+      "sha256": "48b2a006270b1dec3f8b3d29fe595e129cd1234452877702ff30488e21af8b45",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_north_03.png",
+      "sha256": "fede93a77d3806c244a7c77d46b893e020a6a0425d593a231c4b1e9aeec77051",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_north_04.png",
+      "sha256": "a2c89aaf34204a1cbb1b6c77f36397b48862ded8c114d4d3bd18627e97da8241",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_north_05.png",
+      "sha256": "01073060efe0942334dba34de3ea3997b574da415187ee79ce8c0bed9647b791",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_north_06.png",
+      "sha256": "13b9c8b2003468754cea5bd03711828d2d490cdbe12835d4cd405a05c14f6905",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_north_07.png",
+      "sha256": "addcc77a6552cdd498d61cb7628b4953a01e794cb49d2f571adf3d46854a942f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_south_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_south_01.png",
+      "sha256": "dc652111ee1f924ab57bf49655bec64c3c842a60726258d22d6e4381abecdf4b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_south_02.png",
+      "sha256": "7f36b80a2a865c05c69cc58e8d81c5be52dd6f59decbb6b5c4a74ffd0da643ff",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_south_03.png",
+      "sha256": "7f56c1207aff38b8969cfe104a7094da67c7d96a222359593b4b004ca8fb2bc5",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_south_04.png",
+      "sha256": "3db4274995c963ce4485bccfde91ec5bd07c2a923eda799c04e56b603dcec25b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_south_05.png",
+      "sha256": "2a3364e6401d0ae87a7de26f1c033fc804fe060091b4bb635a2814138a60134a",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_south_06.png",
+      "sha256": "0e74e4b6fa238081e01cf85093836bc1660e4c4993d02a91f905aac4e103f6bb",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_south_07.png",
+      "sha256": "abe3457c659e7db1f9351906a5b0ab055e2cec65d8d5da79cbd562a415faf9aa",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_west_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_west_01.png",
+      "sha256": "bfa8fca0204e43153ec86b2d1ce2ea0f0e7cbcb95e63281a8632bb5fbb6cbae6",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_west_02.png",
+      "sha256": "ee58ae99b78d4b160b71d8584228877ce8a10a9ab9f56312d5af0213a242d998",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_west_03.png",
+      "sha256": "fbced9a5fcda1fabd0ed4e987652f2a4188febfc05905c428104a37254e4ff4c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_west_04.png",
+      "sha256": "959ee698d17ed9021dd46340cd5a08812d8fdefdbc8f00ae44a9eb40650abc5f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_west_05.png",
+      "sha256": "55f684af5fe182e961b30c0b5b045b10e966bc11aaf5a74fb2ff5979f540fd7d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_west_06.png",
+      "sha256": "f778b293b8f0490244c1acf7fd93e6df7e0b51aaa832a7bceae3c008dd0e0f6b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/death_west_07.png",
+      "sha256": "abe3457c659e7db1f9351906a5b0ab055e2cec65d8d5da79cbd562a415faf9aa",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/frames.tres",
+      "sha256": "3e6a8f1d9613aebfd0516fe90e70044033e412c06900548e5e6d808da49a64c4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_east_00.png",
+      "sha256": "9215a9176911f303b3828838bf0f1d63de5cefdd7d37207145b5f30da0428855",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_east_01.png",
+      "sha256": "e58d91c93f0439f1e9841c8c94c0fd4b6f1d113bc6029a57cbc702c0e735b5b1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_east_02.png",
+      "sha256": "3e479a283a1560a0cef8cb351aa2c1626c9fa91fedbe90ef6b30f91390c406e7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_east_03.png",
+      "sha256": "fd1e8ddc3d24fa9054df48096aac57ebb2c5dac72a6085f00851c269b0149440",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_north_00.png",
+      "sha256": "b08c8a4f005f7350690ed81b3ec355067f1b5ec3d8324a9739995aef5fc588b4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_north_01.png",
+      "sha256": "512b16e7885bd2b6fe16a3c178b62b7b19c3cdd9abf71d1a6933466ebbff2efb",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_north_02.png",
+      "sha256": "7e28f5c104db34d695227c3de1116561a32a57d5deb7a986b7d52cbd9593701d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_north_03.png",
+      "sha256": "b0c6791e97917c788cc724594dc9b0d3c93d358052683048ed46fd127c9264b4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_south_00.png",
+      "sha256": "9215a9176911f303b3828838bf0f1d63de5cefdd7d37207145b5f30da0428855",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_south_01.png",
+      "sha256": "e58d91c93f0439f1e9841c8c94c0fd4b6f1d113bc6029a57cbc702c0e735b5b1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_south_02.png",
+      "sha256": "3e479a283a1560a0cef8cb351aa2c1626c9fa91fedbe90ef6b30f91390c406e7",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_south_03.png",
+      "sha256": "fd1e8ddc3d24fa9054df48096aac57ebb2c5dac72a6085f00851c269b0149440",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_west_00.png",
+      "sha256": "9215a9176911f303b3828838bf0f1d63de5cefdd7d37207145b5f30da0428855",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_west_01.png",
+      "sha256": "8c9b699a086e069b8e9e614c5e5e0b778c2131efffb195d54a5d21657599fb67",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_west_02.png",
+      "sha256": "69243766ea5468978661bac7c3d073dd21fec2219ff7c75f8426b44ff840dcfc",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/hit_west_03.png",
+      "sha256": "fd1e8ddc3d24fa9054df48096aac57ebb2c5dac72a6085f00851c269b0149440",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_east_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_east_01.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_east_02.png",
+      "sha256": "90d50f69f944198b60bc494afd1d9400c7ffba10fc57155abbc90edab801fc5f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_east_03.png",
+      "sha256": "90d50f69f944198b60bc494afd1d9400c7ffba10fc57155abbc90edab801fc5f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_east_04.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_east_05.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_north_00.png",
+      "sha256": "21718804425ad218a28046530b6d276ca9c3ba006824436317c39e3a22ec73f4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_north_01.png",
+      "sha256": "21718804425ad218a28046530b6d276ca9c3ba006824436317c39e3a22ec73f4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_north_02.png",
+      "sha256": "854d83ce21c14873daf6dfc924e683553385baab605f8f6fdaeec06fb3094b5c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_north_03.png",
+      "sha256": "854d83ce21c14873daf6dfc924e683553385baab605f8f6fdaeec06fb3094b5c",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_north_04.png",
+      "sha256": "21718804425ad218a28046530b6d276ca9c3ba006824436317c39e3a22ec73f4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_north_05.png",
+      "sha256": "21718804425ad218a28046530b6d276ca9c3ba006824436317c39e3a22ec73f4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_south_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_south_01.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_south_02.png",
+      "sha256": "90d50f69f944198b60bc494afd1d9400c7ffba10fc57155abbc90edab801fc5f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_south_03.png",
+      "sha256": "90d50f69f944198b60bc494afd1d9400c7ffba10fc57155abbc90edab801fc5f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_south_04.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_south_05.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_west_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_west_01.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_west_02.png",
+      "sha256": "90d50f69f944198b60bc494afd1d9400c7ffba10fc57155abbc90edab801fc5f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_west_03.png",
+      "sha256": "90d50f69f944198b60bc494afd1d9400c7ffba10fc57155abbc90edab801fc5f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_west_04.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/idle_west_05.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/manifest.json",
+      "sha256": "3740dd6c48dd703a73cdd236e4b9d42f54c5bcb5434dcf4855bbfc7e4bd800de",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_east_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_east_01.png",
+      "sha256": "cef85c8c224681efbfb2b7d52c939b8ebe1712979cd78af4de70af90067c8a8f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_east_02.png",
+      "sha256": "859c0ef53ac33963a5a2ce2ac1b0b3eb13c6d21231e3622af9a9b8d07cceb2c3",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_east_03.png",
+      "sha256": "12c876689e87cf52c598bad0a1affd7d9df705a0071b210742404e4c5656d02e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_east_04.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_east_05.png",
+      "sha256": "428ef3af3876507cc15a7b18d72b8559a32e9525f88b4b3f1e1e5e1fc74fdc96",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_east_06.png",
+      "sha256": "1edf8e91f531272df5bd496d1a051e33fdbf020c510b93ac7074b79682e89fbe",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_east_07.png",
+      "sha256": "5a1945ed86acd90df8819026d4d8cc8b596921a27de248a3cf5c776ee9f90af1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_north_00.png",
+      "sha256": "21718804425ad218a28046530b6d276ca9c3ba006824436317c39e3a22ec73f4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_north_01.png",
+      "sha256": "0eeafe775a8a361dd6754b01f80c969630faee50de9a35c60b61692413c1722f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_north_02.png",
+      "sha256": "2c592ea7bd151d9ddb95f8ccc33ef669346ff5412addbc0ad1f715b8689eed80",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_north_03.png",
+      "sha256": "91690346453ba8f968a3be6155a1349ddf426fbb437d440ef9e3ad150c654ce4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_north_04.png",
+      "sha256": "21718804425ad218a28046530b6d276ca9c3ba006824436317c39e3a22ec73f4",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_north_05.png",
+      "sha256": "4e96e74d121d3146820c7b538edf4a81801a35796e90c421f000f8e201e09ca1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_north_06.png",
+      "sha256": "346e97e298acb2d5dd942e8c27509c97a0b2e0d9e9b93efff91810248a9c387d",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_north_07.png",
+      "sha256": "d8e7cd6039ba4f29555ede54a3c8907d0dfb38d880fcecd21518306cb3362fe6",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_south_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_south_01.png",
+      "sha256": "cef85c8c224681efbfb2b7d52c939b8ebe1712979cd78af4de70af90067c8a8f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_south_02.png",
+      "sha256": "859c0ef53ac33963a5a2ce2ac1b0b3eb13c6d21231e3622af9a9b8d07cceb2c3",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_south_03.png",
+      "sha256": "12c876689e87cf52c598bad0a1affd7d9df705a0071b210742404e4c5656d02e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_south_04.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_south_05.png",
+      "sha256": "428ef3af3876507cc15a7b18d72b8559a32e9525f88b4b3f1e1e5e1fc74fdc96",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_south_06.png",
+      "sha256": "1edf8e91f531272df5bd496d1a051e33fdbf020c510b93ac7074b79682e89fbe",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_south_07.png",
+      "sha256": "5a1945ed86acd90df8819026d4d8cc8b596921a27de248a3cf5c776ee9f90af1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_west_00.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_west_01.png",
+      "sha256": "cef85c8c224681efbfb2b7d52c939b8ebe1712979cd78af4de70af90067c8a8f",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_west_02.png",
+      "sha256": "859c0ef53ac33963a5a2ce2ac1b0b3eb13c6d21231e3622af9a9b8d07cceb2c3",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_west_03.png",
+      "sha256": "12c876689e87cf52c598bad0a1affd7d9df705a0071b210742404e4c5656d02e",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_west_04.png",
+      "sha256": "0571758ae3d2e500f99356854de7c0b349956707c9297f8d9c9c6ff77ce0c93b",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_west_05.png",
+      "sha256": "428ef3af3876507cc15a7b18d72b8559a32e9525f88b4b3f1e1e5e1fc74fdc96",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_west_06.png",
+      "sha256": "1edf8e91f531272df5bd496d1a051e33fdbf020c510b93ac7074b79682e89fbe",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    },
+    {
+      "path": "assets/art_v3/characters/vex/run_west_07.png",
+      "sha256": "5a1945ed86acd90df8819026d4d8cc8b596921a27de248a3cf5c776ee9f90af1",
+      "license": "ORIGINAL_CREATED_FOR_PROJECT"
+    }
+  ],
+  "source": "tools/art_v3/generate.py + generate_roster.py",
+  "approval": "Owner visual approval pending"
+}

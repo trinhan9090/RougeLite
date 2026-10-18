@@ -1,0 +1,7630 @@
+[
+  {
+    "slot": "basic",
+    "file": "P.cns",
+    "states": [
+      {
+        "file": "P.cns",
+        "id": 220,
+        "line": 1236,
+        "header": {
+          "type": [
+            "S"
+          ],
+          "movetype": [
+            "A"
+          ],
+          "physics": [
+            "S"
+          ],
+          "juggle": [
+            "4"
+          ],
+          "poweradd": [
+            "65"
+          ],
+          "ctrl": [
+            "0"
+          ],
+          "velset": [
+            "0,0"
+          ],
+          "anim": [
+            "220"
+          ]
+        },
+        "controllers": [
+          {
+            "section": "State 220, Width",
+            "line": 1246,
+            "fields": {
+              "type": [
+                "Width"
+              ],
+              "trigger1": [
+                "anim=220&&(animelemtime(3)>=0&&animelemtime(5)<0)"
+              ],
+              "value": [
+                "25,"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1247
+              ],
+              "trigger1": [
+                1248
+              ],
+              "value": [
+                1249
+              ]
+            }
+          },
+          {
+            "section": "State 0, Helper",
+            "line": 1251,
+            "fields": {
+              "type": [
+                "Helper"
+              ],
+              "trigger1": [
+                "animelem = 4"
+              ],
+              "helpertype": [
+                "normal"
+              ],
+              "name": [
+                "\"BULLET2\""
+              ],
+              "id": [
+                "620220"
+              ],
+              "stateno": [
+                "620220"
+              ],
+              "pos": [
+                "Ceil(28*Const(size.xscale)),Ceil(-108*Const(size.yscale))"
+              ],
+              "postype": [
+                "p1"
+              ],
+              "facing": [
+                "1"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "shadow": [
+                "0"
+              ],
+              "supermovetime": [
+                "999"
+              ],
+              "pausemovetime": [
+                "999"
+              ],
+              "size.xscale": [
+                "1"
+              ],
+              "size.yscale": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1252
+              ],
+              "trigger1": [
+                1253
+              ],
+              "helpertype": [
+                1254
+              ],
+              "name": [
+                1255
+              ],
+              "id": [
+                1256
+              ],
+              "stateno": [
+                1257
+              ],
+              "pos": [
+                1258
+              ],
+              "postype": [
+                1259
+              ],
+              "facing": [
+                1260
+              ],
+              "ownpal": [
+                1261
+              ],
+              "shadow": [
+                1262
+              ],
+              "supermovetime": [
+                1263
+              ],
+              "pausemovetime": [
+                1264
+              ],
+              "size.xscale": [
+                1265
+              ],
+              "size.yscale": [
+                1266
+              ]
+            }
+          },
+          {
+            "section": "State 0, Helper",
+            "line": 1268,
+            "fields": {
+              "type": [
+                "Helper"
+              ],
+              "trigger1": [
+                "animelem = 5"
+              ],
+              "helpertype": [
+                "normal"
+              ],
+              "name": [
+                "\"bullet1\""
+              ],
+              "id": [
+                "619190"
+              ],
+              "stateno": [
+                "619190"
+              ],
+              "pos": [
+                "Ceil(31*Const(size.xscale)),Ceil(-124*Const(size.yscale))"
+              ],
+              "postype": [
+                "p1"
+              ],
+              "facing": [
+                "1"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "shadow": [
+                "0"
+              ],
+              "supermovetime": [
+                "999"
+              ],
+              "pausemovetime": [
+                "999"
+              ],
+              "size.xscale": [
+                "1"
+              ],
+              "size.yscale": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1269
+              ],
+              "trigger1": [
+                1270
+              ],
+              "helpertype": [
+                1271
+              ],
+              "name": [
+                1272
+              ],
+              "id": [
+                1273
+              ],
+              "stateno": [
+                1274
+              ],
+              "pos": [
+                1275
+              ],
+              "postype": [
+                1276
+              ],
+              "facing": [
+                1277
+              ],
+              "ownpal": [
+                1278
+              ],
+              "shadow": [
+                1279
+              ],
+              "supermovetime": [
+                1280
+              ],
+              "pausemovetime": [
+                1281
+              ],
+              "size.xscale": [
+                1282
+              ],
+              "size.yscale": [
+                1283
+              ]
+            }
+          },
+          {
+            "section": "State 0, Explod",
+            "line": 1285,
+            "fields": {
+              "type": [
+                "Explod"
+              ],
+              "trigger1": [
+                "animelem = 4"
+              ],
+              "anim": [
+                "619220"
+              ],
+              "id": [
+                "619220"
+              ],
+              "pos": [
+                "Ceil(47*Const(size.xscale)),Ceil(-65*Const(size.yscale))"
+              ],
+              "postype": [
+                "p1"
+              ],
+              "facing": [
+                "1"
+              ],
+              "bindtime": [
+                "1"
+              ],
+              "removetime": [
+                "-2"
+              ],
+              "scale": [
+                ".4,.4"
+              ],
+              "sprpriority": [
+                "7"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "removeongethit": [
+                "1"
+              ],
+              "ignorehitpause": [
+                "-1"
+              ],
+              "supermovetime": [
+                "999"
+              ],
+              "pausemovetime": [
+                "999"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1286
+              ],
+              "trigger1": [
+                1287
+              ],
+              "anim": [
+                1288
+              ],
+              "id": [
+                1289
+              ],
+              "pos": [
+                1290
+              ],
+              "postype": [
+                1291
+              ],
+              "facing": [
+                1292
+              ],
+              "bindtime": [
+                1293
+              ],
+              "removetime": [
+                1294
+              ],
+              "scale": [
+                1295
+              ],
+              "sprpriority": [
+                1296
+              ],
+              "ownpal": [
+                1297
+              ],
+              "removeongethit": [
+                1298
+              ],
+              "ignorehitpause": [
+                1299
+              ],
+              "supermovetime": [
+                1300
+              ],
+              "pausemovetime": [
+                1301
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 1303,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "time = 0"
+              ],
+              "value": [
+                "S1,ifelse(random < 500, 10,3)"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1304
+              ],
+              "trigger1": [
+                1305
+              ],
+              "value": [
+                1306
+              ],
+              "volume": [
+                1307
+              ],
+              "channel": [
+                1308
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 1310,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "animelem = 4"
+              ],
+              "value": [
+                "S0,16"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1311
+              ],
+              "trigger1": [
+                1312
+              ],
+              "value": [
+                1313
+              ],
+              "volume": [
+                1314
+              ],
+              "channel": [
+                1315
+              ]
+            }
+          },
+          {
+            "section": "State 0, VarAdd",
+            "line": 1317,
+            "fields": {
+              "type": [
+                "VarAdd"
+              ],
+              "trigger1": [
+                "animelem = 4",
+                "var(1) != 9"
+              ],
+              "v": [
+                "1"
+              ],
+              "value": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1318
+              ],
+              "trigger1": [
+                1319,
+                1320
+              ],
+              "v": [
+                1321
+              ],
+              "value": [
+                1322
+              ]
+            }
+          },
+          {
+            "section": "State 220, 5",
+            "line": 1326,
+            "fields": {
+              "type": [
+                "ChangeState"
+              ],
+              "trigger1": [
+                "AnimTime = 0"
+              ],
+              "value": [
+                "0"
+              ],
+              "ctrl": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1327
+              ],
+              "trigger1": [
+                1328
+              ],
+              "value": [
+                1329
+              ],
+              "ctrl": [
+                1330
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "commands": [
+      {
+        "section": "State -1, Stand Strong Punch",
+        "line": 1167,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "value": [
+            "220"
+          ],
+          "triggerall": [
+            "var(59) != 1",
+            "var(1) != 9",
+            "command = \"z\"",
+            "command != \"holddown\""
+          ],
+          "trigger1": [
+            "statetype = S",
+            "ctrl"
+          ],
+          "trigger2": [
+            "command = \"z\"",
+            "stateno = 210",
+            "movecontact"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            1168
+          ],
+          "value": [
+            1169
+          ],
+          "triggerall": [
+            1170,
+            1171,
+            1172,
+            1173
+          ],
+          "trigger1": [
+            1174,
+            1175
+          ],
+          "trigger2": [
+            1176,
+            1177,
+            1178
+          ]
+        }
+      }
+    ],
+    "effect_actions": [
+      "619220",
+      "620220"
+    ],
+    "confidence": "SOURCE_TEXT_AND_PIXEL_DECODED; actualGodotruntime verified by focused checks; semantic listening pending"
+  },
+  {
+    "slot": "j",
+    "file": "specials.cns",
+    "states": [
+      {
+        "file": "specials.cns",
+        "id": 1011,
+        "line": 2314,
+        "header": {
+          "type": [
+            "S"
+          ],
+          "movetype": [
+            "A"
+          ],
+          "physics": [
+            "S"
+          ],
+          "juggle": [
+            "0"
+          ],
+          "poweradd": [
+            "65"
+          ],
+          "ctrl": [
+            "0"
+          ],
+          "velset": [
+            "0,0"
+          ],
+          "anim": [
+            "1011"
+          ]
+        },
+        "controllers": [
+          {
+            "section": "State 0, Helper",
+            "line": 2324,
+            "fields": {
+              "type": [
+                "Helper"
+              ],
+              "trigger1": [
+                "animelem = 5"
+              ],
+              "trigger2": [
+                "animelem = 6"
+              ],
+              "trigger3": [
+                "animelem = 7"
+              ],
+              "trigger4": [
+                "animelem = 8"
+              ],
+              "trigger5": [
+                "animelem = 9"
+              ],
+              "helpertype": [
+                "normal"
+              ],
+              "name": [
+                "\"BULLET5\""
+              ],
+              "id": [
+                "6191011"
+              ],
+              "stateno": [
+                "6191011"
+              ],
+              "pos": [
+                "Ceil(21*Const(size.xscale)),Ceil(-67*Const(size.yscale))"
+              ],
+              "postype": [
+                "p1"
+              ],
+              "facing": [
+                "1"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "shadow": [
+                "0"
+              ],
+              "supermovetime": [
+                "999"
+              ],
+              "pausemovetime": [
+                "999"
+              ],
+              "size.xscale": [
+                "1"
+              ],
+              "size.yscale": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2325
+              ],
+              "trigger1": [
+                2326
+              ],
+              "trigger2": [
+                2327
+              ],
+              "trigger3": [
+                2328
+              ],
+              "trigger4": [
+                2329
+              ],
+              "trigger5": [
+                2330
+              ],
+              "helpertype": [
+                2331
+              ],
+              "name": [
+                2332
+              ],
+              "id": [
+                2333
+              ],
+              "stateno": [
+                2334
+              ],
+              "pos": [
+                2335
+              ],
+              "postype": [
+                2336
+              ],
+              "facing": [
+                2337
+              ],
+              "ownpal": [
+                2338
+              ],
+              "shadow": [
+                2339
+              ],
+              "supermovetime": [
+                2340
+              ],
+              "pausemovetime": [
+                2341
+              ],
+              "size.xscale": [
+                2342
+              ],
+              "size.yscale": [
+                2343
+              ]
+            }
+          },
+          {
+            "section": "State 0, Helper",
+            "line": 2345,
+            "fields": {
+              "type": [
+                "Helper"
+              ],
+              "trigger1": [
+                "animelem = 5"
+              ],
+              "trigger2": [
+                "animelem = 6"
+              ],
+              "trigger3": [
+                "animelem = 7"
+              ],
+              "trigger4": [
+                "animelem = 8"
+              ],
+              "trigger5": [
+                "animelem = 9"
+              ],
+              "helpertype": [
+                "normal"
+              ],
+              "name": [
+                "\"bullet1\""
+              ],
+              "id": [
+                "6201009"
+              ],
+              "stateno": [
+                "6201009"
+              ],
+              "pos": [
+                "Ceil(35*Const(size.xscale)),Ceil(-62*Const(size.yscale))"
+              ],
+              "postype": [
+                "p1"
+              ],
+              "facing": [
+                "1"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "shadow": [
+                "0"
+              ],
+              "supermovetime": [
+                "999"
+              ],
+              "pausemovetime": [
+                "999"
+              ],
+              "size.xscale": [
+                "1"
+              ],
+              "size.yscale": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2346
+              ],
+              "trigger1": [
+                2347
+              ],
+              "trigger2": [
+                2348
+              ],
+              "trigger3": [
+                2349
+              ],
+              "trigger4": [
+                2350
+              ],
+              "trigger5": [
+                2351
+              ],
+              "helpertype": [
+                2352
+              ],
+              "name": [
+                2353
+              ],
+              "id": [
+                2354
+              ],
+              "stateno": [
+                2355
+              ],
+              "pos": [
+                2356
+              ],
+              "postype": [
+                2357
+              ],
+              "facing": [
+                2358
+              ],
+              "ownpal": [
+                2359
+              ],
+              "shadow": [
+                2360
+              ],
+              "supermovetime": [
+                2361
+              ],
+              "pausemovetime": [
+                2362
+              ],
+              "size.xscale": [
+                2363
+              ],
+              "size.yscale": [
+                2364
+              ]
+            }
+          },
+          {
+            "section": "State 0, Explod",
+            "line": 2366,
+            "fields": {
+              "type": [
+                "Explod"
+              ],
+              "trigger1": [
+                "animelem = 5"
+              ],
+              "trigger2": [
+                "animelem = 6"
+              ],
+              "trigger3": [
+                "animelem = 7"
+              ],
+              "trigger4": [
+                "animelem = 8"
+              ],
+              "trigger5": [
+                "animelem = 9"
+              ],
+              "anim": [
+                "619220"
+              ],
+              "id": [
+                "619220"
+              ],
+              "pos": [
+                "Ceil(50*Const(size.xscale)),Ceil(-26*Const(size.yscale))"
+              ],
+              "postype": [
+                "p1"
+              ],
+              "facing": [
+                "1"
+              ],
+              "bindtime": [
+                "1"
+              ],
+              "removetime": [
+                "-2"
+              ],
+              "scale": [
+                ".4,.4"
+              ],
+              "sprpriority": [
+                "7"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "removeongethit": [
+                "1"
+              ],
+              "ignorehitpause": [
+                "-1"
+              ],
+              "supermovetime": [
+                "999"
+              ],
+              "pausemovetime": [
+                "999"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2367
+              ],
+              "trigger1": [
+                2368
+              ],
+              "trigger2": [
+                2369
+              ],
+              "trigger3": [
+                2370
+              ],
+              "trigger4": [
+                2371
+              ],
+              "trigger5": [
+                2372
+              ],
+              "anim": [
+                2373
+              ],
+              "id": [
+                2374
+              ],
+              "pos": [
+                2375
+              ],
+              "postype": [
+                2376
+              ],
+              "facing": [
+                2377
+              ],
+              "bindtime": [
+                2378
+              ],
+              "removetime": [
+                2379
+              ],
+              "scale": [
+                2380
+              ],
+              "sprpriority": [
+                2381
+              ],
+              "ownpal": [
+                2382
+              ],
+              "removeongethit": [
+                2383
+              ],
+              "ignorehitpause": [
+                2384
+              ],
+              "supermovetime": [
+                2385
+              ],
+              "pausemovetime": [
+                2386
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 2388,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "time = 0"
+              ],
+              "value": [
+                "S1,ifelse(random < 500, 13,14)"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2389
+              ],
+              "trigger1": [
+                2390
+              ],
+              "value": [
+                2391
+              ],
+              "volume": [
+                2392
+              ],
+              "channel": [
+                2393
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 2395,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "animelem = 2"
+              ],
+              "trigger2": [
+                "animelem = 10"
+              ],
+              "value": [
+                "S0,26"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2396
+              ],
+              "trigger1": [
+                2397
+              ],
+              "trigger2": [
+                2398
+              ],
+              "value": [
+                2399
+              ],
+              "volume": [
+                2400
+              ],
+              "channel": [
+                2401
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 2403,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "animelem = 5"
+              ],
+              "trigger2": [
+                "animelem = 6"
+              ],
+              "trigger3": [
+                "animelem = 7"
+              ],
+              "trigger4": [
+                "animelem = 8"
+              ],
+              "trigger5": [
+                "animelem = 9"
+              ],
+              "value": [
+                "S0,31"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2404
+              ],
+              "trigger1": [
+                2405
+              ],
+              "trigger2": [
+                2406
+              ],
+              "trigger3": [
+                2407
+              ],
+              "trigger4": [
+                2408
+              ],
+              "trigger5": [
+                2409
+              ],
+              "value": [
+                2410
+              ],
+              "volume": [
+                2411
+              ],
+              "channel": [
+                2412
+              ]
+            }
+          },
+          {
+            "section": "State 1011, 5",
+            "line": 2415,
+            "fields": {
+              "type": [
+                "ChangeState"
+              ],
+              "trigger1": [
+                "AnimTime = 0"
+              ],
+              "value": [
+                "0"
+              ],
+              "ctrl": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2416
+              ],
+              "trigger1": [
+                2417
+              ],
+              "value": [
+                2418
+              ],
+              "ctrl": [
+                2419
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "file": "specials.cns",
+        "id": 6191011,
+        "line": 2421,
+        "header": {
+          "type": [
+            "S"
+          ],
+          "movetype": [
+            "A"
+          ],
+          "physics": [
+            "N"
+          ],
+          "ctrl": [
+            "0"
+          ],
+          "anim": [
+            "6191011"
+          ],
+          "poweradd": [
+            "0"
+          ],
+          "sprpriority": [
+            "-2"
+          ]
+        },
+        "controllers": [
+          {
+            "section": "State 0, AngleDraw",
+            "line": 2430,
+            "fields": {
+              "type": [
+                "AngleDraw"
+              ],
+              "trigger1": [
+                "1"
+              ],
+              "value": [
+                "0"
+              ],
+              "scale": [
+                ".5,.5"
+              ],
+              "ignorehitpause": [
+                "1"
+              ],
+              "persistent": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2431
+              ],
+              "trigger1": [
+                2432
+              ],
+              "value": [
+                2433
+              ],
+              "scale": [
+                2434
+              ],
+              "ignorehitpause": [
+                2435
+              ],
+              "persistent": [
+                2436
+              ]
+            }
+          },
+          {
+            "section": "State 0, Trans",
+            "line": 2438,
+            "fields": {
+              "type": [
+                "Trans"
+              ],
+              "trigger1": [
+                "1"
+              ],
+              "trans": [
+                "add"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2439
+              ],
+              "trigger1": [
+                2440
+              ],
+              "trans": [
+                2441
+              ]
+            }
+          },
+          {
+            "section": "State 0, AssertSpecial",
+            "line": 2443,
+            "fields": {
+              "type": [
+                "AssertSpecial"
+              ],
+              "trigger1": [
+                "movecontact = 1"
+              ],
+              "flag": [
+                "invisible"
+              ],
+              "ignorehitpause": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2444
+              ],
+              "trigger1": [
+                2445
+              ],
+              "flag": [
+                2446
+              ],
+              "ignorehitpause": [
+                2447
+              ]
+            }
+          },
+          {
+            "section": "State 0, 1",
+            "line": 2449,
+            "fields": {
+              "type": [
+                "HitDef"
+              ],
+              "trigger1": [
+                "time = 0"
+              ],
+              "attr": [
+                "S, SP"
+              ],
+              "damage": [
+                "20,10"
+              ],
+              "animtype": [
+                "Medium"
+              ],
+              "guardflag": [
+                "MA"
+              ],
+              "hitflag": [
+                "MAF"
+              ],
+              "priority": [
+                "3, Hit"
+              ],
+              "pausetime": [
+                "10,5"
+              ],
+              "sparkno": [
+                "-1"
+              ],
+              "guard.sparkno": [
+                "-1"
+              ],
+              "sparkxy": [
+                "0,0"
+              ],
+              "hitsound": [
+                "S0,15"
+              ],
+              "guardsound": [
+                "S0,15"
+              ],
+              "ground.type": [
+                "High"
+              ],
+              "ground.slidetime": [
+                "16"
+              ],
+              "ground.hittime": [
+                "20"
+              ],
+              "ground.velocity": [
+                "-2,-6"
+              ],
+              "guard.velocity": [
+                "-3"
+              ],
+              "airguard.velocity": [
+                "-3"
+              ],
+              "air.type": [
+                "High"
+              ],
+              "air.velocity": [
+                "-2,-2"
+              ],
+              "air.hittime": [
+                "120"
+              ],
+              "envshake.time": [
+                "4"
+              ],
+              "envshake.freq": [
+                "100"
+              ],
+              "ground.cornerpush.veloff": [
+                "-10"
+              ],
+              "air.cornerpush.veloff": [
+                "-10"
+              ],
+              "down.cornerpush.veloff": [
+                "-10"
+              ],
+              "guard.cornerpush.veloff": [
+                "-10"
+              ],
+              "airguard.cornerpush.veloff": [
+                "-10"
+              ],
+              "air.fall": [
+                "1"
+              ],
+              "fall.recover": [
+                "0"
+              ],
+              "fall": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2450
+              ],
+              "trigger1": [
+                2451
+              ],
+              "attr": [
+                2452
+              ],
+              "damage": [
+                2453
+              ],
+              "animtype": [
+                2454
+              ],
+              "guardflag": [
+                2455
+              ],
+              "hitflag": [
+                2456
+              ],
+              "priority": [
+                2457
+              ],
+              "pausetime": [
+                2458
+              ],
+              "sparkno": [
+                2459
+              ],
+              "guard.sparkno": [
+                2460
+              ],
+              "sparkxy": [
+                2461
+              ],
+              "hitsound": [
+                2462
+              ],
+              "guardsound": [
+                2463
+              ],
+              "ground.type": [
+                2464
+              ],
+              "ground.slidetime": [
+                2465
+              ],
+              "ground.hittime": [
+                2466
+              ],
+              "ground.velocity": [
+                2467
+              ],
+              "guard.velocity": [
+                2468
+              ],
+              "airguard.velocity": [
+                2469
+              ],
+              "air.type": [
+                2470
+              ],
+              "air.velocity": [
+                2471
+              ],
+              "air.hittime": [
+                2472
+              ],
+              "envshake.time": [
+                2473
+              ],
+              "envshake.freq": [
+                2474
+              ],
+              "ground.cornerpush.veloff": [
+                2475
+              ],
+              "air.cornerpush.veloff": [
+                2476
+              ],
+              "down.cornerpush.veloff": [
+                2477
+              ],
+              "guard.cornerpush.veloff": [
+                2478
+              ],
+              "airguard.cornerpush.veloff": [
+                2479
+              ],
+              "air.fall": [
+                2480
+              ],
+              "fall.recover": [
+                2481
+              ],
+              "fall": [
+                2482
+              ]
+            }
+          },
+          {
+            "section": "State 0, SPARK1",
+            "line": 2484,
+            "fields": {
+              "type": [
+                "Explod"
+              ],
+              "trigger1": [
+                "FrontEdgeDist < -10"
+              ],
+              "anim": [
+                "621220"
+              ],
+              "id": [
+                "621220"
+              ],
+              "pos": [
+                "Ceil(0*Const(size.xscale)),Ceil(0*Const(size.yscale))"
+              ],
+              "postype": [
+                "p1"
+              ],
+              "facing": [
+                "1"
+              ],
+              "bindtime": [
+                "1"
+              ],
+              "removetime": [
+                "-2"
+              ],
+              "scale": [
+                "1,1"
+              ],
+              "sprpriority": [
+                "7"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "removeongethit": [
+                "1"
+              ],
+              "ignorehitpause": [
+                "-1"
+              ],
+              "supermovetime": [
+                "999"
+              ],
+              "pausemovetime": [
+                "999"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2485
+              ],
+              "trigger1": [
+                2486
+              ],
+              "anim": [
+                2487
+              ],
+              "id": [
+                2488
+              ],
+              "pos": [
+                2489
+              ],
+              "postype": [
+                2490
+              ],
+              "facing": [
+                2491
+              ],
+              "bindtime": [
+                2492
+              ],
+              "removetime": [
+                2493
+              ],
+              "scale": [
+                2494
+              ],
+              "sprpriority": [
+                2495
+              ],
+              "ownpal": [
+                2496
+              ],
+              "removeongethit": [
+                2497
+              ],
+              "ignorehitpause": [
+                2498
+              ],
+              "supermovetime": [
+                2499
+              ],
+              "pausemovetime": [
+                2500
+              ]
+            }
+          },
+          {
+            "section": "State 0, Helper",
+            "line": 2502,
+            "fields": {
+              "type": [
+                "Helper"
+              ],
+              "trigger1": [
+                "Movehit = 1 && numhelper(6191002) = 0"
+              ],
+              "helpertype": [
+                "normal"
+              ],
+              "name": [
+                "\"BLOOD1\""
+              ],
+              "id": [
+                "6191002"
+              ],
+              "stateno": [
+                "6191002"
+              ],
+              "pos": [
+                "const(size.mid.pos.x),const(size.mid.pos.y)-10"
+              ],
+              "postype": [
+                "p2"
+              ],
+              "facing": [
+                "1"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "shadow": [
+                "0"
+              ],
+              "supermovetime": [
+                "999"
+              ],
+              "pausemovetime": [
+                "999"
+              ],
+              "size.xscale": [
+                ".4"
+              ],
+              "size.yscale": [
+                ".5"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2503
+              ],
+              "trigger1": [
+                2504
+              ],
+              "helpertype": [
+                2505
+              ],
+              "name": [
+                2506
+              ],
+              "id": [
+                2507
+              ],
+              "stateno": [
+                2508
+              ],
+              "pos": [
+                2509
+              ],
+              "postype": [
+                2510
+              ],
+              "facing": [
+                2511
+              ],
+              "ownpal": [
+                2512
+              ],
+              "shadow": [
+                2513
+              ],
+              "supermovetime": [
+                2514
+              ],
+              "pausemovetime": [
+                2515
+              ],
+              "size.xscale": [
+                2516
+              ],
+              "size.yscale": [
+                2517
+              ]
+            }
+          },
+          {
+            "section": "State 0, Explod",
+            "line": 2519,
+            "fields": {
+              "type": [
+                "Explod"
+              ],
+              "trigger1": [
+                "Movehit = 1 && numexplod(6192) = 0"
+              ],
+              "anim": [
+                "6192"
+              ],
+              "id": [
+                "6192"
+              ],
+              "pos": [
+                "0,0"
+              ],
+              "postype": [
+                "p1"
+              ],
+              "facing": [
+                "-1"
+              ],
+              "bindtime": [
+                "1"
+              ],
+              "removetime": [
+                "-2"
+              ],
+              "scale": [
+                ".7,.7"
+              ],
+              "sprpriority": [
+                "7"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "removeongethit": [
+                "1"
+              ],
+              "ignorehitpause": [
+                "-1"
+              ],
+              "supermovetime": [
+                "999"
+              ],
+              "pausemovetime": [
+                "999"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2520
+              ],
+              "trigger1": [
+                2521
+              ],
+              "anim": [
+                2522
+              ],
+              "id": [
+                2523
+              ],
+              "pos": [
+                2524
+              ],
+              "postype": [
+                2525
+              ],
+              "facing": [
+                2526
+              ],
+              "bindtime": [
+                2527
+              ],
+              "removetime": [
+                2528
+              ],
+              "scale": [
+                2529
+              ],
+              "sprpriority": [
+                2530
+              ],
+              "ownpal": [
+                2531
+              ],
+              "removeongethit": [
+                2532
+              ],
+              "ignorehitpause": [
+                2533
+              ],
+              "supermovetime": [
+                2534
+              ],
+              "pausemovetime": [
+                2535
+              ]
+            }
+          },
+          {
+            "section": "State 0, Explod",
+            "line": 2537,
+            "fields": {
+              "type": [
+                "Explod"
+              ],
+              "trigger1": [
+                "Moveguarded = 1 && numexplod(6191) = 0"
+              ],
+              "anim": [
+                "6191"
+              ],
+              "id": [
+                "6191"
+              ],
+              "pos": [
+                "0,0"
+              ],
+              "postype": [
+                "p1"
+              ],
+              "facing": [
+                "-1"
+              ],
+              "bindtime": [
+                "1"
+              ],
+              "removetime": [
+                "-2"
+              ],
+              "scale": [
+                ".7,.7"
+              ],
+              "sprpriority": [
+                "7"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "removeongethit": [
+                "1"
+              ],
+              "ignorehitpause": [
+                "-1"
+              ],
+              "supermovetime": [
+                "999"
+              ],
+              "pausemovetime": [
+                "999"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2538
+              ],
+              "trigger1": [
+                2539
+              ],
+              "anim": [
+                2540
+              ],
+              "id": [
+                2541
+              ],
+              "pos": [
+                2542
+              ],
+              "postype": [
+                2543
+              ],
+              "facing": [
+                2544
+              ],
+              "bindtime": [
+                2545
+              ],
+              "removetime": [
+                2546
+              ],
+              "scale": [
+                2547
+              ],
+              "sprpriority": [
+                2548
+              ],
+              "ownpal": [
+                2549
+              ],
+              "removeongethit": [
+                2550
+              ],
+              "ignorehitpause": [
+                2551
+              ],
+              "supermovetime": [
+                2552
+              ],
+              "pausemovetime": [
+                2553
+              ]
+            }
+          },
+          {
+            "section": "State 0, AssertSpecial",
+            "line": 2555,
+            "fields": {
+              "type": [
+                "AssertSpecial"
+              ],
+              "trigger1": [
+                "time > 0"
+              ],
+              "flag": [
+                "noshadow"
+              ],
+              "ignorehitpause": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2556
+              ],
+              "trigger1": [
+                2557
+              ],
+              "flag": [
+                2558
+              ],
+              "ignorehitpause": [
+                2559
+              ]
+            }
+          },
+          {
+            "section": "State 0, VelSet",
+            "line": 2561,
+            "fields": {
+              "type": [
+                "VelSet"
+              ],
+              "trigger1": [
+                "time > 0"
+              ],
+              "x": [
+                "30"
+              ],
+              "y": [
+                "0"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2562
+              ],
+              "trigger1": [
+                2563
+              ],
+              "x": [
+                2564
+              ],
+              "y": [
+                2565
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 2567,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "FrontEdgeDist < -10"
+              ],
+              "value": [
+                "S0,15"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2568
+              ],
+              "trigger1": [
+                2569
+              ],
+              "value": [
+                2570
+              ],
+              "volume": [
+                2571
+              ],
+              "channel": [
+                2572
+              ]
+            }
+          },
+          {
+            "section": "State 0, DestroySelf",
+            "line": 2574,
+            "fields": {
+              "type": [
+                "DestroySelf"
+              ],
+              "trigger1": [
+                "FrontEdgeDist < -10"
+              ],
+              "trigger2": [
+                "time >= 100"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2575
+              ],
+              "trigger1": [
+                2576
+              ],
+              "trigger2": [
+                2577
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "commands": [
+      {
+        "section": "State -1, SPECIAL9",
+        "line": 831,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "value": [
+            "1011"
+          ],
+          "triggerall": [
+            "var(59) != 1",
+            "statetype != A"
+          ],
+          "trigger1": [
+            "stateno = [200,451]",
+            "command = \"SPECIAL9\""
+          ],
+          "trigger2": [
+            "stateno = [200,451]",
+            "command = \"SPECIAL9\"",
+            "movecontact = 1"
+          ],
+          "trigger3": [
+            "command = \"SPECIAL9\"",
+            "statetype = S",
+            "ctrl"
+          ],
+          "trigger4": [
+            "command = \"SPECIAL9\"",
+            "stateno = 220",
+            "time >= 16"
+          ],
+          "trigger5": [
+            "command = \"SPECIAL9\"",
+            "stateno = 450",
+            "time >= 16"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            832
+          ],
+          "value": [
+            833
+          ],
+          "triggerall": [
+            834,
+            835
+          ],
+          "trigger1": [
+            836,
+            837
+          ],
+          "trigger2": [
+            838,
+            839,
+            840
+          ],
+          "trigger3": [
+            841,
+            842,
+            843
+          ],
+          "trigger4": [
+            844,
+            845,
+            846
+          ],
+          "trigger5": [
+            847,
+            848,
+            849
+          ]
+        }
+      }
+    ],
+    "effect_actions": [
+      "6191011",
+      "619220"
+    ],
+    "confidence": "SOURCE_TEXT_AND_PIXEL_DECODED; actualGodotruntime verified by focused checks; semantic listening pending"
+  },
+  {
+    "slot": "k",
+    "file": "specials.cns",
+    "states": [
+      {
+        "file": "specials.cns",
+        "id": 1006,
+        "line": 914,
+        "header": {
+          "type": [
+            "S"
+          ],
+          "movetype": [
+            "A"
+          ],
+          "physics": [
+            "S"
+          ],
+          "juggle": [
+            "0"
+          ],
+          "poweradd": [
+            "65"
+          ],
+          "ctrl": [
+            "0"
+          ],
+          "velset": [
+            "0,0"
+          ],
+          "anim": [
+            "1006"
+          ]
+        },
+        "controllers": [
+          {
+            "section": "State 0, NotHitBy",
+            "line": 924,
+            "fields": {
+              "type": [
+                "NotHitBy"
+              ],
+              "trigger1": [
+                "time < 16"
+              ],
+              "value": [
+                "SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT"
+              ],
+              "time": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                925
+              ],
+              "trigger1": [
+                926
+              ],
+              "value": [
+                927
+              ],
+              "time": [
+                928
+              ]
+            }
+          },
+          {
+            "section": "State 0, VelSet",
+            "line": 933,
+            "fields": {
+              "type": [
+                "VelSet"
+              ],
+              "trigger1": [
+                "animelem = 3"
+              ],
+              "x": [
+                "-15"
+              ],
+              "y": [
+                "0"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                934
+              ],
+              "trigger1": [
+                935
+              ],
+              "x": [
+                936
+              ],
+              "y": [
+                937
+              ]
+            }
+          },
+          {
+            "section": "State 0, Helper",
+            "line": 942,
+            "fields": {
+              "type": [
+                "Helper"
+              ],
+              "triggerall": [
+                "var(2) = 1"
+              ],
+              "trigger1": [
+                "animelem = 14"
+              ],
+              "helpertype": [
+                "normal"
+              ],
+              "name": [
+                "\"GRENADE1\""
+              ],
+              "id": [
+                "1007"
+              ],
+              "stateno": [
+                "1007"
+              ],
+              "pos": [
+                "Ceil(-14*Const(size.xscale)),Ceil(-138*Const(size.yscale))"
+              ],
+              "postype": [
+                "p1"
+              ],
+              "facing": [
+                "1"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "shadow": [
+                "0"
+              ],
+              "supermovetime": [
+                "999"
+              ],
+              "pausemovetime": [
+                "999"
+              ],
+              "size.xscale": [
+                "1"
+              ],
+              "size.yscale": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                943
+              ],
+              "triggerall": [
+                944
+              ],
+              "trigger1": [
+                945
+              ],
+              "helpertype": [
+                946
+              ],
+              "name": [
+                947
+              ],
+              "id": [
+                948
+              ],
+              "stateno": [
+                949
+              ],
+              "pos": [
+                950
+              ],
+              "postype": [
+                951
+              ],
+              "facing": [
+                952
+              ],
+              "ownpal": [
+                953
+              ],
+              "shadow": [
+                954
+              ],
+              "supermovetime": [
+                955
+              ],
+              "pausemovetime": [
+                956
+              ],
+              "size.xscale": [
+                957
+              ],
+              "size.yscale": [
+                958
+              ]
+            }
+          },
+          {
+            "section": "State 0, Helper",
+            "line": 960,
+            "fields": {
+              "type": [
+                "Helper"
+              ],
+              "triggerall": [
+                "var(2) = 2"
+              ],
+              "trigger1": [
+                "animelem = 14"
+              ],
+              "helpertype": [
+                "normal"
+              ],
+              "name": [
+                "\"TEARGAS1\""
+              ],
+              "id": [
+                "6191007"
+              ],
+              "stateno": [
+                "6191007"
+              ],
+              "pos": [
+                "Ceil(-14*Const(size.xscale)),Ceil(-138*Const(size.yscale))"
+              ],
+              "postype": [
+                "p1"
+              ],
+              "facing": [
+                "1"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "shadow": [
+                "0"
+              ],
+              "supermovetime": [
+                "999"
+              ],
+              "pausemovetime": [
+                "999"
+              ],
+              "size.xscale": [
+                "1"
+              ],
+              "size.yscale": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                961
+              ],
+              "triggerall": [
+                962
+              ],
+              "trigger1": [
+                963
+              ],
+              "helpertype": [
+                964
+              ],
+              "name": [
+                965
+              ],
+              "id": [
+                966
+              ],
+              "stateno": [
+                967
+              ],
+              "pos": [
+                968
+              ],
+              "postype": [
+                969
+              ],
+              "facing": [
+                970
+              ],
+              "ownpal": [
+                971
+              ],
+              "shadow": [
+                972
+              ],
+              "supermovetime": [
+                973
+              ],
+              "pausemovetime": [
+                974
+              ],
+              "size.xscale": [
+                975
+              ],
+              "size.yscale": [
+                976
+              ]
+            }
+          },
+          {
+            "section": "State 0, Helper",
+            "line": 978,
+            "fields": {
+              "type": [
+                "Helper"
+              ],
+              "triggerall": [
+                "var(2) = 3"
+              ],
+              "trigger1": [
+                "animelem = 14"
+              ],
+              "helpertype": [
+                "normal"
+              ],
+              "name": [
+                "\"MOLOTOV1\""
+              ],
+              "id": [
+                "6211007"
+              ],
+              "stateno": [
+                "6211007"
+              ],
+              "pos": [
+                "Ceil(-14*Const(size.xscale)),Ceil(-138*Const(size.yscale))"
+              ],
+              "postype": [
+                "p1"
+              ],
+              "facing": [
+                "1"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "shadow": [
+                "0"
+              ],
+              "supermovetime": [
+                "999"
+              ],
+              "pausemovetime": [
+                "999"
+              ],
+              "size.xscale": [
+                "1"
+              ],
+              "size.yscale": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                979
+              ],
+              "triggerall": [
+                980
+              ],
+              "trigger1": [
+                981
+              ],
+              "helpertype": [
+                982
+              ],
+              "name": [
+                983
+              ],
+              "id": [
+                984
+              ],
+              "stateno": [
+                985
+              ],
+              "pos": [
+                986
+              ],
+              "postype": [
+                987
+              ],
+              "facing": [
+                988
+              ],
+              "ownpal": [
+                989
+              ],
+              "shadow": [
+                990
+              ],
+              "supermovetime": [
+                991
+              ],
+              "pausemovetime": [
+                992
+              ],
+              "size.xscale": [
+                993
+              ],
+              "size.yscale": [
+                994
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 997,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "animelem = 10"
+              ],
+              "value": [
+                "S1,ifelse(random < 500, 15,17)"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                998
+              ],
+              "trigger1": [
+                999
+              ],
+              "value": [
+                1000
+              ],
+              "volume": [
+                1001
+              ],
+              "channel": [
+                1002
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 1004,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "animelem = 2"
+              ],
+              "value": [
+                "S0,1"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1005
+              ],
+              "trigger1": [
+                1006
+              ],
+              "value": [
+                1007
+              ],
+              "volume": [
+                1008
+              ],
+              "channel": [
+                1009
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 1011,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "animelem = 14"
+              ],
+              "value": [
+                "S0,9"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1012
+              ],
+              "trigger1": [
+                1013
+              ],
+              "value": [
+                1014
+              ],
+              "volume": [
+                1015
+              ],
+              "channel": [
+                1016
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 1018,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "animelem = 11"
+              ],
+              "value": [
+                "S0,24"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1019
+              ],
+              "trigger1": [
+                1020
+              ],
+              "value": [
+                1021
+              ],
+              "volume": [
+                1022
+              ],
+              "channel": [
+                1023
+              ]
+            }
+          },
+          {
+            "section": "State 1006, 5",
+            "line": 1025,
+            "fields": {
+              "type": [
+                "ChangeState"
+              ],
+              "trigger1": [
+                "AnimTime = 0"
+              ],
+              "value": [
+                "0"
+              ],
+              "ctrl": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1026
+              ],
+              "trigger1": [
+                1027
+              ],
+              "value": [
+                1028
+              ],
+              "ctrl": [
+                1029
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "file": "specials.cns",
+        "id": 1007,
+        "line": 1031,
+        "header": {
+          "type": [
+            "S"
+          ],
+          "movetype": [
+            "A"
+          ],
+          "physics": [
+            "N"
+          ],
+          "ctrl": [
+            "0"
+          ],
+          "anim": [
+            "1007"
+          ],
+          "poweradd": [
+            "0"
+          ],
+          "sprpriority": [
+            "7"
+          ]
+        },
+        "controllers": [
+          {
+            "section": "State 2000, 1",
+            "line": 1040,
+            "fields": {
+              "type": [
+                "HitDef"
+              ],
+              "trigger1": [
+                "time = 0"
+              ],
+              "attr": [
+                "S, SA"
+              ],
+              "damage": [
+                "0,0"
+              ],
+              "animtype": [
+                "Light"
+              ],
+              "guardflag": [
+                "MA"
+              ],
+              "hitflag": [
+                "MAF"
+              ],
+              "priority": [
+                "2,Miss"
+              ],
+              "pausetime": [
+                "0,5"
+              ],
+              "sparkno": [
+                "-1"
+              ],
+              "guard.sparkno": [
+                "-1"
+              ],
+              "sparkxy": [
+                "10,-50"
+              ],
+              "hitsound": [
+                "-1"
+              ],
+              "guardsound": [
+                "-1"
+              ],
+              "ground.type": [
+                "High"
+              ],
+              "ground.slidetime": [
+                "5"
+              ],
+              "ground.hittime": [
+                "12"
+              ],
+              "ground.velocity": [
+                "-5"
+              ],
+              "airguard.velocity": [
+                "0,0"
+              ],
+              "air.type": [
+                "High"
+              ],
+              "air.velocity": [
+                "0,0"
+              ],
+              "air.hittime": [
+                "12"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1041
+              ],
+              "trigger1": [
+                1042
+              ],
+              "attr": [
+                1043
+              ],
+              "damage": [
+                1044
+              ],
+              "animtype": [
+                1045
+              ],
+              "guardflag": [
+                1046
+              ],
+              "hitflag": [
+                1047
+              ],
+              "priority": [
+                1048
+              ],
+              "pausetime": [
+                1049
+              ],
+              "sparkno": [
+                1050
+              ],
+              "guard.sparkno": [
+                1051
+              ],
+              "sparkxy": [
+                1052
+              ],
+              "hitsound": [
+                1053
+              ],
+              "guardsound": [
+                1054
+              ],
+              "ground.type": [
+                1055
+              ],
+              "ground.slidetime": [
+                1056
+              ],
+              "ground.hittime": [
+                1057
+              ],
+              "ground.velocity": [
+                1058
+              ],
+              "airguard.velocity": [
+                1059
+              ],
+              "air.type": [
+                1060
+              ],
+              "air.velocity": [
+                1061
+              ],
+              "air.hittime": [
+                1062
+              ]
+            }
+          },
+          {
+            "section": "State 0, AngleDraw",
+            "line": 1064,
+            "fields": {
+              "type": [
+                "AngleDraw"
+              ],
+              "trigger1": [
+                "1"
+              ],
+              "value": [
+                "1*time+1"
+              ],
+              "scale": [
+                "1,1"
+              ],
+              "ignorehitpause": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1065
+              ],
+              "trigger1": [
+                1066
+              ],
+              "value": [
+                1067
+              ],
+              "scale": [
+                1068
+              ],
+              "ignorehitpause": [
+                1069
+              ]
+            }
+          },
+          {
+            "section": "State 0, AssertSpecial",
+            "line": 1073,
+            "fields": {
+              "type": [
+                "AssertSpecial"
+              ],
+              "trigger1": [
+                "time > 0"
+              ],
+              "flag": [
+                "noshadow"
+              ],
+              "ignorehitpause": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1074
+              ],
+              "trigger1": [
+                1075
+              ],
+              "flag": [
+                1076
+              ],
+              "ignorehitpause": [
+                1077
+              ]
+            }
+          },
+          {
+            "section": "State 0, VelSet",
+            "line": 1079,
+            "fields": {
+              "type": [
+                "VelSet"
+              ],
+              "trigger1": [
+                "time = 0"
+              ],
+              "x": [
+                "0"
+              ],
+              "y": [
+                "0"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1080
+              ],
+              "trigger1": [
+                1081
+              ],
+              "x": [
+                1082
+              ],
+              "y": [
+                1083
+              ]
+            }
+          },
+          {
+            "section": "State 0, VelSet",
+            "line": 1086,
+            "fields": {
+              "type": [
+                "VelSet"
+              ],
+              "trigger1": [
+                "time = 4"
+              ],
+              "x": [
+                "4.5"
+              ],
+              "y": [
+                "-6"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1087
+              ],
+              "trigger1": [
+                1088
+              ],
+              "x": [
+                1089
+              ],
+              "y": [
+                1090
+              ]
+            }
+          },
+          {
+            "section": "State 0, Gravity",
+            "line": 1092,
+            "fields": {
+              "type": [
+                "Gravity"
+              ],
+              "trigger1": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1093
+              ],
+              "trigger1": [
+                1094
+              ]
+            }
+          },
+          {
+            "section": "State 0, ChangeState",
+            "line": 1098,
+            "fields": {
+              "type": [
+                "ChangeState"
+              ],
+              "trigger1": [
+                "pos y>=-20"
+              ],
+              "trigger2": [
+                "movecontact"
+              ],
+              "value": [
+                "1008"
+              ],
+              "ctrl": [
+                "0"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1099
+              ],
+              "trigger1": [
+                1100
+              ],
+              "trigger2": [
+                1101
+              ],
+              "value": [
+                1102
+              ],
+              "ctrl": [
+                1103
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "file": "specials.cns",
+        "id": 1008,
+        "line": 1105,
+        "header": {
+          "type": [
+            "S"
+          ],
+          "movetype": [
+            "A"
+          ],
+          "physics": [
+            "N"
+          ],
+          "ctrl": [
+            "0"
+          ],
+          "anim": [
+            "1008"
+          ],
+          "poweradd": [
+            "0"
+          ],
+          "sprpriority": [
+            "7"
+          ]
+        },
+        "controllers": [
+          {
+            "section": "State 0, AssertSpecial",
+            "line": 1114,
+            "fields": {
+              "type": [
+                "AssertSpecial"
+              ],
+              "trigger1": [
+                "time > 0"
+              ],
+              "flag": [
+                "noshadow"
+              ],
+              "ignorehitpause": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1115
+              ],
+              "trigger1": [
+                1116
+              ],
+              "flag": [
+                1117
+              ],
+              "ignorehitpause": [
+                1118
+              ]
+            }
+          },
+          {
+            "section": "State 0, VelSet",
+            "line": 1120,
+            "fields": {
+              "type": [
+                "VelSet"
+              ],
+              "trigger1": [
+                "time > 0"
+              ],
+              "x": [
+                "-1"
+              ],
+              "y": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1121
+              ],
+              "trigger1": [
+                1122
+              ],
+              "x": [
+                1123
+              ],
+              "y": [
+                1124
+              ]
+            }
+          },
+          {
+            "section": "State 0, 1",
+            "line": 1126,
+            "fields": {
+              "type": [
+                "HitDef"
+              ],
+              "trigger1": [
+                "time = 0"
+              ],
+              "attr": [
+                "S, SA"
+              ],
+              "damage": [
+                "90,45"
+              ],
+              "animtype": [
+                "Hard"
+              ],
+              "guardflag": [
+                "MA"
+              ],
+              "hitflag": [
+                "MAFD"
+              ],
+              "priority": [
+                "3, Hit"
+              ],
+              "pausetime": [
+                "0,0"
+              ],
+              "sparkno": [
+                "-1"
+              ],
+              "guard.sparkno": [
+                "-1"
+              ],
+              "sparkxy": [
+                "0,0"
+              ],
+              "hitsound": [
+                "-1"
+              ],
+              "guardsound": [
+                "-1"
+              ],
+              "ground.type": [
+                "High"
+              ],
+              "ground.slidetime": [
+                "16"
+              ],
+              "ground.hittime": [
+                "20"
+              ],
+              "ground.velocity": [
+                "-2,-9"
+              ],
+              "guard.velocity": [
+                "-3"
+              ],
+              "airguard.velocity": [
+                "-3"
+              ],
+              "air.type": [
+                "High"
+              ],
+              "air.velocity": [
+                "-2,-9"
+              ],
+              "air.hittime": [
+                "120"
+              ],
+              "envshake.time": [
+                "8"
+              ],
+              "envshake.freq": [
+                "100"
+              ],
+              "down.velocity": [
+                "-2,-10.5"
+              ],
+              "ground.cornerpush.veloff": [
+                "0"
+              ],
+              "air.cornerpush.veloff": [
+                "0"
+              ],
+              "down.cornerpush.veloff": [
+                "0"
+              ],
+              "guard.cornerpush.veloff": [
+                "0"
+              ],
+              "airguard.cornerpush.veloff": [
+                "0"
+              ],
+              "palfx.time": [
+                "5"
+              ],
+              "palfx.add": [
+                "70,0,0"
+              ],
+              "palfx.mul": [
+                "256,256,256"
+              ],
+              "palfx.sinadd": [
+                "0,0,0,1"
+              ],
+              "palfx.invertall": [
+                "0"
+              ],
+              "palfx.color": [
+                "256"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1127
+              ],
+              "trigger1": [
+                1128
+              ],
+              "attr": [
+                1129
+              ],
+              "damage": [
+                1130
+              ],
+              "animtype": [
+                1131
+              ],
+              "guardflag": [
+                1132
+              ],
+              "hitflag": [
+                1133
+              ],
+              "priority": [
+                1134
+              ],
+              "pausetime": [
+                1135
+              ],
+              "sparkno": [
+                1136
+              ],
+              "guard.sparkno": [
+                1137
+              ],
+              "sparkxy": [
+                1138
+              ],
+              "hitsound": [
+                1139
+              ],
+              "guardsound": [
+                1140
+              ],
+              "ground.type": [
+                1141
+              ],
+              "ground.slidetime": [
+                1142
+              ],
+              "ground.hittime": [
+                1143
+              ],
+              "ground.velocity": [
+                1144
+              ],
+              "guard.velocity": [
+                1145
+              ],
+              "airguard.velocity": [
+                1146
+              ],
+              "air.type": [
+                1147
+              ],
+              "air.velocity": [
+                1148
+              ],
+              "air.hittime": [
+                1149
+              ],
+              "envshake.time": [
+                1150
+              ],
+              "envshake.freq": [
+                1151
+              ],
+              "down.velocity": [
+                1152
+              ],
+              "ground.cornerpush.veloff": [
+                1153
+              ],
+              "air.cornerpush.veloff": [
+                1154
+              ],
+              "down.cornerpush.veloff": [
+                1155
+              ],
+              "guard.cornerpush.veloff": [
+                1156
+              ],
+              "airguard.cornerpush.veloff": [
+                1157
+              ],
+              "palfx.time": [
+                1158
+              ],
+              "palfx.add": [
+                1159
+              ],
+              "palfx.mul": [
+                1160
+              ],
+              "palfx.sinadd": [
+                1161
+              ],
+              "palfx.invertall": [
+                1162
+              ],
+              "palfx.color": [
+                1163
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 1165,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "animelem = 2"
+              ],
+              "value": [
+                "S0,25"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1166
+              ],
+              "trigger1": [
+                1167
+              ],
+              "value": [
+                1168
+              ],
+              "volume": [
+                1169
+              ],
+              "channel": [
+                1170
+              ]
+            }
+          },
+          {
+            "section": "State 0, DestroySelf",
+            "line": 1172,
+            "fields": {
+              "type": [
+                "DestroySelf"
+              ],
+              "trigger1": [
+                "animtime = 0"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1173
+              ],
+              "trigger1": [
+                1174
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "commands": [
+      {
+        "section": "State -1, SPECIAL456",
+        "line": 854,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "value": [
+            "1006"
+          ],
+          "triggerall": [
+            "numhelper(1007) = 0",
+            "numhelper(6191007) = 0",
+            "numhelper(6211007) = 0",
+            "var(59) != 1",
+            "statetype != A"
+          ],
+          "trigger1": [
+            "stateno = [200,451]",
+            "command = \"SPECIAL4\""
+          ],
+          "trigger2": [
+            "stateno = [200,451]",
+            "command = \"SPECIAL4\"",
+            "movecontact = 1"
+          ],
+          "trigger3": [
+            "command = \"SPECIAL4\"",
+            "statetype = S",
+            "ctrl"
+          ],
+          "trigger4": [
+            "command = \"SPECIAL4\"",
+            "stateno = 220",
+            "time >= 16"
+          ],
+          "trigger5": [
+            "command = \"SPECIAL4\"",
+            "stateno = 450",
+            "time >= 16"
+          ],
+          "trigger6": [
+            "stateno = [200,451]",
+            "command = \"SPECIAL5\""
+          ],
+          "trigger7": [
+            "stateno = [200,451]",
+            "command = \"SPECIAL5\"",
+            "movecontact = 1"
+          ],
+          "trigger8": [
+            "command = \"SPECIAL5\"",
+            "statetype = S",
+            "ctrl"
+          ],
+          "trigger9": [
+            "command = \"SPECIAL5\"",
+            "stateno = 220",
+            "time >= 16"
+          ],
+          "trigger10": [
+            "command = \"SPECIAL5\"",
+            "stateno = 450",
+            "time >= 16"
+          ],
+          "trigger11": [
+            "stateno = [200,451]",
+            "command = \"SPECIAL6\""
+          ],
+          "trigger12": [
+            "stateno = [200,451]",
+            "command = \"SPECIAL6\"",
+            "movecontact = 1"
+          ],
+          "trigger13": [
+            "command = \"SPECIAL6\"",
+            "statetype = S",
+            "ctrl"
+          ],
+          "trigger14": [
+            "command = \"SPECIAL6\"",
+            "stateno = 220",
+            "time >= 16"
+          ],
+          "trigger15": [
+            "command = \"SPECIAL6\"",
+            "stateno = 450",
+            "time >= 16"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            855
+          ],
+          "value": [
+            856
+          ],
+          "triggerall": [
+            857,
+            858,
+            859,
+            860,
+            861
+          ],
+          "trigger1": [
+            862,
+            863
+          ],
+          "trigger2": [
+            864,
+            865,
+            866
+          ],
+          "trigger3": [
+            867,
+            868,
+            869
+          ],
+          "trigger4": [
+            870,
+            871,
+            872
+          ],
+          "trigger5": [
+            873,
+            874,
+            875
+          ],
+          "trigger6": [
+            876,
+            877
+          ],
+          "trigger7": [
+            878,
+            879,
+            880
+          ],
+          "trigger8": [
+            881,
+            882,
+            883
+          ],
+          "trigger9": [
+            884,
+            885,
+            886
+          ],
+          "trigger10": [
+            887,
+            888,
+            889
+          ],
+          "trigger11": [
+            890,
+            891
+          ],
+          "trigger12": [
+            892,
+            893,
+            894
+          ],
+          "trigger13": [
+            895,
+            896,
+            897
+          ],
+          "trigger14": [
+            898,
+            899,
+            900
+          ],
+          "trigger15": [
+            901,
+            902,
+            903
+          ]
+        }
+      }
+    ],
+    "effect_actions": [
+      "1007",
+      "1008"
+    ],
+    "confidence": "SOURCE_TEXT_AND_PIXEL_DECODED; actualGodotruntime verified by focused checks; semantic listening pending"
+  },
+  {
+    "slot": "l",
+    "file": "specials.cns",
+    "states": [
+      {
+        "file": "specials.cns",
+        "id": 1012,
+        "line": 2579,
+        "header": {
+          "type": [
+            "S"
+          ],
+          "movetype": [
+            "A"
+          ],
+          "physics": [
+            "S"
+          ],
+          "juggle": [
+            "0"
+          ],
+          "poweradd": [
+            "65"
+          ],
+          "ctrl": [
+            "0"
+          ],
+          "velset": [
+            "0,0"
+          ],
+          "anim": [
+            "1012"
+          ]
+        },
+        "controllers": [
+          {
+            "section": "State 0, Helper",
+            "line": 2590,
+            "fields": {
+              "type": [
+                "Helper"
+              ],
+              "trigger1": [
+                "animelem = 5"
+              ],
+              "helpertype": [
+                "normal"
+              ],
+              "name": [
+                "\"MINE1\""
+              ],
+              "id": [
+                "6191012"
+              ],
+              "stateno": [
+                "6191012"
+              ],
+              "pos": [
+                "Ceil(73*Const(size.xscale)),Ceil(0*Const(size.yscale))"
+              ],
+              "postype": [
+                "p1"
+              ],
+              "facing": [
+                "1"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "shadow": [
+                "0"
+              ],
+              "supermovetime": [
+                "999"
+              ],
+              "pausemovetime": [
+                "999"
+              ],
+              "size.xscale": [
+                "1"
+              ],
+              "size.yscale": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2591
+              ],
+              "trigger1": [
+                2592
+              ],
+              "helpertype": [
+                2593
+              ],
+              "name": [
+                2594
+              ],
+              "id": [
+                2595
+              ],
+              "stateno": [
+                2596
+              ],
+              "pos": [
+                2597
+              ],
+              "postype": [
+                2598
+              ],
+              "facing": [
+                2599
+              ],
+              "ownpal": [
+                2600
+              ],
+              "shadow": [
+                2601
+              ],
+              "supermovetime": [
+                2602
+              ],
+              "pausemovetime": [
+                2603
+              ],
+              "size.xscale": [
+                2604
+              ],
+              "size.yscale": [
+                2605
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 2607,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "animelem = 5"
+              ],
+              "value": [
+                "S1,ifelse(random < 500, 15,16)"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2608
+              ],
+              "trigger1": [
+                2609
+              ],
+              "value": [
+                2610
+              ],
+              "volume": [
+                2611
+              ],
+              "channel": [
+                2612
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 2614,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "animelem = 5"
+              ],
+              "value": [
+                "S0,24"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2615
+              ],
+              "trigger1": [
+                2616
+              ],
+              "value": [
+                2617
+              ],
+              "volume": [
+                2618
+              ],
+              "channel": [
+                2619
+              ]
+            }
+          },
+          {
+            "section": "State 1012, 5",
+            "line": 2621,
+            "fields": {
+              "type": [
+                "ChangeState"
+              ],
+              "trigger1": [
+                "AnimTime = 0"
+              ],
+              "value": [
+                "0"
+              ],
+              "ctrl": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2622
+              ],
+              "trigger1": [
+                2623
+              ],
+              "value": [
+                2624
+              ],
+              "ctrl": [
+                2625
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "file": "specials.cns",
+        "id": 6191012,
+        "line": 2627,
+        "header": {
+          "type": [
+            "S"
+          ],
+          "movetype": [
+            "A"
+          ],
+          "physics": [
+            "N"
+          ],
+          "ctrl": [
+            "0"
+          ],
+          "anim": [
+            "6191012"
+          ],
+          "poweradd": [
+            "0"
+          ],
+          "juggle": [
+            "2"
+          ],
+          "sprpriority": [
+            "7"
+          ]
+        },
+        "controllers": [
+          {
+            "section": "State 2000, 1",
+            "line": 2637,
+            "fields": {
+              "type": [
+                "HitDef"
+              ],
+              "triggerall": [
+                "enemy,stateno != 5110",
+                "enemy,stateno != [6195004,6195007]"
+              ],
+              "trigger1": [
+                "time > 0"
+              ],
+              "attr": [
+                "S, SP"
+              ],
+              "damage": [
+                "0,0"
+              ],
+              "animtype": [
+                "Light"
+              ],
+              "guardflag": [
+                "MA"
+              ],
+              "hitflag": [
+                "MAFD"
+              ],
+              "priority": [
+                "2,Miss"
+              ],
+              "pausetime": [
+                "0,20"
+              ],
+              "sparkno": [
+                "-1"
+              ],
+              "guard.sparkno": [
+                "-1"
+              ],
+              "sparkxy": [
+                "10,-50"
+              ],
+              "hitsound": [
+                "-1"
+              ],
+              "guardsound": [
+                "-1"
+              ],
+              "ground.type": [
+                "High"
+              ],
+              "ground.slidetime": [
+                "5"
+              ],
+              "ground.hittime": [
+                "12"
+              ],
+              "ground.velocity": [
+                "0"
+              ],
+              "airguard.velocity": [
+                "0,0"
+              ],
+              "air.type": [
+                "High"
+              ],
+              "air.velocity": [
+                "0,0"
+              ],
+              "air.hittime": [
+                "12"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2638
+              ],
+              "triggerall": [
+                2639,
+                2640
+              ],
+              "trigger1": [
+                2641
+              ],
+              "attr": [
+                2642
+              ],
+              "damage": [
+                2643
+              ],
+              "animtype": [
+                2644
+              ],
+              "guardflag": [
+                2645
+              ],
+              "hitflag": [
+                2646
+              ],
+              "priority": [
+                2647
+              ],
+              "pausetime": [
+                2648
+              ],
+              "sparkno": [
+                2649
+              ],
+              "guard.sparkno": [
+                2650
+              ],
+              "sparkxy": [
+                2651
+              ],
+              "hitsound": [
+                2652
+              ],
+              "guardsound": [
+                2653
+              ],
+              "ground.type": [
+                2654
+              ],
+              "ground.slidetime": [
+                2655
+              ],
+              "ground.hittime": [
+                2656
+              ],
+              "ground.velocity": [
+                2657
+              ],
+              "airguard.velocity": [
+                2658
+              ],
+              "air.type": [
+                2659
+              ],
+              "air.velocity": [
+                2660
+              ],
+              "air.hittime": [
+                2661
+              ]
+            }
+          },
+          {
+            "section": "State 0, AssertSpecial",
+            "line": 2663,
+            "fields": {
+              "type": [
+                "AssertSpecial"
+              ],
+              "trigger1": [
+                "time > 0"
+              ],
+              "flag": [
+                "noshadow"
+              ],
+              "ignorehitpause": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2664
+              ],
+              "trigger1": [
+                2665
+              ],
+              "flag": [
+                2666
+              ],
+              "ignorehitpause": [
+                2667
+              ]
+            }
+          },
+          {
+            "section": "State 0, VelSet",
+            "line": 2669,
+            "fields": {
+              "type": [
+                "VelSet"
+              ],
+              "trigger1": [
+                "time > 0"
+              ],
+              "x": [
+                "0"
+              ],
+              "y": [
+                "0"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2670
+              ],
+              "trigger1": [
+                2671
+              ],
+              "x": [
+                2672
+              ],
+              "y": [
+                2673
+              ]
+            }
+          },
+          {
+            "section": "State 0, PosSet",
+            "line": 2675,
+            "fields": {
+              "type": [
+                "PosSet"
+              ],
+              "trigger1": [
+                "time > 0"
+              ],
+              "y": [
+                "-3"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2676
+              ],
+              "trigger1": [
+                2677
+              ],
+              "y": [
+                2678
+              ]
+            }
+          },
+          {
+            "section": "State 0, ChangeState",
+            "line": 2682,
+            "fields": {
+              "type": [
+                "ChangeState"
+              ],
+              "trigger1": [
+                "movecontact"
+              ],
+              "trigger2": [
+                "time >= 300"
+              ],
+              "value": [
+                "6201012"
+              ],
+              "ctrl": [
+                "0"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2683
+              ],
+              "trigger1": [
+                2684
+              ],
+              "trigger2": [
+                2685
+              ],
+              "value": [
+                2686
+              ],
+              "ctrl": [
+                2687
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "file": "specials.cns",
+        "id": 6201012,
+        "line": 2689,
+        "header": {
+          "type": [
+            "S"
+          ],
+          "movetype": [
+            "A"
+          ],
+          "physics": [
+            "N"
+          ],
+          "ctrl": [
+            "0"
+          ],
+          "anim": [
+            "6201012"
+          ],
+          "poweradd": [
+            "0"
+          ],
+          "sprpriority": [
+            "7"
+          ],
+          "juggle": [
+            "2"
+          ]
+        },
+        "controllers": [
+          {
+            "section": "State 0, AssertSpecial",
+            "line": 2699,
+            "fields": {
+              "type": [
+                "AssertSpecial"
+              ],
+              "trigger1": [
+                "time > 0"
+              ],
+              "flag": [
+                "noshadow"
+              ],
+              "ignorehitpause": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2700
+              ],
+              "trigger1": [
+                2701
+              ],
+              "flag": [
+                2702
+              ],
+              "ignorehitpause": [
+                2703
+              ]
+            }
+          },
+          {
+            "section": "State 0, AngleDraw",
+            "line": 2705,
+            "fields": {
+              "type": [
+                "AngleDraw"
+              ],
+              "trigger1": [
+                "time > 20"
+              ],
+              "value": [
+                "1"
+              ],
+              "scale": [
+                ".3,.5"
+              ],
+              "ignorehitpause": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2706
+              ],
+              "trigger1": [
+                2707
+              ],
+              "value": [
+                2708
+              ],
+              "scale": [
+                2709
+              ],
+              "ignorehitpause": [
+                2710
+              ]
+            }
+          },
+          {
+            "section": "State 0, Trans",
+            "line": 2712,
+            "fields": {
+              "type": [
+                "Trans"
+              ],
+              "trigger1": [
+                "time > 20"
+              ],
+              "trans": [
+                "add"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2713
+              ],
+              "trigger1": [
+                2714
+              ],
+              "trans": [
+                2715
+              ]
+            }
+          },
+          {
+            "section": "State 0, 1",
+            "line": 2721,
+            "fields": {
+              "type": [
+                "HitDef"
+              ],
+              "triggerall": [
+                "enemy,stateno != 5110",
+                "enemy,stateno != [6195004,6195007]"
+              ],
+              "trigger1": [
+                "time = 0"
+              ],
+              "attr": [
+                "S, SP"
+              ],
+              "damage": [
+                "90,45"
+              ],
+              "animtype": [
+                "Hard"
+              ],
+              "guardflag": [
+                "MA"
+              ],
+              "hitflag": [
+                "MAFD"
+              ],
+              "priority": [
+                "3, Hit"
+              ],
+              "pausetime": [
+                "0,0"
+              ],
+              "sparkno": [
+                "-1"
+              ],
+              "guard.sparkno": [
+                "-1"
+              ],
+              "sparkxy": [
+                "0,0"
+              ],
+              "hitsound": [
+                "-1"
+              ],
+              "guardsound": [
+                "-1"
+              ],
+              "ground.type": [
+                "High"
+              ],
+              "ground.slidetime": [
+                "16"
+              ],
+              "ground.hittime": [
+                "20"
+              ],
+              "ground.velocity": [
+                "-2,-9"
+              ],
+              "guard.velocity": [
+                "-3"
+              ],
+              "airguard.velocity": [
+                "-3"
+              ],
+              "air.type": [
+                "High"
+              ],
+              "air.velocity": [
+                "-2,-9"
+              ],
+              "air.hittime": [
+                "120"
+              ],
+              "envshake.time": [
+                "8"
+              ],
+              "envshake.freq": [
+                "100"
+              ],
+              "down.velocity": [
+                "-2,-10.5"
+              ],
+              "ground.cornerpush.veloff": [
+                "0"
+              ],
+              "air.cornerpush.veloff": [
+                "0"
+              ],
+              "down.cornerpush.veloff": [
+                "0"
+              ],
+              "guard.cornerpush.veloff": [
+                "0"
+              ],
+              "airguard.cornerpush.veloff": [
+                "0"
+              ],
+              "palfx.time": [
+                "5"
+              ],
+              "palfx.add": [
+                "70,0,0"
+              ],
+              "palfx.mul": [
+                "256,256,256"
+              ],
+              "palfx.sinadd": [
+                "0,0,0,1"
+              ],
+              "palfx.invertall": [
+                "0"
+              ],
+              "palfx.color": [
+                "256"
+              ],
+              "p2stateno": [
+                "6195004"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2722
+              ],
+              "triggerall": [
+                2723,
+                2724
+              ],
+              "trigger1": [
+                2725
+              ],
+              "attr": [
+                2726
+              ],
+              "damage": [
+                2727
+              ],
+              "animtype": [
+                2728
+              ],
+              "guardflag": [
+                2729
+              ],
+              "hitflag": [
+                2730
+              ],
+              "priority": [
+                2731
+              ],
+              "pausetime": [
+                2732
+              ],
+              "sparkno": [
+                2733
+              ],
+              "guard.sparkno": [
+                2734
+              ],
+              "sparkxy": [
+                2735
+              ],
+              "hitsound": [
+                2736
+              ],
+              "guardsound": [
+                2737
+              ],
+              "ground.type": [
+                2738
+              ],
+              "ground.slidetime": [
+                2739
+              ],
+              "ground.hittime": [
+                2740
+              ],
+              "ground.velocity": [
+                2741
+              ],
+              "guard.velocity": [
+                2742
+              ],
+              "airguard.velocity": [
+                2743
+              ],
+              "air.type": [
+                2744
+              ],
+              "air.velocity": [
+                2745
+              ],
+              "air.hittime": [
+                2746
+              ],
+              "envshake.time": [
+                2747
+              ],
+              "envshake.freq": [
+                2748
+              ],
+              "down.velocity": [
+                2749
+              ],
+              "ground.cornerpush.veloff": [
+                2750
+              ],
+              "air.cornerpush.veloff": [
+                2751
+              ],
+              "down.cornerpush.veloff": [
+                2752
+              ],
+              "guard.cornerpush.veloff": [
+                2753
+              ],
+              "airguard.cornerpush.veloff": [
+                2754
+              ],
+              "palfx.time": [
+                2755
+              ],
+              "palfx.add": [
+                2756
+              ],
+              "palfx.mul": [
+                2757
+              ],
+              "palfx.sinadd": [
+                2758
+              ],
+              "palfx.invertall": [
+                2759
+              ],
+              "palfx.color": [
+                2760
+              ],
+              "p2stateno": [
+                2761
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 2763,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "animelem = 1"
+              ],
+              "value": [
+                "S0,24"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2764
+              ],
+              "trigger1": [
+                2765
+              ],
+              "value": [
+                2766
+              ],
+              "volume": [
+                2767
+              ],
+              "channel": [
+                2768
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 2770,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "animelem = 2"
+              ],
+              "value": [
+                "S0,25"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2771
+              ],
+              "trigger1": [
+                2772
+              ],
+              "value": [
+                2773
+              ],
+              "volume": [
+                2774
+              ],
+              "channel": [
+                2775
+              ]
+            }
+          },
+          {
+            "section": "State 0, DestroySelf",
+            "line": 2777,
+            "fields": {
+              "type": [
+                "DestroySelf"
+              ],
+              "trigger1": [
+                "animtime = 0"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                2778
+              ],
+              "trigger1": [
+                2779
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "commands": [
+      {
+        "section": "State -1, SPECIAL101112",
+        "line": 906,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "value": [
+            "1012"
+          ],
+          "triggerall": [
+            "numhelper(6191012) = 0",
+            "var(59) != 1",
+            "statetype != A"
+          ],
+          "trigger1": [
+            "stateno = [200,451]",
+            "command = \"SPECIAL10\""
+          ],
+          "trigger2": [
+            "stateno = [200,451]",
+            "command = \"SPECIAL10\"",
+            "movecontact = 1"
+          ],
+          "trigger3": [
+            "command = \"SPECIAL10\"",
+            "statetype = S",
+            "ctrl"
+          ],
+          "trigger4": [
+            "command = \"SPECIAL11\"",
+            "stateno = 220",
+            "time >= 16"
+          ],
+          "trigger5": [
+            "command = \"SPECIAL11\"",
+            "stateno = 450",
+            "time >= 16"
+          ],
+          "trigger6": [
+            "stateno = [200,451]",
+            "command = \"SPECIAL11\""
+          ],
+          "trigger7": [
+            "stateno = [200,451]",
+            "command = \"SPECIAL11\"",
+            "movecontact = 1"
+          ],
+          "trigger8": [
+            "command = \"SPECIAL11\"",
+            "statetype = S",
+            "ctrl"
+          ],
+          "trigger9": [
+            "command = \"SPECIAL11\"",
+            "stateno = 220",
+            "time >= 16"
+          ],
+          "trigger10": [
+            "command = \"SPECIAL11\"",
+            "stateno = 450",
+            "time >= 16"
+          ],
+          "trigger11": [
+            "stateno = [200,451]",
+            "command = \"SPECIAL12\""
+          ],
+          "trigger12": [
+            "stateno = [200,451]",
+            "command = \"SPECIAL12\"",
+            "movecontact = 1"
+          ],
+          "trigger13": [
+            "command = \"SPECIAL12\"",
+            "statetype = S",
+            "ctrl"
+          ],
+          "trigger14": [
+            "command = \"SPECIAL12\"",
+            "stateno = 220",
+            "time >= 16"
+          ],
+          "trigger15": [
+            "command = \"SPECIAL12\"",
+            "stateno = 450",
+            "time >= 16"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            907
+          ],
+          "value": [
+            908
+          ],
+          "triggerall": [
+            909,
+            910,
+            911
+          ],
+          "trigger1": [
+            912,
+            913
+          ],
+          "trigger2": [
+            914,
+            915,
+            916
+          ],
+          "trigger3": [
+            917,
+            918,
+            919
+          ],
+          "trigger4": [
+            920,
+            921,
+            922
+          ],
+          "trigger5": [
+            923,
+            924,
+            925
+          ],
+          "trigger6": [
+            926,
+            927
+          ],
+          "trigger7": [
+            928,
+            929,
+            930
+          ],
+          "trigger8": [
+            931,
+            932,
+            933
+          ],
+          "trigger9": [
+            934,
+            935,
+            936
+          ],
+          "trigger10": [
+            937,
+            938,
+            939
+          ],
+          "trigger11": [
+            940,
+            941
+          ],
+          "trigger12": [
+            942,
+            943,
+            944
+          ],
+          "trigger13": [
+            945,
+            946,
+            947
+          ],
+          "trigger14": [
+            948,
+            949,
+            950
+          ],
+          "trigger15": [
+            951,
+            952,
+            953
+          ]
+        }
+      }
+    ],
+    "effect_actions": [
+      "6191012",
+      "6201012"
+    ],
+    "confidence": "SOURCE_TEXT_AND_PIXEL_DECODED; actualGodotruntime verified by focused checks; semantic listening pending"
+  },
+  {
+    "slot": "i",
+    "file": "hypers.cns",
+    "states": [
+      {
+        "file": "hypers.cns",
+        "id": 3005,
+        "line": 1126,
+        "header": {
+          "type": [
+            "S"
+          ],
+          "movetype": [
+            "A"
+          ],
+          "physics": [
+            "S"
+          ],
+          "anim": [
+            "3005"
+          ],
+          "velset": [
+            "0,0"
+          ],
+          "ctrl": [
+            "0"
+          ],
+          "sprpriority": [
+            "7"
+          ],
+          "poweradd": [
+            "-2000"
+          ]
+        },
+        "controllers": [
+          {
+            "section": "State 0, BGPalFX",
+            "line": 1137,
+            "fields": {
+              "type": [
+                "BGPalFX"
+              ],
+              "trigger1": [
+                "time = 0"
+              ],
+              "time": [
+                "50"
+              ],
+              "add": [
+                "0,0,0"
+              ],
+              "mul": [
+                "3,1,1"
+              ],
+              "sinadd": [
+                "0,0,0,10"
+              ],
+              "invertall": [
+                "0"
+              ],
+              "color": [
+                "256"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1138
+              ],
+              "trigger1": [
+                1139
+              ],
+              "time": [
+                1140
+              ],
+              "add": [
+                1141
+              ],
+              "mul": [
+                1142
+              ],
+              "sinadd": [
+                1143
+              ],
+              "invertall": [
+                1144
+              ],
+              "color": [
+                1145
+              ]
+            }
+          },
+          {
+            "section": "State 0, AllPalFX",
+            "line": 1147,
+            "fields": {
+              "type": [
+                "AllPalFX"
+              ],
+              "trigger1": [
+                "time = 0"
+              ],
+              "time": [
+                "1"
+              ],
+              "add": [
+                "255,255,255"
+              ],
+              "mul": [
+                "256,256,256"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1148
+              ],
+              "trigger1": [
+                1149
+              ],
+              "time": [
+                1150
+              ],
+              "add": [
+                1151
+              ],
+              "mul": [
+                1152
+              ]
+            }
+          },
+          {
+            "section": "State 0, AssertSpecial",
+            "line": 1154,
+            "fields": {
+              "type": [
+                "AssertSpecial"
+              ],
+              "trigger1": [
+                "1"
+              ],
+              "flag": [
+                "nobardisplay"
+              ],
+              "ignorehitpause": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1155
+              ],
+              "trigger1": [
+                1156
+              ],
+              "flag": [
+                1157
+              ],
+              "ignorehitpause": [
+                1158
+              ]
+            }
+          },
+          {
+            "section": "State 0, AssertSpecial",
+            "line": 1160,
+            "fields": {
+              "type": [
+                "AssertSpecial"
+              ],
+              "trigger1": [
+                "1"
+              ],
+              "flag": [
+                "noBG"
+              ],
+              "flag2": [
+                "noFG"
+              ],
+              "ignorehitpause": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1161
+              ],
+              "trigger1": [
+                1162
+              ],
+              "flag": [
+                1163
+              ],
+              "flag2": [
+                1164
+              ],
+              "ignorehitpause": [
+                1165
+              ]
+            }
+          },
+          {
+            "section": "State 0, Explod",
+            "line": 1167,
+            "fields": {
+              "type": [
+                "Explod"
+              ],
+              "trigger1": [
+                "Time = 0"
+              ],
+              "anim": [
+                "6193"
+              ],
+              "id": [
+                "6193"
+              ],
+              "pos": [
+                "Ceil(0*Const(size.xscale)),Ceil(-75*Const(size.yscale))"
+              ],
+              "postype": [
+                "P1"
+              ],
+              "facing": [
+                "1"
+              ],
+              "bindtime": [
+                "-1"
+              ],
+              "removetime": [
+                "-2",
+                "-2"
+              ],
+              "supermove": [
+                "1"
+              ],
+              "pausemove": [
+                "1"
+              ],
+              "scale": [
+                "1,1"
+              ],
+              "sprpriority": [
+                "7"
+              ],
+              "ontop": [
+                "1"
+              ],
+              "shadow": [
+                "0"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "supermovetime": [
+                "-1"
+              ],
+              "pausemovetime": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1168
+              ],
+              "trigger1": [
+                1169
+              ],
+              "anim": [
+                1170
+              ],
+              "id": [
+                1171
+              ],
+              "pos": [
+                1172
+              ],
+              "postype": [
+                1173
+              ],
+              "facing": [
+                1174
+              ],
+              "bindtime": [
+                1175
+              ],
+              "removetime": [
+                1176,
+                1184
+              ],
+              "supermove": [
+                1177
+              ],
+              "pausemove": [
+                1178
+              ],
+              "scale": [
+                1179
+              ],
+              "sprpriority": [
+                1180
+              ],
+              "ontop": [
+                1181
+              ],
+              "shadow": [
+                1182
+              ],
+              "ownpal": [
+                1183
+              ],
+              "supermovetime": [
+                1185
+              ],
+              "pausemovetime": [
+                1186
+              ]
+            }
+          },
+          {
+            "section": "State 0, SuperPause",
+            "line": 1188,
+            "fields": {
+              "type": [
+                "SuperPause"
+              ],
+              "trigger1": [
+                "time = 0"
+              ],
+              "time": [
+                "50"
+              ],
+              "anim": [
+                "3005"
+              ],
+              "pos": [
+                "0,0"
+              ],
+              "move": [
+                "1"
+              ],
+              "movetime": [
+                "50"
+              ],
+              "darken": [
+                "0"
+              ],
+              "p2defmul": [
+                "0"
+              ],
+              "poweradd": [
+                "0"
+              ],
+              "unhittable": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1189
+              ],
+              "trigger1": [
+                1190
+              ],
+              "time": [
+                1191
+              ],
+              "anim": [
+                1192
+              ],
+              "pos": [
+                1193
+              ],
+              "move": [
+                1194
+              ],
+              "movetime": [
+                1195
+              ],
+              "darken": [
+                1196
+              ],
+              "p2defmul": [
+                1197
+              ],
+              "poweradd": [
+                1198
+              ],
+              "unhittable": [
+                1199
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 1201,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "time = 0"
+              ],
+              "value": [
+                "S0,32"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1202
+              ],
+              "trigger1": [
+                1203
+              ],
+              "value": [
+                1204
+              ],
+              "volume": [
+                1205
+              ],
+              "channel": [
+                1206
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 1208,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "time = 0"
+              ],
+              "value": [
+                "S1,7"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1209
+              ],
+              "trigger1": [
+                1210
+              ],
+              "value": [
+                1211
+              ],
+              "volume": [
+                1212
+              ],
+              "channel": [
+                1213
+              ]
+            }
+          },
+          {
+            "section": "State 3005, 2",
+            "line": 1215,
+            "fields": {
+              "type": [
+                "ChangeState"
+              ],
+              "trigger1": [
+                "AnimTime = 0"
+              ],
+              "value": [
+                "3006"
+              ],
+              "ctrl": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1216
+              ],
+              "trigger1": [
+                1217
+              ],
+              "value": [
+                1218
+              ],
+              "ctrl": [
+                1219
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "file": "hypers.cns",
+        "id": 3006,
+        "line": 1222,
+        "header": {
+          "type": [
+            "S"
+          ],
+          "movetype": [
+            "I"
+          ],
+          "physics": [
+            "S"
+          ],
+          "juggle": [
+            "0"
+          ],
+          "poweradd": [
+            "0"
+          ],
+          "ctrl": [
+            "0"
+          ],
+          "velset": [
+            "0,0"
+          ],
+          "anim": [
+            "3006"
+          ]
+        },
+        "controllers": [
+          {
+            "section": "State 0, NotHitBy",
+            "line": 1232,
+            "fields": {
+              "type": [
+                "NotHitBy"
+              ],
+              "trigger1": [
+                "1"
+              ],
+              "value": [
+                "SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT"
+              ],
+              "time": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1233
+              ],
+              "trigger1": [
+                1234
+              ],
+              "value": [
+                1235
+              ],
+              "time": [
+                1236
+              ]
+            }
+          },
+          {
+            "section": "State 0, Helper",
+            "line": 1238,
+            "fields": {
+              "type": [
+                "Helper"
+              ],
+              "trigger1": [
+                "time = 50 && numhelper(3007) = 0"
+              ],
+              "helpertype": [
+                "normal"
+              ],
+              "name": [
+                "\"M66\""
+              ],
+              "id": [
+                "3007"
+              ],
+              "stateno": [
+                "3007"
+              ],
+              "pos": [
+                "100,0"
+              ],
+              "postype": [
+                "back"
+              ],
+              "facing": [
+                "1"
+              ],
+              "keyctrl": [
+                "0"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "size.xscale": [
+                "1"
+              ],
+              "size.yscale": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1239
+              ],
+              "trigger1": [
+                1240
+              ],
+              "helpertype": [
+                1241
+              ],
+              "name": [
+                1242
+              ],
+              "id": [
+                1243
+              ],
+              "stateno": [
+                1244
+              ],
+              "pos": [
+                1245
+              ],
+              "postype": [
+                1246
+              ],
+              "facing": [
+                1247
+              ],
+              "keyctrl": [
+                1248
+              ],
+              "ownpal": [
+                1249
+              ],
+              "size.xscale": [
+                1250
+              ],
+              "size.yscale": [
+                1251
+              ]
+            }
+          },
+          {
+            "section": "State 0, ",
+            "line": 1253,
+            "fields": {
+              "type": [
+                "ScreenBound"
+              ],
+              "trigger1": [
+                "stateno = 3006"
+              ],
+              "value": [
+                "0"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1254
+              ],
+              "trigger1": [
+                1255
+              ],
+              "value": [
+                1256
+              ]
+            }
+          },
+          {
+            "section": "State 0, VelSet",
+            "line": 1258,
+            "fields": {
+              "type": [
+                "VelSet"
+              ],
+              "trigger1": [
+                "time > 0"
+              ],
+              "x": [
+                "-10"
+              ],
+              "y": [
+                "0"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1259
+              ],
+              "trigger1": [
+                1260
+              ],
+              "x": [
+                1261
+              ],
+              "y": [
+                1262
+              ]
+            }
+          },
+          {
+            "section": "State 0, VelSet",
+            "line": 1264,
+            "fields": {
+              "type": [
+                "VelSet"
+              ],
+              "trigger1": [
+                "time > 50"
+              ],
+              "x": [
+                "0"
+              ],
+              "y": [
+                "0"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1265
+              ],
+              "trigger1": [
+                1266
+              ],
+              "x": [
+                1267
+              ],
+              "y": [
+                1268
+              ]
+            }
+          },
+          {
+            "section": "State 0, VarSet",
+            "line": 1270,
+            "fields": {
+              "type": [
+                "VarSet"
+              ],
+              "trigger1": [
+                "1"
+              ],
+              "v": [
+                "0"
+              ],
+              "value": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1271
+              ],
+              "trigger1": [
+                1272
+              ],
+              "v": [
+                1273
+              ],
+              "value": [
+                1274
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 1276,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "time = 0"
+              ],
+              "value": [
+                "S0,2"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1277
+              ],
+              "trigger1": [
+                1278
+              ],
+              "value": [
+                1279
+              ],
+              "volume": [
+                1280
+              ],
+              "channel": [
+                1281
+              ]
+            }
+          },
+          {
+            "section": "State 3006, 5",
+            "line": 1283,
+            "fields": {
+              "type": [
+                "ChangeState"
+              ],
+              "triggerall": [
+                "var(20) != 0"
+              ],
+              "trigger1": [
+                "time >= 500"
+              ],
+              "trigger2": [
+                "win = 1"
+              ],
+              "trigger3": [
+                "lose = 1"
+              ],
+              "value": [
+                "102"
+              ],
+              "ctrl": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1284
+              ],
+              "triggerall": [
+                1285
+              ],
+              "trigger1": [
+                1286
+              ],
+              "trigger2": [
+                1287
+              ],
+              "trigger3": [
+                1288
+              ],
+              "value": [
+                1289
+              ],
+              "ctrl": [
+                1290
+              ]
+            }
+          },
+          {
+            "section": "State 3006, 5",
+            "line": 1292,
+            "fields": {
+              "type": [
+                "ChangeState"
+              ],
+              "triggerall": [
+                "var(20) = 0"
+              ],
+              "trigger1": [
+                "time >= 500"
+              ],
+              "trigger2": [
+                "win = 1"
+              ],
+              "trigger3": [
+                "lose = 1"
+              ],
+              "value": [
+                "6193006"
+              ],
+              "ctrl": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1293
+              ],
+              "triggerall": [
+                1294
+              ],
+              "trigger1": [
+                1295
+              ],
+              "trigger2": [
+                1296
+              ],
+              "trigger3": [
+                1297
+              ],
+              "value": [
+                1298
+              ],
+              "ctrl": [
+                1299
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "file": "hypers.cns",
+        "id": 3007,
+        "line": 1397,
+        "header": {
+          "type": [
+            "S"
+          ],
+          "movetype": [
+            "I"
+          ],
+          "physics": [
+            "S"
+          ],
+          "juggle": [
+            "0"
+          ],
+          "poweradd": [
+            "0"
+          ],
+          "ctrl": [
+            "0"
+          ],
+          "anim": [
+            "3007"
+          ],
+          "sprpriority": [
+            "9"
+          ]
+        },
+        "controllers": [
+          {
+            "section": "State 0, ",
+            "line": 1407,
+            "fields": {
+              "type": [
+                "ScreenBound"
+              ],
+              "trigger1": [
+                "1"
+              ],
+              "value": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1408
+              ],
+              "trigger1": [
+                1409
+              ],
+              "value": [
+                1410
+              ]
+            }
+          },
+          {
+            "section": "State 0, PosSet",
+            "line": 1412,
+            "fields": {
+              "type": [
+                "PosSet"
+              ],
+              "trigger1": [
+                "1"
+              ],
+              "y": [
+                "-40"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1413
+              ],
+              "trigger1": [
+                1414
+              ],
+              "y": [
+                1415
+              ]
+            }
+          },
+          {
+            "section": "State 0, NotHitBy",
+            "line": 1417,
+            "fields": {
+              "type": [
+                "NotHitBy"
+              ],
+              "trigger1": [
+                "1"
+              ],
+              "value": [
+                "SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT"
+              ],
+              "time": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1418
+              ],
+              "trigger1": [
+                1419
+              ],
+              "value": [
+                1420
+              ],
+              "time": [
+                1421
+              ]
+            }
+          },
+          {
+            "section": "State 0, Explod",
+            "line": 1425,
+            "fields": {
+              "type": [
+                "Explod"
+              ],
+              "trigger1": [
+                "parent,command = \"x\""
+              ],
+              "trigger2": [
+                "parent,command = \"y\""
+              ],
+              "trigger3": [
+                "parent,command = \"z\""
+              ],
+              "trigger4": [
+                "parent,command = \"a\""
+              ],
+              "trigger5": [
+                "parent,command = \"b\""
+              ],
+              "trigger6": [
+                "parent,command = \"c\""
+              ],
+              "anim": [
+                "6193007"
+              ],
+              "id": [
+                "6193007"
+              ],
+              "pos": [
+                "50,0"
+              ],
+              "postype": [
+                "p1"
+              ],
+              "facing": [
+                "1"
+              ],
+              "bindtime": [
+                "1"
+              ],
+              "removetime": [
+                "-2"
+              ],
+              "scale": [
+                "1,1"
+              ],
+              "sprpriority": [
+                "7"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "ontop": [
+                "0"
+              ],
+              "removeongethit": [
+                "1"
+              ],
+              "ignorehitpause": [
+                "-1"
+              ],
+              "supermovetime": [
+                "999"
+              ],
+              "pausemovetime": [
+                "999"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1426
+              ],
+              "trigger1": [
+                1427
+              ],
+              "trigger2": [
+                1428
+              ],
+              "trigger3": [
+                1429
+              ],
+              "trigger4": [
+                1430
+              ],
+              "trigger5": [
+                1431
+              ],
+              "trigger6": [
+                1432
+              ],
+              "anim": [
+                1433
+              ],
+              "id": [
+                1434
+              ],
+              "pos": [
+                1435
+              ],
+              "postype": [
+                1436
+              ],
+              "facing": [
+                1437
+              ],
+              "bindtime": [
+                1438
+              ],
+              "removetime": [
+                1439
+              ],
+              "scale": [
+                1440
+              ],
+              "sprpriority": [
+                1441
+              ],
+              "ownpal": [
+                1442
+              ],
+              "ontop": [
+                1443
+              ],
+              "removeongethit": [
+                1444
+              ],
+              "ignorehitpause": [
+                1445
+              ],
+              "supermovetime": [
+                1446
+              ],
+              "pausemovetime": [
+                1447
+              ]
+            }
+          },
+          {
+            "section": "State 0, EnvShake",
+            "line": 1449,
+            "fields": {
+              "type": [
+                "EnvShake"
+              ],
+              "trigger1": [
+                "parent,command = \"x\""
+              ],
+              "trigger2": [
+                "parent,command = \"y\""
+              ],
+              "trigger3": [
+                "parent,command = \"z\""
+              ],
+              "trigger4": [
+                "parent,command = \"a\""
+              ],
+              "trigger5": [
+                "parent,command = \"b\""
+              ],
+              "trigger6": [
+                "parent,command = \"c\""
+              ],
+              "time": [
+                "40"
+              ],
+              "freq": [
+                "300"
+              ],
+              "ampl": [
+                "-4"
+              ],
+              "phase": [
+                "90"
+              ],
+              "ignorehitpause": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1450
+              ],
+              "trigger1": [
+                1451
+              ],
+              "trigger2": [
+                1452
+              ],
+              "trigger3": [
+                1453
+              ],
+              "trigger4": [
+                1454
+              ],
+              "trigger5": [
+                1455
+              ],
+              "trigger6": [
+                1456
+              ],
+              "time": [
+                1457
+              ],
+              "freq": [
+                1458
+              ],
+              "ampl": [
+                1459
+              ],
+              "phase": [
+                1460
+              ],
+              "ignorehitpause": [
+                1461
+              ]
+            }
+          },
+          {
+            "section": "State 0, PosAdd",
+            "line": 1464,
+            "fields": {
+              "type": [
+                "PosAdd"
+              ],
+              "trigger1": [
+                "parent,var(59) = 1",
+                "time > 0"
+              ],
+              "x": [
+                "(p2dist x)"
+              ],
+              "y": [
+                "pos y = 0"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1465
+              ],
+              "trigger1": [
+                1466,
+                1467
+              ],
+              "x": [
+                1468
+              ],
+              "y": [
+                1469
+              ]
+            }
+          },
+          {
+            "section": "State 0, Helper",
+            "line": 1471,
+            "fields": {
+              "type": [
+                "Helper"
+              ],
+              "triggerall": [
+                "var(59) = 1"
+              ],
+              "trigger1": [
+                "TimeMod = 150,5"
+              ],
+              "helpertype": [
+                "normal"
+              ],
+              "name": [
+                "\"FIRE\""
+              ],
+              "id": [
+                "3008"
+              ],
+              "stateno": [
+                "3008"
+              ],
+              "pos": [
+                "50,20"
+              ],
+              "postype": [
+                "p1"
+              ],
+              "facing": [
+                "1"
+              ],
+              "keyctrl": [
+                "0"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "size.xscale": [
+                "1"
+              ],
+              "size.yscale": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1472
+              ],
+              "triggerall": [
+                1473
+              ],
+              "trigger1": [
+                1474
+              ],
+              "helpertype": [
+                1475
+              ],
+              "name": [
+                1476
+              ],
+              "id": [
+                1477
+              ],
+              "stateno": [
+                1478
+              ],
+              "pos": [
+                1479
+              ],
+              "postype": [
+                1480
+              ],
+              "facing": [
+                1481
+              ],
+              "keyctrl": [
+                1482
+              ],
+              "ownpal": [
+                1483
+              ],
+              "size.xscale": [
+                1484
+              ],
+              "size.yscale": [
+                1485
+              ]
+            }
+          },
+          {
+            "section": "State 0, Helper",
+            "line": 1487,
+            "fields": {
+              "type": [
+                "Helper"
+              ],
+              "triggerall": [
+                "var(59) != 1"
+              ],
+              "trigger1": [
+                "parent,command = \"x\""
+              ],
+              "trigger2": [
+                "parent,command = \"y\""
+              ],
+              "trigger3": [
+                "parent,command = \"z\""
+              ],
+              "trigger4": [
+                "parent,command = \"a\""
+              ],
+              "trigger5": [
+                "parent,command = \"b\""
+              ],
+              "trigger6": [
+                "parent,command = \"c\""
+              ],
+              "helpertype": [
+                "normal"
+              ],
+              "name": [
+                "\"FIRE\""
+              ],
+              "id": [
+                "3008"
+              ],
+              "stateno": [
+                "3008"
+              ],
+              "pos": [
+                "50,20"
+              ],
+              "postype": [
+                "p1"
+              ],
+              "facing": [
+                "1"
+              ],
+              "keyctrl": [
+                "0"
+              ],
+              "ownpal": [
+                "1"
+              ],
+              "size.xscale": [
+                "1"
+              ],
+              "size.yscale": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1488
+              ],
+              "triggerall": [
+                1489
+              ],
+              "trigger1": [
+                1490
+              ],
+              "trigger2": [
+                1491
+              ],
+              "trigger3": [
+                1492
+              ],
+              "trigger4": [
+                1493
+              ],
+              "trigger5": [
+                1494
+              ],
+              "trigger6": [
+                1495
+              ],
+              "helpertype": [
+                1496
+              ],
+              "name": [
+                1497
+              ],
+              "id": [
+                1498
+              ],
+              "stateno": [
+                1499
+              ],
+              "pos": [
+                1500
+              ],
+              "postype": [
+                1501
+              ],
+              "facing": [
+                1502
+              ],
+              "keyctrl": [
+                1503
+              ],
+              "ownpal": [
+                1504
+              ],
+              "size.xscale": [
+                1505
+              ],
+              "size.yscale": [
+                1506
+              ]
+            }
+          },
+          {
+            "section": "State 0, AssertSpecial",
+            "line": 1508,
+            "fields": {
+              "type": [
+                "AssertSpecial"
+              ],
+              "trigger1": [
+                "1"
+              ],
+              "flag": [
+                "noshadow"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1509
+              ],
+              "trigger1": [
+                1510
+              ],
+              "flag": [
+                1511
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 1513,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "parent,command = \"x\""
+              ],
+              "trigger2": [
+                "parent,command = \"y\""
+              ],
+              "trigger3": [
+                "parent,command = \"z\""
+              ],
+              "trigger4": [
+                "parent,command = \"a\""
+              ],
+              "trigger5": [
+                "parent,command = \"b\""
+              ],
+              "trigger6": [
+                "parent,command = \"c\""
+              ],
+              "value": [
+                "S0,38"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1514
+              ],
+              "trigger1": [
+                1515
+              ],
+              "trigger2": [
+                1516
+              ],
+              "trigger3": [
+                1517
+              ],
+              "trigger4": [
+                1518
+              ],
+              "trigger5": [
+                1519
+              ],
+              "trigger6": [
+                1520
+              ],
+              "value": [
+                1521
+              ],
+              "volume": [
+                1522
+              ],
+              "channel": [
+                1523
+              ]
+            }
+          },
+          {
+            "section": "State 0, VelSet",
+            "line": 1526,
+            "fields": {
+              "type": [
+                "VelSet"
+              ],
+              "triggerall": [
+                "var(59) != 1"
+              ],
+              "trigger1": [
+                "parent,command != \"holdfwd\""
+              ],
+              "trigger2": [
+                "parent,command != \"holdback\""
+              ],
+              "trigger3": [
+                "parent,command != \"holdup\""
+              ],
+              "trigger4": [
+                "parent,command != \"holddown\""
+              ],
+              "x": [
+                "0"
+              ],
+              "y": [
+                "0"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1527
+              ],
+              "triggerall": [
+                1528
+              ],
+              "trigger1": [
+                1529
+              ],
+              "trigger2": [
+                1530
+              ],
+              "trigger3": [
+                1531
+              ],
+              "trigger4": [
+                1532
+              ],
+              "x": [
+                1533
+              ],
+              "y": [
+                1534
+              ]
+            }
+          },
+          {
+            "section": "State 0, VelSet",
+            "line": 1536,
+            "fields": {
+              "type": [
+                "VelSet"
+              ],
+              "triggerall": [
+                "var(59) != 1"
+              ],
+              "trigger1": [
+                "parent,command = \"holdfwd\""
+              ],
+              "x": [
+                "5"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1537
+              ],
+              "triggerall": [
+                1538
+              ],
+              "trigger1": [
+                1539
+              ],
+              "x": [
+                1540
+              ]
+            }
+          },
+          {
+            "section": "State 0, VelSet",
+            "line": 1542,
+            "fields": {
+              "type": [
+                "VelSet"
+              ],
+              "triggerall": [
+                "var(59) != 1"
+              ],
+              "trigger1": [
+                "parent,command = \"holdback\""
+              ],
+              "x": [
+                "-5"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1543
+              ],
+              "triggerall": [
+                1544
+              ],
+              "trigger1": [
+                1545
+              ],
+              "x": [
+                1546
+              ]
+            }
+          },
+          {
+            "section": "State 0, VelSet",
+            "line": 1548,
+            "fields": {
+              "type": [
+                "VelSet"
+              ],
+              "triggerall": [
+                "var(59) != 1"
+              ],
+              "trigger1": [
+                "parent,command = \"holdup\""
+              ],
+              "y": [
+                "-5"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1549
+              ],
+              "triggerall": [
+                1550
+              ],
+              "trigger1": [
+                1551
+              ],
+              "y": [
+                1552
+              ]
+            }
+          },
+          {
+            "section": "State 0, VelSet",
+            "line": 1554,
+            "fields": {
+              "type": [
+                "VelSet"
+              ],
+              "triggerall": [
+                "var(59) != 1"
+              ],
+              "trigger1": [
+                "parent,command = \"holddown\""
+              ],
+              "y": [
+                "5"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1555
+              ],
+              "triggerall": [
+                1556
+              ],
+              "trigger1": [
+                1557
+              ],
+              "y": [
+                1558
+              ]
+            }
+          },
+          {
+            "section": "State 0, 5",
+            "line": 1561,
+            "fields": {
+              "type": [
+                "ChangeState"
+              ],
+              "trigger1": [
+                "parent,command = \"x\""
+              ],
+              "trigger2": [
+                "parent,command = \"y\""
+              ],
+              "trigger3": [
+                "parent,command = \"z\""
+              ],
+              "trigger4": [
+                "parent,command = \"a\""
+              ],
+              "trigger5": [
+                "parent,command = \"b\""
+              ],
+              "trigger6": [
+                "parent,command = \"c\""
+              ],
+              "value": [
+                "6203007"
+              ],
+              "ctrl": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1562
+              ],
+              "trigger1": [
+                1563
+              ],
+              "trigger2": [
+                1564
+              ],
+              "trigger3": [
+                1565
+              ],
+              "trigger4": [
+                1566
+              ],
+              "trigger5": [
+                1567
+              ],
+              "trigger6": [
+                1568
+              ],
+              "value": [
+                1569
+              ],
+              "ctrl": [
+                1570
+              ]
+            }
+          },
+          {
+            "section": "State 0, ParentVarAdd",
+            "line": 1572,
+            "fields": {
+              "type": [
+                "ParentVarAdd"
+              ],
+              "trigger1": [
+                "var(20) = 1"
+              ],
+              "v": [
+                "20"
+              ],
+              "value": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1573
+              ],
+              "trigger1": [
+                1574
+              ],
+              "v": [
+                1575
+              ],
+              "value": [
+                1576
+              ]
+            }
+          },
+          {
+            "section": "State 0, DestroySelf",
+            "line": 1580,
+            "fields": {
+              "type": [
+                "DestroySelf"
+              ],
+              "trigger1": [
+                "parent,stateno = 102"
+              ],
+              "trigger2": [
+                "parent,stateno = 0"
+              ],
+              "trigger3": [
+                "parent,stateno != 3006"
+              ],
+              "trigger4": [
+                "parent,stateno = 6193006"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1581
+              ],
+              "trigger1": [
+                1582
+              ],
+              "trigger2": [
+                1583
+              ],
+              "trigger3": [
+                1584
+              ],
+              "trigger4": [
+                1585
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "file": "hypers.cns",
+        "id": 3008,
+        "line": 1634,
+        "header": {
+          "type": [
+            "S"
+          ],
+          "movetype": [
+            "A"
+          ],
+          "physics": [
+            "S"
+          ],
+          "juggle": [
+            "0"
+          ],
+          "poweradd": [
+            "0"
+          ],
+          "ctrl": [
+            "0"
+          ],
+          "anim": [
+            "3008"
+          ],
+          "sprpriority": [
+            "8"
+          ]
+        },
+        "controllers": [
+          {
+            "section": "State 0, AssertSpecial",
+            "line": 1644,
+            "fields": {
+              "type": [
+                "AssertSpecial"
+              ],
+              "trigger1": [
+                "1"
+              ],
+              "flag": [
+                "noshadow"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1645
+              ],
+              "trigger1": [
+                1646
+              ],
+              "flag": [
+                1647
+              ]
+            }
+          },
+          {
+            "section": "State 0, VelSet",
+            "line": 1649,
+            "fields": {
+              "type": [
+                "VelSet"
+              ],
+              "trigger1": [
+                "time = 0"
+              ],
+              "x": [
+                "-8"
+              ],
+              "y": [
+                "-2"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1650
+              ],
+              "trigger1": [
+                1651
+              ],
+              "x": [
+                1652
+              ],
+              "y": [
+                1653
+              ]
+            }
+          },
+          {
+            "section": "State 0, Gravity",
+            "line": 1657,
+            "fields": {
+              "type": [
+                "Gravity"
+              ],
+              "trigger1": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1658
+              ],
+              "trigger1": [
+                1659
+              ]
+            }
+          },
+          {
+            "section": "State 0, AngleDraw",
+            "line": 1663,
+            "fields": {
+              "type": [
+                "AngleDraw"
+              ],
+              "trigger1": [
+                "1"
+              ],
+              "value": [
+                "70"
+              ],
+              "scale": [
+                ".3,.3"
+              ],
+              "ignorehitpause": [
+                "1"
+              ],
+              "persistent": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1664
+              ],
+              "trigger1": [
+                1665
+              ],
+              "value": [
+                1666
+              ],
+              "scale": [
+                1667
+              ],
+              "ignorehitpause": [
+                1668
+              ],
+              "persistent": [
+                1669
+              ]
+            }
+          },
+          {
+            "section": "State 0, Trans",
+            "line": 1671,
+            "fields": {
+              "type": [
+                "Trans"
+              ],
+              "trigger1": [
+                "1"
+              ],
+              "trans": [
+                "add"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1672
+              ],
+              "trigger1": [
+                1673
+              ],
+              "trans": [
+                1674
+              ]
+            }
+          },
+          {
+            "section": "State 0, ParentVarAdd",
+            "line": 1676,
+            "fields": {
+              "type": [
+                "ParentVarAdd"
+              ],
+              "trigger1": [
+                "movehit = 1"
+              ],
+              "v": [
+                "20"
+              ],
+              "value": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1677
+              ],
+              "trigger1": [
+                1678
+              ],
+              "v": [
+                1679
+              ],
+              "value": [
+                1680
+              ]
+            }
+          },
+          {
+            "section": "State 3008, 5",
+            "line": 1684,
+            "fields": {
+              "type": [
+                "ChangeState"
+              ],
+              "trigger1": [
+                "animtime = 0"
+              ],
+              "value": [
+                "3009"
+              ],
+              "ctrl": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1685
+              ],
+              "trigger1": [
+                1686
+              ],
+              "value": [
+                1687
+              ],
+              "ctrl": [
+                1688
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "file": "hypers.cns",
+        "id": 3009,
+        "line": 1690,
+        "header": {
+          "type": [
+            "S"
+          ],
+          "movetype": [
+            "A"
+          ],
+          "physics": [
+            "N"
+          ],
+          "ctrl": [
+            "0"
+          ],
+          "anim": [
+            "3009"
+          ],
+          "poweradd": [
+            "0"
+          ],
+          "sprpriority": [
+            "7"
+          ]
+        },
+        "controllers": [
+          {
+            "section": "State 0, AssertSpecial",
+            "line": 1699,
+            "fields": {
+              "type": [
+                "AssertSpecial"
+              ],
+              "trigger1": [
+                "time > 0"
+              ],
+              "flag": [
+                "noshadow"
+              ],
+              "ignorehitpause": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1700
+              ],
+              "trigger1": [
+                1701
+              ],
+              "flag": [
+                1702
+              ],
+              "ignorehitpause": [
+                1703
+              ]
+            }
+          },
+          {
+            "section": "State 0, VelSet",
+            "line": 1705,
+            "fields": {
+              "type": [
+                "VelSet"
+              ],
+              "trigger1": [
+                "time > 0"
+              ],
+              "x": [
+                "-1"
+              ],
+              "y": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1706
+              ],
+              "trigger1": [
+                1707
+              ],
+              "x": [
+                1708
+              ],
+              "y": [
+                1709
+              ]
+            }
+          },
+          {
+            "section": "State 0, ParentVarAdd",
+            "line": 1711,
+            "fields": {
+              "type": [
+                "ParentVarAdd"
+              ],
+              "trigger1": [
+                "movehit = 1"
+              ],
+              "v": [
+                "20"
+              ],
+              "value": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1712
+              ],
+              "trigger1": [
+                1713
+              ],
+              "v": [
+                1714
+              ],
+              "value": [
+                1715
+              ]
+            }
+          },
+          {
+            "section": "State 0, ParentVarAdd",
+            "line": 1719,
+            "fields": {
+              "type": [
+                "ParentVarAdd"
+              ],
+              "trigger1": [
+                "var(20) = 1"
+              ],
+              "v": [
+                "20"
+              ],
+              "value": [
+                "1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1720
+              ],
+              "trigger1": [
+                1721
+              ],
+              "v": [
+                1722
+              ],
+              "value": [
+                1723
+              ]
+            }
+          },
+          {
+            "section": "State 0, 1",
+            "line": 1727,
+            "fields": {
+              "type": [
+                "HitDef"
+              ],
+              "trigger1": [
+                "time = 0"
+              ],
+              "attr": [
+                "S, SA"
+              ],
+              "damage": [
+                "50,25"
+              ],
+              "animtype": [
+                "Hard"
+              ],
+              "guardflag": [
+                "MA"
+              ],
+              "hitflag": [
+                "MAFD"
+              ],
+              "priority": [
+                "3, Hit"
+              ],
+              "pausetime": [
+                "0,0"
+              ],
+              "sparkno": [
+                "-1"
+              ],
+              "guard.sparkno": [
+                "-1"
+              ],
+              "sparkxy": [
+                "0,0"
+              ],
+              "hitsound": [
+                "-1"
+              ],
+              "guardsound": [
+                "-1"
+              ],
+              "ground.type": [
+                "High"
+              ],
+              "ground.slidetime": [
+                "16"
+              ],
+              "ground.hittime": [
+                "20"
+              ],
+              "ground.velocity": [
+                "-2,-4"
+              ],
+              "guard.velocity": [
+                "-3"
+              ],
+              "airguard.velocity": [
+                "-3"
+              ],
+              "air.type": [
+                "High"
+              ],
+              "air.velocity": [
+                "-2,-4"
+              ],
+              "air.hittime": [
+                "120"
+              ],
+              "envshake.time": [
+                "8"
+              ],
+              "envshake.freq": [
+                "100"
+              ],
+              "down.velocity": [
+                "-2,-10.5"
+              ],
+              "ground.cornerpush.veloff": [
+                "0"
+              ],
+              "air.cornerpush.veloff": [
+                "0"
+              ],
+              "down.cornerpush.veloff": [
+                "0"
+              ],
+              "guard.cornerpush.veloff": [
+                "0"
+              ],
+              "airguard.cornerpush.veloff": [
+                "0"
+              ],
+              "palfx.time": [
+                "5"
+              ],
+              "palfx.add": [
+                "70,0,0"
+              ],
+              "palfx.mul": [
+                "256,256,256"
+              ],
+              "palfx.sinadd": [
+                "0,0,0,1"
+              ],
+              "palfx.invertall": [
+                "0"
+              ],
+              "palfx.color": [
+                "256"
+              ],
+              "fall": [
+                "1"
+              ],
+              "fall.recover": [
+                "0"
+              ],
+              "getpower": [
+                "0"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1728
+              ],
+              "trigger1": [
+                1729
+              ],
+              "attr": [
+                1730
+              ],
+              "damage": [
+                1731
+              ],
+              "animtype": [
+                1732
+              ],
+              "guardflag": [
+                1733
+              ],
+              "hitflag": [
+                1734
+              ],
+              "priority": [
+                1735
+              ],
+              "pausetime": [
+                1736
+              ],
+              "sparkno": [
+                1737
+              ],
+              "guard.sparkno": [
+                1738
+              ],
+              "sparkxy": [
+                1739
+              ],
+              "hitsound": [
+                1740
+              ],
+              "guardsound": [
+                1741
+              ],
+              "ground.type": [
+                1742
+              ],
+              "ground.slidetime": [
+                1743
+              ],
+              "ground.hittime": [
+                1744
+              ],
+              "ground.velocity": [
+                1745
+              ],
+              "guard.velocity": [
+                1746
+              ],
+              "airguard.velocity": [
+                1747
+              ],
+              "air.type": [
+                1748
+              ],
+              "air.velocity": [
+                1749
+              ],
+              "air.hittime": [
+                1750
+              ],
+              "envshake.time": [
+                1751
+              ],
+              "envshake.freq": [
+                1752
+              ],
+              "down.velocity": [
+                1753
+              ],
+              "ground.cornerpush.veloff": [
+                1754
+              ],
+              "air.cornerpush.veloff": [
+                1755
+              ],
+              "down.cornerpush.veloff": [
+                1756
+              ],
+              "guard.cornerpush.veloff": [
+                1757
+              ],
+              "airguard.cornerpush.veloff": [
+                1758
+              ],
+              "palfx.time": [
+                1759
+              ],
+              "palfx.add": [
+                1760
+              ],
+              "palfx.mul": [
+                1761
+              ],
+              "palfx.sinadd": [
+                1762
+              ],
+              "palfx.invertall": [
+                1763
+              ],
+              "palfx.color": [
+                1764
+              ],
+              "fall": [
+                1765
+              ],
+              "fall.recover": [
+                1766
+              ],
+              "getpower": [
+                1767
+              ]
+            }
+          },
+          {
+            "section": "State 0, PlaySnd",
+            "line": 1769,
+            "fields": {
+              "type": [
+                "PlaySnd"
+              ],
+              "trigger1": [
+                "animelem = 2"
+              ],
+              "value": [
+                "S0,25"
+              ],
+              "volume": [
+                "255"
+              ],
+              "channel": [
+                "-1"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1770
+              ],
+              "trigger1": [
+                1771
+              ],
+              "value": [
+                1772
+              ],
+              "volume": [
+                1773
+              ],
+              "channel": [
+                1774
+              ]
+            }
+          },
+          {
+            "section": "State 0, ChangeState",
+            "line": 1776,
+            "fields": {
+              "type": [
+                "ChangeState"
+              ],
+              "trigger1": [
+                "animtime = 0"
+              ],
+              "value": [
+                "3010"
+              ],
+              "ctrl": [
+                "0"
+              ]
+            },
+            "field_lines": {
+              "type": [
+                1777
+              ],
+              "trigger1": [
+                1778
+              ],
+              "value": [
+                1779
+              ],
+              "ctrl": [
+                1780
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "commands": [
+      {
+        "section": "State -1, HYPER3",
+        "line": 685,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "value": [
+            "3005"
+          ],
+          "triggerall": [
+            "var(59) != 1",
+            "statetype != A",
+            "power >= 2000"
+          ],
+          "trigger1": [
+            "stateno = [200,451]",
+            "command = \"HYPER3\""
+          ],
+          "trigger2": [
+            "stateno = [200,451]",
+            "command = \"HYPER3\"",
+            "movecontact = 1"
+          ],
+          "trigger3": [
+            "command = \"HYPER3\"",
+            "statetype = S",
+            "ctrl"
+          ],
+          "trigger4": [
+            "command = \"HYPER3\"",
+            "stateno = 220",
+            "time >= 16"
+          ],
+          "trigger5": [
+            "command = \"HYPER3\"",
+            "stateno = 450",
+            "time >= 16"
+          ],
+          "trigger6": [
+            "command = \"HYPER3\"",
+            "stateno = [1000,1012]"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            686
+          ],
+          "value": [
+            687
+          ],
+          "triggerall": [
+            688,
+            689,
+            690
+          ],
+          "trigger1": [
+            691,
+            692
+          ],
+          "trigger2": [
+            693,
+            694,
+            695
+          ],
+          "trigger3": [
+            696,
+            697,
+            698
+          ],
+          "trigger4": [
+            699,
+            700,
+            701
+          ],
+          "trigger5": [
+            702,
+            703,
+            704
+          ],
+          "trigger6": [
+            705,
+            706
+          ]
+        }
+      },
+      {
+        "section": "State -1,LVL3 HYPER AI",
+        "line": 1759,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "power >= 2000 && power <= 2100",
+            "alive = 1",
+            "roundstate = 2 && movetype != H",
+            "var(59) = 1"
+          ],
+          "value": [
+            "3005"
+          ],
+          "trigger1": [
+            "ctrl",
+            "statetype = S"
+          ],
+          "trigger2": [
+            "statetype = S",
+            "power >= 2000",
+            "stateno = [200,451]",
+            "movecontact"
+          ],
+          "trigger3": [
+            "power >= 2000",
+            "stateno = [1000,1011]",
+            "animtime = 0"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            1760
+          ],
+          "triggerall": [
+            1761,
+            1762,
+            1764,
+            1765
+          ],
+          "value": [
+            1763
+          ],
+          "trigger1": [
+            1766,
+            1767
+          ],
+          "trigger2": [
+            1768,
+            1769,
+            1770,
+            1771
+          ],
+          "trigger3": [
+            1772,
+            1773,
+            1774
+          ]
+        }
+      }
+    ],
+    "effect_actions": [
+      "3008",
+      "3009",
+      "6193007"
+    ],
+    "confidence": "SOURCE_TEXT_AND_PIXEL_DECODED; actualGodotruntime verified by focused checks; semantic listening pending"
+  }
+]

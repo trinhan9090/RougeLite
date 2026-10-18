@@ -1,0 +1,612 @@
+;---------------------------------------------------------------------------
+; Aerial drop (attempt)
+[Statedef 2000]
+type = S
+movetype = A
+physics = S
+anim = 2000
+velset = 0,0
+ctrl = 0
+
+[State 2000, 1]
+type = HitDef
+trigger1 = time = 0
+attr = S, NT
+damage = 0,0
+animtype = Light
+hitflag = MAF
+priority = 2,Miss
+pausetime = 0,0
+sparkno = -1
+guard.sparkno = S6191
+sparkxy = 10,-50
+hitsound = S0,3
+guardsound = S0,5
+ground.type = High
+ground.slidetime = 5
+ground.hittime  = 12
+ground.velocity = -5
+airguard.velocity = -1.9,-.8
+air.type = High
+air.velocity = -5, 12
+air.hittime = 12
+p1stateno = 2001
+p2stateno = 2002
+snap = 15,-111
+
+[State 2000, 2]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+;---------------------------------------------------------------------------
+; Aerial drop (success)
+[Statedef 2001]
+type = S
+movetype = A
+physics = S
+anim = 2001
+
+[State 0, Turn]
+type = Turn
+trigger1 = time = 0
+trigger2 = animelem = 19
+;ignorehitpause =
+;persistent =
+
+[State 0, 1]
+type = NotHitBy
+trigger1 = Time >= 0
+value = SCA
+time = 81
+
+[State 0, 5]
+type = TargetBind
+trigger1 = AnimElem = 1, >= 0
+trigger1 = AnimElem = 2, < 0
+pos = 0,0
+
+[State 0, 6]
+type = TargetBind
+trigger1 = AnimElem = 2, >= 0
+trigger1 = AnimElem = 3, < 0
+pos = 0,0
+
+[State 0, 7]
+type = TargetBind
+trigger1 = AnimElem = 3, >= 0
+trigger1 = AnimElem = 4, < 0
+pos = 0,0
+
+[State 0, 8]
+type = TargetBind
+trigger1 = AnimElem = 4, >= 0
+trigger1 = AnimElem = 5, < 0
+pos = 0,0
+
+[State 0, 8]
+type = TargetBind
+trigger1 = AnimElem = 5, >= 0
+trigger1 = AnimElem = 6, < 0
+pos = 0,0
+
+[State 0, 6]
+type = TargetBind
+trigger1 = AnimElem = 6, >= 0
+trigger1 = AnimElem = 7, < 0
+pos = 0,0
+
+[State 0, 7]
+type = TargetBind
+trigger1 = AnimElem = 7, >= 0
+trigger1 = AnimElem = 8, < 0
+pos = 0,0
+
+[State 0, 8]
+type = TargetBind
+trigger1 = AnimElem = 8, >= 0
+trigger1 = AnimElem = 9, < 0
+pos = 0,0
+
+[State 0, 8]
+type = TargetBind
+trigger1 = AnimElem = 9, >= 0
+trigger1 = AnimElem = 10, < 0
+pos = 0,0
+
+[State 0, 6]
+type = TargetBind
+trigger1 = AnimElem = 10, >= 0
+trigger1 = AnimElem = 11, < 0
+pos = 0,0
+
+[State 0, 7]
+type = TargetBind
+trigger1 = AnimElem = 11, >= 0
+trigger1 = AnimElem = 12, < 0
+pos =  0,-50
+
+[State 0, 16]
+type = TargetState
+trigger1 = AnimElem = 12, = 1
+value = 2003
+
+[State 0, SPARK1]
+type = Explod
+trigger1 = animelem = 10
+anim = 6192
+ID = 6192
+pos = Ceil(0*Const(size.xscale)),Ceil(-73*Const(size.yscale))
+postype = p1
+facing = 1
+bindtime = 1
+removetime = -2
+scale = 1,1
+sprpriority = -1
+ownpal = 1
+ontop = 0
+removeongethit = 1
+ignorehitpause = -1
+supermovetime = 999
+pausemovetime = 999
+
+[State 0, SPARK1]
+type = Explod
+trigger1 = animelem = 10
+anim = 6192
+ID = 6192
+pos = Ceil(0*Const(size.xscale)),Ceil(-73*Const(size.yscale))
+postype = p1
+facing = -1
+bindtime = 1
+removetime = -2
+scale = 1,1
+sprpriority = -1
+ownpal = 1
+ontop = 0
+removeongethit = 1
+ignorehitpause = -1
+supermovetime = 999
+pausemovetime = 999
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 3
+value = S0,1
+volume = 255
+channel = -1
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 5
+value = S0,4
+volume = 255
+channel = -1
+
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 1
+value = S1,10
+volume = 255
+channel = -1
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 10
+value = S0,17
+volume = 255
+channel = -1
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 9
+value = S0,18
+volume = 255
+channel = -1
+
+[State 0, EnvShake]
+type = EnvShake
+trigger1 = animelem = 10
+time = 7
+freq = 100
+ampl = -2
+phase = 120
+
+[State 0, SprPriority]
+type = SprPriority
+trigger1 = time = 0
+value = -1
+
+[State 2001, 15]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+;---------------------------------------------------------------------------
+; Thrown by Aerial drop
+[Statedef 2002]
+type = S
+movetype = H
+physics = S
+velset = 0,0
+ctrl = 0
+
+[State 0, Turn]
+type = Turn
+trigger1 = time = 0
+trigger2 = animelem = 19
+;ignorehitpause =
+;persistent =
+
+[State 0, SprPriority]
+type = SprPriority
+trigger1 = time = 0
+value = 1
+
+
+[State 0, LifeAdd]
+type = LifeAdd
+trigger1 = animelem = 10
+value = -150
+kill = 1
+absolute = 0
+
+[State 0, SprPriority]
+type = SprPriority
+trigger1 = time < 0
+value = -1
+
+[State 0, 1]
+type = ChangeAnim2
+trigger1 = Time = 0
+value = 2002
+
+[State 0, 2]
+type = ScreenBound
+Trigger1 = Time > 0
+value = 0
+movecamera = 0,0
+
+[State 0, 2]
+type = NotHitBy
+trigger1 = Time = 0
+value = SCA
+time = 35
+
+;-----------------------------------------------------------------------------
+[Statedef 2003]
+type    = A
+movetype= H
+physics = N
+
+[State 620, Velocity]
+type = Velset
+trigger1 = Time = 0
+x = 4
+y = 0
+
+[State 0, Gravity]
+type = Gravity
+trigger1 = 1
+;ignorehitpause =
+;persistent =
+
+
+[State 0,FLY]
+type = ChangeAnim
+trigger1 = Time = 0
+trigger1 = !SelfAnimExist(5052)
+value = 5050
+
+[State 2003, Hit ground]
+type = SelfState
+trigger1 = (Vel y > 0) && (Pos y >= 0)
+value = 5100
+;--------------------------------------------------------------------------
+;---------------------------------------------------------------------------
+;---------------------------------------------------------------------------
+; Aerial drop (attempt)
+[Statedef 2004]
+type = S
+movetype = A
+physics = S
+anim = 2000
+velset = 0,0
+ctrl = 0
+
+[State 2004, 1]
+type = HitDef
+trigger1 = time = 0
+attr = S, NT
+damage = 0,0
+animtype = Light
+hitflag = MAF
+priority = 2,Miss
+pausetime = 0,0
+sparkno = -1
+guard.sparkno = S6191
+sparkxy = 10,-50
+hitsound = S0,3
+guardsound = S0,5
+ground.type = High
+ground.slidetime = 5
+ground.hittime  = 12
+ground.velocity = -5
+airguard.velocity = -1.9,-.8
+air.type = High
+air.velocity = -5, 12
+air.hittime = 12
+p1stateno = 2005
+p2stateno = 2006
+snap = 15,-111
+
+[State 2004, 2]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+;---------------------------------------------------------------------------
+; Aerial drop (success)
+[Statedef 2005]
+type = S
+movetype = A
+physics = S
+anim = 2001
+
+[State 0, Turn]
+type = Turn
+trigger1 = animelem = 19
+;ignorehitpause =
+;persistent =
+
+[State 0, 1]
+type = NotHitBy
+trigger1 = Time >= 0
+value = SCA
+time = 81
+
+[State 0, 5]
+type = TargetBind
+trigger1 = AnimElem = 1, >= 0
+trigger1 = AnimElem = 2, < 0
+pos = 0,0
+
+[State 0, 6]
+type = TargetBind
+trigger1 = AnimElem = 2, >= 0
+trigger1 = AnimElem = 3, < 0
+pos = 0,0
+
+[State 0, 7]
+type = TargetBind
+trigger1 = AnimElem = 3, >= 0
+trigger1 = AnimElem = 4, < 0
+pos = 0,0
+
+[State 0, 8]
+type = TargetBind
+trigger1 = AnimElem = 4, >= 0
+trigger1 = AnimElem = 5, < 0
+pos = 0,0
+
+[State 0, 8]
+type = TargetBind
+trigger1 = AnimElem = 5, >= 0
+trigger1 = AnimElem = 6, < 0
+pos = 0,0
+
+[State 0, 6]
+type = TargetBind
+trigger1 = AnimElem = 6, >= 0
+trigger1 = AnimElem = 7, < 0
+pos = 0,0
+
+[State 0, 7]
+type = TargetBind
+trigger1 = AnimElem = 7, >= 0
+trigger1 = AnimElem = 8, < 0
+pos = 0,0
+
+[State 0, 8]
+type = TargetBind
+trigger1 = AnimElem = 8, >= 0
+trigger1 = AnimElem = 9, < 0
+pos = 0,0
+
+[State 0, 8]
+type = TargetBind
+trigger1 = AnimElem = 9, >= 0
+trigger1 = AnimElem = 10, < 0
+pos = 0,0
+
+[State 0, 6]
+type = TargetBind
+trigger1 = AnimElem = 10, >= 0
+trigger1 = AnimElem = 11, < 0
+pos = 0,0
+
+[State 0, 7]
+type = TargetBind
+trigger1 = AnimElem = 11, >= 0
+trigger1 = AnimElem = 12, < 0
+pos =  0,-50
+
+[State 0, 16]
+type = TargetState
+trigger1 = AnimElem = 12, = 1
+value = 2007
+
+[State 0, SPARK1]
+type = Explod
+trigger1 = animelem = 10
+anim = 6192
+ID = 6192
+pos = Ceil(0*Const(size.xscale)),Ceil(-73*Const(size.yscale))
+postype = p1
+facing = 1
+bindtime = 1
+removetime = -2
+scale = 1,1
+sprpriority = -1
+ownpal = 1
+ontop = 0
+removeongethit = 1
+ignorehitpause = -1
+supermovetime = 999
+pausemovetime = 999
+
+[State 0, SPARK1]
+type = Explod
+trigger1 = animelem = 10
+anim = 6192
+ID = 6192
+pos = Ceil(0*Const(size.xscale)),Ceil(-73*Const(size.yscale))
+postype = p1
+facing = -1
+bindtime = 1
+removetime = -2
+scale = 1,1
+sprpriority = -1
+ownpal = 1
+ontop = 0
+removeongethit = 1
+ignorehitpause = -1
+supermovetime = 999
+pausemovetime = 999
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 3
+value = S0,1
+volume = 255
+channel = -1
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 5
+value = S0,4
+volume = 255
+channel = -1
+
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 1
+value = S1,10
+volume = 255
+channel = -1
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 10
+value = S0,17
+volume = 255
+channel = -1
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 9
+value = S0,18
+volume = 255
+channel = -1
+
+[State 0, EnvShake]
+type = EnvShake
+trigger1 = animelem = 10
+time = 7
+freq = 100
+ampl = -2
+phase = 120
+
+[State 0, SprPriority]
+type = SprPriority
+trigger1 = time = 0
+value = -1
+
+[State 2005, 15]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+;---------------------------------------------------------------------------
+; Thrown by Aerial drop
+[Statedef 2006]
+type = S
+movetype = H
+physics = S
+velset = 0,0
+ctrl = 0
+
+[State 0, Turn]
+type = Turn
+trigger1 = animelem = 19
+;ignorehitpause =
+;persistent =
+
+[State 0, SprPriority]
+type = SprPriority
+trigger1 = time = 0
+value = 1
+
+
+[State 0, LifeAdd]
+type = LifeAdd
+trigger1 = animelem = 10
+value = -150
+kill = 1
+absolute = 0
+
+[State 0, SprPriority]
+type = SprPriority
+trigger1 = time < 0
+value = -1
+
+[State 0, 1]
+type = ChangeAnim2
+trigger1 = Time = 0
+value = 2002
+
+[State 0, 2]
+type = ScreenBound
+Trigger1 = Time > 0
+value = 0
+movecamera = 0,0
+
+[State 0, 2]
+type = NotHitBy
+trigger1 = Time = 0
+value = SCA
+time = 35
+
+;-----------------------------------------------------------------------------
+[Statedef 2007]
+type    = A
+movetype= H
+physics = N
+
+[State 620, Velocity]
+type = Velset
+trigger1 = Time = 0
+x = 4
+y = 0
+
+[State 0, Gravity]
+type = Gravity
+trigger1 = 1
+;ignorehitpause =
+;persistent =
+
+
+[State 0,FLY]
+type = ChangeAnim
+trigger1 = Time = 0
+trigger1 = !SelfAnimExist(5052)
+value = 5050
+
+[State 2007, Hit ground]
+type = SelfState
+trigger1 = (Vel y > 0) && (Pos y >= 0)
+value = 5100
+;--------------------------------------------------------------------------
+;---------------------------------------------------------------------------

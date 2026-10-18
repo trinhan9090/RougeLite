@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-17",
+  "status": "TECHNICAL_PASS_OWNER_PLAYTEST_PENDING",
+  "current_project": "D:\\SelfProject\\RougeLite",
+  "scope": "Astra VFX only; original character/map/skill data and Vex/Boros manifests unchanged",
+  "focused_checks": 35,
+  "packaged_focused_checks": 35,
+  "current_project_suites": 34,
+  "python_tests": 6,
+  "packaged_smoke": "3 profiles / 3 boss victories",
+  "graphical_packaged_preview": "PASS",
+  "source_Launch_cmd": "PASS",
+  "protected_paths_diff": "",
+  "video_seconds": {
+    "astra_vfx_gameplay": 60.0,
+    "astra_normal_play": 20.0
+  },
+  "windows_package_sha256": "1135807f76a36ecfbba960d0b6a01bec823260c2205b03a109fb6ba34d0e34ba",
+  "windows_package_bytes": 88067500,
+  "pictures_export": "ACCESS_DENIED: C:/Users/Nguyen Tri Nhan/Pictures/EndlessSurvival/Astra_VFX02",
+  "videos_export": "ACCESS_DENIED: C:/Users/Nguyen Tri Nhan/Videos/EndlessSurvival/Astra_VFX02",
+  "fallback_media_folder": "D:\\SelfProject\\RougeLite\\reports\\astra_vfx02",
+  "visual_approval": "PENDING",
+  "runtime_hashes": {
+    "scripts/ui/celestial_visual_effect.gd": "e246acc885eb27ad1d8c8a63627d4c3c7cccadccc5bb0b063566bf9c202f26d8",
+    "scripts/ui/combat_visual_factory.gd": "a60d64da3ea4893ea761c6a87ae3e3925293f342e8258dc4e710da954a2256db",
+    "scripts/ui/combat_visual_effect.gd": "f4917b3fdae1ef1987cbafe802f702997a70e21cd06ecf36d84afff57c669be7",
+    "scripts/combat/combat_service.gd": "5d63dbe8973d02de2bc5839fed958cc7b3e9b1e24db25014b8fc78fb7486e4b4"
+  }
+}

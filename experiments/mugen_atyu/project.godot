@@ -1,0 +1,10 @@
+config_version=5
+[application]
+config/name="Atyu | Private MUGEN Source Browser"
+run/main_scene="res://browser.tscn"
+[display]
+window/size/viewport_width=1100
+window/size/viewport_height=760
+[rendering]
+renderer/rendering_method="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false

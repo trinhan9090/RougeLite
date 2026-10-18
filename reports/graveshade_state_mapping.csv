@@ -1,0 +1,6 @@
+slot,move,input,command,state_chain,body_air,effect_air,sound,confidence
+Basic,Tactical Round,z,z,P.cns220,220,"619220,620220","0,16",VERIFIED_TEXT_DECODED
+J,Suppression Burst,"D,F,c",SPECIAL9,specials.cns1011→6191011,1011,"6191011,619220","0,31",VERIFIED_TEXT_DECODED
+K,Frag Deployment,"D,B,x",SPECIAL4,specials.cns1006→1007→1008,1006,"1007,1008","0,24;0,25",VERIFIED_TEXT_DECODED
+L,Tactical Minefield,"D,B,a",SPECIAL10,specials.cns1012→6191012→6201012,1012,"6191012,6201012","0,24;0,25",VERIFIED_TEXT_DECODED
+I,Heavy Ordnance,"D,F,a+b then fire",HYPER3,hypers.cns3005→3006→3007→3008→3009,3006,"3007,3008,3009,6193007","0,38;0,25",VERIFIED_TEXT_DECODED

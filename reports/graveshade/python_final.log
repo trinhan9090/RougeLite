@@ -1,0 +1,42 @@
+test_T01_original_archive (__main__.GraveshadeAuditTests.test_T01_original_archive) ... skipped 'Original marvel P.rar absent locally; audit covers supplied extracted35files, no archive hash invented.'
+test_T01_source_safe_and_preserved (__main__.GraveshadeAuditTests.test_T01_source_safe_and_preserved) ... ok
+test_T02_def (__main__.GraveshadeAuditTests.test_T02_def) ... ok
+test_T03_sprites_and_AIR (__main__.GraveshadeAuditTests.test_T03_sprites_and_AIR) ... ok
+test_T04_PCM_and_provenance (__main__.GraveshadeAuditTests.test_T04_PCM_and_provenance) ... ok
+test_T05_T28_cues_and_peak_bound (__main__.GraveshadeAuditTests.test_T05_T28_cues_and_peak_bound) ... ok
+test_T06_T07_actual_source_actor (__main__.GraveshadeAuditTests.test_T06_T07_actual_source_actor) ... D:\SelfProject\RougeLite\worktrees\visual_pipeline_v2\tools\mugen_import\test_graveshade.py:38: ResourceWarning: unclosed file <_io.BufferedReader name='D:\\SelfProject\\RougeLite\\worktrees\\visual_pipeline_v2\\assets\\private_graveshade\\actor_idle.png'>
+  im=Image.open(ROOT/'assets/private_graveshade'/f"actor_{row['action']}.png");self.assertEqual(im.size,(160*len(source),112))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+D:\SelfProject\RougeLite\worktrees\visual_pipeline_v2\tools\mugen_import\test_graveshade.py:38: ResourceWarning: unclosed file <_io.BufferedReader name='D:\\SelfProject\\RougeLite\\worktrees\\visual_pipeline_v2\\assets\\private_graveshade\\actor_run.png'>
+  im=Image.open(ROOT/'assets/private_graveshade'/f"actor_{row['action']}.png");self.assertEqual(im.size,(160*len(source),112))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+D:\SelfProject\RougeLite\worktrees\visual_pipeline_v2\tools\mugen_import\test_graveshade.py:38: ResourceWarning: unclosed file <_io.BufferedReader name='D:\\SelfProject\\RougeLite\\worktrees\\visual_pipeline_v2\\assets\\private_graveshade\\actor_basic.png'>
+  im=Image.open(ROOT/'assets/private_graveshade'/f"actor_{row['action']}.png");self.assertEqual(im.size,(160*len(source),112))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+D:\SelfProject\RougeLite\worktrees\visual_pipeline_v2\tools\mugen_import\test_graveshade.py:38: ResourceWarning: unclosed file <_io.BufferedReader name='D:\\SelfProject\\RougeLite\\worktrees\\visual_pipeline_v2\\assets\\private_graveshade\\actor_cast_j.png'>
+  im=Image.open(ROOT/'assets/private_graveshade'/f"actor_{row['action']}.png");self.assertEqual(im.size,(160*len(source),112))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+D:\SelfProject\RougeLite\worktrees\visual_pipeline_v2\tools\mugen_import\test_graveshade.py:38: ResourceWarning: unclosed file <_io.BufferedReader name='D:\\SelfProject\\RougeLite\\worktrees\\visual_pipeline_v2\\assets\\private_graveshade\\actor_cast_k.png'>
+  im=Image.open(ROOT/'assets/private_graveshade'/f"actor_{row['action']}.png");self.assertEqual(im.size,(160*len(source),112))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+D:\SelfProject\RougeLite\worktrees\visual_pipeline_v2\tools\mugen_import\test_graveshade.py:38: ResourceWarning: unclosed file <_io.BufferedReader name='D:\\SelfProject\\RougeLite\\worktrees\\visual_pipeline_v2\\assets\\private_graveshade\\actor_cast_l.png'>
+  im=Image.open(ROOT/'assets/private_graveshade'/f"actor_{row['action']}.png");self.assertEqual(im.size,(160*len(source),112))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+D:\SelfProject\RougeLite\worktrees\visual_pipeline_v2\tools\mugen_import\test_graveshade.py:38: ResourceWarning: unclosed file <_io.BufferedReader name='D:\\SelfProject\\RougeLite\\worktrees\\visual_pipeline_v2\\assets\\private_graveshade\\actor_cast_i.png'>
+  im=Image.open(ROOT/'assets/private_graveshade'/f"actor_{row['action']}.png");self.assertEqual(im.size,(160*len(source),112))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+D:\SelfProject\RougeLite\worktrees\visual_pipeline_v2\tools\mugen_import\test_graveshade.py:38: ResourceWarning: unclosed file <_io.BufferedReader name='D:\\SelfProject\\RougeLite\\worktrees\\visual_pipeline_v2\\assets\\private_graveshade\\actor_hit.png'>
+  im=Image.open(ROOT/'assets/private_graveshade'/f"actor_{row['action']}.png");self.assertEqual(im.size,(160*len(source),112))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\Nguyen Tri Nhan\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\unittest\case.py:589: ResourceWarning: unclosed file <_io.BufferedReader name='D:\\SelfProject\\RougeLite\\worktrees\\visual_pipeline_v2\\assets\\private_graveshade\\actor_death.png'>
+  if method() is not None:
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_T30_old_hero_gameplay_unchanged (__main__.GraveshadeAuditTests.test_T30_old_hero_gameplay_unchanged) ... ok
+test_additive_effects_have_no_opaque_black_background (__main__.GraveshadeAuditTests.test_additive_effects_have_no_opaque_black_background) ... ok
+test_doom_visual_only_reduction (__main__.GraveshadeAuditTests.test_doom_visual_only_reduction) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 6.690s
+
+OK (skipped=1)

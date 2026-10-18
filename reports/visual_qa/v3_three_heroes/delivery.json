@@ -1,0 +1,13 @@
+{
+  "status": "TECH_PASSED; owner visual review pending",
+  "canonical_suites": 38,
+  "failed_suites": 0,
+  "focused_checks_each_environment": 61,
+  "build": "D:\\SelfProject\\RougeLite\\builds\\EndlessSurvival-Three-Heroes-Pixel-v3-Windows.zip",
+  "sha256": "c648074b6e176f05ea8073f0069526c1c701fa399ddcecdd56bb7e466824a59b",
+  "pck_sha256": "5ee5a8ee3b7793289589fbc7ad060a8a57c3114e32b90b1e59d2ec527b74070b",
+  "branch": "feat/three-hero-pixel-v3",
+  "implementation_commit": "eac8f04",
+  "png_count": 66,
+  "video_count": 6
+}

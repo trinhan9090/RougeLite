@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Endless Survival Pixel Visual Manifest",
+  "type": "object",
+  "required": [
+    "spec_version",
+    "asset_id",
+    "kind",
+    "source_method",
+    "frame_canvas_px",
+    "feet_anchor_px",
+    "directions",
+    "animations",
+    "godot_scene"
+  ],
+  "properties": {
+    "spec_version": {
+      "type": "string"
+    },
+    "asset_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "kind": {
+      "enum": [
+        "character",
+        "vfx",
+        "tile",
+        "prop"
+      ]
+    },
+    "source_method": {
+      "enum": [
+        "pixel_layers",
+        "procedural",
+        "licensed_pack",
+        "blender_optional"
+      ]
+    },
+    "frame_canvas_px": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "integer",
+          "minimum": 1
+        },
+        {
+          "type": "integer",
+          "minimum": 1
+        }
+      ],
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "feet_anchor_px": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "integer"
+        }
+      ],
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "directions": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "N",
+          "S",
+          "E",
+          "W",
+          "NE",
+          "NW",
+          "SE",
+          "SW"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "animations": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "fps",
+          "loop",
+          "frames"
+        ],
+        "properties": {
+          "fps": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "loop": {
+            "type": "boolean"
+          },
+          "frames": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "godot_scene": {
+      "type": "string"
+    }
+  }
+}

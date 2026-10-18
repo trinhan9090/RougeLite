@@ -1,0 +1,19 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS astra basic emits projectile
+PASS astra basic has no implicit homing
+PASS astra leads moving torso from actual cast origin
+PASS astra trajectory remains straight
+PASS astra actually hits moving target
+PASS vex basic emits projectile
+PASS vex basic has no implicit homing
+PASS vex leads moving torso from actual cast origin
+PASS vex trajectory remains straight
+PASS vex actually hits moving target
+PASS homing reacquires from projectile and excludes already-hit target
+PASS explicit homing still turns toward fresh target
+PASS Manual facing follows movement and persists after stopping
+PASS manual cast succeeds away from enemy
+PASS Manual cast ignores opposite mouse aim and follows facing
+PASS cursor at feet preserves last facing
+RESULT aiming checks=16 failures=0

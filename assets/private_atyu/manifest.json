@@ -1,0 +1,1774 @@
+{
+  "idle": {
+    "air": [
+      0
+    ],
+    "frames": 3
+  },
+  "run": {
+    "air": [
+      100
+    ],
+    "frames": 7
+  },
+  "basic": {
+    "air": [
+      200
+    ],
+    "frames": 4
+  },
+  "combo_1": {
+    "air": [
+      210
+    ],
+    "frames": 5
+  },
+  "combo_2": {
+    "air": [
+      211
+    ],
+    "frames": 5
+  },
+  "cast_j": {
+    "air": [
+      210
+    ],
+    "frames": 5
+  },
+  "cast_k": {
+    "air": [
+      900
+    ],
+    "frames": 9
+  },
+  "cast_l": {
+    "air": [
+      2001
+    ],
+    "frames": 3
+  },
+  "cast_i": {
+    "air": [
+      1406,
+      1401
+    ],
+    "frames": 6
+  },
+  "hit": {
+    "air": [
+      5000
+    ],
+    "frames": 2
+  },
+  "death": {
+    "air": [
+      5110
+    ],
+    "frames": 1
+  },
+  "companion": {
+    "air": [
+      10190
+    ],
+    "sequence": [
+      {
+        "file": "fx_163.png",
+        "axis": [
+          51,
+          79
+        ],
+        "offset": [
+          0,
+          4
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_163.png",
+        "axis": [
+          51,
+          79
+        ],
+        "offset": [
+          0,
+          4
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_163.png",
+        "axis": [
+          51,
+          79
+        ],
+        "offset": [
+          0,
+          4
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_163.png",
+        "axis": [
+          51,
+          79
+        ],
+        "offset": [
+          0,
+          4
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_159.png",
+        "axis": [
+          42,
+          79
+        ],
+        "offset": [
+          0,
+          4
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_159.png",
+        "axis": [
+          42,
+          79
+        ],
+        "offset": [
+          0,
+          4
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_159.png",
+        "axis": [
+          42,
+          79
+        ],
+        "offset": [
+          -6,
+          4
+        ],
+        "ticks": 6,
+        "flip": ""
+      },
+      {
+        "file": "fx_161.png",
+        "axis": [
+          51,
+          79
+        ],
+        "offset": [
+          -15,
+          4
+        ],
+        "ticks": 6,
+        "flip": ""
+      },
+      {
+        "file": "fx_3611.png",
+        "axis": [
+          60,
+          93
+        ],
+        "offset": [
+          -4,
+          4
+        ],
+        "ticks": 60,
+        "flip": ""
+      },
+      {
+        "file": "fx_941.png",
+        "axis": [
+          57,
+          90
+        ],
+        "offset": [
+          -13,
+          2
+        ],
+        "ticks": 6,
+        "flip": ""
+      },
+      {
+        "file": "fx_940.png",
+        "axis": [
+          73,
+          97
+        ],
+        "offset": [
+          0,
+          4
+        ],
+        "ticks": 6,
+        "flip": ""
+      }
+    ]
+  },
+  "companion_attack": {
+    "air": [
+      10230
+    ],
+    "sequence": [
+      {
+        "file": "fx_159.png",
+        "axis": [
+          42,
+          79
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 6,
+        "flip": ""
+      },
+      {
+        "file": "fx_164.png",
+        "axis": [
+          48,
+          79
+        ],
+        "offset": [
+          -10,
+          0
+        ],
+        "ticks": 10,
+        "flip": ""
+      },
+      {
+        "file": "fx_165.png",
+        "axis": [
+          49,
+          79
+        ],
+        "offset": [
+          -10,
+          0
+        ],
+        "ticks": 6,
+        "flip": ""
+      },
+      {
+        "file": "fx_166.png",
+        "axis": [
+          49,
+          79
+        ],
+        "offset": [
+          -10,
+          0
+        ],
+        "ticks": 4,
+        "flip": ""
+      },
+      {
+        "file": "fx_166.png",
+        "axis": [
+          49,
+          79
+        ],
+        "offset": [
+          -10,
+          0
+        ],
+        "ticks": 14,
+        "flip": ""
+      }
+    ]
+  },
+  "beam": {
+    "air": [
+      8067
+    ],
+    "sequence": [
+      {
+        "file": "fx_1479.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1479.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1480.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1481.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1482.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1483.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1484.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1485.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1479.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1480.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1481.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1482.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1483.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1484.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1485.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1479.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1480.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1481.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1482.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1483.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1484.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1485.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1479.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1480.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1481.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1482.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1483.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1484.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1485.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1479.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1480.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1481.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1482.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1483.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1484.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1485.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1479.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1480.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1481.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1482.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1483.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1484.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1485.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1479.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1480.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1481.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1482.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1483.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1484.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1485.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1479.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1480.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1481.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1482.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1483.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1484.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1485.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1479.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1480.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1481.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1482.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1483.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1484.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1485.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1479.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1480.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1481.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1482.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1483.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1484.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1485.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1479.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1480.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1481.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1482.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1483.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1484.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1485.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1479.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1480.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1481.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1482.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1483.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1484.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1485.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1479.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1480.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1481.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1482.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1483.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1484.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1485.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1479.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1480.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1481.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1482.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1483.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1484.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1485.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1479.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1480.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1481.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1482.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1483.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1484.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1485.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1480.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1481.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1482.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1483.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1484.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      },
+      {
+        "file": "fx_1485.png",
+        "axis": [
+          230,
+          521
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "ticks": 2,
+        "flip": ""
+      }
+    ]
+  },
+  "seal": {
+    "air": [
+      661502
+    ],
+    "sequence": [
+      {
+        "file": "fx_1660.png",
+        "axis": [
+          503,
+          503
+        ],
+        "offset": [
+          1,
+          -30
+        ],
+        "ticks": 10,
+        "flip": ""
+      }
+    ]
+  }
+}
