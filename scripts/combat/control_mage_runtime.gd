@@ -15,13 +15,31 @@ var lance_hits: Dictionary[int,bool] = {}
 const RAY_LIFETIME: float = .18
 var active_rays: Array[Dictionary] = []
 var finale_resolved: bool = false
+var intro_audio: AudioStreamPlayer2D
+var intro_remaining: float = 0
+var intro_finished: bool = true
+var channel_complete: bool = false
 
 func _ready() -> void:
 	center=intent.aim_point
 	origin=combat.cast_origin(intent.source())
 	if definition.move == "cataclysm":
+		global_position=origin
+		var previous_voice: WeakRef=intent.source().get_meta("channel_voice_runtime") as WeakRef if intent.source().has_meta("channel_voice_runtime") else null
+		if previous_voice!=null and is_instance_valid(previous_voice.get_ref()):(previous_voice.get_ref() as Node).queue_free()
+		intent.source().set_meta("channel_voice_runtime",weakref(self))
 		intent.source().set_meta("channel_runtime",weakref(self))
-		intent.source().add_buff(&"control_mage_channel",definition.windup+definition.channel_duration,{&"move_speed":-.5})
+		intent.source().set_meta("movement_lock_runtime",weakref(self))
+		intent.source().velocity=Vector2.ZERO
+		if definition.channel_intro!=null:
+			intro_remaining=definition.channel_intro.get_length()
+			intro_finished=false
+			intro_audio=AudioStreamPlayer2D.new()
+			intro_audio.stream=definition.channel_intro;intro_audio.volume_db=definition.channel_intro_db
+			intro_audio.max_distance=1600;intro_audio.attenuation=.5
+			add_child(intro_audio)
+			intro_audio.finished.connect(func() -> void:intro_finished=true)
+			if DisplayServer.get_name()!="headless":intro_audio.play()
 	if definition.move == "orbit":
 		var owner: Actor=intent.source()
 		var old: WeakRef=owner.get_meta("orbit_runtime") as WeakRef if owner.has_meta("orbit_runtime") else null
@@ -40,6 +58,15 @@ func _physics_process(delta: float) -> void:
 	var owner: Actor=intent.source()
 	if not is_instance_valid(owner) or not owner.health.is_alive(): queue_free(); return
 	if owner.statuses.stunned() and (definition.move=="cataclysm" or (definition.move=="lance" and not resolved)): queue_free(); return
+	if definition.move=="cataclysm":
+		global_position=combat.cast_origin(owner)
+		# Voice and combat use independent clocks; playback never delays the rays.
+		if not intro_finished and DisplayServer.get_name()=="headless":
+			intro_remaining=maxf(0,intro_remaining-delta)
+			intro_finished=intro_remaining<=0
+		if channel_complete:
+			if intro_finished:queue_free()
+			return
 	elapsed+=delta
 	if definition.move=="orbit":
 		for index in range(intent.rank.projectile_count):
@@ -60,7 +87,10 @@ func _physics_process(delta: float) -> void:
 			finale_resolved=true
 			if intent.rank.rank==3 and intent.context.budget.claim("cataclysm_final"):
 				combat.queue_burst(owner,origin+intent.direction*intent.rank.range_px,intent.context,&"cataclysm_burst",55,85,0,"MAGIC")
-		if finale_resolved and active_rays.is_empty():queue_free()
+		if finale_resolved and active_rays.is_empty():
+			channel_complete=true
+			_release_channel(owner)
+			if intro_finished:queue_free()
 		return
 	if not resolved and elapsed>=definition.windup:
 		resolved=true
@@ -130,6 +160,12 @@ func _cue(id: StringName) -> void:
 	var audio := intent.source().get_node_or_null("ActionAudio") as ActionAudio
 	if audio!=null: audio.play_cue(id)
 
+func _release_channel(owner: Actor) -> void:
+	var lock_ref: WeakRef=owner.get_meta("movement_lock_runtime") as WeakRef if owner.has_meta("movement_lock_runtime") else null
+	if lock_ref!=null and lock_ref.get_ref()==self:owner.remove_meta("movement_lock_runtime")
+	var channel_ref: WeakRef=owner.get_meta("channel_runtime") as WeakRef if owner.has_meta("channel_runtime") else null
+	if channel_ref!=null and channel_ref.get_ref()==self:owner.remove_meta("channel_runtime")
+
 func _exit_tree() -> void:
 	var owner: Actor=intent.source() if intent!=null else null
 	if not is_instance_valid(owner): return
@@ -138,5 +174,7 @@ func _exit_tree() -> void:
 		var ref: WeakRef=owner.get_meta("orbit_runtime") as WeakRef if owner.has_meta("orbit_runtime") else null
 		if ref!=null and ref.get_ref()==self:owner.remove_meta("orbit_runtime")
 	if definition.move=="cataclysm":
-		owner.buffs.erase(&"control_mage_channel")
-		owner.remove_meta("channel_runtime")
+		if intro_audio!=null:intro_audio.stop()
+		_release_channel(owner)
+		var voice_ref: WeakRef=owner.get_meta("channel_voice_runtime") as WeakRef if owner.has_meta("channel_voice_runtime") else null
+		if voice_ref!=null and voice_ref.get_ref()==self:owner.remove_meta("channel_voice_runtime")

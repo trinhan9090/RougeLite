@@ -1,0 +1,63 @@
+{
+  "baseline": "9473414",
+  "backup": "D:\\SelfProject\\RougeLite\\.local-data\\doom_intro_20261018_203751",
+  "mp3_sha256": "60c143b694222dc5920c6c5cbc512c3f8b98c17831eded1d961829a1b5cef1cf",
+  "duration_seconds": 1.98637187480927,
+  "files": [
+    {
+      "path": "scripts/actors/player_actor.gd",
+      "sha256": "94e57647d4c2957908afa5029342202988dcbefe3c219e0876a4121e23fe10c1"
+    },
+    {
+      "path": "scripts/data/control_mage_executor.gd",
+      "sha256": "6182d33008814ddfed4dfb31bac01cc2d989f851b9c7ecaef1d6ca5a6b9e8a6c"
+    },
+    {
+      "path": "scripts/combat/control_mage_runtime.gd",
+      "sha256": "2b58371df6e9dabed5903d52ec8585497573cdd6df5be5b411ea9e764c5c41d0"
+    },
+    {
+      "path": "content/characters/viridian_loadout.tres",
+      "sha256": "5c3aa33e7ece2b38d21cf974bf83b73c7cbf1962bce5639eed9b4bcbb83a7772"
+    },
+    {
+      "path": "assets/private_viridian/audio/cues.json",
+      "sha256": "ef76ef2b288fb8ae7920f7589b305192116229d3aaf0aedd9827ccc0e79d5db0"
+    },
+    {
+      "path": "tools/mugen_import/viridian_content.py",
+      "sha256": "acc03d638e730a5ab84699d95636231d64606608396073399cfc3f615fe99003"
+    },
+    {
+      "path": "tools/mugen_import/viridian_build.py",
+      "sha256": "b81c0522bc13a4053d95501b7760c09dc3c8d4b8493e39fef46ed4fbf8b2bb98"
+    },
+    {
+      "path": "tests/integration/test_viridian.gd",
+      "sha256": "c8973489e7fd282b5e02e04c184bef534c67ac102d09ee8df9a1ba6a3db30d10"
+    },
+    {
+      "path": "tests/run_all.gd",
+      "sha256": "4b23156f4f023cb27a361b709939e7e381261e93a8575932490d45fcf5c0cd46"
+    },
+    {
+      "path": "tests/integration/test_doom_intro.gd",
+      "sha256": "fd3499dcaf4142d9085492324202a745690dc1d6cb59e49bfca0a879ef290954"
+    },
+    {
+      "path": "assets/private_viridian/audio/doom_ultimate_intro.mp3",
+      "sha256": "60c143b694222dc5920c6c5cbc512c3f8b98c17831eded1d961829a1b5cef1cf"
+    }
+  ],
+  "voice_timing": "parallel; original0.65s windup; unlock after final ray; voice finishes naturally",
+  "source_file_bytes": 33061,
+  "replaced_by_user": "2026-10-18 20:45:33 Asia/Saigon",
+  "verification": {
+    "headless_checks": 21,
+    "current_gui_checks": 23,
+    "viridian_checks_before_MP3_replacement": 77,
+    "movement_checks": 12,
+    "training_checks": 85,
+    "human_listening": "pending"
+  }
+}

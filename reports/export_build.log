@@ -1,0 +1,73 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+SCRIPT ERROR: Parse Error: Class "MultiplayerCoordinator" hides an autoload singleton.
+   at: GDScript::reload (res://multiplayer/net/multiplayer_coordinator.gd:1)
+ERROR: Failed to load script "res://multiplayer/net/multiplayer_coordinator.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+ERROR: Failed to create an autoload, script 'res://multiplayer/net/multiplayer_coordinator.gd' is not compiling.
+   at: _create_autoload (editor/settings/editor_autoload_settings.cpp:340)
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Registering global classes... (44 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | MultiplayerGameBridge[39m[0m
+[   2% ] [90m[1mupdate_scripts_classes[22m | AugmentOfferAuthority[39m[0m
+[   4% ] [90m[1mupdate_scripts_classes[22m | AuthoritativeWorld[39m[0m
+[   6% ] [90m[1mupdate_scripts_classes[22m | ExpOrbAuthority[39m[0m
+[   8% ] [90m[1mupdate_scripts_classes[22m | InputReplication[39m[0m
+[  11% ] [90m[1mupdate_scripts_classes[22m | MapSync[39m[0m
+[  13% ] [90m[1mupdate_scripts_classes[22m | MatchClockAuthority[39m[0m
+[  15% ] [90m[1mupdate_scripts_classes[22m | MultiplayerCoordinator[39m[0m
+[  17% ] [90m[1mupdate_scripts_classes[22m | NetworkManager[39m[0m
+[  20% ] [90m[1mupdate_scripts_classes[22m | NetworkDiagnostics[39m[0m
+[  22% ] [90m[1mupdate_scripts_classes[22m | NetProtocol[39m[0m
+[  24% ] [90m[1mupdate_scripts_classes[22m | PredictionReconciliation[39m[0m
+[  26% ] [90m[1mupdate_scripts_classes[22m | ReviveAuthority[39m[0m
+[  28% ] [90m[1mupdate_scripts_classes[22m | SessionManager[39m[0m
+[  31% ] [90m[1mupdate_scripts_classes[22m | SnapshotReplication[39m[0m
+[  33% ] [90m[1mupdate_scripts_classes[22m | TimeEncounterDirector[39m[0m
+[  35% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  37% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  40% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  42% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  44% ] [90m[1mupdate_scripts_classes[22m | SkillController[39m[0m
+[  46% ] [90m[1mupdate_scripts_classes[22m | ControlMageExecutor[39m[0m
+[  48% ] [90m[1mupdate_scripts_classes[22m | MeleeSequenceExecutor[39m[0m
+[  51% ] [90m[1mupdate_scripts_classes[22m | TacticalExecutor[39m[0m
+[  53% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  55% ] [90m[1mupdate_scripts_classes[22m | MeleeActorEffects[39m[0m
+[  57% ] [90m[1mupdate_scripts_classes[22m | MeleeVisualEffect[39m[0m
+[  60% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  62% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  64% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  66% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  68% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  71% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  73% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  75% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  77% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  80% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  82% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  84% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  86% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  88% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  91% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  93% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  95% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+ERROR: Cannot export project with preset "Windows Demo" due to configuration errors:
+No export template found at the expected path:
+D:/SelfProject/RougeLite/tools/godot/editor_data/export_templates/4.7.2.stable/windows_debug_x86_64.exe
+No export template found at the expected path:
+D:/SelfProject/RougeLite/tools/godot/editor_data/export_templates/4.7.2.stable/windows_release_x86_64.exe
+
+   at: _fs_changed (editor/editor_node.cpp:1401)
+ERROR: Project export for preset "Windows Demo" failed.
+   at: _fs_changed (editor/editor_node.cpp:1417)

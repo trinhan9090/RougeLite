@@ -26,8 +26,8 @@ func _ready() -> void:
 	add_child(basic)
 	var hero := OptionButton.new()
 	hero.name="TrainingHero"
-	var ids: Array[StringName]=[&"loadout.astra",&"loadout.vex",&"loadout.boros",&"loadout.atyu",&"loadout.viridian",&"loadout.graveshade"]
-	for text: String in ["Astra","Vex","Boros","Atyu","Viridian","Graveshade"]: hero.add_item(text)
+	var ids: Array[StringName]=[&"loadout.astra",&"loadout.vex",&"loadout.boros",&"loadout.atyu",&"loadout.viridian",&"loadout.graveshade",&"loadout.tofu"]
+	for text: String in ["Astra","Vex","Boros","Atyu","Viridian","Graveshade","Tofu"]: hero.add_item(text)
 	hero.select(ids.find(hero_id))
 	hero.item_selected.connect(func(index: int) -> void: hero_selected.emit(ids[index]))
 	add_child(hero)

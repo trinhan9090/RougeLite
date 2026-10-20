@@ -1,0 +1,106 @@
+extends Control
+## Full multiplayer session flow: host/join -> lobby -> game.
+
+@onready var host_join_menu: Control = $HostJoinMenu
+@onready var lobby: Control = $Lobby
+@onready var status_label: Label = $StatusLabel
+@onready var lobby_back_button: Button = $Lobby/CenterContainer/VBoxContainer/LobbyBackButton
+@onready var start_button: Button = $Lobby/CenterContainer/VBoxContainer/StartButton
+
+var multiplayer_coordinator: Node
+var selected_character: StringName = &"astra"
+
+func _ready() -> void:
+	# Wait for coordinator autoload to be ready
+	await get_tree().process_frame
+
+	if not has_node("/root/MultiplayerCoordinator"):
+		push_error("MultiplayerCoordinator autoload not found!")
+		set_status("ERROR: Multiplayer system not initialized", true)
+		return
+
+	multiplayer_coordinator = get_node("/root/MultiplayerCoordinator")
+
+	# Wire host/join menu
+	host_join_menu.host_requested.connect(_on_host_requested)
+	host_join_menu.join_requested.connect(_on_join_requested)
+	host_join_menu.back_to_menu.connect(_on_back_to_menu)
+
+	# Wire lobby buttons
+	lobby_back_button.pressed.connect(_on_back_to_menu)
+	start_button.pressed.connect(_on_start_pressed)
+
+	# Wire coordinator signals
+	multiplayer_coordinator.network_manager.server_started.connect(_on_server_started)
+	multiplayer_coordinator.network_manager.connection_failed.connect(_on_connection_failed)
+	multiplayer_coordinator.session_started.connect(_on_session_started)
+
+	# Start at host/join menu
+	_show_host_join_menu()
+
+	print("MultiplayerSessionFlow: Ready and connected to coordinator")
+
+func _show_host_join_menu() -> void:
+	host_join_menu.visible = true
+	lobby.visible = false
+	status_label.visible = false
+
+func _show_lobby() -> void:
+	host_join_menu.visible = false
+	lobby.visible = true
+	status_label.visible = false
+
+func _on_host_requested() -> void:
+	print("Host requested...")
+	set_status("Starting host...")
+
+	var err := multiplayer_coordinator.start_host_session()
+	print("Host start result: ", err, " (OK=", OK, ")")
+
+	if err != OK:
+		var error_msg := "Failed to start host: %s" % error_string(err)
+		set_status(error_msg, true)
+		host_join_menu.on_connection_failed("Could not bind port")
+		push_error(error_msg)
+	else:
+		# Host started successfully - transition to lobby immediately
+		await get_tree().create_timer(0.1).timeout
+		host_join_menu.on_host_started()
+		_show_lobby()
+
+func _on_join_requested(address: String, port: int) -> void:
+	set_status("Connecting to %s:%d..." % [address, port])
+	var err := multiplayer_coordinator.join_session(address, port)
+	if err != OK:
+		set_status("Failed to join: %s" % error_string(err), true)
+		host_join_menu.on_connection_failed("Connection error")
+
+func _on_back_to_menu() -> void:
+	print("Back to menu requested - stopping session...")
+	# Force stop any active session/connection
+	if multiplayer_coordinator:
+		multiplayer_coordinator.stop_session()
+	# Give it a moment to clean up
+	await get_tree().create_timer(0.1).timeout
+	# Return to main menu
+	get_tree().change_scene_to_file("res://scenes/bootstrap/main.tscn")
+
+func _on_start_pressed() -> void:
+	print("Start match pressed - initializing map...")
+	multiplayer_coordinator.start_match(&"map.temple")
+
+func _on_server_started() -> void:
+	# Already handled in _on_host_requested
+	pass
+
+func _on_connection_failed(reason: String) -> void:
+	host_join_menu.on_connection_failed(reason)
+
+func _on_session_started() -> void:
+	# Match started, load combat scene
+	get_tree().change_scene_to_file("res://multiplayer/scenes/multiplayer_combat_run.tscn")
+
+func set_status(message: String, is_error: bool = false) -> void:
+	status_label.text = message
+	status_label.modulate = Color.RED if is_error else Color.WHITE
+	status_label.visible = true

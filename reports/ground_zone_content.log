@@ -1,0 +1,34 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS valid typed definition graph
+PASS nested skill/enemy definitions indexed
+PASS returned deep copy cannot mutate registry
+PASS source cannot mutate registry snapshot
+PASS duplicate IDs rejected
+PASS failed validation leaves no partial index
+PASS empty reference rejected
+PASS missing rank rejected
+PASS negative cooldown rejected
+PASS nonfinite cooldown rejected
+PASS ultimate max rank enforced
+PASS unlock slot mapping enforced
+PASS missing executor rejected
+PASS tags cannot fabricate executor capabilities
+PASS dependency cycle rejected
+PASS passive rank 6 rejected
+PASS missing effect rank rejected
+PASS missing requirement ID rejected
+PASS augment prerequisite cycle rejected
+PASS untyped content edge rejected
+PASS unsafe spawn radius rejected
+PASS invalid boss phase order rejected
+PASS out of range actor stats rejected
+PASS typed resource saves
+PASS typed resource reload validates
+PASS nested rank type retained after serialization
+PASS disk catalog loads
+PASS disk map is typed
+PASS missing catalog fails closed
+PASS spawn config validates exclusion radius
+PASS progression validates orb minimum lifetime
+RESULT content: checks=31 failures=0

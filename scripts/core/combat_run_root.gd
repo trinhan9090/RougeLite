@@ -124,6 +124,9 @@ func _start_run() -> void:
 		tactical.name="TacticalEffects"
 		player.add_child(tactical)
 		tactical.configure(player,combat)
+	if player.visual_frames != null and player.visual_frames.has_meta("melee_effects_profile"):
+		var melee:=MeleeActorEffects.new()
+		melee.name="MeleeEffects";player.add_child(melee);melee.configure(player,combat)
 	player.died.connect(_on_player_died)
 	_environment = Actor.new()
 	_environment.actor_id = -1
@@ -336,6 +339,8 @@ func _clear_failed_run_vfx() -> void:
 	if is_instance_valid(visual_factory): visual_factory.clear()
 	if is_instance_valid(damage_numbers): damage_numbers.clear()
 	if is_instance_valid(player):
+		var melee:=player.get_node_or_null("MeleeEffects") as MeleeActorEffects
+		if melee!=null:melee.clear()
 		var mapped := player.get_node_or_null("MappedEffects") as MappedActorEffects
 		if mapped != null: mapped.clear()
 		var tactical := player.get_node_or_null("TacticalEffects") as TacticalActorEffects
@@ -445,6 +450,8 @@ func _resolve_boss_victory() -> void:
 	for orb in _loot.get_children(): orb.queue_free()
 	combat.clear_transients()
 	if player.action_audio != null: player.action_audio.clear()
+	var melee:=player.get_node_or_null("MeleeEffects") as MeleeActorEffects
+	if melee!=null:melee.clear()
 	var mapped := player.get_node_or_null("MappedEffects") as MappedActorEffects
 	if mapped != null: mapped.clear()
 	var tactical := player.get_node_or_null("TacticalEffects") as TacticalActorEffects

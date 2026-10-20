@@ -77,7 +77,8 @@ func run_tests() -> void:
 	await frames(100)
 	check(damage_to(2)==15 and targets[0].statuses.movement_factor()==1,"K one initial hit and finite root")
 	await prepare(4)
-	targets[0].position=Vector2(330,0);targets[0].is_boss=true
+	for target in targets:target.position=Vector2(330,0)
+	targets[0].is_boss=true
 	controller.request_cast(2,Vector2.RIGHT)
 	await frames(17)
 	check(targets[0].statuses.stunned(),"K boss uses authoritative .15s stagger")
@@ -104,7 +105,7 @@ func run_tests() -> void:
 	await prepare()
 	targets[0].position=Vector2(5,-24) # Every ray overlaps this point; global cap still two.
 	controller.request_cast(4,Vector2.RIGHT)
-	check(owner.factor(&"move_speed")==.5,"ultimate channel halves movement")
+	check(owner.has_meta("movement_lock_runtime"),"ultimate locks movement for intro and ray release")
 	check(not controller.request_cast(4,Vector2.RIGHT),"cannot overlap active channels")
 	await frames(36)
 	check(damage_to(2)==0,"I .65s windup")
@@ -195,15 +196,17 @@ func run_tests() -> void:
 	await prepare()
 	check(manager.apply_bound(expand,controller.runtime_for(2)),"K area expansion compatible")
 	targets[0].position=Vector2(423,0)
+	var isolated_candidates: Array[Actor]=[targets[0]]
+	controller.candidates=isolated_candidates # do not mutate shared target fixture array
 	controller.request_cast(2,Vector2.RIGHT);await frames(20)
 	check(damage_to(2)==15,"expanded prison hits beyond base86 radius")
 	await prepare()
 	controller.set_mode(&"AUTO")
 	targets[0].position=Vector2(90,0);targets[1].position=Vector2(280,0);targets[2].position=Vector2(285,0)
-	check(controller.request_cast(2),"Auto K accepts cluster placement")
+	check(controller.request_cast(2),"Auto K accepts nearest placement")
 	var prison: ControlMageRuntime
 	for child in combat.get_children():if child is ControlMageRuntime:prison=child
-	check(prison!=null and prison.center.x>=280,"Auto chooses dense cluster rather than nearest isolated target")
+	check(prison!=null and prison.center.is_equal_approx(Vector2(90,0)),"Auto chooses nearest isolated target over denser distant cluster")
 	await prepare()
 	controller.request_cast(4,Vector2.RIGHT)
 	owner.statuses.apply(_stun())
@@ -226,7 +229,8 @@ func run_scene_checks() -> void:
 	var renderer:=game.player.get_node("MappedEffects") as MappedActorEffects
 	game.player.facing=Vector2.UP;game.player.record_attack_direction(Vector2.RIGHT)
 	check(game.player.sprite_visual._resolve(&"cast_j")==&"cast_j_east" and game.player.sprite_visual._resolve(&"run")==&"run_north","directional cast pose follows attack while run follows movement")
-	check(renderer.bolt_size==Vector2(22,11) and renderer.basic_impact_size==16,"latest requested smaller Doom basic VFX, presentation only")
+	var bolt_config: Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://assets/private_viridian/profile.json"))
+	check(not bool(bolt_config.get("bolt_layers",false)) and renderer.basic_impact_size==16,"Doom uses source orb without supplemental bolt layers")
 	check(renderer!=null and game.player.action_audio!=null,"actual run binds mapped VFX and positional audio")
 	check(game.player.action_audio.profile.basic[0].path=="res://assets/viridian/audio/emerald_shot.wav","basic guaranteed original non-voice shot")
 	check(game.player.action_audio.profile["impact:skill.viridian.basic"][0].path.ends_with("emerald_hit.wav"),"basic impact guaranteed non-voice")

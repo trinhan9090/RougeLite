@@ -1,0 +1,57 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1e2f3g4h5i6"]
+
+[ext_resource type="Script" path="res://multiplayer/scenes/multiplayer_session_flow.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://dh8k1m2n3o4p5" path="res://multiplayer/ui/host_join_menu.tscn" id="2"]
+
+[node name="MultiplayerSessionFlow" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1")
+
+[node name="HostJoinMenu" parent="." instance=ExtResource("2")]
+
+[node name="Lobby" type="Control" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="CenterContainer" type="CenterContainer" parent="Lobby"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Lobby/CenterContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Lobby/CenterContainer/VBoxContainer"]
+layout_mode = 2
+text = "LOBBY - Waiting for players..."
+horizontal_alignment = 1
+
+[node name="PlayerList" type="VBoxContainer" parent="Lobby/CenterContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="StartButton" type="Button" parent="Lobby/CenterContainer/VBoxContainer"]
+layout_mode = 2
+text = "START MATCH"
+
+[node name="LobbyBackButton" type="Button" parent="Lobby/CenterContainer/VBoxContainer"]
+layout_mode = 2
+text = "BACK TO MAIN MENU"
+
+[node name="StatusLabel" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -200.0
+offset_top = 50.0
+offset_right = 200.0
+offset_bottom = 100.0
+horizontal_alignment = 1

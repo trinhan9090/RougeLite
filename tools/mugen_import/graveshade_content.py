@@ -9,6 +9,7 @@ for slot,(key,title,move,kind,windup,cd,damage,reach,radius,speed,counts) in enu
  for i,count in enumerate(counts):
   lines.extend([f'[sub_resource type="Resource" id="behavior_{key}{i}"]','script = ExtResource("behavior")','can_crit = '+str(key=='j').lower(),f'[sub_resource type="Resource" id="rank_{key}{i}"]','script = ExtResource("rank")',f'rank = {i+1}',f'cooldown = {float(cd)}',f'damage = {float(damage)}','damage_type = "PHYSICAL"',f'range_px = {float(reach)}',f'radius_px = {float(radius*(1.2 if key=="k" and i>=1 else 1))}',f'projectile_speed = {float(speed)}',f'projectile_count = {count}',f'behavior = SubResource("behavior_{key}{i}")'])
  lines.extend([f'[sub_resource type="Resource" id="target_{key}"]','script = ExtResource("target")','policy = "cursor"',f'acquisition_radius = {float(reach)}'])
+ if key=="k":lines.append('prefer_nearest_with_facing_fallback = true')
  caps=['damage','on_hit_hook','on_kill_hook','cooldown_manage','repeat_cast']
  if key=='j':caps+=['modify_projectile_angle','spawn_projectile_pattern','modify_projectile_count','pierce_hit','projectile_steering']
  else:caps+=['resize_area']

@@ -1,0 +1,5816 @@
+{
+  "edges": [
+    {
+      "file": "assists.cns",
+      "state": 4101,
+      "line": 63,
+      "controller": "explod",
+      "target": 7123,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4101,
+      "line": 77,
+      "controller": "explod",
+      "target": 7123,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4105,
+      "line": 129,
+      "controller": "explod",
+      "target": 7122,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4105,
+      "line": 143,
+      "controller": "explod",
+      "target": 7122,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4105,
+      "line": 191,
+      "controller": "changeanim",
+      "target": 4101,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4105,
+      "line": 197,
+      "controller": "changeanim",
+      "target": 4105,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4110,
+      "line": 327,
+      "controller": "explod",
+      "target": 8300,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4110,
+      "line": 340,
+      "controller": "helper",
+      "target": 8200,
+      "kind": "helper_state"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4110,
+      "line": 379,
+      "controller": "helper",
+      "target": 800,
+      "kind": "helper_state"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4110,
+      "line": 396,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4201,
+      "line": 571,
+      "controller": "explod",
+      "target": 7123,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4201,
+      "line": 585,
+      "controller": "explod",
+      "target": 7123,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4205,
+      "line": 637,
+      "controller": "explod",
+      "target": 7122,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4205,
+      "line": 651,
+      "controller": "explod",
+      "target": 7122,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4205,
+      "line": 699,
+      "controller": "changeanim",
+      "target": 4201,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4205,
+      "line": 705,
+      "controller": "changeanim",
+      "target": 4205,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4210,
+      "line": 840,
+      "controller": "helper",
+      "target": 801,
+      "kind": "helper_state"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4210,
+      "line": 882,
+      "controller": "explod",
+      "target": 8860,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4301,
+      "line": 974,
+      "controller": "explod",
+      "target": 7123,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4301,
+      "line": 988,
+      "controller": "explod",
+      "target": 7123,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4305,
+      "line": 1040,
+      "controller": "explod",
+      "target": 7122,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4305,
+      "line": 1054,
+      "controller": "explod",
+      "target": 7122,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4305,
+      "line": 1102,
+      "controller": "changeanim",
+      "target": 4301,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4305,
+      "line": 1108,
+      "controller": "changeanim",
+      "target": 4305,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4310,
+      "line": 1261,
+      "controller": "explod",
+      "target": 9200,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4310,
+      "line": 1272,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "assists.cns",
+      "state": 4310,
+      "line": 1316,
+      "controller": "helper",
+      "target": 801,
+      "kind": "helper_state"
+    },
+    {
+      "file": "common1.cns",
+      "state": 0,
+      "line": 20,
+      "controller": "changeanim",
+      "target": 0,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 11,
+      "line": 109,
+      "controller": "changeanim",
+      "target": 11,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 20,
+      "line": 139,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 20,
+      "line": 151,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 40,
+      "line": 234,
+      "controller": "explod",
+      "target": 6060,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 40,
+      "line": 250,
+      "controller": "changeanim",
+      "target": 50,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 51,
+      "line": 399,
+      "controller": "changeanim",
+      "target": 54,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 51,
+      "line": 404,
+      "controller": "changeanim",
+      "target": 55,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 51,
+      "line": 409,
+      "controller": "changeanim",
+      "target": 56,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 52,
+      "line": 464,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 55,
+      "line": 521,
+      "controller": "explod",
+      "target": 6100,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 80,
+      "line": 700,
+      "controller": "explod",
+      "target": 7119,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 80,
+      "line": 723,
+      "controller": "explod",
+      "target": 7125,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 80,
+      "line": 736,
+      "controller": "explod",
+      "target": 7125,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 80,
+      "line": 750,
+      "controller": "explod",
+      "target": 6060,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 80,
+      "line": 759,
+      "controller": "explod",
+      "target": 6050,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 80,
+      "line": 769,
+      "controller": "explod",
+      "target": 6050,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 80,
+      "line": 779,
+      "controller": "explod",
+      "target": 7116,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 80,
+      "line": 793,
+      "controller": "explod",
+      "target": 7116,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 80,
+      "line": 807,
+      "controller": "explod",
+      "target": 7122,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 80,
+      "line": 819,
+      "controller": "explod",
+      "target": 7122,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 80,
+      "line": 832,
+      "controller": "helper",
+      "target": 10000,
+      "kind": "helper_state"
+    },
+    {
+      "file": "common1.cns",
+      "state": 80,
+      "line": 847,
+      "controller": "helper",
+      "target": 890,
+      "kind": "helper_state"
+    },
+    {
+      "file": "common1.cns",
+      "state": 80,
+      "line": 863,
+      "controller": "changeanim",
+      "target": 44,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 100,
+      "line": 903,
+      "controller": "explod",
+      "target": 7119,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 100,
+      "line": 927,
+      "controller": "explod",
+      "target": 7125,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 100,
+      "line": 941,
+      "controller": "explod",
+      "target": 7125,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 100,
+      "line": 969,
+      "controller": "explod",
+      "target": 7124,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 100,
+      "line": 981,
+      "controller": "explod",
+      "target": 7124,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 100,
+      "line": 994,
+      "controller": "explod",
+      "target": 7117,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 100,
+      "line": 1006,
+      "controller": "explod",
+      "target": 7117,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 100,
+      "line": 1019,
+      "controller": "explod",
+      "target": 7115,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 100,
+      "line": 1035,
+      "controller": "helper",
+      "target": 109,
+      "kind": "helper_state"
+    },
+    {
+      "file": "common1.cns",
+      "state": 100,
+      "line": 1054,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 100,
+      "line": 1073,
+      "controller": "explod",
+      "target": 6052,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 100,
+      "line": 1083,
+      "controller": "explod",
+      "target": 6051,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 101,
+      "line": 1129,
+      "controller": "explod",
+      "target": 6050,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 102,
+      "line": 1174,
+      "controller": "explod",
+      "target": 6150,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 102,
+      "line": 1207,
+      "controller": "helper",
+      "target": 109,
+      "kind": "helper_state"
+    },
+    {
+      "file": "common1.cns",
+      "state": 103,
+      "line": 1273,
+      "controller": "explod",
+      "target": 6150,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 105,
+      "line": 1367,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 105,
+      "line": 1378,
+      "controller": "explod",
+      "target": 6050,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 105,
+      "line": 1389,
+      "controller": "explod",
+      "target": 7200,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 106,
+      "line": 1422,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 107,
+      "line": 1464,
+      "controller": "helper",
+      "target": 109,
+      "kind": "helper_state"
+    },
+    {
+      "file": "common1.cns",
+      "state": 107,
+      "line": 1483,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 107,
+      "line": 1502,
+      "controller": "explod",
+      "target": 6052,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 107,
+      "line": 1512,
+      "controller": "explod",
+      "target": 6051,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 108,
+      "line": 1566,
+      "controller": "explod",
+      "target": 7020,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 108,
+      "line": 1601,
+      "controller": "changeanim",
+      "target": 101,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 109,
+      "line": 1619,
+      "controller": "explod",
+      "target": 7500,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 110,
+      "line": 1664,
+      "controller": "changeanim",
+      "target": 110,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 115,
+      "line": 1711,
+      "controller": "changeanim",
+      "target": 110,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 175,
+      "line": 2175,
+      "controller": "changeanim",
+      "target": 175,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 190,
+      "line": 2192,
+      "controller": "changeanim",
+      "target": 190,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5000,
+      "line": 2231,
+      "controller": "changeanim",
+      "target": 5030,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5010,
+      "line": 2348,
+      "controller": "changeanim",
+      "target": 5030,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5020,
+      "line": 2461,
+      "controller": "changeanim",
+      "target": 5030,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5035,
+      "line": 2561,
+      "controller": "changeanim",
+      "target": 5035,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5040,
+      "line": 2607,
+      "controller": "changeanim",
+      "target": 5040,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5050,
+      "line": 2648,
+      "controller": "changeanim",
+      "target": 5050,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5070,
+      "line": 2701,
+      "controller": "changeanim",
+      "target": 5070,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5100,
+      "line": 2838,
+      "controller": "changeanim",
+      "target": 5100,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5100,
+      "line": 2880,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5101,
+      "line": 2935,
+      "controller": "changeanim",
+      "target": 5160,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5110,
+      "line": 2992,
+      "controller": "changeanim",
+      "target": 5170,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5110,
+      "line": 3023,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5110,
+      "line": 3047,
+      "controller": "changeanim",
+      "target": 5110,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5120,
+      "line": 3097,
+      "controller": "changeanim",
+      "target": 5120,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5150,
+      "line": 3157,
+      "controller": "changeanim",
+      "target": 5140,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5150,
+      "line": 3180,
+      "controller": "changeanim",
+      "target": 5110,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5200,
+      "line": 3224,
+      "controller": "changeanim",
+      "target": 5050,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5500,
+      "line": 3378,
+      "controller": "changeanim",
+      "target": 5500,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 190,
+      "line": 261,
+      "controller": "explod",
+      "target": 6151,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 190,
+      "line": 273,
+      "controller": "explod",
+      "target": 6200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 192,
+      "line": 393,
+      "controller": "explod",
+      "target": 7200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 192,
+      "line": 406,
+      "controller": "explod",
+      "target": 7860,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 192,
+      "line": 416,
+      "controller": "explod",
+      "target": 7200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 192,
+      "line": 428,
+      "controller": "explod",
+      "target": 7860,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 192,
+      "line": 438,
+      "controller": "explod",
+      "target": 7200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 192,
+      "line": 462,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 194,
+      "line": 513,
+      "controller": "explod",
+      "target": 7702,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 194,
+      "line": 523,
+      "controller": "explod",
+      "target": 195,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 200,
+      "line": 562,
+      "controller": "helper",
+      "target": 201,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 200,
+      "line": 577,
+      "controller": "helper",
+      "target": 202,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 200,
+      "line": 598,
+      "controller": "explod",
+      "target": 9200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 200,
+      "line": 608,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 200,
+      "line": 654,
+      "controller": "helper",
+      "target": 800,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 210,
+      "line": 900,
+      "controller": "helper",
+      "target": 211,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 210,
+      "line": 914,
+      "controller": "helper",
+      "target": 212,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 210,
+      "line": 935,
+      "controller": "explod",
+      "target": 9200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 210,
+      "line": 946,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 210,
+      "line": 999,
+      "controller": "helper",
+      "target": 801,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 220,
+      "line": 1249,
+      "controller": "helper",
+      "target": 221,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 220,
+      "line": 1264,
+      "controller": "helper",
+      "target": 222,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 220,
+      "line": 1285,
+      "controller": "explod",
+      "target": 9200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 220,
+      "line": 1295,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 220,
+      "line": 1348,
+      "controller": "helper",
+      "target": 801,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 230,
+      "line": 1594,
+      "controller": "helper",
+      "target": 231,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 230,
+      "line": 1610,
+      "controller": "helper",
+      "target": 233,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 230,
+      "line": 1627,
+      "controller": "explod",
+      "target": 9200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 230,
+      "line": 1638,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 230,
+      "line": 1690,
+      "controller": "helper",
+      "target": 801,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 232,
+      "line": 1876,
+      "controller": "helper",
+      "target": 231,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 232,
+      "line": 1892,
+      "controller": "helper",
+      "target": 233,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 232,
+      "line": 1908,
+      "controller": "explod",
+      "target": 9200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 232,
+      "line": 1918,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 232,
+      "line": 1970,
+      "controller": "helper",
+      "target": 801,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 240,
+      "line": 2104,
+      "controller": "helper",
+      "target": 241,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 240,
+      "line": 2120,
+      "controller": "helper",
+      "target": 242,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 240,
+      "line": 2142,
+      "controller": "explod",
+      "target": 9200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 240,
+      "line": 2153,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 240,
+      "line": 2207,
+      "controller": "helper",
+      "target": 801,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 250,
+      "line": 2445,
+      "controller": "helper",
+      "target": 251,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 250,
+      "line": 2460,
+      "controller": "helper",
+      "target": 252,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 250,
+      "line": 2493,
+      "controller": "explod",
+      "target": 9200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 250,
+      "line": 2504,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 250,
+      "line": 2557,
+      "controller": "helper",
+      "target": 801,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 260,
+      "line": 2800,
+      "controller": "helper",
+      "target": 265,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 261,
+      "line": 2893,
+      "controller": "explod",
+      "target": 7400,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 261,
+      "line": 2925,
+      "controller": "explod",
+      "target": 7702,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 261,
+      "line": 2938,
+      "controller": "explod",
+      "target": 7700,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 261,
+      "line": 2951,
+      "controller": "explod",
+      "target": 6100,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 261,
+      "line": 2963,
+      "controller": "explod",
+      "target": 7701,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 262,
+      "line": 3116,
+      "controller": "helper",
+      "target": 265,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 270,
+      "line": 3269,
+      "controller": "helper",
+      "target": 285,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 270,
+      "line": 3283,
+      "controller": "helper",
+      "target": 286,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 270,
+      "line": 3297,
+      "controller": "helper",
+      "target": 287,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 270,
+      "line": 3318,
+      "controller": "helper",
+      "target": 271,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 270,
+      "line": 3333,
+      "controller": "helper",
+      "target": 272,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 275,
+      "line": 3470,
+      "controller": "explod",
+      "target": 6150,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 275,
+      "line": 3482,
+      "controller": "explod",
+      "target": 6200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 275,
+      "line": 3505,
+      "controller": "helper",
+      "target": 276,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 276,
+      "line": 3568,
+      "controller": "explod",
+      "target": 7200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 280,
+      "line": 3635,
+      "controller": "explod",
+      "target": 552,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 280,
+      "line": 3651,
+      "controller": "explod",
+      "target": 552,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 280,
+      "line": 3749,
+      "controller": "explod",
+      "target": 7123,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 280,
+      "line": 3763,
+      "controller": "explod",
+      "target": 7123,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 280,
+      "line": 3778,
+      "controller": "explod",
+      "target": 252,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 280,
+      "line": 3799,
+      "controller": "explod",
+      "target": 252,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 280,
+      "line": 3847,
+      "controller": "helper",
+      "target": 801,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 280,
+      "line": 3862,
+      "controller": "helper",
+      "target": 802,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 281,
+      "line": 3937,
+      "controller": "explod",
+      "target": 7125,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 281,
+      "line": 3953,
+      "controller": "explod",
+      "target": 7125,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 281,
+      "line": 3970,
+      "controller": "explod",
+      "target": 7117,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 281,
+      "line": 3984,
+      "controller": "explod",
+      "target": 7117,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 281,
+      "line": 4043,
+      "controller": "explod",
+      "target": 7122,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 281,
+      "line": 4055,
+      "controller": "explod",
+      "target": 7122,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 281,
+      "line": 4068,
+      "controller": "helper",
+      "target": 801,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 281,
+      "line": 4083,
+      "controller": "helper",
+      "target": 802,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 290,
+      "line": 4339,
+      "controller": "explod",
+      "target": 7350,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 290,
+      "line": 4388,
+      "controller": "explod",
+      "target": 7702,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 290,
+      "line": 4406,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 290,
+      "line": 4416,
+      "controller": "explod",
+      "target": 6050,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 290,
+      "line": 4428,
+      "controller": "helper",
+      "target": 292,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 290,
+      "line": 4443,
+      "controller": "helper",
+      "target": 291,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 290,
+      "line": 4459,
+      "controller": "helper",
+      "target": 293,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 292,
+      "line": 4627,
+      "controller": "explod",
+      "target": 7700,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 295,
+      "line": 4660,
+      "controller": "changeanim",
+      "target": 5000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 296,
+      "line": 4678,
+      "controller": "changeanim",
+      "target": 5000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 297,
+      "line": 4721,
+      "controller": "changeanim",
+      "target": 5000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 298,
+      "line": 4785,
+      "controller": "changeanim",
+      "target": 5000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 299,
+      "line": 4835,
+      "controller": "explod",
+      "target": 7350,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 299,
+      "line": 4884,
+      "controller": "explod",
+      "target": 7702,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 299,
+      "line": 4902,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 299,
+      "line": 4912,
+      "controller": "explod",
+      "target": 6050,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 299,
+      "line": 4924,
+      "controller": "helper",
+      "target": 292,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 299,
+      "line": 4939,
+      "controller": "helper",
+      "target": 291,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 299,
+      "line": 4955,
+      "controller": "helper",
+      "target": 293,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 300,
+      "line": 5020,
+      "controller": "helper",
+      "target": 251,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 300,
+      "line": 5035,
+      "controller": "helper",
+      "target": 252,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 300,
+      "line": 5061,
+      "controller": "helper",
+      "target": 801,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 310,
+      "line": 5231,
+      "controller": "explod",
+      "target": 7200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 310,
+      "line": 5247,
+      "controller": "helper",
+      "target": 315,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 315,
+      "line": 5283,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 315,
+      "line": 5326,
+      "controller": "explod",
+      "target": 6003,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 315,
+      "line": 5352,
+      "controller": "explod",
+      "target": 6800,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 316,
+      "line": 5379,
+      "controller": "changeanim",
+      "target": 5070,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 320,
+      "line": 5415,
+      "controller": "helper",
+      "target": 325,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 325,
+      "line": 5444,
+      "controller": "explod",
+      "target": 6201,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 325,
+      "line": 5459,
+      "controller": "explod",
+      "target": 8600,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 325,
+      "line": 5469,
+      "controller": "explod",
+      "target": 7601,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 330,
+      "line": 5520,
+      "controller": "explod",
+      "target": 7200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 330,
+      "line": 5535,
+      "controller": "helper",
+      "target": 335,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 336,
+      "line": 5597,
+      "controller": "explod",
+      "target": 6200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 337,
+      "line": 5639,
+      "controller": "explod",
+      "target": 6200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 337,
+      "line": 5654,
+      "controller": "helper",
+      "target": 338,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 338,
+      "line": 5704,
+      "controller": "explod",
+      "target": 8600,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 338,
+      "line": 5741,
+      "controller": "helper",
+      "target": 2511,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 350,
+      "line": 5876,
+      "controller": "explod",
+      "target": 7702,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 350,
+      "line": 5886,
+      "controller": "explod",
+      "target": 7701,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 350,
+      "line": 5901,
+      "controller": "explod",
+      "target": 6200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 350,
+      "line": 5911,
+      "controller": "explod",
+      "target": 6100,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 350,
+      "line": 5922,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 350,
+      "line": 5976,
+      "controller": "helper",
+      "target": 289,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 350,
+      "line": 5990,
+      "controller": "helper",
+      "target": 288,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 350,
+      "line": 6004,
+      "controller": "helper",
+      "target": 287,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 400,
+      "line": 6090,
+      "controller": "helper",
+      "target": 30500,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 400,
+      "line": 6104,
+      "controller": "helper",
+      "target": 405,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 400,
+      "line": 6118,
+      "controller": "helper",
+      "target": 550,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 410,
+      "line": 6233,
+      "controller": "helper",
+      "target": 285,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 410,
+      "line": 6247,
+      "controller": "helper",
+      "target": 286,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 410,
+      "line": 6261,
+      "controller": "helper",
+      "target": 287,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 410,
+      "line": 6276,
+      "controller": "helper",
+      "target": 411,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 410,
+      "line": 6291,
+      "controller": "helper",
+      "target": 412,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 405,
+      "line": 6351,
+      "controller": "helper",
+      "target": 406,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 451,
+      "line": 6589,
+      "controller": "helper",
+      "target": 201,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 451,
+      "line": 6604,
+      "controller": "helper",
+      "target": 202,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 451,
+      "line": 6619,
+      "controller": "explod",
+      "target": 9200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 451,
+      "line": 6629,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 451,
+      "line": 6675,
+      "controller": "helper",
+      "target": 800,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 500,
+      "line": 6773,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 500,
+      "line": 6785,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 500,
+      "line": 6795,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 500,
+      "line": 6806,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 505,
+      "line": 6864,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 505,
+      "line": 6876,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 505,
+      "line": 6886,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 505,
+      "line": 6897,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 550,
+      "line": 6948,
+      "controller": "explod",
+      "target": 6150,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 550,
+      "line": 6973,
+      "controller": "explod",
+      "target": 6450,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 550,
+      "line": 6986,
+      "controller": "explod",
+      "target": 6200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 30500,
+      "line": 7041,
+      "controller": "explod",
+      "target": 30511,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 30500,
+      "line": 7061,
+      "controller": "explod",
+      "target": 30511,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 555,
+      "line": 7121,
+      "controller": "explod",
+      "target": 6100,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 555,
+      "line": 7134,
+      "controller": "explod",
+      "target": 6250,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 600,
+      "line": 7186,
+      "controller": "helper",
+      "target": 201,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 600,
+      "line": 7201,
+      "controller": "helper",
+      "target": 202,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 600,
+      "line": 7216,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 600,
+      "line": 7261,
+      "controller": "helper",
+      "target": 800,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 610,
+      "line": 7314,
+      "controller": "helper",
+      "target": 801,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 610,
+      "line": 7330,
+      "controller": "helper",
+      "target": 211,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 610,
+      "line": 7345,
+      "controller": "helper",
+      "target": 212,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 610,
+      "line": 7360,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 610,
+      "line": 7406,
+      "controller": "helper",
+      "target": 285,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 610,
+      "line": 7420,
+      "controller": "helper",
+      "target": 286,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 610,
+      "line": 7434,
+      "controller": "helper",
+      "target": 287,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 620,
+      "line": 7492,
+      "controller": "helper",
+      "target": 801,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 620,
+      "line": 7506,
+      "controller": "helper",
+      "target": 231,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 620,
+      "line": 7522,
+      "controller": "helper",
+      "target": 233,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 620,
+      "line": 7538,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 620,
+      "line": 7584,
+      "controller": "helper",
+      "target": 285,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 620,
+      "line": 7598,
+      "controller": "helper",
+      "target": 286,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 620,
+      "line": 7612,
+      "controller": "helper",
+      "target": 287,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 630,
+      "line": 7683,
+      "controller": "explod",
+      "target": 6151,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 630,
+      "line": 7694,
+      "controller": "helper",
+      "target": 241,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 630,
+      "line": 7710,
+      "controller": "helper",
+      "target": 242,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 630,
+      "line": 7726,
+      "controller": "helper",
+      "target": 622,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 630,
+      "line": 7741,
+      "controller": "helper",
+      "target": 801,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 630,
+      "line": 7755,
+      "controller": "explod",
+      "target": 7500,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 630,
+      "line": 7767,
+      "controller": "explod",
+      "target": 6100,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 630,
+      "line": 7779,
+      "controller": "explod",
+      "target": 7700,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 630,
+      "line": 7808,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 630,
+      "line": 7858,
+      "controller": "helper",
+      "target": 285,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 630,
+      "line": 7872,
+      "controller": "helper",
+      "target": 286,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 630,
+      "line": 7886,
+      "controller": "helper",
+      "target": 287,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 640,
+      "line": 7919,
+      "controller": "helper",
+      "target": 641,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 640,
+      "line": 7935,
+      "controller": "helper",
+      "target": 642,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 640,
+      "line": 7956,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 640,
+      "line": 8006,
+      "controller": "helper",
+      "target": 801,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 650,
+      "line": 8152,
+      "controller": "explod",
+      "target": 6760,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 650,
+      "line": 8164,
+      "controller": "explod",
+      "target": 6780,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 650,
+      "line": 8201,
+      "controller": "helper",
+      "target": 801,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 651,
+      "line": 8258,
+      "controller": "explod",
+      "target": 7701,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 651,
+      "line": 8269,
+      "controller": "explod",
+      "target": 7702,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 651,
+      "line": 8307,
+      "controller": "helper",
+      "target": 800,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8348,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8365,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8382,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8397,
+      "controller": "explod",
+      "target": 7624,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8414,
+      "controller": "explod",
+      "target": 7624,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8431,
+      "controller": "explod",
+      "target": 7624,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8446,
+      "controller": "explod",
+      "target": 7619,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8465,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8482,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8499,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8514,
+      "controller": "explod",
+      "target": 7624,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8531,
+      "controller": "explod",
+      "target": 7624,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8548,
+      "controller": "explod",
+      "target": 7624,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8563,
+      "controller": "explod",
+      "target": 7619,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8579,
+      "controller": "explod",
+      "target": 7622,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8595,
+      "controller": "explod",
+      "target": 7622,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8611,
+      "controller": "explod",
+      "target": 7623,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8630,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8647,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8664,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8679,
+      "controller": "explod",
+      "target": 7624,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8696,
+      "controller": "explod",
+      "target": 7624,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8713,
+      "controller": "explod",
+      "target": 7624,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8728,
+      "controller": "explod",
+      "target": 7622,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8745,
+      "controller": "explod",
+      "target": 7622,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8762,
+      "controller": "explod",
+      "target": 7622,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8777,
+      "controller": "explod",
+      "target": 7619,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8797,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8812,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8827,
+      "controller": "explod",
+      "target": 7612,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8842,
+      "controller": "explod",
+      "target": 7612,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8857,
+      "controller": "explod",
+      "target": 2541,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8872,
+      "controller": "explod",
+      "target": 2541,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8891,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8906,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8921,
+      "controller": "explod",
+      "target": 7612,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8936,
+      "controller": "explod",
+      "target": 7612,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8951,
+      "controller": "explod",
+      "target": 2541,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8966,
+      "controller": "explod",
+      "target": 2541,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9023,
+      "controller": "explod",
+      "target": 7626,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9040,
+      "controller": "explod",
+      "target": 7626,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9057,
+      "controller": "explod",
+      "target": 7626,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9072,
+      "controller": "explod",
+      "target": 7627,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9089,
+      "controller": "explod",
+      "target": 7627,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9106,
+      "controller": "explod",
+      "target": 7627,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9122,
+      "controller": "explod",
+      "target": 7626,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9139,
+      "controller": "explod",
+      "target": 7626,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9156,
+      "controller": "explod",
+      "target": 7626,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9171,
+      "controller": "explod",
+      "target": 7627,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9188,
+      "controller": "explod",
+      "target": 7627,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9205,
+      "controller": "explod",
+      "target": 7627,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9221,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9238,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9255,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9270,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9287,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9302,
+      "controller": "explod",
+      "target": 7623,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9318,
+      "controller": "explod",
+      "target": 7619,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9337,
+      "controller": "explod",
+      "target": 7626,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9354,
+      "controller": "explod",
+      "target": 7626,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9371,
+      "controller": "explod",
+      "target": 7626,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9386,
+      "controller": "explod",
+      "target": 7627,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9403,
+      "controller": "explod",
+      "target": 7627,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9420,
+      "controller": "explod",
+      "target": 7627,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9436,
+      "controller": "explod",
+      "target": 7626,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9453,
+      "controller": "explod",
+      "target": 7626,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9470,
+      "controller": "explod",
+      "target": 7626,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9485,
+      "controller": "explod",
+      "target": 7627,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9502,
+      "controller": "explod",
+      "target": 7627,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9519,
+      "controller": "explod",
+      "target": 7627,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9535,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9552,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9569,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9584,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9601,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9616,
+      "controller": "explod",
+      "target": 7622,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9633,
+      "controller": "explod",
+      "target": 7622,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9650,
+      "controller": "explod",
+      "target": 7623,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9667,
+      "controller": "explod",
+      "target": 7619,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9688,
+      "controller": "explod",
+      "target": 7626,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9705,
+      "controller": "explod",
+      "target": 7626,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9722,
+      "controller": "explod",
+      "target": 7626,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9737,
+      "controller": "explod",
+      "target": 7624,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9754,
+      "controller": "explod",
+      "target": 7624,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9771,
+      "controller": "explod",
+      "target": 7624,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9787,
+      "controller": "explod",
+      "target": 7626,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9804,
+      "controller": "explod",
+      "target": 7626,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9821,
+      "controller": "explod",
+      "target": 7626,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9836,
+      "controller": "explod",
+      "target": 7624,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9853,
+      "controller": "explod",
+      "target": 7624,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9870,
+      "controller": "explod",
+      "target": 7624,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9886,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9903,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9920,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9935,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9952,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9967,
+      "controller": "explod",
+      "target": 7622,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 9984,
+      "controller": "explod",
+      "target": 7622,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10001,
+      "controller": "explod",
+      "target": 7622,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10016,
+      "controller": "explod",
+      "target": 7628,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10033,
+      "controller": "explod",
+      "target": 7628,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10050,
+      "controller": "explod",
+      "target": 7628,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10069,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10084,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10099,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10114,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10129,
+      "controller": "explod",
+      "target": 7620,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10144,
+      "controller": "explod",
+      "target": 7620,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10159,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10174,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10189,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10204,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10219,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10234,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10252,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10267,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10282,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10297,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10312,
+      "controller": "explod",
+      "target": 7620,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10327,
+      "controller": "explod",
+      "target": 7620,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10342,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10357,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10372,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10387,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10402,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10417,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10435,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10450,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10465,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10480,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10495,
+      "controller": "explod",
+      "target": 7620,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10510,
+      "controller": "explod",
+      "target": 7620,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10525,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10540,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10555,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10570,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10585,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10600,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10618,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10633,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10648,
+      "controller": "explod",
+      "target": 7620,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10663,
+      "controller": "explod",
+      "target": 7620,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10678,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10693,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10708,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10723,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10741,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10756,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10771,
+      "controller": "explod",
+      "target": 7620,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10786,
+      "controller": "explod",
+      "target": 7620,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10801,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10816,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10831,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10846,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10864,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10879,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10894,
+      "controller": "explod",
+      "target": 7613,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10909,
+      "controller": "explod",
+      "target": 7620,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10924,
+      "controller": "explod",
+      "target": 7620,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10939,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10954,
+      "controller": "explod",
+      "target": 7621,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10969,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 801,
+      "line": 10984,
+      "controller": "explod",
+      "target": 7615,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 802,
+      "line": 11013,
+      "controller": "explod",
+      "target": 7106,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 802,
+      "line": 11028,
+      "controller": "explod",
+      "target": 7106,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 890,
+      "line": 11206,
+      "controller": "explod",
+      "target": 7127,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 890,
+      "line": 11224,
+      "controller": "explod",
+      "target": 7127,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 890,
+      "line": 11242,
+      "controller": "explod",
+      "target": 7127,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 890,
+      "line": 11260,
+      "controller": "explod",
+      "target": 7127,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 890,
+      "line": 11278,
+      "controller": "explod",
+      "target": 7127,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 890,
+      "line": 11295,
+      "controller": "explod",
+      "target": 7127,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 900,
+      "line": 11398,
+      "controller": "explod",
+      "target": 6700,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 900,
+      "line": 11415,
+      "controller": "explod",
+      "target": 6401,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1000,
+      "line": 11498,
+      "controller": "explod",
+      "target": 6154,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1000,
+      "line": 11512,
+      "controller": "explod",
+      "target": 6154,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1000,
+      "line": 11528,
+      "controller": "explod",
+      "target": 6154,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1000,
+      "line": 11542,
+      "controller": "explod",
+      "target": 6154,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1000,
+      "line": 11558,
+      "controller": "explod",
+      "target": 6154,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1000,
+      "line": 11572,
+      "controller": "explod",
+      "target": 6154,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1000,
+      "line": 11588,
+      "controller": "explod",
+      "target": 6154,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1000,
+      "line": 11602,
+      "controller": "explod",
+      "target": 6154,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1000,
+      "line": 11618,
+      "controller": "helper",
+      "target": 1005,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1000,
+      "line": 11637,
+      "controller": "explod",
+      "target": 6051,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1000,
+      "line": 11651,
+      "controller": "explod",
+      "target": 6051,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1000,
+      "line": 11667,
+      "controller": "explod",
+      "target": 6052,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1000,
+      "line": 11681,
+      "controller": "explod",
+      "target": 6052,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1000,
+      "line": 11705,
+      "controller": "helper",
+      "target": 109,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1000,
+      "line": 11738,
+      "controller": "helper",
+      "target": 8000,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1001,
+      "line": 11820,
+      "controller": "explod",
+      "target": 6600,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1001,
+      "line": 11838,
+      "controller": "helper",
+      "target": 1002,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1002,
+      "line": 11915,
+      "controller": "explod",
+      "target": 6400,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1002,
+      "line": 11928,
+      "controller": "explod",
+      "target": 6400,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1002,
+      "line": 11943,
+      "controller": "explod",
+      "target": 6100,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1100,
+      "line": 12131,
+      "controller": "helper",
+      "target": 7457,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1100,
+      "line": 12147,
+      "controller": "helper",
+      "target": 1030,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1100,
+      "line": 12165,
+      "controller": "explod",
+      "target": 7125,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1100,
+      "line": 12180,
+      "controller": "explod",
+      "target": 7125,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1100,
+      "line": 12196,
+      "controller": "explod",
+      "target": 7117,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1100,
+      "line": 12211,
+      "controller": "explod",
+      "target": 7117,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1100,
+      "line": 12242,
+      "controller": "helper",
+      "target": 7025,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1100,
+      "line": 12258,
+      "controller": "explod",
+      "target": 1002,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1100,
+      "line": 12274,
+      "controller": "explod",
+      "target": 1002,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1100,
+      "line": 12290,
+      "controller": "explod",
+      "target": 1002,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1100,
+      "line": 12306,
+      "controller": "explod",
+      "target": 1002,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1100,
+      "line": 12346,
+      "controller": "helper",
+      "target": 800,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1100,
+      "line": 12367,
+      "controller": "changeanim",
+      "target": 1003,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1200,
+      "line": 12449,
+      "controller": "explod",
+      "target": 8903,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1200,
+      "line": 12461,
+      "controller": "explod",
+      "target": 6700,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1200,
+      "line": 12480,
+      "controller": "explod",
+      "target": 6550,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1200,
+      "line": 12574,
+      "controller": "helper",
+      "target": 7025,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1200,
+      "line": 12598,
+      "controller": "helper",
+      "target": 109,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1200,
+      "line": 12630,
+      "controller": "helper",
+      "target": 8000,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1201,
+      "line": 12688,
+      "controller": "explod",
+      "target": 6550,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1201,
+      "line": 12703,
+      "controller": "explod",
+      "target": 7030,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1202,
+      "line": 12778,
+      "controller": "explod",
+      "target": 6400,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1202,
+      "line": 12791,
+      "controller": "explod",
+      "target": 6400,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1202,
+      "line": 12806,
+      "controller": "explod",
+      "target": 6100,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1300,
+      "line": 12912,
+      "controller": "helper",
+      "target": 801,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1300,
+      "line": 12976,
+      "controller": "helper",
+      "target": 1301,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1300,
+      "line": 13016,
+      "controller": "helper",
+      "target": 7025,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1300,
+      "line": 13044,
+      "controller": "explod",
+      "target": 6151,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1300,
+      "line": 13056,
+      "controller": "explod",
+      "target": 6200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1300,
+      "line": 13109,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1300,
+      "line": 13121,
+      "controller": "explod",
+      "target": 7050,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1300,
+      "line": 13132,
+      "controller": "explod",
+      "target": 7050,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1302,
+      "line": 13191,
+      "controller": "explod",
+      "target": 7702,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1302,
+      "line": 13203,
+      "controller": "explod",
+      "target": 7701,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1305,
+      "line": 13240,
+      "controller": "explod",
+      "target": 7030,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1400,
+      "line": 13359,
+      "controller": "helper",
+      "target": 801,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1400,
+      "line": 13375,
+      "controller": "explod",
+      "target": 7040,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1400,
+      "line": 13391,
+      "controller": "explod",
+      "target": 7000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1400,
+      "line": 13406,
+      "controller": "explod",
+      "target": 7000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1400,
+      "line": 13442,
+      "controller": "helper",
+      "target": 7025,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1400,
+      "line": 13469,
+      "controller": "explod",
+      "target": 9150,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1400,
+      "line": 13484,
+      "controller": "explod",
+      "target": 9150,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1400,
+      "line": 13500,
+      "controller": "explod",
+      "target": 9100,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1400,
+      "line": 13515,
+      "controller": "explod",
+      "target": 9100,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1400,
+      "line": 13531,
+      "controller": "explod",
+      "target": 9150,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1400,
+      "line": 13546,
+      "controller": "explod",
+      "target": 9150,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1400,
+      "line": 13563,
+      "controller": "explod",
+      "target": 9100,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1400,
+      "line": 13578,
+      "controller": "explod",
+      "target": 9100,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1400,
+      "line": 13595,
+      "controller": "helper",
+      "target": 109,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1400,
+      "line": 13648,
+      "controller": "explod",
+      "target": 6052,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1400,
+      "line": 13667,
+      "controller": "explod",
+      "target": 6052,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1500,
+      "line": 13756,
+      "controller": "helper",
+      "target": 7457,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1500,
+      "line": 13771,
+      "controller": "helper",
+      "target": 7025,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1500,
+      "line": 13787,
+      "controller": "explod",
+      "target": 1010,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1500,
+      "line": 13845,
+      "controller": "helper",
+      "target": 1540,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1540,
+      "line": 13881,
+      "controller": "helper",
+      "target": 1550,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1550,
+      "line": 13932,
+      "controller": "explod",
+      "target": 30112,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1550,
+      "line": 13952,
+      "controller": "helper",
+      "target": 652,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1550,
+      "line": 13992,
+      "controller": "helper",
+      "target": 800,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1550,
+      "line": 14008,
+      "controller": "helper",
+      "target": 806,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 652,
+      "line": 14048,
+      "controller": "helper",
+      "target": 653,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 652,
+      "line": 14062,
+      "controller": "explod",
+      "target": 6130,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 652,
+      "line": 14074,
+      "controller": "explod",
+      "target": 6135,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 652,
+      "line": 14088,
+      "controller": "helper",
+      "target": 950,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 652,
+      "line": 14100,
+      "controller": "helper",
+      "target": 950,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 652,
+      "line": 14112,
+      "controller": "helper",
+      "target": 950,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 652,
+      "line": 14124,
+      "controller": "helper",
+      "target": 950,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 652,
+      "line": 14136,
+      "controller": "helper",
+      "target": 950,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1510,
+      "line": 14543,
+      "controller": "explod",
+      "target": 6600,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1600,
+      "line": 14586,
+      "controller": "explod",
+      "target": 7702,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1600,
+      "line": 14598,
+      "controller": "explod",
+      "target": 7701,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1600,
+      "line": 14610,
+      "controller": "explod",
+      "target": 6100,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1600,
+      "line": 14622,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1600,
+      "line": 14650,
+      "controller": "helper",
+      "target": 1601,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1600,
+      "line": 14663,
+      "controller": "helper",
+      "target": 1601,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1600,
+      "line": 14709,
+      "controller": "helper",
+      "target": 289,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1600,
+      "line": 14723,
+      "controller": "helper",
+      "target": 288,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1600,
+      "line": 14737,
+      "controller": "helper",
+      "target": 287,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1600,
+      "line": 14754,
+      "controller": "explod",
+      "target": 1601,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1600,
+      "line": 14774,
+      "controller": "helper",
+      "target": 289,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1600,
+      "line": 14789,
+      "controller": "helper",
+      "target": 288,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1600,
+      "line": 14804,
+      "controller": "helper",
+      "target": 287,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1600,
+      "line": 14820,
+      "controller": "helper",
+      "target": 1605,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1600,
+      "line": 14849,
+      "controller": "explod",
+      "target": 1610,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1600,
+      "line": 14871,
+      "controller": "explod",
+      "target": 1610,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1600,
+      "line": 14912,
+      "controller": "helper",
+      "target": 8000,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1600,
+      "line": 14941,
+      "controller": "explod",
+      "target": 1602,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1605,
+      "line": 15019,
+      "controller": "helper",
+      "target": 289,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1605,
+      "line": 15034,
+      "controller": "helper",
+      "target": 288,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1605,
+      "line": 15049,
+      "controller": "helper",
+      "target": 287,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1700,
+      "line": 15131,
+      "controller": "helper",
+      "target": 265,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1700,
+      "line": 15201,
+      "controller": "explod",
+      "target": 7501,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1700,
+      "line": 15219,
+      "controller": "helper",
+      "target": 8000,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1705,
+      "line": 15277,
+      "controller": "helper",
+      "target": 1706,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1705,
+      "line": 15303,
+      "controller": "explod",
+      "target": 30027,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1705,
+      "line": 15323,
+      "controller": "explod",
+      "target": 1710,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1705,
+      "line": 15345,
+      "controller": "explod",
+      "target": 1710,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1705,
+      "line": 15401,
+      "controller": "helper",
+      "target": 289,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1705,
+      "line": 15415,
+      "controller": "helper",
+      "target": 288,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1705,
+      "line": 15429,
+      "controller": "helper",
+      "target": 287,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1707,
+      "line": 15502,
+      "controller": "changeanim",
+      "target": 1302,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1707,
+      "line": 15514,
+      "controller": "explod",
+      "target": 7702,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1707,
+      "line": 15526,
+      "controller": "explod",
+      "target": 7701,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1750,
+      "line": 15571,
+      "controller": "changeanim",
+      "target": 5012,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 15820,
+      "controller": "explod",
+      "target": 4010,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 15847,
+      "controller": "explod",
+      "target": 4015,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 15874,
+      "controller": "explod",
+      "target": 4130,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 15910,
+      "controller": "explod",
+      "target": 4010,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 15937,
+      "controller": "explod",
+      "target": 4015,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 15964,
+      "controller": "explod",
+      "target": 4230,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16000,
+      "controller": "explod",
+      "target": 4010,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16027,
+      "controller": "explod",
+      "target": 4015,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16054,
+      "controller": "explod",
+      "target": 4330,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16090,
+      "controller": "explod",
+      "target": 4010,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16117,
+      "controller": "explod",
+      "target": 4015,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16144,
+      "controller": "explod",
+      "target": 4430,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16180,
+      "controller": "explod",
+      "target": 4010,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16207,
+      "controller": "explod",
+      "target": 4015,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16234,
+      "controller": "explod",
+      "target": 4530,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16270,
+      "controller": "explod",
+      "target": 4010,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16297,
+      "controller": "explod",
+      "target": 4015,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16324,
+      "controller": "explod",
+      "target": 4630,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16360,
+      "controller": "explod",
+      "target": 4011,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16385,
+      "controller": "explod",
+      "target": 4016,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16406,
+      "controller": "explod",
+      "target": 4030,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16433,
+      "controller": "explod",
+      "target": 4020,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16455,
+      "controller": "explod",
+      "target": 4020,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16482,
+      "controller": "explod",
+      "target": 4021,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16509,
+      "controller": "explod",
+      "target": 4021,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4500,
+      "line": 17027,
+      "controller": "helper",
+      "target": 8000,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4500,
+      "line": 17061,
+      "controller": "helper",
+      "target": 8101,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4500,
+      "line": 17078,
+      "controller": "explod",
+      "target": 8901,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4500,
+      "line": 17120,
+      "controller": "helper",
+      "target": 201,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17172,
+      "controller": "explod",
+      "target": 9014,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17254,
+      "controller": "explod",
+      "target": 8800,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17268,
+      "controller": "explod",
+      "target": 8801,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17283,
+      "controller": "explod",
+      "target": 8800,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17297,
+      "controller": "explod",
+      "target": 8801,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17312,
+      "controller": "explod",
+      "target": 6100,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17325,
+      "controller": "explod",
+      "target": 7701,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17339,
+      "controller": "explod",
+      "target": 6770,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17351,
+      "controller": "explod",
+      "target": 6770,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17362,
+      "controller": "helper",
+      "target": 800,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17389,
+      "controller": "explod",
+      "target": 6151,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17412,
+      "controller": "helper",
+      "target": 800,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17444,
+      "controller": "explod",
+      "target": 7800,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17460,
+      "controller": "explod",
+      "target": 8902,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17502,
+      "controller": "explod",
+      "target": 6780,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17512,
+      "controller": "explod",
+      "target": 6780,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17524,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17535,
+      "controller": "explod",
+      "target": 6760,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17548,
+      "controller": "explod",
+      "target": 6760,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17562,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17611,
+      "controller": "explod",
+      "target": 6052,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17622,
+      "controller": "explod",
+      "target": 6051,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17645,
+      "controller": "explod",
+      "target": 6000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4501,
+      "line": 17660,
+      "controller": "helper",
+      "target": 4505,
+      "kind": "helper_state"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4502,
+      "line": 17717,
+      "controller": "explod",
+      "target": 9014,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4502,
+      "line": 17789,
+      "controller": "explod",
+      "target": 8801,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4502,
+      "line": 17804,
+      "controller": "explod",
+      "target": 8800,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4502,
+      "line": 17819,
+      "controller": "explod",
+      "target": 6780,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4502,
+      "line": 17831,
+      "controller": "explod",
+      "target": 6770,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4502,
+      "line": 17843,
+      "controller": "explod",
+      "target": 6750,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4502,
+      "line": 17898,
+      "controller": "explod",
+      "target": 7860,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4502,
+      "line": 17908,
+      "controller": "explod",
+      "target": 7860,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4502,
+      "line": 17918,
+      "controller": "explod",
+      "target": 7860,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4502,
+      "line": 17927,
+      "controller": "explod",
+      "target": 7860,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4502,
+      "line": 17937,
+      "controller": "explod",
+      "target": 7800,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4502,
+      "line": 17949,
+      "controller": "explod",
+      "target": 7800,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4502,
+      "line": 17960,
+      "controller": "explod",
+      "target": 7800,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4502,
+      "line": 17971,
+      "controller": "explod",
+      "target": 7800,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4502,
+      "line": 17982,
+      "controller": "explod",
+      "target": 7800,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4502,
+      "line": 17993,
+      "controller": "explod",
+      "target": 7850,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4502,
+      "line": 18004,
+      "controller": "explod",
+      "target": 7800,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4506,
+      "line": 18114,
+      "controller": "explod",
+      "target": 7702,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4506,
+      "line": 18126,
+      "controller": "explod",
+      "target": 7701,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4533,
+      "line": 18175,
+      "controller": "changeanim",
+      "target": 5060,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4533,
+      "line": 18239,
+      "controller": "changeanim",
+      "target": 5050,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4533,
+      "line": 18268,
+      "controller": "changeanim",
+      "target": 5000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4368,
+      "line": 18329,
+      "controller": "changeanim",
+      "target": 5000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4369,
+      "line": 18378,
+      "controller": "changeanim",
+      "target": 5050,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4262,
+      "line": 18411,
+      "controller": "changeanim",
+      "target": 5050,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4263,
+      "line": 18455,
+      "controller": "changeanim",
+      "target": 5100,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4264,
+      "line": 18492,
+      "controller": "changeanim",
+      "target": 5110,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 7025,
+      "line": 18541,
+      "controller": "explod",
+      "target": 6580,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 7025,
+      "line": 18556,
+      "controller": "explod",
+      "target": 6580,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 7025,
+      "line": 18572,
+      "controller": "explod",
+      "target": 6581,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 7025,
+      "line": 18587,
+      "controller": "explod",
+      "target": 6581,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 7400,
+      "line": 18651,
+      "controller": "explod",
+      "target": 30322,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 7400,
+      "line": 18669,
+      "controller": "explod",
+      "target": 30322,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 7400,
+      "line": 18687,
+      "controller": "explod",
+      "target": 30316,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 7400,
+      "line": 18705,
+      "controller": "explod",
+      "target": 552,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 7400,
+      "line": 18723,
+      "controller": "explod",
+      "target": 552,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 7400,
+      "line": 18741,
+      "controller": "explod",
+      "target": 30322,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 7400,
+      "line": 18759,
+      "controller": "explod",
+      "target": 30322,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 7400,
+      "line": 18777,
+      "controller": "explod",
+      "target": 30316,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 7400,
+      "line": 18795,
+      "controller": "explod",
+      "target": 552,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 7400,
+      "line": 18813,
+      "controller": "explod",
+      "target": 552,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 8000,
+      "line": 18849,
+      "controller": "explod",
+      "target": 8000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 8000,
+      "line": 18862,
+      "controller": "explod",
+      "target": 8000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 8000,
+      "line": 18877,
+      "controller": "explod",
+      "target": 8001,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 8000,
+      "line": 18890,
+      "controller": "explod",
+      "target": 8001,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 8001,
+      "line": 18976,
+      "controller": "explod",
+      "target": 6200,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 8100,
+      "line": 19011,
+      "controller": "explod",
+      "target": 16000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 8100,
+      "line": 19031,
+      "controller": "explod",
+      "target": 17000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 8100,
+      "line": 19048,
+      "controller": "explod",
+      "target": 16020,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 8100,
+      "line": 19065,
+      "controller": "explod",
+      "target": 16040,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 8101,
+      "line": 19117,
+      "controller": "explod",
+      "target": 16000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 8101,
+      "line": 19136,
+      "controller": "explod",
+      "target": 7505,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 8101,
+      "line": 19155,
+      "controller": "explod",
+      "target": 7502,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 8102,
+      "line": 19196,
+      "controller": "explod",
+      "target": 16000,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 8103,
+      "line": 19236,
+      "controller": "explod",
+      "target": 7900,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": -3,
+      "line": 19396,
+      "controller": "explod",
+      "target": 7600,
+      "kind": "air_action"
+    }
+  ],
+  "missing_literal_air_actions": [
+    {
+      "file": "common1.cns",
+      "state": 40,
+      "line": 250,
+      "controller": "changeanim",
+      "target": 50,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 51,
+      "line": 399,
+      "controller": "changeanim",
+      "target": 54,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 51,
+      "line": 404,
+      "controller": "changeanim",
+      "target": 55,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 51,
+      "line": 409,
+      "controller": "changeanim",
+      "target": 56,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 108,
+      "line": 1566,
+      "controller": "explod",
+      "target": 7020,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 110,
+      "line": 1664,
+      "controller": "changeanim",
+      "target": 110,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 115,
+      "line": 1711,
+      "controller": "changeanim",
+      "target": 110,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 175,
+      "line": 2175,
+      "controller": "changeanim",
+      "target": 175,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5150,
+      "line": 3157,
+      "controller": "changeanim",
+      "target": 5140,
+      "kind": "air_action"
+    },
+    {
+      "file": "common1.cns",
+      "state": 5500,
+      "line": 3378,
+      "controller": "changeanim",
+      "target": 5500,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 315,
+      "line": 5326,
+      "controller": "explod",
+      "target": 6003,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 315,
+      "line": 5352,
+      "controller": "explod",
+      "target": 6800,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 325,
+      "line": 5444,
+      "controller": "explod",
+      "target": 6201,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 325,
+      "line": 5459,
+      "controller": "explod",
+      "target": 8600,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 325,
+      "line": 5469,
+      "controller": "explod",
+      "target": 7601,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 338,
+      "line": 5704,
+      "controller": "explod",
+      "target": 8600,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8857,
+      "controller": "explod",
+      "target": 2541,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8872,
+      "controller": "explod",
+      "target": 2541,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8951,
+      "controller": "explod",
+      "target": 2541,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 800,
+      "line": 8966,
+      "controller": "explod",
+      "target": 2541,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 900,
+      "line": 11415,
+      "controller": "explod",
+      "target": 6401,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 1705,
+      "line": 15303,
+      "controller": "explod",
+      "target": 30027,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16144,
+      "controller": "explod",
+      "target": 4430,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16234,
+      "controller": "explod",
+      "target": 4530,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 4000,
+      "line": 16324,
+      "controller": "explod",
+      "target": 4630,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": 8103,
+      "line": 19236,
+      "controller": "explod",
+      "target": 7900,
+      "kind": "air_action"
+    },
+    {
+      "file": "Toji Fushiguro.cns",
+      "state": -3,
+      "line": 19396,
+      "controller": "explod",
+      "target": 7600,
+      "kind": "air_action"
+    }
+  ],
+  "dynamic_expressions": "retained in source_catalog, not guessed",
+  "source_manifest_missing": true
+}

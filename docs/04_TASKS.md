@@ -188,3 +188,11 @@ Canonical definitions: assets/Endless_Survival_Wizard_of_Legend_Visual_Spec_v3/0
 - [ ] GRAVESHADE-01 PLAYABLE_TECH_TESTED: sixth ADC with actual Punisher body/VFX/SFX and full Basic/J/K/L/I;77currentLaunchGUIchecks,46suite regression and600.012s30/60/120mobsoak pass. Archive verification T01 partial (attachment transfer failed); human visual/listening approval and high-load performance follow-up pending. Doom Basic VFX reduction included. Evidence: reports/graveshade_tests.md / graveshade_blockers.md / docs/GRAVESHADE.md. No QA media exports.
 
 - [ ] COMBAT-VFX-01 DEPLOYED_TARGETED_TESTS_PASSED: Doom per-ray active hit windows and compact Punisher explosions; current Launch79/81checks pass,45distinct regression suites pass. Bound-offers suite final result not captured after transport disconnect; direct visual acceptance pending. Evidence: reports/doom_punisher_vfx_fix.md.
+
+- [x] DOOM-AUDIO-01 TECH_PASSED: supplied replacement Doom voice plays in parallel with original0.65s ray windup; stationary through ray completion only. Final current audio21headless/23rootGUIchecks pass; same runtime Viridian77/movement12/Training85checks pass. Human listening approval pending. See DOOM_ULTIMATE_AUDIO.md.
+
+- [ ] TOFU-01 PLAYABLE_TECH_TESTED: seventh Tofu with actual source Basic/J/K/L/I visuals and shared melee kit;88headless/88currentLaunchGUIchecks,8Python tests,12regression suites and30mobnative1080p smoke pass. Source voice listening/true4direction art/human approval/performance gate remain pending. Evidence: docs/TOFU.md and reports/tofu/20261018/tests.md.
+
+- [x] UI-WINDOW-01 Restore native Windows minimize/maximize/close via decorated maximized startup; preserve1920x1080 viewport. Actual GUI5/5 checks passed; reports/native_window_gui.log.
+
+- [x] ZONE-AIM-01 Nearest reachable enemy placement for remote ground DoT (Astra L, Viridian K, Tofu K, Graveshade K), both Manual/Auto; preserve static zones and other skill targeting.40actualGUI+48selection checks pass; reports/ground_zone_targeting.md (existing unrelated renderer diagnostic recorded).

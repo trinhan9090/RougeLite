@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="ActorStatDefinition" format=3]
+[ext_resource type="Script" path="res://scripts/data/actor_stat_definition.gd" id="stats"]
+[resource]
+script = ExtResource("stats")
+max_hp = 200.0
+move_speed = 215.0
+armor = 10.0
+crit_chance = 0.05
+crit_multiplier = 1.5

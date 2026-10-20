@@ -170,7 +170,7 @@ func run_tests() -> void:
 	var locked: int=0
 	for button: Button in slots.get_children():
 		if button.disabled and button.text=="?": locked+=1
-	check(locked==14,"fourteen disabled unknown characters after sixth hero")
+	check(locked==13,"thirteen disabled unknown characters after seventh hero")
 	menu._show_page(&"CHARACTER")
 	await process_frame
 	await process_frame

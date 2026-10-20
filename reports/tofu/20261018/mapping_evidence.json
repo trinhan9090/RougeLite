@@ -1,0 +1,9933 @@
+[
+  {
+    "slot": "Basic",
+    "state": 200,
+    "file": "Toji Fushiguro.cns",
+    "line": 541,
+    "anim": [
+      "200"
+    ],
+    "controllers": [
+      {
+        "section": "State 0, Helper",
+        "line": 562,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "animelem = 3"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "name": [
+            "\"AfterFX1\""
+          ],
+          "id": [
+            "201"
+          ],
+          "stateno": [
+            "201"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "vfacing": [
+            "-1"
+          ],
+          "pos": [
+            "35,-36"
+          ],
+          "ignorehitpause": [
+            "99"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "size.xscale": [
+            ".05"
+          ],
+          "size.yscale": [
+            ".05"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            563
+          ],
+          "trigger1": [
+            564
+          ],
+          "helpertype": [
+            565
+          ],
+          "name": [
+            566
+          ],
+          "id": [
+            567
+          ],
+          "stateno": [
+            568
+          ],
+          "ownpal": [
+            569
+          ],
+          "vfacing": [
+            570
+          ],
+          "pos": [
+            571
+          ],
+          "ignorehitpause": [
+            572
+          ],
+          "postype": [
+            573
+          ],
+          "size.xscale": [
+            574
+          ],
+          "size.yscale": [
+            575
+          ]
+        }
+      },
+      {
+        "section": "State 0, Helper",
+        "line": 577,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "animelem = 3"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "name": [
+            "\"AfterFX1\""
+          ],
+          "id": [
+            "041"
+          ],
+          "stateno": [
+            "202"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "vfacing": [
+            "-1"
+          ],
+          "pos": [
+            "35,-36"
+          ],
+          "ignorehitpause": [
+            "99"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "size.xscale": [
+            ".05"
+          ],
+          "size.yscale": [
+            ".05"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            578
+          ],
+          "trigger1": [
+            579
+          ],
+          "helpertype": [
+            580
+          ],
+          "name": [
+            581
+          ],
+          "id": [
+            582
+          ],
+          "stateno": [
+            583
+          ],
+          "ownpal": [
+            584
+          ],
+          "vfacing": [
+            585
+          ],
+          "pos": [
+            586
+          ],
+          "ignorehitpause": [
+            587
+          ],
+          "postype": [
+            588
+          ],
+          "size.xscale": [
+            589
+          ],
+          "size.yscale": [
+            590
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 598,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "animelem = 2"
+          ],
+          "anim": [
+            "9200"
+          ],
+          "id": [
+            "9200"
+          ],
+          "pos": [
+            "-10,-5"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".15,.15"
+          ],
+          "sprpriority": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            599
+          ],
+          "trigger1": [
+            600
+          ],
+          "anim": [
+            601
+          ],
+          "id": [
+            602
+          ],
+          "pos": [
+            603
+          ],
+          "postype": [
+            604
+          ],
+          "scale": [
+            605
+          ],
+          "sprpriority": [
+            606
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 608,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "timemod =1,0  && time <= 10"
+          ],
+          "anim": [
+            "7501"
+          ],
+          "id": [
+            "7501"
+          ],
+          "pos": [
+            "-10-(random%10),-45+(random%40)"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".05,.05"
+          ],
+          "sprpriority": [
+            "10"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            609
+          ],
+          "trigger1": [
+            610
+          ],
+          "anim": [
+            611
+          ],
+          "id": [
+            612
+          ],
+          "pos": [
+            613
+          ],
+          "postype": [
+            614
+          ],
+          "scale": [
+            615
+          ],
+          "sprpriority": [
+            616
+          ]
+        }
+      },
+      {
+        "section": "State 5000",
+        "line": 618,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "time=0"
+          ],
+          "value": [
+            "S500,0"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            619
+          ],
+          "trigger1": [
+            620
+          ],
+          "value": [
+            621
+          ],
+          "volumescale": [
+            622
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 624,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "animelem = 2"
+          ],
+          "value": [
+            "S200,6"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            625
+          ],
+          "trigger1": [
+            626
+          ],
+          "value": [
+            627
+          ]
+        }
+      },
+      {
+        "section": "State 0, 1",
+        "line": 629,
+        "fields": {
+          "type": [
+            "HitDef"
+          ],
+          "trigger1": [
+            "time =0"
+          ],
+          "attr": [
+            "S, NA"
+          ],
+          "damage": [
+            "10"
+          ],
+          "animtype": [
+            "Light"
+          ],
+          "guardflag": [
+            "MA"
+          ],
+          "hitflag": [
+            "MAF"
+          ],
+          "priority": [
+            "3, Hit"
+          ],
+          "pausetime": [
+            "10, 15"
+          ],
+          "sparkno": [
+            "-1"
+          ],
+          "sparkxy": [
+            "-10, -30"
+          ],
+          "hitsound": [
+            "S200,3"
+          ],
+          "guard.sparkno": [
+            "S7100"
+          ],
+          "guardsound": [
+            "S200,41"
+          ],
+          "ground.type": [
+            "High"
+          ],
+          "ground.slidetime": [
+            "5"
+          ],
+          "ground.hittime": [
+            "12"
+          ],
+          "ground.velocity": [
+            "-4"
+          ],
+          "airguard.velocity": [
+            "-1.9,-.8"
+          ],
+          "air.type": [
+            "High"
+          ],
+          "air.velocity": [
+            "-2,0"
+          ],
+          "air.hittime": [
+            "12"
+          ],
+          "envshake.time": [
+            "5"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            630
+          ],
+          "trigger1": [
+            631
+          ],
+          "attr": [
+            632
+          ],
+          "damage": [
+            633
+          ],
+          "animtype": [
+            634
+          ],
+          "guardflag": [
+            635
+          ],
+          "hitflag": [
+            636
+          ],
+          "priority": [
+            637
+          ],
+          "pausetime": [
+            638
+          ],
+          "sparkno": [
+            639
+          ],
+          "sparkxy": [
+            640
+          ],
+          "hitsound": [
+            641
+          ],
+          "guard.sparkno": [
+            642
+          ],
+          "guardsound": [
+            643
+          ],
+          "ground.type": [
+            644
+          ],
+          "ground.slidetime": [
+            645
+          ],
+          "ground.hittime": [
+            646
+          ],
+          "ground.velocity": [
+            647
+          ],
+          "airguard.velocity": [
+            648
+          ],
+          "air.type": [
+            649
+          ],
+          "air.velocity": [
+            650
+          ],
+          "air.hittime": [
+            651
+          ],
+          "envshake.time": [
+            652
+          ]
+        }
+      },
+      {
+        "section": "State 0, Hitspark",
+        "line": 654,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "movehit"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "stateno": [
+            "800"
+          ],
+          "id": [
+            "020"
+          ],
+          "pos": [
+            "36,-36"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "facing": [
+            "1"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "supermovetime": [
+            "99999"
+          ],
+          "pausemovetime": [
+            "99999"
+          ],
+          "persistent": [
+            "0"
+          ],
+          "ignorehitpause": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            655
+          ],
+          "trigger1": [
+            656
+          ],
+          "helpertype": [
+            657
+          ],
+          "stateno": [
+            658
+          ],
+          "id": [
+            659
+          ],
+          "pos": [
+            660
+          ],
+          "postype": [
+            661
+          ],
+          "facing": [
+            662
+          ],
+          "ownpal": [
+            663
+          ],
+          "supermovetime": [
+            664
+          ],
+          "pausemovetime": [
+            665
+          ],
+          "persistent": [
+            666
+          ],
+          "ignorehitpause": [
+            667
+          ]
+        }
+      },
+      {
+        "section": "State 271, end",
+        "line": 669,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "command = \"D,F,a\""
+          ],
+          "triggerall": [
+            "power >= 1000",
+            "movehit"
+          ],
+          "value": [
+            "1000"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            670
+          ],
+          "trigger1": [
+            671
+          ],
+          "triggerall": [
+            672,
+            673
+          ],
+          "value": [
+            674
+          ],
+          "ctrl": [
+            675
+          ]
+        }
+      },
+      {
+        "section": "State 271, end",
+        "line": 676,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "command = \"D,B,a\""
+          ],
+          "triggerall": [
+            "power >= 1000",
+            "movehit"
+          ],
+          "value": [
+            "1100"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            677
+          ],
+          "trigger1": [
+            678
+          ],
+          "triggerall": [
+            679,
+            680
+          ],
+          "value": [
+            681
+          ],
+          "ctrl": [
+            682
+          ]
+        }
+      },
+      {
+        "section": "State 271, end",
+        "line": 684,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "command = \"D,F,b\""
+          ],
+          "triggerall": [
+            "power >= 1500",
+            "movehit"
+          ],
+          "value": [
+            "1200"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            685
+          ],
+          "trigger1": [
+            686
+          ],
+          "triggerall": [
+            687,
+            688
+          ],
+          "value": [
+            689
+          ],
+          "ctrl": [
+            690
+          ]
+        }
+      },
+      {
+        "section": "State 271, end",
+        "line": 692,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "command = \"D,B,b\""
+          ],
+          "triggerall": [
+            "power >= 1500",
+            "movehit"
+          ],
+          "value": [
+            "1300"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            693
+          ],
+          "trigger1": [
+            694
+          ],
+          "triggerall": [
+            695,
+            696
+          ],
+          "value": [
+            697
+          ],
+          "ctrl": [
+            698
+          ]
+        }
+      },
+      {
+        "section": "State 271, end",
+        "line": 699,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "command = \"D,F,c\""
+          ],
+          "triggerall": [
+            "power >= 2000",
+            "movehit"
+          ],
+          "value": [
+            "1400"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            700
+          ],
+          "trigger1": [
+            701
+          ],
+          "triggerall": [
+            702,
+            703
+          ],
+          "value": [
+            704
+          ],
+          "ctrl": [
+            705
+          ]
+        }
+      },
+      {
+        "section": "State 271, end",
+        "line": 707,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "command = \"D,D,a\" && ailevel = 0"
+          ],
+          "trigger2": [
+            "command = \"D,D,b\" && ailevel = 0"
+          ],
+          "trigger3": [
+            "command = \"D,D,c\" && ailevel = 0"
+          ],
+          "trigger4": [
+            "random < 200 && p2life < 350 && ailevel > 0"
+          ],
+          "triggerall": [
+            "power >= 3000",
+            "movehit"
+          ],
+          "value": [
+            "4500"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            708
+          ],
+          "trigger1": [
+            709
+          ],
+          "trigger2": [
+            710
+          ],
+          "trigger3": [
+            711
+          ],
+          "trigger4": [
+            712
+          ],
+          "triggerall": [
+            713,
+            714
+          ],
+          "value": [
+            715
+          ],
+          "ctrl": [
+            716
+          ]
+        }
+      },
+      {
+        "section": "State 230, end",
+        "line": 718,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "AIlevel = 0",
+            "movehit",
+            "command = \"holddown\""
+          ],
+          "trigger1": [
+            "command = \"a\""
+          ],
+          "value": [
+            "270"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            719
+          ],
+          "triggerall": [
+            720,
+            721,
+            722
+          ],
+          "trigger1": [
+            723
+          ],
+          "value": [
+            724
+          ],
+          "ctrl": [
+            725
+          ]
+        }
+      },
+      {
+        "section": "State 230, end",
+        "line": 726,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "AIlevel = 0",
+            "movehit",
+            "command = \"holddown\""
+          ],
+          "trigger1": [
+            "command = \"b\""
+          ],
+          "value": [
+            "350"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            727
+          ],
+          "triggerall": [
+            728,
+            729,
+            730
+          ],
+          "trigger1": [
+            731
+          ],
+          "value": [
+            732
+          ],
+          "ctrl": [
+            733
+          ]
+        }
+      },
+      {
+        "section": "State 230, end",
+        "line": 734,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "AIlevel = 0",
+            "movehit",
+            "command = \"holddown\""
+          ],
+          "trigger1": [
+            "command = \"c\""
+          ],
+          "value": [
+            "290"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            735
+          ],
+          "triggerall": [
+            736,
+            737,
+            738
+          ],
+          "trigger1": [
+            739
+          ],
+          "value": [
+            740
+          ],
+          "ctrl": [
+            741
+          ]
+        }
+      },
+      {
+        "section": "State 200, End",
+        "line": 743,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "movehit"
+          ],
+          "trigger1": [
+            "ailevel = 0 && command = \"a\""
+          ],
+          "trigger2": [
+            "ailevel > 0 && roundstate = 2 && random = [0,150]"
+          ],
+          "value": [
+            "210"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            744
+          ],
+          "triggerall": [
+            745
+          ],
+          "trigger1": [
+            746
+          ],
+          "trigger2": [
+            747
+          ],
+          "value": [
+            748
+          ]
+        }
+      },
+      {
+        "section": "State 230, end",
+        "line": 751,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "movehit",
+            "AIlevel = 0"
+          ],
+          "trigger1": [
+            "command = \"a\"&& command = \"c\""
+          ],
+          "value": [
+            "280"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            752
+          ],
+          "triggerall": [
+            753,
+            754
+          ],
+          "trigger1": [
+            755
+          ],
+          "value": [
+            756
+          ],
+          "ctrl": [
+            757
+          ]
+        }
+      },
+      {
+        "section": "State 230, end",
+        "line": 759,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "movehit",
+            "AIlevel = 0"
+          ],
+          "trigger1": [
+            "command = \"b\""
+          ],
+          "value": [
+            "250"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            760
+          ],
+          "triggerall": [
+            761,
+            762
+          ],
+          "trigger1": [
+            763
+          ],
+          "value": [
+            764
+          ],
+          "ctrl": [
+            765
+          ]
+        }
+      },
+      {
+        "section": "State 231, end",
+        "line": 767,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "moveguarded"
+          ],
+          "trigger1": [
+            "Ailevel > 0",
+            "random>500 && animtime=0"
+          ],
+          "value": [
+            "410"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            768
+          ],
+          "triggerall": [
+            769
+          ],
+          "trigger1": [
+            770,
+            771
+          ],
+          "value": [
+            772
+          ],
+          "ctrl": [
+            773
+          ]
+        }
+      },
+      {
+        "section": "State 231, end",
+        "line": 775,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "moveguarded"
+          ],
+          "trigger1": [
+            "Ailevel > 0",
+            "random<=500 && animtime=0"
+          ],
+          "value": [
+            "232"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            776
+          ],
+          "triggerall": [
+            777
+          ],
+          "trigger1": [
+            778,
+            779
+          ],
+          "value": [
+            780
+          ],
+          "ctrl": [
+            781
+          ]
+        }
+      },
+      {
+        "section": "State 200, 6",
+        "line": 784,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "AIlevel > 0"
+          ],
+          "trigger1": [
+            "random<=500 && animtime=0"
+          ],
+          "value": [
+            "105"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            785
+          ],
+          "triggerall": [
+            786
+          ],
+          "trigger1": [
+            787
+          ],
+          "value": [
+            788
+          ],
+          "ctrl": [
+            789
+          ]
+        }
+      },
+      {
+        "section": "State 230, end",
+        "line": 791,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "AnimTime = 0"
+          ],
+          "value": [
+            "0"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            792
+          ],
+          "trigger1": [
+            793
+          ],
+          "value": [
+            794
+          ],
+          "ctrl": [
+            795
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "slot": "Basic2",
+    "state": 210,
+    "file": "Toji Fushiguro.cns",
+    "line": 884,
+    "anim": [
+      "210"
+    ],
+    "controllers": [
+      {
+        "section": "State 0, Helper",
+        "line": 900,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "animelem = 5"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "name": [
+            "\"AfterFX2\""
+          ],
+          "id": [
+            "211"
+          ],
+          "stateno": [
+            "211"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "vfacing": [
+            "-1"
+          ],
+          "pos": [
+            "30,-10"
+          ],
+          "ignorehitpause": [
+            "99"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "size.xscale": [
+            ".1"
+          ],
+          "size.yscale": [
+            ".4"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            901
+          ],
+          "trigger1": [
+            902
+          ],
+          "helpertype": [
+            903
+          ],
+          "name": [
+            904
+          ],
+          "id": [
+            905
+          ],
+          "stateno": [
+            906
+          ],
+          "ownpal": [
+            907
+          ],
+          "vfacing": [
+            908
+          ],
+          "pos": [
+            909
+          ],
+          "ignorehitpause": [
+            910
+          ],
+          "postype": [
+            911
+          ],
+          "size.xscale": [
+            912
+          ],
+          "size.yscale": [
+            913
+          ]
+        }
+      },
+      {
+        "section": "State 0, Helper",
+        "line": 914,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "animelem = 5"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "name": [
+            "\"AfterFX2\""
+          ],
+          "id": [
+            "211"
+          ],
+          "stateno": [
+            "212"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "vfacing": [
+            "-1"
+          ],
+          "pos": [
+            "30,-10"
+          ],
+          "ignorehitpause": [
+            "99"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "size.xscale": [
+            ".1"
+          ],
+          "size.yscale": [
+            ".4"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            915
+          ],
+          "trigger1": [
+            916
+          ],
+          "helpertype": [
+            917
+          ],
+          "name": [
+            918
+          ],
+          "id": [
+            919
+          ],
+          "stateno": [
+            920
+          ],
+          "ownpal": [
+            921
+          ],
+          "vfacing": [
+            922
+          ],
+          "pos": [
+            923
+          ],
+          "ignorehitpause": [
+            924
+          ],
+          "postype": [
+            925
+          ],
+          "size.xscale": [
+            926
+          ],
+          "size.yscale": [
+            927
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 935,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "animelem = 5"
+          ],
+          "anim": [
+            "9200"
+          ],
+          "id": [
+            "9200"
+          ],
+          "vel": [
+            "-1,0"
+          ],
+          "pos": [
+            "-20,-5"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".15,.15"
+          ],
+          "sprpriority": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            936
+          ],
+          "trigger1": [
+            937
+          ],
+          "anim": [
+            938
+          ],
+          "id": [
+            939
+          ],
+          "vel": [
+            940
+          ],
+          "pos": [
+            941
+          ],
+          "postype": [
+            942
+          ],
+          "scale": [
+            943
+          ],
+          "sprpriority": [
+            944
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 946,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "timemod =1,0  && time <= 10"
+          ],
+          "anim": [
+            "7501"
+          ],
+          "id": [
+            "7501"
+          ],
+          "pos": [
+            "-10-(random%10),-45+(random%40)"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".05,.05"
+          ],
+          "sprpriority": [
+            "10"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            947
+          ],
+          "trigger1": [
+            948
+          ],
+          "anim": [
+            949
+          ],
+          "id": [
+            950
+          ],
+          "pos": [
+            951
+          ],
+          "postype": [
+            952
+          ],
+          "scale": [
+            953
+          ],
+          "sprpriority": [
+            954
+          ]
+        }
+      },
+      {
+        "section": "State 5000",
+        "line": 956,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "time=0"
+          ],
+          "value": [
+            "S500,1"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            957
+          ],
+          "trigger1": [
+            958
+          ],
+          "value": [
+            959
+          ],
+          "volumescale": [
+            960
+          ]
+        }
+      },
+      {
+        "section": "State 5000",
+        "line": 961,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "time=0"
+          ],
+          "value": [
+            "S500,1"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            962
+          ],
+          "trigger1": [
+            963
+          ],
+          "value": [
+            964
+          ],
+          "volumescale": [
+            965
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 967,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "animelem = 5"
+          ],
+          "value": [
+            "S200,0"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            968
+          ],
+          "trigger1": [
+            969
+          ],
+          "value": [
+            970
+          ],
+          "volumescale": [
+            971
+          ]
+        }
+      },
+      {
+        "section": "State 0, 1",
+        "line": 973,
+        "fields": {
+          "type": [
+            "HitDef"
+          ],
+          "trigger1": [
+            "time =0"
+          ],
+          "attr": [
+            "S, NA"
+          ],
+          "damage": [
+            "10"
+          ],
+          "animtype": [
+            "Light"
+          ],
+          "guardflag": [
+            "MA"
+          ],
+          "hitflag": [
+            "MAF"
+          ],
+          "priority": [
+            "3, Hit"
+          ],
+          "pausetime": [
+            "10, 20"
+          ],
+          "sparkno": [
+            "-1"
+          ],
+          "sparkxy": [
+            "-10, -30"
+          ],
+          "hitsound": [
+            "S2,5"
+          ],
+          "guard.sparkno": [
+            "S7100"
+          ],
+          "guardsound": [
+            "S200,40"
+          ],
+          "ground.type": [
+            "High"
+          ],
+          "ground.slidetime": [
+            "5"
+          ],
+          "ground.hittime": [
+            "12"
+          ],
+          "ground.velocity": [
+            "-5,0"
+          ],
+          "airguard.velocity": [
+            "-1.9,-.8"
+          ],
+          "air.type": [
+            "High"
+          ],
+          "air.velocity": [
+            "-2,0"
+          ],
+          "air.hittime": [
+            "12"
+          ],
+          "envshake.time": [
+            "5"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            974
+          ],
+          "trigger1": [
+            975
+          ],
+          "attr": [
+            976
+          ],
+          "damage": [
+            977
+          ],
+          "animtype": [
+            978
+          ],
+          "guardflag": [
+            979
+          ],
+          "hitflag": [
+            980
+          ],
+          "priority": [
+            981
+          ],
+          "pausetime": [
+            982
+          ],
+          "sparkno": [
+            983
+          ],
+          "sparkxy": [
+            984
+          ],
+          "hitsound": [
+            985
+          ],
+          "guard.sparkno": [
+            986
+          ],
+          "guardsound": [
+            987
+          ],
+          "ground.type": [
+            988
+          ],
+          "ground.slidetime": [
+            989
+          ],
+          "ground.hittime": [
+            990
+          ],
+          "ground.velocity": [
+            991
+          ],
+          "airguard.velocity": [
+            992
+          ],
+          "air.type": [
+            993
+          ],
+          "air.velocity": [
+            994
+          ],
+          "air.hittime": [
+            995
+          ],
+          "envshake.time": [
+            996
+          ]
+        }
+      },
+      {
+        "section": "State 0, Hitspark",
+        "line": 999,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "movehit = 1"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "stateno": [
+            "801"
+          ],
+          "id": [
+            "020"
+          ],
+          "pos": [
+            "49,-16"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "facing": [
+            "1"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "supermovetime": [
+            "99999"
+          ],
+          "pausemovetime": [
+            "99999"
+          ],
+          "persistent": [
+            "0"
+          ],
+          "ignorehitpause": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            1000
+          ],
+          "trigger1": [
+            1001
+          ],
+          "helpertype": [
+            1002
+          ],
+          "stateno": [
+            1003
+          ],
+          "id": [
+            1004
+          ],
+          "pos": [
+            1005
+          ],
+          "postype": [
+            1006
+          ],
+          "facing": [
+            1007
+          ],
+          "ownpal": [
+            1008
+          ],
+          "supermovetime": [
+            1009
+          ],
+          "pausemovetime": [
+            1010
+          ],
+          "persistent": [
+            1011
+          ],
+          "ignorehitpause": [
+            1012
+          ]
+        }
+      },
+      {
+        "section": "State 271, end",
+        "line": 1017,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "command = \"D,F,a\""
+          ],
+          "triggerall": [
+            "power >= 1000",
+            "movehit"
+          ],
+          "value": [
+            "1000"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            1018
+          ],
+          "trigger1": [
+            1019
+          ],
+          "triggerall": [
+            1020,
+            1021
+          ],
+          "value": [
+            1022
+          ],
+          "ctrl": [
+            1023
+          ]
+        }
+      },
+      {
+        "section": "State 271, end",
+        "line": 1024,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "command = \"D,B,a\""
+          ],
+          "triggerall": [
+            "power >= 1000",
+            "movehit"
+          ],
+          "value": [
+            "1100"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            1025
+          ],
+          "trigger1": [
+            1026
+          ],
+          "triggerall": [
+            1027,
+            1028
+          ],
+          "value": [
+            1029
+          ],
+          "ctrl": [
+            1030
+          ]
+        }
+      },
+      {
+        "section": "State 271, end",
+        "line": 1031,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "command = \"D,F,b\""
+          ],
+          "triggerall": [
+            "power >= 1500",
+            "movehit"
+          ],
+          "value": [
+            "1200"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            1032
+          ],
+          "trigger1": [
+            1033
+          ],
+          "triggerall": [
+            1034,
+            1035
+          ],
+          "value": [
+            1036
+          ],
+          "ctrl": [
+            1037
+          ]
+        }
+      },
+      {
+        "section": "State 271, end",
+        "line": 1038,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "command = \"D,B,b\""
+          ],
+          "triggerall": [
+            "power >= 1500",
+            "movehit"
+          ],
+          "value": [
+            "1300"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            1039
+          ],
+          "trigger1": [
+            1040
+          ],
+          "triggerall": [
+            1041,
+            1042
+          ],
+          "value": [
+            1043
+          ],
+          "ctrl": [
+            1044
+          ]
+        }
+      },
+      {
+        "section": "State 271, end",
+        "line": 1045,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "command = \"D,F,c\""
+          ],
+          "triggerall": [
+            "power >= 2000",
+            "movehit"
+          ],
+          "value": [
+            "1400"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            1046
+          ],
+          "trigger1": [
+            1047
+          ],
+          "triggerall": [
+            1048,
+            1049
+          ],
+          "value": [
+            1050
+          ],
+          "ctrl": [
+            1051
+          ]
+        }
+      },
+      {
+        "section": "State 271, end",
+        "line": 1052,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "command = \"D,D,a\" && ailevel = 0"
+          ],
+          "trigger2": [
+            "command = \"D,D,b\" && ailevel = 0"
+          ],
+          "trigger3": [
+            "command = \"D,D,c\" && ailevel = 0"
+          ],
+          "trigger4": [
+            "random < 200 && p2life < 350 && ailevel > 0"
+          ],
+          "triggerall": [
+            "power >= 3000",
+            "movehit"
+          ],
+          "value": [
+            "4500"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            1053
+          ],
+          "trigger1": [
+            1054
+          ],
+          "trigger2": [
+            1055
+          ],
+          "trigger3": [
+            1056
+          ],
+          "trigger4": [
+            1057
+          ],
+          "triggerall": [
+            1058,
+            1059
+          ],
+          "value": [
+            1060
+          ],
+          "ctrl": [
+            1061
+          ]
+        }
+      },
+      {
+        "section": "State 230, end",
+        "line": 1062,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "movehit",
+            "AIlevel = 0"
+          ],
+          "trigger1": [
+            "command = \"a\"&& command = \"c\""
+          ],
+          "value": [
+            "280"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            1063
+          ],
+          "triggerall": [
+            1064,
+            1065
+          ],
+          "trigger1": [
+            1066
+          ],
+          "value": [
+            1067
+          ],
+          "ctrl": [
+            1068
+          ]
+        }
+      },
+      {
+        "section": "State 230, end",
+        "line": 1069,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "AIlevel = 0",
+            "movehit",
+            "command = \"holddown\""
+          ],
+          "trigger1": [
+            "command = \"a\""
+          ],
+          "value": [
+            "270"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            1070
+          ],
+          "triggerall": [
+            1071,
+            1072,
+            1073
+          ],
+          "trigger1": [
+            1074
+          ],
+          "value": [
+            1075
+          ],
+          "ctrl": [
+            1076
+          ]
+        }
+      },
+      {
+        "section": "State 230, end",
+        "line": 1077,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "AIlevel = 0",
+            "movehit",
+            "command = \"holddown\""
+          ],
+          "trigger1": [
+            "command = \"b\""
+          ],
+          "value": [
+            "350"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            1078
+          ],
+          "triggerall": [
+            1079,
+            1080,
+            1081
+          ],
+          "trigger1": [
+            1082
+          ],
+          "value": [
+            1083
+          ],
+          "ctrl": [
+            1084
+          ]
+        }
+      },
+      {
+        "section": "State 230, end",
+        "line": 1085,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "AIlevel = 0",
+            "movehit",
+            "command = \"holddown\""
+          ],
+          "trigger1": [
+            "command = \"c\""
+          ],
+          "value": [
+            "290"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            1086
+          ],
+          "triggerall": [
+            1087,
+            1088,
+            1089
+          ],
+          "trigger1": [
+            1090
+          ],
+          "value": [
+            1091
+          ],
+          "ctrl": [
+            1092
+          ]
+        }
+      },
+      {
+        "section": "State 200, End",
+        "line": 1094,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "movehit"
+          ],
+          "trigger1": [
+            "ailevel = 0 && command = \"a\""
+          ],
+          "trigger2": [
+            "ailevel > 0 && roundstate = 2 && random = [0,950]"
+          ],
+          "value": [
+            "220"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            1095
+          ],
+          "triggerall": [
+            1096
+          ],
+          "trigger1": [
+            1097
+          ],
+          "trigger2": [
+            1098
+          ],
+          "value": [
+            1099
+          ]
+        }
+      },
+      {
+        "section": "State 230, end",
+        "line": 1102,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "AIlevel = 0",
+            "movehit"
+          ],
+          "trigger1": [
+            "command = \"b\""
+          ],
+          "value": [
+            "250"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            1103
+          ],
+          "triggerall": [
+            1104,
+            1105
+          ],
+          "trigger1": [
+            1106
+          ],
+          "value": [
+            1107
+          ],
+          "ctrl": [
+            1108
+          ]
+        }
+      },
+      {
+        "section": "State 231, end",
+        "line": 1111,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "moveguarded"
+          ],
+          "trigger1": [
+            "Ailevel > 0",
+            "random<=500 && animtime=0"
+          ],
+          "value": [
+            "232"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            1112
+          ],
+          "triggerall": [
+            1113
+          ],
+          "trigger1": [
+            1114,
+            1115
+          ],
+          "value": [
+            1116
+          ],
+          "ctrl": [
+            1117
+          ]
+        }
+      },
+      {
+        "section": "State 200, 6",
+        "line": 1120,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "AIlevel > 0"
+          ],
+          "trigger1": [
+            "random<=500 && animtime=0"
+          ],
+          "value": [
+            "105"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            1121
+          ],
+          "triggerall": [
+            1122
+          ],
+          "trigger1": [
+            1123
+          ],
+          "value": [
+            1124
+          ],
+          "ctrl": [
+            1125
+          ]
+        }
+      },
+      {
+        "section": "State 230, end",
+        "line": 1127,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "AnimTime = 0"
+          ],
+          "value": [
+            "0"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            1128
+          ],
+          "trigger1": [
+            1129
+          ],
+          "value": [
+            1130
+          ],
+          "ctrl": [
+            1131
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "slot": "Basic3",
+    "state": 250,
+    "file": "Toji Fushiguro.cns",
+    "line": 2435,
+    "anim": [
+      "250"
+    ],
+    "controllers": [
+      {
+        "section": "State 0, Helper",
+        "line": 2445,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "animelem = 5"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "name": [
+            "\"AfterFX7\""
+          ],
+          "id": [
+            "251"
+          ],
+          "stateno": [
+            "251"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "vfacing": [
+            "-1"
+          ],
+          "pos": [
+            "25,-34"
+          ],
+          "ignorehitpause": [
+            "99"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "size.xscale": [
+            ".2"
+          ],
+          "size.yscale": [
+            ".4"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2446
+          ],
+          "trigger1": [
+            2447
+          ],
+          "helpertype": [
+            2448
+          ],
+          "name": [
+            2449
+          ],
+          "id": [
+            2450
+          ],
+          "stateno": [
+            2451
+          ],
+          "ownpal": [
+            2452
+          ],
+          "vfacing": [
+            2453
+          ],
+          "pos": [
+            2454
+          ],
+          "ignorehitpause": [
+            2455
+          ],
+          "postype": [
+            2456
+          ],
+          "size.xscale": [
+            2457
+          ],
+          "size.yscale": [
+            2458
+          ]
+        }
+      },
+      {
+        "section": "State 0, Helper",
+        "line": 2460,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "animelem = 5"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "name": [
+            "\"AfterFX7\""
+          ],
+          "id": [
+            "251"
+          ],
+          "stateno": [
+            "252"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "vfacing": [
+            "-1"
+          ],
+          "pos": [
+            "25,-34"
+          ],
+          "ignorehitpause": [
+            "99"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "size.xscale": [
+            ".2"
+          ],
+          "size.yscale": [
+            ".4"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2461
+          ],
+          "trigger1": [
+            2462
+          ],
+          "helpertype": [
+            2463
+          ],
+          "name": [
+            2464
+          ],
+          "id": [
+            2465
+          ],
+          "stateno": [
+            2466
+          ],
+          "ownpal": [
+            2467
+          ],
+          "vfacing": [
+            2468
+          ],
+          "pos": [
+            2469
+          ],
+          "ignorehitpause": [
+            2470
+          ],
+          "postype": [
+            2471
+          ],
+          "size.xscale": [
+            2472
+          ],
+          "size.yscale": [
+            2473
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 2493,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "animelem = 4"
+          ],
+          "anim": [
+            "9200"
+          ],
+          "id": [
+            "9200"
+          ],
+          "vel": [
+            "-1,0"
+          ],
+          "pos": [
+            "-20,-5"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".15,.15"
+          ],
+          "sprpriority": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2494
+          ],
+          "trigger1": [
+            2495
+          ],
+          "anim": [
+            2496
+          ],
+          "id": [
+            2497
+          ],
+          "vel": [
+            2498
+          ],
+          "pos": [
+            2499
+          ],
+          "postype": [
+            2500
+          ],
+          "scale": [
+            2501
+          ],
+          "sprpriority": [
+            2502
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 2504,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "timemod =1,0  && time <= 10"
+          ],
+          "anim": [
+            "7501"
+          ],
+          "id": [
+            "7501"
+          ],
+          "pos": [
+            "10-(random%10),-45+(random%40)"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".05,.05"
+          ],
+          "sprpriority": [
+            "10"
+          ],
+          "ignorehitpause": [
+            "99"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2505
+          ],
+          "trigger1": [
+            2506
+          ],
+          "anim": [
+            2507
+          ],
+          "id": [
+            2508
+          ],
+          "pos": [
+            2509
+          ],
+          "postype": [
+            2510
+          ],
+          "scale": [
+            2511
+          ],
+          "sprpriority": [
+            2512
+          ],
+          "ignorehitpause": [
+            2513
+          ]
+        }
+      },
+      {
+        "section": "State 5000",
+        "line": 2515,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "time=0"
+          ],
+          "value": [
+            "S500,2"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2516
+          ],
+          "trigger1": [
+            2517
+          ],
+          "value": [
+            2518
+          ],
+          "volumescale": [
+            2519
+          ]
+        }
+      },
+      {
+        "section": "State 5000",
+        "line": 2520,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "time=0"
+          ],
+          "value": [
+            "S500,2"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2521
+          ],
+          "trigger1": [
+            2522
+          ],
+          "value": [
+            2523
+          ],
+          "volumescale": [
+            2524
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 2526,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "animelem = 4"
+          ],
+          "value": [
+            "S200,1"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2527
+          ],
+          "trigger1": [
+            2528
+          ],
+          "value": [
+            2529
+          ],
+          "volumescale": [
+            2530
+          ]
+        }
+      },
+      {
+        "section": "State 0, 1",
+        "line": 2532,
+        "fields": {
+          "type": [
+            "HitDef"
+          ],
+          "trigger1": [
+            "time =0"
+          ],
+          "attr": [
+            "S, NA"
+          ],
+          "damage": [
+            "30"
+          ],
+          "animtype": [
+            "Light"
+          ],
+          "guardflag": [
+            "MA"
+          ],
+          "hitflag": [
+            "MAF"
+          ],
+          "priority": [
+            "3, Hit"
+          ],
+          "pausetime": [
+            "10, 30"
+          ],
+          "sparkno": [
+            "-1"
+          ],
+          "sparkxy": [
+            "-10, -30"
+          ],
+          "hitsound": [
+            "S2,7"
+          ],
+          "guard.sparkno": [
+            "S7100"
+          ],
+          "guardsound": [
+            "S200,40"
+          ],
+          "ground.type": [
+            "High"
+          ],
+          "ground.slidetime": [
+            "5"
+          ],
+          "ground.hittime": [
+            "12"
+          ],
+          "ground.velocity": [
+            "-3,0"
+          ],
+          "airguard.velocity": [
+            "-1.9,-.8"
+          ],
+          "air.type": [
+            "High"
+          ],
+          "air.velocity": [
+            "-2,0"
+          ],
+          "air.hittime": [
+            "12"
+          ],
+          "envshake.time": [
+            "5"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2533
+          ],
+          "trigger1": [
+            2534
+          ],
+          "attr": [
+            2535
+          ],
+          "damage": [
+            2536
+          ],
+          "animtype": [
+            2537
+          ],
+          "guardflag": [
+            2538
+          ],
+          "hitflag": [
+            2539
+          ],
+          "priority": [
+            2540
+          ],
+          "pausetime": [
+            2541
+          ],
+          "sparkno": [
+            2542
+          ],
+          "sparkxy": [
+            2543
+          ],
+          "hitsound": [
+            2544
+          ],
+          "guard.sparkno": [
+            2545
+          ],
+          "guardsound": [
+            2546
+          ],
+          "ground.type": [
+            2547
+          ],
+          "ground.slidetime": [
+            2548
+          ],
+          "ground.hittime": [
+            2549
+          ],
+          "ground.velocity": [
+            2550
+          ],
+          "airguard.velocity": [
+            2551
+          ],
+          "air.type": [
+            2552
+          ],
+          "air.velocity": [
+            2553
+          ],
+          "air.hittime": [
+            2554
+          ],
+          "envshake.time": [
+            2555
+          ]
+        }
+      },
+      {
+        "section": "State 0, Hitspark",
+        "line": 2557,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "movehit = 1"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "stateno": [
+            "801"
+          ],
+          "id": [
+            "020"
+          ],
+          "pos": [
+            "54,-34"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "facing": [
+            "1"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "supermovetime": [
+            "99999"
+          ],
+          "pausemovetime": [
+            "99999"
+          ],
+          "persistent": [
+            "0"
+          ],
+          "ignorehitpause": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2558
+          ],
+          "trigger1": [
+            2559
+          ],
+          "helpertype": [
+            2560
+          ],
+          "stateno": [
+            2561
+          ],
+          "id": [
+            2562
+          ],
+          "pos": [
+            2563
+          ],
+          "postype": [
+            2564
+          ],
+          "facing": [
+            2565
+          ],
+          "ownpal": [
+            2566
+          ],
+          "supermovetime": [
+            2567
+          ],
+          "pausemovetime": [
+            2568
+          ],
+          "persistent": [
+            2569
+          ],
+          "ignorehitpause": [
+            2570
+          ]
+        }
+      },
+      {
+        "section": "State 231, end",
+        "line": 2573,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "movehit",
+            "AIlevel > 0"
+          ],
+          "trigger1": [
+            "time = 16"
+          ],
+          "value": [
+            "260"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2574
+          ],
+          "triggerall": [
+            2575,
+            2576
+          ],
+          "trigger1": [
+            2577
+          ],
+          "value": [
+            2578
+          ],
+          "ctrl": [
+            2579
+          ]
+        }
+      },
+      {
+        "section": "State 230, end",
+        "line": 2580,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "movehit",
+            "AIlevel = 0"
+          ],
+          "trigger1": [
+            "command = \"a\"&& command = \"c\""
+          ],
+          "value": [
+            "280"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2581
+          ],
+          "triggerall": [
+            2582,
+            2583
+          ],
+          "trigger1": [
+            2584
+          ],
+          "value": [
+            2585
+          ],
+          "ctrl": [
+            2586
+          ]
+        }
+      },
+      {
+        "section": "State 271, end",
+        "line": 2587,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "command = \"D,F,a\""
+          ],
+          "triggerall": [
+            "power >= 1000",
+            "movehit"
+          ],
+          "value": [
+            "1000"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2588
+          ],
+          "trigger1": [
+            2589
+          ],
+          "triggerall": [
+            2590,
+            2591
+          ],
+          "value": [
+            2592
+          ],
+          "ctrl": [
+            2593
+          ]
+        }
+      },
+      {
+        "section": "State 200, End",
+        "line": 2594,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "movehit",
+            "power >= 1000"
+          ],
+          "trigger1": [
+            "ailevel = 0 && command =\"D,B,a\""
+          ],
+          "trigger2": [
+            "ailevel > 0 && roundstate = 2 && random = [0,950]"
+          ],
+          "value": [
+            "1100"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2595
+          ],
+          "triggerall": [
+            2596,
+            2598
+          ],
+          "trigger1": [
+            2597
+          ],
+          "trigger2": [
+            2599
+          ],
+          "value": [
+            2600
+          ]
+        }
+      },
+      {
+        "section": "State 271, end",
+        "line": 2601,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "command = \"D,F,b\""
+          ],
+          "triggerall": [
+            "power >= 1500",
+            "movehit"
+          ],
+          "value": [
+            "1200"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2602
+          ],
+          "trigger1": [
+            2603
+          ],
+          "triggerall": [
+            2604,
+            2605
+          ],
+          "value": [
+            2606
+          ],
+          "ctrl": [
+            2607
+          ]
+        }
+      },
+      {
+        "section": "State 271, end",
+        "line": 2608,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "command = \"D,B,b\""
+          ],
+          "triggerall": [
+            "power >= 1500",
+            "movehit"
+          ],
+          "value": [
+            "1300"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2609
+          ],
+          "trigger1": [
+            2610
+          ],
+          "triggerall": [
+            2611,
+            2612
+          ],
+          "value": [
+            2613
+          ],
+          "ctrl": [
+            2614
+          ]
+        }
+      },
+      {
+        "section": "State 200, End",
+        "line": 2617,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "movehit",
+            "power >= 2000"
+          ],
+          "trigger1": [
+            "ailevel = 0 && command = \"D,F,c\""
+          ],
+          "trigger2": [
+            "ailevel > 0 && roundstate = 2 && random = [100,950]"
+          ],
+          "value": [
+            "1400"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2618
+          ],
+          "triggerall": [
+            2619,
+            2621
+          ],
+          "trigger1": [
+            2620
+          ],
+          "trigger2": [
+            2622
+          ],
+          "value": [
+            2623
+          ]
+        }
+      },
+      {
+        "section": "State 271, end",
+        "line": 2624,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "command = \"D,D,a\" && ailevel = 0"
+          ],
+          "trigger2": [
+            "command = \"D,D,b\" && ailevel = 0"
+          ],
+          "trigger3": [
+            "command = \"D,D,c\" && ailevel = 0"
+          ],
+          "trigger4": [
+            "random < 200 && p2life < 350 && ailevel > 0"
+          ],
+          "triggerall": [
+            "power >= 3000",
+            "movehit"
+          ],
+          "value": [
+            "4500"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2625
+          ],
+          "trigger1": [
+            2626
+          ],
+          "trigger2": [
+            2627
+          ],
+          "trigger3": [
+            2628
+          ],
+          "trigger4": [
+            2629
+          ],
+          "triggerall": [
+            2630,
+            2631
+          ],
+          "value": [
+            2632
+          ],
+          "ctrl": [
+            2633
+          ]
+        }
+      },
+      {
+        "section": "State 231, end",
+        "line": 2635,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "movehit",
+            "AIlevel > 0"
+          ],
+          "trigger1": [
+            "time = 15 && random < 500"
+          ],
+          "value": [
+            "270"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2636
+          ],
+          "triggerall": [
+            2637,
+            2638
+          ],
+          "trigger1": [
+            2639
+          ],
+          "value": [
+            2640
+          ],
+          "ctrl": [
+            2641
+          ]
+        }
+      },
+      {
+        "section": "State 231, end",
+        "line": 2642,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "movehit",
+            "AIlevel > 0"
+          ],
+          "trigger1": [
+            "time = 15 && random < 500"
+          ],
+          "value": [
+            "290"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2643
+          ],
+          "triggerall": [
+            2644,
+            2645
+          ],
+          "trigger1": [
+            2646
+          ],
+          "value": [
+            2647
+          ],
+          "ctrl": [
+            2648
+          ]
+        }
+      },
+      {
+        "section": "State 230, end",
+        "line": 2650,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "AIlevel = 0",
+            "movehit",
+            "command = \"holddown\""
+          ],
+          "trigger1": [
+            "command = \"a\""
+          ],
+          "value": [
+            "270"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2651
+          ],
+          "triggerall": [
+            2652,
+            2653,
+            2654
+          ],
+          "trigger1": [
+            2655
+          ],
+          "value": [
+            2656
+          ],
+          "ctrl": [
+            2657
+          ]
+        }
+      },
+      {
+        "section": "State 230, end",
+        "line": 2658,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "AIlevel = 0",
+            "movehit",
+            "command = \"holddown\""
+          ],
+          "trigger1": [
+            "command = \"b\""
+          ],
+          "value": [
+            "350"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2659
+          ],
+          "triggerall": [
+            2660,
+            2661,
+            2662
+          ],
+          "trigger1": [
+            2663
+          ],
+          "value": [
+            2664
+          ],
+          "ctrl": [
+            2665
+          ]
+        }
+      },
+      {
+        "section": "State 230, end",
+        "line": 2666,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "AIlevel = 0",
+            "movehit",
+            "command = \"holddown\""
+          ],
+          "trigger1": [
+            "command = \"c\""
+          ],
+          "value": [
+            "290"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2667
+          ],
+          "triggerall": [
+            2668,
+            2669,
+            2670
+          ],
+          "trigger1": [
+            2671
+          ],
+          "value": [
+            2672
+          ],
+          "ctrl": [
+            2673
+          ]
+        }
+      },
+      {
+        "section": "State 230, end",
+        "line": 2674,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "AIlevel = 0",
+            "movehit"
+          ],
+          "trigger1": [
+            "command = \"c\""
+          ],
+          "value": [
+            "260"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2675
+          ],
+          "triggerall": [
+            2676,
+            2677
+          ],
+          "trigger1": [
+            2678
+          ],
+          "value": [
+            2679
+          ],
+          "ctrl": [
+            2680
+          ]
+        }
+      },
+      {
+        "section": "State 231, end",
+        "line": 2682,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "moveguarded"
+          ],
+          "trigger1": [
+            "Ailevel > 0",
+            "random<=500 && animtime=0"
+          ],
+          "value": [
+            "232"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2683
+          ],
+          "triggerall": [
+            2684
+          ],
+          "trigger1": [
+            2685,
+            2686
+          ],
+          "value": [
+            2687
+          ],
+          "ctrl": [
+            2688
+          ]
+        }
+      },
+      {
+        "section": "State 200, 6",
+        "line": 2691,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "AIlevel > 0"
+          ],
+          "trigger1": [
+            "random<=500 && animtime=0"
+          ],
+          "value": [
+            "105"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2692
+          ],
+          "triggerall": [
+            2693
+          ],
+          "trigger1": [
+            2694
+          ],
+          "value": [
+            2695
+          ],
+          "ctrl": [
+            2696
+          ]
+        }
+      },
+      {
+        "section": "State 230, end",
+        "line": 2698,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "AnimTime = 0"
+          ],
+          "value": [
+            "0"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            2699
+          ],
+          "trigger1": [
+            2700
+          ],
+          "value": [
+            2701
+          ],
+          "ctrl": [
+            2702
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "slot": "J",
+    "state": 1300,
+    "file": "Toji Fushiguro.cns",
+    "line": 12897,
+    "anim": [
+      "1300"
+    ],
+    "controllers": [
+      {
+        "section": "State 0, Hitspark",
+        "line": 12912,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "movehit&&time<112"
+          ],
+          "triggerall": [
+            "numhelper(042)=0"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "stateno": [
+            "801"
+          ],
+          "id": [
+            "042"
+          ],
+          "pos": [
+            "-10+random%20,-30"
+          ],
+          "postype": [
+            "p2"
+          ],
+          "facing": [
+            "1"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "supermovetime": [
+            "99999"
+          ],
+          "pausemovetime": [
+            "99999"
+          ],
+          "persistent": [
+            "8"
+          ],
+          "ignorehitpause": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12913
+          ],
+          "trigger1": [
+            12914
+          ],
+          "triggerall": [
+            12915
+          ],
+          "helpertype": [
+            12916
+          ],
+          "stateno": [
+            12917
+          ],
+          "id": [
+            12918
+          ],
+          "pos": [
+            12919
+          ],
+          "postype": [
+            12920
+          ],
+          "facing": [
+            12921
+          ],
+          "ownpal": [
+            12922
+          ],
+          "supermovetime": [
+            12923
+          ],
+          "pausemovetime": [
+            12924
+          ],
+          "persistent": [
+            12925
+          ],
+          "ignorehitpause": [
+            12926
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 12928,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "time = 120"
+          ],
+          "value": [
+            "S500,15"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12929
+          ],
+          "trigger1": [
+            12930
+          ],
+          "value": [
+            12931
+          ],
+          "volumescale": [
+            12932
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 12933,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "time = 120"
+          ],
+          "value": [
+            "S500,15"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12934
+          ],
+          "trigger1": [
+            12935
+          ],
+          "value": [
+            12936
+          ],
+          "volumescale": [
+            12937
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 12938,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "time = 120"
+          ],
+          "value": [
+            "S500,15"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12939
+          ],
+          "trigger1": [
+            12940
+          ],
+          "value": [
+            12941
+          ],
+          "volumescale": [
+            12942
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 12944,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "time = 30"
+          ],
+          "value": [
+            "S500,16"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12945
+          ],
+          "trigger1": [
+            12946
+          ],
+          "value": [
+            12947
+          ],
+          "volumescale": [
+            12948
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 12949,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "time = 30"
+          ],
+          "value": [
+            "S500,16"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12950
+          ],
+          "trigger1": [
+            12951
+          ],
+          "value": [
+            12952
+          ],
+          "volumescale": [
+            12953
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 12954,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "time = 30"
+          ],
+          "value": [
+            "S500,16"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12955
+          ],
+          "trigger1": [
+            12956
+          ],
+          "value": [
+            12957
+          ],
+          "volumescale": [
+            12958
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 12960,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "animelem = 40"
+          ],
+          "value": [
+            "S500,22"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12961
+          ],
+          "trigger1": [
+            12962
+          ],
+          "value": [
+            12963
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 12965,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "animelem = 42"
+          ],
+          "value": [
+            "S200,11"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12966
+          ],
+          "trigger1": [
+            12967
+          ],
+          "value": [
+            12968
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 12970,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "animelem = 3"
+          ],
+          "value": [
+            "S200,6"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12971
+          ],
+          "trigger1": [
+            12972
+          ],
+          "value": [
+            12973
+          ]
+        }
+      },
+      {
+        "section": "State 0, Helper",
+        "line": 12976,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "animelem = 3"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "name": [
+            "\"Sword\""
+          ],
+          "id": [
+            "1301"
+          ],
+          "stateno": [
+            "1301"
+          ],
+          "pos": [
+            "-20,-30"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "facing": [
+            "1"
+          ],
+          "size.xscale": [
+            "1"
+          ],
+          "size.yscale": [
+            "1"
+          ],
+          "supermove": [
+            "99"
+          ],
+          "supermovetime": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12977
+          ],
+          "trigger1": [
+            12978
+          ],
+          "helpertype": [
+            12979
+          ],
+          "name": [
+            12980
+          ],
+          "id": [
+            12981
+          ],
+          "stateno": [
+            12982
+          ],
+          "pos": [
+            12983
+          ],
+          "postype": [
+            12984
+          ],
+          "facing": [
+            12985
+          ],
+          "size.xscale": [
+            12986
+          ],
+          "size.yscale": [
+            12987
+          ],
+          "supermove": [
+            12988
+          ],
+          "supermovetime": [
+            12989
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 12991,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "timemod = 6,0 && time = [50,95]"
+          ],
+          "value": [
+            "S200,0+(random%2)"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12992
+          ],
+          "trigger1": [
+            12993
+          ],
+          "value": [
+            12994
+          ]
+        }
+      },
+      {
+        "section": "State 0, Super Charge",
+        "line": 13016,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "!time"
+          ],
+          "stateno": [
+            "7025"
+          ],
+          "id": [
+            "1000"
+          ],
+          "pos": [
+            "1,-20"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "supermovetime": [
+            "999999"
+          ],
+          "pausemovetime": [
+            "999999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13017
+          ],
+          "trigger1": [
+            13018
+          ],
+          "stateno": [
+            13019
+          ],
+          "id": [
+            13020
+          ],
+          "pos": [
+            13021
+          ],
+          "postype": [
+            13022
+          ],
+          "ownpal": [
+            13023
+          ],
+          "supermovetime": [
+            13024
+          ],
+          "pausemovetime": [
+            13025
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 13044,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "animelem = 42"
+          ],
+          "anim": [
+            "6151"
+          ],
+          "id": [
+            "6151"
+          ],
+          "angle": [
+            "-90"
+          ],
+          "vel": [
+            "0,0"
+          ],
+          "pos": [
+            "0,-25"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".25,.25"
+          ],
+          "sprpriority": [
+            "10"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13045
+          ],
+          "trigger1": [
+            13046
+          ],
+          "anim": [
+            13047
+          ],
+          "id": [
+            13048
+          ],
+          "angle": [
+            13049
+          ],
+          "vel": [
+            13050
+          ],
+          "pos": [
+            13051
+          ],
+          "postype": [
+            13052
+          ],
+          "scale": [
+            13053
+          ],
+          "sprpriority": [
+            13054
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 13056,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "animelem = 42"
+          ],
+          "anim": [
+            "6200"
+          ],
+          "id": [
+            "6200"
+          ],
+          "pos": [
+            "0,0"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".5,.5"
+          ],
+          "sprpriority": [
+            "0"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13057
+          ],
+          "trigger1": [
+            13058
+          ],
+          "anim": [
+            13059
+          ],
+          "id": [
+            13060
+          ],
+          "pos": [
+            13061
+          ],
+          "postype": [
+            13062
+          ],
+          "scale": [
+            13063
+          ],
+          "sprpriority": [
+            13064
+          ]
+        }
+      },
+      {
+        "section": "State 0, 1",
+        "line": 13081,
+        "fields": {
+          "type": [
+            "HitDef"
+          ],
+          "trigger1": [
+            "timemod = 6,0 && time > 0"
+          ],
+          "attr": [
+            "A, HP"
+          ],
+          "damage": [
+            "15,5"
+          ],
+          "getpower": [
+            "0,0"
+          ],
+          "animtype": [
+            "Light"
+          ],
+          "guardflag": [
+            "MA"
+          ],
+          "hitflag": [
+            "MAFD"
+          ],
+          "priority": [
+            "3, Hit"
+          ],
+          "pausetime": [
+            "0, 5"
+          ],
+          "sparkno": [
+            "-1"
+          ],
+          "sparkxy": [
+            "-10, -30"
+          ],
+          "hitsound": [
+            "S2,5+(random%3)"
+          ],
+          "guard.sparkno": [
+            "S7100"
+          ],
+          "guardsound": [
+            "S200,40"
+          ],
+          "ground.type": [
+            "High"
+          ],
+          "ground.slidetime": [
+            "5"
+          ],
+          "ground.hittime": [
+            "12"
+          ],
+          "ground.velocity": [
+            "-1,-3"
+          ],
+          "airguard.velocity": [
+            "-1.9,-.8"
+          ],
+          "air.type": [
+            "High"
+          ],
+          "air.velocity": [
+            "-1,-2"
+          ],
+          "air.hittime": [
+            "12"
+          ],
+          "fall": [
+            "1"
+          ],
+          "air.fall": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13082
+          ],
+          "trigger1": [
+            13083
+          ],
+          "attr": [
+            13084
+          ],
+          "damage": [
+            13085
+          ],
+          "getpower": [
+            13086
+          ],
+          "animtype": [
+            13087
+          ],
+          "guardflag": [
+            13088
+          ],
+          "hitflag": [
+            13089
+          ],
+          "priority": [
+            13090
+          ],
+          "pausetime": [
+            13091
+          ],
+          "sparkno": [
+            13092
+          ],
+          "sparkxy": [
+            13093
+          ],
+          "hitsound": [
+            13094
+          ],
+          "guard.sparkno": [
+            13095
+          ],
+          "guardsound": [
+            13096
+          ],
+          "ground.type": [
+            13097
+          ],
+          "ground.slidetime": [
+            13098
+          ],
+          "ground.hittime": [
+            13099
+          ],
+          "ground.velocity": [
+            13100
+          ],
+          "airguard.velocity": [
+            13101
+          ],
+          "air.type": [
+            13102
+          ],
+          "air.velocity": [
+            13103
+          ],
+          "air.hittime": [
+            13104
+          ],
+          "fall": [
+            13105
+          ],
+          "air.fall": [
+            13106
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 13109,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "timemod = 8,0 && time = [52,100]"
+          ],
+          "anim": [
+            "6000"
+          ],
+          "id": [
+            "6000"
+          ],
+          "pos": [
+            "0,0"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".6,.5"
+          ],
+          "sprpriority": [
+            "5"
+          ],
+          "supermove": [
+            "999"
+          ],
+          "supermovetime": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13110
+          ],
+          "trigger1": [
+            13111
+          ],
+          "anim": [
+            13112
+          ],
+          "id": [
+            13113
+          ],
+          "pos": [
+            13114
+          ],
+          "postype": [
+            13115
+          ],
+          "scale": [
+            13116
+          ],
+          "sprpriority": [
+            13117
+          ],
+          "supermove": [
+            13118
+          ],
+          "supermovetime": [
+            13119
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 13121,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "animelem = 12"
+          ],
+          "anim": [
+            "7050"
+          ],
+          "id": [
+            "7050"
+          ],
+          "pos": [
+            "0,-50"
+          ],
+          "removetime": [
+            "45"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".5,.5"
+          ],
+          "sprpriority": [
+            "10"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13122
+          ],
+          "trigger1": [
+            13123
+          ],
+          "anim": [
+            13124
+          ],
+          "id": [
+            13125
+          ],
+          "pos": [
+            13126
+          ],
+          "removetime": [
+            13127
+          ],
+          "postype": [
+            13128
+          ],
+          "scale": [
+            13129
+          ],
+          "sprpriority": [
+            13130
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 13132,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "animelem = 12"
+          ],
+          "anim": [
+            "7050"
+          ],
+          "id": [
+            "7050"
+          ],
+          "pos": [
+            "0,-50"
+          ],
+          "removetime": [
+            "45"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".5,.5"
+          ],
+          "sprpriority": [
+            "10"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13133
+          ],
+          "trigger1": [
+            13134
+          ],
+          "anim": [
+            13135
+          ],
+          "id": [
+            13136
+          ],
+          "pos": [
+            13137
+          ],
+          "removetime": [
+            13138
+          ],
+          "postype": [
+            13139
+          ],
+          "scale": [
+            13140
+          ],
+          "sprpriority": [
+            13141
+          ]
+        }
+      },
+      {
+        "section": "State 2000, end",
+        "line": 13143,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "AnimTime = 0"
+          ],
+          "value": [
+            "0"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13144
+          ],
+          "trigger1": [
+            13145
+          ],
+          "value": [
+            13146
+          ],
+          "ctrl": [
+            13147
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "slot": "K",
+    "state": 1600,
+    "file": "Toji Fushiguro.cns",
+    "line": 14557,
+    "anim": [
+      "1600"
+    ],
+    "controllers": [
+      {
+        "section": "State 0, Explod",
+        "line": 14586,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "animelem = 6"
+          ],
+          "anim": [
+            "7702"
+          ],
+          "id": [
+            "7702"
+          ],
+          "pos": [
+            "30,-5"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".3,.3"
+          ],
+          "sprpriority": [
+            "10"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "supermovetime": [
+            "999999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14587
+          ],
+          "trigger1": [
+            14588
+          ],
+          "anim": [
+            14589
+          ],
+          "id": [
+            14590
+          ],
+          "pos": [
+            14591
+          ],
+          "postype": [
+            14592
+          ],
+          "scale": [
+            14593
+          ],
+          "sprpriority": [
+            14594
+          ],
+          "ownpal": [
+            14595
+          ],
+          "supermovetime": [
+            14596
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 14598,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "animelem = 6"
+          ],
+          "anim": [
+            "7701"
+          ],
+          "id": [
+            "7701"
+          ],
+          "pos": [
+            "30,5"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".3,.15"
+          ],
+          "sprpriority": [
+            "0"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "supermovetime": [
+            "99999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14599
+          ],
+          "trigger1": [
+            14600
+          ],
+          "anim": [
+            14601
+          ],
+          "id": [
+            14602
+          ],
+          "pos": [
+            14603
+          ],
+          "postype": [
+            14604
+          ],
+          "scale": [
+            14605
+          ],
+          "sprpriority": [
+            14606
+          ],
+          "ownpal": [
+            14607
+          ],
+          "supermovetime": [
+            14608
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 14610,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "animelem = 6"
+          ],
+          "anim": [
+            "6100"
+          ],
+          "id": [
+            "6100"
+          ],
+          "pos": [
+            "40,5"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".25,.1"
+          ],
+          "sprpriority": [
+            "1"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "supermovetime": [
+            "99999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14611
+          ],
+          "trigger1": [
+            14612
+          ],
+          "anim": [
+            14613
+          ],
+          "id": [
+            14614
+          ],
+          "pos": [
+            14615
+          ],
+          "postype": [
+            14616
+          ],
+          "scale": [
+            14617
+          ],
+          "sprpriority": [
+            14618
+          ],
+          "ownpal": [
+            14619
+          ],
+          "supermovetime": [
+            14620
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 14622,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "timemod =1,0  && time <= 40"
+          ],
+          "anim": [
+            "7501"
+          ],
+          "id": [
+            "7501"
+          ],
+          "pos": [
+            "0-(random%10),-45+(random%40)"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".05,.05"
+          ],
+          "sprpriority": [
+            "10"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "supermovetime": [
+            "99999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14623
+          ],
+          "trigger1": [
+            14624
+          ],
+          "anim": [
+            14625
+          ],
+          "id": [
+            14626
+          ],
+          "pos": [
+            14627
+          ],
+          "postype": [
+            14628
+          ],
+          "scale": [
+            14629
+          ],
+          "sprpriority": [
+            14630
+          ],
+          "ownpal": [
+            14631
+          ],
+          "supermovetime": [
+            14632
+          ]
+        }
+      },
+      {
+        "section": "State 5000",
+        "line": 14634,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "time=0"
+          ],
+          "value": [
+            "S500,9"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14635
+          ],
+          "trigger1": [
+            14636
+          ],
+          "value": [
+            14637
+          ],
+          "volumescale": [
+            14638
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 14640,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "animelem = 5"
+          ],
+          "value": [
+            "S200,7"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14641
+          ],
+          "trigger1": [
+            14642
+          ],
+          "value": [
+            14643
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 14645,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "animelem = 6"
+          ],
+          "value": [
+            "S200,10"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14646
+          ],
+          "trigger1": [
+            14647
+          ],
+          "value": [
+            14648
+          ]
+        }
+      },
+      {
+        "section": "state 0",
+        "line": 14650,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "time = [27,35]"
+          ],
+          "id": [
+            "1601"
+          ],
+          "stateno": [
+            "1601"
+          ],
+          "pos": [
+            "-30 + (random % 110), 0 + (random % 5)"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "facing": [
+            "1"
+          ],
+          "size.xscale": [
+            ".2"
+          ],
+          "size.yscale": [
+            ".2"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "ignorehitpause": [
+            "1"
+          ],
+          "supermovetime": [
+            "99999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14651
+          ],
+          "trigger1": [
+            14652
+          ],
+          "id": [
+            14653
+          ],
+          "stateno": [
+            14654
+          ],
+          "pos": [
+            14655
+          ],
+          "postype": [
+            14656
+          ],
+          "facing": [
+            14657
+          ],
+          "size.xscale": [
+            14658
+          ],
+          "size.yscale": [
+            14659
+          ],
+          "ownpal": [
+            14660
+          ],
+          "ignorehitpause": [
+            14661
+          ],
+          "supermovetime": [
+            14662
+          ]
+        }
+      },
+      {
+        "section": "state 0",
+        "line": 14663,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "time = [27,35]"
+          ],
+          "id": [
+            "1601"
+          ],
+          "stateno": [
+            "1601"
+          ],
+          "pos": [
+            "-30 + (random % 110), 0 + (random % 5)"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "facing": [
+            "1"
+          ],
+          "size.xscale": [
+            ".2"
+          ],
+          "size.yscale": [
+            ".2"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "ignorehitpause": [
+            "1"
+          ],
+          "supermovetime": [
+            "99999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14664
+          ],
+          "trigger1": [
+            14665
+          ],
+          "id": [
+            14666
+          ],
+          "stateno": [
+            14667
+          ],
+          "pos": [
+            14668
+          ],
+          "postype": [
+            14669
+          ],
+          "facing": [
+            14670
+          ],
+          "size.xscale": [
+            14671
+          ],
+          "size.yscale": [
+            14672
+          ],
+          "ownpal": [
+            14673
+          ],
+          "ignorehitpause": [
+            14674
+          ],
+          "supermovetime": [
+            14675
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 14677,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "animelem = 6"
+          ],
+          "value": [
+            "S200,25"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14678
+          ],
+          "trigger1": [
+            14679
+          ],
+          "value": [
+            14680
+          ]
+        }
+      },
+      {
+        "section": "State 0, 1",
+        "line": 14682,
+        "fields": {
+          "type": [
+            "HitDef"
+          ],
+          "trigger1": [
+            "time =0"
+          ],
+          "attr": [
+            "A, NA"
+          ],
+          "damage": [
+            "40"
+          ],
+          "animtype": [
+            "Light"
+          ],
+          "guardflag": [
+            "MA"
+          ],
+          "hitflag": [
+            "MAFD"
+          ],
+          "priority": [
+            "3, Hit"
+          ],
+          "pausetime": [
+            "0, 5"
+          ],
+          "sparkno": [
+            "-1"
+          ],
+          "sparkxy": [
+            "-10, -30"
+          ],
+          "hitsound": [
+            "S200,5"
+          ],
+          "guard.sparkno": [
+            "S7100"
+          ],
+          "guardsound": [
+            "S200,41"
+          ],
+          "ground.type": [
+            "High"
+          ],
+          "ground.slidetime": [
+            "5"
+          ],
+          "ground.hittime": [
+            "12"
+          ],
+          "ground.velocity": [
+            "0,-6"
+          ],
+          "airguard.velocity": [
+            "-1.9,-.8"
+          ],
+          "air.type": [
+            "High"
+          ],
+          "air.velocity": [
+            "0,-6"
+          ],
+          "air.hittime": [
+            "12"
+          ],
+          "fall": [
+            "1"
+          ],
+          "air.fall": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14683
+          ],
+          "trigger1": [
+            14684
+          ],
+          "attr": [
+            14685
+          ],
+          "damage": [
+            14686
+          ],
+          "animtype": [
+            14687
+          ],
+          "guardflag": [
+            14688
+          ],
+          "hitflag": [
+            14689
+          ],
+          "priority": [
+            14690
+          ],
+          "pausetime": [
+            14691
+          ],
+          "sparkno": [
+            14692
+          ],
+          "sparkxy": [
+            14693
+          ],
+          "hitsound": [
+            14694
+          ],
+          "guard.sparkno": [
+            14695
+          ],
+          "guardsound": [
+            14696
+          ],
+          "ground.type": [
+            14697
+          ],
+          "ground.slidetime": [
+            14698
+          ],
+          "ground.hittime": [
+            14699
+          ],
+          "ground.velocity": [
+            14700
+          ],
+          "airguard.velocity": [
+            14701
+          ],
+          "air.type": [
+            14702
+          ],
+          "air.velocity": [
+            14703
+          ],
+          "air.hittime": [
+            14704
+          ],
+          "fall": [
+            14705
+          ],
+          "air.fall": [
+            14706
+          ]
+        }
+      },
+      {
+        "section": "State 0, Helper",
+        "line": 14709,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "triggerall": [
+            "numhelper(289) = 0"
+          ],
+          "trigger1": [
+            "movehit = 1"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "name": [
+            "\"HitSpark\""
+          ],
+          "id": [
+            "289"
+          ],
+          "stateno": [
+            "289"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "pos": [
+            "0,-5"
+          ],
+          "ignorehitpause": [
+            "99"
+          ],
+          "postype": [
+            "p2"
+          ],
+          "size.xscale": [
+            ".05"
+          ],
+          "size.yscale": [
+            ".05"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14710
+          ],
+          "triggerall": [
+            14711
+          ],
+          "trigger1": [
+            14712
+          ],
+          "helpertype": [
+            14713
+          ],
+          "name": [
+            14714
+          ],
+          "id": [
+            14715
+          ],
+          "stateno": [
+            14716
+          ],
+          "ownpal": [
+            14717
+          ],
+          "pos": [
+            14718
+          ],
+          "ignorehitpause": [
+            14719
+          ],
+          "postype": [
+            14720
+          ],
+          "size.xscale": [
+            14721
+          ],
+          "size.yscale": [
+            14722
+          ]
+        }
+      },
+      {
+        "section": "State 0, Helper",
+        "line": 14723,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "triggerall": [
+            "numhelper(288) = 0"
+          ],
+          "trigger1": [
+            "movehit = 1"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "name": [
+            "\"HitSpark2\""
+          ],
+          "id": [
+            "288"
+          ],
+          "stateno": [
+            "288"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "pos": [
+            "0,-5"
+          ],
+          "ignorehitpause": [
+            "99"
+          ],
+          "postype": [
+            "p2"
+          ],
+          "size.xscale": [
+            ".2"
+          ],
+          "size.yscale": [
+            ".2"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14724
+          ],
+          "triggerall": [
+            14725
+          ],
+          "trigger1": [
+            14726
+          ],
+          "helpertype": [
+            14727
+          ],
+          "name": [
+            14728
+          ],
+          "id": [
+            14729
+          ],
+          "stateno": [
+            14730
+          ],
+          "ownpal": [
+            14731
+          ],
+          "pos": [
+            14732
+          ],
+          "ignorehitpause": [
+            14733
+          ],
+          "postype": [
+            14734
+          ],
+          "size.xscale": [
+            14735
+          ],
+          "size.yscale": [
+            14736
+          ]
+        }
+      },
+      {
+        "section": "State 0, Helper",
+        "line": 14737,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "triggerall": [
+            "numhelper(287) = 0"
+          ],
+          "trigger1": [
+            "movehit = 1"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "name": [
+            "\"HitSpark3\""
+          ],
+          "id": [
+            "287"
+          ],
+          "stateno": [
+            "287"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "pos": [
+            "0,-5"
+          ],
+          "ignorehitpause": [
+            "99"
+          ],
+          "postype": [
+            "p2"
+          ],
+          "size.xscale": [
+            ".08"
+          ],
+          "size.yscale": [
+            ".08"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14738
+          ],
+          "triggerall": [
+            14739
+          ],
+          "trigger1": [
+            14740
+          ],
+          "helpertype": [
+            14741
+          ],
+          "name": [
+            14742
+          ],
+          "id": [
+            14743
+          ],
+          "stateno": [
+            14744
+          ],
+          "ownpal": [
+            14745
+          ],
+          "pos": [
+            14746
+          ],
+          "ignorehitpause": [
+            14747
+          ],
+          "postype": [
+            14748
+          ],
+          "size.xscale": [
+            14749
+          ],
+          "size.yscale": [
+            14750
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 14754,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "time = 63"
+          ],
+          "anim": [
+            "1601"
+          ],
+          "id": [
+            "1601"
+          ],
+          "pos": [
+            "-5,-55"
+          ],
+          "vel": [
+            "0.4,-10"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            "1,1"
+          ],
+          "sprpriority": [
+            "10"
+          ],
+          "supermove": [
+            "1"
+          ],
+          "supermovetime": [
+            "999999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14755
+          ],
+          "trigger1": [
+            14756
+          ],
+          "anim": [
+            14757
+          ],
+          "id": [
+            14758
+          ],
+          "pos": [
+            14759
+          ],
+          "vel": [
+            14760
+          ],
+          "postype": [
+            14761
+          ],
+          "scale": [
+            14762
+          ],
+          "sprpriority": [
+            14763
+          ],
+          "supermove": [
+            14764
+          ],
+          "supermovetime": [
+            14765
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 14767,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "time = 63"
+          ],
+          "value": [
+            "S200,6"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14768
+          ],
+          "trigger1": [
+            14769
+          ],
+          "value": [
+            14770
+          ]
+        }
+      },
+      {
+        "section": "State 0, Helper",
+        "line": 14774,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "triggerall": [
+            "time = [77,227]"
+          ],
+          "trigger1": [
+            "time % 8 = 0"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "name": [
+            "\"HitSpark\""
+          ],
+          "id": [
+            "289"
+          ],
+          "stateno": [
+            "289"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "pos": [
+            "10+ (random % 50),-45+ (random % 25)"
+          ],
+          "ignorehitpause": [
+            "99"
+          ],
+          "supermovetime": [
+            "999"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "size.xscale": [
+            ".025"
+          ],
+          "size.yscale": [
+            ".025"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14775
+          ],
+          "triggerall": [
+            14776
+          ],
+          "trigger1": [
+            14777
+          ],
+          "helpertype": [
+            14778
+          ],
+          "name": [
+            14779
+          ],
+          "id": [
+            14780
+          ],
+          "stateno": [
+            14781
+          ],
+          "ownpal": [
+            14782
+          ],
+          "pos": [
+            14783
+          ],
+          "ignorehitpause": [
+            14784
+          ],
+          "supermovetime": [
+            14785
+          ],
+          "postype": [
+            14786
+          ],
+          "size.xscale": [
+            14787
+          ],
+          "size.yscale": [
+            14788
+          ]
+        }
+      },
+      {
+        "section": "State 0, Helper",
+        "line": 14789,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "triggerall": [
+            "time = [77,227]"
+          ],
+          "trigger1": [
+            "time % 8 = 0"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "name": [
+            "\"HitSpark2\""
+          ],
+          "id": [
+            "288"
+          ],
+          "stateno": [
+            "288"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "pos": [
+            "10+ (random % 50),-45+ (random % 25)"
+          ],
+          "ignorehitpause": [
+            "99"
+          ],
+          "supermovetime": [
+            "999"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "size.xscale": [
+            ".1"
+          ],
+          "size.yscale": [
+            ".1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14790
+          ],
+          "triggerall": [
+            14791
+          ],
+          "trigger1": [
+            14792
+          ],
+          "helpertype": [
+            14793
+          ],
+          "name": [
+            14794
+          ],
+          "id": [
+            14795
+          ],
+          "stateno": [
+            14796
+          ],
+          "ownpal": [
+            14797
+          ],
+          "pos": [
+            14798
+          ],
+          "ignorehitpause": [
+            14799
+          ],
+          "supermovetime": [
+            14800
+          ],
+          "postype": [
+            14801
+          ],
+          "size.xscale": [
+            14802
+          ],
+          "size.yscale": [
+            14803
+          ]
+        }
+      },
+      {
+        "section": "State 0, Helper",
+        "line": 14804,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "triggerall": [
+            "time = [77,227]"
+          ],
+          "trigger1": [
+            "time % 8 = 0"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "name": [
+            "\"HitSpark3\""
+          ],
+          "id": [
+            "287"
+          ],
+          "stateno": [
+            "287"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "pos": [
+            "10+ (random % 50),-45+ (random % 25)"
+          ],
+          "ignorehitpause": [
+            "99"
+          ],
+          "supermovetime": [
+            "999"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "size.xscale": [
+            ".04"
+          ],
+          "size.yscale": [
+            ".04"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14805
+          ],
+          "triggerall": [
+            14806
+          ],
+          "trigger1": [
+            14807
+          ],
+          "helpertype": [
+            14808
+          ],
+          "name": [
+            14809
+          ],
+          "id": [
+            14810
+          ],
+          "stateno": [
+            14811
+          ],
+          "ownpal": [
+            14812
+          ],
+          "pos": [
+            14813
+          ],
+          "ignorehitpause": [
+            14814
+          ],
+          "supermovetime": [
+            14815
+          ],
+          "postype": [
+            14816
+          ],
+          "size.xscale": [
+            14817
+          ],
+          "size.yscale": [
+            14818
+          ]
+        }
+      },
+      {
+        "section": "State 0, Helper",
+        "line": 14820,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "triggerall": [
+            "time = [77,227]"
+          ],
+          "trigger1": [
+            "time % 8 = 0"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "name": [
+            "\"Debris\""
+          ],
+          "id": [
+            "1605"
+          ],
+          "stateno": [
+            "1605"
+          ],
+          "pos": [
+            "-20 + (random % 100),-40+(random%30)"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "size.xscale": [
+            ".25"
+          ],
+          "size.yscale": [
+            ".25"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "supermovetime": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14821
+          ],
+          "triggerall": [
+            14822
+          ],
+          "trigger1": [
+            14823
+          ],
+          "helpertype": [
+            14824
+          ],
+          "name": [
+            14825
+          ],
+          "id": [
+            14826
+          ],
+          "stateno": [
+            14827
+          ],
+          "pos": [
+            14828
+          ],
+          "postype": [
+            14829
+          ],
+          "size.xscale": [
+            14830
+          ],
+          "size.yscale": [
+            14831
+          ],
+          "ownpal": [
+            14832
+          ],
+          "supermovetime": [
+            14833
+          ]
+        }
+      },
+      {
+        "section": "state 0",
+        "line": 14843,
+        "fields": {
+          "type": [
+            "playsnd"
+          ],
+          "triggerall": [
+            "time = [77,227]"
+          ],
+          "trigger1": [
+            "time % 8 = 0"
+          ],
+          "value": [
+            "s200, 10"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14844
+          ],
+          "triggerall": [
+            14845
+          ],
+          "trigger1": [
+            14846
+          ],
+          "value": [
+            14847
+          ]
+        }
+      },
+      {
+        "section": "state 0",
+        "line": 14849,
+        "fields": {
+          "type": [
+            "explod"
+          ],
+          "trigger1": [
+            "(time = [77,227]) && (time % 2 = 0)"
+          ],
+          "anim": [
+            "1610"
+          ],
+          "id": [
+            "1610"
+          ],
+          "pos": [
+            "-35 + (random % 25), -5 + (random % 20)"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "facing": [
+            "1"
+          ],
+          "bindtime": [
+            "1"
+          ],
+          "removetime": [
+            "-2"
+          ],
+          "sprpriority": [
+            "1"
+          ],
+          "scale": [
+            "1, 1"
+          ],
+          "angle": [
+            "0"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "removeongethit": [
+            "1"
+          ],
+          "ignorehitpause": [
+            "1"
+          ],
+          "supermovetime": [
+            "999"
+          ],
+          "pausemovetime": [
+            "999"
+          ],
+          "vel": [
+            "6, 0"
+          ],
+          "accel": [
+            "-1, 0"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14850
+          ],
+          "trigger1": [
+            14851
+          ],
+          "anim": [
+            14852
+          ],
+          "id": [
+            14853
+          ],
+          "pos": [
+            14854
+          ],
+          "postype": [
+            14855
+          ],
+          "facing": [
+            14856
+          ],
+          "bindtime": [
+            14857
+          ],
+          "removetime": [
+            14858
+          ],
+          "sprpriority": [
+            14859
+          ],
+          "scale": [
+            14860
+          ],
+          "angle": [
+            14861
+          ],
+          "ownpal": [
+            14862
+          ],
+          "removeongethit": [
+            14864
+          ],
+          "ignorehitpause": [
+            14865
+          ],
+          "supermovetime": [
+            14866
+          ],
+          "pausemovetime": [
+            14867
+          ],
+          "vel": [
+            14868
+          ],
+          "accel": [
+            14869
+          ]
+        }
+      },
+      {
+        "section": "state 0",
+        "line": 14871,
+        "fields": {
+          "type": [
+            "explod"
+          ],
+          "trigger1": [
+            "(time = [77,227]) && (time % 2 = 0)"
+          ],
+          "anim": [
+            "1610"
+          ],
+          "id": [
+            "1610"
+          ],
+          "pos": [
+            "-45 + (random % 25), -5 + (random % 20)"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "facing": [
+            "1"
+          ],
+          "bindtime": [
+            "1"
+          ],
+          "removetime": [
+            "-2"
+          ],
+          "sprpriority": [
+            "4"
+          ],
+          "scale": [
+            "1, 1"
+          ],
+          "angle": [
+            "0"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "removeongethit": [
+            "1"
+          ],
+          "ignorehitpause": [
+            "1"
+          ],
+          "supermovetime": [
+            "999"
+          ],
+          "pausemovetime": [
+            "999"
+          ],
+          "vel": [
+            "6, 0"
+          ],
+          "accel": [
+            "-1, 0"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14872
+          ],
+          "trigger1": [
+            14873
+          ],
+          "anim": [
+            14874
+          ],
+          "id": [
+            14875
+          ],
+          "pos": [
+            14876
+          ],
+          "postype": [
+            14877
+          ],
+          "facing": [
+            14878
+          ],
+          "bindtime": [
+            14879
+          ],
+          "removetime": [
+            14880
+          ],
+          "sprpriority": [
+            14881
+          ],
+          "scale": [
+            14882
+          ],
+          "angle": [
+            14883
+          ],
+          "ownpal": [
+            14884
+          ],
+          "removeongethit": [
+            14886
+          ],
+          "ignorehitpause": [
+            14887
+          ],
+          "supermovetime": [
+            14888
+          ],
+          "pausemovetime": [
+            14889
+          ],
+          "vel": [
+            14890
+          ],
+          "accel": [
+            14891
+          ]
+        }
+      },
+      {
+        "section": "State 0, Helper",
+        "line": 14912,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "time = 0"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "name": [
+            "\"SupFX\""
+          ],
+          "id": [
+            "8000"
+          ],
+          "stateno": [
+            "8000"
+          ],
+          "pos": [
+            "0,-30"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "supermove": [
+            "99",
+            "999"
+          ],
+          "supermovetime": [
+            "999",
+            "999"
+          ],
+          "size.xscale": [
+            ".25"
+          ],
+          "size.yscale": [
+            ".25"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "pausemove": [
+            "1"
+          ],
+          "pausemovetime": [
+            "99"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14913
+          ],
+          "trigger1": [
+            14914
+          ],
+          "helpertype": [
+            14915
+          ],
+          "name": [
+            14916
+          ],
+          "id": [
+            14917
+          ],
+          "stateno": [
+            14918
+          ],
+          "pos": [
+            14919
+          ],
+          "postype": [
+            14920
+          ],
+          "supermove": [
+            14921,
+            14926
+          ],
+          "supermovetime": [
+            14922,
+            14927
+          ],
+          "size.xscale": [
+            14923
+          ],
+          "size.yscale": [
+            14924
+          ],
+          "ownpal": [
+            14925
+          ],
+          "pausemove": [
+            14928
+          ],
+          "pausemovetime": [
+            14929
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 14941,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "animelem = 21"
+          ],
+          "anim": [
+            "1602"
+          ],
+          "id": [
+            "1602"
+          ],
+          "pos": [
+            "-5,-200"
+          ],
+          "vel": [
+            "0.5,12"
+          ],
+          "removeongethit": [
+            "1"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            "1,1"
+          ],
+          "sprpriority": [
+            "10"
+          ],
+          "supermovetime": [
+            "999999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14942
+          ],
+          "trigger1": [
+            14943
+          ],
+          "anim": [
+            14944
+          ],
+          "id": [
+            14945
+          ],
+          "pos": [
+            14946
+          ],
+          "vel": [
+            14947
+          ],
+          "removeongethit": [
+            14948
+          ],
+          "postype": [
+            14949
+          ],
+          "scale": [
+            14950
+          ],
+          "sprpriority": [
+            14951
+          ],
+          "supermovetime": [
+            14953
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 14955,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "animelem = 23"
+          ],
+          "value": [
+            "S52,0"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14956
+          ],
+          "trigger1": [
+            14957
+          ],
+          "value": [
+            14958
+          ],
+          "volumescale": [
+            14959
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 14960,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "animelem = 23"
+          ],
+          "value": [
+            "S52,0"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14961
+          ],
+          "trigger1": [
+            14962
+          ],
+          "value": [
+            14963
+          ],
+          "volumescale": [
+            14964
+          ]
+        }
+      },
+      {
+        "section": "State 1000, end",
+        "line": 14966,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "AnimTime = 0"
+          ],
+          "value": [
+            "0"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            14967
+          ],
+          "trigger1": [
+            14968
+          ],
+          "value": [
+            14969
+          ],
+          "ctrl": [
+            14970
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "slot": "L",
+    "state": 1400,
+    "file": "Toji Fushiguro.cns",
+    "line": 13257,
+    "anim": [
+      "1400"
+    ],
+    "controllers": [
+      {
+        "section": "State 0, 1",
+        "line": 13279,
+        "fields": {
+          "type": [
+            "HitDef"
+          ],
+          "trigger1": [
+            "animelem = 11"
+          ],
+          "attr": [
+            "A, HP"
+          ],
+          "damage": [
+            "50"
+          ],
+          "animtype": [
+            "Light"
+          ],
+          "guardflag": [
+            "MA"
+          ],
+          "hitflag": [
+            "MAF"
+          ],
+          "getpower": [
+            "0,0"
+          ],
+          "priority": [
+            "3, Hit"
+          ],
+          "pausetime": [
+            "0, 15"
+          ],
+          "sparkno": [
+            "-1"
+          ],
+          "sparkxy": [
+            "-10, -30"
+          ],
+          "hitsound": [
+            "S2,7"
+          ],
+          "guard.sparkno": [
+            "S7100"
+          ],
+          "guardsound": [
+            "S200,40"
+          ],
+          "ground.type": [
+            "High"
+          ],
+          "ground.slidetime": [
+            "5"
+          ],
+          "ground.hittime": [
+            "46"
+          ],
+          "ground.velocity": [
+            "-4"
+          ],
+          "airguard.velocity": [
+            "-1.9,-.8"
+          ],
+          "air.type": [
+            "High"
+          ],
+          "air.velocity": [
+            "-4,0"
+          ],
+          "air.hittime": [
+            "46"
+          ],
+          "air.fall": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13280
+          ],
+          "trigger1": [
+            13281
+          ],
+          "attr": [
+            13282
+          ],
+          "damage": [
+            13283
+          ],
+          "animtype": [
+            13284
+          ],
+          "guardflag": [
+            13285
+          ],
+          "hitflag": [
+            13286
+          ],
+          "getpower": [
+            13287
+          ],
+          "priority": [
+            13288
+          ],
+          "pausetime": [
+            13289
+          ],
+          "sparkno": [
+            13290
+          ],
+          "sparkxy": [
+            13291
+          ],
+          "hitsound": [
+            13292
+          ],
+          "guard.sparkno": [
+            13293
+          ],
+          "guardsound": [
+            13294
+          ],
+          "ground.type": [
+            13295
+          ],
+          "ground.slidetime": [
+            13296
+          ],
+          "ground.hittime": [
+            13297
+          ],
+          "ground.velocity": [
+            13298
+          ],
+          "airguard.velocity": [
+            13299
+          ],
+          "air.type": [
+            13300
+          ],
+          "air.velocity": [
+            13301
+          ],
+          "air.hittime": [
+            13302
+          ],
+          "air.fall": [
+            13303
+          ]
+        }
+      },
+      {
+        "section": "State 0, 1",
+        "line": 13305,
+        "fields": {
+          "type": [
+            "HitDef"
+          ],
+          "trigger1": [
+            "animelem = 15"
+          ],
+          "trigger2": [
+            "animelem = 20"
+          ],
+          "attr": [
+            "A, HP"
+          ],
+          "damage": [
+            "50"
+          ],
+          "getpower": [
+            "0,0"
+          ],
+          "animtype": [
+            "Light"
+          ],
+          "guardflag": [
+            "MA"
+          ],
+          "hitflag": [
+            "MAF"
+          ],
+          "priority": [
+            "3, Hit"
+          ],
+          "pausetime": [
+            "0, 15"
+          ],
+          "sparkno": [
+            "-1"
+          ],
+          "sparkxy": [
+            "-10, -30"
+          ],
+          "hitsound": [
+            "S2,6"
+          ],
+          "guard.sparkno": [
+            "S7100"
+          ],
+          "guardsound": [
+            "S200,40"
+          ],
+          "ground.type": [
+            "High"
+          ],
+          "ground.slidetime": [
+            "5"
+          ],
+          "ground.hittime": [
+            "46"
+          ],
+          "ground.velocity": [
+            "-4"
+          ],
+          "airguard.velocity": [
+            "-1.9,-.8"
+          ],
+          "air.type": [
+            "High"
+          ],
+          "air.velocity": [
+            "-4,0"
+          ],
+          "air.hittime": [
+            "46"
+          ],
+          "air.fall": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13306
+          ],
+          "trigger1": [
+            13307
+          ],
+          "trigger2": [
+            13308
+          ],
+          "attr": [
+            13309
+          ],
+          "damage": [
+            13310
+          ],
+          "getpower": [
+            13311
+          ],
+          "animtype": [
+            13312
+          ],
+          "guardflag": [
+            13313
+          ],
+          "hitflag": [
+            13314
+          ],
+          "priority": [
+            13315
+          ],
+          "pausetime": [
+            13316
+          ],
+          "sparkno": [
+            13317
+          ],
+          "sparkxy": [
+            13318
+          ],
+          "hitsound": [
+            13319
+          ],
+          "guard.sparkno": [
+            13320
+          ],
+          "guardsound": [
+            13321
+          ],
+          "ground.type": [
+            13322
+          ],
+          "ground.slidetime": [
+            13323
+          ],
+          "ground.hittime": [
+            13324
+          ],
+          "ground.velocity": [
+            13325
+          ],
+          "airguard.velocity": [
+            13326
+          ],
+          "air.type": [
+            13327
+          ],
+          "air.velocity": [
+            13328
+          ],
+          "air.hittime": [
+            13329
+          ],
+          "air.fall": [
+            13330
+          ]
+        }
+      },
+      {
+        "section": "State 0, 1",
+        "line": 13332,
+        "fields": {
+          "type": [
+            "HitDef"
+          ],
+          "trigger1": [
+            "animelem = 23"
+          ],
+          "attr": [
+            "A, HP"
+          ],
+          "damage": [
+            "100"
+          ],
+          "getpower": [
+            "0,0"
+          ],
+          "animtype": [
+            "Light"
+          ],
+          "guardflag": [
+            "MA"
+          ],
+          "hitflag": [
+            "MAF"
+          ],
+          "priority": [
+            "3, Hit"
+          ],
+          "pausetime": [
+            "0, 15"
+          ],
+          "sparkno": [
+            "-1"
+          ],
+          "sparkxy": [
+            "-10, -30"
+          ],
+          "hitsound": [
+            "S2,5"
+          ],
+          "guard.sparkno": [
+            "S7100"
+          ],
+          "guardsound": [
+            "S200,40"
+          ],
+          "ground.type": [
+            "High"
+          ],
+          "ground.slidetime": [
+            "5"
+          ],
+          "ground.hittime": [
+            "46"
+          ],
+          "ground.velocity": [
+            "-6,-5"
+          ],
+          "airguard.velocity": [
+            "-1.9,-.8"
+          ],
+          "air.type": [
+            "High"
+          ],
+          "air.velocity": [
+            "-6,-5"
+          ],
+          "air.hittime": [
+            "46"
+          ],
+          "fall": [
+            "1"
+          ],
+          "air.fall": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13333
+          ],
+          "trigger1": [
+            13334
+          ],
+          "attr": [
+            13335
+          ],
+          "damage": [
+            13336
+          ],
+          "getpower": [
+            13337
+          ],
+          "animtype": [
+            13338
+          ],
+          "guardflag": [
+            13339
+          ],
+          "hitflag": [
+            13340
+          ],
+          "priority": [
+            13341
+          ],
+          "pausetime": [
+            13342
+          ],
+          "sparkno": [
+            13343
+          ],
+          "sparkxy": [
+            13344
+          ],
+          "hitsound": [
+            13345
+          ],
+          "guard.sparkno": [
+            13346
+          ],
+          "guardsound": [
+            13347
+          ],
+          "ground.type": [
+            13348
+          ],
+          "ground.slidetime": [
+            13349
+          ],
+          "ground.hittime": [
+            13350
+          ],
+          "ground.velocity": [
+            13351
+          ],
+          "airguard.velocity": [
+            13352
+          ],
+          "air.type": [
+            13353
+          ],
+          "air.velocity": [
+            13354
+          ],
+          "air.hittime": [
+            13355
+          ],
+          "fall": [
+            13356
+          ],
+          "air.fall": [
+            13357
+          ]
+        }
+      },
+      {
+        "section": "State 0, Hitspark",
+        "line": 13359,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "movehit&&time<93"
+          ],
+          "triggerall": [
+            "numhelper(022)=0"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "stateno": [
+            "801"
+          ],
+          "id": [
+            "022"
+          ],
+          "pos": [
+            "0,-30"
+          ],
+          "postype": [
+            "p2"
+          ],
+          "facing": [
+            "1"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "supermovetime": [
+            "99999"
+          ],
+          "pausemovetime": [
+            "99999"
+          ],
+          "persistent": [
+            "8"
+          ],
+          "ignorehitpause": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13360
+          ],
+          "trigger1": [
+            13361
+          ],
+          "triggerall": [
+            13362
+          ],
+          "helpertype": [
+            13363
+          ],
+          "stateno": [
+            13364
+          ],
+          "id": [
+            13365
+          ],
+          "pos": [
+            13366
+          ],
+          "postype": [
+            13367
+          ],
+          "facing": [
+            13368
+          ],
+          "ownpal": [
+            13369
+          ],
+          "supermovetime": [
+            13370
+          ],
+          "pausemovetime": [
+            13371
+          ],
+          "persistent": [
+            13372
+          ],
+          "ignorehitpause": [
+            13373
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 13375,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "movehit = 1"
+          ],
+          "anim": [
+            "7040"
+          ],
+          "id": [
+            "7040"
+          ],
+          "pos": [
+            "0,-30"
+          ],
+          "ownpal": [
+            "1",
+            "1"
+          ],
+          "vfacing": [
+            "1"
+          ],
+          "postype": [
+            "p2"
+          ],
+          "scale": [
+            ".35,.35"
+          ],
+          "remappal": [
+            "3 , 1"
+          ],
+          "sprpriority": [
+            "18"
+          ],
+          "supermove": [
+            "1"
+          ],
+          "supermovetime": [
+            "99"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13376
+          ],
+          "trigger1": [
+            13377
+          ],
+          "anim": [
+            13378
+          ],
+          "id": [
+            13379
+          ],
+          "pos": [
+            13380
+          ],
+          "ownpal": [
+            13381,
+            13385
+          ],
+          "vfacing": [
+            13382
+          ],
+          "postype": [
+            13383
+          ],
+          "scale": [
+            13384
+          ],
+          "remappal": [
+            13386
+          ],
+          "sprpriority": [
+            13387
+          ],
+          "supermove": [
+            13388
+          ],
+          "supermovetime": [
+            13389
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 13391,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "movehit = 1"
+          ],
+          "anim": [
+            "7000"
+          ],
+          "id": [
+            "7000"
+          ],
+          "pos": [
+            "0,-30"
+          ],
+          "ownpal": [
+            "1",
+            "1"
+          ],
+          "vfacing": [
+            "1"
+          ],
+          "postype": [
+            "p2"
+          ],
+          "scale": [
+            ".4,.4"
+          ],
+          "remappal": [
+            "3 , 1"
+          ],
+          "sprpriority": [
+            "15"
+          ],
+          "supermove": [
+            "1"
+          ],
+          "supermovetime": [
+            "99"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13392
+          ],
+          "trigger1": [
+            13393
+          ],
+          "anim": [
+            13394
+          ],
+          "id": [
+            13395
+          ],
+          "pos": [
+            13396
+          ],
+          "ownpal": [
+            13397,
+            13401
+          ],
+          "vfacing": [
+            13398
+          ],
+          "postype": [
+            13399
+          ],
+          "scale": [
+            13400
+          ],
+          "remappal": [
+            13402
+          ],
+          "sprpriority": [
+            13403
+          ],
+          "supermove": [
+            13404
+          ],
+          "supermovetime": [
+            13405
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 13406,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "movehit = 1"
+          ],
+          "anim": [
+            "7000"
+          ],
+          "id": [
+            "7000"
+          ],
+          "pos": [
+            "0,-30"
+          ],
+          "ownpal": [
+            "1",
+            "1"
+          ],
+          "postype": [
+            "p2"
+          ],
+          "scale": [
+            ".4,.4"
+          ],
+          "remappal": [
+            "3 , 0"
+          ],
+          "sprpriority": [
+            "15"
+          ],
+          "supermove": [
+            "1"
+          ],
+          "supermovetime": [
+            "99"
+          ],
+          "trans": [
+            "sub"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13407
+          ],
+          "trigger1": [
+            13408
+          ],
+          "anim": [
+            13409
+          ],
+          "id": [
+            13410
+          ],
+          "pos": [
+            13411
+          ],
+          "ownpal": [
+            13412,
+            13415
+          ],
+          "postype": [
+            13413
+          ],
+          "scale": [
+            13414
+          ],
+          "remappal": [
+            13416
+          ],
+          "sprpriority": [
+            13417
+          ],
+          "supermove": [
+            13418
+          ],
+          "supermovetime": [
+            13419
+          ],
+          "trans": [
+            13420
+          ]
+        }
+      },
+      {
+        "section": "State 0, Super Charge",
+        "line": 13442,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "!time"
+          ],
+          "stateno": [
+            "7025"
+          ],
+          "id": [
+            "1000"
+          ],
+          "pos": [
+            "1,-20"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "supermovetime": [
+            "999999"
+          ],
+          "pausemovetime": [
+            "999999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13443
+          ],
+          "trigger1": [
+            13444
+          ],
+          "stateno": [
+            13445
+          ],
+          "id": [
+            13446
+          ],
+          "pos": [
+            13447
+          ],
+          "postype": [
+            13448
+          ],
+          "ownpal": [
+            13449
+          ],
+          "supermovetime": [
+            13450
+          ],
+          "pausemovetime": [
+            13451
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 13469,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "time = 40"
+          ],
+          "anim": [
+            "9150"
+          ],
+          "id": [
+            "9150"
+          ],
+          "pos": [
+            "0,-100"
+          ],
+          "ownpal": [
+            "1",
+            "1"
+          ],
+          "vfacing": [
+            "1"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".2,.15"
+          ],
+          "remappal": [
+            "3 , 1"
+          ],
+          "sprpriority": [
+            "10"
+          ],
+          "supermove": [
+            "1"
+          ],
+          "supermovetime": [
+            "99"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13470
+          ],
+          "trigger1": [
+            13471
+          ],
+          "anim": [
+            13472
+          ],
+          "id": [
+            13473
+          ],
+          "pos": [
+            13474
+          ],
+          "ownpal": [
+            13475,
+            13479
+          ],
+          "vfacing": [
+            13476
+          ],
+          "postype": [
+            13477
+          ],
+          "scale": [
+            13478
+          ],
+          "remappal": [
+            13480
+          ],
+          "sprpriority": [
+            13481
+          ],
+          "supermove": [
+            13482
+          ],
+          "supermovetime": [
+            13483
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 13484,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "time = 40"
+          ],
+          "anim": [
+            "9150"
+          ],
+          "id": [
+            "9150"
+          ],
+          "pos": [
+            "0,-100"
+          ],
+          "ownpal": [
+            "1",
+            "1"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".2,.15"
+          ],
+          "remappal": [
+            "3 , 0"
+          ],
+          "sprpriority": [
+            "10"
+          ],
+          "supermove": [
+            "1"
+          ],
+          "supermovetime": [
+            "99"
+          ],
+          "trans": [
+            "sub"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13485
+          ],
+          "trigger1": [
+            13486
+          ],
+          "anim": [
+            13487
+          ],
+          "id": [
+            13488
+          ],
+          "pos": [
+            13489
+          ],
+          "ownpal": [
+            13490,
+            13493
+          ],
+          "postype": [
+            13491
+          ],
+          "scale": [
+            13492
+          ],
+          "remappal": [
+            13494
+          ],
+          "sprpriority": [
+            13495
+          ],
+          "supermove": [
+            13496
+          ],
+          "supermovetime": [
+            13497
+          ],
+          "trans": [
+            13498
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 13500,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "time = 56"
+          ],
+          "anim": [
+            "9100"
+          ],
+          "id": [
+            "9100"
+          ],
+          "pos": [
+            "30,-100"
+          ],
+          "ownpal": [
+            "1",
+            "1"
+          ],
+          "vfacing": [
+            "1"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".2,.15"
+          ],
+          "remappal": [
+            "3 , 1"
+          ],
+          "sprpriority": [
+            "10"
+          ],
+          "supermove": [
+            "1"
+          ],
+          "supermovetime": [
+            "99"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13501
+          ],
+          "trigger1": [
+            13502
+          ],
+          "anim": [
+            13503
+          ],
+          "id": [
+            13504
+          ],
+          "pos": [
+            13505
+          ],
+          "ownpal": [
+            13506,
+            13510
+          ],
+          "vfacing": [
+            13507
+          ],
+          "postype": [
+            13508
+          ],
+          "scale": [
+            13509
+          ],
+          "remappal": [
+            13511
+          ],
+          "sprpriority": [
+            13512
+          ],
+          "supermove": [
+            13513
+          ],
+          "supermovetime": [
+            13514
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 13515,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "time = 56"
+          ],
+          "anim": [
+            "9100"
+          ],
+          "id": [
+            "9100"
+          ],
+          "pos": [
+            "30,-100"
+          ],
+          "ownpal": [
+            "1",
+            "1"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".2,.15"
+          ],
+          "remappal": [
+            "3 , 0"
+          ],
+          "sprpriority": [
+            "10"
+          ],
+          "supermove": [
+            "1"
+          ],
+          "supermovetime": [
+            "99"
+          ],
+          "trans": [
+            "sub"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13516
+          ],
+          "trigger1": [
+            13517
+          ],
+          "anim": [
+            13518
+          ],
+          "id": [
+            13519
+          ],
+          "pos": [
+            13520
+          ],
+          "ownpal": [
+            13521,
+            13524
+          ],
+          "postype": [
+            13522
+          ],
+          "scale": [
+            13523
+          ],
+          "remappal": [
+            13525
+          ],
+          "sprpriority": [
+            13526
+          ],
+          "supermove": [
+            13527
+          ],
+          "supermovetime": [
+            13528
+          ],
+          "trans": [
+            13529
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 13531,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "time = 76"
+          ],
+          "anim": [
+            "9150"
+          ],
+          "id": [
+            "9150"
+          ],
+          "pos": [
+            "0,5"
+          ],
+          "ownpal": [
+            "1",
+            "1"
+          ],
+          "vfacing": [
+            "-1"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".2,.15"
+          ],
+          "remappal": [
+            "3 , 1"
+          ],
+          "sprpriority": [
+            "10"
+          ],
+          "supermove": [
+            "1"
+          ],
+          "supermovetime": [
+            "99"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13532
+          ],
+          "trigger1": [
+            13533
+          ],
+          "anim": [
+            13534
+          ],
+          "id": [
+            13535
+          ],
+          "pos": [
+            13536
+          ],
+          "ownpal": [
+            13537,
+            13541
+          ],
+          "vfacing": [
+            13538
+          ],
+          "postype": [
+            13539
+          ],
+          "scale": [
+            13540
+          ],
+          "remappal": [
+            13542
+          ],
+          "sprpriority": [
+            13543
+          ],
+          "supermove": [
+            13544
+          ],
+          "supermovetime": [
+            13545
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 13546,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "time = 76"
+          ],
+          "anim": [
+            "9150"
+          ],
+          "id": [
+            "9150"
+          ],
+          "pos": [
+            "0,5"
+          ],
+          "ownpal": [
+            "1",
+            "1"
+          ],
+          "vfacing": [
+            "-1"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".2,.15"
+          ],
+          "remappal": [
+            "3 , 0"
+          ],
+          "sprpriority": [
+            "10"
+          ],
+          "supermove": [
+            "1"
+          ],
+          "supermovetime": [
+            "99"
+          ],
+          "trans": [
+            "sub"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13547
+          ],
+          "trigger1": [
+            13548
+          ],
+          "anim": [
+            13549
+          ],
+          "id": [
+            13550
+          ],
+          "pos": [
+            13551
+          ],
+          "ownpal": [
+            13552,
+            13556
+          ],
+          "vfacing": [
+            13553
+          ],
+          "postype": [
+            13554
+          ],
+          "scale": [
+            13555
+          ],
+          "remappal": [
+            13557
+          ],
+          "sprpriority": [
+            13558
+          ],
+          "supermove": [
+            13559
+          ],
+          "supermovetime": [
+            13560
+          ],
+          "trans": [
+            13561
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 13563,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "time = 88"
+          ],
+          "anim": [
+            "9100"
+          ],
+          "id": [
+            "9100"
+          ],
+          "pos": [
+            "15,10"
+          ],
+          "ownpal": [
+            "1",
+            "1"
+          ],
+          "vfacing": [
+            "-1"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".2,.15"
+          ],
+          "remappal": [
+            "3 , 1"
+          ],
+          "sprpriority": [
+            "10"
+          ],
+          "supermove": [
+            "1"
+          ],
+          "supermovetime": [
+            "99"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13564
+          ],
+          "trigger1": [
+            13565
+          ],
+          "anim": [
+            13566
+          ],
+          "id": [
+            13567
+          ],
+          "pos": [
+            13568
+          ],
+          "ownpal": [
+            13569,
+            13573
+          ],
+          "vfacing": [
+            13570
+          ],
+          "postype": [
+            13571
+          ],
+          "scale": [
+            13572
+          ],
+          "remappal": [
+            13574
+          ],
+          "sprpriority": [
+            13575
+          ],
+          "supermove": [
+            13576
+          ],
+          "supermovetime": [
+            13577
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 13578,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "time = 88"
+          ],
+          "anim": [
+            "9100"
+          ],
+          "id": [
+            "9100"
+          ],
+          "pos": [
+            "15,10"
+          ],
+          "ownpal": [
+            "1",
+            "1"
+          ],
+          "vfacing": [
+            "-1"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".2,.15"
+          ],
+          "remappal": [
+            "3 , 0"
+          ],
+          "sprpriority": [
+            "10"
+          ],
+          "supermove": [
+            "1"
+          ],
+          "supermovetime": [
+            "99"
+          ],
+          "trans": [
+            "sub"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13579
+          ],
+          "trigger1": [
+            13580
+          ],
+          "anim": [
+            13581
+          ],
+          "id": [
+            13582
+          ],
+          "pos": [
+            13583
+          ],
+          "ownpal": [
+            13584,
+            13588
+          ],
+          "vfacing": [
+            13585
+          ],
+          "postype": [
+            13586
+          ],
+          "scale": [
+            13587
+          ],
+          "remappal": [
+            13589
+          ],
+          "sprpriority": [
+            13590
+          ],
+          "supermove": [
+            13591
+          ],
+          "supermovetime": [
+            13592
+          ],
+          "trans": [
+            13593
+          ]
+        }
+      },
+      {
+        "section": "State 0, Helper",
+        "line": 13595,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "time = [30,40]"
+          ],
+          "trigger2": [
+            "time = [50,60]"
+          ],
+          "trigger3": [
+            "time = [70,80]"
+          ],
+          "trigger4": [
+            "time = [88,98]"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "name": [
+            "\"eff3\""
+          ],
+          "id": [
+            "109"
+          ],
+          "stateno": [
+            "109"
+          ],
+          "pos": [
+            "-10-(random%6),-50+(random%40)"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "size.xscale": [
+            ".1"
+          ],
+          "size.yscale": [
+            ".06"
+          ],
+          "ownpal": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13596
+          ],
+          "trigger1": [
+            13597
+          ],
+          "trigger2": [
+            13598
+          ],
+          "trigger3": [
+            13599
+          ],
+          "trigger4": [
+            13600
+          ],
+          "helpertype": [
+            13601
+          ],
+          "name": [
+            13602
+          ],
+          "id": [
+            13603
+          ],
+          "stateno": [
+            13604
+          ],
+          "pos": [
+            13605
+          ],
+          "postype": [
+            13606
+          ],
+          "size.xscale": [
+            13607
+          ],
+          "size.yscale": [
+            13608
+          ],
+          "ownpal": [
+            13609
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 13611,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "animelem = 2"
+          ],
+          "value": [
+            "S500,24"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13612
+          ],
+          "trigger1": [
+            13613
+          ],
+          "value": [
+            13614
+          ],
+          "volumescale": [
+            13615
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 13616,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "animelem = 2"
+          ],
+          "value": [
+            "S500,24"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13617
+          ],
+          "trigger1": [
+            13618
+          ],
+          "value": [
+            13619
+          ],
+          "volumescale": [
+            13620
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 13622,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "animelem = 9"
+          ],
+          "trigger2": [
+            "animelem = 14"
+          ],
+          "trigger3": [
+            "animelem = 19"
+          ],
+          "trigger4": [
+            "animelem = 22"
+          ],
+          "value": [
+            "S500,0+(random%5)"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13623
+          ],
+          "trigger1": [
+            13624
+          ],
+          "trigger2": [
+            13625
+          ],
+          "trigger3": [
+            13626
+          ],
+          "trigger4": [
+            13627
+          ],
+          "value": [
+            13628
+          ],
+          "volumescale": [
+            13629
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 13631,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "animelem = 10"
+          ],
+          "trigger2": [
+            "animelem = 15"
+          ],
+          "trigger3": [
+            "animelem = 20"
+          ],
+          "trigger4": [
+            "animelem = 23"
+          ],
+          "value": [
+            "S200,31"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13632
+          ],
+          "trigger1": [
+            13633
+          ],
+          "trigger2": [
+            13634
+          ],
+          "trigger3": [
+            13635
+          ],
+          "trigger4": [
+            13636
+          ],
+          "value": [
+            13637
+          ],
+          "volumescale": [
+            13638
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 13640,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "animelem = 9"
+          ],
+          "trigger2": [
+            "animelem = 14"
+          ],
+          "trigger3": [
+            "animelem = 19"
+          ],
+          "trigger4": [
+            "animelem = 22"
+          ],
+          "value": [
+            "S200,32"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13641
+          ],
+          "trigger1": [
+            13642
+          ],
+          "trigger2": [
+            13643
+          ],
+          "trigger3": [
+            13644
+          ],
+          "trigger4": [
+            13645
+          ],
+          "value": [
+            13646
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 13648,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "animelem = 10"
+          ],
+          "trigger2": [
+            "animelem = 15"
+          ],
+          "trigger3": [
+            "animelem = 20"
+          ],
+          "trigger4": [
+            "animelem = 23"
+          ],
+          "anim": [
+            "6052"
+          ],
+          "id": [
+            "6052"
+          ],
+          "pos": [
+            "-5,-10"
+          ],
+          "ownpal": [
+            "1",
+            "1"
+          ],
+          "vfacing": [
+            "1"
+          ],
+          "vel": [
+            "-1,0"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".45,.45"
+          ],
+          "remappal": [
+            "3 , 1"
+          ],
+          "sprpriority": [
+            "10"
+          ],
+          "supermove": [
+            "1"
+          ],
+          "supermovetime": [
+            "99"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13649
+          ],
+          "trigger1": [
+            13650
+          ],
+          "trigger2": [
+            13651
+          ],
+          "trigger3": [
+            13652
+          ],
+          "trigger4": [
+            13653
+          ],
+          "anim": [
+            13654
+          ],
+          "id": [
+            13655
+          ],
+          "pos": [
+            13656
+          ],
+          "ownpal": [
+            13657,
+            13662
+          ],
+          "vfacing": [
+            13658
+          ],
+          "vel": [
+            13659
+          ],
+          "postype": [
+            13660
+          ],
+          "scale": [
+            13661
+          ],
+          "remappal": [
+            13663
+          ],
+          "sprpriority": [
+            13664
+          ],
+          "supermove": [
+            13665
+          ],
+          "supermovetime": [
+            13666
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 13667,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "animelem = 10"
+          ],
+          "trigger2": [
+            "animelem = 15"
+          ],
+          "trigger3": [
+            "animelem = 20"
+          ],
+          "trigger4": [
+            "animelem = 23"
+          ],
+          "anim": [
+            "6052"
+          ],
+          "id": [
+            "6052"
+          ],
+          "pos": [
+            "-5,-10"
+          ],
+          "ownpal": [
+            "1",
+            "1"
+          ],
+          "vfacing": [
+            "1"
+          ],
+          "vel": [
+            "-1,0"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".45,.45"
+          ],
+          "remappal": [
+            "3 , 0"
+          ],
+          "sprpriority": [
+            "10"
+          ],
+          "supermove": [
+            "1"
+          ],
+          "supermovetime": [
+            "99"
+          ],
+          "trans": [
+            "sub"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13668
+          ],
+          "trigger1": [
+            13669
+          ],
+          "trigger2": [
+            13670
+          ],
+          "trigger3": [
+            13671
+          ],
+          "trigger4": [
+            13672
+          ],
+          "anim": [
+            13673
+          ],
+          "id": [
+            13674
+          ],
+          "pos": [
+            13675
+          ],
+          "ownpal": [
+            13676,
+            13681
+          ],
+          "vfacing": [
+            13677
+          ],
+          "vel": [
+            13678
+          ],
+          "postype": [
+            13679
+          ],
+          "scale": [
+            13680
+          ],
+          "remappal": [
+            13682
+          ],
+          "sprpriority": [
+            13683
+          ],
+          "supermove": [
+            13684
+          ],
+          "supermovetime": [
+            13685
+          ],
+          "trans": [
+            13686
+          ]
+        }
+      },
+      {
+        "section": "State 0, Cancel",
+        "line": 13713,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "(power >= 1000) && (time >= 5) && (movehit)"
+          ],
+          "trigger1": [
+            "ailevel = 0 && command = \"D,B,a\""
+          ],
+          "trigger2": [
+            "roundstate = 2 && ailevel > 0 && random < (ailevel * 100)/2 && (time >= 60)"
+          ],
+          "value": [
+            "1100"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13714
+          ],
+          "triggerall": [
+            13715
+          ],
+          "trigger1": [
+            13716
+          ],
+          "trigger2": [
+            13717
+          ],
+          "value": [
+            13718
+          ]
+        }
+      },
+      {
+        "section": "State 0, Cancel",
+        "line": 13720,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "(power >= 1000) && (time >= 5) && (movehit)"
+          ],
+          "trigger1": [
+            "ailevel = 0 && command =  \"D,B,c\""
+          ],
+          "trigger2": [
+            "roundstate = 2 && ailevel > 0 && random < (ailevel * 100)/2 && (time >= 60)"
+          ],
+          "value": [
+            "1500"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13721
+          ],
+          "triggerall": [
+            13722
+          ],
+          "trigger1": [
+            13723
+          ],
+          "trigger2": [
+            13724
+          ],
+          "value": [
+            13725
+          ]
+        }
+      },
+      {
+        "section": "State 0, Cancel",
+        "line": 13727,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "triggerall": [
+            "(power >= 1000) && (time >= 5) && (movehit)"
+          ],
+          "trigger1": [
+            "ailevel = 0 && command =  \"D,B,b\""
+          ],
+          "trigger2": [
+            "roundstate = 2 && ailevel > 0 && random < (ailevel * 100)/2 && (time >= 60)"
+          ],
+          "value": [
+            "1300"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13728
+          ],
+          "triggerall": [
+            13729
+          ],
+          "trigger1": [
+            13730
+          ],
+          "trigger2": [
+            13731
+          ],
+          "value": [
+            13732
+          ]
+        }
+      },
+      {
+        "section": "State 2000, end",
+        "line": 13734,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "AnimTime = 0"
+          ],
+          "value": [
+            "0"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            13735
+          ],
+          "trigger1": [
+            13736
+          ],
+          "value": [
+            13737
+          ],
+          "ctrl": [
+            13738
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "slot": "I",
+    "state": 1200,
+    "file": "Toji Fushiguro.cns",
+    "line": 12427,
+    "anim": [
+      "1200"
+    ],
+    "controllers": [
+      {
+        "section": "State 0, Explod",
+        "line": 12449,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "triggerall": [
+            "numexplod (8903) = 0"
+          ],
+          "trigger1": [
+            "movehit = 1"
+          ],
+          "anim": [
+            "8903"
+          ],
+          "id": [
+            "8903"
+          ],
+          "pos": [
+            "0,0"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            "10,10"
+          ],
+          "sprpriority": [
+            "99990"
+          ],
+          "ignorehitpause": [
+            "99"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12450
+          ],
+          "triggerall": [
+            12451
+          ],
+          "trigger1": [
+            12452
+          ],
+          "anim": [
+            12453
+          ],
+          "id": [
+            12454
+          ],
+          "pos": [
+            12455
+          ],
+          "postype": [
+            12456
+          ],
+          "scale": [
+            12457
+          ],
+          "sprpriority": [
+            12458
+          ],
+          "ignorehitpause": [
+            12459
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 12461,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "triggerall": [
+            "numexplod (6700) = 0"
+          ],
+          "trigger1": [
+            "movehit = 1"
+          ],
+          "anim": [
+            "6700"
+          ],
+          "id": [
+            "6700"
+          ],
+          "pos": [
+            "0,-50"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".8,.8"
+          ],
+          "sprpriority": [
+            "99999"
+          ],
+          "ignorehitpause": [
+            "99"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "remappal": [
+            "3,4"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12462
+          ],
+          "triggerall": [
+            12463
+          ],
+          "trigger1": [
+            12464
+          ],
+          "anim": [
+            12465
+          ],
+          "id": [
+            12466
+          ],
+          "pos": [
+            12467
+          ],
+          "postype": [
+            12468
+          ],
+          "scale": [
+            12469
+          ],
+          "sprpriority": [
+            12470
+          ],
+          "ignorehitpause": [
+            12471
+          ],
+          "ownpal": [
+            12472
+          ],
+          "remappal": [
+            12473
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 12475,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "timemod = 8,0 && time = [16,32]"
+          ],
+          "value": [
+            "S200,6"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12476
+          ],
+          "trigger1": [
+            12477
+          ],
+          "value": [
+            12478
+          ]
+        }
+      },
+      {
+        "section": "State 0, Explod",
+        "line": 12480,
+        "fields": {
+          "type": [
+            "Explod"
+          ],
+          "trigger1": [
+            "animelem = 4"
+          ],
+          "anim": [
+            "6550"
+          ],
+          "id": [
+            "6550"
+          ],
+          "pos": [
+            "-25,-45"
+          ],
+          "vel": [
+            "1,-8"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "scale": [
+            ".3,.3"
+          ],
+          "sprpriority": [
+            "10"
+          ],
+          "supermove": [
+            "1"
+          ],
+          "supermovetime": [
+            "30"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12481
+          ],
+          "trigger1": [
+            12482
+          ],
+          "anim": [
+            12483
+          ],
+          "id": [
+            12484
+          ],
+          "pos": [
+            12485
+          ],
+          "vel": [
+            12486
+          ],
+          "postype": [
+            12487
+          ],
+          "scale": [
+            12488
+          ],
+          "sprpriority": [
+            12489
+          ],
+          "supermove": [
+            12490
+          ],
+          "supermovetime": [
+            12491
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 12520,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "animelem = 11"
+          ],
+          "value": [
+            "S500,10"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12521
+          ],
+          "trigger1": [
+            12522
+          ],
+          "value": [
+            12523
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 12525,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "time = 44"
+          ],
+          "value": [
+            "S1,19"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12526
+          ],
+          "trigger1": [
+            12527
+          ],
+          "value": [
+            12528
+          ],
+          "volumescale": [
+            12529
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 12530,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "time = 44"
+          ],
+          "value": [
+            "S1,19"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12531
+          ],
+          "trigger1": [
+            12532
+          ],
+          "value": [
+            12533
+          ],
+          "volumescale": [
+            12534
+          ]
+        }
+      },
+      {
+        "section": "State 0, PlaySnd",
+        "line": 12535,
+        "fields": {
+          "type": [
+            "PlaySnd"
+          ],
+          "trigger1": [
+            "time = 44"
+          ],
+          "value": [
+            "S1,19"
+          ],
+          "volumescale": [
+            "999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12536
+          ],
+          "trigger1": [
+            12537
+          ],
+          "value": [
+            12538
+          ],
+          "volumescale": [
+            12539
+          ]
+        }
+      },
+      {
+        "section": "State 0, 1",
+        "line": 12547,
+        "fields": {
+          "type": [
+            "HitDef"
+          ],
+          "trigger1": [
+            "time =0"
+          ],
+          "attr": [
+            "A, HP"
+          ],
+          "damage": [
+            "150,30"
+          ],
+          "getpower": [
+            "0,0"
+          ],
+          "animtype": [
+            "Light"
+          ],
+          "guardflag": [
+            "MA"
+          ],
+          "hitflag": [
+            "MAF"
+          ],
+          "priority": [
+            "3, Hit"
+          ],
+          "pausetime": [
+            "50, 100"
+          ],
+          "sparkno": [
+            "-1"
+          ],
+          "sparkxy": [
+            "-10, -30"
+          ],
+          "hitsound": [
+            "S200,15"
+          ],
+          "guard.sparkno": [
+            "S7100"
+          ],
+          "guardsound": [
+            "S200,40"
+          ],
+          "ground.type": [
+            "High"
+          ],
+          "ground.slidetime": [
+            "5"
+          ],
+          "ground.hittime": [
+            "12"
+          ],
+          "ground.velocity": [
+            "-0"
+          ],
+          "airguard.velocity": [
+            "-1.9,-.8"
+          ],
+          "air.type": [
+            "High"
+          ],
+          "air.velocity": [
+            "0,0"
+          ],
+          "air.hittime": [
+            "12"
+          ],
+          "fall": [
+            "1"
+          ],
+          "air.fall": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12548
+          ],
+          "trigger1": [
+            12549
+          ],
+          "attr": [
+            12550
+          ],
+          "damage": [
+            12551
+          ],
+          "getpower": [
+            12552
+          ],
+          "animtype": [
+            12553
+          ],
+          "guardflag": [
+            12554
+          ],
+          "hitflag": [
+            12555
+          ],
+          "priority": [
+            12556
+          ],
+          "pausetime": [
+            12557
+          ],
+          "sparkno": [
+            12558
+          ],
+          "sparkxy": [
+            12559
+          ],
+          "hitsound": [
+            12560
+          ],
+          "guard.sparkno": [
+            12561
+          ],
+          "guardsound": [
+            12562
+          ],
+          "ground.type": [
+            12563
+          ],
+          "ground.slidetime": [
+            12564
+          ],
+          "ground.hittime": [
+            12565
+          ],
+          "ground.velocity": [
+            12566
+          ],
+          "airguard.velocity": [
+            12567
+          ],
+          "air.type": [
+            12568
+          ],
+          "air.velocity": [
+            12569
+          ],
+          "air.hittime": [
+            12570
+          ],
+          "fall": [
+            12571
+          ],
+          "air.fall": [
+            12572
+          ]
+        }
+      },
+      {
+        "section": "State 0, Super Charge",
+        "line": 12574,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "!time"
+          ],
+          "stateno": [
+            "7025"
+          ],
+          "id": [
+            "1000"
+          ],
+          "pos": [
+            "1,-20"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "supermovetime": [
+            "999999"
+          ],
+          "pausemovetime": [
+            "999999"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12575
+          ],
+          "trigger1": [
+            12576
+          ],
+          "stateno": [
+            12577
+          ],
+          "id": [
+            12578
+          ],
+          "pos": [
+            12579
+          ],
+          "postype": [
+            12580
+          ],
+          "ownpal": [
+            12581
+          ],
+          "supermovetime": [
+            12582
+          ],
+          "pausemovetime": [
+            12583
+          ]
+        }
+      },
+      {
+        "section": "State 0, Helper",
+        "line": 12598,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "timemod = 1,0 && time = [44,54]"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "name": [
+            "\"eff3\""
+          ],
+          "id": [
+            "109"
+          ],
+          "stateno": [
+            "109"
+          ],
+          "pos": [
+            "-10+(random%6),-40+(random%30)"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "size.xscale": [
+            ".15"
+          ],
+          "size.yscale": [
+            ".1"
+          ],
+          "ownpal": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12599
+          ],
+          "trigger1": [
+            12600
+          ],
+          "helpertype": [
+            12601
+          ],
+          "name": [
+            12602
+          ],
+          "id": [
+            12603
+          ],
+          "stateno": [
+            12604
+          ],
+          "pos": [
+            12605
+          ],
+          "postype": [
+            12606
+          ],
+          "size.xscale": [
+            12607
+          ],
+          "size.yscale": [
+            12608
+          ],
+          "ownpal": [
+            12609
+          ]
+        }
+      },
+      {
+        "section": "State 0, Helper",
+        "line": 12630,
+        "fields": {
+          "type": [
+            "Helper"
+          ],
+          "trigger1": [
+            "time = 0"
+          ],
+          "helpertype": [
+            "normal"
+          ],
+          "name": [
+            "\"SupFX\""
+          ],
+          "id": [
+            "8000"
+          ],
+          "stateno": [
+            "8000"
+          ],
+          "pos": [
+            "0,-30"
+          ],
+          "postype": [
+            "p1"
+          ],
+          "supermove": [
+            "99",
+            "999"
+          ],
+          "supermovetime": [
+            "999",
+            "999"
+          ],
+          "size.xscale": [
+            ".25"
+          ],
+          "size.yscale": [
+            ".25"
+          ],
+          "ownpal": [
+            "1"
+          ],
+          "pausemove": [
+            "1"
+          ],
+          "pausemovetime": [
+            "99"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12631
+          ],
+          "trigger1": [
+            12632
+          ],
+          "helpertype": [
+            12633
+          ],
+          "name": [
+            12634
+          ],
+          "id": [
+            12635
+          ],
+          "stateno": [
+            12636
+          ],
+          "pos": [
+            12637
+          ],
+          "postype": [
+            12638
+          ],
+          "supermove": [
+            12639,
+            12644
+          ],
+          "supermovetime": [
+            12640,
+            12645
+          ],
+          "size.xscale": [
+            12641
+          ],
+          "size.yscale": [
+            12642
+          ],
+          "ownpal": [
+            12643
+          ],
+          "pausemove": [
+            12646
+          ],
+          "pausemovetime": [
+            12647
+          ]
+        }
+      },
+      {
+        "section": "State 1000, end",
+        "line": 12660,
+        "fields": {
+          "type": [
+            "ChangeState"
+          ],
+          "trigger1": [
+            "AnimTime = 0"
+          ],
+          "value": [
+            "1201"
+          ],
+          "ctrl": [
+            "1"
+          ]
+        },
+        "field_lines": {
+          "type": [
+            12661
+          ],
+          "trigger1": [
+            12662
+          ],
+          "value": [
+            12663
+          ],
+          "ctrl": [
+            12664
+          ]
+        }
+      }
+    ]
+  }
+]

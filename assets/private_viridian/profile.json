@@ -8,8 +8,10 @@
     "skill.viridian.i": "cataclysm"
   },
   "bolt_size": [
-    22,
-    11
+    20,
+    20
   ],
-  "basic_impact_size": 16
+  "basic_impact_size": 16,
+  "bolt_layers": false,
+  "bolt_core": "dot"
 }

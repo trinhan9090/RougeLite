@@ -1,0 +1,14 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS astra accepts assisted placement
+PASS astra nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase0
+PASS astra accepts assisted placement
+PASS astra nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase0
+PASS astra accepts assisted placement
+PASS astra nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase1
+PASS astra accepts assisted placement
+PASS astra nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase1
+SCRIPT ERROR: Invalid assignment of property or key 'candidates' with value of type 'Array' on a base object of type 'RefCounted (SkillController)'.
+   at: run (res://tests/integration/test_ground_zone_selection.gd:29)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/integration/test_ground_zone_selection.gd:29)

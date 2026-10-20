@@ -1,0 +1,2241 @@
+{
+  "slash": [
+    {
+      "path": "res://assets/private_tofu/slash_0.png",
+      "ticks": 2,
+      "source_sprite": "6050_10",
+      "air_action_id": 6052,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        191,
+        153
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slash_1.png",
+      "ticks": 2,
+      "source_sprite": "6050_11",
+      "air_action_id": 6052,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        191,
+        153
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slash_2.png",
+      "ticks": 2,
+      "source_sprite": "6050_12",
+      "air_action_id": 6052,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        191,
+        153
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slash_3.png",
+      "ticks": 2,
+      "source_sprite": "6050_13",
+      "air_action_id": 6052,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        191,
+        153
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slash_4.png",
+      "ticks": 2,
+      "source_sprite": "6050_14",
+      "air_action_id": 6052,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        191,
+        153
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slash_5.png",
+      "ticks": 2,
+      "source_sprite": "6050_15",
+      "air_action_id": 6052,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        191,
+        153
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slash_6.png",
+      "ticks": 2,
+      "source_sprite": "6050_16",
+      "air_action_id": 6052,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        191,
+        153
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slash_7.png",
+      "ticks": 2,
+      "source_sprite": "6050_17",
+      "air_action_id": 6052,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        191,
+        153
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slash_8.png",
+      "ticks": 2,
+      "source_sprite": "6050_18",
+      "air_action_id": 6052,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        191,
+        153
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slash_9.png",
+      "ticks": 2,
+      "source_sprite": "6050_19",
+      "air_action_id": 6052,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        191,
+        153
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slash_10.png",
+      "ticks": 2,
+      "source_sprite": "6050_20",
+      "air_action_id": 6052,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        191,
+        153
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slash_11.png",
+      "ticks": 2,
+      "source_sprite": "6050_21",
+      "air_action_id": 6052,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        191,
+        153
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slash_12.png",
+      "ticks": 2,
+      "source_sprite": "6050_22",
+      "air_action_id": 6052,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        191,
+        153
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    }
+  ],
+  "rush": [
+    {
+      "path": "res://assets/private_tofu/rush_0.png",
+      "ticks": 1,
+      "source_sprite": "6151_0",
+      "air_action_id": 6151,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        102,
+        286
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/rush_1.png",
+      "ticks": 1,
+      "source_sprite": "6151_1",
+      "air_action_id": 6151,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        102,
+        286
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/rush_2.png",
+      "ticks": 1,
+      "source_sprite": "6151_2",
+      "air_action_id": 6151,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        102,
+        286
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/rush_3.png",
+      "ticks": 1,
+      "source_sprite": "6151_3",
+      "air_action_id": 6151,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        102,
+        286
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/rush_4.png",
+      "ticks": 1,
+      "source_sprite": "6151_4",
+      "air_action_id": 6151,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        102,
+        286
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/rush_5.png",
+      "ticks": 1,
+      "source_sprite": "6151_5",
+      "air_action_id": 6151,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        102,
+        286
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/rush_6.png",
+      "ticks": 1,
+      "source_sprite": "6151_6",
+      "air_action_id": 6151,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        102,
+        286
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/rush_7.png",
+      "ticks": 1,
+      "source_sprite": "6151_7",
+      "air_action_id": 6151,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        102,
+        286
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/rush_8.png",
+      "ticks": 1,
+      "source_sprite": "6151_8",
+      "air_action_id": 6151,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        102,
+        286
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/rush_9.png",
+      "ticks": 1,
+      "source_sprite": "6151_9",
+      "air_action_id": 6151,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        102,
+        286
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/rush_10.png",
+      "ticks": 1,
+      "source_sprite": "6151_10",
+      "air_action_id": 6151,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        102,
+        286
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/rush_11.png",
+      "ticks": 1,
+      "source_sprite": "6151_11",
+      "air_action_id": 6151,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        102,
+        286
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    }
+  ],
+  "weapon": [
+    {
+      "path": "res://assets/private_tofu/weapon_0.png",
+      "ticks": 5,
+      "source_sprite": "1301_0",
+      "air_action_id": 1301,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        19,
+        7
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "source_alpha"
+    }
+  ],
+  "slam": [
+    {
+      "path": "res://assets/private_tofu/slam_0.png",
+      "ticks": 2,
+      "source_sprite": "7702_0",
+      "air_action_id": 7702,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        344,
+        184
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slam_1.png",
+      "ticks": 2,
+      "source_sprite": "7702_1",
+      "air_action_id": 7702,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        344,
+        184
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slam_2.png",
+      "ticks": 2,
+      "source_sprite": "7702_2",
+      "air_action_id": 7702,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        344,
+        184
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slam_3.png",
+      "ticks": 2,
+      "source_sprite": "7702_3",
+      "air_action_id": 7702,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        344,
+        184
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slam_4.png",
+      "ticks": 2,
+      "source_sprite": "7702_4",
+      "air_action_id": 7702,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        344,
+        184
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slam_5.png",
+      "ticks": 2,
+      "source_sprite": "7702_5",
+      "air_action_id": 7702,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        344,
+        184
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slam_6.png",
+      "ticks": 2,
+      "source_sprite": "7702_6",
+      "air_action_id": 7702,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        344,
+        184
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slam_7.png",
+      "ticks": 2,
+      "source_sprite": "7702_7",
+      "air_action_id": 7702,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        344,
+        184
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slam_8.png",
+      "ticks": 2,
+      "source_sprite": "7702_8",
+      "air_action_id": 7702,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        344,
+        184
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/slam_9.png",
+      "ticks": 2,
+      "source_sprite": "7702_9",
+      "air_action_id": 7702,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        344,
+        184
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    }
+  ],
+  "debris": [
+    {
+      "path": "res://assets/private_tofu/debris_0.png",
+      "ticks": 7,
+      "source_sprite": "9024_0",
+      "air_action_id": 9024,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        18,
+        24
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "source_alpha"
+    }
+  ],
+  "chain": [
+    {
+      "path": "res://assets/private_tofu/chain_0.png",
+      "ticks": 1,
+      "source_sprite": "7040_0",
+      "air_action_id": 7040,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        139,
+        136
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/chain_1.png",
+      "ticks": 1,
+      "source_sprite": "7040_1",
+      "air_action_id": 7040,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        139,
+        136
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/chain_2.png",
+      "ticks": 1,
+      "source_sprite": "7040_2",
+      "air_action_id": 7040,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        139,
+        136
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/chain_3.png",
+      "ticks": 1,
+      "source_sprite": "7040_3",
+      "air_action_id": 7040,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        139,
+        136
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/chain_4.png",
+      "ticks": 1,
+      "source_sprite": "7040_4",
+      "air_action_id": 7040,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        139,
+        136
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/chain_5.png",
+      "ticks": 1,
+      "source_sprite": "7040_5",
+      "air_action_id": 7040,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        139,
+        136
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/chain_6.png",
+      "ticks": 1,
+      "source_sprite": "7040_6",
+      "air_action_id": 7040,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        139,
+        136
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/chain_7.png",
+      "ticks": 1,
+      "source_sprite": "7040_7",
+      "air_action_id": 7040,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        139,
+        136
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/chain_8.png",
+      "ticks": 1,
+      "source_sprite": "7040_8",
+      "air_action_id": 7040,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        139,
+        136
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/chain_9.png",
+      "ticks": 1,
+      "source_sprite": "7040_9",
+      "air_action_id": 7040,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        139,
+        136
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/chain_10.png",
+      "ticks": 1,
+      "source_sprite": "7040_10",
+      "air_action_id": 7040,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        139,
+        136
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/chain_11.png",
+      "ticks": 1,
+      "source_sprite": "7040_11",
+      "air_action_id": 7040,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        139,
+        136
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/chain_12.png",
+      "ticks": 1,
+      "source_sprite": "7040_12",
+      "air_action_id": 7040,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        139,
+        136
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/chain_13.png",
+      "ticks": 1,
+      "source_sprite": "7040_13",
+      "air_action_id": 7040,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        139,
+        136
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/chain_14.png",
+      "ticks": 1,
+      "source_sprite": "7040_14",
+      "air_action_id": 7040,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        139,
+        136
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/chain_15.png",
+      "ticks": 1,
+      "source_sprite": "7040_15",
+      "air_action_id": 7040,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        139,
+        136
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    }
+  ],
+  "nuke": [
+    {
+      "path": "res://assets/private_tofu/nuke_0.png",
+      "ticks": 1,
+      "source_sprite": "6700_0",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_1.png",
+      "ticks": 1,
+      "source_sprite": "6700_1",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_2.png",
+      "ticks": 1,
+      "source_sprite": "6700_2",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_3.png",
+      "ticks": 1,
+      "source_sprite": "6700_3",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_4.png",
+      "ticks": 1,
+      "source_sprite": "6700_4",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_5.png",
+      "ticks": 1,
+      "source_sprite": "6700_5",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_6.png",
+      "ticks": 1,
+      "source_sprite": "6700_6",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_7.png",
+      "ticks": 1,
+      "source_sprite": "6700_7",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_8.png",
+      "ticks": 1,
+      "source_sprite": "6700_8",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_9.png",
+      "ticks": 1,
+      "source_sprite": "6700_9",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_10.png",
+      "ticks": 1,
+      "source_sprite": "6700_10",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_11.png",
+      "ticks": 1,
+      "source_sprite": "6700_11",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_12.png",
+      "ticks": 1,
+      "source_sprite": "6700_12",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_13.png",
+      "ticks": 1,
+      "source_sprite": "6700_13",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_14.png",
+      "ticks": 1,
+      "source_sprite": "6700_14",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_15.png",
+      "ticks": 1,
+      "source_sprite": "6700_15",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_16.png",
+      "ticks": 1,
+      "source_sprite": "6700_16",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_17.png",
+      "ticks": 1,
+      "source_sprite": "6700_17",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_18.png",
+      "ticks": 1,
+      "source_sprite": "6700_18",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_19.png",
+      "ticks": 1,
+      "source_sprite": "6700_19",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_20.png",
+      "ticks": 1,
+      "source_sprite": "6700_20",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_21.png",
+      "ticks": 1,
+      "source_sprite": "6700_21",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_22.png",
+      "ticks": 1,
+      "source_sprite": "6700_22",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_23.png",
+      "ticks": 1,
+      "source_sprite": "6700_23",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_24.png",
+      "ticks": 1,
+      "source_sprite": "6700_24",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_25.png",
+      "ticks": 1,
+      "source_sprite": "6700_25",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_26.png",
+      "ticks": 1,
+      "source_sprite": "6700_26",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_27.png",
+      "ticks": 1,
+      "source_sprite": "6700_27",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_28.png",
+      "ticks": 1,
+      "source_sprite": "6700_28",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_29.png",
+      "ticks": 1,
+      "source_sprite": "6700_29",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_30.png",
+      "ticks": 1,
+      "source_sprite": "6700_30",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_31.png",
+      "ticks": 1,
+      "source_sprite": "6700_31",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_32.png",
+      "ticks": 1,
+      "source_sprite": "6700_32",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_33.png",
+      "ticks": 1,
+      "source_sprite": "6700_33",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_34.png",
+      "ticks": 1,
+      "source_sprite": "6700_34",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_35.png",
+      "ticks": 1,
+      "source_sprite": "6700_35",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_36.png",
+      "ticks": 1,
+      "source_sprite": "6700_36",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_37.png",
+      "ticks": 1,
+      "source_sprite": "6700_37",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_38.png",
+      "ticks": 1,
+      "source_sprite": "6700_38",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_39.png",
+      "ticks": 1,
+      "source_sprite": "6700_39",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_40.png",
+      "ticks": 1,
+      "source_sprite": "6700_40",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_41.png",
+      "ticks": 1,
+      "source_sprite": "6700_41",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_42.png",
+      "ticks": 1,
+      "source_sprite": "6700_42",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_43.png",
+      "ticks": 1,
+      "source_sprite": "6700_43",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_44.png",
+      "ticks": 1,
+      "source_sprite": "6700_44",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_45.png",
+      "ticks": 1,
+      "source_sprite": "6700_45",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_46.png",
+      "ticks": 1,
+      "source_sprite": "6700_46",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_47.png",
+      "ticks": 1,
+      "source_sprite": "6700_47",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_48.png",
+      "ticks": 1,
+      "source_sprite": "6700_48",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_49.png",
+      "ticks": 1,
+      "source_sprite": "6700_49",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_50.png",
+      "ticks": 1,
+      "source_sprite": "6700_50",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/nuke_51.png",
+      "ticks": 1,
+      "source_sprite": "6700_51",
+      "air_action_id": 6700,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        337,
+        309
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    }
+  ],
+  "spear": [
+    {
+      "path": "res://assets/private_tofu/spear_0.png",
+      "ticks": 2,
+      "source_sprite": "6150_0",
+      "air_action_id": 6550,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        89,
+        85
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/spear_1.png",
+      "ticks": 2,
+      "source_sprite": "6150_1",
+      "air_action_id": 6550,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        89,
+        85
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/spear_2.png",
+      "ticks": 2,
+      "source_sprite": "6150_2",
+      "air_action_id": 6550,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        89,
+        85
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/spear_3.png",
+      "ticks": 2,
+      "source_sprite": "6150_3",
+      "air_action_id": 6550,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        89,
+        85
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/spear_4.png",
+      "ticks": 2,
+      "source_sprite": "6150_4",
+      "air_action_id": 6550,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        89,
+        85
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/spear_5.png",
+      "ticks": 2,
+      "source_sprite": "6150_5",
+      "air_action_id": 6550,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        89,
+        85
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/spear_6.png",
+      "ticks": 2,
+      "source_sprite": "6150_6",
+      "air_action_id": 6550,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        89,
+        85
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/spear_7.png",
+      "ticks": 2,
+      "source_sprite": "6150_7",
+      "air_action_id": 6550,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        89,
+        85
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/spear_8.png",
+      "ticks": 2,
+      "source_sprite": "6150_8",
+      "air_action_id": 6550,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        89,
+        85
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/spear_9.png",
+      "ticks": 2,
+      "source_sprite": "6150_9",
+      "air_action_id": 6550,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        89,
+        85
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/spear_10.png",
+      "ticks": 2,
+      "source_sprite": "6150_10",
+      "air_action_id": 6550,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        89,
+        85
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    },
+    {
+      "path": "res://assets/private_tofu/spear_11.png",
+      "ticks": 2,
+      "source_sprite": "6150_11",
+      "air_action_id": 6550,
+      "offset": [
+        0,
+        0
+      ],
+      "axis": [
+        89,
+        85
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff",
+      "source_license_status": "unverified_rights",
+      "usage": "local_prototype_only",
+      "runtime_blend": "luminance_alpha"
+    }
+  ]
+}

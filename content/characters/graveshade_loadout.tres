@@ -154,6 +154,7 @@ behavior = SubResource("behavior_k3")
 script = ExtResource("target")
 policy = "cursor"
 acquisition_radius = 340.0
+prefer_nearest_with_facing_fallback = true
 [sub_resource type="Resource" id="skill_k"]
 script = ExtResource("skill")
 id = &"skill.graveshade.k"

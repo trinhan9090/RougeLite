@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="SkillDefinition" format=3]
+[ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="skill"]
+[ext_resource type="Script" path="res://scripts/data/melee_combo_basic.gd" id="exec"]
+[ext_resource type="Script" path="res://scripts/data/skill_rank_definition.gd" id="rank"]
+[ext_resource type="Script" path="res://scripts/data/targeting_definition.gd" id="target"]
+[sub_resource type="Resource" id="Executor"]
+script = ExtResource("exec")
+executor_id = &"executor.melee_combo"
+strategy = "melee"
+combo_damage = Array[float]([10,15,30])
+[sub_resource type="Resource" id="Rank"]
+script = ExtResource("rank")
+cooldown = 0.55
+damage = 10.0
+range_px = 110.0
+[sub_resource type="Resource" id="Target"]
+script = ExtResource("target")
+acquisition_radius = 110.0
+[resource]
+script = ExtResource("skill")
+id = &"skill.tofu.basic"
+display_name = "Cursed-Tool Slash"
+executor = SubResource("Executor")
+targeting = SubResource("Target")
+rank_scaling = Array[ExtResource("rank")]([SubResource("Rank")])
+declared_capabilities = Array[StringName]([&"damage",&"on_hit_hook",&"on_kill_hook",&"repeat_cast"])

@@ -1,0 +1,13 @@
+test_all_selected_air_frames_resolve (__main__.TofuSourceTests.test_all_selected_air_frames_resolve) ... ok
+test_atlas_bounded_and_source_runtime_not_raw_dependency (__main__.TofuSourceTests.test_atlas_bounded_and_source_runtime_not_raw_dependency) ... ok
+test_audio_fallback_is_truthful_and_no_voice (__main__.TofuSourceTests.test_audio_fallback_is_truthful_and_no_voice) ... ok
+test_offline_catalog_links_resolve (__main__.TofuSourceTests.test_offline_catalog_links_resolve) ... ok
+test_originals_unchanged (__main__.TofuSourceTests.test_originals_unchanged) ... ok
+test_pcm_catalog (__main__.TofuSourceTests.test_pcm_catalog) ... ok
+test_prior_six_hero_gameplay_preserved (__main__.TofuSourceTests.test_prior_six_hero_gameplay_preserved) ... ok
+test_sff_complete_and_rgba_hashes (__main__.TofuSourceTests.test_sff_complete_and_rgba_hashes) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 6.324s
+
+OK

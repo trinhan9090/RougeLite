@@ -2,6 +2,10 @@ extends SceneTree
 ## Each suite is an isolated Godot process; exit code and diagnostics checked.
 
 const SUITES: Array[String] = [
+	"res://tests/integration/test_ground_zone_selection.gd",
+	"res://tests/integration/test_ground_zone_targeting.gd",
+	"res://tests/integration/test_tofu.gd",
+	"res://tests/integration/test_doom_intro.gd",
 	"res://tests/integration/test_graveshade.gd",
 	"res://tests/integration/test_viridian.gd",
 	"res://tests/integration/test_atyu_audio.gd",

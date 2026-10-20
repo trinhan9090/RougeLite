@@ -11,9 +11,11 @@ def build():
     scripts={'loadout':'combat_loadout_definition','skill':'skill_definition','rank':'skill_rank_definition','target':'targeting_definition','executor':'control_mage_executor','behavior':'skill_behavior_definition'}
     for key,value in scripts.items():lines.append(f'[ext_resource type="Script" path="res://scripts/data/{value}.gd" id="{key}"]')
     for key,path in {'stats':'content/characters/viridian_stats.tres','basic':'content/skills/viridian_basic.tres','frames':'assets/viridian/frames.tres'}.items():lines.append(f'[ext_resource type="Resource" path="res://{path}" id="{key}"]')
+    lines.append('[ext_resource type="AudioStream" path="res://assets/private_viridian/audio/doom_ultimate_intro.mp3" id="intro"]')
     config=[('j','Plasma Lance','lance','beam',.16,5.5,48,420,[12,16,16,16],0,'cursor'),('k','Arcane Prison','prison','area',.24,12,15,330,[86,110,110,110],1.6,'cursor'),('l','Molecular Orbit','orbit','shield',0,18,12,0,[52]*4,7,'self'),('i','Photon Cataclysm','cataclysm','beam',.65,32,68,460,[9]*3,1.4,'cursor')]
     for slot,(key,title,move,kind,windup,cd,damage,reach,radii,duration,policy) in enumerate(config,1):
         lines += [f'[sub_resource type="Resource" id="exec_{key}"]','script = ExtResource("executor")',f'executor_id = &"executor.control_mage.{move}"',f'move = "{move}"',f'kind = "{kind}"',f'windup = {float(windup)}']
+        if key=='i':lines.append('channel_intro = ExtResource("intro")')
         for i,radius in enumerate(radii):
             lines += [f'[sub_resource type="Resource" id="behavior_{key}{i}"]','script = ExtResource("behavior")']
             if key=='j':lines += [f'boss_bonus = {0.3 if i>=2 else 0.0}',f'burn_duration = {1.4 if i==3 else 0.0}','burn_damage = 7.0']
@@ -21,6 +23,7 @@ def build():
             if key=='l':lines += [f'shield = {80.0 if i==3 else 55.0}',f'projectile_count = {[2,3,3,4][i]}']
             if key=='i':lines += [f'projectile_count = {[5,7,9][i]}']
         lines += [f'[sub_resource type="Resource" id="target_{key}"]','script = ExtResource("target")',f'policy = "{policy}"',f'acquisition_radius = {float(reach or 310)}']
+        if key=="k":lines.append('prefer_nearest_with_facing_fallback = true')
         caps=['damage','on_hit_hook','on_kill_hook','cooldown_manage','resize_area']
         if key in 'jk':caps+=['repeat_cast']
         if key=='k':caps+=['apply_status']

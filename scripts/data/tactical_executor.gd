@@ -34,7 +34,7 @@ func validate() -> PackedStringArray:
 func execute_cast(intent: CastIntent,combat: CombatService) -> bool:
 	if not is_instance_valid(intent.source()) or not intent.source().health.is_alive():return false
 	intent.context.freeze_modifiers()
-	if not intent.manual and not intent.context.is_echo and move in ["grenade","rocket"]:
+	if not intent.manual and not intent.context.is_echo and move=="rocket":
 		var best: Actor
 		var best_score: int=-1
 		for target in combat.actors():

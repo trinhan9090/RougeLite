@@ -11,7 +11,7 @@ def build():
     out=ROOT/'assets/viridian';out.mkdir(parents=True,exist_ok=True)
     build_actor(catalog,sprites)
     private=ROOT/'assets/private_viridian';private.mkdir(exist_ok=True);(private/'audio').mkdir(exist_ok=True)
-    (private/'profile.json').write_text(json.dumps({'bolt_size':[22,11],'basic_impact_size':16,'sequences':'res://assets/private_viridian/effects.json','skills':{'skill.viridian.basic':'bolt','skill.viridian.j':'lance','skill.viridian.k':'prison','skill.viridian.l':'orbit','skill.viridian.i':'cataclysm'}},indent=2))
+    (private/'profile.json').write_text(json.dumps({'bolt_layers':False,'bolt_size':[22,11],'basic_impact_size':16,'sequences':'res://assets/private_viridian/effects.json','skills':{'skill.viridian.basic':'bolt','skill.viridian.j':'lance','skill.viridian.k':'prison','skill.viridian.l':'orbit','skill.viridian.i':'cataclysm'}},indent=2))
     # Inspecting source established these exact frames; incomplete plasma action
     # explicitly uses only its intact6810 sub-sequence, rather than invented IDs.
     mappings=[('bolt',1510,21516),('beam',1450,6810),('prison',3001,23001),('orb',1480,21480),('ultimate',3081,21516)]
@@ -52,6 +52,10 @@ def build():
             w.setparams((1,2,rate,0,'NONE','not compressed'));w.writeframes(struct.pack('<'+'h'*len(samples),*samples))
     profile['basic']=[dict(path='res://assets/viridian/audio/emerald_shot.wav',delay=0,db=-17)]
     profile['impact:skill.viridian.basic']=[dict(path='res://assets/viridian/audio/emerald_hit.wav',delay=0,db=-17)]
+    profile['cast_i']=[] # dedicated runtime intro owns ultimate voice playback
+    supplied_intro=private/'audio/hell_answers_to_me_for_i_am_doom (1).mp3'
+    if supplied_intro.is_file():shutil.copy2(supplied_intro,private/'audio/doom_ultimate_intro.mp3')
+    assert (private/'audio/doom_ultimate_intro.mp3').is_file(), 'Missing supplied Doom ultimate intro'
     (private/'audio/cues.json').write_text(json.dumps(profile,indent=2))
     (OUT/'viridian_import_manifest.json').write_text(json.dumps(dict(status='MAPPED_VISUAL_SOURCE_AND_CNS_LINKS',source_direction_coverage='2_DIR_POC_ONLY',runtime_actor='MUGEN_SOURCE_SIDE_VIEW',audio_identity='CNS_LINKED_NOT_AUDIBLY_VERIFIED',mappings=ledger),indent=2))
     with (OUT/'skill_mapping.csv').open('w',newline='') as f:

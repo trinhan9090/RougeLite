@@ -1,0 +1,25 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+PASS J only warning plus source crescent, no stretched weapon
+PASS J retains source aspect
+PASS J follows accepted cast direction
+PASS J follows caster with forward offset
+PASS J cancels source effect after dash runtime ends
+PASS J only warning plus source crescent, no stretched weapon
+PASS J retains source aspect
+PASS J follows accepted cast direction
+PASS J follows caster with forward offset
+PASS J cancels source effect after dash runtime ends
+PASS J only warning plus source crescent, no stretched weapon
+PASS J retains source aspect
+PASS J follows accepted cast direction
+PASS J follows caster with forward offset
+PASS J cancels source effect after dash runtime ends
+PASS J only warning plus source crescent, no stretched weapon
+PASS J retains source aspect
+PASS J follows accepted cast direction
+PASS J follows caster with forward offset
+PASS J cancels source effect after dash runtime ends
+PASS no duplicate helper blade in any direction
+RESULT tofu J visual: checks=21 failures=0

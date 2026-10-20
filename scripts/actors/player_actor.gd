@@ -45,6 +45,11 @@ func _ready() -> void:
 
 func _physics_process(delta: float) -> void:
 	advance_effects(delta)
+	# Optional per-action lock; an expired runtime cannot leave controls stuck.
+	var lock_ref: WeakRef=get_meta("movement_lock_runtime") as WeakRef if has_meta("movement_lock_runtime") else null
+	if lock_ref!=null and is_instance_valid(lock_ref.get_ref()) and not (lock_ref.get_ref() as Node).is_queued_for_deletion():
+		velocity=Vector2.ZERO
+		return
 	if motion_active: return
 	attack_flash = maxf(0.0, attack_flash - delta)
 	var intent := Input.get_vector("move_left", "move_right", "move_up", "move_down")

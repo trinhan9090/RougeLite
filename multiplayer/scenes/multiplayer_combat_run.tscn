@@ -1,0 +1,49 @@
+[gd_scene load_steps=2 format=3 uid="uid://c5p6q7r8s9t0"]
+
+[ext_resource type="Script" path="res://multiplayer/scenes/multiplayer_combat_run.gd" id="1"]
+
+[node name="MultiplayerCombatRun" type="Node2D"]
+script = ExtResource("1")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(960, 540)
+
+[node name="WorldContainer" type="Node2D" parent="."]
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="DebugOverlay" type="Control" parent="UI"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="InfoPanel" type="PanelContainer" parent="UI/DebugOverlay"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 310.0
+offset_bottom = 160.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UI/DebugOverlay/InfoPanel"]
+layout_mode = 2
+
+[node name="ModeLabel" type="Label" parent="UI/DebugOverlay/InfoPanel/VBoxContainer"]
+layout_mode = 2
+text = "Mode: Multiplayer"
+
+[node name="RoleLabel" type="Label" parent="UI/DebugOverlay/InfoPanel/VBoxContainer"]
+layout_mode = 2
+text = "Role: Host"
+
+[node name="PlayerIDLabel" type="Label" parent="UI/DebugOverlay/InfoPanel/VBoxContainer"]
+layout_mode = 2
+text = "Player ID: -1"
+
+[node name="PeerCountLabel" type="Label" parent="UI/DebugOverlay/InfoPanel/VBoxContainer"]
+layout_mode = 2
+text = "Connected Players: 1"
+
+[node name="ClockLabel" type="Label" parent="UI/DebugOverlay/InfoPanel/VBoxContainer"]
+layout_mode = 2
+text = "Match Time: 00:00"

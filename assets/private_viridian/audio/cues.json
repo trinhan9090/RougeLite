@@ -27,13 +27,7 @@
       "db": -22
     }
   ],
-  "cast_i": [
-    {
-      "path": "res://assets/private_viridian/audio/1510_1.wav",
-      "delay": 0,
-      "db": -23
-    }
-  ],
+  "cast_i": [],
   "beam": [
     {
       "path": "res://assets/private_viridian/audio/810_0.wav",

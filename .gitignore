@@ -48,3 +48,10 @@ assets/private_viridian/audio/*.wav
 experiments/graveshade/
 assets/private_graveshade/*.png
 assets/private_graveshade/audio/*.wav
+
+assets/private_viridian/audio/*.mp3
+
+assets/characters/Tofu/
+assets/private_tofu/*.png
+assets/private_tofu/audio/*.wav
+experiments/tofu/

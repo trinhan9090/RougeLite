@@ -1,0 +1,18 @@
+{
+  "accepted_casts_by_slot": {
+    "1": 3,
+    "2": 2,
+    "3": 2,
+    "4": 2
+  },
+  "max_ms": 269.886,
+  "median_ms": 16.579,
+  "mobs": 30,
+  "note": "8s actual GUI dense QA fixture, not stable60FPS certification; other regression processes may run concurrently",
+  "p95_ms": 51.02,
+  "renderer": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "safe_initial_spawns": true,
+  "samples": 413,
+  "seconds": 8.039385,
+  "viewport": "(1920.0, 1080.0)"
+}

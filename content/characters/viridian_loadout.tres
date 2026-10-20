@@ -8,6 +8,7 @@
 [ext_resource type="Resource" path="res://content/characters/viridian_stats.tres" id="stats"]
 [ext_resource type="Resource" path="res://content/skills/viridian_basic.tres" id="basic"]
 [ext_resource type="Resource" path="res://assets/viridian/frames.tres" id="frames"]
+[ext_resource type="AudioStream" path="res://assets/private_viridian/audio/doom_ultimate_intro.mp3" id="intro"]
 [sub_resource type="Resource" id="exec_j"]
 script = ExtResource("executor")
 executor_id = &"executor.control_mage.lance"
@@ -148,6 +149,7 @@ behavior = SubResource("behavior_k3")
 script = ExtResource("target")
 policy = "cursor"
 acquisition_radius = 330.0
+prefer_nearest_with_facing_fallback = true
 [sub_resource type="Resource" id="skill_k"]
 script = ExtResource("skill")
 id = &"skill.viridian.k"
@@ -242,6 +244,7 @@ declared_capabilities = Array[StringName]([&"damage",&"on_hit_hook",&"on_kill_ho
 script = ExtResource("executor")
 executor_id = &"executor.control_mage.cataclysm"
 move = "cataclysm"
+channel_intro = ExtResource("intro")
 kind = "beam"
 windup = 0.65
 [sub_resource type="Resource" id="behavior_i0"]

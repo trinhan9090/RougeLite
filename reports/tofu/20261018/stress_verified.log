@@ -1,0 +1,6 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+COMBAT_RUN_STARTED loadout=loadout.tofu seed=20261015
+TOFU_PERF {"accepted_casts_by_slot":{"1":3,"2":2,"3":2,"4":2},"max_ms":269.886,"median_ms":16.579,"mobs":30,"note":"8s actual GUI dense QA fixture, not stable60FPS certification; other regression processes may run concurrently","p95_ms":51.02,"renderer":"NVIDIA GeForce RTX 3050 Laptop GPU","safe_initial_spawns":true,"samples":413,"seconds":8.039385,"viewport":"(1920.0, 1080.0)"}
+RESULT tofu stress: checks=2 failures=0

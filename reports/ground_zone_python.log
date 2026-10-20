@@ -1,0 +1,28 @@
+test_all_selected_air_frames_resolve (__main__.TofuSourceTests.test_all_selected_air_frames_resolve) ... ok
+test_atlas_bounded_and_source_runtime_not_raw_dependency (__main__.TofuSourceTests.test_atlas_bounded_and_source_runtime_not_raw_dependency) ... ok
+test_audio_fallback_is_truthful_and_no_voice (__main__.TofuSourceTests.test_audio_fallback_is_truthful_and_no_voice) ... ok
+test_offline_catalog_links_resolve (__main__.TofuSourceTests.test_offline_catalog_links_resolve) ... ok
+test_originals_unchanged (__main__.TofuSourceTests.test_originals_unchanged) ... ok
+test_pcm_catalog (__main__.TofuSourceTests.test_pcm_catalog) ... ok
+test_prior_six_hero_gameplay_preserved (__main__.TofuSourceTests.test_prior_six_hero_gameplay_preserved) ... fatal: invalid object name '9f0aea8'.
+ERROR
+test_sff_complete_and_rgba_hashes (__main__.TofuSourceTests.test_sff_complete_and_rgba_hashes) ... ok
+
+======================================================================
+ERROR: test_prior_six_hero_gameplay_preserved (__main__.TofuSourceTests.test_prior_six_hero_gameplay_preserved)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\SelfProject\RougeLite\tools\mugen_import\test_tofu.py", line 40, in test_prior_six_hero_gameplay_preserved
+    old=subprocess.check_output(['git','show','9f0aea8:'+rel],cwd=ROOT).replace(b'\r\n',b'\n')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nguyen Tri Nhan\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nguyen Tri Nhan\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'show', '9f0aea8:content/characters/astra_loadout.tres']' returned non-zero exit status 128.
+
+----------------------------------------------------------------------
+Ran 8 tests in 6.224s
+
+FAILED (errors=1)

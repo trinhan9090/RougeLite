@@ -1,0 +1,271 @@
+RUN_SUITE tests/integration/test_graveshade.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS T26 all content validates with sixth hero
+PASS T02 data ADC115HP210speed
+PASS T06 T07 actual source side-view body, no invented rear
+PASS T07 vertical controller aliases same original side artwork
+PASS T19 skills unlock3/6/9/11
+PASS T20 rank caps4/4/4/3
+PASS T08 nearest basic accepted
+PASS T08 basic15 actual hit nearest only
+PASS T09 no basic outside340
+PASS T10 J accepted
+PASS T10 J exactly5 native round events
+PASS T10 J native spread22degrees
+PASS T10 J5hit cap actual projectiles
+PASS T16 J cooldown enforced
+PASS J rank4 accepted
+PASS J7rounds max5target hits with exposed modifier
+PASS J rank4 EXPOSED after3confirmed hits
+PASS T11 K accepted
+PASS K .7s fuse telegraph before damage
+PASS T11 K80damage once per target
+PASS T11 no duplicate explosion hits
+PASS T12 grenade clamps to wall and cannot damage through obstacle
+PASS K rank4 two secondary blasts and3burn ticks
+PASS K bounded80+48burn+up to80secondary
+PASS boss takes grenade damage without knockback
+PASS T13 L accepted
+PASS T13 rank1two mines
+PASS L mines not armed before.5s
+PASS L real proximity trigger after arming
+PASS mine boss damage exactly65x.7
+PASS T13 mine owner cap6 evicts oldest without damage
+PASS T15 bounded chain detonates neighbor at mostonce
+PASS T14 expiry removes mine with no explosion
+PASS T16 I accepted
+PASS I .45s windup before rocket
+PASS T16 I one actual rocket then260AOE
+PASS T16 I28s cooldown enforced
+PASS T16 rank2+ three actual rockets
+PASS rank3exactly3cluster pulses
+PASS T17 at most2rocket explosions plus3boundedcluster ticks
+PASS T21 shared Split binds J
+PASS T21 Split rejected mines
+PASS T23 shared split stays bounded
+PASS T21 shared Echo binds active1
+PASS T21 shared Echo binds active2
+PASS T21 shared Echo binds active3
+PASS T21 shared Echo binds active4
+PASS J Echo test binds
+PASS T23 Echo J replays once with its own activation hit cap
+PASS T21 Split fails closed on grenade and rocket
+PASS Area expand binds ordnance2
+PASS Area expand binds ordnance3
+PASS Area expand binds ordnance4
+PASS T22 shared bidirectional conflict lock on real J runtime
+PASS T18 Manual never auto casts
+PASS T18 Auto uses same data executors
+PASS reset cleans ordnance/mines/timers
+COMBAT_RUN_STARTED loadout=loadout.graveshade seed=20261015
+TRAINING_READY hero=loadout.graveshade rank=1
+PASS T29 actual training source actor and effects bind
+PASS burning ground keeps true area without looping explosion sprites
+PASS source explosion is60percent former diameter and shorter
+PASS subtle boundary retains actual105px damage radius
+PASS burn damage tick adds no repeated source explosion
+PASS T05 source muzzle and tracer follow actual basic
+PASS source gun muzzle socket drives real projectile origin
+PASS T04 source gun cue, no S1 voice bank on basic
+PASS T29 actual source grenade mine rocket play in Godot
+PASS T28 bounded12voice64queue
+PASS T24 pause freezes gameplay events
+COMBAT_RUN_STARTED loadout=loadout.graveshade seed=20261015
+TRAINING_READY hero=loadout.graveshade rank=1
+PASS training reset removes mines
+RUN_FOUNDATION seed=20261015 content=endless-demo-v1
+BOOT_OK milestone=M5
+PASS 20 character slots, seven heroes and13unknown
+PASS T18 sixthhero selectable
+COMBAT_RUN_STARTED loadout=loadout.graveshade seed=20261015
+PASS actual selected sixthhero starts PLAY
+PASS PLAY keeps safe550spawn
+PASS current remappable physical J key casts in PLAY
+PASS burst projectile events do not reset source body animation everyround
+PASS actual PLAY Auto uses same accepted skills
+PASS T24 actual level-up modal pauses with exactly3 valid offers
+PASS T24 selected upgrade resumes sixthhero
+PASS actual death plays decoded source knockdown pose
+PASS actual death clears all ordnance and proc timers
+RESULT graveshade: checks=80 failures=0
+RUN_SUITE tests/integration/test_viridian.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS all content validates with fifth hero
+PASS Viridian Mage stats data
+PASS source nine-state side-view animation aliases
+PASS unlock thresholds3/6/9/11
+PASS Manual never auto-casts
+PASS J accepts current last-attack direction ignoring cursor
+PASS J telegraph before hit
+PASS J multi-target48 damage once each
+PASS J normal cooldown enforced
+PASS J rank3 boss bonus and rank4 two plasma ticks
+PASS rank definition unchanged
+PASS K .24s pulse15 and real normal root
+PASS K one initial hit and finite root
+PASS K boss uses authoritative .15s stagger
+PASS boss CC cap preserved
+PASS K rank4 initial15 plus exit45 exactly once
+PASS L grants55 shield instantly
+PASS orb contact hit once within .7 ICD
+PASS L refresh replaces shield/orbits without stacking
+PASS rank1 two actual orbitals
+PASS shield and orbs expire7s
+PASS L rank4 four orbs shield80
+PASS ultimate locks movement for intro and ray release
+PASS cannot overlap active channels
+PASS I .65s windup
+PASS five rays respect two hits per target
+PASS channel cleanup restores movement
+PASS I empty lane does not damage distant target
+PASS I torso entering an already visible ray is hit
+PASS I same ray cannot rehit each physics frame
+PASS I emitted hitbox origin stays fixed when caster moves
+PASS I gap beside individual ray is not whole-fan damage
+PASS I expired ray cannot hit a late entrant
+PASS rank3 nine rays keep global two-hit cap
+PASS rank3 endpoint ray68 plus final55 burst once
+PASS shield reflection compatible L and rejected J
+PASS L reuses shared8percent shield reflect without recursion
+PASS Split binds real basic projectile
+PASS Split basic accepts actual projectile attack
+PASS Split basic spawns three real shared projectiles
+PASS Split rejected for active1
+PASS Split rejected for active2
+PASS Split rejected for active3
+PASS Split rejected for active4
+PASS Echo compatible J
+PASS J shared Echo once without echo-of-echo
+PASS Echo compatible K
+PASS K shared Echo pulse bounded
+PASS guarded orbit/channel Echo fails closed
+PASS K elite .7s root vs normal1.6s
+PASS J width expand compatible
+PASS expanded beam query agrees with width
+PASS K area expansion compatible
+PASS expanded prison hits beyond base86 radius
+PASS Auto K accepts cluster placement
+PASS Auto chooses dense cluster rather than nearest isolated target
+PASS stun interrupts channel and cleans movement state
+COMBAT_RUN_STARTED loadout=loadout.viridian seed=20261015
+TRAINING_READY hero=loadout.viridian rank=1
+PASS directional cast pose follows attack while run follows movement
+PASS Doom uses source orb without supplemental bolt layers
+PASS actual run binds mapped VFX and positional audio
+PASS basic guaranteed original non-voice shot
+PASS basic impact guaranteed non-voice
+PASS shared projectile displays actual source sprite
+PASS actual J mapped source beam
+PASS actual K mapped source cage
+PASS two real moving source orbital sprites
+PASS five mapped ultimate rays
+COMBAT_RUN_STARTED loadout=loadout.viridian seed=20261015
+TRAINING_READY hero=loadout.viridian rank=1
+PASS reset clears new temporary effects
+RUN_FOUNDATION seed=20261015 content=endless-demo-v1
+BOOT_OK milestone=M5
+PASS fifth avatar available in twenty-slot selection
+COMBAT_RUN_STARTED loadout=loadout.viridian seed=20261015
+PASS selected Viridian starts actual PLAY
+PASS PLAY enemy respects spawn safety
+PASS current physical J binding casts in PLAY
+PASS Auto casts through same PLAY controller
+PASS map-style clear removes orbital/channel runtimes
+PASS real level-gated boss spawns for Viridian PLAY
+PASS real boss death transitions map with new hero
+PASS actual map transition clears mapped effects and custom hit runtimes
+RESULT viridian: checks=77 failures=0
+RUN_SUITE tests/integration/test_doom_intro.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT_RUN_STARTED loadout=loadout.viridian seed=20261015
+TRAINING_READY hero=loadout.viridian rank=1
+INTRO_LENGTH_SECONDS 1.98637187480927
+PASS supplied MP3 imports with real duration
+PASS old cast sound disabled; intro plays once via runtime
+PASS actual training accepts ultimate
+PASS WASD blocked even with positive speed buff
+PASS no ray during short initial windup
+PASS zero-cooldown training cannot overlap same channel
+PASS pause freezes intro and ray timing
+PASS five actual rays after short windup, independent of voice length
+PASS caster stays anchored through complete ultimate
+PASS ray completion releases movement while voice continues
+PASS voice tail remains alive after ray release
+PASS movement resumes after ultimate
+PASS voice naturally finishes and frees its runtime
+PASS next ultimate accepted
+PASS stun cancels intro and releases lock without rays
+PASS completed cast can have one remaining voice tail
+PASS training accepts another ultimate while old voice tail exists
+PASS recast replaces old voice without clearing the new movement lock
+COMBAT_RUN_STARTED loadout=loadout.viridian seed=20261015
+TRAINING_READY hero=loadout.viridian rank=1
+PASS training reset stops old intro and releases movement
+PASS map-style clear cancels voice without ghost rays
+PASS dead caster stops intro and releases lock without rays
+RESULT doom intro: checks=21 failures=0
+RUN_SUITE tests/integration/test_atyu.gd
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS all four hero content valid
+PASS fourth hero complete kit
+PASS locked skill refused
+PASS unlock3/6/9/11 preserved
+PASS real cone and beam resize capabilities
+PASS unsupported split and echo fail closed
+PASS manual does not autocast
+PASS manual cone accepts facing ignoring cursor
+PASS cone windup before hit
+PASS cone hits multiple in front exactly once
+PASS cone excludes rear
+PASS manual seal selects facing cone
+PASS control only facing target
+PASS root expires
+PASS boss seal cast
+PASS boss gets existing stagger
+PASS boss stagger remains .15 not source long stun
+PASS companion accepted
+PASS no duplicate companion
+PASS companion real damage through resolver
+PASS companion runtime owned per actor
+PASS beam manual facing
+PASS beam .4 windup before hit
+PASS companion enhances beam160 to200
+PASS beam does not hit rear
+PASS basic auto nearest
+PASS basic exact damage
+PASS basic three source combo variants
+PASS side view left mirrored
+PASS side view right restored
+PASS vertical movement retains horizontal facing art
+PASS enhancement does not mutate Resource
+PASS companion eight second cleanup
+PASS area expand binds cone
+PASS area expand binds beam
+PASS area expand refuses companion
+PASS expanded cone casts
+PASS expanded cone actually reaches150 beyond base140
+PASS expanded beam casts without companion
+PASS expanded beam hits18.5 offset beyond base17
+PASS resize leaves source definition intact
+PASS Auto cone acquires nearest enemy
+PASS Auto cone damage follows target
+PASS existing mapped J input casts fourth hero
+PASS companion resummon
+PASS beam accepted before death
+PASS companion removed on owner death
+PASS owner death cancels delayed beam and strikes
+RUN_FOUNDATION seed=20261015 content=endless-demo-v1
+BOOT_OK milestone=M5
+PASS twenty avatar boxes
+PASS thirteen disabled unknown characters after seventh hero
+PASS twenty-slot grid fits visible viewport
+PASS avatar previews without selecting
+PASS detail select Atyu
+COMBAT_RUN_STARTED loadout=loadout.atyu seed=20261015
+PASS Atyu starts current playable run
+RESULT atyu: checks=54 failures=0
+RESULT hero suites=4 failures=0

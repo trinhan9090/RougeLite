@@ -1,0 +1,74 @@
+{
+  "basic": [
+    {
+      "path": "res://assets/private_tofu/audio/fallback_slash.wav",
+      "delay": 0,
+      "db": -18,
+      "provenance_status": "original_generated_non_voice",
+      "channel": "weapon"
+    }
+  ],
+  "combo_1": [
+    {
+      "path": "res://assets/private_tofu/audio/fallback_slash.wav",
+      "delay": 0,
+      "db": -18,
+      "provenance_status": "original_generated_non_voice",
+      "channel": "weapon"
+    }
+  ],
+  "combo_2": [
+    {
+      "path": "res://assets/private_tofu/audio/fallback_heavy.wav",
+      "delay": 0,
+      "db": -18,
+      "provenance_status": "original_generated_non_voice",
+      "channel": "weapon"
+    }
+  ],
+  "cast_j": [
+    {
+      "path": "res://assets/private_tofu/audio/fallback_rush.wav",
+      "delay": 0,
+      "db": -18,
+      "provenance_status": "original_generated_non_voice",
+      "channel": "skill"
+    }
+  ],
+  "cast_k": [
+    {
+      "path": "res://assets/private_tofu/audio/fallback_slam.wav",
+      "delay": 0,
+      "db": -18,
+      "provenance_status": "original_generated_non_voice",
+      "channel": "skill"
+    }
+  ],
+  "cast_l": [
+    {
+      "path": "res://assets/private_tofu/audio/fallback_chain.wav",
+      "delay": 0,
+      "db": -18,
+      "provenance_status": "original_generated_non_voice",
+      "channel": "skill"
+    }
+  ],
+  "cast_i": [
+    {
+      "path": "res://assets/private_tofu/audio/fallback_spear.wav",
+      "delay": 0,
+      "db": -18,
+      "provenance_status": "original_generated_non_voice",
+      "channel": "skill"
+    }
+  ],
+  "impact": [
+    {
+      "path": "res://assets/private_tofu/audio/fallback_impact.wav",
+      "delay": 0,
+      "db": -18,
+      "provenance_status": "original_generated_non_voice",
+      "channel": "weapon"
+    }
+  ]
+}

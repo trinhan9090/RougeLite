@@ -220,7 +220,7 @@ func scene_checks() -> void:
 	var locked: int=0
 	for child in slots.get_children():
 		if child is Button and (child as Button).disabled:locked+=1
-	check(slots.get_child_count()==20 and locked==14,"20 character slots, six heroes and14unknown")
+	check(slots.get_child_count()==20 and locked==13,"20 character slots, seven heroes and13unknown")
 	menu._select_character(&"loadout.graveshade")
 	check(menu._selected_loadout==&"loadout.graveshade","T18 sixthhero selectable")
 	menu._start_run();await process_frame

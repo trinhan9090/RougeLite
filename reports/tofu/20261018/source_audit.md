@@ -1,0 +1,10 @@
+# Tofu source audit
+Local source: assets/characters/Tofu/Toji Fushiguro. Author Soulfire, edits nm-mugen/Rimihf/Dark Night, MUGEN1.1. Original13files including backups SHA256-hashed and unchanged. Source manifest/CSV named by handoff are absent; replacement source_catalog.json records live evidence, not an invented prior hash. Original compressed archive unavailable: archive_sha256=null.
+
+SFF2.1:2064/2064sprites decoded, zero failures.317AIR occurrences including duplicate0/6151 retained;55missing positive sprite references across unselected actions.249StateDefs:166main,67common,16assists.320PCM SND entries decoded/hashed; all bank semantics remain CANDIDATE_NOT_LISTENED. DEF references resolve. No source code executed or downloaded.
+
+Source chain verified from actual main CNS headers/controllers: Basic200/210/250; J1300(body1300, helper1301, slash6151); K1600(body1600, slam7702, helper1605 chooses9024-9027); L1400(body1400, impact7040); I1200(body1200, impact6700/rise6550). Headers and controller line numbers are in mapping_evidence.json. No state-number-only inference. All selected body/effect frames resolve.11runtime body clips,117sourceeffectframes,44controller animation aliases. AIR offsets, flips, per-frame scale and relative ticks retained, timed for gameplay. Grid atlases capped4096px avoid long-strip import resizing. Original idle sprite visually inspected; other action visual acceptance pending. Not claimed USER_APPROVED.
+
+Actual body is horizontal side-view only. North/south controller aliases do not constitute new directional art. Runtime size approx70px with fixed feet, existing native1080p retained. Side-view weapon/hurtbox alignment is adapted, not a transplanted MUGEN combat engine.
+
+T19 policy: guaranteed original generated nonvoice weapon/skill cues active. Never label source S500 as verified voice. Source S200 also remains unclassified, so it is not blindly used on Basic. Offline sound_catalog.html permits user listening; source bank review pending. No contact sheet/screenshot/video exported; runtime PNG/WAV and inert HTML playback catalogs only. Third-party distribution rights unverified, private local scope.

@@ -1,0 +1,51 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS astra accepts assisted placement
+PASS astra nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase0
+PASS astra accepts assisted placement
+PASS astra nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase0
+PASS astra accepts assisted placement
+PASS astra nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase1
+PASS astra accepts assisted placement
+PASS astra nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase1
+PASS astra accepts assisted placement
+PASS astra nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase2
+PASS astra accepts assisted placement
+PASS astra nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase2
+PASS viridian accepts assisted placement
+PASS viridian nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase0
+PASS viridian accepts assisted placement
+PASS viridian nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase0
+PASS viridian accepts assisted placement
+PASS viridian nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase1
+PASS viridian accepts assisted placement
+PASS viridian nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase1
+PASS viridian accepts assisted placement
+PASS viridian nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase2
+PASS viridian accepts assisted placement
+PASS viridian nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase2
+PASS tofu accepts assisted placement
+PASS tofu nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase0
+PASS tofu accepts assisted placement
+PASS tofu nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase0
+PASS tofu accepts assisted placement
+PASS tofu nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase1
+PASS tofu accepts assisted placement
+PASS tofu nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase1
+PASS tofu accepts assisted placement
+PASS tofu nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase2
+PASS tofu accepts assisted placement
+PASS tofu nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase2
+PASS graveshade accepts assisted placement
+PASS graveshade nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase0
+PASS graveshade accepts assisted placement
+PASS graveshade nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase0
+PASS graveshade accepts assisted placement
+PASS graveshade nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase1
+PASS graveshade accepts assisted placement
+PASS graveshade nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase1
+PASS graveshade accepts assisted placement
+PASS graveshade nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase2
+PASS graveshade accepts assisted placement
+PASS graveshade nearest excludes ally/dead, bypasses cluster, wall-aware and fallback phase2
+RESULT zone selection: checks=48 failures=0

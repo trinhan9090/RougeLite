@@ -1,0 +1,40 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS astra j complete rank graph
+PASS astra k complete rank graph
+PASS astra l complete rank graph
+PASS astra i complete rank graph
+PASS vex j complete rank graph
+PASS vex k complete rank graph
+PASS vex l complete rank graph
+PASS vex i complete rank graph
+PASS boros j complete rank graph
+PASS boros k complete rank graph
+PASS boros l complete rank graph
+PASS boros i complete rank graph
+PASS Astra J rank3 exact magic54/root
+PASS Astra root rank3 expires1.65s
+PASS Astra K rank4 shield95/move buff
+PASS Astra move buff expires independently
+PASS Astra blocked pulse exact15
+PASS Astra expiry blast exact45
+PASS Astra beam120 plus six12 burn ticks
+PASS Vex barrage first shot immediate
+PASS Vex four spaced shots by0.4s
+PASS Vex roll buff and next-basic double shot
+PASS Vex roll travels190px
+PASS Vex round boss bonus35percent and mark
+PASS Boros slam maxHP scaling
+PASS Boros shield/reduction exact
+PASS Boros native reflection postmitigation15percent
+PASS Boros shield expiry heals20percent absorbed
+PASS transform adds40percent maxHP preserving ratio
+PASS transform refresh cannot stack/free-heal
+PASS transform melee range/pulse
+PASS transform restores stats at expiry
+PASS Echo scales HP-based skill damage as well as flat damage
+PASS Auto self-area uses rank2 radius170 despite active shield
+PASS Auto self-buff is not suppressed by an unrelated shield
+PASS Auto dash uses rank2 range300
+PASS root prevents dash movement without consuming cooldown
+RESULT full kits: checks=37 failures=0

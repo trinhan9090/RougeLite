@@ -1,0 +1,32 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+COMBAT_RUN_STARTED loadout=loadout.viridian seed=20261015
+TRAINING_READY hero=loadout.viridian rank=1
+INTRO_LENGTH_SECONDS 7.66897964477539
+PASS supplied MP3 imports with real duration
+PASS old cast sound disabled; intro plays once via runtime
+PASS actual training accepts ultimate
+PASS real AudioStreamPlayer2D starts supplied intro
+PASS WASD blocked even with positive speed buff
+PASS no ray during short initial windup
+PASS zero-cooldown training cannot overlap same channel
+PASS pause freezes intro and ray timing
+PASS five actual rays after short windup, independent of voice length
+PASS caster stays anchored through complete ultimate
+PASS ray completion releases movement while voice continues
+PASS voice tail remains alive after ray release
+PASS voice is still playing when movement unlocks
+PASS movement resumes after ultimate
+PASS voice naturally finishes and frees its runtime
+PASS next ultimate accepted
+PASS stun cancels intro and releases lock without rays
+PASS completed cast can have one remaining voice tail
+PASS training accepts another ultimate while old voice tail exists
+PASS recast replaces old voice without clearing the new movement lock
+COMBAT_RUN_STARTED loadout=loadout.viridian seed=20261015
+TRAINING_READY hero=loadout.viridian rank=1
+PASS training reset stops old intro and releases movement
+PASS map-style clear cancels voice without ghost rays
+PASS dead caster stops intro and releases lock without rays
+RESULT doom intro: checks=23 failures=0

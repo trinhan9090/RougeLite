@@ -1,0 +1,20 @@
+{
+  "state": "PLAYABLE_TECH_TESTED",
+  "user_approved": false,
+  "python_tests": 8,
+  "godot_headless_checks": 88,
+  "current_gui_checks": 88,
+  "regression_suites": 12,
+  "regression_failures": 0,
+  "stress_checks": 2,
+  "source_voice_identity": "NOT_LISTENED; original nonvoice fallback active",
+  "direction_coverage": "2_DIR_POC_ONLY",
+  "full_regression_48_suites": "NOT_RERUN",
+  "known_limitations": [
+    "archive checksum unavailable",
+    "source voices not verified/integrated",
+    "true north/south art absent",
+    "stable60FPS not achieved/proven",
+    "third-party redistribution rights unverified"
+  ]
+}

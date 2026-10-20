@@ -1,0 +1,60 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+TRAINING_READY hero=loadout.astra rank=1
+PASS astra zone accepts cast
+PASS astra placement chooses off-axis Training boss in both modes
+PASS astra real damage continues over time on stationary immortal boss
+PASS astra Training boss remains immortal
+PASS astra field stays fixed after cast
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+TRAINING_READY hero=loadout.astra rank=1
+PASS astra zone accepts cast
+PASS astra placement chooses off-axis Training boss in both modes
+PASS astra real damage continues over time on stationary immortal boss
+PASS astra Training boss remains immortal
+PASS astra field stays fixed after cast
+COMBAT_RUN_STARTED loadout=loadout.viridian seed=20261015
+TRAINING_READY hero=loadout.viridian rank=1
+PASS viridian zone accepts cast
+PASS viridian placement chooses off-axis Training boss in both modes
+PASS viridian real damage continues over time on stationary immortal boss
+PASS viridian Training boss remains immortal
+PASS viridian field stays fixed after cast
+COMBAT_RUN_STARTED loadout=loadout.viridian seed=20261015
+TRAINING_READY hero=loadout.viridian rank=1
+PASS viridian zone accepts cast
+PASS viridian placement chooses off-axis Training boss in both modes
+PASS viridian real damage continues over time on stationary immortal boss
+PASS viridian Training boss remains immortal
+PASS viridian field stays fixed after cast
+COMBAT_RUN_STARTED loadout=loadout.tofu seed=20261015
+TRAINING_READY hero=loadout.tofu rank=1
+PASS tofu zone accepts cast
+PASS tofu placement chooses off-axis Training boss in both modes
+PASS tofu real damage continues over time on stationary immortal boss
+PASS tofu Training boss remains immortal
+PASS tofu field stays fixed after cast
+COMBAT_RUN_STARTED loadout=loadout.tofu seed=20261015
+TRAINING_READY hero=loadout.tofu rank=1
+PASS tofu zone accepts cast
+PASS tofu placement chooses off-axis Training boss in both modes
+PASS tofu real damage continues over time on stationary immortal boss
+PASS tofu Training boss remains immortal
+PASS tofu field stays fixed after cast
+COMBAT_RUN_STARTED loadout=loadout.graveshade seed=20261015
+TRAINING_READY hero=loadout.graveshade rank=1
+PASS graveshade zone accepts cast
+PASS graveshade placement chooses off-axis Training boss in both modes
+PASS graveshade real damage continues over time on stationary immortal boss
+PASS graveshade Training boss remains immortal
+PASS graveshade field stays fixed after cast
+COMBAT_RUN_STARTED loadout=loadout.graveshade seed=20261015
+TRAINING_READY hero=loadout.graveshade rank=1
+PASS graveshade zone accepts cast
+PASS graveshade placement chooses off-axis Training boss in both modes
+PASS graveshade real damage continues over time on stationary immortal boss
+PASS graveshade Training boss remains immortal
+PASS graveshade field stays fixed after cast
+RESULT ground zones: checks=40 failures=0

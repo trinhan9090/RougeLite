@@ -6,6 +6,10 @@ var combat: CombatService
 var sequences: Dictionary
 var bolt_size: Vector2 = Vector2(28,14)
 var basic_impact_size: float = 20
+## Opt-in layered bolt composite (see MappedSpriteEffect.bolt_layers).
+var bolt_layers: bool = false
+## Core shape for the layered composite: "bar" or "dot".
+var bolt_core: String = "bar"
 var skills: Dictionary
 var shown: Dictionary[String,int] = {}
 var _layer: Node2D
@@ -18,6 +22,8 @@ func configure(source: PlayerActor,service: CombatService) -> void:
 	var dimensions: Array=config.get("bolt_size",[28,14])
 	bolt_size=Vector2(float(dimensions[0]),float(dimensions[1]))
 	basic_impact_size=float(config.get("basic_impact_size",20))
+	bolt_layers=bool(config.get("bolt_layers",false))
+	bolt_core=String(config.get("bolt_core","bar"))
 	_layer=Node2D.new()
 	# Presentation children are outside CombatService projectile-node budget.
 	add_child(_layer)
@@ -35,13 +41,24 @@ func _on_child(node: Node) -> void:
 func _attach_bolt(ref: WeakRef) -> void:
 	var node := ref.get_ref() as CombatProjectile
 	if not is_instance_valid(node) or node.is_queued_for_deletion():return
-	for child in node.get_children():
-		if child is CombatVisualEffect: (child as CanvasItem).hide()
+	_hide_default_visuals(node)
+	# Defensive: the shared factory also attaches a default visual via its own
+	# deferred call; hide any CombatVisualEffect added after us as well.
+	if not node.has_meta("mapped_hide_connected"):
+		node.set_meta("mapped_hide_connected",true)
+		node.child_entered_tree.connect(_hide_default_visuals.bind(node))
 	node.set_meta("art_bound",true)
 	var effect := MappedSpriteEffect.new()
 	effect.sequence=sequences.bolt;effect.persistent=true;effect.size_px=bolt_size
+	effect.bolt_layers=bolt_layers
+	effect.bolt_core=bolt_core
 	node.add_child(effect)
 	shown["bolt"]=shown.get("bolt",0)+1
+
+func _hide_default_visuals(node: Node) -> void:
+	for child in node.get_children():
+		if child is CombatVisualEffect:
+			(child as CanvasItem).hide()
 
 func _on_event(event: Dictionary) -> void:
 	var key: String=String(event.get("skill",""))

@@ -40,13 +40,14 @@ func _ready() -> void:
 	_add_label(home, "Move. Survive. Evolve.", 20)
 	_selected_label = _add_label(home, "Selected: Astra / MAGE", 18)
 	_selected_label.name = "SelectedCharacter"
-	for title: String in ["PLAY", "TRAINING", "CHARACTER", "SETTING"]:
+	for title: String in ["PLAY", "MULTIPLAYER", "TRAINING", "CHARACTER", "SETTING"]:
 		var button := Button.new()
 		button.text = title
 		button.name = title.capitalize() + "Button"
 		button.custom_minimum_size.y = 64
 		home.add_child(button)
 		if title == "PLAY": button.pressed.connect(_start_run)
+		elif title == "MULTIPLAYER": button.pressed.connect(_start_multiplayer)
 		elif title == "TRAINING": button.pressed.connect(func() -> void: _start_run(true))
 		else:
 			var page := StringName(title)
@@ -162,12 +163,12 @@ func _ready() -> void:
 		avatar.expand_icon = true
 		avatar.add_theme_constant_override("icon_max_width",64)
 		avatar_grid.add_child(avatar)
-		if index >= 6:
+		if index >= 7:
 			avatar.text = "?"
 			avatar.disabled = true
 			avatar.tooltip_text = "Nhân vật chưa mở"
 			continue
-		var hero: String = ["astra","vex","boros","atyu","viridian","graveshade"][index]
+		var hero: String = ["astra","vex","boros","atyu","viridian","graveshade","tofu"][index]
 		var profile := registry.definition_copy(StringName("loadout."+hero)) as CombatLoadoutDefinition
 		var frames: SpriteFrames = profile.art_frames if profile.art_frames != null else profile.visual_frames
 		var idle: StringName = &"idle_south" if frames.has_animation(&"idle_south") else &"idle"
@@ -184,7 +185,7 @@ func _ready() -> void:
 	play_row.alignment = BoxContainer.ALIGNMENT_CENTER
 	play_row.add_theme_constant_override("separation", 12)
 	characters.add_child(play_row)
-	for character_id: String in ["astra", "vex", "boros", "atyu", "viridian", "graveshade"]:
+	for character_id: String in ["astra", "vex", "boros", "atyu", "viridian", "graveshade", "tofu"]:
 		var profile := registry.definition_copy(StringName("loadout." + character_id)) as CombatLoadoutDefinition
 		var card := VBoxContainer.new()
 		card.custom_minimum_size.x = 840
@@ -252,6 +253,9 @@ func _preview_character(id: StringName) -> void:
 		_character_details[key].visible = key == id
 	for key: StringName in _avatar_buttons:
 		_avatar_buttons[key].modulate = Color.WHITE if key == id else Color(.65,.65,.65)
+
+func _start_multiplayer() -> void:
+	get_tree().change_scene_to_file("res://multiplayer/scenes/multiplayer_session_flow.tscn")
 
 func _start_run(training: bool = false) -> void:
 	if not _seed_input.text.is_valid_int():

@@ -1,0 +1,10 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 592.82 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+PASS I creates one slash, no embedded fighter silhouette
+PASS impact stays at actual target torso
+PASS source aspect ratio preserved
+PASS half duration reaches source middle frame
+PASS final source frame reached before expiry
+PASS impact cleans up without replay
+TOFU I VISUAL: 6 checks, 0 failures

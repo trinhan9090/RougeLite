@@ -5,6 +5,12 @@ var textures: Array[Texture2D] = []
 var size_px: Vector2 = Vector2(28,14)
 var lifetime: float = .3
 var persistent: bool = false
+## Opt-in layered composite for projectile bolts: faint outer glow + frame +
+## hot core along the flight axis. Off by default; enabled per-effect profile.
+var bolt_layers: bool = false
+## Core shape for the layered composite: "bar" for elongated bolt frames,
+## "dot" for round frames (e.g. orbs/wisps) where a bar would read as a block.
+var bolt_core: String = "bar"
 var elapsed: float = 0
 var follow: WeakRef
 var orbit_index: int = -1
@@ -53,7 +59,30 @@ func _draw() -> void:
 		return
 	if textures.is_empty(): return
 	var fade: float=1 if persistent else minf(1,(lifetime-elapsed)*12)
+	if bolt_layers and persistent:
+		_draw_layered_bolt(fade)
+		return
 	draw_texture_rect(textures[_frame],Rect2(-size_px*.5,size_px),false,Color(1,1,1,fade))
 	if show_lane_boundary:
 		draw_rect(Rect2(-size_px*.5,size_px),Color(.45,1,.6,.35*fade),false,1)
 	if orbit_index>=0:draw_arc(Vector2.ZERO,10,0,TAU,16,Color("32c967"),1)
+
+## Layered bolt composite: keeps the source frame but breaks up the flat look
+## with a soft outer glow and a bright directional core. Parent projectile node
+## rotates to face travel, so +x is always the flight axis.
+func _draw_layered_bolt(fade: float) -> void:
+	var tex: Texture2D=textures[_frame]
+	draw_texture_rect(tex,Rect2(-size_px*.85,size_px*1.7),false,Color(.25,.95,.5,.16*fade))
+	draw_texture_rect(tex,Rect2(-size_px*.5,size_px),false,Color(1,1,1,fade))
+	if bolt_core=="dot":
+		# Round frames carry their own glow baked in: no ghost layer and no
+		# outer soft circle (both render as a visible rounded-square halo).
+		# Frame + bright center only.
+		draw_texture_rect(tex,Rect2(-size_px*.5,size_px),false,Color(1,1,1,fade))
+		var r: float=size_px.y*.30
+		draw_circle(Vector2.ZERO,r,Color(.93,1,.9,.9*fade))
+		draw_circle(Vector2.ZERO,r*.45,Color(1,1,1,.95*fade))
+	else:
+		var core_len: float=size_px.x*.40
+		draw_line(Vector2(-core_len,0),Vector2(core_len,0),Color(.93,1,.9,.85*fade),3.0)
+		draw_circle(Vector2(core_len,0),2.0,Color(1,1,1,.9*fade))

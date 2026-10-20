@@ -1,0 +1,4967 @@
+{
+  "actions": [
+    {
+      "action": "idle",
+      "air_action_id": 0,
+      "state_id": null,
+      "source_frames": [
+        {
+          "group": 0,
+          "index": 0,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 7,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "0,0, 0,0, 7",
+          "line": 7,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -4,
+                -58,
+                12,
+                -28
+              ],
+              [
+                -7,
+                -28,
+                8,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 0,
+          "index": 1,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 7,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "0,1, 0,0, 7",
+          "line": 8,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -4,
+                -58,
+                12,
+                -28
+              ],
+              [
+                -7,
+                -28,
+                8,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 0,
+          "index": 2,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 7,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "0,2, 0,0, 7",
+          "line": 9,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -4,
+                -58,
+                12,
+                -28
+              ],
+              [
+                -7,
+                -28,
+                8,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 0,
+          "index": 3,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 7,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "0,3, 0,0, 7",
+          "line": 10,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -4,
+                -58,
+                12,
+                -28
+              ],
+              [
+                -7,
+                -28,
+                8,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 0,
+          "index": 4,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 7,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "0,4, 0,0, 7",
+          "line": 11,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -4,
+                -58,
+                12,
+                -28
+              ],
+              [
+                -7,
+                -28,
+                8,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 0,
+          "index": 5,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 7,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "0,5, 0,0, 7",
+          "line": 12,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -4,
+                -58,
+                12,
+                -28
+              ],
+              [
+                -7,
+                -28,
+                8,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff/Toji Fushiguro.air",
+      "relative_ticks_preserved": true,
+      "runtime_duration": 0.7,
+      "verified_by_preview": true,
+      "verification": "DECODED_REFERENCES_RESOLVED; OWNER_ACTION_REVIEW_PENDING",
+      "fallback_required": false,
+      "license_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "action": "run",
+      "air_action_id": 100,
+      "state_id": 100,
+      "source_frames": [
+        {
+          "group": 101,
+          "index": 0,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "101,0, 0,0, 4",
+          "line": 177,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -15,
+                -48,
+                28,
+                -2
+              ]
+            ]
+          }
+        },
+        {
+          "group": 101,
+          "index": 1,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "101,1, 0,0, 4",
+          "line": 178,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -15,
+                -48,
+                28,
+                -2
+              ]
+            ]
+          }
+        },
+        {
+          "group": 101,
+          "index": 2,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "101,2, 0,0, 4",
+          "line": 179,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -15,
+                -48,
+                28,
+                -2
+              ]
+            ]
+          }
+        },
+        {
+          "group": 101,
+          "index": 3,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "101,3, 0,0, 4",
+          "line": 180,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -15,
+                -48,
+                28,
+                -2
+              ]
+            ]
+          }
+        },
+        {
+          "group": 101,
+          "index": 4,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "101,4, 0,0, 4",
+          "line": 181,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -15,
+                -48,
+                28,
+                -2
+              ]
+            ]
+          }
+        },
+        {
+          "group": 101,
+          "index": 5,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "101,5, 0,0, 4",
+          "line": 182,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -15,
+                -48,
+                28,
+                -2
+              ]
+            ]
+          }
+        },
+        {
+          "group": 101,
+          "index": 6,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "101,6, 0,0, 4",
+          "line": 183,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -15,
+                -48,
+                28,
+                -2
+              ]
+            ]
+          }
+        },
+        {
+          "group": 101,
+          "index": 7,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "101,7, 0,0, 4",
+          "line": 184,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -15,
+                -48,
+                28,
+                -2
+              ]
+            ]
+          }
+        }
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff/Toji Fushiguro.air",
+      "relative_ticks_preserved": true,
+      "runtime_duration": 0.5333333333333333,
+      "verified_by_preview": false,
+      "verification": "DECODED_REFERENCES_RESOLVED; OWNER_ACTION_REVIEW_PENDING",
+      "fallback_required": false,
+      "license_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "action": "basic",
+      "air_action_id": 200,
+      "state_id": 200,
+      "source_frames": [
+        {
+          "group": 200,
+          "index": 0,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 1,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "200,0, 0,0, 1",
+          "line": 483,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -47,
+                10,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 200,
+          "index": 1,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 1,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "200,1, 0,0, 1",
+          "line": 484,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -47,
+                10,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 200,
+          "index": 2,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 1,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "200,2, 0,0, 1",
+          "line": 485,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -47,
+                10,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 200,
+          "index": 3,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 6,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "200,3, 0,0, 6",
+          "line": 488,
+          "boxes": {
+            "1": [
+              [
+                6,
+                -45,
+                38,
+                -28
+              ]
+            ],
+            "2": [
+              [
+                -5,
+                -47,
+                10,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 200,
+          "index": 4,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "200,4, 0,0, 2",
+          "line": 489,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -47,
+                10,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 200,
+          "index": 5,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "200,5, 0,0, 3",
+          "line": 490,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -47,
+                10,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 200,
+          "index": 6,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "200,6, 0,0, 3",
+          "line": 491,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -47,
+                10,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 200,
+          "index": 7,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "200,7, 0,0, 2",
+          "line": 492,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -47,
+                10,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff/Toji Fushiguro.air",
+      "relative_ticks_preserved": true,
+      "runtime_duration": 0.4,
+      "verified_by_preview": false,
+      "verification": "DECODED_REFERENCES_RESOLVED; OWNER_ACTION_REVIEW_PENDING",
+      "fallback_required": false,
+      "license_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "action": "combo_1",
+      "air_action_id": 210,
+      "state_id": 210,
+      "source_frames": [
+        {
+          "group": 210,
+          "index": 0,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,0, 0,0, 2",
+          "line": 498,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -45,
+                16,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 1,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,1, 0,0, 2",
+          "line": 499,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -45,
+                16,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 2,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,2, 0,0, 2",
+          "line": 500,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -45,
+                16,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 3,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,3, 0,0, 2",
+          "line": 501,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -45,
+                16,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 4,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 1,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,4, 0,0, 1",
+          "line": 502,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -45,
+                16,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 5,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,5, 0,0, 2",
+          "line": 505,
+          "boxes": {
+            "1": [
+              [
+                2,
+                -62,
+                70,
+                0
+              ]
+            ],
+            "2": [
+              [
+                -5,
+                -45,
+                16,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 6,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,6, 0,0, 2",
+          "line": 506,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -45,
+                16,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 7,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,7, 0,0, 2",
+          "line": 507,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -45,
+                16,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 8,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,8, 0,0, 2",
+          "line": 508,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -45,
+                16,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 9,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,9, 0,0, 2",
+          "line": 509,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -45,
+                16,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 10,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,10, 0,0, 2",
+          "line": 510,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -45,
+                16,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 11,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,11, 0,0, 2",
+          "line": 511,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -45,
+                16,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 12,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,12, 0,0, 2",
+          "line": 512,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -5,
+                -45,
+                16,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff/Toji Fushiguro.air",
+      "relative_ticks_preserved": true,
+      "runtime_duration": 0.4,
+      "verified_by_preview": false,
+      "verification": "DECODED_REFERENCES_RESOLVED; OWNER_ACTION_REVIEW_PENDING",
+      "fallback_required": false,
+      "license_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "action": "combo_2",
+      "air_action_id": 250,
+      "state_id": 250,
+      "source_frames": [
+        {
+          "group": 290,
+          "index": 0,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "290,0, 0,0, 3",
+          "line": 595,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -17,
+                -48,
+                13,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "group": 290,
+          "index": 1,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "290,1, 0,0, 3",
+          "line": 596,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -17,
+                -48,
+                13,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "group": 290,
+          "index": 2,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "290,2, 0,0, 3",
+          "line": 597,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -17,
+                -48,
+                13,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "group": 290,
+          "index": 3,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "290,3, 0,0, 3",
+          "line": 598,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -17,
+                -48,
+                13,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "group": 290,
+          "index": 4,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "290,4, 0,0, 3",
+          "line": 601,
+          "boxes": {
+            "1": [
+              [
+                23,
+                -43,
+                90,
+                -24
+              ]
+            ],
+            "2": [
+              [
+                -17,
+                -48,
+                13,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "group": 290,
+          "index": 5,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "290,5, 0,0, 5",
+          "line": 602,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -17,
+                -48,
+                13,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "group": 290,
+          "index": 6,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "290,6, 0,0, 5",
+          "line": 603,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -17,
+                -48,
+                13,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "group": 290,
+          "index": 7,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "290,7, 0,0, 3",
+          "line": 604,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -17,
+                -48,
+                13,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "group": 290,
+          "index": 8,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "290,8, 0,0, 3",
+          "line": 605,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -17,
+                -48,
+                13,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 10,
+          "offset": [
+            3,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,10, 3,0, 3",
+          "line": 606,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -17,
+                -48,
+                13,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "group": 290,
+          "index": 9,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "290,9, 0,0, 4",
+          "line": 607,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -17,
+                -48,
+                13,
+                -1
+              ]
+            ]
+          }
+        }
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff/Toji Fushiguro.air",
+      "relative_ticks_preserved": true,
+      "runtime_duration": 0.45,
+      "verified_by_preview": false,
+      "verification": "DECODED_REFERENCES_RESOLVED; OWNER_ACTION_REVIEW_PENDING",
+      "fallback_required": false,
+      "license_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "action": "cast_j",
+      "air_action_id": 1300,
+      "state_id": 1300,
+      "source_frames": [
+        {
+          "group": 1300,
+          "index": 0,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,0, 0,0, 5",
+          "line": 1208,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 1,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,1, 0,0, 5",
+          "line": 1209,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 2,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,2, 0,0, 5",
+          "line": 1210,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 3,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,3, 0,0, 5",
+          "line": 1211,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 4,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,4, 0,0, 5",
+          "line": 1212,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 5,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,5, 0,0, 5",
+          "line": 1213,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 6,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,6, 0,0, 5",
+          "line": 1214,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 7,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,7, 0,0, 5",
+          "line": 1215,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 8,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,8, 0,0, 5",
+          "line": 1216,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 9,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,9, 0,0, 5",
+          "line": 1217,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 10,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,10, 0,0, 5",
+          "line": 1220,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -106,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 11,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,11, 0,0, 2",
+          "line": 1223,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 12,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,12, 0,0, 2",
+          "line": 1226,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 13,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,13, 0,0, 2",
+          "line": 1229,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 14,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,14, 0,0, 2",
+          "line": 1232,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 11,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,11, 0,0, 2",
+          "line": 1235,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 12,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,12, 0,0, 2",
+          "line": 1238,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 13,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,13, 0,0, 2",
+          "line": 1241,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 14,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,14, 0,0, 2",
+          "line": 1244,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 11,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,11, 0,0, 2",
+          "line": 1247,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 12,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,12, 0,0, 2",
+          "line": 1250,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 13,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,13, 0,0, 2",
+          "line": 1253,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 14,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,14, 0,0, 2",
+          "line": 1256,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 11,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,11, 0,0, 2",
+          "line": 1259,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 12,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,12, 0,0, 2",
+          "line": 1262,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 13,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,13, 0,0, 2",
+          "line": 1265,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 14,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,14, 0,0, 2",
+          "line": 1268,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 11,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,11, 0,0, 2",
+          "line": 1271,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 12,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,12, 0,0, 2",
+          "line": 1274,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 13,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,13, 0,0, 2",
+          "line": 1277,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 14,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,14, 0,0, 2",
+          "line": 1280,
+          "boxes": {
+            "1": [
+              [
+                -80,
+                -116,
+                91,
+                0
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 11,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,11, 0,0, 2",
+          "line": 1283,
+          "boxes": {
+            "1": [
+              [
+                -77,
+                -137,
+                83,
+                4
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 12,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,12, 0,0, 2",
+          "line": 1286,
+          "boxes": {
+            "1": [
+              [
+                -70,
+                -130,
+                88,
+                14
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 13,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,13, 0,0, 2",
+          "line": 1289,
+          "boxes": {
+            "1": [
+              [
+                -105,
+                -150,
+                111,
+                -2
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 14,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,14, 0,0, 2",
+          "line": 1292,
+          "boxes": {
+            "1": [
+              [
+                -81,
+                -131,
+                99,
+                -3
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 11,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,11, 0,0, 2",
+          "line": 1295,
+          "boxes": {
+            "1": [
+              [
+                -95,
+                -145,
+                82,
+                3
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 12,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,12, 0,0, 2",
+          "line": 1298,
+          "boxes": {
+            "1": [
+              [
+                -64,
+                -137,
+                77,
+                9
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 13,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,13, 0,0, 2",
+          "line": 1301,
+          "boxes": {
+            "1": [
+              [
+                -86,
+                -129,
+                108,
+                14
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 14,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,14, 0,0, 2",
+          "line": 1304,
+          "boxes": {
+            "1": [
+              [
+                -86,
+                -153,
+                94,
+                10
+              ]
+            ],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 15,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,15, 0,0, 5",
+          "line": 1305,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 16,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,16, 0,0, 5",
+          "line": 1306,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 17,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,17, 0,0, 5",
+          "line": 1307,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 18,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,18, 0,0, 5",
+          "line": 1308,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 19,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,19, 0,0, 5",
+          "line": 1309,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 20,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,20, 0,0, 5",
+          "line": 1310,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 21,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,21, 0,0, 5",
+          "line": 1311,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 22,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,22, 0,0, 5",
+          "line": 1312,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 23,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,23, 0,0, 5",
+          "line": 1313,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 24,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,24, 0,0, 5",
+          "line": 1314,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 25,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,25, 0,0, 2",
+          "line": 1315,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 26,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,26, 0,0, 2",
+          "line": 1316,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 27,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,27, 0,0, 3",
+          "line": 1317,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1300,
+          "index": 28,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1300,28, 0,0, 3",
+          "line": 1318,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        }
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff/Toji Fushiguro.air",
+      "relative_ticks_preserved": true,
+      "runtime_duration": 0.8,
+      "verified_by_preview": false,
+      "verification": "DECODED_REFERENCES_RESOLVED; OWNER_ACTION_REVIEW_PENDING",
+      "fallback_required": false,
+      "license_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "action": "cast_k",
+      "air_action_id": 1600,
+      "state_id": 1600,
+      "source_frames": [
+        {
+          "group": 350,
+          "index": 0,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "350,0, 0,0, 3",
+          "line": 1443,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                13,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 350,
+          "index": 1,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "350,1, 0,0, 3",
+          "line": 1444,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                13,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 350,
+          "index": 2,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "350,2, 0,0, 3",
+          "line": 1445,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                13,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 350,
+          "index": 3,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 14,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "350,3, 0,0, 14",
+          "line": 1446,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                13,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 350,
+          "index": 4,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "350,4, 0,0, 2",
+          "line": 1449,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -2,
+                -60,
+                25,
+                -17
+              ]
+            ]
+          }
+        },
+        {
+          "group": 350,
+          "index": 6,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "350,6, 0,0, 5",
+          "line": 1455,
+          "boxes": {
+            "1": [
+              [
+                -13,
+                -10,
+                77,
+                4
+              ],
+              [
+                18,
+                -22,
+                76,
+                -4
+              ]
+            ],
+            "2": [
+              [
+                5,
+                -50,
+                36,
+                -15
+              ]
+            ]
+          }
+        },
+        {
+          "group": 350,
+          "index": 6,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 10,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "350,6, 0,0, 10",
+          "line": 1456,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                5,
+                -50,
+                36,
+                -15
+              ]
+            ]
+          }
+        },
+        {
+          "group": 350,
+          "index": 7,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "350,7, 0,0, 2",
+          "line": 1459,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                0,
+                -56,
+                20,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "group": 350,
+          "index": 8,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "350,8, 0,0, 2",
+          "line": 1462,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -3,
+                -59,
+                16,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "group": 350,
+          "index": 9,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "350,9, 0,0, 2",
+          "line": 1465,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                15,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 350,
+          "index": 10,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "350,10, 0,0, 2",
+          "line": 1466,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                15,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1200,
+          "index": 0,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,0, 0,0, 3",
+          "line": 1467,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                15,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1200,
+          "index": 1,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,1, 0,0, 3",
+          "line": 1468,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                15,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1200,
+          "index": 2,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,2, 0,0, 3",
+          "line": 1469,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                15,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1200,
+          "index": 3,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,3, 0,0, 3",
+          "line": 1470,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                15,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1200,
+          "index": 4,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 3,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,4, 0,0, 3",
+          "line": 1471,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                15,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1200,
+          "index": 5,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 6,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,5, 0,0, 6",
+          "line": 1472,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                15,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1200,
+          "index": 3,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 2,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,3, 0,0, 2",
+          "line": 1473,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                15,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 181,
+          "index": 11,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 6,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "181,11, 0,0, 6",
+          "line": 1474,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                15,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1600,
+          "index": 0,
+          "offset": [
+            -2,
+            0
+          ],
+          "ticks": 150,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.05
+          ],
+          "angle": 0.0,
+          "raw": "1600,0, -2,0, 150, , , 1,1.05",
+          "line": 1475,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                15,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1200,
+          "index": 6,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,6, 0,0, 4",
+          "line": 1476,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                15,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1200,
+          "index": 5,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 13,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,5, 0,0, 13",
+          "line": 1477,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                15,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1200,
+          "index": 1,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 10,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,1, 0,0, 10",
+          "line": 1478,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                15,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 190,
+          "index": 36,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "190,36, 0,0, 4",
+          "line": 1479,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                15,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 190,
+          "index": 37,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "190,37, 0,0, 4",
+          "line": 1480,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                15,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "group": 190,
+          "index": 38,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "190,38, 0,0, 4",
+          "line": 1481,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -63,
+                15,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff/Toji Fushiguro.air",
+      "relative_ticks_preserved": true,
+      "runtime_duration": 0.6,
+      "verified_by_preview": false,
+      "verification": "DECODED_REFERENCES_RESOLVED; OWNER_ACTION_REVIEW_PENDING",
+      "fallback_required": false,
+      "license_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "action": "cast_l",
+      "air_action_id": 1400,
+      "state_id": 1400,
+      "source_frames": [
+        {
+          "group": 0,
+          "index": 0,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "0,0, 0,0, 4",
+          "line": 1337,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 0,
+          "index": 0,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "0,0, 0,0, 4",
+          "line": 1338,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 0,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,0, 0,0, 4",
+          "line": 1339,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 1,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,1, 0,0, 4",
+          "line": 1340,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 2,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,2, 0,0, 4",
+          "line": 1341,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 0,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,0, 0,0, 4, H",
+          "line": 1342,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 1,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,1, 0,0, 4, H",
+          "line": 1343,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 2,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,2, 0,0, 4, H",
+          "line": 1344,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 3,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,3, 0,0, 4, H",
+          "line": 1345,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 4,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,4, 0,0, 4, H",
+          "line": 1346,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 5,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,5, 0,0, 4, H",
+          "line": 1350,
+          "boxes": {
+            "1": [
+              [
+                2,
+                -96,
+                98,
+                -2
+              ],
+              [
+                94,
+                -82,
+                135,
+                -13
+              ]
+            ],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 6,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,6, 0,0, 4, H",
+          "line": 1351,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 7,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,7, 0,0, 4, H",
+          "line": 1352,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 8,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,8, 0,0, 4, H",
+          "line": 1353,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 9,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,9, 0,0, 4, H",
+          "line": 1357,
+          "boxes": {
+            "1": [
+              [
+                7,
+                -85,
+                111,
+                -3
+              ],
+              [
+                107,
+                -71,
+                134,
+                -11
+              ]
+            ],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 10,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,10, 0,0, 4, H",
+          "line": 1358,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 11,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,11, 0,0, 4, H",
+          "line": 1359,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 12,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,12, 0,0, 4, H",
+          "line": 1360,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 13,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,13, 0,0, 4, H",
+          "line": 1361,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 14,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,14, 0,0, 4, H",
+          "line": 1365,
+          "boxes": {
+            "1": [
+              [
+                5,
+                -102,
+                111,
+                1
+              ],
+              [
+                107,
+                -84,
+                136,
+                -15
+              ]
+            ],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 15,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,15, 0,0, 4, H",
+          "line": 1366,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 16,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,16, 0,0, 4, H",
+          "line": 1367,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 17,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,17, 0,0, 4, H",
+          "line": 1371,
+          "boxes": {
+            "1": [
+              [
+                3,
+                -80,
+                92,
+                6
+              ],
+              [
+                87,
+                -64,
+                114,
+                -5
+              ]
+            ],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 18,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,18, 0,0, 4, H",
+          "line": 1372,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 19,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,19, 0,0, 4, H",
+          "line": 1373,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 20,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 6,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,20, 0,0, 6, H",
+          "line": 1374,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 1400,
+          "index": 21,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 6,
+          "flip": "H",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1400,21, 0,0, 6, H",
+          "line": 1375,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 10,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,10, 0,0, 4",
+          "line": 1376,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 11,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,11, 0,0, 4",
+          "line": 1377,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        },
+        {
+          "group": 210,
+          "index": 12,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "210,12, 0,0, 4",
+          "line": 1378,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -6,
+                -55,
+                7,
+                -4
+              ]
+            ]
+          }
+        }
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff/Toji Fushiguro.air",
+      "relative_ticks_preserved": true,
+      "runtime_duration": 1.0,
+      "verified_by_preview": false,
+      "verification": "DECODED_REFERENCES_RESOLVED; OWNER_ACTION_REVIEW_PENDING",
+      "fallback_required": false,
+      "license_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "action": "cast_i",
+      "air_action_id": 1200,
+      "state_id": 1200,
+      "source_frames": [
+        {
+          "group": 1200,
+          "index": 0,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,0, 0,0, 4",
+          "line": 1174,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1200,
+          "index": 1,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,1, 0,0, 4",
+          "line": 1175,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1200,
+          "index": 2,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,2, 0,0, 4",
+          "line": 1176,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1200,
+          "index": 3,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,3, 0,0, 4",
+          "line": 1177,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1200,
+          "index": 4,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,4, 0,0, 4",
+          "line": 1178,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1200,
+          "index": 5,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,5, 0,0, 4",
+          "line": 1179,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1200,
+          "index": 6,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,6, 0,0, 4",
+          "line": 1180,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1200,
+          "index": 7,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,7, 0,0, 4",
+          "line": 1181,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1200,
+          "index": 8,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,8, 0,0, 4",
+          "line": 1182,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1200,
+          "index": 9,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,9, 0,0, 4",
+          "line": 1183,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1200,
+          "index": 10,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 4,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,10, 0,0, 4",
+          "line": 1184,
+          "boxes": {
+            "1": [],
+            "2": []
+          }
+        },
+        {
+          "group": 1200,
+          "index": 11,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 10,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "1200,11, 0,0, 10",
+          "line": 1187,
+          "boxes": {
+            "1": [
+              [
+                -27,
+                -47,
+                24,
+                0
+              ]
+            ],
+            "2": []
+          }
+        }
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff/Toji Fushiguro.air",
+      "relative_ticks_preserved": true,
+      "runtime_duration": 0.65,
+      "verified_by_preview": false,
+      "verification": "DECODED_REFERENCES_RESOLVED; OWNER_ACTION_REVIEW_PENDING",
+      "fallback_required": false,
+      "license_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "action": "hit",
+      "air_action_id": 5000,
+      "state_id": null,
+      "source_frames": [
+        {
+          "group": 5010,
+          "index": 0,
+          "offset": [
+            0,
+            0
+          ],
+          "ticks": 5,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "5010,0, 0,0, 5",
+          "line": 2005,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -10,
+                -46,
+                8,
+                -28
+              ],
+              [
+                -11,
+                -27,
+                8,
+                -1
+              ]
+            ]
+          }
+        }
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff/Toji Fushiguro.air",
+      "relative_ticks_preserved": true,
+      "runtime_duration": 0.12,
+      "verified_by_preview": false,
+      "verification": "DECODED_REFERENCES_RESOLVED; OWNER_ACTION_REVIEW_PENDING",
+      "fallback_required": false,
+      "license_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    },
+    {
+      "action": "death",
+      "air_action_id": 5100,
+      "state_id": null,
+      "source_frames": [
+        {
+          "group": 5030,
+          "index": 0,
+          "offset": [
+            0,
+            18
+          ],
+          "ticks": 6,
+          "flip": "",
+          "blend": "",
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "angle": 0.0,
+          "raw": "5030,0, 0,18, 6",
+          "line": 2249,
+          "boxes": {
+            "1": [],
+            "2": [
+              [
+                -27,
+                -20,
+                19,
+                2
+              ]
+            ]
+          }
+        }
+      ],
+      "source_id": "tofu_user_toji_local",
+      "source_file": "Toji Fushiguro.sff/Toji Fushiguro.air",
+      "relative_ticks_preserved": true,
+      "runtime_duration": 0.7,
+      "verified_by_preview": false,
+      "verification": "DECODED_REFERENCES_RESOLVED; OWNER_ACTION_REVIEW_PENDING",
+      "fallback_required": false,
+      "license_status": "unverified_rights",
+      "usage": "local_prototype_only"
+    }
+  ],
+  "direction_policy": "2_DIR_POC_ONLY; vertical input aliases retain real horizontal artwork",
+  "source_tree_sha256": "b673b4cd2b9127c841cf99834e4a1415f380396f01853fd1cba70560b7c2b0b1",
+  "audio": "320PCM entries extracted; semantic listening unavailable; all source bank identities remain CANDIDATE; original nonvoice fallback active"
+}

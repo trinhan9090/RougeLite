@@ -105,9 +105,15 @@ func request_cast(slot: int, target_override: Variant = null) -> bool:
 	if adapter != null and adapter.kind in ["projectile","dash","beam","area"]:
 		if rank.range_px > 0: range_px = rank.range_px
 		elif adapter.kind == "area": range_px = rank.radius_px * (1.0 + (augments.value(definition.id,&"area") if augments != null else 0.0))
-	var target: Actor = TargetingService.nearest(owner, candidates, range_px)
-	var manual: bool = target_override is Vector2
 	var assisted: bool = definition.targeting.prefer_nearest_with_facing_fallback
+	var eligible: Array[Actor] = candidates
+	if assisted:
+		eligible = []
+		for candidate in candidates:
+			if is_instance_valid(candidate) and not candidate.is_queued_for_deletion() and combat.unobstructed(owner.global_position,candidate.global_position):
+				eligible.append(candidate)
+	var target: Actor = TargetingService.nearest(owner, eligible, range_px)
+	var manual: bool = target_override is Vector2
 	if definition.targeting.policy == "self":
 		if not manual and (target == null or (adapter != null and adapter.kind == "shield" and owner.health.shield_total() > 0.0)):
 			return false
