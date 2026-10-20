@@ -3,12 +3,23 @@ extends Control
 
 @onready var host_join_menu: Control = $HostJoinMenu
 @onready var lobby: Control = $Lobby
+@onready var loading_screen: Control = $LoadingScreen
 @onready var status_label: Label = $StatusLabel
 @onready var lobby_back_button: Button = $Lobby/CenterContainer/VBoxContainer/LobbyBackButton
 @onready var start_button: Button = $Lobby/CenterContainer/VBoxContainer/StartButton
 
 var multiplayer_coordinator: Node
 var selected_character: StringName = &"astra"
+
+enum State {
+	MAIN_MENU,
+	LOBBY,
+	LOADING_MAP,
+	IN_GAME,
+	GAME_OVER
+}
+
+var current_state: State = State.MAIN_MENU
 
 func _ready() -> void:
 	# Wait for coordinator autoload to be ready
@@ -33,6 +44,7 @@ func _ready() -> void:
 	# Wire coordinator signals
 	multiplayer_coordinator.network_manager.server_started.connect(_on_server_started)
 	multiplayer_coordinator.network_manager.connection_failed.connect(_on_connection_failed)
+	multiplayer.connected_to_server.connect(_on_connected_to_server)
 	multiplayer_coordinator.session_started.connect(_on_session_started)
 
 	# Start at host/join menu
@@ -41,20 +53,31 @@ func _ready() -> void:
 	print("MultiplayerSessionFlow: Ready and connected to coordinator")
 
 func _show_host_join_menu() -> void:
+	current_state = State.MAIN_MENU
 	host_join_menu.visible = true
 	lobby.visible = false
+	loading_screen.visible = false
 	status_label.visible = false
 
 func _show_lobby() -> void:
+	current_state = State.LOBBY
 	host_join_menu.visible = false
 	lobby.visible = true
+	loading_screen.visible = false
+	status_label.visible = false
+
+func _show_loading() -> void:
+	current_state = State.LOADING_MAP
+	host_join_menu.visible = false
+	lobby.visible = false
+	loading_screen.visible = true
 	status_label.visible = false
 
 func _on_host_requested() -> void:
 	print("Host requested...")
 	set_status("Starting host...")
 
-	var err := multiplayer_coordinator.start_host_session()
+	var err: int = multiplayer_coordinator.start_host_session()
 	print("Host start result: ", err, " (OK=", OK, ")")
 
 	if err != OK:
@@ -70,7 +93,7 @@ func _on_host_requested() -> void:
 
 func _on_join_requested(address: String, port: int) -> void:
 	set_status("Connecting to %s:%d..." % [address, port])
-	var err := multiplayer_coordinator.join_session(address, port)
+	var err: int = multiplayer_coordinator.join_session(address, port)
 	if err != OK:
 		set_status("Failed to join: %s" % error_string(err), true)
 		host_join_menu.on_connection_failed("Connection error")
@@ -87,17 +110,31 @@ func _on_back_to_menu() -> void:
 
 func _on_start_pressed() -> void:
 	print("Start match pressed - initializing map...")
+	# Disable button to prevent multiple clicks
+	start_button.disabled = true
+
+	# Show loading screen
+	_show_loading()
+
+	# Start match (this will emit session_started when map is ready)
 	multiplayer_coordinator.start_match(&"map.temple")
 
 func _on_server_started() -> void:
 	# Already handled in _on_host_requested
 	pass
 
+func _on_connected_to_server() -> void:
+	# Client successfully connected - show lobby
+	print("Connected to server - showing lobby")
+	_show_lobby()
+
 func _on_connection_failed(reason: String) -> void:
 	host_join_menu.on_connection_failed(reason)
 
 func _on_session_started() -> void:
-	# Match started, load combat scene
+	# Match started and map loaded, transition to combat scene
+	print("Session started - transitioning to IN_GAME")
+	current_state = State.IN_GAME
 	get_tree().change_scene_to_file("res://multiplayer/scenes/multiplayer_combat_run.tscn")
 
 func set_status(message: String, is_error: bool = false) -> void:

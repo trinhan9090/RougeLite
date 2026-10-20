@@ -53,7 +53,7 @@ func apply_player_input(player_id: int, input_frame: Dictionary) -> void:
 		return
 
 	# Prevent duplicate processing
-	var seq := input_frame.get("seq", 0)
+	var seq: int = input_frame.get("seq", 0)
 	if seq <= state.last_input_seq:
 		return
 	state.last_input_seq = seq
@@ -70,7 +70,7 @@ func apply_player_input(player_id: int, input_frame: Dictionary) -> void:
 		state.velocity = movement * move_speed
 
 	# Apply actions (skills, attacks)
-	var actions := input_frame.get("actions", {})
+	var actions: Dictionary = input_frame.get("actions", {})
 	for action_name in actions:
 		if actions[action_name]:
 			_handle_player_action(player_id, action_name, input_frame.get("aim", Vector2.ZERO))

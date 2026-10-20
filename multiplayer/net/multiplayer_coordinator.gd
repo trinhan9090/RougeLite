@@ -6,6 +6,8 @@ signal session_started()
 signal session_ended()
 signal player_joined_session(player_id: int, character_id: StringName)
 signal player_left_session(player_id: int)
+signal client_ready_to_play(player_id: int)
+signal map_ready_for_clients()
 
 var network_manager: NetworkManager
 var session_manager: SessionManager
@@ -110,9 +112,22 @@ func start_match(map_id: StringName) -> void:
 	map_sync.initialize_map_on_host(map_id, seed)
 
 	# Wait for all clients ready (handled by map_sync signal)
-	# Then start match clock
 	await map_sync.all_clients_ready
+
+	# Start match clock
 	match_clock_authority.start_match()
+
+	# Broadcast to all clients that map is ready
+	rpc("_client_receive_map_ready")
+
+	# Host can start immediately
+	session_started.emit()
+
+@rpc("authority", "reliable")
+func _client_receive_map_ready() -> void:
+	if multiplayer.is_server():
+		return
+	print("MultiplayerCoordinator: Client received map_ready signal")
 	session_started.emit()
 
 func register_local_player(character_id: StringName, actor_node: Node) -> int:
