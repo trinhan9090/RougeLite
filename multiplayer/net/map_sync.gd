@@ -34,8 +34,9 @@ func initialize_map_on_host(map_id: StringName, seed: int) -> void:
 	# Broadcast to all clients
 	var peers := multiplayer.get_peers()
 	if peers.is_empty():
-		# No clients - host is solo, immediately ready
-		all_clients_ready.emit()
+		# No clients - host is solo. Emit deferred so a caller that awaits
+		# all_clients_ready right after initialize still observes it.
+		all_clients_ready.emit.call_deferred()
 		print("MapSync: No clients connected, starting immediately")
 	else:
 		for peer_id in peers:
@@ -63,6 +64,7 @@ func _client_receive_map_init(map_id: StringName, seed: int, version: String, ch
 	# Report ready to server
 	rpc_id(1, "_server_receive_client_ready", multiplayer.get_unique_id())
 
+	_is_initialized = true
 	map_initialized.emit(map_id, seed, checksum)
 	print("MapSync: Client validated map '%s' seed %d" % [map_id, seed])
 

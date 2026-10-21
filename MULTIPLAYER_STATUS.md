@@ -22,39 +22,60 @@
 
 ## ⚠️ Known Issues
 
-### 1. Build is Outdated
-**Issue**: Current `builds/windows/EndlessSurvival.exe` is from August 17, 2024 - before multiplayer module existed.
+### 1. Build must be rebuilt after code changes
+**Issue**: `builds/windows/EndlessSurvival.exe` must be re-exported after the multiplayer
+gameplay integration.
 
-**Impact**: Multiplayer button will crash or do nothing in the current .exe
+**Impact**: A stale `.pck` will not include the new playable match scene.
 
-**Fix Required**: Rebuild with Godot export
+**Fix**: Rebuild with Godot export
 
 ```bash
 godot --headless --path . --export-release "Windows Demo" builds/windows/EndlessSurvival.exe
 ```
 
-### 2. Host Creation Verification Needed
-**Status**: Code fixes applied, manual testing required
+### 2. Host Creation Verification — TESTED (2026-10-21)
+**Status**: Verified automated. The previous "✓ Host started successfully!" expectation was
+wrong: the script extended `Node`, so `--script` refused to load it and the test never ran.
 
-**Test Steps**:
-1. Run `godot --headless --path . --script res://multiplayer/scenes/test_host.gd`
-2. Look for "✓ Host started successfully!" in output
-3. If successful, host creation works
-4. If fails, check console for error code
+**Current test (rewritten as a SceneTree suite)**:
+```powershell
+.\tools\godot\Godot_v4.7.2-stable_win64_console.exe --headless --path . --script res://multiplayer/scenes/test_host.gd
+```
+Expect `RESULT multiplayer_host: checks=10 failures=0`.
+
+Two-process host/client tests (start host first):
+```powershell
+.\tools\godot\Godot_v4.7.2-stable_win64_console.exe --headless --path . --script res://multiplayer/scenes/test_host_client.gd -- --role=host --port=24682
+.\tools\godot\Godot_v4.7.2-stable_win64_console.exe --headless --path . --script res://multiplayer/scenes/test_host_client.gd -- --role=client --port=24682
+```
+Real UI flow (default port 24567; `--port=` overrides both sides):
+```powershell
+.\tools\godot\Godot_v4.7.2-stable_win64_console.exe --headless --path . --script res://multiplayer/scenes/test_session_flow.gd -- --role=host --port=24682
+.\tools\godot\Godot_v4.7.2-stable_win64_console.exe --headless --path . --script res://multiplayer/scenes/test_session_flow.gd -- --role=client --port=24682
+```
+Playable match scene (movement + Esc pause):
+```powershell
+.\tools\godot\Godot_v4.7.2-stable_win64_console.exe --headless --path . --script res://multiplayer/scenes/test_combat_scene.gd
+```
+Expect `RESULT test_combat_scene: failures=0`.
+
+See `docs/MULTIPLAYER_TEST_REPORT.md` for the 8 defects found and fixed.
 
 ## 🔄 Next Steps
 
 ### Immediate (To Complete Task)
-1. [ ] Rebuild Windows .exe with multiplayer included
+1. [ ] Rebuild Windows .exe with the latest multiplayer integration
 2. [ ] Test host creation in rebuilt .exe
 3. [ ] Verify localhost connection (host + join from second instance)
 
 ### Integration (For Full Multiplayer)
-1. [ ] Wire `CombatRunRoot` to `MultiplayerGameBridge`
-2. [ ] Add `player_id` to `PlayerActor`
-3. [ ] Connect orb/offer spawns to authority modules
-4. [ ] Block J/K/L/I during revive
-5. [ ] Run full test matrix (T01-T42 from `multiplayer/Endless_Multiplayer_Agent_v1_2/05_TASKS_AND_TESTS.md`)
+1. [x] Wire `CombatRunRoot` into the multiplayer match scene (local playable run + ghosts)
+2. [ ] Replicate enemy/projectile/damage state (currently simulated per peer)
+3. [ ] Add `player_id` to `PlayerActor`
+4. [ ] Connect orb/offer spawns to authority modules
+5. [ ] Block J/K/L/I during revive
+6. [ ] Run full test matrix (T01-T42 from `multiplayer/Endless_Multiplayer_Agent_v1_2/05_TASKS_AND_TESTS.md`)
 
 ## 📁 File Locations
 
@@ -62,7 +83,9 @@ godot --headless --path . --export-release "Windows Demo" builds/windows/Endless
 **Documentation**: `docs/MULTIPLAYER_*.md` (3 files)
 **Main menu**: `scripts/ui/foundation_menu.gd` (modified)
 **Session flow**: `multiplayer/scenes/multiplayer_session_flow.tscn`
-**Test script**: `multiplayer/scenes/test_host.gd`
+**Match scene**: `multiplayer/scenes/multiplayer_combat_run.tscn` (wraps `scenes/run/combat_run.tscn`)
+**Test scripts**: `multiplayer/scenes/test_host.gd`, `test_host_client.gd`,
+`test_session_flow.gd`, `test_combat_scene.gd`
 
 ## 🎮 How to Test Right Now
 
@@ -94,9 +117,14 @@ godot --headless --path . --script res://multiplayer/scenes/test_host.gd
 |---|---|---|
 | Multiplayer code | ✅ Complete | 34 files, all systems implemented |
 | Main menu button | ✅ Added | MULTIPLAYER button functional |
-| Host creation | ✅ Fixed | Timing issue resolved |
-| Windows .exe | ⚠️ Outdated | Needs rebuild |
-| Testing | ⏳ Pending | Needs manual verification |
-| Full integration | ⏳ Future | Requires CombatRunRoot changes |
+| Host creation | ✅ Fixed + tested | Offline-peer guard bug fixed |
+| Lobby/match flow | ✅ Fixed + tested | 2-process UI flow tests pass |
+| Client input | ✅ Fixed + tested | Replicated to host successfully |
+| Match scene | ✅ Playable | Real `CombatRunRoot` run; movement, skills, HUD, Esc pause |
+| Remote players | ✅ Visible | Ghost actors with 10 Hz position replication |
+| Windows .exe | ⚠️ Needs rebuild | Re-export after gameplay integration |
+| Shared combat | ⏳ Not implemented | Enemies/damage/XP simulated per peer |
+| Full integration | ⏳ Future | Needs snapshot replication for enemies |
 
-**Recommendation**: Rebuild the .exe first, then test host creation to verify the fix works in the actual build.
+**Recommendation**: Rebuild the .exe, then host a match and confirm movement and `Esc` pause work
+in the packaged build.

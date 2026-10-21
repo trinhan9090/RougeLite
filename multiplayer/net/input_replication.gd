@@ -27,6 +27,10 @@ func collect_local_input(movement: Vector2, aim: Vector2, actions: Dictionary) -
 func send_input_to_server(input_frame: Dictionary) -> void:
 	if not multiplayer.has_multiplayer_peer():
 		return
+	# The default OfflineMultiplayerPeer reports unique id 1 (the host's id).
+	# Sending then would mean "RPC to yourself", so treat it as no session.
+	if multiplayer.multiplayer_peer is OfflineMultiplayerPeer or multiplayer.get_unique_id() == 1:
+		return
 	rpc_id(1, "_receive_client_input", input_frame)
 
 @rpc("any_peer", "unreliable_ordered")

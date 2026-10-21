@@ -1,134 +1,152 @@
-extends Node
-## Multiplayer combat run coordinator - bridges MP systems with combat.
-## Extends CombatRunRoot logic to handle multiple players.
+extends Node2D
+## Multiplayer combat scene.
+##
+## Runs the normal single-player combat composition (CombatRunRoot) so movement,
+## skills, HUD and the Esc pause/settings menu all work, and mirrors other
+## players as lightweight ghost actors using position replication.
+##
+## Note: enemies/damage are still simulated locally per peer. Authoritative
+## shared combat is not implemented yet (see docs/MULTIPLAYER_TEST_REPORT.md).
 
-var multiplayer_coordinator: MultiplayerCoordinator
+const COMBAT_RUN_SCENE := preload("res://scenes/run/combat_run.tscn")
+const CHARACTER_LOADOUTS: Dictionary[StringName, StringName] = {
+	&"astra": &"loadout.astra",
+	&"vex": &"loadout.vex",
+	&"boros": &"loadout.boros",
+	&"atyu": &"loadout.atyu",
+	&"viridian": &"loadout.viridian",
+	&"graveshade": &"loadout.graveshade",
+	&"tofu": &"loadout.tofu",
+}
+const POSITION_SEND_INTERVAL := 0.1
+
+var multiplayer_coordinator: Node
 var game_bridge: MultiplayerGameBridge
+var combat_root: CombatRunRoot
 var is_multiplayer_mode: bool = false
 var local_player_id: int = -1
 var selected_character: StringName = &"astra"
 
+var _ghosts: Dictionary[int, Node2D] = {}
+var _send_clock: float = 0.0
+
 func _ready() -> void:
-	multiplayer_coordinator = get_node("/root/MultiplayerCoordinator")
+	print("=== MULTIPLAYER COMBAT RUN STARTING ===")
+	multiplayer_coordinator = get_node_or_null("/root/MultiplayerCoordinator")
+	if multiplayer_coordinator == null:
+		push_error("MultiplayerCombatRun: MultiplayerCoordinator autoload not found")
+		return
+
+	is_multiplayer_mode = multiplayer_coordinator.is_multiplayer_active()
+	print("MultiplayerCombatRun: is_multiplayer_mode=", is_multiplayer_mode)
+	if not is_multiplayer_mode:
+		push_error("MultiplayerCombatRun: No active multiplayer session")
+		return
+
 	game_bridge = MultiplayerGameBridge.new()
 	add_child(game_bridge)
+	game_bridge.initialize_multiplayer_session(multiplayer_coordinator.is_host(), self)
 
-func start_host_session(character_id: StringName, port: int = 24567) -> Error:
-	selected_character = character_id
-	var err := multiplayer_coordinator.start_host_session(port)
-	if err != OK:
-		push_error("Failed to start host: %s" % error_string(err))
-		return err
+	multiplayer_coordinator.local_player_registered.connect(_on_local_player_registered)
+	multiplayer_coordinator.player_left_session.connect(_on_player_left)
+	multiplayer_coordinator.session_ended.connect(_on_session_ended)
 
-	is_multiplayer_mode = true
-	_setup_host_session()
-	return OK
+	# Start the normal combat composition so the scene is immediately playable.
+	combat_root = COMBAT_RUN_SCENE.instantiate() as CombatRunRoot
+	combat_root.loadout_id = CHARACTER_LOADOUTS.get(selected_character, &"loadout.astra")
+	add_child(combat_root)
+	move_child(combat_root, 0)
 
-func join_client_session(character_id: StringName, address: String, port: int = 24567) -> Error:
-	selected_character = character_id
-	var err := multiplayer_coordinator.join_session(address, port)
-	if err != OK:
-		push_error("Failed to join session: %s" % error_string(err))
-		return err
+	print("MultiplayerCombatRun: Registering local player")
+	multiplayer_coordinator.register_local_player(selected_character, null)
+	_update_debug_labels()
+	print("=== MULTIPLAYER COMBAT RUN READY ===")
 
-	is_multiplayer_mode = true
-	# Wait for connection confirmation
-	await multiplayer_coordinator.network_manager.connected_to_server
-	_setup_client_session()
-	return OK
-
-func _setup_host_session() -> void:
-	print("MultiplayerCombatRun: Setting up host session")
-
-	# Register host player
-	local_player_id = multiplayer_coordinator.session_manager.register_host_player(selected_character)
-
-	# Initialize map and wait for clients
-	multiplayer_coordinator.start_match(&"map.temple")
-
-	# Spawn host player actor
-	await multiplayer_coordinator.map_sync.all_clients_ready
-	_spawn_local_player()
-
-func _setup_client_session() -> void:
-	print("MultiplayerCombatRun: Setting up client session")
-
-	# Send join request to server
-	rpc_id(1, "_server_receive_join_request", multiplayer.get_unique_id(), selected_character)
-
-@rpc("any_peer", "reliable")
-func _server_receive_join_request(peer_id: int, character_id: StringName) -> void:
-	if not multiplayer.is_server():
-		return
-
-	print("MultiplayerCombatRun: Received join request from peer %d" % peer_id)
-
-	# Register player
-	var result := multiplayer_coordinator.session_manager.try_join_peer(peer_id, character_id)
-
-	if result.accepted:
-		# Notify client of success
-		rpc_id(peer_id, "_client_receive_join_accepted", result.player_id)
-
-		# Broadcast to all clients
-		for other_peer in multiplayer.get_peers():
-			if other_peer != peer_id:
-				rpc_id(other_peer, "_client_receive_player_joined", result.player_id, character_id)
-	else:
-		# Notify client of rejection
-		rpc_id(peer_id, "_client_receive_join_rejected", result.reason)
-
-@rpc("authority", "reliable")
-func _client_receive_join_accepted(player_id: int) -> void:
-	print("MultiplayerCombatRun: Join accepted, assigned player_id %d" % player_id)
-	local_player_id = player_id
-	_spawn_local_player()
-
-@rpc("authority", "reliable")
-func _client_receive_join_rejected(reason: String) -> void:
-	push_error("MultiplayerCombatRun: Join rejected: %s" % reason)
-	# TODO: Show error UI and return to menu
-
-@rpc("authority", "reliable")
-func _client_receive_player_joined(player_id: int, character_id: StringName) -> void:
-	print("MultiplayerCombatRun: Player %d joined with character %s" % [player_id, character_id])
-	# TODO: Spawn remote player actor
-
-func _spawn_local_player() -> void:
-	print("MultiplayerCombatRun: Spawning local player %d with character %s" % [local_player_id, selected_character])
-
-	# TODO: Create actual PlayerActor from existing system
-	# For now, create placeholder
-	var player := Node2D.new()
-	player.name = "Player_%d" % local_player_id
-	player.position = Vector2(500, 300)  # TODO: Get spawn point
-	add_child(player)
-
-	# Register with game bridge
-	game_bridge.register_player_actor(local_player_id, selected_character, player)
-
-func _physics_process(delta: float) -> void:
+func _process(delta: float) -> void:
 	if not is_multiplayer_mode:
 		return
+	if local_player_id > 0 and combat_root != null and is_instance_valid(combat_root.player):
+		# Keep the network input pipeline fed (used by the authoritative world
+		# and by future server-side combat integration).
+		game_bridge.process_local_input(
+			Input.get_vector("move_left", "move_right", "move_up", "move_down"),
+			combat_root.player.facing,
+			{}
+		)
+		_send_clock -= delta
+		if _send_clock <= 0.0:
+			_send_clock = POSITION_SEND_INTERVAL
+			rpc("_receive_remote_position", local_player_id, combat_root.player.global_position)
+	_update_debug_labels()
 
-	if local_player_id < 0:
+func _on_local_player_registered(player_id: int, character_id: StringName) -> void:
+	local_player_id = player_id
+	# The host receives its own `player_joined_session` while registering, so a
+	# ghost for the local player may already exist. Remove it.
+	_remove_ghost(player_id)
+	if combat_root != null and is_instance_valid(combat_root.player):
+		game_bridge.register_player_actor(player_id, character_id, combat_root.player, true)
+	print("MultiplayerCombatRun: Local player %d ready" % player_id)
+
+func _on_player_left(player_id: int) -> void:
+	_remove_ghost(player_id)
+
+func _remove_ghost(player_id: int) -> void:
+	var ghost := _ghosts.get(player_id) as Node2D
+	if ghost != null and is_instance_valid(ghost):
+		ghost.queue_free()
+	_ghosts.erase(player_id)
+
+func _on_session_ended() -> void:
+	is_multiplayer_mode = false
+	local_player_id = -1
+
+@rpc("any_peer", "unreliable_ordered")
+func _receive_remote_position(player_id: int, position: Vector2) -> void:
+	if player_id == local_player_id or player_id < 0:
 		return
+	var ghost := _ghosts.get(player_id) as Node2D
+	if ghost == null or not is_instance_valid(ghost):
+		ghost = _ensure_ghost(player_id)
+	if ghost != null:
+		ghost.global_position = position
 
-	# Collect local input
-	var movement := Input.get_vector("move_left", "move_right", "move_up", "move_down")
-	var aim := get_global_mouse_position()
+func _ensure_ghost(player_id: int) -> Node2D:
+	var existing := _ghosts.get(player_id) as Node2D
+	if existing != null and is_instance_valid(existing):
+		return existing
 
-	var actions := {
-		"attack": Input.is_action_pressed("attack"),
-		"skill_j": Input.is_action_just_pressed("skill_j"),
-		"skill_k": Input.is_action_just_pressed("skill_k"),
-		"skill_l": Input.is_action_just_pressed("skill_l"),
-		"skill_i": Input.is_action_just_pressed("skill_i"),
-		"revive": Input.is_action_pressed("revive")  # F key
-	}
+	var ghost := Node2D.new()
+	ghost.name = "Ghost_%d" % player_id
+	ghost.z_index = 5
 
-	# Submit to multiplayer system
-	game_bridge.process_local_input(movement, aim, actions)
+	var body := Polygon2D.new()
+	body.polygon = PackedVector2Array([
+		Vector2(-14, -22), Vector2(14, -22), Vector2(14, 22), Vector2(-14, 22)
+	])
+	body.color = Color(0.35, 0.8, 1.0, 0.55)
+	ghost.add_child(body)
+
+	add_child(ghost)
+	_ghosts[player_id] = ghost
+	return ghost
+
+func _update_debug_labels() -> void:
+	var panel := get_node_or_null("UI/DebugOverlay/InfoPanel/VBoxContainer")
+	if panel == null:
+		return
+	var role_label := panel.get_node_or_null("RoleLabel") as Label
+	if role_label and multiplayer_coordinator:
+		role_label.text = "Role: %s" % ("Host" if multiplayer_coordinator.is_host() else "Client")
+	var id_label := panel.get_node_or_null("PlayerIDLabel") as Label
+	if id_label:
+		id_label.text = "Player ID: %d" % local_player_id
+	var peer_label := panel.get_node_or_null("PeerCountLabel") as Label
+	if peer_label and multiplayer_coordinator and multiplayer_coordinator.network_manager:
+		peer_label.text = "Connected Players: %d" % multiplayer_coordinator.network_manager.get_peer_count()
+	var clock_label := panel.get_node_or_null("ClockLabel") as Label
+	if clock_label and multiplayer_coordinator and multiplayer_coordinator.match_clock_authority:
+		clock_label.text = "Match Time: %s" % multiplayer_coordinator.match_clock_authority.get_formatted_time()
 
 func end_session() -> void:
 	if is_multiplayer_mode:

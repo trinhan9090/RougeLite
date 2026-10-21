@@ -56,10 +56,15 @@ func _initialize_client_session() -> void:
 	print("MultiplayerGameBridge: Initializing client session")
 	integration_ready.emit()
 
-func register_player_actor(player_id: int, character_id: StringName, actor: Node) -> void:
+func register_player_actor(player_id: int, character_id: StringName, actor: Node, is_local: bool = false) -> void:
 	_player_actor_map[player_id] = actor
 
-	if multiplayer.get_unique_id() == multiplayer_coordinator.session_manager.get_peer_id_for_player(player_id):
+	# Host can detect the local player by peer id; a client has no host-side
+	# roster, so the caller marks its own player explicitly.
+	var local := is_local
+	if multiplayer.is_server():
+		local = local or multiplayer.get_unique_id() == multiplayer_coordinator.session_manager.get_peer_id_for_player(player_id)
+	if local:
 		_local_player_id = player_id
 		# Enable prediction for local player
 		multiplayer_coordinator.prediction_reconciliation.enable_prediction(true)

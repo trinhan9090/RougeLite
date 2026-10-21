@@ -10,6 +10,8 @@ extends Control
 
 var multiplayer_coordinator: Node
 var selected_character: StringName = &"astra"
+## Port used when hosting; tests can override it.
+var host_port: int = 24567
 
 enum State {
 	MAIN_MENU,
@@ -72,12 +74,13 @@ func _show_loading() -> void:
 	lobby.visible = false
 	loading_screen.visible = true
 	status_label.visible = false
+	print("MultiplayerSessionFlow: Showing loading screen")
 
 func _on_host_requested() -> void:
 	print("Host requested...")
 	set_status("Starting host...")
 
-	var err: int = multiplayer_coordinator.start_host_session()
+	var err: int = multiplayer_coordinator.start_host_session(host_port)
 	print("Host start result: ", err, " (OK=", OK, ")")
 
 	if err != OK:
@@ -118,6 +121,7 @@ func _on_start_pressed() -> void:
 
 	# Start match (this will emit session_started when map is ready)
 	multiplayer_coordinator.start_match(&"map.temple")
+	print("Start match pressed - start_match() called")
 
 func _on_server_started() -> void:
 	# Already handled in _on_host_requested
@@ -135,7 +139,10 @@ func _on_session_started() -> void:
 	# Match started and map loaded, transition to combat scene
 	print("Session started - transitioning to IN_GAME")
 	current_state = State.IN_GAME
-	get_tree().change_scene_to_file("res://multiplayer/scenes/multiplayer_combat_run.tscn")
+	var err := get_tree().change_scene_to_file("res://multiplayer/scenes/multiplayer_combat_run.tscn")
+	print("Scene change result: ", err)
+	if err != OK:
+		push_error("Failed to change scene to combat run: %s" % error_string(err))
 
 func set_status(message: String, is_error: bool = false) -> void:
 	status_label.text = message

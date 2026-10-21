@@ -6,6 +6,7 @@ signal session_started()
 signal session_ended()
 signal player_joined_session(player_id: int, character_id: StringName)
 signal player_left_session(player_id: int)
+signal local_player_registered(player_id: int, character_id: StringName)
 signal client_ready_to_play(player_id: int)
 signal map_ready_for_clients()
 
@@ -67,6 +68,8 @@ func _connect_signals() -> void:
 	network_manager.peer_connected.connect(_on_peer_connected)
 	network_manager.peer_disconnected.connect(_on_peer_disconnected)
 	network_manager.server_started.connect(_on_server_started)
+	network_manager.connection_failed.connect(_on_connection_failed)
+	network_manager.server_stopped.connect(_on_network_stopped)
 
 	# Session management
 	session_manager.player_joined.connect(_on_player_joined)
@@ -121,6 +124,7 @@ func start_match(map_id: StringName) -> void:
 	rpc("_client_receive_map_ready")
 
 	# Host can start immediately
+	_is_multiplayer_active = true
 	session_started.emit()
 
 @rpc("authority", "reliable")
@@ -134,11 +138,50 @@ func register_local_player(character_id: StringName, actor_node: Node) -> int:
 	if multiplayer.is_server():
 		var player_id := session_manager.register_host_player(character_id)
 		authoritative_world.register_player(player_id, 1, character_id, actor_node)
+		local_player_registered.emit(player_id, character_id)
 		return player_id
-	else:
-		# Client sends join request
-		# TODO: Implement handshake protocol
-		return -1
+
+	# Client: ask the host to add us to the roster. The host replies with
+	# _client_receive_join_accepted, which emits local_player_registered.
+	if _is_multiplayer_active:
+		rpc_id(1, "_server_receive_join_request", character_id)
+	return -1
+
+@rpc("any_peer", "reliable")
+func _server_receive_join_request(character_id: StringName) -> void:
+	if not multiplayer.is_server():
+		return
+
+	var peer_id := multiplayer.get_remote_sender_id()
+	var result: Dictionary = session_manager.try_join_peer(peer_id, character_id)
+	if not bool(result.get("accepted", false)):
+		rpc_id(peer_id, "_client_receive_join_rejected", String(result.get("reason", "unknown")))
+		return
+
+	var player_id: int = int(result.get("player_id", -1))
+	# Host-side representation of the remote player.
+	var placeholder := Node2D.new()
+	placeholder.name = "RemotePlayer_%d" % player_id
+	add_child(placeholder)
+	authoritative_world.register_player(player_id, peer_id, character_id, placeholder)
+
+	rpc_id(peer_id, "_client_receive_join_accepted", player_id, character_id)
+	for other_peer in multiplayer.get_peers():
+		if other_peer != peer_id:
+			rpc_id(other_peer, "_client_receive_player_joined", player_id, character_id)
+
+@rpc("authority", "reliable")
+func _client_receive_join_accepted(player_id: int, character_id: StringName) -> void:
+	print("MultiplayerCoordinator: Joined as player %d (%s)" % [player_id, character_id])
+	local_player_registered.emit(player_id, character_id)
+
+@rpc("authority", "reliable")
+func _client_receive_join_rejected(reason: String) -> void:
+	push_error("MultiplayerCoordinator: Join rejected: %s" % reason)
+
+@rpc("authority", "reliable")
+func _client_receive_player_joined(player_id: int, character_id: StringName) -> void:
+	player_joined_session.emit(player_id, character_id)
 
 func submit_local_input(movement: Vector2, aim: Vector2, actions: Dictionary) -> void:
 	if not _is_multiplayer_active:
@@ -163,9 +206,20 @@ func _on_peer_disconnected(peer_id: int) -> void:
 func _on_server_started() -> void:
 	print("MultiplayerCoordinator: Server started")
 
+func _on_connection_failed(reason: String) -> void:
+	print("MultiplayerCoordinator: Connection failed (%s)" % reason)
+	if _is_multiplayer_active:
+		_is_multiplayer_active = false
+		session_ended.emit()
+
+func _on_network_stopped() -> void:
+	_is_multiplayer_active = false
+
 func _on_player_joined(player_id: int, peer_id: int) -> void:
-	print("MultiplayerCoordinator: Player %d joined (peer %d)" % [player_id, peer_id])
-	player_joined_session.emit(player_id, &"default")
+	var session := session_manager.get_session_for_player(player_id)
+	var character_id: StringName = session.character_id if session else &"default"
+	print("MultiplayerCoordinator: Player %d joined (peer %d, %s)" % [player_id, peer_id, character_id])
+	player_joined_session.emit(player_id, character_id)
 
 func _on_player_left(player_id: int, reason: String) -> void:
 	print("MultiplayerCoordinator: Player %d left (%s)" % [player_id, reason])

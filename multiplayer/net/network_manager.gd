@@ -28,13 +28,20 @@ func is_host() -> bool:
 	return _is_host and multiplayer.is_server()
 
 func is_client() -> bool:
-	return multiplayer.has_multiplayer_peer() and not multiplayer.is_server()
+	return _has_network_peer() and not multiplayer.is_server()
 
 func is_active() -> bool:
-	return multiplayer.has_multiplayer_peer()
+	return _has_network_peer()
+
+## Godot starts with an OfflineMultiplayerPeer assigned, so has_multiplayer_peer()
+## is true even when no real network session exists. Only a non-offline peer counts.
+func _has_network_peer() -> bool:
+	if not multiplayer.has_multiplayer_peer():
+		return false
+	return not (multiplayer.multiplayer_peer is OfflineMultiplayerPeer)
 
 func start_host(port: int = DEFAULT_PORT) -> Error:
-	if multiplayer.has_multiplayer_peer():
+	if _has_network_peer():
 		push_error("NetworkManager: Cannot start host, peer already active")
 		return ERR_ALREADY_IN_USE
 
@@ -52,7 +59,7 @@ func start_host(port: int = DEFAULT_PORT) -> Error:
 	return OK
 
 func join_host(address: String, port: int = DEFAULT_PORT) -> Error:
-	if multiplayer.has_multiplayer_peer():
+	if _has_network_peer():
 		push_error("NetworkManager: Cannot join, peer already active")
 		return ERR_ALREADY_IN_USE
 
@@ -77,13 +84,16 @@ func stop() -> void:
 	if _peer != null:
 		_peer.close()
 		_peer = null
-	multiplayer.multiplayer_peer = null
+	# Restore the offline peer instead of null so get_unique_id()/is_server()
+	# keep working after a session ends (Idle modules poll them every frame).
+	multiplayer.multiplayer_peer = OfflineMultiplayerPeer.new()
 	_is_host = false
+	_connection_attempt_time = 0.0
 	print("NetworkManager: Session stopped")
 	server_stopped.emit()
 
 func get_peer_count() -> int:
-	if not multiplayer.has_multiplayer_peer():
+	if not _has_network_peer():
 		return 0
 	# Host counts as 1, plus connected clients
 	return 1 + multiplayer.get_peers().size()

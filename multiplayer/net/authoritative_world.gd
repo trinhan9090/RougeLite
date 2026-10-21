@@ -31,6 +31,14 @@ class PlayerRuntimeState:
 	var last_input_seq: int = -1
 
 func register_player(player_id: int, peer_id: int, character_id: StringName, actor_node: Node) -> void:
+	var existing := _player_states.get(player_id) as PlayerRuntimeState
+	if existing != null:
+		# Re-registration (e.g. host placeholder then real actor) updates in place.
+		existing.actor_node = actor_node if actor_node else existing.actor_node
+		existing.peer_id = peer_id
+		existing.character_id = character_id
+		return
+
 	var state := PlayerRuntimeState.new()
 	state.player_id = player_id
 	state.peer_id = peer_id
@@ -41,6 +49,8 @@ func register_player(player_id: int, peer_id: int, character_id: StringName, act
 	print("AuthoritativeWorld: Registered player %d with character %s" % [player_id, character_id])
 
 func unregister_player(player_id: int) -> void:
+	if not _player_states.has(player_id):
+		return
 	_player_states.erase(player_id)
 	print("AuthoritativeWorld: Unregistered player %d" % player_id)
 

@@ -15,7 +15,7 @@ var _snapshot_buffer: Array[Dictionary] = []
 var _max_buffer_size: int = 5
 
 func _process(delta: float) -> void:
-	if not multiplayer.is_server():
+	if not multiplayer.has_multiplayer_peer() or not multiplayer.is_server():
 		return
 	_time_since_last_snapshot += delta
 	if _time_since_last_snapshot >= _snapshot_interval:
