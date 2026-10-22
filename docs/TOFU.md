@@ -1,8 +1,8 @@
-# Tofu - seventh playable melee Bruiser
+# Tofu - sixth playable melee Bruiser
 Date:2026-10-18. Current source Launch integration; private local prototype. Task TOFU-01. Human visual/listening approval pending.
 
 ## Play
-Restart Launch.cmd, CHARACTER: seventh avatar Tofu, SELECT, then PLAY or TRAINING. The grid remains20boxes:7available,13unknown. Training dropdown includes Tofu and existing rank/reset controls. WASD, Space, remappableJ/K/L/I and current Auto/Manual unchanged. Manual directional skills use last accepted attack direction, ignoring mouse. Native1920x1080 unchanged. Existing brute class represents the Bruiser role; no class enum/schema change.
+Restart Launch.cmd, CHARACTER: sixth avatar Tofu, SELECT, then PLAY or TRAINING. The grid remains20boxes:6available,14unknown. Training dropdown includes Tofu and existing rank/reset controls. WASD, Space, remappableJ/K/L/I and current Auto/Manual unchanged. Manual directional skills use last accepted attack direction, ignoring mouse. Native1920x1080 unchanged. Existing brute class represents the Bruiser role; no class enum/schema change.
 
 ## Kit - DEMO DEFAULT data
 200HP,215speed,10armor,5%crit x1.5. Basic Cursed-Tool Slash:110px cone,0.55s interval,10/15/30cyclic damage. Actor-owned combo state, no projectile, real shared damage resolver; Echo preserves chosen combo hit.
@@ -19,7 +19,7 @@ Body is2_DIR_POC_ONLY: horizontal left/right, vertical input keeps horizontal ar
 Source bank meanings remain CANDIDATE_NOT_LISTENED, includingS200/S500. Runtime deliberately uses deterministic original nonvoice weapon/skill fallbacks; Basic cannot contain spoken clips. T19proves100Basic->100nonvoice cues. Source voices are not integrated until listening confirms them, per handoff. Offline animation_preview.html and sound_catalog.html work locally; no manual import/edit steps needed.
 
 ## Verification
-Godot4.7.2.stable.official.ed1daf0bf, Windows Compatibility/OpenGL3.3.8Python source tests pass; actual current Launch GUI88checks/0failures, source headless88/0. Twelve affected regression suites pass:Graveshade,Viridian,Doom intro,Atyu,content,damage,original full kits,shared effect matrix,augment combinations,Training,fullscreen aim,maps/bosses. Full48-suite runner was not repeated; new Tofu test is registered. Logs and T01-T20matrix: reports/tofu/20261018/tests.md.
+Godot4.7.2.stable.official.ed1daf0bf, Windows Compatibility/OpenGL3.3.8Python source tests pass; actual current Launch GUI88checks/0failures, source headless88/0. Twelve affected regression suites pass:Graveshade,Viridian,Doom intro,content,damage,original full kits,shared effect matrix,augment combinations,Training,fullscreen aim,maps/bosses. Full48-suite runner was not repeated; new Tofu test is registered. Logs and T01-T20matrix: reports/tofu/20261018/tests.md.
 Actual native1920x1080 eight-second dense30mob smoke:8.039385s,413frame samples,median16.579ms,p9551.020ms,max269.886ms; RTX3050Laptop,driver592.82. All4skills accepted; real safe>=550spawn checked before QA-only close placement. Measured average about51.37FPS; median reciprocal about60.32FPS. This short fixture includes initial VFX loading and is not stable60FPS certification. Performance tuning remains open.
 
 ## Implementation / limitations

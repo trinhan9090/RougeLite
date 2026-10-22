@@ -6,11 +6,12 @@ signal join_requested(address: String, port: int)
 signal back_to_menu()
 
 @onready var host_button: Button = $CenterContainer/VBoxContainer/HostButton
-@onready var join_button: Button = $CenterContainer/VBoxContainer/JoinButton
+@onready var join_button: Button = $CenterContainer/VBoxContainer/JoinContainer/JoinButton
 @onready var back_button: Button = $CenterContainer/VBoxContainer/BackButton
 @onready var address_input: LineEdit = $CenterContainer/VBoxContainer/JoinContainer/AddressInput
 @onready var port_input: LineEdit = $CenterContainer/VBoxContainer/JoinContainer/PortInput
 @onready var status_label: Label = $CenterContainer/VBoxContainer/StatusLabel
+@onready var local_address_label: Label = $CenterContainer/VBoxContainer/LocalAddressLabel
 
 func _ready() -> void:
 	host_button.pressed.connect(_on_host_pressed)
@@ -20,6 +21,7 @@ func _ready() -> void:
 	# Set default values
 	address_input.text = "127.0.0.1"
 	port_input.text = "24567"
+	local_address_label.text = "Your addresses: %s" % _local_addresses()
 
 func _on_host_pressed() -> void:
 	set_status("Starting host...")
@@ -47,7 +49,7 @@ func _on_back_pressed() -> void:
 
 func set_status(message: String, is_error: bool = false) -> void:
 	status_label.text = message
-	status_label.modulate = Color.RED if is_error else Color.WHITE
+	status_label.add_theme_color_override("font_color", Color("ff8a80") if is_error else Color("e8eef7"))
 
 func disable_buttons(disabled: bool) -> void:
 	host_button.disabled = disabled
@@ -65,4 +67,14 @@ func on_connection_failed(reason: String) -> void:
 
 func on_host_started() -> void:
 	set_status("Host started! Waiting for players...")
-	# TODO: Show lobby/waiting screen
+
+## Human readable local IPv4 list so the host can share the right address.
+func _local_addresses() -> String:
+	var found: PackedStringArray = PackedStringArray()
+	for address: String in IP.get_local_addresses():
+		if address.contains(".") and not address.begins_with("127."):
+			if not found.has(address):
+				found.append(address)
+	if found.is_empty():
+		return "no LAN address detected - use a VPN IP"
+	return ", ".join(found)

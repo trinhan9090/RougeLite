@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="EnemyDefinition" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/enemy_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/actor_stat_definition.gd" id="2"]
+[ext_resource type="Resource" path="res://content/enemies/marksman_behavior.tres" id="3"]
+[ext_resource type="Resource" path="res://content/enemies/marksman_visual.tres" id="4"]
+[ext_resource type="Resource" path="res://content/enemies/marksman_audio.tres" id="5"]
+[ext_resource type="Resource" path="res://content/skills/enemy_marksman_shot.tres" id="6"]
+
+[sub_resource type="Resource" id="Stats"]
+script = ExtResource("2")
+max_hp = 38.5
+move_speed = 93.5
+armor = 2.0
+crit_chance = 0.0
+
+[resource]
+script = ExtResource("1")
+id = &"enemy.marksman"
+display_name = "Hollow Marksman"
+stats = SubResource("Stats")
+damage = 8.0
+xp_reward = 9
+attack_interval = 2.2
+roster_entry = true
+min_match_seconds = 360.0
+spawn_weight = 13.0
+max_alive = 12
+hp_multiplier = 1.1
+move_speed_multiplier = 0.85
+damage_multiplier = 0.9
+behavior_id = &"kite_shoot"
+scene_path = "res://scenes/enemies/marksman.tscn"
+behavior_settings = ExtResource("3")
+attack_skill = ExtResource("6")
+visual_profile = ExtResource("4")
+audio_profile = ExtResource("5")

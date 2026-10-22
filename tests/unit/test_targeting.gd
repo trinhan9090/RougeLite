@@ -47,6 +47,18 @@ func _run() -> void:
 	_check(TargetingService.nearest(source, stale_candidates, 100) == null, "queued target excluded")
 	await process_frame
 	_check(TargetingService.nearest(source, stale_candidates, 100) == null, "freed target excluded")
+	var close_low := _actor(6, Vector2(30, 0))
+	close_low.health.commit_resolved_hp(10)
+	var close_high := _actor(7, Vector2(34, 0))
+	close_high.health.commit_resolved_hp(100)
+	var boss := _actor(8, Vector2(90, 0))
+	boss.is_boss = true
+	_check(TargetingService.priority(source, [close_high, close_low], 100) == close_low, "priority picks lowest HP among nearest band")
+	_check(TargetingService.priority(source, [close_low, boss], 100) == boss, "priority prefers boss over nearer enemy")
+	var far_boss := _actor(9, Vector2(200, 0))
+	far_boss.is_boss = true
+	_check(TargetingService.priority(source, [far_boss, close_low], 100) == close_low, "priority ignores boss outside range")
+	_check(TargetingService.priority(source, [], 100) == null, "priority empty target set")
 	for actor in _actors:
 		if is_instance_valid(actor):
 			actor.queue_free()

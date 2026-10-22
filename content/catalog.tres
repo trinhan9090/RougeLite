@@ -26,8 +26,16 @@
 [ext_resource type="Script" path="res://scripts/data/enemy_definition.gd" id="23_vq5hg"]
 [ext_resource type="Script" path="res://scripts/data/actor_stat_definition.gd" id="24_tegip"]
 [ext_resource type="Script" path="res://scripts/data/boss_definition.gd" id="25_fm3wg"]
-
-[ext_resource type="Resource" path="res://content/characters/atyu_loadout.tres" id="atyu"]
+[ext_resource type="Resource" path="res://content/enemies/bulwark.tres" id="26_bulwark"]
+[ext_resource type="Resource" path="res://content/enemies/skitter.tres" id="27_skitter"]
+[ext_resource type="Resource" path="res://content/enemies/marksman.tres" id="28_marksman"]
+[ext_resource type="Resource" path="res://content/enemies/ritualist.tres" id="29_ritualist"]
+[ext_resource type="Resource" path="res://content/enemies/bomber.tres" id="30_bomber"]
+[ext_resource type="Resource" path="res://content/skills/enemy_bulwark_slam.tres" id="31_bulwark_slam"]
+[ext_resource type="Resource" path="res://content/skills/enemy_skitter_lunge.tres" id="32_skitter_lunge"]
+[ext_resource type="Resource" path="res://content/skills/enemy_marksman_shot.tres" id="33_marksman_shot"]
+[ext_resource type="Resource" path="res://content/skills/enemy_ritualist_rune.tres" id="34_ritualist_rune"]
+[ext_resource type="Resource" path="res://content/skills/enemy_bomber_blast.tres" id="35_bomber_blast"]
 
 [ext_resource type="Resource" path="res://content/characters/viridian_loadout.tres" id="viridian"]
 
@@ -321,5 +329,5 @@ display_name = "Ember Sentinel"
 [resource]
 script = ExtResource("1")
 content_version = "endless-demo-v1"
-definitions = Array[ExtResource("2")]([ExtResource("tofu"),ExtResource("graveshade"), ExtResource("viridian"), ExtResource("atyu"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14"), ExtResource("15"), ExtResource("16"), ExtResource("17"), ExtResource("18"), SubResource("Resource_0bx0u"), SubResource("Resource_hn5n0"), SubResource("Resource_ihkt6"), SubResource("Resource_1igeu"), SubResource("Resource_4ngj7"), SubResource("Resource_vq5hg"), SubResource("Resource_tegip"), SubResource("Resource_fm3wg"), SubResource("Resource_1q02i"), SubResource("Resource_ubmj3"), SubResource("Resource_rep2c"), SubResource("Resource_j2f3t"), SubResource("Resource_lmid7"), SubResource("Resource_pagr3"), SubResource("Resource_8hid0"), SubResource("Resource_3v71e")])
+definitions = Array[ExtResource("2")]([ExtResource("tofu"),ExtResource("graveshade"), ExtResource("viridian"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14"), ExtResource("15"), ExtResource("16"), ExtResource("17"), ExtResource("18"), ExtResource("26_bulwark"), ExtResource("27_skitter"), ExtResource("28_marksman"), ExtResource("29_ritualist"), ExtResource("30_bomber"), ExtResource("31_bulwark_slam"), ExtResource("32_skitter_lunge"), ExtResource("33_marksman_shot"), ExtResource("34_ritualist_rune"), ExtResource("35_bomber_blast"), SubResource("Resource_0bx0u"), SubResource("Resource_hn5n0"), SubResource("Resource_ihkt6"), SubResource("Resource_1igeu"), SubResource("Resource_4ngj7"), SubResource("Resource_vq5hg"), SubResource("Resource_tegip"), SubResource("Resource_fm3wg"), SubResource("Resource_1q02i"), SubResource("Resource_ubmj3"), SubResource("Resource_rep2c"), SubResource("Resource_j2f3t"), SubResource("Resource_lmid7"), SubResource("Resource_pagr3"), SubResource("Resource_8hid0"), SubResource("Resource_3v71e")])
 

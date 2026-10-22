@@ -3,6 +3,7 @@ extends ActorSprite
 ## Shared four-way body/weapon scene. PlayerActor owns facing and animation commands.
 @export var profile: VisualProfile
 var _offhand: Sprite2D
+var _overlay_signature: String = ""
 func _ready() -> void:
 	if sprite_frames.has_meta("visual_profile"): profile = sprite_frames.get_meta("visual_profile") as VisualProfile
 	super._ready()
@@ -42,7 +43,17 @@ func _process(delta: float) -> void:
 			_offhand.position = Vector2(-_weapon_sprite.position.x,16)
 			_offhand.flip_h = false
 			_offhand.rotation = _weapon_sprite.rotation
-	queue_redraw()
+	# Only rebuild the overlay when its state actually changes; per-frame redraws
+	# cost GPU fill rate for actors that show no overlay at all.
+	if not is_instance_valid(actor) or actor.health == null or not actor.health.is_alive():
+		if _overlay_signature != "dead":
+			_overlay_signature = "dead"
+			queue_redraw()
+		return
+	var signature: String = "%d|%d|%d" % [actor.health.shield_total(), int(actor.factor(&"max_hp") > 1), int(actor.statuses.movement_factor() == 0)]
+	if signature != _overlay_signature:
+		_overlay_signature = signature
+		queue_redraw()
 func _draw() -> void:
 	if actor == null or actor.health == null or not actor.health.is_alive(): return
 	var center := Vector2(0,12)

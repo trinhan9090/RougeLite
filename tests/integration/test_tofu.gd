@@ -42,7 +42,7 @@ func prepare(rank: int=1) -> void:
 func run() -> void:
 	AudioServer.set_bus_mute(0,true) # keep100-command audio audit quiet; streams still execute
 	var registry:=root.get_node("ContentRegistry") as ContentRegistryService
-	check(registry.validate_all().is_empty(),"T07 registry validates seventh hero without changing class schema")
+	check(registry.validate_all().is_empty(),"T07 registry validates sixth hero without changing class schema")
 	profile=registry.definition_copy(&"loadout.tofu") as CombatLoadoutDefinition
 	check(profile!=null and profile.display_name=="Tofu" and profile.stats.max_hp==200 and profile.stats.armor==10,"Tofu200HP215speed10armor data")
 	check(profile.art_frames.get_animation_names().size()==44 and profile.art_frames.get_meta("side_view",false),"T06 actual11source body clips with honest horizontal aliases")
@@ -201,10 +201,12 @@ func scene_checks() -> void:
 	var grid:=menu.find_child("CharacterSlots",true,false) as GridContainer;var unavailable: int=0
 	for child in grid.get_children():
 		if child is Button and child.disabled:unavailable+=1
-	check(grid.get_child_count()==20 and unavailable==13,"seven available avatars and13unknown slots")
-	menu._select_character(&"loadout.tofu");menu._start_run();await process_frame
+	check(grid.get_child_count()==20 and unavailable==14,"six available avatars and14unknown slots")
+	menu._start_run();await process_frame
+	var hub:=menu.find_child("CharacterHub",true,false) as CharacterHub
+	hub.select_hero("tofu");hub.confirm();await process_frame
 	var normal:=current_scene as CombatRunRoot
-	check(normal!=null and normal.loadout_id==&"loadout.tofu","seventh avatar starts actual PLAY")
+	check(normal!=null and normal.loadout_id==&"loadout.tofu","sixth avatar starts actual PLAY")
 	normal.set_physics_process(false);normal.skills.sync_level(11)
 	var enemy: EnemyActor=normal.spawn_enemy()
 	check(enemy!=null and enemy.global_position.distance_to(normal.player.global_position)>=550,"Tofu PLAY preserves550safe spawn")
@@ -217,7 +219,7 @@ func scene_checks() -> void:
 	for i in range(20):
 		normal._spawn_boss()
 		if normal.boss!=null:break
-	check(normal.boss!=null,"level-gated real boss spawns for seventh hero")
+	check(normal.boss!=null,"level-gated real boss spawns for sixth hero")
 	var maps: int=normal.maps_visited
 	if normal.boss!=null:
 		var lethal:=SkillRankDefinition.new();lethal.damage=1000000;lethal.damage_type="TRUE";normal.combat.hit(normal.player,normal.boss,lethal,normal.combat.next_context(normal.player,&"test.tofu_finish"));await frames(3)

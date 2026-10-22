@@ -1,6 +1,6 @@
 # Graveshade — Tactical Suppressor
 
-Current root Launch.cmd includes Graveshade as sixthhero. Restart game, CHARACTER→sixthavatar→SELECT, then PLAY or TRAINING. Twenty avatar slots remain;14areunknown. Use existing WASD/Space/J/K/L/I and saved key bindings. Auto/Manual uses existing controller; Manual retains last accepted attack direction. Training has immortal stationaryboss, fullHP, zeroactiveCD and rank selector.
+Current root Launch.cmd includes Graveshade as fifth hero. Restart game, CHARACTER→fifth avatar→SELECT, then PLAY or TRAINING. Twenty avatar slots remain;14areunknown. Use existing WASD/Space/J/K/L/I and saved key bindings. Auto/Manual uses existing controller; Manual retains last accepted attack direction. Training has immortal stationaryboss, fullHP, zeroactiveCD and rank selector.
 
 Actual source animation comes from assets/characters/newADC/Punisher, not a generated character substitute. Side-facing left/right only; no fabricated north/south drawings. Sources remain unchanged. All collision/damage/augments use shared services.
 

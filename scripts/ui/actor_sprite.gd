@@ -12,6 +12,8 @@ var _weapon_sprite: Sprite2D
 var _was_motion: bool=false
 var _combo_index: int = 0
 var _side_left: bool = false
+var _size_factor: float = 1.0
+var _size_ready: bool = false
 
 func _ready() -> void:
 	texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
@@ -48,6 +50,12 @@ func _resolve(action: StringName) -> StringName:
 
 func _update_size() -> void:
 	var factor: float = 1.25 if actor.factor(&"max_hp") > 1 else 1
+	# Only touch the transform when it actually changes; this runs per actor
+	# per frame and every write dirties the canvas item transform.
+	if is_equal_approx(factor,_size_factor) and _size_ready:
+		return
+	_size_factor=factor
+	_size_ready=true
 	scale = Vector2.ONE * _base_scale * factor
 	position = Vector2(0,(0 if sprite_frames.get_meta("pixel_v3",false) else 20)-_feet_offset*factor)
 

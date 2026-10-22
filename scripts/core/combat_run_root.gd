@@ -37,6 +37,25 @@ var _environment: Actor
 var visual_factory: CombatVisualFactory
 var damage_numbers: DamageNumberLayer
 
+# --- time gated enemy roster ----------------------------------------------
+## Host authoritative scheduler of the normal enemy roster.
+var encounter: EnemyEncounterDirector
+## Applies the encounter decisions to the arena.
+var roster_spawner: EnemyRosterSpawner
+## Match clock the roster is gated on.
+var match_clock: EnemyMatchClock
+## Pooled spatial audio of the enemy roster.
+var enemy_audio: EnemyAudioService
+## Layer that hosts the enemy attack telegraphs.
+var _telegraphs: Node2D
+## Living players the roster may target. The multiplayer bridge replaces this
+## with the replicated roster; offline it is the local player.
+var roster_players_provider: Callable
+## Seconds accumulated since the last spawn opportunity.
+var _spawn_accumulator: float = 0.0
+
+static var _run_counter: int = 0
+
 func _ready() -> void:
 	var registry := get_node("/root/ContentRegistry") as ContentRegistryService
 	if not registry.validate_all().is_empty():
@@ -50,6 +69,10 @@ func _ready() -> void:
 	add_child(_actors)
 	_loot = Node2D.new()
 	add_child(_loot)
+	_telegraphs = Node2D.new()
+	_telegraphs.name = "EnemyTelegraphs"
+	_telegraphs.z_index = 20
+	add_child(_telegraphs)
 	var layer := CanvasLayer.new()
 	add_child(layer)
 	presentation = RunPresentation.new()
@@ -64,10 +87,58 @@ func _ready() -> void:
 		if state != null and state.run_phase == &"RUNNING": skills.request_cast(slot,player.global_position + player.facing * 1000))
 	_spawn_config = registry.definition_copy(&"config.spawn") as SpawnDefinition
 	_curve = registry.definition_copy(&"progression.default") as ProgressionDefinition
+	_setup_encounter(registry)
 	for content_id in registry.content_ids():
 		if String(content_id).begins_with("stat.") or String(content_id).begins_with("augment."):
 			_stat_cores.append(registry.definition_copy(content_id) as AugmentDefinition)
 	_start_run()
+
+func _setup_encounter(registry: ContentRegistryService) -> void:
+	encounter = EnemyEncounterDirector.new()
+	encounter.configure(registry, _spawn_config, 0)
+	roster_spawner = EnemyRosterSpawner.new()
+	roster_spawner.name = "EnemyRosterSpawner"
+	roster_spawner.registry = registry
+	roster_spawner.spawn_config = _spawn_config
+	roster_spawner.arena = _arena
+	roster_spawner.actors = _actors
+	roster_spawner.telegraph_layer = _telegraphs
+	add_child(roster_spawner)
+	match_clock = EnemyMatchClock.new()
+	match_clock.name = "EnemyMatchClock"
+	add_child(match_clock)
+	enemy_audio = EnemyAudioService.new()
+	enemy_audio.name = "EnemyAudio"
+	add_child(enemy_audio)
+
+## Starts the roster for a fresh run. The encounter counters are reset here so
+## a retry never inherits the previous run.
+func _start_encounter() -> void:
+	_run_counter += 1
+	encounter.run_id = _run_counter
+	encounter.reset()
+	encounter.rng = state.rng.stream(&"roster")
+	roster_spawner.combat = combat
+	roster_spawner.audio = enemy_audio
+	roster_spawner.players_provider = roster_players
+	roster_spawner.navigation = _arena.navigation_direction
+	roster_spawner.rng = state.rng.stream(&"roster_spawns")
+	enemy_audio.listener = player
+	match_clock.begin(state)
+	_spawn_accumulator = 0.0
+
+## Living players the roster may target.
+func roster_players() -> Array[Actor]:
+	var result: Array[Actor] = []
+	if roster_players_provider.is_valid():
+		var provided: Variant = roster_players_provider.call()
+		if provided is Array:
+			for entry in (provided as Array):
+				if entry is Actor:
+					result.append(entry as Actor)
+	if result.is_empty() and is_instance_valid(player) and player.health != null and player.health.is_alive():
+		result.append(player)
+	return result
 
 func _start_run() -> void:
 	var registry := get_node("/root/ContentRegistry") as ContentRegistryService
@@ -137,6 +208,7 @@ func _start_run() -> void:
 	if audio == null:
 		audio = AudioFeedback.new()
 		add_child(audio)
+	_start_encounter()
 	combat.resolver.events.damage_applied.connect(func(context: CombatContext,result: DamageResult) -> void:
 		if player.action_audio != null and context.owner_actor_id == player.actor_id:
 			if result.accepted and result.mitigated_damage > 0: player.action_audio.play_impact(context.source_skill_id)
@@ -220,16 +292,48 @@ func _physics_process(delta: float) -> void:
 		controller.step(delta, [player], combat)
 		if not state.alive:
 			return
+	_spawn_accumulator += delta
 	_spawn_clock -= delta
 	if _spawn_clock <= 0.0:
 		_spawn_clock += _spawn_config.period
-		var pressure: float = 1.0 + 0.06 * (state.current_level - 1) + 0.01 * state.elapsed_simulation_seconds / 60.0
-		for index in range(maxi(1, floori(pressure))):
-			spawn_enemy()
+		_advance_encounter()
 	_hud_clock -= delta
 	if _hud_clock <= 0.0:
 		_hud_clock = 0.1
 		_present_hud()
+
+## Advances the time based roster. The encounter owns the spawn budget, the
+## unlock gates and the per archetype caps; this only applies its decisions.
+func _advance_encounter() -> void:
+	if encounter == null or roster_spawner == null:
+		return
+	var window: float = _spawn_accumulator
+	_spawn_accumulator = 0.0
+	encounter.set_elapsed(state.elapsed_match_seconds)
+	for decision in encounter.advance(window):
+		_spawn_roster_enemy(decision)
+
+## Spawns one archetype of the roster. Returns the spawned actor, or null when
+## no safe position was available.
+func _spawn_roster_enemy(decision: Dictionary) -> EnemyActor:
+	var type_id: StringName = decision.get("enemy_type_id", &"")
+	if type_id == &"" or roster_spawner == null:
+		return null
+	var enemy := roster_spawner.spawn(type_id, state.current_level, encounter.difficulty_multiplier(), _enemies)
+	if enemy == null:
+		return null
+	enemy.actor_id = _next_actor_id
+	_next_actor_id += 1
+	enemy.set_target(player)
+	enemy.died.connect(_on_enemy_died)
+	_enemies.append(enemy)
+	encounter.note_spawned(type_id)
+	# The basic enemy keeps its legacy contact attack controller. The new
+	# archetypes run their own behaviour module instead.
+	if type_id == &"enemy.chaser":
+		var basic := load("res://content/skills/enemy_chaser_basic.tres") as SkillDefinition
+		_enemy_attacks[enemy.actor_id] = AttackController.new(enemy, basic)
+	return enemy
 
 func spawn_enemy() -> EnemyActor:
 	if _enemies.size() >= EnemySpawnDirector.population_cap(_spawn_config,state.current_level) or not state.alive:
@@ -262,6 +366,8 @@ func _on_enemy_died(actor: Actor) -> void:
 	kills += 1
 	_enemy_attacks.erase(actor.actor_id)
 	var enemy := actor as EnemyActor
+	if enemy != null and enemy.definition != null and encounter != null:
+		encounter.note_removed(enemy.definition.id)
 	if state.alive:
 		var orb := XpOrb.new()
 		orb.configure(player, enemy.definition.xp_reward, _curve)
@@ -285,9 +391,11 @@ func _show_upgrade(level: int, excluded: Array[String] = []) -> void:
 	state.run_phase = &"UPGRADE"
 	get_tree().paused = true
 	var cards: Array[String] = []
+	var kinds: Array[StringName] = []
 	for option in _offer:
 		cards.append(UiLocalizer.upgrade_label(option))
-	presentation.show_offers(level, cards,state.reroll_tokens)
+		kinds.append(&"rank" if option.is_skill_rank else (&"bound" if option.target_skill_id != &"" else &"global"))
+	presentation.show_offers(level, cards,state.reroll_tokens,kinds)
 	_present_hud()
 
 func request_reroll() -> void:

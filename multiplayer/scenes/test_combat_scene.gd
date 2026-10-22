@@ -49,6 +49,7 @@ func _run() -> void:
 		quit(1)
 		return
 	_check(combat_root.player != null, "player exists")
+	_check(combat_root.player.hitbox_indicator != null and combat_root.player.hitbox_indicator.visible and combat_root.player.hitbox_indicator.radius > 0.0, "player hitbox ring visible")
 	_check(combat_root.presentation != null, "presentation exists")
 	_check(combat_root.state != null and combat_root.state.run_phase == &"RUNNING", "run phase RUNNING")
 	_check(InputMap.has_action("pause"), "pause action registered")

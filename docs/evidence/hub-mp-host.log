@@ -1,0 +1,56 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+MultiplayerCoordinator: All modules initialized
+=== MULTIPLAYER UI FLOW TEST role=host port=24690 ===
+PASS movement input action registered
+PASS basic attack input action registered
+PASS skill input action registered
+PASS MultiplayerCoordinator autoload exists
+MultiplayerSessionFlow: Ready and connected to coordinator
+PASS session flow scene loaded
+Host requested...
+NetworkManager: Host started on port 24690, max 3 clients
+MultiplayerCoordinator: Server started
+Host start result: 0 (OK=0)
+PASS lobby shown after hosting
+PASS coordinator is host
+NetworkManager: Peer 382876939 connected (total: 2)
+MultiplayerCoordinator: Peer 382876939 connected
+PASS client joined the lobby
+Start match pressed - initializing map...
+MultiplayerSessionFlow: Showing loading screen
+MapSync: Host initialized map 'map.temple' with seed 1289924851 (checksum: c5c5b3c74f067ae61d8216b130b16835)
+Start match pressed - start_match() called
+MapSync: Client 382876939 ready
+MatchClockAuthority: Match started
+Session started - transitioning to IN_GAME
+Scene change result: 0
+MapSync: All clients ready, match can start
+=== MULTIPLAYER COMBAT RUN STARTING ===
+MultiplayerCombatRun: is_multiplayer_mode=true
+MultiplayerGameBridge: Initializing host session
+COMBAT_RUN_STARTED loadout=loadout.astra seed=20261015
+MultiplayerCombatRun: Registering local player
+MultiplayerCoordinator: Player 1 joined (peer 1, astra)
+MultiplayerGameBridge: Player 1 joined with character astra
+AuthoritativeWorld: Registered player 1 with character astra
+MultiplayerCombatRun: Local player 1 ready
+=== MULTIPLAYER COMBAT RUN READY ===
+MultiplayerCoordinator: Player 2 joined (peer 382876939, astra)
+MultiplayerGameBridge: Player 2 joined with character astra
+AuthoritativeWorld: Registered player 2 with character astra
+PASS host entered combat scene
+PASS host local player registered
+PASS host roster has both players
+PASS host received replicated client input
+PASS host local actor spawned in world
+PASS host sees client ghost
+PASS host sees client ghost move
+NetworkManager: Peer 382876939 disconnected (remaining: 1)
+MultiplayerCoordinator: Peer 382876939 disconnected
+MultiplayerCoordinator: Player 2 left (disconnect)
+AuthoritativeWorld: Unregistered player 2
+MultiplayerGameBridge: Player 2 left
+PASS client left cleanly
+NetworkManager: Session stopped
+RESULT session_flow_host: checks=16 failures=0

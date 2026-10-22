@@ -2,7 +2,7 @@
 from pathlib import Path
 import subprocess,shutil,json,hashlib,datetime
 S=Path('D:/SelfProject/RougeLite/worktrees/visual_pipeline_v2').resolve();R=Path('D:/SelfProject/RougeLite').resolve();BASE='9f0aea8'
-STATIC=['ASSET_LICENSES.md','content/catalog.tres','docs/04_TASKS.md','docs/05_DECISIONS.md','docs/WORK_LOG.md','docs/TOFU.md','docs/adr/ADR-2026-012-tofu-melee-sequence.md','scripts/core/combat_run_root.gd','scripts/training/training_panel.gd','scripts/ui/foundation_menu.gd','tests/integration/test_atyu.gd','tests/integration/test_graveshade.gd','tests/run_all.gd','tools/deploy_tofu.py']
+STATIC=['ASSET_LICENSES.md','content/catalog.tres','docs/04_TASKS.md','docs/05_DECISIONS.md','docs/WORK_LOG.md','docs/TOFU.md','docs/adr/ADR-2026-012-tofu-melee-sequence.md','scripts/core/combat_run_root.gd','scripts/training/training_panel.gd','scripts/ui/foundation_menu.gd','tests/integration/test_graveshade.gd','tests/run_all.gd','tools/deploy_tofu.py']
 NEW=['content/characters/tofu_stats.tres','content/characters/tofu_loadout.tres','content/skills/tofu_basic.tres','scripts/data/melee_combo_basic.gd','scripts/data/melee_sequence_executor.gd','scripts/combat/melee_sequence_runtime.gd','scripts/combat/melee_fear.gd','scripts/ui/melee_actor_effects.gd','scripts/ui/melee_visual_effect.gd','tests/integration/test_tofu.gd','tests/integration/measure_tofu.gd','tools/mugen_import/tofu_audit.py','tools/mugen_import/tofu_build.py','tools/mugen_import/tofu_content.py','tools/mugen_import/test_tofu.py']
 def main():
  tracked=set(subprocess.check_output(['git','ls-tree','-r','--name-only',BASE],cwd=S).decode().splitlines())

@@ -23,7 +23,7 @@ func test_session_full_rejects_fifth_player() -> void:
 	session_manager.register_host_player(&"astra")
 	session_manager.try_join_peer(2, &"vex")
 	session_manager.try_join_peer(3, &"boros")
-	session_manager.try_join_peer(4, &"atyu")
+	session_manager.try_join_peer(4, &"graveshade")
 	var result := session_manager.try_join_peer(5, &"viridian")
 	assert_false(result.accepted, "Should reject 5th player")
 	assert_eq(session_manager.get_player_count(), 4, "Should remain at 4 players")

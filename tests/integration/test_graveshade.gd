@@ -48,7 +48,7 @@ func count_kind(kind: String) -> int:
 	return total
 func run_tests() -> void:
 	var registry:=root.get_node("ContentRegistry") as ContentRegistryService
-	check(registry.validate_all().is_empty(),"T26 all content validates with sixth hero")
+	check(registry.validate_all().is_empty(),"T26 all content validates with fifth hero")
 	profile=registry.definition_copy(&"loadout.graveshade") as CombatLoadoutDefinition
 	check(profile!=null and profile.class_id==&"adc" and profile.stats.max_hp==115 and profile.stats.move_speed==210,"T02 data ADC115HP210speed")
 	check(profile.art_frames.get_meta("side_view",false) and profile.art_frames.get_frame_count(&"idle_east")==7,"T06 T07 actual source side-view body, no invented rear")
@@ -220,12 +220,16 @@ func scene_checks() -> void:
 	var locked: int=0
 	for child in slots.get_children():
 		if child is Button and (child as Button).disabled:locked+=1
-	check(slots.get_child_count()==20 and locked==13,"20 character slots, seven heroes and13unknown")
-	menu._select_character(&"loadout.graveshade")
-	check(menu._selected_loadout==&"loadout.graveshade","T18 sixthhero selectable")
+	check(slots.get_child_count()==20 and locked==14,"20 character slots, six heroes and14unknown")
+	var hub:=menu.find_child("CharacterHub",true,false) as CharacterHub
+	check(hub!=null and not hub.visible,"character hub stays closed until PLAY is pressed")
 	menu._start_run();await process_frame
+	check(hub.visible and hub.selected_loadout()==&"","PLAY opens the character hub with no hero picked")
+	hub.select_hero("graveshade")
+	check(hub.selected_loadout()==&"loadout.graveshade","T18 fifth hero selectable in the hub")
+	hub.confirm();await process_frame
 	var normal:=current_scene as CombatRunRoot
-	check(normal!=null and normal.loadout_id==&"loadout.graveshade","actual selected sixthhero starts PLAY")
+	check(normal!=null and normal.loadout_id==&"loadout.graveshade","actual selected fifth hero starts PLAY")
 	normal.set_physics_process(false);normal.player.set_physics_process(false);normal.skills.sync_level(11)
 	var enemy: EnemyActor=normal.spawn_enemy()
 	check(enemy!=null and enemy.global_position.distance_to(normal.player.global_position)>=550,"PLAY keeps safe550spawn")
@@ -241,7 +245,7 @@ func scene_checks() -> void:
 	normal.progression.add_xp(40);await process_frame
 	check(paused and normal.state.run_phase==&"UPGRADE" and normal._offer.size()==3,"T24 actual level-up modal pauses with exactly3 valid offers")
 	normal.request_upgrade(0);await process_frame
-	check(not paused and normal.state.run_phase==&"RUNNING","T24 selected upgrade resumes sixthhero")
+	check(not paused and normal.state.run_phase==&"RUNNING","T24 selected upgrade resumes fifth hero")
 	normal.player.health.commit_resolved_hp(0);await process_frame;await process_frame
 	check(normal.state.run_phase==&"DEAD" and String(normal.player.sprite_visual.animation).begins_with("death_"),"actual death plays decoded source knockdown pose")
 	check(normal.combat.get_child_count()==0,"actual death clears all ordnance and proc timers")

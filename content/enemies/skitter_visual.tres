@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="EnemyVisualProfile" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/enemy_visual_profile.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+sheet_path = "res://assets/art_v3/world/enemy_skitter.png"
+frame_size = Vector2i(24, 28)
+pivot = Vector2(12, 28)
+actions = Array[StringName]([&"idle", &"walk", &"windup", &"attack", &"hit", &"death"])
+frames_per_action = Array[int]([2, 4, 2, 2, 1, 3])
+facing_order = Array[StringName]([&"south", &"east", &"west", &"north"])
+tint = Color(1, 1, 1, 1)
+accent = Color(0.35, 0.92, 0.95, 1)
+accent_pulse = 0.9
+health_bar_width = 24.0
+hurtbox_size = Vector2(18, 22)
+hurtbox_offset = Vector2(0, -14)
+core_offset = Vector2(0, -14)
+afterimages = true

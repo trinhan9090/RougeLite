@@ -112,7 +112,7 @@ func request_cast(slot: int, target_override: Variant = null) -> bool:
 		for candidate in candidates:
 			if is_instance_valid(candidate) and not candidate.is_queued_for_deletion() and combat.unobstructed(owner.global_position,candidate.global_position):
 				eligible.append(candidate)
-	var target: Actor = TargetingService.nearest(owner, eligible, range_px)
+	var target: Actor = TargetingService.priority(owner, eligible, range_px)
 	var manual: bool = target_override is Vector2
 	if definition.targeting.policy == "self":
 		if not manual and (target == null or (adapter != null and adapter.kind == "shield" and owner.health.shield_total() > 0.0)):

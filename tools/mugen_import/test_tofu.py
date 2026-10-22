@@ -35,7 +35,7 @@ class TofuSourceTests(unittest.TestCase):
     self.assertEqual(row['provenance_status'],'original_generated_non_voice');self.assertNotEqual(row['channel'],'voice');self.assertIn('fallback_',row['path']);self.assertNotIn('500_',row['path'])
   for row in self.catalog['sounds']:self.assertEqual(row['identity'],'CANDIDATE_NOT_LISTENED')
  def test_prior_six_hero_gameplay_preserved(self):
-  for hero in ['astra','vex','boros','atyu','viridian','graveshade']:
+  for hero in ['astra','vex','boros','viridian','graveshade']:
    for rel in [f'content/characters/{hero}_loadout.tres',f'content/characters/{hero}_stats.tres',f'content/skills/{hero}_basic.tres']:
     old=subprocess.check_output(['git','show','9f0aea8:'+rel],cwd=ROOT).replace(b'\r\n',b'\n')
     current=(ROOT/rel).read_bytes().replace(b'\r\n',b'\n')

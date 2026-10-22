@@ -46,7 +46,7 @@ func _attach_bolt(ref: WeakRef) -> void:
 	# deferred call; hide any CombatVisualEffect added after us as well.
 	if not node.has_meta("mapped_hide_connected"):
 		node.set_meta("mapped_hide_connected",true)
-		node.child_entered_tree.connect(_hide_default_visuals.bind(node))
+		node.child_entered_tree.connect(_hide_default_child)
 	node.set_meta("art_bound",true)
 	var effect := MappedSpriteEffect.new()
 	effect.sequence=sequences.bolt;effect.persistent=true;effect.size_px=bolt_size
@@ -59,6 +59,10 @@ func _hide_default_visuals(node: Node) -> void:
 	for child in node.get_children():
 		if child is CombatVisualEffect:
 			(child as CanvasItem).hide()
+
+func _hide_default_child(child: Node) -> void:
+	if child is CombatVisualEffect:
+		(child as CanvasItem).hide()
 
 func _on_event(event: Dictionary) -> void:
 	var key: String=String(event.get("skill",""))

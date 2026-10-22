@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EnemyVisualProfile" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/enemy_visual_profile.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+sheet_path = "res://assets/art_v3/world/shade_enemy.png"
+frame_size = Vector2i(32, 40)
+pivot = Vector2(16, 35)
+actions = Array[StringName]([&"walk"])
+frames_per_action = Array[int]([4])
+facing_order = Array[StringName]([&"south", &"east", &"west", &"north"])
+tint = Color(1, 1, 1, 1)
+accent = Color(0.902, 0.674, 0.38, 1)
+accent_pulse = 0.0
+health_bar_width = 32.0
+hurtbox_size = Vector2(24, 32)
+hurtbox_offset = Vector2(0, -18)

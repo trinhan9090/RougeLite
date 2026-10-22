@@ -1,20 +1,20 @@
 # Endless Survival RPG — Windows demo
 
-**Current local PLAY (2026-10-17):** `Launch.cmd` now includes Atyu as a fourth hero, with a20-slot avatar selector (16 unavailable). This private MUGEN-art adaptation is documented in [ATYU_PLAYABLE](docs/ATYU_PLAYABLE.md); artwork redistribution rights remain unverified. Historical packaged ZIPs below retain their original three-hero roster. No new public package is supplied.
+**Current local PLAY:** `Launch.cmd` includes six heroes — Astra, Vex, Boros, Viridian, Graveshade and Tofu — with a 20-slot avatar selector (14 unavailable). Historical packaged ZIPs below retain their original three-hero roster. No new public package is supplied.
 
-Godot4.7.2 / GDScript / Compatibility renderer. Three complete character kits,12 reusable mechanic augments,8 infinite stat cores,three seeded map templates and two boss archetypes with endless scaling.
+Godot4.7.2 / GDScript / Compatibility renderer. Six complete character kits,12 reusable mechanic augments,8 infinite stat cores,three seeded map templates and two boss archetypes with endless scaling.
 
 ## Play
 
-**TRAINING:** choose a hero, then TRAINING on the home menu: full HP, zero active cooldown, stationary immortal boss, hero/rank/reset controls and measured hit damage. See [TRAINING](docs/TRAINING.md). Normal PLAY rules remain unchanged.
+**TRAINING:** press TRAINING on the home menu, then pick a hero in the character hub: full HP, zero active cooldown, stationary immortal boss, hero/rank/reset controls and measured hit damage. See [TRAINING](docs/TRAINING.md). Normal PLAY rules remain unchanged.
 
-Current display/input: native1920x1080 fullscreen, native-scale HUD, ground Manual arrow follows last attack independently of movement. See [UI_AIM03](docs/UI_AIM03.md).
+Current display/input: native1920x1080 fullscreen, native-scale HUD, hitbox ring under the player, Manual casts follow the last accepted attack. See [UI_AIM03](docs/UI_AIM03.md).
 
 **Packaged:** extract `builds/EndlessSurvival-Windows.zip`, open `windows`, double-click `Play.cmd`. The included runtime needs no Godot installation, PowerShell7 or internet connection.
 
 **From source:** double-click `Launch.cmd` (or `.\Launch.cmd` in Windows PowerShell). Open the editor with `.\Launch.cmd --editor`. A matching engine already exists locally under ignored `tools/godot/`; on a fresh source checkout supply/install Godot4.7.2 as described by `tools/launch.ps1 -GodotPath <executable>`.
 
-Choose Astra/Mage, Vex/ADC or Boros/Brute. WASD moves; the nearest enemy in range is attacked automatically. Auto uses active skills when valid; Manual uses the last accepted attack direction and J/K/L/I (remappable). Skills unlock for free at3/6/9/11, capped at4/4/4/3 ranks. Every level offers one of3 valid upgrades with explicit skill targets and numeric before/after values. Earn one reroll every10 levels, store at most3.
+Pick a hero in the character hub that opens on PLAY, MULTIPLAYER or TRAINING: Astra/Mage, Vex/ADC, Boros/Brute, Viridian/Mage, Graveshade/ADC or Tofu/Brute. WASD moves; the nearest enemy in range is attacked automatically. Auto uses active skills when valid; Manual uses the last accepted attack direction and J/K/L/I (remappable). Skills unlock for free at3/6/9/11, capped at4/4/4/3 ranks. Every level offers one of3 valid upgrades with explicit skill targets and numeric before/after values. Earn one reroll every10 levels, store at most3.
 
 Esc pauses. The pause menu switches Auto/Manual, remaps skills and toggles fullscreen/windowed. Bosses arrive at10/20/30/...; dodge orange warnings. Boss EXP is banked until victory. Winning changes map, keeps permanent upgrades/ranks, clears temporary effects, resets cooldowns, heals15% maximum HP and gives2s immunity. Death ends the run; Retry preserves settings and resets run progress.
 
@@ -45,7 +45,7 @@ GitHub publication remains blocked by the previously documented Git/authenticati
 
 `docs/README.md`, then `05_DECISIONS.md` → `01_CORE_ARCHITECTURE.md` → `02_GAMEPLAY_SPEC.md` → `04_TASKS.md` → `03_AGENTS.md` (also root `AGENTS.md`). Canonical progress/evidence is in docs; original root handoff files are historical snapshots.
 
-Main menu: PLAY starts the selected character (Astra initially). CHARACTER shows portraits, base stats and skill unlock/rank/cooldown details and lets you select a character without starting a run. SETTING contains Auto/Manual, key bindings, seed and fullscreen/window controls. BACK TO MENU returns to the entry screen.
+Main menu: the CHARACTER page is information only — portraits, base stats and skill unlock/rank/cooldown details for every hero. PLAY, MULTIPLAYER and TRAINING open the character hub, where you pick the hero (animated portrait, name and type) before the run starts; BACK returns to the menu with the seed and settings unchanged. SETTING contains Auto/Manual, key bindings, seed and fullscreen/window controls. BACK TO MENU returns to the entry screen.
 
 Manual aiming: WASD turns the cyan curved facing arrow. Stopping preserves the last facing. Directional skills cast along this facing at their configured range; self skills remain centered on the player. Mouse position does not change Manual aim. Basics remain automatic; ordinary ranged basics fly straight with launch-time leading, while Homing augments explicitly enable turning.
 

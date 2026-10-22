@@ -5,6 +5,10 @@ extends RefCounted
 var seed: int
 var content_version: String
 var elapsed_simulation_seconds: float = 0.0
+## Host-authoritative match clock used by the time-gated enemy roster. It keeps
+## running while the tree is paused for augment selection, freezes on an
+## explicit player pause and is only reset when a new run starts.
+var elapsed_match_seconds: float = 0.0
 var current_level: int = 1
 var current_xp: int = 0
 var xp_pending_during_boss: int = 0

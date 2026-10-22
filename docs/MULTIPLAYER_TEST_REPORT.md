@@ -39,7 +39,7 @@ Final results:
 | multiplayer_client (2-process network) | 10 | 0 | 0 |
 | session_flow_host (2-process UI flow) | 16 | 0 | 0 |
 | session_flow_client (2-process UI flow) | 12 | 0 | 0 |
-| test_combat_scene (gameplay wiring) | 8 | 0 | 0 |
+| test_combat_scene (gameplay wiring) | 9 | 0 | 0 |
 | tests/unit/test_content.gd (regression) | 31 | 0 | 0 |
 | tests/integration/test_actors.gd (regression) | 5 | 0 | 0 |
 

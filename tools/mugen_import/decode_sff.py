@@ -1,5 +1,5 @@
 """Original bounded SFF2 decoder: raw/RLE8/LZ5 and linked palettes/sprites.
-References: Elecbyte format; structural audit URLs recorded in docs/ATYU_BROWSER.md.
+References: Elecbyte format.
 No MUGEN state code is executed. Generated PNGs are private runtime textures.
 """
 import struct,json,hashlib,argparse,io

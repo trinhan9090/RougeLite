@@ -32,14 +32,6 @@ reports/visual_qa/v3_fix03/*.png
 reports/visual_qa/v3_fix03/*.mp4
 
 # Private, rebuildable third-party MUGEN runtime textures (not release assets).
-experiments/mugen_atyu/data/
-experiments/mugen_atyu/.godot/
-assets/private_atyu/*.png
-assets/private_atyu/*.png.import
-
-assets/private_atyu/audio/*.wav
-experiments/mugen_atyu/audio/
-
 tools/mugen_sources/
 experiments/viridian/
 assets/private_viridian/*.png

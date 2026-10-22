@@ -1,6 +1,44 @@
 [gd_resource type="Resource" script_class="SpawnDefinition" load_steps=2 format=3]
+
 [ext_resource type="Script" path="res://scripts/data/spawn_definition.gd" id="1"]
+
 [resource]
 script = ExtResource("1")
 id = &"config.spawn"
 display_name = "Default spawn policy"
+base_spawn_rate = 0.7
+peak_spawn_rate = 2.2
+ramp_seconds = 720.0
+time_tier_seconds = Array[float]([0.0, 120.0, 240.0, 360.0, 540.0, 720.0])
+time_tier_caps = Array[int]([45, 55, 70, 85, 95, 110])
+tier_weights = Array[Dictionary]([{
+"enemy.chaser": 100.0
+}, {
+"enemy.chaser": 85.0,
+"enemy.bulwark": 15.0
+}, {
+"enemy.chaser": 70.0,
+"enemy.bulwark": 12.0,
+"enemy.skitter": 18.0
+}, {
+"enemy.chaser": 60.0,
+"enemy.bulwark": 12.0,
+"enemy.skitter": 18.0,
+"enemy.marksman": 10.0
+}, {
+"enemy.chaser": 48.0,
+"enemy.bulwark": 13.0,
+"enemy.skitter": 19.0,
+"enemy.marksman": 12.0,
+"enemy.ritualist": 8.0
+}, {
+"enemy.chaser": 38.0,
+"enemy.bulwark": 14.0,
+"enemy.skitter": 20.0,
+"enemy.marksman": 13.0,
+"enemy.ritualist": 8.0,
+"enemy.bomber": 7.0
+}])
+difficulty_step_seconds = 180.0
+difficulty_step_bonus = 0.06
+max_difficulty_multiplier = 3.0

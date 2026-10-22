@@ -171,28 +171,27 @@ Canonical definitions: assets/Endless_Survival_Wizard_of_Legend_Visual_Spec_v3/0
 - [x] V3-FIX-01 User corrections: north legs, actor-centered cast origin, nearest-enemy Astra L with facing fallback. Tests: native frames, real projectile/beam geometry and Auto/Manual targeting.
 - [x] V3-FIX-02 Enemy torso hurtbox independent of locomotion collider;11 real-physics checks,38 canonical suites and61 focused live/packed checks pass. Evidence reports/visual_qa/v3_three_heroes/REPORT.md.
 - [x] V3-FIX-03 Vex/Boros rear movement; user-confirmed downward sword carry beside hip; roll/haste cleanup; shared Astra/Boros body-centered shield/Titan/guard-hit feedback. TECH_PASSED:39 canonical suites,95 focused live/packed checks,151 pose and2382 frame checks. Evidence reports/visual_qa/v3_fix03/REPORT.md. Direct owner visual play-test pending; no further media exports.
-- [x] ATYU-P0-AUDIT Inspect supplied Atyu design and local MUGEN package; inventory, DEF/AIR/state consistency and integration gaps. No runtime integration or media exports.
-- [x] ATYU-P1-P2 Decode supplied SFF/AIR and deliver isolated Godot source-animation browser; preserve timing/offsets and report unsupported features. No PLAY integration or QA media exports.
-- [x] ATYU-P3 Integrate user-approved fourth hero with source move adaptations, 20-slot avatar/detail selection, automated gameplay regression and current PLAY deployment. Private local mod-art test only; no QA media exports. TECH_PASSED:40 suites,54 focused live checks,271 four-hero accelerated progression checks; direct visual approval pending. See ATYU_PLAYABLE.md and WORK_LOG.md.
 
 - [x] UI-AIM-03 Native1920x1080 fullscreen render (latest clarification), responsive1:1 menu/HUD; ground-plane Manual arrow and casts from last accepted attack.52 headless /54 live GUI checks pass;41 regression suites verified after targeted rerun of superseded viewport assertion. Evidence: UI_AIM03.md / WORK_LOG.md / ui_aim03_results.json.
 
 - [x] TRAIN-01 Separate training menu mode: full HP, zero active cooldown, stationary immortal real boss, rank/hero/reset controls, numeric HP/XP, Space basic, floating enemy damage and normal PLAY isolation. TECH_PASSED:43 suites,85+15 live GUI checks; evidence TRAINING.md / WORK_LOG.md / training_results.json.
 
-- [x] ATYU-AUDIO-01 Extract supplied SND, trace CNS sounds, map Basic/J/K/L/I and synchronize bounded 2D audio with actual actions; verify PLAY/TRAINING. TECH_PASSED:44 suites;54 final focused headless/56 current Launch GUI checks. Evidence: ATYU_AUDIO.md / WORK_LOG.md / audio_results.json. Human listening approval pending.
+- [ ] VIRIDIAN-01 V0–V7 source audit/catalog verification then full fourth-hero integration, data-defined Control Mage kit, actual source side-view body animation, private source effects/audio, automated compatibility and actual Launch proof. V8 human acceptance remains pending.
 
-- [x] ATYU-AUDIO-02 Remove basic voice clips from all three combo cues, preserve sword/impact and active-skill audio. Verified sword-only mappings and unchanged skill/impact profiles;53 headless/55 current Launch GUI checks pass. See WORK_LOG.md / ATYU_AUDIO.md.
-
-- [ ] VIRIDIAN-01 V0–V7 source audit/catalog verification then full fifth-hero integration, data-defined Control Mage kit, actual source side-view body animation, private source effects/audio, automated compatibility and actual Launch proof. V8 human acceptance remains pending.
-
-- [ ] GRAVESHADE-01 PLAYABLE_TECH_TESTED: sixth ADC with actual Punisher body/VFX/SFX and full Basic/J/K/L/I;77currentLaunchGUIchecks,46suite regression and600.012s30/60/120mobsoak pass. Archive verification T01 partial (attachment transfer failed); human visual/listening approval and high-load performance follow-up pending. Doom Basic VFX reduction included. Evidence: reports/graveshade_tests.md / graveshade_blockers.md / docs/GRAVESHADE.md. No QA media exports.
+- [ ] GRAVESHADE-01 PLAYABLE_TECH_TESTED: fifth ADC with actual Punisher body/VFX/SFX and full Basic/J/K/L/I;77currentLaunchGUIchecks,46suite regression and600.012s30/60/120mobsoak pass. Archive verification T01 partial (attachment transfer failed); human visual/listening approval and high-load performance follow-up pending. Doom Basic VFX reduction included. Evidence: reports/graveshade_tests.md / graveshade_blockers.md / docs/GRAVESHADE.md. No QA media exports.
 
 - [ ] COMBAT-VFX-01 DEPLOYED_TARGETED_TESTS_PASSED: Doom per-ray active hit windows and compact Punisher explosions; current Launch79/81checks pass,45distinct regression suites pass. Bound-offers suite final result not captured after transport disconnect; direct visual acceptance pending. Evidence: reports/doom_punisher_vfx_fix.md.
 
 - [x] DOOM-AUDIO-01 TECH_PASSED: supplied replacement Doom voice plays in parallel with original0.65s ray windup; stationary through ray completion only. Final current audio21headless/23rootGUIchecks pass; same runtime Viridian77/movement12/Training85checks pass. Human listening approval pending. See DOOM_ULTIMATE_AUDIO.md.
 
-- [ ] TOFU-01 PLAYABLE_TECH_TESTED: seventh Tofu with actual source Basic/J/K/L/I visuals and shared melee kit;88headless/88currentLaunchGUIchecks,8Python tests,12regression suites and30mobnative1080p smoke pass. Source voice listening/true4direction art/human approval/performance gate remain pending. Evidence: docs/TOFU.md and reports/tofu/20261018/tests.md.
+- [ ] TOFU-01 PLAYABLE_TECH_TESTED: sixth Tofu with actual source Basic/J/K/L/I visuals and shared melee kit;88headless/88currentLaunchGUIchecks,8Python tests,12regression suites and30mobnative1080p smoke pass. Source voice listening/true4direction art/human approval/performance gate remain pending. Evidence: docs/TOFU.md and reports/tofu/20261018/tests.md.
 
 - [x] UI-WINDOW-01 Restore native Windows minimize/maximize/close via decorated maximized startup; preserve1920x1080 viewport. Actual GUI5/5 checks passed; reports/native_window_gui.log.
 
 - [x] ZONE-AIM-01 Nearest reachable enemy placement for remote ground DoT (Astra L, Viridian K, Tofu K, Graveshade K), both Manual/Auto; preserve static zones and other skill targeting.40actualGUI+48selection checks pass; reports/ground_zone_targeting.md (existing unrelated renderer diagnostic recorded).
+
+- [x] UI-POLISH-01 Presentation-only graphics/UI/UX polish: main menu, character select, settings, run HUD with dedicated boss bar, upgrade card kind tags, announcement banner, training panel placement, multiplayer host/join and lobby. No playable-character change. Evidence: WORK_LOG.md (2026-10-21 UI-POLISH-01 / PERF-01).
+
+- [x] PERF-01 Presentation frame-time work: repaint only on state change for hitbox ring, actor overlay, enemy sprite and actor transform; pooled reusable damage captions instead of per-hit Label allocation. Evidence: WORK_LOG.md (2026-10-21 UI-POLISH-01 / PERF-01).
+
+- [x] UI-HUB-01 Character hub: the main-menu CHARACTER page becomes a read-only information page and the playable hero is picked in a dedicated hub (animated portrait + short name + type only) opened by PLAY / MULTIPLAYER / TRAINING. Shared `HeroRoster` is the single source for roster order, loadout ids and class labels; the hub pick is carried into multiplayer through `MultiplayerCoordinator.local_character` instead of forcing Astra. No character data, sprite, animation, stat, skill or loadout change. Evidence: WORK_LOG.md (2026-10-21 UI-HUB-01).

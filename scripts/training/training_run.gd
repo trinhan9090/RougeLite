@@ -11,6 +11,10 @@ var _training_layer: CanvasLayer
 var panel: TrainingPanel
 const DUMMY_POSITION: Vector2 = Vector2(75,0)
 
+func _ready() -> void:
+	super._ready()
+	get_viewport().size_changed.connect(_layout_training_panel)
+
 func _start_run() -> void:
 	if is_instance_valid(_training_layer): _training_layer.queue_free()
 	super._start_run()
@@ -41,6 +45,11 @@ func _start_run() -> void:
 	_training_layer=CanvasLayer.new()
 	_training_layer.layer=0 # normal pause/modal layer must remain above training controls
 	add_child(_training_layer)
+	var frame := PanelContainer.new()
+	frame.name = "TrainingFrame"
+	frame.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	frame.add_theme_stylebox_override("panel", _training_frame_style())
+	_training_layer.add_child(frame)
 	panel=TrainingPanel.new()
 	panel.hero_id=loadout_id
 	panel.skill_rank=training_rank
@@ -49,11 +58,32 @@ func _start_run() -> void:
 	panel.hero_selected.connect(func(id: StringName) -> void: loadout_id=id;request_retry())
 	panel.rank_selected.connect(func(value: int) -> void: training_rank=value;request_retry())
 	panel.reset_requested.connect(reset_training)
-	_training_layer.add_child(panel)
+	frame.add_child(panel)
+	_layout_training_panel()
 	hit_count=0;total_damage=0;last_damage=0;_first_hit=-1;_auto_left=0
 	presentation.announce("TRAINING — đầy máu, chiêu hồi 0s, boss bất tử")
 	_present_hud()
 	print("TRAINING_READY hero=%s rank=%d"%[loadout_id,training_rank])
+
+## Training controls sit on the right edge so they never fight the run HUD.
+func _layout_training_panel() -> void:
+	if not is_instance_valid(_training_layer): return
+	var frame := _training_layer.get_node_or_null("TrainingFrame") as Control
+	if frame == null: return
+	var view: Vector2 = get_viewport().get_visible_rect().size
+	frame.position = Vector2(maxf(0.0,view.x-400.0),64.0)
+
+func _training_frame_style() -> StyleBoxFlat:
+	var style := StyleBoxFlat.new()
+	style.bg_color = Color(0.03, 0.04, 0.07, 0.82)
+	style.border_color = Color(0.32, 0.40, 0.54, 0.85)
+	style.set_border_width_all(2)
+	style.set_corner_radius_all(10)
+	style.content_margin_left = 12
+	style.content_margin_right = 12
+	style.content_margin_top = 10
+	style.content_margin_bottom = 10
+	return style
 
 func _change_map() -> void:
 	state.map_id=&"map.ruined_temple"

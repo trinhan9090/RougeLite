@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="EnemyDefinition" load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/enemy_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/actor_stat_definition.gd" id="2"]
+[ext_resource type="Resource" path="res://content/enemies/bulwark_behavior.tres" id="3"]
+[ext_resource type="Resource" path="res://content/enemies/bulwark_visual.tres" id="4"]
+[ext_resource type="Resource" path="res://content/enemies/bulwark_audio.tres" id="5"]
+[ext_resource type="Resource" path="res://content/skills/enemy_bulwark_slam.tres" id="6"]
+
+[sub_resource type="Resource" id="Stats"]
+script = ExtResource("2")
+max_hp = 140.0
+move_speed = 55.0
+armor = 10.0
+crit_chance = 0.0
+
+[resource]
+script = ExtResource("1")
+id = &"enemy.bulwark"
+display_name = "Iron Bulwark"
+stats = SubResource("Stats")
+damage = 8.0
+xp_reward = 18
+attack_interval = 2.25
+roster_entry = true
+min_match_seconds = 120.0
+spawn_weight = 14.0
+max_alive = 6
+hp_multiplier = 4.0
+move_speed_multiplier = 0.5
+damage_multiplier = 1.8
+behavior_id = &"chase_slam"
+scene_path = "res://scenes/enemies/bulwark.tscn"
+behavior_settings = ExtResource("3")
+attack_skill = ExtResource("6")
+visual_profile = ExtResource("4")
+audio_profile = ExtResource("5")

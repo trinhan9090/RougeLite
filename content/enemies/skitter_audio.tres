@@ -1,0 +1,43 @@
+[gd_resource type="Resource" script_class="EnemyAudioProfile" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/enemy_audio_profile.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+cues = {
+"step": {
+"duration": 0.04,
+"freq": 1400.0,
+"freq_end": 900.0,
+"gain": 0.22,
+"wave": "square"
+},
+"windup": {
+"duration": 0.2,
+"freq": 800.0,
+"freq_end": 1800.0,
+"gain": 0.3,
+"wave": "saw"
+},
+"attack": {
+"duration": 0.16,
+"freq": 2200.0,
+"freq_end": 500.0,
+"gain": 0.4,
+"noise": 0.8,
+"wave": "noise"
+},
+"impact": {
+"duration": 0.05,
+"freq": 2600.0,
+"gain": 0.5,
+"wave": "square"
+},
+"death": {
+"duration": 0.3,
+"freq": 1800.0,
+"freq_end": 420.0,
+"gain": 0.45,
+"wave": "saw"
+}
+}

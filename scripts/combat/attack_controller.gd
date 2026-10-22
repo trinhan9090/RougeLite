@@ -20,7 +20,7 @@ func step(delta: float, candidates: Array[Actor], combat: CombatService) -> bool
 	if not is_instance_valid(owner) or not owner.health.is_alive() or owner.statuses.stunned() or cooldown_left > 0.0:
 		return false
 	var range_px: float = _base_rank.range_px * owner.factor(&"range")
-	var target: Actor = TargetingService.nearest(owner, candidates, range_px)
+	var target: Actor = TargetingService.priority(owner, candidates, range_px)
 	if target == null:
 		return false
 	var rank := _base_rank.duplicate(true) as SkillRankDefinition

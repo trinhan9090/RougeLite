@@ -31,9 +31,8 @@ func _run() -> void:
 	valid = valid and home.visible and not characters.visible and not settings_page.visible
 	(menu.find_child("CharacterButton", true, false) as Button).pressed.emit()
 	valid = valid and characters.visible and not home.visible and not settings_page.visible
-	(menu.find_child("SelectVex", true, false) as Button).pressed.emit()
-	valid = valid and (menu.find_child("SelectedCharacter", true, false) as Label).text.contains("Vex")
-	valid = valid and (menu.find_child("SelectVex", true, false) as Button).text == "SELECTED"
+	valid = valid and menu.find_child("SelectVex", true, false) == null
+	valid = valid and menu.find_child("SelectedCharacter", true, false) == null
 	(menu.find_child("BackButton", true, false) as Button).pressed.emit()
 	(menu.find_child("SettingButton", true, false) as Button).pressed.emit()
 	valid = valid and settings_page.visible and not characters.visible and not home.visible
@@ -80,6 +79,12 @@ func _run() -> void:
 	seed_input.text = "20261015"
 	(menu.find_child("BackButton", true, false) as Button).pressed.emit()
 	(menu.find_child("PlayButton", true, false) as Button).pressed.emit()
+	await process_frame
+	var hub := menu.find_child("CharacterHub", true, false) as CharacterHub
+	valid = valid and hub != null and hub.visible and hub.selected_loadout() == &""
+	hub.select_hero("vex")
+	valid = valid and hub.selected_loadout() == &"loadout.vex"
+	hub.confirm()
 	await process_frame
 	var combat := current_scene as CombatRunRoot
 	valid = valid and combat != null and combat.loadout_id == &"loadout.vex"

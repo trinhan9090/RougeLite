@@ -25,6 +25,8 @@ var map_sync: MapSync
 var net_diagnostics: NetworkDiagnostics
 
 var _is_multiplayer_active: bool = false
+## Hero picked in the character hub before joining a multiplayer session.
+var local_character: StringName = &"astra"
 
 func _ready() -> void:
 	_initialize_modules()

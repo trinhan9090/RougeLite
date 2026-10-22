@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="EnemyBehaviorSettings" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/enemy_behavior_settings.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+aim_seconds = 0.4
+recovery_seconds = 1.8
+attack_range_px = 420.0
+strike_radius_px = 10.0
+hold_distance_px = 220.0
+retreat_distance_px = 140.0
+max_engagement_range_px = 420.0
+projectile_speed = 165.0
+retarget_interval = 0.5

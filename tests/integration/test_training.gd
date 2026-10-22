@@ -17,7 +17,7 @@ func run_tests() -> void:
 	fixture.name="AppSettings"
 	root.add_child(fixture)
 	fixture.set_mode(&"MANUAL")
-	for hero: String in ["astra","vex","boros","atyu"]:
+	for hero: String in ["astra","vex","boros","viridian"]:
 		var game := (load("res://scenes/run/training_run.tscn") as PackedScene).instantiate() as TrainingRun
 		game.loadout_id=StringName("loadout."+hero)
 		root.add_child(game)
@@ -77,11 +77,13 @@ func run_tests() -> void:
 	await process_frame
 	await process_frame
 	check(menu.find_child("TrainingButton",true,false)!=null,"home exposes TRAINING")
-	menu._select_character(&"loadout.atyu")
 	(menu.find_child("TrainingButton",true,false) as Button).pressed.emit()
 	await process_frame
+	var hub:=menu.find_child("CharacterHub",true,false) as CharacterHub
+	check(hub!=null and hub.visible,"TRAINING opens the character hub")
+	hub.select_hero("tofu");hub.confirm();await process_frame
 	var training := current_scene as TrainingRun
-	check(training!=null and training.loadout_id==&"loadout.atyu","menu training uses selected character")
+	check(training!=null and training.loadout_id==&"loadout.tofu","menu training uses the hub character")
 	if training!=null:
 		(training.panel.find_child("TrainingHero",true,false) as OptionButton).item_selected.emit(1)
 		for i in range(5): await process_frame

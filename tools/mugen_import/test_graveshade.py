@@ -46,7 +46,7 @@ class GraveshadeAuditTests(unittest.TestCase):
     self.assertFalse(any(a>0 and max(r,g,b)<8 for r,g,b,a in im.get_flattened_data()),row['path'])
  def test_T30_old_hero_gameplay_unchanged(self):
   files=[]
-  for hero in ['astra','vex','boros','atyu','viridian']:
+  for hero in ['astra','vex','boros','viridian']:
    files += [f'content/characters/{hero}_loadout.tres',f'content/characters/{hero}_stats.tres',f'content/skills/{hero}_basic.tres']
   for f in files:
    if not (ROOT/f).exists():continue

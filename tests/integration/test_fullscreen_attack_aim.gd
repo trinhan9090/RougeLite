@@ -28,7 +28,7 @@ func run_tests() -> void:
 	menu.queue_free()
 	await process_frame
 	var registry := root.get_node("ContentRegistry") as ContentRegistryService
-	for hero: String in ["astra","vex","boros","atyu"]:
+	for hero: String in ["astra","vex","boros","viridian"]:
 		var profile := registry.definition_copy(StringName("loadout."+hero)) as CombatLoadoutDefinition
 		var owner := PlayerActor.new()
 		owner.actor_id=1
@@ -62,7 +62,7 @@ func run_tests() -> void:
 		owner.set_physics_process(false)
 		check(owner.attack_direction.is_equal_approx(expected),hero+" movement cannot rotate aim")
 		await process_frame
-		check(owner.aim_indicator.visible and owner.aim_indicator.position.y>0 and owner.aim_indicator.z_index<0,hero+" indicator under feet behind art")
+		check(owner.hitbox_indicator.visible and owner.hitbox_indicator.z_index<0 and owner.hitbox_indicator.radius>0,hero+" hitbox ring under feet behind art")
 		owner.record_attack_direction(Vector2.ZERO)
 		owner.record_attack_direction(Vector2(INF,0))
 		check(owner.attack_direction.is_equal_approx(expected),hero+" invalid directions ignored")
@@ -85,7 +85,7 @@ func run_tests() -> void:
 		owner.manual_aim=false
 		await process_frame
 		await process_frame
-		check(not owner.aim_indicator.visible,hero+" Auto hides ground indicator")
+		check(owner.hitbox_indicator.visible,hero+" hitbox ring stays visible in Auto")
 		owner.queue_free();target.queue_free();combat.queue_free()
 		await process_frame
 	var game := (load("res://scenes/run/combat_run.tscn") as PackedScene).instantiate() as CombatRunRoot

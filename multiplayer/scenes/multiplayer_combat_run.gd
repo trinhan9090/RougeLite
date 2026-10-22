@@ -9,15 +9,6 @@ extends Node2D
 ## shared combat is not implemented yet (see docs/MULTIPLAYER_TEST_REPORT.md).
 
 const COMBAT_RUN_SCENE := preload("res://scenes/run/combat_run.tscn")
-const CHARACTER_LOADOUTS: Dictionary[StringName, StringName] = {
-	&"astra": &"loadout.astra",
-	&"vex": &"loadout.vex",
-	&"boros": &"loadout.boros",
-	&"atyu": &"loadout.atyu",
-	&"viridian": &"loadout.viridian",
-	&"graveshade": &"loadout.graveshade",
-	&"tofu": &"loadout.tofu",
-}
 const POSITION_SEND_INTERVAL := 0.1
 
 var multiplayer_coordinator: Node
@@ -47,13 +38,18 @@ func _ready() -> void:
 	add_child(game_bridge)
 	game_bridge.initialize_multiplayer_session(multiplayer_coordinator.is_host(), self)
 
+	# The hero picked in the character hub travels with the coordinator.
+	var chosen: Variant = multiplayer_coordinator.get("local_character")
+	if chosen != null and StringName(chosen) != &"":
+		selected_character = StringName(chosen)
+
 	multiplayer_coordinator.local_player_registered.connect(_on_local_player_registered)
 	multiplayer_coordinator.player_left_session.connect(_on_player_left)
 	multiplayer_coordinator.session_ended.connect(_on_session_ended)
 
 	# Start the normal combat composition so the scene is immediately playable.
 	combat_root = COMBAT_RUN_SCENE.instantiate() as CombatRunRoot
-	combat_root.loadout_id = CHARACTER_LOADOUTS.get(selected_character, &"loadout.astra")
+	combat_root.loadout_id = HeroRoster.loadout_for(String(selected_character))
 	add_child(combat_root)
 	move_child(combat_root, 0)
 

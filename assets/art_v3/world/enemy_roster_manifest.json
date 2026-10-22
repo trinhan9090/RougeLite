@@ -1,0 +1,97 @@
+{
+  "generator": "tools/generate_enemy_sheets.py",
+  "origin": "original, generated in-project",
+  "licence": "project-owned",
+  "layout": {
+    "actions": [
+      "idle",
+      "walk",
+      "windup",
+      "attack",
+      "hit",
+      "death"
+    ],
+    "frames_per_action": {
+      "idle": 2,
+      "walk": 4,
+      "windup": 2,
+      "attack": 2,
+      "hit": 1,
+      "death": 3
+    },
+    "facings": [
+      "south",
+      "east",
+      "west",
+      "north"
+    ],
+    "row_formula": "action_index * 4 + facing_index"
+  },
+  "sheets": [
+    {
+      "id": "enemy_bulwark",
+      "display": "Iron Bulwark",
+      "file": "assets/art_v3/world/enemy_bulwark.png",
+      "cell": [
+        40,
+        44
+      ],
+      "size": [
+        160,
+        1056
+      ]
+    },
+    {
+      "id": "enemy_skitter",
+      "display": "Razor Skitter",
+      "file": "assets/art_v3/world/enemy_skitter.png",
+      "cell": [
+        24,
+        28
+      ],
+      "size": [
+        96,
+        672
+      ]
+    },
+    {
+      "id": "enemy_marksman",
+      "display": "Hollow Marksman",
+      "file": "assets/art_v3/world/enemy_marksman.png",
+      "cell": [
+        32,
+        44
+      ],
+      "size": [
+        128,
+        1056
+      ]
+    },
+    {
+      "id": "enemy_ritualist",
+      "display": "Cinder Ritualist",
+      "file": "assets/art_v3/world/enemy_ritualist.png",
+      "cell": [
+        28,
+        48
+      ],
+      "size": [
+        112,
+        1152
+      ]
+    },
+    {
+      "id": "enemy_bomber",
+      "display": "Volatile Husk",
+      "file": "assets/art_v3/world/enemy_bomber.png",
+      "cell": [
+        32,
+        36
+      ],
+      "size": [
+        128,
+        864
+      ]
+    }
+  ]
+}

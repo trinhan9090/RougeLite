@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="EnemyVisualProfile" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/enemy_visual_profile.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+sheet_path = "res://assets/art_v3/world/enemy_bulwark.png"
+frame_size = Vector2i(40, 44)
+pivot = Vector2(20, 44)
+actions = Array[StringName]([&"idle", &"walk", &"windup", &"attack", &"hit", &"death"])
+frames_per_action = Array[int]([2, 4, 2, 2, 1, 3])
+facing_order = Array[StringName]([&"south", &"east", &"west", &"north"])
+tint = Color(1, 1, 1, 1)
+accent = Color(0.95, 0.45, 0.15, 1)
+accent_pulse = 0.6
+health_bar_width = 40.0
+hurtbox_size = Vector2(30, 38)
+hurtbox_offset = Vector2(0, -22)
+core_offset = Vector2(0, -24)

@@ -7,6 +7,7 @@ extends Control
 @onready var status_label: Label = $StatusLabel
 @onready var lobby_back_button: Button = $Lobby/CenterContainer/VBoxContainer/LobbyBackButton
 @onready var start_button: Button = $Lobby/CenterContainer/VBoxContainer/StartButton
+@onready var player_list: VBoxContainer = $Lobby/CenterContainer/VBoxContainer/PlayerList
 
 var multiplayer_coordinator: Node
 var selected_character: StringName = &"astra"
@@ -33,6 +34,10 @@ func _ready() -> void:
 		return
 
 	multiplayer_coordinator = get_node("/root/MultiplayerCoordinator")
+	# The hero picked in the character hub travels with the coordinator.
+	var chosen: Variant = multiplayer_coordinator.get("local_character")
+	if chosen != null and StringName(chosen) != &"":
+		selected_character = StringName(chosen)
 
 	# Wire host/join menu
 	host_join_menu.host_requested.connect(_on_host_requested)
@@ -48,11 +53,41 @@ func _ready() -> void:
 	multiplayer_coordinator.network_manager.connection_failed.connect(_on_connection_failed)
 	multiplayer.connected_to_server.connect(_on_connected_to_server)
 	multiplayer_coordinator.session_started.connect(_on_session_started)
+	multiplayer_coordinator.player_joined_session.connect(func(_player_id: int, _character_id: StringName) -> void: _refresh_player_list())
+	multiplayer_coordinator.player_left_session.connect(func(_player_id: int) -> void: _refresh_player_list())
+	multiplayer_coordinator.local_player_registered.connect(func(_player_id: int, _character_id: StringName) -> void: _refresh_player_list())
 
 	# Start at host/join menu
 	_show_host_join_menu()
 
 	print("MultiplayerSessionFlow: Ready and connected to coordinator")
+
+## Rebuild the lobby roster so the host sees who is connected.
+func _refresh_player_list() -> void:
+	if player_list == null:
+		return
+	for child in player_list.get_children():
+		child.queue_free()
+	var sessions: Dictionary = {}
+	if multiplayer_coordinator != null and multiplayer_coordinator.session_manager != null:
+		sessions = multiplayer_coordinator.session_manager.players
+	if sessions.is_empty():
+		var waiting := Label.new()
+		waiting.text = "Waiting for players..."
+		waiting.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		waiting.add_theme_font_size_override("font_size", 15)
+		waiting.add_theme_color_override("font_color", Color(0.7, 0.76, 0.86, 1.0))
+		player_list.add_child(waiting)
+		return
+	for peer_id: int in sessions:
+		var session = sessions[peer_id]
+		var row := Label.new()
+		var character_id: String = String(session.character_id) if session.character_id != &"" else "player"
+		row.text = "• %s  (peer %d)" % [character_id, int(session.player_id)]
+		row.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		row.add_theme_font_size_override("font_size", 16)
+		row.add_theme_color_override("font_color", Color(0.85, 0.9, 0.96, 1.0))
+		player_list.add_child(row)
 
 func _show_host_join_menu() -> void:
 	current_state = State.MAIN_MENU
@@ -67,6 +102,8 @@ func _show_lobby() -> void:
 	lobby.visible = true
 	loading_screen.visible = false
 	status_label.visible = false
+	start_button.disabled = false
+	_refresh_player_list()
 
 func _show_loading() -> void:
 	current_state = State.LOADING_MAP

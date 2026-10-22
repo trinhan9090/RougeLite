@@ -1,3 +1,0 @@
-D:\SelfProject\RougeLite\worktrees\visual_pipeline_v2\tools\mugen_import\build_playable.py:73: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
-  for r,g,b,a in image.getdata():
-PRIVATE_ATYU_ASSETS_OK actor_frames= 50 effects= 4

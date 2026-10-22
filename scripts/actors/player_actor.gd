@@ -4,7 +4,7 @@ const VISUAL_HEIGHT: float = 72.0
 
 var facing: Vector2 = Vector2.RIGHT
 var attack_direction: Vector2 = Vector2.RIGHT
-var aim_indicator: ManualAimIndicator
+var hitbox_indicator: HitboxIndicator
 var tint: Color = Color("71d8f3")
 var attack_flash: float = 0.0
 var rig: JointedCharacter
@@ -24,9 +24,9 @@ func record_attack_direction(direction: Vector2) -> void:
 
 func _ready() -> void:
 	super._ready()
-	aim_indicator = ManualAimIndicator.new()
-	aim_indicator.actor = self
-	add_child(aim_indicator)
+	hitbox_indicator = HitboxIndicator.new()
+	hitbox_indicator.actor = self
+	add_child(hitbox_indicator)
 	if visual_frames != null:
 		sprite_visual = (preload("res://scenes/characters/character_visual.tscn").instantiate() as ActorSprite) if visual_frames.get_meta("cardinal",false) else ActorSprite.new()
 		sprite_visual.actor = self

@@ -256,8 +256,10 @@ func run_scene_checks() -> void:
 	var slots:=menu.find_child("CharacterSlots",true,false) as GridContainer
 	check(slots.get_child_count()==20 and not (slots.get_child(4) as Button).disabled,"fifth avatar available in twenty-slot selection")
 	(slots.get_child(4) as Button).pressed.emit()
-	(menu.find_child("SelectViridian",true,false) as Button).pressed.emit()
+	check(menu.find_child("SelectViridian",true,false)==null,"roster page stays information only")
 	menu._start_run();await process_frame
+	var hub:=menu.find_child("CharacterHub",true,false) as CharacterHub
+	hub.select_hero("viridian");hub.confirm();await process_frame
 	var normal:=current_scene as CombatRunRoot
 	check(normal!=null and normal.loadout_id==&"loadout.viridian","selected Viridian starts actual PLAY")
 	normal.set_physics_process(false);normal.player.set_physics_process(false)

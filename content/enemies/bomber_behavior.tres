@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EnemyBehaviorSettings" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/enemy_behavior_settings.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+prime_seconds = 0.8
+attack_range_px = 110.0
+strike_radius_px = 110.0
+blast_radius_px = 110.0
+trigger_radius_px = 110.0
+safe_spawn_radius_px = 170.0
+retarget_interval = 0.5

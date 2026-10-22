@@ -13,6 +13,12 @@ func run() -> void:
 	await process_frame
 	menu.call("_start_run")
 	await process_frame
+	var hub := menu.find_child("CharacterHub",true,false) as CharacterHub
+	check(hub!=null,"production PLAY opens the character hub")
+	if hub==null:quit(1);return
+	hub.select_hero("astra")
+	hub.confirm()
+	await process_frame
 	var game := current_scene as CombatRunRoot
 	check(game!=null,"production PLAY command creates actual run")
 	if game==null:quit(1);return

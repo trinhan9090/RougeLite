@@ -16,6 +16,6 @@ The active Launch character now uses actual decoded SFF character artwork from t
 
 Source tick ratios, offsets and shared feet pivot are preserved. Attack animation total lengths fit existing gameplay action durations. Source horizontal artwork is mirrored for left-facing; north/south names are controller aliases, not newly drawn directions. Up/down movement retains last horizontal facing. No top-down back artwork exists in this source. Atlas clipping prevents neighboring frames bleeding. Generated PNGs are private local runtime assets; source rights remain unverified for distribution.
 
-Launch: close old running game, run root Launch.cmd, CHARACTER fifth slot Viridian, then TRAINING or PLAY. Review idle/movement both sides and Basic/J/K/L/I. Basic retains guaranteed non-voice shot/impact cues. No screenshots/videos exported. Visual acceptance remains with user.
+Launch: close old running game, run root Launch.cmd, CHARACTER fourth slot Viridian, then TRAINING or PLAY. Review idle/movement both sides and Basic/J/K/L/I. Basic retains guaranteed non-voice shot/impact cues. No screenshots/videos exported. Visual acceptance remains with user.
 
-Verified: current-root Launch GUI72checks0failures; Atyu regression54checks0failures; Python7testsOK; Godot import clean. See reports/viridian/20261017/source_actor_live_gui.log, source_actor_atyu_regression.log and source_actor_python.log. Broader VIRIDIAN-01 technical report/performance completion remains separate and unchecked.
+Verified: current-root Launch GUI72checks0failures; Python7testsOK; Godot import clean. See reports/viridian/20261017/source_actor_live_gui.log and source_actor_python.log. Broader VIRIDIAN-01 technical report/performance completion remains separate and unchecked.

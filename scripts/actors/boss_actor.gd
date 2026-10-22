@@ -2,7 +2,6 @@ class_name BossActor
 extends EnemyActor
 signal summon_requested
 var boss_definition: BossDefinition
-var combat: CombatService
 var attack_clock: float = 2
 var cone_clock: float = 4
 var summon_clock: float = 9

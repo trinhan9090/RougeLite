@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="SkillDefinition" load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/basic_attack_executor_definition.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/data/skill_rank_definition.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/data/targeting_definition.gd" id="4"]
+
+[sub_resource type="Resource" id="Executor"]
+script = ExtResource("2")
+executor_id = &"executor.basic_projectile"
+strategy = "projectile"
+
+[sub_resource type="Resource" id="Targeting"]
+script = ExtResource("4")
+acquisition_radius = 420.0
+
+[sub_resource type="Resource" id="Rank"]
+script = ExtResource("3")
+rank = 1
+cooldown = 2.2
+damage = 8.0
+damage_type = "MAGIC"
+range_px = 420.0
+radius_px = 10.0
+projectile_speed = 165.0
+
+[resource]
+script = ExtResource("1")
+id = &"skill.enemy.marksman.shot"
+display_name = "Hollow shot"
+executor = SubResource("Executor")
+targeting = SubResource("Targeting")
+rank_scaling = Array[ExtResource("3")]([SubResource("Rank")])

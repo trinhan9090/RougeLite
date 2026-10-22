@@ -1,7 +1,10 @@
-[gd_resource type="Resource" script_class="EnemyDefinition" load_steps=4 format=3]
+[gd_resource type="Resource" script_class="EnemyDefinition" load_steps=6 format=3]
 
 [ext_resource type="Script" path="res://scripts/data/enemy_definition.gd" id="1"]
 [ext_resource type="Script" path="res://scripts/data/actor_stat_definition.gd" id="2"]
+[ext_resource type="Resource" path="res://content/enemies/chaser_behavior.tres" id="3"]
+[ext_resource type="Resource" path="res://content/enemies/chaser_visual.tres" id="4"]
+[ext_resource type="Resource" path="res://content/enemies/chaser_audio.tres" id="5"]
 
 [sub_resource type="Resource" id="Stats"]
 script = ExtResource("2")
@@ -18,3 +21,15 @@ stats = SubResource("Stats")
 damage = 8.0
 xp_reward = 6
 attack_interval = 1.0
+roster_entry = true
+min_match_seconds = 0.0
+spawn_weight = 100.0
+max_alive = 110
+hp_multiplier = 1.0
+move_speed_multiplier = 1.0
+damage_multiplier = 1.0
+behavior_id = &"chase_contact"
+scene_path = "res://scenes/enemies/chaser.tscn"
+behavior_settings = ExtResource("3")
+visual_profile = ExtResource("4")
+audio_profile = ExtResource("5")

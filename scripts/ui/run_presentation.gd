@@ -28,15 +28,19 @@ func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	mouse_filter = Control.MOUSE_FILTER_IGNORE
+	_add_vignette()
 	hud = RunHud.new()
 	add_child(hud)
 	_notice = Label.new()
-	_notice.position = Vector2(250,210)
-	_notice.add_theme_font_size_override("font_size",22)
-	_notice.add_theme_color_override("font_color",Color("ffd39a"))
+	_notice.name = "NoticeBanner"
+	_notice.add_theme_font_size_override("font_size",26)
+	_notice.add_theme_color_override("font_color",Color("fff7c4"))
+	_notice.add_theme_color_override("font_outline_color",Color("0a0a14"))
+	_notice.add_theme_constant_override("outline_size",3)
+	_notice.modulate = Color(1,1,1,0)
 	add_child(_notice)
 	_cover = ColorRect.new()
-	_cover.color = Color(0.025, 0.04, 0.07, 0.94)
+	_cover.color = Color(0.015, 0.025, 0.045, 0.92)
 	_cover.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	add_child(_cover)
 	var center := CenterContainer.new()
@@ -48,10 +52,15 @@ func _ready() -> void:
 	center.add_child(column)
 	_title = Label.new()
 	_title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	_title.add_theme_font_size_override("font_size", 32)
+	_title.add_theme_font_size_override("font_size", 38)
+	_title.add_theme_color_override("font_color", Color(0.95, 0.88, 0.7, 1.0))
+	_title.add_theme_color_override("font_outline_color", Color(0.08, 0.07, 0.04, 1.0))
+	_title.add_theme_constant_override("outline_size", 3)
 	column.add_child(_title)
 	_description = Label.new()
 	_description.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	_description.add_theme_font_size_override("font_size", 18)
+	_description.add_theme_color_override("font_color", Color(0.7, 0.78, 0.9, 1.0))
 	column.add_child(_description)
 	var row := HBoxContainer.new()
 	row.alignment = BoxContainer.ALIGNMENT_CENTER
@@ -62,13 +71,21 @@ func _ready() -> void:
 		card.name = "UpgradeCard%d" % index
 		card.custom_minimum_size = Vector2(288, 250)
 		card.add_theme_font_size_override("font_size", 18)
+		var kind_tag := Label.new()
+		kind_tag.name = "Kind"
+		kind_tag.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		kind_tag.set_anchors_and_offsets_preset(Control.PRESET_TOP_WIDE)
+		kind_tag.offset_top = 6
+		kind_tag.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		kind_tag.add_theme_font_size_override("font_size", 13)
+		card.add_child(kind_tag)
 		var text := Label.new()
 		text.name = "Text"
 		text.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		text.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 		text.offset_left = 12
 		text.offset_right = -12
-		text.offset_top = 8
+		text.offset_top = 30
 		text.offset_bottom = -8
 		text.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		text.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
@@ -95,36 +112,111 @@ func _ready() -> void:
 	_menu = _button(column, "Back to menu", func() -> void: menu_requested.emit())
 	hide_modal()
 
+## Subtle screen vignette: adds depth to the pixel art without touching gameplay.
+func _add_vignette() -> void:
+	var vignette := ColorRect.new()
+	vignette.name = "Vignette"
+	vignette.color = Color(0, 0, 0, 0)
+	vignette.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	var shader := Shader.new()
+	shader.code = "shader_type canvas_item;\nvoid fragment() {\n\tvec2 uv = UV;\n\tvec2 d = uv - vec2(0.5);\n\tfloat dist = length(d * vec2(1.15, 1.0));\n\tfloat vig = smoothstep(0.78, 0.28, dist);\n\tCOLOR = vec4(0.0, 0.0, 0.02, (1.0 - vig) * 0.42);\n}"
+	var material := ShaderMaterial.new()
+	material.shader = shader
+	vignette.material = material
+	vignette.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	add_child(vignette)
+
 func _button(parent: Control, text: String, command: Callable) -> Button:
 	var button := Button.new()
 	button.text = text
 	button.custom_minimum_size.y = 44
+	button.add_theme_font_size_override("font_size", 17)
+	button.add_theme_stylebox_override("normal", _modal_button_style(Color(0.09, 0.12, 0.19, 0.96), Color(0.28, 0.36, 0.50, 0.9)))
+	button.add_theme_stylebox_override("hover", _modal_button_style(Color(0.16, 0.22, 0.34, 1.0), Color(0.95, 0.82, 0.45, 1.0)))
+	button.add_theme_stylebox_override("pressed", _modal_button_style(Color(0.22, 0.30, 0.44, 1.0), Color(1.0, 0.90, 0.55, 1.0)))
+	button.add_theme_stylebox_override("focus", _modal_button_style(Color(0.16, 0.22, 0.34, 1.0), Color(0.95, 0.82, 0.45, 1.0)))
+	button.add_theme_stylebox_override("disabled", _modal_button_style(Color(0.07, 0.08, 0.11, 0.9), Color(0.22, 0.24, 0.30, 0.8)))
 	button.pressed.connect(command)
 	parent.add_child(button)
 	return button
+
+## Shared flat style for the in-run modal buttons.
+func _modal_button_style(background: Color, border: Color) -> StyleBoxFlat:
+	var style := StyleBoxFlat.new()
+	style.bg_color = background
+	style.border_color = border
+	style.set_border_width_all(2)
+	style.set_corner_radius_all(8)
+	style.content_margin_left = 14
+	style.content_margin_right = 14
+	style.content_margin_top = 8
+	style.content_margin_bottom = 8
+	return style
 
 func _unhandled_key_input(event: InputEvent) -> void:
 	if event.is_action_pressed(&"pause") and not event.is_echo():
 		pause_requested.emit()
 		get_viewport().set_input_as_handled()
 
-func show_offers(level: int, cards: Array[String], tokens: int = 0) -> void:
+func show_offers(level: int, cards: Array[String], tokens: int = 0, kinds: Array[StringName] = []) -> void:
 	_reroll.show()
 	_reroll.disabled = tokens <= 0
 	_reroll.text = tr("Reroll (%d)") % tokens
 	_settings_panel.hide()
 	_cover.show()
-	_title.text = tr("LEVEL %d  /  CHOOSE A CORE") % level
-	_description.text = "Combat paused. Choose one permanent upgrade."
+	_title.text = tr("LEVEL %d") % level
+	_title.add_theme_font_size_override("font_size", 38)
+	_description.text = tr("CHOOSE AN UPGRADE")
+	_description.add_theme_font_size_override("font_size", 18)
 	for index in range(_cards.size()):
 		_cards[index].show()
-		(_cards[index].get_node("Text") as Label).text = cards[index]
+		_cards[index].custom_minimum_size = Vector2(300, 280)
+		var card_label := _cards[index].get_node("Text") as Label
+		card_label.text = cards[index]
+		card_label.add_theme_font_size_override("font_size", 16)
 		_cards[index].tooltip_text = cards[index]
 		_cards[index].disabled = false
+		var kind: StringName = kinds[index] if index < kinds.size() else &""
+		var accent: Color = _kind_color(kind)
+		var kind_tag := _cards[index].get_node_or_null("Kind") as Label
+		if kind_tag != null:
+			kind_tag.text = _kind_label(kind)
+			kind_tag.add_theme_color_override("font_color", accent)
+		_cards[index].add_theme_stylebox_override("normal", _card_style(accent))
+		_cards[index].add_theme_stylebox_override("hover", _card_style(accent.lightened(0.12)))
+		_cards[index].add_theme_stylebox_override("pressed", _card_style(accent.lightened(0.2)))
+		_cards[index].add_theme_stylebox_override("focus", _card_style(accent.lightened(0.12)))
 	_resume.hide()
 	_retry.hide()
 	_menu.hide()
 	_cards[0].grab_focus()
+
+func _kind_label(kind: StringName) -> String:
+	match kind:
+		&"rank": return tr("SKILL RANK")
+		&"bound": return tr("SKILL BOUND")
+		&"global": return tr("GLOBAL")
+		_: return ""
+
+## Border/accent colour per upgrade kind so the three choices are readable at a glance.
+func _kind_color(kind: StringName) -> Color:
+	match kind:
+		&"rank": return Color(0.92, 0.72, 0.30)
+		&"bound": return Color(0.40, 0.78, 0.52)
+		&"global": return Color(0.42, 0.62, 0.92)
+		_: return Color(0.55, 0.60, 0.70)
+
+func _card_style(accent: Color) -> StyleBoxFlat:
+	var style := StyleBoxFlat.new()
+	style.bg_color = Color(0.08, 0.10, 0.15, 0.96)
+	style.border_color = accent
+	style.set_border_width_all(2)
+	style.set_corner_radius_all(10)
+	style.content_margin_left = 12
+	style.content_margin_right = 12
+	style.content_margin_top = 10
+	style.content_margin_bottom = 10
+	return style
 
 func show_message(title: String, description: String, can_resume: bool) -> void:
 	_reroll.hide()
@@ -156,6 +248,11 @@ func _input(event: InputEvent) -> void:
 
 func announce(text: String) -> void:
 	_notice.text = tr(text)
+	_notice.modulate = Color(1,1,1,0)
+	var tween := create_tween()
+	tween.tween_property(_notice,"modulate",Color(1,1,1,1),0.15)
+	tween.tween_interval(2.0)
+	tween.tween_property(_notice,"modulate",Color(1,1,1,0),0.6)
 
 
 
@@ -163,3 +260,7 @@ func _pixel_layout() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_TOP_LEFT)
 	size = get_viewport_rect().size
 	scale = Vector2.ONE
+	if _notice != null:
+		_notice.size = Vector2(size.x,40)
+		_notice.position = Vector2(0,140)
+		_notice.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
